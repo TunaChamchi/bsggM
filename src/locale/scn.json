@@ -1,0 +1,747 @@
+{
+    "Data-period": "更新 2020.11.19 / 数据期间 2020.11.17 ~ 11.18",
+    "search": "搜索",
+    "character": "性格",
+    "weapon": "武器",
+    "ranking": "排名",
+    "rank": "排名",
+    "avg-rank": "排名",
+    "item": "物品",
+    "solo": "单人",
+    "duo": "二人",
+    "squad": "三人",
+    "tier": "层级",
+    "total": "层级",
+    "win-rate": "胜率",
+    "pick-rate": "登场率",
+    "kill": "击杀",
+    "avg-kill": "击杀",
+    "lately-patch": "最近-",
+    "name":"名字",
+
+
+    "main": {
+        "banner": {
+            "language": "简体中文",
+            "menu": {
+                "rank": "排名",
+                "item": "物品"
+            },
+            "placeholder": "角色搜索."
+        },
+        "left": {
+            "search": {
+                "placeholder": "別名搜索."
+            },
+            "characters": {
+                "placeholder": "角色搜索."
+            }
+        },
+        "right": {
+
+        }
+    },
+
+    "detail": {
+        "duoStat": "二人 害-增幅",
+        "squadStat": "三人 害-增幅",
+        "giveDmg": "给害",
+        "takeDmg": "被害",
+        "avg": "平均",
+        "skill_info": "技能资讯",
+        "passive": "被动的",
+        "weaponSkill": "武器技能"
+    },
+
+    "characters": {
+        "아야": "阿雅",
+        "피오라": "菲欧娜",
+        "현우": "玄佑",
+        "재키": "杰琪",
+        "매그너스": "马格努斯",
+        "나딘": "娜町",
+        "자히르": "扎希尔",
+        "하트": "哈特",
+        "아이솔": "埃索",
+        "리 다이린": "利黛琳",
+        "유키": "雪",
+        "혜진": "慧珍",
+        "쇼우": "修凯",
+        "시셀라": "希瑟拉",
+        "키아라": "奇娅拉",
+        "아드리아나": "阿德瑞娜",
+        "쇼이치": "彰一",
+        "실비아": "西尔维娅"
+    },
+    "weapons": {
+        "투척": "投掷", 
+        "권총": "手枪", 
+        "돌격소총": "冲锋枪", 
+        "저격총": "狙击枪", 
+        "레이피어": "双刃剑", 
+        "창": "枪", 
+        "양손검": "双手剑", 
+        "기타": "吉他", 
+        "활": "弓", 
+        "암기": "暗器", 
+        "톤파": "旋棍", 
+        "글러브": "皮手套", 
+        "도끼": "斧子", 
+        "쌍검": "双剑", 
+        "단검": "单手剑", 
+        "쌍절곤": "双节棍", 
+        "배트": "棒", 
+        "망치": "铁锤", 
+        "석궁": "弩"        
+    },
+    "armor": {
+        "옷": "胸部",
+        "머리":"头部",
+        "팔": "手臂",
+        "다리": "腿部",
+        "장식": "装饰"
+    },
+    "items":{
+        "일렉트론블라스터": "电子光束枪",
+        "마탄의사수": "魔弹射手",
+        "매그넘-보아": "马格农-慱亚",
+        "악켈테": "凯尔特",
+        "엘레강스": "优雅者之枪",
+        "단영촌천투": "寸拳",
+        "디바인피스트": "圣拳",
+        "브레이질건틀릿": "巴西拳套",
+        "블러드윙너클": "血翼指虎",
+        "빙화현옥수": "霜瓣玉手",
+        "소수": "赤手空拳",
+        "여래수투": "如来种掌",
+        "천잠장갑": "天蚕手套",
+        "더월": "红砖",
+        "보헤미안": "波希米亚",
+        "새티스팩션": "乐事",
+        "원더풀투나잇": "绝色之夜",
+        "천국의계단": "天国的阶梯",
+        "틴스피릿": "少年魂",
+        "퍼플헤이즈": "柴色团雾",
+        "초진동나이프": "共振匕首",
+        "카른웬난": "亚瑟王的短剑",
+        "파산검": "破山剑",
+        "프라가라흐": "佛拉格拉克",
+        "빔엑스": "激光刃斧",
+        "산타무에르떼": "死亡圣神之镰",
+        "스퀴테": "大镰刀",
+        "파라슈": "罗犘斧",
+        "하르페": "赫帕尔",
+        "AK-12": "AK-12",
+        "XCR": "XCR",
+        "개틀링건": "加特林机枪",
+        "기관총": "经机枪",
+        "듀랜달Mk2": "杜伦德尔 mk2",
+        "미스틸테인": "米斯特汀",
+        "볼틱레토": "带电短刀",
+        "유성검": "陨星重剑",
+        "주와이외즈": "咎瓦尤斯",
+        "활빈검": "正义之剑",
+        "개밥바라기": "夜柛星锤",
+        "낭아봉": "狼牙棒",
+        "다그다의망치": "达格达的大釜",
+        "마법봉": "魔法棒",
+        "토르의망치": "雷神之锤",
+        "구원의여신상": "救世女神像",
+        "스파이의우산": "特工伞",
+        "여의봉": "如意金箍棒",
+        "타구봉": "打狗棒",
+        "대황": "大将灵魂",
+        "발리스타": "诸葛连弩",
+        "샤릉가": "沙兰加",
+        "영광금귀신기노": "灵光金龟神机弩",
+        "저격크로스보우": "狙击弩",
+        "디오스쿠로이": "狄奧斯库洛伊",
+        "로이거 차르": "罗伊格尔 & 扎尔",
+        "이천일류": "二天一流",
+        "자웅일대검": "雌雄双股剑",
+        "대소반룡곤": "大小盘龙棍",
+        "초진동눈차크": "超级震动双节棍",
+        "건곤권": "风火轮",
+        "만천화우": "满天花雨",
+        "미치광이왕의카드": "病子国王的卡片",
+        "빙백은침": "冰魄银针",
+        "생사부": "亡者之符",
+        "수다르사나": "妙见神轮",
+        "옥전결": "翡翠秘符",
+        "푸른색단도": "蔚蓝匕首",
+        "풍마수리검": "风魔手里剑",
+        "플레솃": "飞镖弹",
+        "다인슬라이프": "噬血魔剑",
+        "뚜언띠엔": "順天剑",
+        "레바테인": "破灭之枝",
+        "모노호시자오": "晒衣杆",
+        "아론다이트": "阿隆戴特",
+        "엑스칼리버": "断钢圣剑",
+        "플라즈마소드": "等离子剑",
+        "호푸어드": "天卫之剑",
+        "NTW-20": "NTW-20",
+        "Tac-50": "Tac-50",
+        "사사성광": "四射星光",
+        "폴라리스": "北极星",
+        "인터벤션": "夜行",
+        "롱기누스의창": "朗基努斯之枪",
+        "방천화극": "方天画戟",
+        "애각창": "涯角枪",
+        "장팔사모": "丈八蛇矛",
+        "청룡언월도": "青龙偃月刀",
+        "코스믹바이던트": "宇宙双叉戟",
+        "트리아이나": "波塞冬之枪",
+        "화첨창": "火尖枪",
+        "마이쏙": "秦式拳法",
+        "택티컬톤파": "战术旋棍",
+        "플라즈마톤파": "等离旋棍",
+        "고폭수류탄": "高爆手榴弹",
+        "다비드슬링": "大卫的弹弓",
+        "루테늄구슬": "钌珠",
+        "소이탄": "燃烧弹",
+        "안티오크의수류탄": "安提奥克的手榴弹",
+        "연막탄": "烟雰弹",
+        "골든래쇼보우": "黄金比例弓",
+        "엘리멘탈보우": "元素灵弓",
+        "트윈보우": "双子杀",
+        "페일노트": "血之刻印",
+        "편전": "片箭",
+        "경량화부츠": "羽靴",
+        "글레이셜슈즈": "万年冰鞋",
+        "매버릭러너": "马弗里克之履",
+        "미스릴부츠": "秘珢靴",
+        "부케팔로스": "布西发拉斯",
+        "분홍신": "红鞋",
+        "클링온부츠": "白犀牛靴子",
+        "풍화륜": "凤火轮",
+        "헤르메스의부츠": "赫尔墨斯之靴",
+        "EOD부츠": "EOD 防爆靴",
+        "기사단장의투구": "方旗骑士盔",
+        "미스릴투구": "秘锟头盔",
+        "변검": "脸谱",
+        "수정티아라": "水晶冠",
+        "오토바이헬멧": "摩托车头盔",
+        "월계관": "月桂冠",
+        "전술OPS헬멧": "OPS 战术头盔",
+        "제국왕관": "帝国皇冠",
+        "황실부르고넷": "帝国战盔",
+        "EOD수트": "EOD 防爆服",
+        "광학미채수트": "光学迷彩服",
+        "락커의자켓": "摇滚乐手来克",
+        "미스릴갑옷": "秘银链甲",
+        "배틀수트": "骑士战甲",
+        "불꽃드레스": "星火洋装",
+        "석양의갑옷": "余晖之铠",
+        "성기사의갑옷": "十字军重甲",
+        "아마조네스아머": "亚马逊战甲",
+        "어사의": "御史衣",
+        "용의도복": "龙之道服",
+        "지휘관의갑옷": "指挥官战甲",
+        "집사복": "管家服",
+        "카바나": "日轮之铠",
+        "퀸오브하트": "红心女王",
+        "궁기병의 화살통": "骑兵箭筒",
+        "달빛펜던트": "皎月吊坠",
+        "만년빙": "极冰",
+        "백우선": "白羽扇",
+        "삼매진화": "三昧真火",
+        "슈뢰딩거의상자": "薛定谔的猫箱",
+        "에메랄드타블렛": "翡翠石板",
+        "우치와": "团扇",
+        "진리는나의빛": "真我之光",
+        "탄창": "弹夹",
+        "먼지털이개": "鸡毛掸子",
+        "기사의신조": "骑士信条",
+        "드라우프니르": "德罗普尼尔",
+        "레이더": "雷达",
+        "미스릴방패": "秘银盾",
+        "바이탈센서": "生命讯号感測器",
+        "샤자한의검집": "沙.贾汗之剑",
+        "소드스토퍼": "阻刃护臂",
+        "스카디의팔찌": "斯嘉蒂的手鐲",
+        "오토암즈": "自动臂",
+        "큐브워치": "召晚手表"
+
+    },
+    "skill": {
+        "아야": {
+            "T": {
+                "name": "Aya's Justice",
+                "Detail": "When Aya is attacked, she is enveloped by a protective field that blocks damage.\n Every time she uses her basic attack on an enemy, the cooldown of Aya's Justice is decreased by 2 seconds."
+            },
+            "Q": {
+                "name": "Double Shot",
+                "Detail": "Aya rapidly shoots her target twice.\n The second shot does more damage."
+            },
+            "W": {
+                "name": "Steady Shot",
+                "Detail": "Aya shoots ten times in the targeted direction for a moment."
+            },
+            "E": {
+                "name": "Moving Turn ",
+                "Detail": "Aya quickly dashes in the target direction."
+            },
+            "R": {
+                "name": "Blank Cartridge",
+                "Detail": "Aya fires a blank into the air.\n The sound of the gunshot startles nearby enemies, dealing damage and suppressing them for a moment."
+            }
+        },
+        "피오라": {
+            "T": {
+                "name": "Touché",
+                "Detail": "Fiora earns a stack of Touché every time she lands a normal attack on an enemy.\n When she reaches the maximum number of stacks, the Touché indicator activates for a certain time."
+            },
+            "Q": {
+                "name": "Fente",
+                "Detail": "Fiora attacks in the targeted area and deals damage to the enemies she hits.\n If the enemies have the Touché indicator, she procs the indicator and deals extra damage."
+            },
+            "W": {
+                "name": "Attaque Composée",
+                "Detail": "Fiora swings her sword at the targeted two times for her next normal attack.\n For every Touché indicator she procs with Fente or Marche, the cooldown for Attaque Composée is decreased by 2 seconds."
+            },
+            "E": {
+                "name": "Marche & Rompre",
+                "Detail": "Fiora dashes to the targeted area, dealing damage and reducing the movement speed of enemies hit.\n If the enemies have the Touché indicator, she procs the indicator, reducing their movement speed even more.\n If she deals damage to an enemy, she can use the skill again within a certain time and dash backwards."
+            },
+            "R": {
+                "name": "Garde",
+                "Detail": "Fiora adopts an elaborate posture to unleash her most powerful attacks.\n When Garde is activated, every normal attack uses stamina and deals extra damage.\n If the stamina reaches a certain amount, the skill is automatically deactivated.\n It can also be deactivated by reactivating the skill."
+            }
+        },
+        "현우": {
+            "T": {
+                "name": "Dogfight",
+                "Detail": "Hyunwoo receives 4 stacks of Dogfight when attacking an enemy, and 1 stack of Dogfight when being attacked.\n After gathering 70 stacks of HP, he heals a certain amount of his maximum health."
+            },
+            "Q": {
+                "name": "Stomping Foot",
+                "Detail": "Hyunwoo stomps his foot very hard, dealing damage and slowing enemies in the targeted area for a moment."
+            },
+            "W": {
+                "name": "Bluff",
+                "Detail": "Hyunwoo gets bonus defense for a short time when Bluff is active.\n Additionally, after Bluff is activated, Hyunwoo is immune against stun, knockback, and suppression effects for a short time."
+            },
+            "E": {
+                "name": "First Attack",
+                "Detail": "Hyunwoo charges toward the targeted direction, dealing damage and knocking back enemies in his path.\n If an enemy collides with a wall, they are stunned for a moment."
+            },
+            "R": {
+                "name": "Haymaker",
+                "Detail": "Hyunwoo gathers his strength for a while and throws a huge punch at the targeted area, dealing considerable damage.\n The more time Hyunwoo spends gathering his strength, the more powerful his punch will be."
+            }
+        },
+        "재키": {
+            "T": {
+                "name": "Bloodfest ",
+                "Detail": "When Jackie slays an enemy, attack power is enhanced for 20/25/30 seconds.\n Survivor, bear increase her attack power by 8/20/40%.\n Any other animal increases it by 3/8/15% respectively."
+            },
+            "Q": {
+                "name": "Hack and Slash",
+                "Detail": "Jackie swings her weapon twice, making her target bleed.\n Bleeding enemies will take damage over a certain time."
+            },
+            "W": {
+                "name": "Adrenaline Burst",
+                "Detail": "Jackie's bursting adrenaline causes her to move faster for a moment.\nIf she attacks a bleeding target during her adrenaline burst, she deals bonus damage to the target and restores her HP."
+            },
+            "E": {
+                "name": "Leaping Strike",
+                "Detail": "Jackie leaps to the targeted location, dealing damage to her enemies nearby upon landing.\nHitting bleeding enemies with Leaping Strike slows their movement speed for a moment."
+            },
+            "R": {
+                "name": "Chainsaw Murderer",
+                "Detail": "Jackie starts her deadly chainsaw.\nHer chainsaw boosts her attack speed and causes targets hit by her basic attacks to bleed.\nShe also takes a swipe at her target and deals considerable damage before she turns off her chainsaw."
+            }
+        },
+        "매그너스": {
+            "T": {
+                "name": "Tough Body",
+                "Detail": "Magnus's defense power increases when his HP decreases.\nHis defense is increased for each 1% of HP lost."
+            },
+            "Q": {
+                "name": "Broken Bullet",
+                "Detail": "Magnus violently slams the ground and launches a rock towards the targeted area, dealing damage.\nEnemies hit by the rock have their movement speed reduced.\nThe movement speed recovers slowly over time."
+            },
+            "W": {
+                "name": "17 vs 1",
+                "Detail": "Magnus swings his weapon in an area around him for 4 seconds, dealing damage.\nHis movement speed is decreased by 20% while 17 vs 1 is active.\n* He deals 1.5 times more damage to slowed or immobilized units."
+            },
+            "E": {
+                "name": "Heavy Strike",
+                "Detail": "Magnus smashes the targeted enemy, dealing damage, knocking them 3.75m to the left of where Magnus is currently facing.\nIf the target collides with a wall, they are stunned for 1.5 seconds."
+            },
+            "R": {
+                "name": "Bike From Hell",
+                "Detail": "Magnus summons a bike, riding it for a few seconds.\nBy reactivating the skill, Magnus will jump off of the bike and launch it forward to explode.\nIf the bike hits an enemy, a wild animal, or a wall, it explodes and deals damage in an area."
+            }
+        },
+        "나딘": {
+            "T": {
+                "name": "Wild and Clairvoyant",
+                "Detail": "Nadine gets a stack of Wild for every wild animal she slays, giving some skills extra damage.\nWild animals located inside a certain range near her appear on the minimap."
+            },
+            "Q": {
+                "name": "Bullseye",
+                "Detail": "Nadine gathers her strength for a certain time, reducing her movement speed and gradually increasing the range of Bullseye.\nIf she has more than a certain amount of Wild stacks, her maximum attack range increases.\nBy reactivating the skill, she shoots an arrow, dealing damage."
+            },
+            "W": {
+                "name": "Squirrel Trap",
+                "Detail": "Nadine throws a Squirrel Trap at the targeted location, dealing damage to any enemies it hits and arming itself after it lands.\nYou can throw another trap within a certain time.\nIf the distance between the traps is less than a certain distance, they connect to each other.\nEnemies caught in the connected traps have their movement speed reduced, and Nadine can see them for a certain time.\nThe connected traps disappear after a certain time."
+            },
+            "E": {
+                "name": "Monkey Wire",
+                "Detail": "Nadine attaches a wire at the targeted location.\nThe installed wire stays for a certain time.\nWhile it's installed and she is attached to it, her attack speed increases.\nIf you reactivate it, the wire returns to its anchor point, bringing Nadine with it."
+            },
+            "R": {
+                "name": "Wolf Assault",
+                "Detail": "For some time, Nadine summons a wolf every few normal attacks.\nThe wolf attacks the enemy, dealing damage and reducing their attack and movement speed.\n(Nadine deals more damage the more Wild stacks she has.\n"
+            }
+        },
+        "자히르": {
+            "T": {
+                "name": "Eye of Azrael",
+                "Detail": "If Zahir hits an enemy with a skill, an Eye of Azrael indicator is applied to the enemy for 6 seconds and Zahir's movement speed increases.\nIf you hit an enemy with the indicator with a skill, it deals extra damage and an Eye of Azrael effect is applied to the skill used.\nIf you kill an enemy, you see corpses in the current area for 20 seconds."
+            },
+            "Q": {
+                "name": "Narayanastra",
+                "Detail": "Zahir calls upon God's strength, dealing damage in a targeted area.\nEye of Azrael effect: Narayanastra deals extra damage and the enemy's defense decreases for 2 seconds in proportion to the difference in kills between you and them."
+            },
+            "W": {
+                "name": "Gandiva",
+                "Detail": "Zahir throws a Chakram in the targeted direction, dealing damage.\nIf Zahir hits an enemy with any skill but Gandiva, he gains 2 Chakrams that float behind him for 20 seconds.\nEye of Azrael effect: Hitting an enemy reduces their movement speed by 30% for 1 second and reduces the cooldown of every skill, excluding Gandiva, by 1.5 seconds."
+            },
+            "E": {
+                "name": "Vayvayastra",
+                "Detail": "Zahir summons and launches a gust of wind, dealing damage.\nThe first enemy hit is launched airborne for 0.5 seconds and their movement speed is reduced by 30%.\nEye of Azrael effect: The enemy is launched airborne for 1.5 seconds."
+            },
+            "R": {
+                "name": "Bhargavastra",
+                "Detail": "Zahir calls down Chakrams from the heavens to damage enemies in a wide area, dealing damage.\nBhargavastra applies an Eye of Azrael indicator to enemies if they don't have one."
+            }
+        },
+        "하트": {
+            "T": {
+                "name": "Feedback",
+                "Detail": "If Hart deals damage to an enemy with a normal attack, she recovers SP.\n Evolved Feedback: Hart fires an additional sound wave per evolution point.\nEach dealing 0.15AP damage"
+            },
+            "Q": {
+                "name": "Delay",
+                "Detail": "Hart strums her guitar, charging her sound waves.\nWhen she strums the guitar again, the charged sound waves are released.\nShe can charge for up to 4 seconds, and can maintain the sound wave for 4 seconds.\nShe deals more damage depending on how long she charges.\nEvolved Delay: Enemies hit are slowed by -15%/-35%, based on evolution points spent on this skill."
+            },
+            "W": {
+                "name": "Overdrive",
+                "Detail": "Hart plays a lick on her guitar, increasing her Attack Power for a certain time.\nvolved Overdrive: Enemies will have their defense reduced by -15%/-30% to her next sound wave, based on evolution points spent on this skill."
+            },
+            "E": {
+                "name": "Flanger",
+                "Detail": "Hart quickly dashes in the targeted direction.\nShe can activate this skill an additional two times.\nShe dashes and strums her guitar, discharging sound waves in a 4m area around her and dealing damage to enemies hit.\nHer third dash is a little bit longer.\nEvolved Flanger: Activating the skill grants 15%/25% skill damage amplificaiton for a few seconds, stacking up to 3 times."
+            },
+            "R": {
+                "name": "Peacemaker",
+                "Detail": "Hart puts on a show, causing all her enemies in a range around her to dance.\nFor every second of her performance, she recovers HP.\nEnemies attending the concert dance and have their movement speed reduced.\nEvolved Peacemaker: Enemies attending the concert dance have their movement speed and SP reduced.\nSP reduction amount increases per number of Evolution Points."
+            }
+        },
+        "아이솔": {
+            "T": {
+                "name": "Guerilla Warfare",
+                "Detail": "Enemies that take damage from a trap of his have their defense reduced by 5/15/25%.\n Photographic Memory: If an enemy sets a trap in Isol's vision range, he remembers the trap, preventing it from going invisible for him."
+            },
+            "Q": {
+                "name": "Semtex Bomb",
+                "Detail": "Isol throws a bomb to the target location that sticks to an enemy or on the ground.\nIf the bomb is thrown on the ground or sticks to an enemy, it explodes after 5 seconds, dealing 50/75/100/125/150 (+0.5 AP) damage and rooting enemies caught in the blast.\nIf the bomb is stuck to an enemy, each attack reduces its timer by 0.5 seconds and increases the damage of the explosion by 8/12/16/20/24 (+0.3 AP)."
+            },
+            "W": {
+                "name": "Rebel Assault",
+                "Detail": "Isol unleashes a fury of bullets in front of him, dealing damage, and reducing the movement speed of enemies."
+            },
+            "E": {
+                "name": "Camouflage",
+                "Detail": "Isol rolls forward and blends into his surroundings, going invisible for a bit.\nThe invisibility is lifted if Isol does any action other than basic movement."
+            },
+            "R": {
+                "name": "MOK Operational Mine",
+                "Detail": "Isol installs a MOK Operational Mine on the ground that detects enemies.\nThe mine explodes when an enemy enters its range, dealing damage and reducing the movement speed of enemies by 10/20/30% for 2 seconds.\nMOK Operational Mine is not affected by skill amplification or reduction but is affected by trap masteries."
+            }
+        },
+        "리 다이린": {
+            "T": {
+                "name": "Blood Alcohol Content (BAC)",
+                "Detail": "Li Dailin can use Drink Up to fill her BAC bar.\nWhen her BAC is above 40, she gains Tipsy, giving her skills extra effects, and gaining Dialed In for her next normal attack.\nIf her BAC hits 100, she becomes Inebriated, is silenced for 7 seconds and gains Dialed In.\nDialed In: Li Dailin's next normal attack will trigger twice.\n Her second attack deals 60/80/100% damage.\nStrong Stomach: her attack speed is increased 10/25/40% for a certain time after drinking alcoholic beverages."
+            },
+            "Q": {
+                "name": "Spirited Kick",
+                "Detail": "Li Dailin charges forward, dealing damage to enemies hit.\nShe can reactivate this skill two more times.\nTipsy: Increases range and increases damage dealt."
+            },
+            "W": {
+                "name": "Drink Up",
+                "Detail": "Li Dailin takes a drink for 0.8 seconds, gaining Liquid Strength and increasing her BAC by 45.\nWhile drinking, she avoids normal attacks and takes 15% less damage from skills.\nNormal attacks reduce the cooldown of Drink Up by 1 second.\nLiquid Strength: the damage from her next normal attack and damage from Dialed In is increased depending on her BAC."
+            },
+            "E": {
+                "name": "Bottom Shelf",
+                "Detail": "Li Dailin spits out cheap liquor in a cone in front of her, silencing enemies in range and dealing damage.\nipsy: Reduces movement speed of enemies by 20%."
+            },
+            "R": {
+                "name": "Striking Tiger",
+                "Detail": "Li Dailin launches forward, suppressing the first enemy hit and following it up with two consecutive kicks.\n Each blow deals damage in proportion to her enemy's missing HP.\nTipsy: follows up with 4 consecutive kicks."
+            }
+        },
+        "유키": {
+            "T": {
+                "name": "Perfect Fit",
+                "Detail": "Yuki stores cufflinks as a resource.\n Upon damaging an enemy, he consumes a stored cufflink, dealing additional true damage.\n Yuki recovers 1 cufflink every 4 seconds while out of combat.\n Activating Button Up will refill all of his cufflinks."
+            },
+            "Q": {
+
+                "name": "From Head to Toe",
+                "Detail": "Yuki's next normal attack deals damage and reduces the movement speed of enemies by 50% for 1 second.\nConsuming a cufflink stuns enemies for 0.5 seconds."
+            },
+            "W": {
+                "name": "Button Up",
+                "Detail": "Passive: reduces cooldown of Button Up by 0.5 seconds each time Yuki takes damage.\nYuki straightens up his outfit and reduces the cooldown for Dashing Gentleman by 4/5/6/7/8.\n While using Button Up, his defense is increased by 50%.\n When Button Up is complete, he refills his cufflinks."
+            },
+            "E": {
+                "name": "Dashing Gentleman",
+                "Detail": "Yuki dashes in the targeted direction, dealing damage to the first enemy hit.\n Enemies hit are disarmed, disabling their normal attacks."
+            },
+            "R": {
+                "name": "Coup de Grace",
+                "Detail": "Yuki unsheaths his sword and slashes an area in front of him, dealing damage to enemies and leaving a mark, reducing movement speed of enemies by 70% for 1 second.\n The mark explodes after Yuki sheathes his sword, dealing true damage based on the enemy's max HP."
+            }
+        },
+        "혜진": {
+            "T": {
+                "name": "Three Calamities",
+                "Detail": "When Hyejin hits an enemy with a skill, they receive a calamity.\n Upon reaching 3 stacks, Three Calamities is activated, fearing them.\n Feared enemies cannot receive Three Calamities again for 8 seconds."
+            },
+            "Q": {
+                "name": "Charm of Despair",
+                "Detail": "Hyejin casts a Charm of Despair in the targeted direction, dealing damage to the first enemy hit, and reducing their movement speed for 1 second.\n She can recast the skill to cast another charm."
+            },
+            "W": {
+                "name": "Charm of the Prophecy",
+                "Detail": "Hyejin summons a Charm of the Prophecy in the targeted location that stays at the location.\n Charm of Prophecy ignites after the max time, or if the skill is activated again, dealing damage to enemies in range and rooting them.\nCharm of the Prophecy damage increases while on the ground."
+            },
+            "E": {
+                "name": "Charm of the Nomad",
+                "Detail": "Hyejin casts a Charm of the Nomad in the targeted location, dealing damage to enemies hit.\n Activating the skill again teleports Hyejin to the location of Charm of the Nomad, dealing damage to enemies upon landing."
+            },
+            "R": {
+                "name": "Five Omens",
+                "Detail": "Hyejin focuses for 1 second, summoning 5 Omens, and dealing damage to enemies in an area around her.\n The Omens spin around Hyejin for 20 seconds, each dealing damage to enemies hit.\n Omens are consumed after hitting an enemy.\n While focusing, her movement speed is reduced by 30%.\n Hyejin can teleport to her Charm of the Nomad location while focusing."
+            }
+        },
+        "쇼우": {
+            "T": {
+                "name": "Juggernaut Chef",
+                "Detail": "Food and beverages made by Xiukai have 30% bonus recovery.\n When crafting a food item of Uncommon or higher rarity, he earns a stack of Juggernaut Chef, increasing his max HP by 8 for each stack.\n Stacks given per food: 1/2/3 for all rarities"
+            },
+            "Q": {
+                "name": "Lost in the Sauce",
+                "Detail": "Xiukai throws his sauce barrel in the targeted direction, dealing damage to enemies hit and reducing their movement speed by 30% for 2 seconds."
+            },
+            "W": {
+                "name": "Heavy Meal",
+                "Detail": "Xiukai slams his giant wok on the ground, dealing damage in an area around him and reducing the movement speed of enemies hit by 10/20/30/40/50% for 1.5 seconds.\n Enemies with impaired movement receive an additional damage (3/3.5/4/4.5/5% of Xiukai's max HP) and their movement speed is reduced for an additional 3 seconds."
+            },
+            "E": {
+                "name": "Wok It Off",
+                "Detail": "Xiukai slides on his wok in the targeted direction, dealing damage to enemies hit.\n Enemies with impared movement receive additional damage and are knocked airborne for 1 second."
+            },
+            "R": {
+                "name": "Burnt to a Crisp",
+                "Detail": "Xiukai dishes out fire from his wok 6 times in 3 seconds, dealing damage to enemies in a cone in front of him.\n (+ stacks of Juggernaut Chef).\n Enemies with impaired movement have their defense reduced by 10/15/20% for 3 seconds."
+            }
+        },
+        "시셀라": {
+            "T": {
+                "name": "Agony",
+                "Detail": "As Sissela's HP decreases, she gains HP regeneration and skill amplification.\n HP regeneration per second: 2/4/6 ~ 26/36/46 (is not affected by the increase rate of HP regen) Skill Amplification: 2/4/6 ~ 10/20/30.\n When Wilson returns to Sissela, her next normal attack deals damage and reduces the movement speed of enemies by 10/20/30% for 2 seconds.\nWilson may be 10.25m away from Sissela before automatically returning"
+            },
+            "Q": {
+                "name": "Go Get 'Em Wilson!",
+                "Detail": "Wilson flies in the targeted direction, dealing damage to enemies in his path and damage upon arrival."
+            },
+            "W": {
+                "name": "Girl in a Bubble",
+                "Detail": "Wilson embraces Sissela for 1.5 seconds, blocking all damage and making her invulnerable.\n Wilson's shield explodes after the max time, or if the skill is activated again, dealing damage to enemies in an area around her and pushing them back 2m."
+            },
+            "E": {
+                "name": "Play With Us!",
+                "Detail": "Wilson stretches his body in the targeted direction, pulling the first target hit.\nAlly pull: the target receives a shield, absorbing damage for 3 seconds and the cooldown of Play With Us! is reduced by 3 seconds.\n Enemy pull: Wilson deals damage and stuns the target for 1 second."
+            },
+            "R": {
+                "name": "Free at Last",
+                "Detail": "Sissela channels for 1 second.\n After 3 seconds, Sissela deals damage to all enemy players on the map, as well as herself.\n Sissela's HP will not drop below 1 when taking damage from this skill.\nDealing damage with this skill increases the damage from Agony by 100% for 5 seconds."
+            }
+        },
+        "키아라": {
+            "T": {
+                "name": "Stigma",
+                "Detail": "When Chiara hits an enemy with a skill, she carves a Stigma into them, reducing their defense by 2/4/6%.\n Chiara can apply a maximum of 4 Stigmas to the same enemy.\n When the enemy reaches the maximum amount of Stigmas, Chiara's movement speed is increased for 6 seconds."
+            },
+            "Q": {
+                "name": "Hand of Corruption",
+                "Detail": "Chiara casts out corrupted energy in the targeted direction, dealing damage to all enemies it hits.\n Hold the skill down for 0.5 seconds to cast out the corrupted energy further and in a straight line.\n Using the skill short-ranged reduces its cooldown by 20%."
+            },
+            "W": {
+                "name": "Depraved Prayer",
+                "Detail": "Chiara divines a shield, absorbing damage.\n The shield remains for 6 seconds.\n If the shield is not depleted after 3 seconds, she can reactivate the skill again, making it explode, dealing damage to enemies in range."
+            },
+            "E": {
+                "name": "Mania",
+                "Detail": "Chiara sends out a shackle in the targeted direction, dealing damage to enemies hit and linking them to Chiara.\n If the link is maintained for 1.75 seconds, she deals damage and roots the enemy for 1.5 seconds."
+            },
+            "R": {
+                "name": "Plague / Last Judgement",
+                "Detail": "Chiara channels the darkness inside of her, temporarily transforming into a fallen angel.\n While transformed, her normal attacks are ranged, her max HP is increased, and she Plagues the area around her.\n Enemies inside of the Plague receive damage every second, and Chiara recovers HP based on 10/20/30% damage dealt.\n While Plague is activated, she gains vision of all enemies that have the maximum amount of Stigmas, and she can cast Last Judgement.\n Last Judgement : Chiara can crash down upon an enemy with the maximum amount of Stigmas, dealing true damage and ending the Plague.\n Killing enemies with Last Judgement reduces the cooldown of Plague by 50%."
+            }
+        },
+        "아드리아나": {
+            "T": {
+                "name": "Pyromaniac",
+                "Detail": "Adriana can start fires on the ground.\n Enemies lit on fire by a burning area are Burned, taking damage over time and have their movement speed reduced.\n Damage increases per stack of Burned.\n Adriana recovers 0.5/1/1.5% SP every 0.5s while a fire she lit is active."
+            },
+            "Q": {
+                "name": "Flamethrower",
+                "Detail": "Adriana fires her flamethrower in the targeted direction, dealing true damage (true damage ignores defense and is not affected by skill amplification)."
+            },
+            "W": {
+                "name": "Oil Slick",
+                "Detail": "Adriana spills oil on the targeted location.\n The oil slick remains for a certain time.\n Adriana can ignite the oil slick with a skill to start a fire for 5 seconds.\n Enemies inside the oil slick have their movement speed reduced and cannot use movement skills."
+            },
+            "E": {
+                "name": "Fire Escape",
+                "Detail": "Adriana dashes in the targeted direction, leaving behind a trail of fire.\n The flames create fire and remain for 2 seconds."
+            },
+            "R": {
+                "name": "Cocktail Party",
+                "Detail": "Adriana throws a Molotov cocktail at the targeted location.\n The Molotov cocktail explodes upon landing, dealing damage and knocking back enemies.\n After the explosion, the Molotov cocktail leaves behind a fire for 5 seconds.\n Adriana can throw a maximum of 3 Molotov cocktails."
+            }
+        },
+        "쇼이치": {
+            "T": {
+                "name": "Phony Deal",
+                "Detail": "Shoichi earns a stack of Phony Deal each time he hits an enemy with a skill, increasing his critical strike chance by 3/5/7% for 6 seconds.\n Upon reaching 5 stacks, his normal attack damage is increased by 10/15/20%.\n If Shoichi picks a dagger up off the ground, he throws it at the nearest enemy within 5m, dealing damage."
+            },
+            "Q": {
+                "name": "Good Faith / Bad Faith",
+                "Detail": "Shoichi lunges his blade in the targeted direction, dealing damage.\n Hitting an enemy reduces the cooldown by 2 seconds and enables him to use Bad Faith within 8 seconds.\nBad Faith: increased range and Shoichi will leave a dagger on the ground."
+            },
+            "W": {
+                "name": "Bottom Line",
+                "Detail": "Shoichi dashes to a targeted enemy or dagger, dealing damage to all enemies in his path.\n If he picks up a dagger, the cooldown of Bottom Line is reset."
+            },
+            "E": {
+                "name": "Risky Business",
+                "Detail": "Shoichi takes a step back and throws a dagger forward, dealing damage to the first enemy hit and reducing their movement speed for 1 second.\nnUpon hitting an enemy, a dagger will fall behind the enemy."
+            },
+            "R": {
+                "name": "Ruthless",
+                "Detail": "Shoichi swings his deadly briefcase, dealing damage to enemies around him, slowing them for 1 second and tossing 4 daggers to the ground in a square.\n Daggers pierce enemies, dealing damage."
+            }
+        },
+        "실비아": {
+            "T": {
+                "name": "Lumia Grand Prix",
+                "Detail": "Upon entering a new area, aside from the Research Center, Silvia's attack speed is increased by 1/2/3%.\n If she visits all 15 areas, her skill amplification is increased by 15%.\n Every 30 seconds, Silvia can gain 10/12/14 fuel when visiting a new area.\n She regains 1 fuel every 3 seconds when not on her bike."
+            },
+            "Q": {
+                "name": "Radar Gun / Power Slide",
+                "Detail": "Silvia fires a Radar Gun, dealing damage to enemies hit and healing herself and allies hit for 40/60/80/100/120(+AP 30%) HP.\n Silvia gains 5 fuel for each target she hits, excluding herself.\n\nOn bike: Silvia spins on her bike, dealing damage to enemies in range."
+            },
+            "W": {
+                "name": "Finish Line / Front Flip",
+                "Detail": "Silvia sets up a Finish Line in the targeted location, dealing damage and decreasing the movement speed of enemies that pass through it for 3 seconds.\n This only occurs the first time an enemy passes through.\nOn bike: Silvia jumps in the direction she is currently facing, dealing damage to enemies in range and knocking them airborne."
+            },
+            "E": {
+                "name": "Spare Tire / Wheelie",
+                "Detail": "Silvia launches a Spare Tire in the targeted direction, dealing damage based on the distance.\n Enemies within 3m are knocked back.\n Upon hitting an enemy further than 3m, Silvia gains 2~24 fuel based on the distance the tire traveled.\nOn bike: Silvia wheelies toward the targeted enemy dealing damage and knocking them 1m back.\n She deals additional damage depending on her movement speed."
+            },
+            "R": {
+                "name": "Shift Gears",
+                "Detail": "Silvia hops on her motorcycle, consuming 5 fuel every 1 second, increasing her movement speed, and giving her different skills.\n She can use Shift Gears when her fuel is above 30.\n Silvia cannot use normal attacks or weapon skills while riding her motorcycle.\nWhen she first changes to motorcycle mode she decreases her movement speed by 50% while reving up for 1.5s.\n Her defense increases by 10/17/24 while on the bike.\n Moving the bike within a range of 10 degrees left or right increases her speed gradually until a maximum of +70%.\n Turning the bike range more than 10 degrees in either direction decreases her speed proportionally to the turn angle, down until 80% of your base movement speed.\nOn bike: Silvia dismounts her bike and reverts her skills.\n Her next normal attack within 3 seconds deals damage."
+            }
+        },
+
+        
+        "단검": {
+            "name": "Cloak and Dagger",
+            "Detail": "Activating the cloak skill causes you become transparent and increases your movement speed.\n The increased movement speed decreases again after some time.\n If you use a normal attack on the enemy when the dagger effect is activated, you move behind the enemy and deal critical damage."
+        },
+        "양손검": {
+            "name": "Parry",
+            "Detail": "Block all damage for a certain time, and return the damage to the attacking enemy."
+        },
+        "도끼": {
+            "name": "Berserk",
+            "Detail": "Every time you use a normal attack on an enemy, you gain a stack of Berserk.\n Your attack power increases with how many Berserk stacks you have.\n Activating this skill increases your attack power depending on the number of Berserk stacks you have and how much HP you have lost."
+        },
+        "쌍검": {
+            "name": "Dual Sword Rampage",
+            "Detail": "Charge in the targeted direction and deal damage to all enemies in your path.\n If you hit an enemy, you can use the skill again."
+        },
+        "권총": {
+            "name": "Moving Reload",
+            "Detail": "Increase movement speed and quickly reload your gun.\n The cooldowns of all your other skills are reduced, except for your passive and weapon skills."
+        },
+        "돌격소총": {
+            "name": "Overheat",
+            "Detail": "When hitting an enemy with a normal attack, you gain an Overheat stack for each bullet.\n If you do not use a normal attack for a certain time, your start to lose stacks.\n When you reach the maximum number of stacks, you can activate the Overheat skill.\n When this skill is activated, the attack speed cap is ignored and your normal attacks gain a knockback effect."
+        },
+        "저격총": {
+            "name": "Sniper",
+            "Detail": "Activate the sniper mode in the targeted direction.\nIn sniper mode, your range of vision is increased and your view angle is narrowed.\n After choosing an enemy in your sight range to attack, they will be alerted that they are in your line of sight before you shoot and deal damage to them.\nYou can end sniper mode by reactivating the effect."
+        },
+        "레이피어": {
+            "name": "Quick Cut",
+            "Detail": "Charge in the targeted direction and deal damage to all enemies in your path.\n If you hit an enemy, you can use the skill again."
+        },
+        "창": {
+            "name": "Shadow Stab            ",
+            "Detail": "Powerfully lunge your spear in the targeted direction, dealing damage.\n You also deal damage to enemies within a certain range.\n Enemies hit by the attack have their movement speed reduced, and all enemies in a certain range get knocked back."
+        },
+        "망치": {
+            "name": "Armor Piercing",
+            "Detail": "Smash the hammer down, dealing X damage and reducing the defense of enemies hit by X% for 5 seconds."
+        },
+        "방망이": {
+            "name": "Full Swing",
+            "Detail": "Swing your bat in front of you, dealing X damage to all enemies in the targeted area, and knocking them back.\n Enemies hit into wall are stunned for 0.5 second."
+        },
+        "투척": {
+            "name": "Smokescreen",
+            "Detail": "A smokescreen appears at the targeted location.\n Enemies inside the smokescreen have their vision reduced and their movement speed decreased."
+        },
+        "암기": {
+            "name": "Caltrops",
+            "Detail": "Throw caltrops in an area, dealing damage to enemies that step on them and reducing their movement speed.\n Stepping on additional caltrops deals 30% of the initial damage."
+        },
+        "활": {
+            "name": "Rain Of Arrows",
+            "Detail": "Fire a bouquet of arrows at the targeted area, causing a hail of arrows.\n The arrows reach the target after a certain time, dealing damage to enemies hit by the rain of arrows and reducing their attack and movement speed.\n Enemies located at the center of the rain of arrows take more damage."
+        },
+        "석궁": {
+            "name": "Expulsion Shot",
+            "Detail": "Fire the crossbow in the targeted direction.\n Targets hit by the arrows take damage and are knocked back.\n Enemies knocked into a wall take extra damage and are stunned."
+        },
+        "글러브": {
+            "name": "Uppercut",
+            "Detail": "The range of your next normal attack increases and you deal additional damage for a certain time."
+        },
+        "톤파": {
+            "name": "Quick Spin",
+            "Detail": "Block all damage for a certain time, and return the damage to the attacking enemy."
+        },
+        "기타": {
+            "name": "Love&...",
+            "Detail": "Release a sound wave in the targeted direction to draw your enemy to the music, dealing damage to the first enemy hit and making them move towards the user."
+        },
+        "쌍절곤": {
+            "name": "Breath of the Dragon",
+            "Detail": "Swing the nunchaku quickly, creating a gust of wind.\n After some time, launch the gust of wind in the targeted direction dealing damage depending on charge time.\n Swinging the nunchaku for more than a certain amount of time stuns enemies."
+        }
+    }
+
+
+
+
+}

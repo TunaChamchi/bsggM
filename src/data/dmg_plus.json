@@ -1,0 +1,182 @@
+{
+  "아야": {
+    "duo": {
+      "inflict": -15,
+      "receive": 0
+    },
+    "squad": {
+      "inflict": -15,
+      "receive": 0
+    }
+  },
+  "피오라": {
+    "duo": {
+      "inflict": -2,
+      "receive": 3
+    },
+    "squad": {
+      "inflict": -3,
+      "receive": 6
+    }
+  },
+  "현우": {
+    "duo": {
+      "inflict": -3,
+      "receive": -2
+    },
+    "squad": {
+      "inflict": -3,
+      "receive": -5
+    }
+  },
+  "재키": {
+    "duo": {
+      "inflict": 0,
+      "receive": 2
+    },
+    "squad": {
+      "inflict": 0,
+      "receive": 5
+    }
+  },
+  "매그너스": {
+    "duo": {
+      "inflict": -3,
+      "receive": 0
+    },
+    "squad": {
+      "inflict": -5,
+      "receive": 0
+    }
+  },
+  "나딘": {
+    "duo": {
+      "inflict": -7,
+      "receive": 0
+    },
+    "squad": {
+      "inflict": -15,
+      "receive": 0
+    }
+  },
+  "자히르": {
+    "duo": {
+      "inflict": -10,
+      "receive": 0
+    },
+    "squad": {
+      "inflict": -15,
+      "receive": 0
+    }
+  },
+  "하트": {
+    "duo": {
+      "inflict": 0,
+      "receive": 0
+    },
+    "squad": {
+      "inflict": -1,
+      "receive": 0
+    }
+  },
+  "아이솔": {
+    "duo": {
+      "inflict": -8,
+      "receive": 0
+    },
+    "squad": {
+      "inflict": -15,
+      "receive": 0 
+    }
+  },
+  "리 다이린": {
+    "duo": {
+      "inflict": 0,
+      "receive": 0
+    },
+    "squad": {
+      "inflict": 0,
+      "receive": 0
+    }
+  },
+  "유키": {
+    "duo": {
+      "inflict": -5,
+      "receive": 0
+    },
+    "squad": {
+      "inflict": -8,
+      "receive": 0
+    }
+  },
+  "혜진": {
+    "duo": {
+      "inflict": -10,
+      "receive": 0
+    },
+    "squad": {
+      "inflict": -15,
+      "receive": 0
+    }
+  },
+  "쇼우": {
+    "duo": {
+      "inflict": -5,
+      "receive": 0
+    },
+    "squad": {
+      "inflict": -10,
+      "receive": 0
+    }
+  },
+  "시셀라": {
+    "duo": {
+      "inflict": -13,
+      "receive": 0
+    },
+    "squad": {
+      "inflict": -15,
+      "receive": 0
+    }
+  },
+  "키아라": {
+    "duo": {
+      "inflict": -3,
+      "receive": 0
+    },
+    "squad": {
+      "inflict": -3,
+      "receive": 0
+    }
+  },
+  "아드리아나": {
+    "duo": {
+      "inflict": -12,
+      "receive": 0
+    },
+    "squad": {
+      "inflict": -15,
+      "receive": 0
+    }
+  },
+  "쇼이치": {
+    "duo": {
+      "inflict": -3,
+      "receive": 0
+    },
+    "squad": {
+      "inflict": -6,
+      "receive": 0
+    }
+  },
+  "실비아": {
+    "duo": {
+      "inflict": 0,
+      "receive": 0
+    },
+    "squad": {
+      "inflict": 0,
+      "receive": 0
+    }
+  }
+}

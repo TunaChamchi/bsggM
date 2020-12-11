@@ -1,0 +1,42 @@
+{
+  "ALL": {
+    "solo": {
+      "win-rate": 5.5,
+      "pick-rate": 3.2,
+      "avg-kill": 0.9,
+      "avg-rank": 9.5
+    },
+    "duo": {
+      "win-rate": 10.9,
+      "pick-rate": 3.2,
+      "avg-kill": 1.0,
+      "avg-rank": 5.3
+    },
+    "squad": {
+      "win-rate": 16.3,
+      "pick-rate": 3.2,
+      "avg-kill": 1.0,
+      "avg-rank": 3.8
+    }
+  },
+  "RANKER": {
+    "solo": {
+      "win-rate": 13.5,
+      "pick-rate": 3.2,
+      "avg-kill": 1.7,
+      "avg-rank": 7.6
+    },
+    "duo": {
+      "win-rate": 15.1,
+      "pick-rate": 3.2,
+      "avg-kill": 1.3,
+      "avg-rank": 4.9
+    },
+    "squad": {
+      "win-rate": 26.7,
+      "pick-rate": 3.2,
+      "avg-kill": 1.4,
+      "avg-rank": 3.2
+    }
+  }
+}
