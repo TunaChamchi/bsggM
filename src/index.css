@@ -16,35 +16,12 @@ html {
     width: 750px;
 }
 /* ADs */
-.Ad_box_L{
-    position: absolute;
-    top: 480px;
-    right: calc(50vw + 615px);
-}
-.Ad_box_R{
-    position: absolute;
-    top: 480px;
-    left: calc(50vw + 615px);
-}
 .Ad_box_Detail2{
     width: 728px;
     height: 90px;
-    background-color: white;
     margin:auto;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-.Ad_box_Main{
-    width: 300px;
-    height: 250px;
-    margin-left: 45px;
-    margin-top: 30px;
-}
-.Ad_box_Detail{
-    width: 728px;
-    height: 90px;
-    margin-left: 11px;
-    margin-top: 15px;
 }
 /* all pages */
 input:focus{
@@ -493,25 +470,6 @@ button:hover{
     margin-right: -15px;
   }
 /* 2 page */
-.S_banner{
-    background-color: rgb(83, 83, 83);
-    height: 80px;
-    text-align: center;
-    min-width: 750px;
-}
-.S_banner-top{
-    width: 750px;
-    margin: auto;
-}
-.S_mainlogo {
-    width: 100px;
-    float: left;
-}
-.S_logo {
-    width: 80px;
-    padding-top: 0px;
-    margin-left: 376px;
-}
 .S_search{
     background-color: rgb(83, 83, 83);
     width: 730px;
@@ -791,65 +749,6 @@ button:hover{
 .S_Trend_avg1{
     clear: both;
 }
-.S_Skill{
-    margin-top: 15px;
-    padding-bottom: 20px;
-    width: 750px;
-    height: auto;
-    text-align: center;
-    background-color: rgb(83, 83, 83);
-    border-radius: 3px;
-}
-.S_Skill0{
-    width: 750px;
-    height: 40px;
-    font-size: 17pt;
-    display: inline-block;;
-    background-color: rgb(120, 120, 120);
-    padding-top: 5px;
-    border-radius: 3px 3px 0px 0px / 3px 3px 0px 0px ;
-}
-.S_Skill1{
-    margin-left: 30px;
-}
-.S_Skill_tab{
-    margin-top: 20px;
-    float: left;
-    margin-left: 30px;
-    font-size: 17pt;
-}
-.S_Skill_img{
-    width: 80px;
-    vertical-align: text-top;
-    clear: both;
-    margin-bottom: -3px;
-    border-radius: 2px 2px 0px 0px / 2px 2px 0px 0px ;
-}
-.S_Skill_key{
-    clear: both;
-}
-.S_Skill2{
-    clear: both;
-    font-size: 15pt;
-}
-.S_Skill2_keyname{
-    display: inline-block;
-    width: 250px;
-    float: left;
-    background-color: rgb(120, 120, 120);
-    margin-top: 10px;
-}
-.S_Skill2_name{
-    display: inline-block;
-    width: 750px;
-    background-color: rgb(120, 120, 120);
-    margin-top: 10px;
-}
-.S_Skill2_info{
-    white-space: pre-line;
-    font-size: 12pt;
-    margin-top: 15px;
-}
 .S_right{
     width: 750px;
     max-width: 750px;
@@ -933,30 +832,27 @@ button:hover{
 }
 .S_item_sort_b{
     float: left;
-    font-size: 10pt;
+    font-size: 18pt;
     display: inline-block;
-    width: 30px;
     padding-top: 5px;
     margin-bottom: 5px;
 }
 .S_item_sort_b1{
     float: left;
+    margin-left: 10px;
     display: inline-block;
-    width: 40px;
-    margin-left: 20px;
+    width: 60px;
 }
 .S_item_sort_b2{
     float: left;
-    width: 420px;
+    margin-left: 35px;
     display: inline-block;
-    width: 40px;
-    margin-left: 85px;
+    width: 520px;
 }
 .S_item_sort_b3{
     float: left;
     display: inline-block;
-    width: 80px;
-    margin-left: 112px;
+    width: 100px;
 }
 .S_item_rank{
     clear: both;

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { injectIntl } from 'react-intl';
-import { Tier } from 'components/Main/right'
+import { Armors } from 'components/item';
 import { Weapon } from 'lib/data'
 
 class Weapons extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            weaponList: [],
+            weaponList: []
         }
     }
 
@@ -28,7 +28,7 @@ class Weapons extends Component {
     };
 
     weaponView = () => {
-        const { intl, weapon } = this.props;  
+        const { intl, weapon } = this.props;
         const { weaponList } = this.state;
 
         weaponList.sort((a, b) => b['win-rate'] - a['win-rate']);
@@ -49,20 +49,14 @@ class Weapons extends Component {
         const { intl } = this.props;
 
         return (
-            <div className="S_right">
-                <div className="S_item">
-                    <span className="S_item1">ITEM</span>
-                    <div className="S_item_tab_banner">
-                        <div className="S_item_tab1"><span className="S_item_tab1">{intl.formatMessage({id:'weapon'})}</span></div>
-                        <div className="S_item_sort">
-                            <span className="S_item_sort1">{intl.formatMessage({id:'rank'})}</span>
-                            <span className="S_item_sort2">{intl.formatMessage({id:'name'})}</span>
-                            <span className="S_item_sort3">{intl.formatMessage({id:'win-rate'})}</span>
-                            <span className="S_item_sort4">{intl.formatMessage({id:'pick-rate'})}</span>
-                        </div>
-                    </div>
-                    {this.weaponView()}
+            <div>
+                <div className="S_item_sort">
+                    <span className="S_item_sort1">{intl.formatMessage({id:'rank'})}</span>
+                    <span className="S_item_sort2">{intl.formatMessage({id:'name'})}</span>
+                    <span className="S_item_sort3">{intl.formatMessage({id:'win-rate'})}</span>
+                    <span className="S_item_sort4">{intl.formatMessage({id:'pick-rate'})}</span>
                 </div>
+                {this.weaponView()}
             </div>
         );
     };

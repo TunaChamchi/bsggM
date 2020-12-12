@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import { injectIntl } from 'react-intl';
 import queryString from 'query-string';
 import ScriptTag from 'react-script-tag';
-import { MainBanner, AdS, Footer } from 'components/banner';
-import { Weapons, Armors } from 'components/item';
-import { Version, CharacterScore, Max, Min, Avg, dmgPlus } from 'lib/data';
+import { MainBanner, Footer } from 'components/banner';
+import { Item } from 'components/item';
+import { CharacterScore, Max, Min, Avg, dmgPlus } from 'lib/data';
 import { charList } from 'lib/utility'
 
 class Detail extends Component {
@@ -20,8 +20,6 @@ class Detail extends Component {
             rangeFocus: '',
             type: ['solo', 'duo', 'squad'],
             typeFocus: '',
-            skill: ['T', 'Q', 'W', 'E', 'R', 'D'],
-            skillFocus: 0,
             ad_style: {},
             searchList: []
         };
@@ -129,28 +127,6 @@ class Detail extends Component {
             </Link>
         );
     };
-    skillHandler = (idx) => {
-        this.setState({skillFocus: idx});
-    };
-    skillView = () => {
-        const { character, weapon, skill, skillFocus } = this.state;
-
-        return skill.map((name, idx) => {
-            const img = name === 'D' ? 
-                'img/Weapons/'+weapon+'.png' : 
-                'img/Skill/'+character+'/'+character+'_'+name+'.png';
-
-            return (
-                <div className='S_Skill_tab'
-                    key={'type' + idx}>
-                    <img className={'S_Skill_img ' + (idx === skillFocus ? 'actived' : '')} 
-                        src={img}
-                        onClick={(e) => this.skillHandler(idx)} />
-                    <div className="S_SKill_key"><span>{name}</span></div>          
-                </div>
-            )
-        });
-    };
     
     searchHandler = (event) => {
         const value = event.target.value.toLowerCase();
@@ -179,7 +155,7 @@ class Detail extends Component {
 
     render() {
         const { intl } = this.props;
-        const { data, character, weapon, rangeFocus, typeFocus,skill, skillFocus, ad_style, searchList } = this.state;
+        const { data, character, weapon, rangeFocus, typeFocus, ad_style, searchList } = this.state;
 
         const img_char = 'img/Characters/' + data['character'] + (data['tier'] > 0 ? '' : '_오피') + '.png';
         const img_tier = data['tier'] > 0 ? 'img/Tier/' + data['tier'] + '티어.png' : 'img/Tier/1티어.png';
@@ -197,10 +173,6 @@ class Detail extends Component {
         const avg_kill_avg  = ((avg['avg-kill']  - min['avg-kill'])  / (max['avg-kill']  - min['avg-kill']) ) * 500 - 27;
         const avg_rank_avg  = ((avg['avg-rank']  - min['avg-rank'])  / (max['avg-rank']  - min['avg-rank']) ) * 500 - 27;
 
-        const skillType  = skill[skillFocus] === 'T' ? intl.formatMessage({ id: 'detail.passive' }) : skill[skillFocus] === 'D' ? intl.formatMessage({ id: 'detail.weaponSkill' }) : skill[skillFocus];
-        const skilName   = skill[skillFocus] === 'D' ? intl.formatMessage({ id: 'skill.'+weapon+'.name' })   : intl.formatMessage({ id: 'skill.'+character+'.'+skill[skillFocus]+'.name' });
-        const skilDetail = skill[skillFocus] === 'D' ? intl.formatMessage({ id: 'skill.'+weapon+'.Detail' }) : intl.formatMessage({ id: 'skill.'+character+'.'+skill[skillFocus]+'.Detail' });
-
         return (
             <div>
                 <MainBanner />
@@ -215,12 +187,12 @@ class Detail extends Component {
                             </div>
                     }
                     <div className="Ad_box_Detail2">
-                            {/*<ins 
-                                class="kakao_ad_area" 
-                                style={{display: 'none'}}
-                                data-ad-unit="DAN-65cQeySsxkm44L6Y" 
-                                data-ad-width="728" 
-                            data-ad-height="90"></ins>*/}
+                        <ins 
+                            class="kakao_ad_area" 
+                            style={{display: 'none'}}
+                            data-ad-unit="DAN-eOZOZvEyRvmmrIAV" 
+                            data-ad-width="728" 
+                        data-ad-height="90"></ins>
                     </div>
                     <div className="S_top">
                         <div className="S_top-cha">
@@ -310,24 +282,22 @@ class Detail extends Component {
                             </div>
                         </div>
                     </div>
-                    <Weapons 
+                    
+                    <Item 
                         character={character}
                         weapon={weapon}
                         range={rangeFocus, typeFocus}
                         type={typeFocus}
                     />
-                    <Armors 
-                        range={typeFocus}
-                    />
                 </div>
                 <div className="Ad_box_Detail2">
-                            {/*<ins 
-                                class="kakao_ad_area" 
-                                style={{display: 'none'}}
-                                data-ad-unit="DAN-65cQeySsxkm44L6Y" 
-                                data-ad-width="728" 
-                            data-ad-height="90"></ins>*/}
-                    </div>
+                    <ins 
+                        class="kakao_ad_area" 
+                        style={{display: 'none'}}
+                        data-ad-unit="DAN-2F5abPe9K508dSMu" 
+                        data-ad-width="728" 
+                    data-ad-height="90"></ins>
+                </div>
                 <Footer />
                 <ScriptTag src="//t1.daumcdn.net/kas/static/ba.min.js" async />
             </div>

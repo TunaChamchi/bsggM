@@ -155,7 +155,7 @@ export const CharacterScore = (range, type) => {
     return tier;
 }
 
-export const CharacterPreScore = (range, type) => {
+export const CharacterPreRank = (range, type) => {
     const list = {};
     for (const key in CharListPre) {
         try {
@@ -234,29 +234,30 @@ export const CharacterPreScore = (range, type) => {
 
     // 티어, 순위 계산
     tier.forEach(data1 => {
-        const tier_score = data1['score']['total']/max_score;
-        if (tier_score > 0.95) {
-            data1['tier'] = 0;
-        } else if (tier_score > 0.9) {
-            data1['tier'] = 1;
-        } else if (tier_score > 0.7) {
-            data1['tier'] = 2;
-        } else if (tier_score > 0.4) {
-            data1['tier'] = 3;
-        } else if (tier_score > 0.2) {
-            data1['tier'] = 4;
-        } else {
-            data1['tier'] = 5;
-        }
-
         data1['rank']['total'] = 1;
         tier.forEach(data2 => {
             if (data1['score']['total'] < data2['score']['total'])
                 data1['rank']['total']++;
         });
     });
-    
-    return tier;
+
+    const rank = {}
+
+    tier.forEach(data => {
+        const character = data['character'];
+        const weapon    = data['weapon'];
+        const char = {
+            'total'    : data['rank']['total'],
+            'win-rate' : data['rank']['pick-rate'],
+            'pick-rate': data['rank']['win-rate'],
+            'avg-kill' : data['rank']['avg-kill'],
+            'avg-rank' : data['rank']['avg-rank']
+        }
+
+        rank[character+'-'+weapon] = char;
+    });
+
+    return rank;
 }
 
 export const Weapon = (character, weapon, type) => {
