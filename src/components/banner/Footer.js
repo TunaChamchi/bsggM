@@ -10,6 +10,9 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <img className="footer_logo" src={logo}/>
+                <div  className="footer_span">
+                    <span>{intl.formatMessage({id:'footer'})}</span>
+                </div>
                 <button className="footer_button">Contact</button>
             </div>
         );

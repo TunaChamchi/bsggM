@@ -18,7 +18,8 @@
     "avg-kill": "击杀",
     "lately-patch": "最近-",
     "name":"名字",
-
+    "footer":"BSGG.kr isn’t endorsed by Nimble Neuron.\n Eternal Return: Black Survival is trademarks or registered trademarks of Nimble Neuron.\n Data Based on Nimble Neuron",
+    "question":"字符层是根据官方统计的获胜率, 选择率,平均技能, 平均等级等来计算的。 多重和班级的统计数字减少 了普通杀戮和普通等级的影响。",
 
     "main": {
         "banner": {

@@ -18,7 +18,8 @@
     "avg-kill": "Avg-kill",
     "lately-patch": "Recent patch",
     "name":"Name",
-
+    "footer":"BSGG.kr isn’t endorsed by Nimble Neuron.\n Eternal Return: Black Survival is trademarks or registered trademarks of Nimble Neuron.\n Data Based on Nimble Neuron",
+    "question":"The character tier is based on the winning rate, pick rate, average skill, and average rank of characters based on official statistics. Duo and squad statistics reduce the influence on average kill and tier of average rank.",
 
     "main": {
         "banner": {

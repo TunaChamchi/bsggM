@@ -19,7 +19,7 @@ class Rank extends Component {
     typeHandler = (idx) => {
         this.setState({typeFocus: idx});
     }
-    
+    y
     rangeView = () => {
         const { range, rangeFocus } = this.state;
 
@@ -45,6 +45,7 @@ class Rank extends Component {
     }
 
     render() {
+        const { intl } = this.props;
         const { range, rangeFocus, type, typeFocus } = this.state;
 
         return (
@@ -57,7 +58,12 @@ class Rank extends Component {
                         </div>
                     </div>
                     <div className="rank0-1">
-                        <span>RANK</span>
+                        <div className="rank_span">
+                        <span >RANK</span>
+                            <div className="rank_span_tooltip">
+                                <span>{intl.formatMessage({id:'question'})}</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="rank1">
