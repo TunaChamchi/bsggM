@@ -51,11 +51,11 @@
   },
   "나딘": {
     "duo": {
-      "inflict": -7,
+      "inflict": -9,
       "receive": 0
     },
     "squad": {
-      "inflict": -15,
+      "inflict": -17,
       "receive": 0
     }
   },
@@ -65,7 +65,7 @@
       "receive": 0
     },
     "squad": {
-      "inflict": -15,
+      "inflict": -12,
       "receive": 0
     }
   },
@@ -85,7 +85,7 @@
       "receive": 0
     },
     "squad": {
-      "inflict": -15,
+      "inflict": -18,
       "receive": 0 
     }
   },
@@ -101,7 +101,7 @@
   },
   "유키": {
     "duo": {
-      "inflict": -5,
+      "inflict": -8,
       "receive": 0
     },
     "squad": {
@@ -115,13 +115,13 @@
       "receive": 0
     },
     "squad": {
-      "inflict": -15,
+      "inflict": -18,
       "receive": 0
     }
   },
   "쇼우": {
     "duo": {
-      "inflict": -5,
+      "inflict": -7,
       "receive": 0
     },
     "squad": {
@@ -135,13 +135,13 @@
       "receive": 0
     },
     "squad": {
-      "inflict": -15,
+      "inflict": -18,
       "receive": 0
     }
   },
   "키아라": {
     "duo": {
-      "inflict": -3,
+      "inflict": -5,
       "receive": 0
     },
     "squad": {
@@ -155,13 +155,13 @@
       "receive": 0
     },
     "squad": {
-      "inflict": -15,
+      "inflict": -18,
       "receive": 0
     }
   },
   "쇼이치": {
     "duo": {
-      "inflict": -3,
+      "inflict": -5,
       "receive": 0
     },
     "squad": {
@@ -175,7 +175,7 @@
       "receive": 0
     },
     "squad": {
-      "inflict": 0,
+      "inflict": -4,
       "receive": 0
     }
   }
