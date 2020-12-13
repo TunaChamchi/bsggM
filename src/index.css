@@ -261,6 +261,12 @@ button:hover{
     padding-top: 4px;
     word-spacing: 20px;
 }
+.question_logo{
+    float: right;
+    width: 30px;
+    margin-top: 14px;
+    margin-left: -15px;
+}
 .rank0-2{
       float: right;
       width: 180px;
@@ -391,12 +397,32 @@ button:hover{
     word-spacing: 5px;
     text-align: center;
 }
+.item_span_tooltip{
+    visibility: hidden;
+    width: 390px;
+    background-color: rgb(37, 37, 37);
+    position: absolute;
+    z-index: 1;
+    font-size: 20pt;
+    white-space: pre-line;
+    word-break: keep-all;
+    border-radius: 10px;
+    color:white;
+    font-weight: 300;
+    padding: 5px;
+    word-spacing: 5px;
+    text-align: center;
+}
 .rank_span:hover .rank_span_tooltip{
+    visibility: visible;
+}
+.S_item1:hover .item_span_tooltip{
     visibility: visible;
 }
 .rank_span{
     display: inline-block;
-    width: 60px;
+    width: 160px;
+    margin-left: 17px;
 }
 .rank3win1{
     text-align: center;
@@ -796,11 +822,12 @@ button:hover{
 }
 .S_item1{
     display: inline-block;
-    width: 750px;
+    width: 150px;
     height: 70px;
     font-family: "Big Shoulders Stencil Display";
     font-size: 37pt;
     padding-top: 5px;
+    margin-left: 30px;
 }
 .S_item_tab_banner{
     background-color: rgb(120, 120, 120);
@@ -820,9 +847,9 @@ button:hover{
 .S_item_tab{
     width: 125px;
     float: left;
-    font-size: 30pt;
-    margin-top: 3px;
-    padding-bottom: 2px;
+    font-size: 25pt;
+    margin-top: 7px;
+    padding-bottom: 5px;
 }
 .S_item_sort{
     float: left;
