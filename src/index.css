@@ -74,6 +74,7 @@ button:hover{
     width: 100%;
     text-align: center;
     min-width: 750px;
+    border-bottom: 2px solid #3b4147;
 }
 .language {
     width: 150px;
@@ -132,12 +133,20 @@ button:hover{
     margin-top: 115px;
 }
 .Data-period{
+    position: relative;
     font-size: 13pt;
     width: 300px;
     float: right;
     text-align: right;
     margin-top: 105px;
     margin-right: 10px;
+}
+.newimg{
+    right: 0px;
+    top: -18px;
+    position: absolute;
+    width: 36px;
+    height: 20px;
 }
 .main{
     text-align: center;
@@ -158,6 +167,7 @@ button:hover{
     border-radius: 3px;
     margin: auto;
     margin-bottom: 20px;
+    border-bottom: 2px solid #3b4147;
 }
 .search1{
     width: 690px;
@@ -176,6 +186,7 @@ button:hover{
     height: 390px;
     margin:auto;
     margin-bottom: 20px;
+    border-bottom: 2px solid #3b4147;
 }
 .cha0{
     background-color: rgb(120, 120, 120);
@@ -222,9 +233,10 @@ button:hover{
     margin-left: 45px;
 }
 .chaimg{
-    width: 180px;
+    width: 178px;
     background-color: rgb(120, 120, 120);
     float: left;
+    border: 1px solid black;
 }
 .chaname{
     display: inline-block;
@@ -277,11 +289,13 @@ button:hover{
     background-color: rgb(120, 120, 120);
     height: 70px;
     border-radius: 3px 3px 0px 0px / 3px 3px 0px 0px ;
+    border-bottom: 2px solid #3b4147;
 }
 .rank2{
     margin-top: 10px; 
     background-color: rgb(120, 120, 120);
     height: 50px;
+    border-bottom: 2px solid #3b4147;
 }
 
 .rank3{
@@ -295,6 +309,7 @@ button:hover{
     margin-top: 10px;
     background-color:  rgb(120, 120, 120);
     text-align: left;
+    border-bottom: 2px solid #3b4147;
 }
 .rank3rank{
     display: inline-block;
@@ -356,6 +371,12 @@ button:hover{
     vertical-align: middle;
     width: 15px;
     margin-left: -20px;
+}
+.rank3new{
+    width: 23px;
+    height: 11px;
+    margin-right: -3px;
+    margin-left: -18px;
 }
 .rank3Updown1{
     text-align: center;
@@ -526,6 +547,7 @@ button:hover{
     border-radius: 3px;
     margin: auto;
     margin-bottom: 10px;
+    border-bottom: 2px solid #3b4147;
 }
 .S_search1{
     width: 700px;
@@ -585,10 +607,12 @@ button:hover{
     float: left;
     border-radius: 3px;
     margin-left: 20px;
+    border-bottom: 2px solid #3b4147;
 }
 .S_top-cha1{
     width: 220px;
     background-color: rgb(120, 120, 120);
+    border-radius: 3px 3px 0px 0px;
 }
 .S_top-cha2{
     width: 70px;
@@ -618,6 +642,7 @@ button:hover{
     text-align: center;
     border-radius: 2px;
     font-size: 16pt;
+    border-bottom: 2px solid #3b4147;
 }
 .S_top-stat2{
     width: 150px;
@@ -646,6 +671,7 @@ button:hover{
     margin-left: 30px;
     margin-right: -10px;
     margin-top: 95px;
+    border-bottom: 2px solid #3b4147;
 }
 .S_top-weapon1{
     width: 100px;
@@ -680,6 +706,7 @@ button:hover{
     background-color: rgb(83, 83, 83);
     text-align: center;
     border-radius: 3px;
+    border-bottom: 2px solid #3b4147;
 }
 .S_Trend0{
     height: 75px;
@@ -709,6 +736,7 @@ button:hover{
     height: 70px;
     background-color: rgb(120, 120, 120);
     clear: both;
+    border-bottom: 2px solid #3b4147;
 }
 .tabHeader6 {
     width: 250px;
@@ -729,6 +757,7 @@ button:hover{
     background-color: rgb(120, 120, 120);
     float:left;
     border-radius: 3px;
+    border-bottom: 2px solid #3b4147;
 }
 .S_Trend_square1{
     display: inline-block;
@@ -808,6 +837,7 @@ button:hover{
     text-align: center;
     border-radius: 3px;
     margin-top: 20px;
+    border-bottom: 2px solid #3b4147;
 }
 .S_right2{
     width: 750px;
@@ -832,6 +862,7 @@ button:hover{
 .S_item_tab_banner{
     background-color: rgb(120, 120, 120);
     height: 70px;
+    border-bottom: 2px solid #3b4147;
 }
 .S_item_tab_banner2{
     background-color: rgb(120, 120, 120);
@@ -914,6 +945,7 @@ button:hover{
     text-align: left;
     background-color: rgb(120, 120, 120);
     display: table;
+    border-bottom: 2px solid #3b4147;
 }
 .S_item_rank1{
     vertical-align: middle;
@@ -926,12 +958,13 @@ button:hover{
 .S_item_rank2{
     vertical-align: middle;
     display: inline-block;
-    width: 120px;
+    width: 118px;
     margin-left: 35px;
     text-align: center;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     border-radius: 4px;
+    border: 1px solid black;
 }
 .S_item_rank3{
     display: table-cell;

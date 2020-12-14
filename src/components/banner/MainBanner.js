@@ -5,6 +5,7 @@ import { Upadated, Data_period } from 'lib/data'
 import { defaultLang } from 'lib/utility'
 import logo from 'img/main_logo.svg';
 import { Link } from 'react-router-dom';
+import newimg from 'img/new.png';
 
 class MainBanner extends Component {
     render() {
@@ -36,6 +37,7 @@ class MainBanner extends Component {
                         <span>{Upadated}</span>
                         <br />
                         <span>{Data_period}</span>
+                        <img className="newimg" src={newimg} />
                     </div>
                 </div>
             </div>
