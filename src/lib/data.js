@@ -113,17 +113,17 @@ export const CharacterScore = (range, type) => {
     tier.forEach(data => {        
         data['score'] = {
             'win-rate' : data['data']['win-rate']   /max_win_rate*100,
-            'pick-rate': data['data']['pick-rate']  /max_pick_rate*100,
+            'pick-rate': (1-data['rank']['pick-rate']/tier.length)*100,
             'avg-kill' : data['data']['avg-kill']   /max_avg_kill*100,
             'avg-rank' : (1-data['rank']['avg-rank']/tier.length)*100
         }
 
         if (type === "solo")
-            data['score']['total'] = (data['score']['win-rate']*1.5   + data['score']['pick-rate'] + data['score']['avg-kill']    + data['score']['avg-rank']  )/4.5;
+            data['score']['total'] = (data['score']['win-rate']*1.3   + data['score']['pick-rate']*0.8 + data['score']['avg-kill']*1.2    + data['score']['avg-rank']*0.7  )/4;
         else if (type === "duo")
-            data['score']['total'] = (data['score']['win-rate']*1.5   + data['score']['pick-rate'] + data['score']['avg-kill']/2  + data['score']['avg-rank']/2)/3.5;
+            data['score']['total'] = (data['score']['win-rate']*1.3   + data['score']['pick-rate']*1.1 + data['score']['avg-kill']*0.9    + data['score']['avg-rank']*0.5)/3.8;
         else if (type === "squad")
-            data['score']['total'] = (data['score']['win-rate']*1.5   + data['score']['pick-rate'] + data['score']['avg-kill']/3  + data['score']['avg-rank']/3)/3.2;
+            data['score']['total'] = (data['score']['win-rate']*1.3   + data['score']['pick-rate']*1.3 + data['score']['avg-kill']*0.7    + data['score']['avg-rank']*0.3)/3.6;
         
         if (data['score']['total'] > max_score) max_score = data['score']['total'];
     });
@@ -131,9 +131,9 @@ export const CharacterScore = (range, type) => {
     // 티어, 순위 계산
     tier.forEach(data1 => {
         const tier_score = data1['score']['total']/max_score;
-        if (data1['score']['total']/100 > 0.90) {
+        if (data1['score']['total']/100 > 0.95) {
             data1['tier'] = 0;
-        } else if (tier_score > 0.9) {
+        } else if (tier_score > 0.90) {
             data1['tier'] = 1;
         } else if (tier_score > 0.75) {
             data1['tier'] = 2;
@@ -144,6 +144,7 @@ export const CharacterScore = (range, type) => {
         } else {
             data1['tier'] = 5;
         }
+
 
         data1['rank']['total'] = 1;
         tier.forEach(data2 => {
