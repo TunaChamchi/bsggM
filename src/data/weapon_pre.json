@@ -3,72 +3,72 @@
     "투척": {
       "연막탄": {
         "solo": {
-          "win-rate": 5.5,
-          "pick-rate": 30.5
+          "win-rate": 5.9,
+          "pick-rate": 34.0
         },
         "duo": {
-          "win-rate": 15.5,
-          "pick-rate": 33.5
+          "win-rate": 13.5,
+          "pick-rate": 35.7
         },
         "squad": {
-          "win-rate": 22.2,
-          "pick-rate": 32.6
+          "win-rate": 21.0,
+          "pick-rate": 34.4
         }
       },
       "소이탄": {
         "solo": {
-          "win-rate": 3.4,
-          "pick-rate": 13.3
+          "win-rate": 3.6,
+          "pick-rate": 19.4
         },
         "duo": {
-          "win-rate": 12.3,
-          "pick-rate": 16.2
+          "win-rate": 10.7,
+          "pick-rate": 14.9
         },
         "squad": {
-          "win-rate": 17.7,
-          "pick-rate": 19.8
+          "win-rate": 16.9,
+          "pick-rate": 17.4
         }
       },
       "다비드슬링": {
         "solo": {
-          "win-rate": 3.9,
-          "pick-rate": 1.5
+          "win-rate": 5.4,
+          "pick-rate": 1.4
         },
         "duo": {
-          "win-rate": 10.9,
-          "pick-rate": 1.2
+          "win-rate": 11.7,
+          "pick-rate": 0.9
         },
         "squad": {
-          "win-rate": 12.3,
+          "win-rate": 18.7,
           "pick-rate": 1.0
         }
       },
       "안티오크의수류탄": {
         "solo": {
-          "win-rate": 5.3,
-          "pick-rate": 3.6
+          "win-rate": 6.6,
+          "pick-rate": 3.0
         },
         "duo": {
-          "win-rate": 15.4,
-          "pick-rate": 1.9
+          "win-rate": 10.3,
+          "pick-rate": 1.5
         },
         "squad": {
-          "win-rate": 19.8,
-          "pick-rate": 2.2
+          "win-rate": 22.7,
+          "pick-rate": 1.8
         }
       },
       "루테늄구슬": {
         "solo": {
-          "win-rate": 6.4,
-          "pick-rate": 18.0
+          "win-rate": 5.3,
+          "pick-rate": 14.8
         },
         "duo": {
-          "win-rate": 15.3,
-          "pick-rate": 18.5
+          "win-rate": 13.3,
+          "pick-rate": 20.0
         },
         "squad": {
-          "win-rate": 21.7,
-          "pick-rate": 20.1
+          "win-rate": 20.5,
+          "pick-rate": 21.9
         }
       }
     }
@@ -77,115 +77,115 @@
     "돌격소총": {
       "AK-12": {
         "solo": {
-          "win-rate": 7.7,
-          "pick-rate": 21.9
+          "win-rate": 8.0,
+          "pick-rate": 24.6
         },
         "duo": {
-          "win-rate": 14.8,
-          "pick-rate": 24.7
+          "win-rate": 13.6,
+          "pick-rate": 30.1
         },
         "squad": {
-          "win-rate": 21.9,
-          "pick-rate": 28.4
+          "win-rate": 21.3,
+          "pick-rate": 32.8
         }
       },
       "XCR": {
         "solo": {
-          "win-rate": 17.4,
-          "pick-rate": 4.0
+          "win-rate": 17.6,
+          "pick-rate": 14.3
         },
         "duo": {
-          "win-rate": 19.8,
-          "pick-rate": 2.2
+          "win-rate": 18.6,
+          "pick-rate": 6.1
         },
         "squad": {
-          "win-rate": 24.7,
-          "pick-rate": 1.9
+          "win-rate": 24.4,
+          "pick-rate": 5.5
         }
       },
       "개틀링건": {
         "solo": {
-          "win-rate": 9.3,
-          "pick-rate": 43.1
+          "win-rate": 8.6,
+          "pick-rate": 38.0
         },
         "duo": {
-          "win-rate": 13.9,
-          "pick-rate": 42.6
+          "win-rate": 12.6,
+          "pick-rate": 42.1
         },
         "squad": {
-          "win-rate": 19.6,
-          "pick-rate": 43.7
+          "win-rate": 18.9,
+          "pick-rate": 42.0
         }
       }
     },
     "권총": {
       "마탄의사수": {
         "solo": {
-          "win-rate": 6.9,
-          "pick-rate": 17.3
+          "win-rate": 7.7,
+          "pick-rate": 20.7
         },
         "duo": {
-          "win-rate": 12.6,
-          "pick-rate": 16.7
+          "win-rate": 11.4,
+          "pick-rate": 20.0
         },
         "squad": {
-          "win-rate": 17.9,
-          "pick-rate": 17.1
+          "win-rate": 18.3,
+          "pick-rate": 20.3
         }
       },
       "엘레강스": {
         "solo": {
           "win-rate": 6.8,
-          "pick-rate": 17.2
+          "pick-rate": 20.0
         },
         "duo": {
           "win-rate": 12.5,
-          "pick-rate": 16.3
+          "pick-rate": 18.0
         },
         "squad": {
-          "win-rate": 17.4,
-          "pick-rate": 17.7
+          "win-rate": 18.0,
+          "pick-rate": 20.7
         }
       },
       "일렉트론블라스터": {
         "solo": {
-          "win-rate": 6.6,
-          "pick-rate": 32.6
+          "win-rate": 6.5,
+          "pick-rate": 29.9
         },
         "duo": {
-          "win-rate": 12.9,
-          "pick-rate": 36.6
+          "win-rate": 12.1,
+          "pick-rate": 35.7
         },
         "squad": {
-          "win-rate": 19.3,
-          "pick-rate": 37.4
+          "win-rate": 18.3,
+          "pick-rate": 34.1
         }
       },
       "매그넘-보아": {
         "solo": {
-          "win-rate": 6.1,
-          "pick-rate": 3.0
+          "win-rate": 5.6,
+          "pick-rate": 3.3
         },
         "duo": {
-          "win-rate": 12.0,
-          "pick-rate": 3.1
+          "win-rate": 10.9,
+          "pick-rate": 3.4
         },
         "squad": {
-          "win-rate": 16.5,
-          "pick-rate": 2.9
+          "win-rate": 16.9,
+          "pick-rate": 3.2
         }
       },
       "악켈테": {
         "solo": {
-          "win-rate": 27.5,
-          "pick-rate": 1.8
+          "win-rate": 26.9,
+          "pick-rate": 2.3
         },
         "duo": {
-          "win-rate": 39.9,
-          "pick-rate": 1.5
+          "win-rate": 42.1,
+          "pick-rate": 1.8
         },
         "squad": {
-          "win-rate": 50.7,
+          "win-rate": 48.2,
           "pick-rate": 1.6
         }
       }
@@ -193,72 +193,72 @@
     "저격총": {
       "Tac-50": {
         "solo": {
-          "win-rate": 5.2,
-          "pick-rate": 5.6
+          "win-rate": 5.4,
+          "pick-rate": 3.3
         },
         "duo": {
-          "win-rate": 11.3,
-          "pick-rate": 2.6
+          "win-rate": 11.4,
+          "pick-rate": 1.6
+        },
+        "squad": {
+          "win-rate": 15.5,
+          "pick-rate": 1.5
+        }
+      },
+      "인터벤션": {
+        "solo": {
+          "win-rate": 4.6,
+          "pick-rate": 3.2
+        },
+        "duo": {
+          "win-rate": 11.4,
+          "pick-rate": 2.2
         },
         "squad": {
           "win-rate": 18.4,
           "pick-rate": 2.4
         }
       },
-      "인터벤션": {
-        "solo": {
-          "win-rate": 4.0,
-          "pick-rate": 4.4
-        },
-        "duo": {
-          "win-rate": 11.0,
-          "pick-rate": 2.7
-        },
-        "squad": {
-          "win-rate": 18.4,
-          "pick-rate": 2.7
-        }
-      },
       "NTW-20": {
         "solo": {
-          "win-rate": 8.3,
-          "pick-rate": 12.8
+          "win-rate": 7.0,
+          "pick-rate": 12.5
         },
         "duo": {
-          "win-rate": 13.8,
-          "pick-rate": 14.7
+          "win-rate": 13.2,
+          "pick-rate": 12.6
         },
         "squad": {
-          "win-rate": 20.5,
-          "pick-rate": 15.1
+          "win-rate": 18.8,
+          "pick-rate": 13.4
         }
       },
       "폴라리스": {
         "solo": {
-          "win-rate": 4.7,
-          "pick-rate": 44.0
+          "win-rate": 4.8,
+          "pick-rate": 30.1
         },
         "duo": {
-          "win-rate": 12.1,
-          "pick-rate": 53.4
+          "win-rate": 11.4,
+          "pick-rate": 37.0
         },
         "squad": {
-          "win-rate": 18.9,
-          "pick-rate": 57.7
+          "win-rate": 18.5,
+          "pick-rate": 43.4
         }
       },
       "사사성광": {
         "solo": {
-          "win-rate": 22.7,
-          "pick-rate": 6.2
+          "win-rate": 17.9,
+          "pick-rate": 14.6
         },
         "duo": {
-          "win-rate": 27.5,
-          "pick-rate": 5.5
+          "win-rate": 23.0,
+          "pick-rate": 15.4
         },
         "squad": {
-          "win-rate": 33.4,
-          "pick-rate": 4.8
+          "win-rate": 31.1,
+          "pick-rate": 14.4
         }
       }
     }
@@ -267,71 +267,71 @@
     "레이피어": {
       "듀랜달Mk2": {
         "solo": {
-          "win-rate": 6.2,
-          "pick-rate": 0.5
+          "win-rate": 7.1,
+          "pick-rate": 0.8
         },
         "duo": {
-          "win-rate": 13.3,
-          "pick-rate": 0.5
+          "win-rate": 12.1,
+          "pick-rate": 0.8
         },
         "squad": {
-          "win-rate": 16.0,
-          "pick-rate": 0.5
+          "win-rate": 18.6,
+          "pick-rate": 0.8
         }
       },
       "미스틸테인": {
         "solo": {
-          "win-rate": 7.6,
-          "pick-rate": 31.8
+          "win-rate": 8.6,
+          "pick-rate": 26.9
         },
         "duo": {
-          "win-rate": 16.4,
-          "pick-rate": 30.9
+          "win-rate": 16.9,
+          "pick-rate": 29.7
         },
         "squad": {
-          "win-rate": 23.6,
-          "pick-rate": 32.0
+          "win-rate": 23.5,
+          "pick-rate": 31.1
         }
       },
       "볼틱레토": {
         "solo": {
-          "win-rate": 8.2,
-          "pick-rate": 37.5
+          "win-rate": 8.4,
+          "pick-rate": 49.8
         },
         "duo": {
-          "win-rate": 15.3,
-          "pick-rate": 42.1
+          "win-rate": 14.5,
+          "pick-rate": 48.0
         },
         "squad": {
-          "win-rate": 20.2,
-          "pick-rate": 44.7
+          "win-rate": 20.3,
+          "pick-rate": 48.8
         }
       },
       "유성검": {
         "solo": {
-          "win-rate": 5.0,
-          "pick-rate": 0.1
+          "win-rate": 9.0,
+          "pick-rate": 0.2
         },
         "duo": {
-          "win-rate": 20.4,
+          "win-rate": 0.0,
           "pick-rate": 0.1
         },
         "squad": {
-          "win-rate": 33.3,
+          "win-rate": 23.5,
           "pick-rate": 0.1
         }
       },
       "주와이외즈": {
         "solo": {
-          "win-rate": 15.8,
+          "win-rate": 16.3,
           "pick-rate": 0.3
         },
         "duo": {
-          "win-rate": 16.5,
-          "pick-rate": 0.2
+          "win-rate": 27.8,
+          "pick-rate": 0.1
         },
         "squad": {
-          "win-rate": 29.5,
+          "win-rate": 36.3,
           "pick-rate": 0.2
         }
       }
@@ -341,71 +341,71 @@
     "레이피어": {
       "듀랜달Mk2": {
         "solo": {
-          "win-rate": 2.6,
-          "pick-rate": 18.8
+          "win-rate": 4.0,
+          "pick-rate": 12.4
         },
         "duo": {
-          "win-rate": 8.1,
-          "pick-rate": 23.5
+          "win-rate": 9.1,
+          "pick-rate": 18.9
         },
         "squad": {
-          "win-rate": 13.5,
-          "pick-rate": 25.0
+          "win-rate": 14.4,
+          "pick-rate": 20.1
         }
       },
       "미스틸테인": {
         "solo": {
-          "win-rate": 5.1,
-          "pick-rate": 3.0
+          "win-rate": 2.9,
+          "pick-rate": 3.4
         },
         "duo": {
-          "win-rate": 15.1,
-          "pick-rate": 3.2
+          "win-rate": 12.5,
+          "pick-rate": 4.8
         },
         "squad": {
-          "win-rate": 21.7,
-          "pick-rate": 3.3
+          "win-rate": 18.6,
+          "pick-rate": 5.0
         }
       },
       "볼틱레토": {
         "solo": {
-          "win-rate": 7.6,
-          "pick-rate": 41.6
+          "win-rate": 6.9,
+          "pick-rate": 55.2
         },
         "duo": {
-          "win-rate": 13.5,
-          "pick-rate": 41.1
+          "win-rate": 12.6,
+          "pick-rate": 51.4
         },
         "squad": {
-          "win-rate": 18.8,
-          "pick-rate": 42.9
+          "win-rate": 17.9,
+          "pick-rate": 54.0
         }
       },
       "유성검": {
         "solo": {
-          "win-rate": 12.1,
-          "pick-rate": 0.2
+          "win-rate": 10.2,
+          "pick-rate": 0.5
         },
         "duo": {
-          "win-rate": 18.8,
+          "win-rate": 0.0,
           "pick-rate": 0.2
         },
         "squad": {
-          "win-rate": 16.0,
+          "win-rate": 0.0,
           "pick-rate": 0.2
         }
       },
       "주와이외즈": {
         "solo": {
-          "win-rate": 22.6,
-          "pick-rate": 0.8
+          "win-rate": 16.9,
+          "pick-rate": 1.1
         },
         "duo": {
-          "win-rate": 26.7,
-          "pick-rate": 0.6
+          "win-rate": 30.1,
+          "pick-rate": 0.8
         },
         "squad": {
-          "win-rate": 33.3,
+          "win-rate": 40.3,
           "pick-rate": 0.8
         }
       }
@@ -413,228 +413,228 @@
     "창": {
       "애각창": {
         "solo": {
-          "win-rate": 3.9,
-          "pick-rate": 5.8
+          "win-rate": 4.0,
+          "pick-rate": 8.9
         },
         "duo": {
-          "win-rate": 9.4,
-          "pick-rate": 5.0
+          "win-rate": 8.9,
+          "pick-rate": 7.3
         },
         "squad": {
-          "win-rate": 15.6,
-          "pick-rate": 5.3
+          "win-rate": 14.4,
+          "pick-rate": 7.7
         }
       },
       "장팔사모": {
         "solo": {
-          "win-rate": 8.4,
-          "pick-rate": 51.4
+          "win-rate": 5.7,
+          "pick-rate": 50.8
         },
         "duo": {
-          "win-rate": 15.7,
-          "pick-rate": 53.1
+          "win-rate": 12.7,
+          "pick-rate": 52.7
         },
         "squad": {
-          "win-rate": 21.0,
-          "pick-rate": 54.5
+          "win-rate": 19.2,
+          "pick-rate": 53.2
         }
       },
       "코스믹바이던트": {
         "solo": {
-          "win-rate": 12.0,
+          "win-rate": 18.4,
           "pick-rate": 0.3
         },
         "duo": {
-          "win-rate": 28.2,
+          "win-rate": 18.9,
           "pick-rate": 0.2
         },
         "squad": {
-          "win-rate": 29.4,
-          "pick-rate": 0.3
+          "win-rate": 30.3,
+          "pick-rate": 0.1
         }
       },
       "트리아이나": {
         "solo": {
-          "win-rate": 2.3,
-          "pick-rate": 5.9
+          "win-rate": 3.2,
+          "pick-rate": 2.8
         },
         "duo": {
-          "win-rate": 8.0,
-          "pick-rate": 7.2
+          "win-rate": 7.6,
+          "pick-rate": 3.8
         },
         "squad": {
-          "win-rate": 13.8,
-          "pick-rate": 6.5
+          "win-rate": 13.9,
+          "pick-rate": 3.8
         }
       },
       "화첨창": {
         "solo": {
-          "win-rate": 14.4,
-          "pick-rate": 4.9
+          "win-rate": 13.4,
+          "pick-rate": 5.3
         },
         "duo": {
-          "win-rate": 20.5,
-          "pick-rate": 4.7
+          "win-rate": 18.8,
+          "pick-rate": 5.5
         },
         "squad": {
-          "win-rate": 25.5,
-          "pick-rate": 4.9
+          "win-rate": 26.2,
+          "pick-rate": 5.6
         }
       },
       "방천화극": {
         "solo": {
-          "win-rate": 7.2,
+          "win-rate": 9.9,
           "pick-rate": 0.4
         },
         "duo": {
-          "win-rate": 11.4,
+          "win-rate": 7.3,
           "pick-rate": 0.3
         },
         "squad": {
-          "win-rate": 21.1,
-          "pick-rate": 0.4
+          "win-rate": 21.9,
+          "pick-rate": 0.3
         }
       },
       "청룡언월도": {
         "solo": {
-          "win-rate": 3.8,
-          "pick-rate": 1.9
+          "win-rate": 3.6,
+          "pick-rate": 2.9
         },
         "duo": {
-          "win-rate": 10.4,
-          "pick-rate": 2.8
+          "win-rate": 9.4,
+          "pick-rate": 3.2
         },
         "squad": {
-          "win-rate": 14.9,
+          "win-rate": 15.2,
           "pick-rate": 3.5
         }
       },
       "롱기누스의창": {
         "solo": {
-          "win-rate": 44.2,
-          "pick-rate": 5.9
+          "win-rate": 41.6,
+          "pick-rate": 6.4
         },
         "duo": {
-          "win-rate": 55.5,
-          "pick-rate": 6.0
+          "win-rate": 53.4,
+          "pick-rate": 7.2
         },
         "squad": {
-          "win-rate": 60.0,
-          "pick-rate": 6.2
+          "win-rate": 57.4,
+          "pick-rate": 7.5
         }
       }
     },
     "양손검": {
       "뚜언띠엔": {
         "solo": {
-          "win-rate": 3.0,
-          "pick-rate": 18.0
+          "win-rate": 1.9,
+          "pick-rate": 6.5
         },
         "duo": {
-          "win-rate": 8.0,
-          "pick-rate": 22.1
+          "win-rate": 8.7,
+          "pick-rate": 10.8
         },
         "squad": {
-          "win-rate": 14.3,
-          "pick-rate": 18.5
+          "win-rate": 15.1,
+          "pick-rate": 10.8
         }
       },
       "아론다이트": {
         "solo": {
-          "win-rate": 7.7,
-          "pick-rate": 10.5
+          "win-rate": 7.6,
+          "pick-rate": 14.6
         },
         "duo": {
-          "win-rate": 13.0,
-          "pick-rate": 8.7
+          "win-rate": 14.6,
+          "pick-rate": 10.3
         },
         "squad": {
-          "win-rate": 19.8,
-          "pick-rate": 9.0
+          "win-rate": 19.4,
+          "pick-rate": 10.6
         }
       },
       "엑스칼리버": {
         "solo": {
-          "win-rate": 15.0,
-          "pick-rate": 4.0
+          "win-rate": 14.9,
+          "pick-rate": 5.8
         },
         "duo": {
-          "win-rate": 16.0,
-          "pick-rate": 4.9
+          "win-rate": 18.0,
+          "pick-rate": 5.2
         },
         "squad": {
-          "win-rate": 20.5,
-          "pick-rate": 5.7
+          "win-rate": 17.1,
+          "pick-rate": 7.2
         }
       },
       "플라즈마소드": {
         "solo": {
-          "win-rate": 3.3,
-          "pick-rate": 9.0
+          "win-rate": 3.1,
+          "pick-rate": 13.9
         },
         "duo": {
-          "win-rate": 9.6,
-          "pick-rate": 6.5
+          "win-rate": 7.1,
+          "pick-rate": 12.1
         },
         "squad": {
-          "win-rate": 14.4,
-          "pick-rate": 10.1
+          "win-rate": 12.1,
+          "pick-rate": 13.9
         }
       },
       "레바테인": {
         "solo": {
-          "win-rate": 14.3,
-          "pick-rate": 14.1
+          "win-rate": 13.1,
+          "pick-rate": 19.1
         },
         "duo": {
-          "win-rate": 17.9,
-          "pick-rate": 13.8
+          "win-rate": 17.0,
+          "pick-rate": 19.9
         },
         "squad": {
-          "win-rate": 24.0,
-          "pick-rate": 14.7
+          "win-rate": 24.3,
+          "pick-rate": 17.0
         }
       },
       "모노호시자오": {
         "solo": {
-          "win-rate": 7.7,
-          "pick-rate": 10.0
+          "win-rate": 6.7,
+          "pick-rate": 12.0
         },
         "duo": {
-          "win-rate": 13.2,
-          "pick-rate": 10.3
+          "win-rate": 10.8,
+          "pick-rate": 13.2
         },
         "squad": {
-          "win-rate": 16.7,
-          "pick-rate": 10.6
+          "win-rate": 16.2,
+          "pick-rate": 13.6
         }
       },
       "호푸어드": {
         "solo": {
-          "win-rate": 5.8,
-          "pick-rate": 6.1
+          "win-rate": 7.2,
+          "pick-rate": 6.9
         },
         "duo": {
-          "win-rate": 13.0,
-          "pick-rate": 7.0
+          "win-rate": 10.9,
+          "pick-rate": 8.8
         },
         "squad": {
-          "win-rate": 16.1,
-          "pick-rate": 7.9
+          "win-rate": 19.6,
+          "pick-rate": 8.1
         }
       },
       "다인슬라이프": {
         "solo": {
-          "win-rate": 30.1,
-          "pick-rate": 0.8
+          "win-rate": 30.8,
+          "pick-rate": 1.2
         },
         "duo": {
-          "win-rate": 42.2,
-          "pick-rate": 0.8
+          "win-rate": 33.8,
+          "pick-rate": 1.3
         },
         "squad": {
-          "win-rate": 45.5,
-          "pick-rate": 0.9
+          "win-rate": 47.2,
+          "pick-rate": 1.3
         }
       }
     }
@@ -643,100 +643,100 @@
     "기타": {
       "보헤미안": {
         "solo": {
-          "win-rate": 5.4,
-          "pick-rate": 3.3
+          "win-rate": 6.5,
+          "pick-rate": 2.6
         },
         "duo": {
-          "win-rate": 10.6,
-          "pick-rate": 4.6
+          "win-rate": 10.8,
+          "pick-rate": 4.0
         },
         "squad": {
-          "win-rate": 15.3,
-          "pick-rate": 3.9
+          "win-rate": 16.6,
+          "pick-rate": 4.8
         }
       },
       "천국의계단": {
         "solo": {
-          "win-rate": 11.6,
-          "pick-rate": 2.8
+          "win-rate": 11.8,
+          "pick-rate": 2.6
         },
         "duo": {
-          "win-rate": 17.0,
-          "pick-rate": 2.1
+          "win-rate": 15.8,
+          "pick-rate": 1.5
         },
         "squad": {
-          "win-rate": 24.5,
-          "pick-rate": 2.0
+          "win-rate": 23.0,
+          "pick-rate": 1.7
         }
       },
       "퍼플헤이즈": {
         "solo": {
-          "win-rate": 7.3,
-          "pick-rate": 4.9
+          "win-rate": 8.6,
+          "pick-rate": 5.3
         },
         "duo": {
-          "win-rate": 12.9,
-          "pick-rate": 7.3
+          "win-rate": 14.3,
+          "pick-rate": 8.2
         },
         "squad": {
           "win-rate": 18.5,
-          "pick-rate": 7.0
+          "pick-rate": 8.1
         }
       },
       "새티스팩션": {
         "solo": {
-          "win-rate": 6.4,
-          "pick-rate": 10.4
+          "win-rate": 10.1,
+          "pick-rate": 27.5
         },
         "duo": {
-          "win-rate": 11.8,
-          "pick-rate": 14.0
+          "win-rate": 13.0,
+          "pick-rate": 23.7
         },
         "squad": {
-          "win-rate": 16.8,
-          "pick-rate": 15.5
+          "win-rate": 18.0,
+          "pick-rate": 24.9
         }
       },
       "원더풀투나잇": {
         "solo": {
-          "win-rate": 19.0,
-          "pick-rate": 0.5
+          "win-rate": 23.5,
+          "pick-rate": 0.6
         },
         "duo": {
-          "win-rate": 20.0,
-          "pick-rate": 0.3
+          "win-rate": 27.7,
+          "pick-rate": 0.4
         },
         "squad": {
-          "win-rate": 29.4,
+          "win-rate": 32.0,
           "pick-rate": 0.4
         }
       },
       "더월": {
         "solo": {
-          "win-rate": 7.0,
-          "pick-rate": 6.5
+          "win-rate": 6.6,
+          "pick-rate": 6.0
         },
         "duo": {
-          "win-rate": 13.7,
-          "pick-rate": 8.0
+          "win-rate": 12.8,
+          "pick-rate": 6.8
         },
         "squad": {
-          "win-rate": 17.8,
-          "pick-rate": 9.5
+          "win-rate": 18.4,
+          "pick-rate": 8.1
         }
       },
       "틴스피릿": {
         "solo": {
-          "win-rate": 10.2,
-          "pick-rate": 48.9
+          "win-rate": 8.2,
+          "pick-rate": 34.1
         },
         "duo": {
-          "win-rate": 14.3,
-          "pick-rate": 43.5
+          "win-rate": 12.6,
+          "pick-rate": 36.9
         },
         "squad": {
-          "win-rate": 18.0,
-          "pick-rate": 44.2
+          "win-rate": 17.0,
+          "pick-rate": 35.1
         }
       }
     }
@@ -745,71 +745,71 @@
     "활": {
       "편전": {
         "solo": {
-          "win-rate": 3.0,
+          "win-rate": 1.3,
           "pick-rate": 0.9
         },
         "duo": {
-          "win-rate": 6.9,
-          "pick-rate": 0.6
+          "win-rate": 6.3,
+          "pick-rate": 0.5
         },
         "squad": {
-          "win-rate": 13.3,
+          "win-rate": 12.5,
           "pick-rate": 0.4
         }
       },
       "골든래쇼보우": {
         "solo": {
-          "win-rate": 4.2,
+          "win-rate": 3.9,
           "pick-rate": 0.7
         },
         "duo": {
-          "win-rate": 11.3,
-          "pick-rate": 0.9
+          "win-rate": 12.7,
+          "pick-rate": 0.5
         },
         "squad": {
-          "win-rate": 18.2,
-          "pick-rate": 0.9
+          "win-rate": 23.5,
+          "pick-rate": 0.8
         }
       },
       "트윈보우": {
         "solo": {
-          "win-rate": 3.1,
+          "win-rate": 3.3,
           "pick-rate": 6.5
         },
         "duo": {
-          "win-rate": 10.3,
-          "pick-rate": 6.7
+          "win-rate": 9.6,
+          "pick-rate": 6.8
         },
         "squad": {
-          "win-rate": 16.6,
-          "pick-rate": 7.7
+          "win-rate": 15.4,
+          "pick-rate": 7.9
         }
       },
       "엘리멘탈보우": {
         "solo": {
-          "win-rate": 6.1,
-          "pick-rate": 62.4
+          "win-rate": 6.4,
+          "pick-rate": 67.3
         },
         "duo": {
-          "win-rate": 15.7,
-          "pick-rate": 64.9
+          "win-rate": 15.3,
+          "pick-rate": 68.7
         },
         "squad": {
-          "win-rate": 22.1,
-          "pick-rate": 67.7
+          "win-rate": 22.3,
+          "pick-rate": 69.9
         }
       },
       "페일노트": {
         "solo": {
-          "win-rate": 13.4,
+          "win-rate": 0.0,
           "pick-rate": 0.1
         },
         "duo": {
-          "win-rate": 36.5,
+          "win-rate": 38.8,
           "pick-rate": 0.2
         },
         "squad": {
-          "win-rate": 51.8,
+          "win-rate": 49.4,
           "pick-rate": 0.2
         }
       }
@@ -818,141 +818,141 @@
       "미치광이왕의카드": {
         "solo": {
           "win-rate": 0.6,
-          "pick-rate": 7.2
+          "pick-rate": 12.1
         },
         "duo": {
-          "win-rate": 4.3,
-          "pick-rate": 4.8
+          "win-rate": 5.3,
+          "pick-rate": 6.9
         },
         "squad": {
-          "win-rate": 13.2,
-          "pick-rate": 6.1
+          "win-rate": 11.8,
+          "pick-rate": 8.3
         }
       },
       "옥전결": {
         "solo": {
-          "win-rate": 2.6,
-          "pick-rate": 1.6
+          "win-rate": 0.0,
+          "pick-rate": 2.1
         },
         "duo": {
-          "win-rate": 0.0,
-          "pick-rate": 0.9
+          "win-rate": 15.5,
+          "pick-rate": 2.3
         },
         "squad": {
-          "win-rate": 9.6,
-          "pick-rate": 1.0
+          "win-rate": 0.0,
+          "pick-rate": 1.6
         }
       },
       "풍마수리검": {
         "solo": {
-          "win-rate": 0.4,
-          "pick-rate": 4.9
+          "win-rate": 1.3,
+          "pick-rate": 5.3
         },
         "duo": {
-          "win-rate": 9.6,
-          "pick-rate": 6.4
+          "win-rate": 6.7,
+          "pick-rate": 3.6
         },
         "squad": {
-          "win-rate": 14.3,
-          "pick-rate": 6.6
+          "win-rate": 9.3,
+          "pick-rate": 4.5
         }
       },
       "빙백은침": {
         "solo": {
-          "win-rate": 0.5,
-          "pick-rate": 2.3
+          "win-rate": 0.0,
+          "pick-rate": 2.5
         },
         "duo": {
-          "win-rate": 0.6,
-          "pick-rate": 1.5
+          "win-rate": 0.0,
+          "pick-rate": 2.1
         },
         "squad": {
-          "win-rate": 3.2,
-          "pick-rate": 1.7
+          "win-rate": 1.0,
+          "pick-rate": 1.9
         }
       },
       "푸른색단도": {
         "solo": {
-          "win-rate": 1.9,
-          "pick-rate": 11.0
+          "win-rate": 0.9,
+          "pick-rate": 14.8
         },
         "duo": {
-          "win-rate": 9.6,
-          "pick-rate": 15.2
+          "win-rate": 6.5,
+          "pick-rate": 17.8
         },
         "squad": {
-          "win-rate": 15.0,
-          "pick-rate": 15.8
+          "win-rate": 12.4,
+          "pick-rate": 20.4
         }
       },
       "플레솃": {
         "solo": {
-          "win-rate": 0.5,
-          "pick-rate": 2.1
+          "win-rate": 0.7,
+          "pick-rate": 5.0
         },
         "duo": {
-          "win-rate": 0.0,
-          "pick-rate": 0.8
+          "win-rate": 13.8,
+          "pick-rate": 2.6
         },
         "squad": {
-          "win-rate": 14.9,
-          "pick-rate": 1.6
+          "win-rate": 10.0,
+          "pick-rate": 2.3
         }
       },
       "건곤권": {
         "solo": {
-          "win-rate": 1.1,
-          "pick-rate": 30.9
+          "win-rate": 0.6,
+          "pick-rate": 22.8
         },
         "duo": {
-          "win-rate": 7.4,
-          "pick-rate": 34.7
+          "win-rate": 6.1,
+          "pick-rate": 32.0
         },
         "squad": {
-          "win-rate": 14.1,
-          "pick-rate": 33.0
+          "win-rate": 12.6,
+          "pick-rate": 30.0
         }
       },
       "생사부": {
         "solo": {
-          "win-rate": 5.9,
-          "pick-rate": 1.5
+          "win-rate": 1.4,
+          "pick-rate": 5.1
         },
         "duo": {
-          "win-rate": 6.6,
-          "pick-rate": 2.0
+          "win-rate": 8.8,
+          "pick-rate": 3.2
         },
         "squad": {
-          "win-rate": 17.2,
-          "pick-rate": 1.7
+          "win-rate": 10.7,
+          "pick-rate": 3.2
         }
       },
       "수다르사나": {
         "solo": {
           "win-rate": 0.0,
-          "pick-rate": 0.5
+          "pick-rate": 0.6
         },
         "duo": {
           "win-rate": 0.0,
-          "pick-rate": 0.4
+          "pick-rate": 0.3
         },
         "squad": {
           "win-rate": 0.0,
-          "pick-rate": 0.5
+          "pick-rate": 0.7
         }
       },
       "만천화우": {
         "solo": {
-          "win-rate": 2.6,
-          "pick-rate": 6.5
+          "win-rate": 1.5,
+          "pick-rate": 9.4
         },
         "duo": {
-          "win-rate": 14.1,
-          "pick-rate": 4.3
+          "win-rate": 10.3,
+          "pick-rate": 7.4
         },
         "squad": {
-          "win-rate": 20.9,
-          "pick-rate": 5.4
+          "win-rate": 17.0,
+          "pick-rate": 6.9
         }
       }
     }
@@ -961,157 +961,157 @@
     "톤파": {
       "택티컬톤파": {
         "solo": {
-          "win-rate": 5.1,
-          "pick-rate": 8.9
+          "win-rate": 4.2,
+          "pick-rate": 9.1
         },
         "duo": {
-          "win-rate": 10.9,
-          "pick-rate": 4.3
+          "win-rate": 11.8,
+          "pick-rate": 3.8
         },
         "squad": {
-          "win-rate": 12.6,
-          "pick-rate": 2.9
+          "win-rate": 13.9,
+          "pick-rate": 2.1
         }
       },
       "마이쏙": {
         "solo": {
-          "win-rate": 11.2,
-          "pick-rate": 13.0
+          "win-rate": 12.9,
+          "pick-rate": 13.9
         },
         "duo": {
-          "win-rate": 14.3,
-          "pick-rate": 12.6
+          "win-rate": 12.9,
+          "pick-rate": 12.9
         },
         "squad": {
-          "win-rate": 19.7,
-          "pick-rate": 14.3
+          "win-rate": 20.8,
+          "pick-rate": 14.4
         }
       },
       "플라즈마톤파": {
         "solo": {
-          "win-rate": 5.8,
-          "pick-rate": 68.1
+          "win-rate": 6.8,
+          "pick-rate": 69.2
         },
         "duo": {
-          "win-rate": 11.8,
-          "pick-rate": 74.5
+          "win-rate": 12.2,
+          "pick-rate": 75.7
         },
         "squad": {
-          "win-rate": 18.7,
-          "pick-rate": 75.0
+          "win-rate": 18.6,
+          "pick-rate": 76.4
         }
       }
     },
     "글러브": {
       "단영촌천투": {
         "solo": {
-          "win-rate": 9.0,
-          "pick-rate": 17.6
+          "win-rate": 8.9,
+          "pick-rate": 27.5
         },
         "duo": {
-          "win-rate": 13.6,
-          "pick-rate": 14.0
+          "win-rate": 13.1,
+          "pick-rate": 19.7
         },
         "squad": {
-          "win-rate": 18.9,
-          "pick-rate": 12.2
+          "win-rate": 18.2,
+          "pick-rate": 15.9
         }
       },
       "디바인피스트": {
         "solo": {
-          "win-rate": 4.6,
-          "pick-rate": 7.8
+          "win-rate": 6.3,
+          "pick-rate": 4.0
         },
         "duo": {
-          "win-rate": 10.9,
-          "pick-rate": 7.4
+          "win-rate": 10.3,
+          "pick-rate": 4.1
         },
         "squad": {
-          "win-rate": 15.4,
-          "pick-rate": 5.4
+          "win-rate": 14.5,
+          "pick-rate": 3.7
         }
       },
       "블러드윙너클": {
         "solo": {
-          "win-rate": 7.6,
-          "pick-rate": 12.2
+          "win-rate": 8.5,
+          "pick-rate": 14.3
         },
         "duo": {
-          "win-rate": 14.0,
-          "pick-rate": 26.5
+          "win-rate": 13.7,
+          "pick-rate": 27.9
         },
         "squad": {
           "win-rate": 19.3,
-          "pick-rate": 37.7
+          "pick-rate": 39.5
         }
       },
       "빙화현옥수": {
         "solo": {
-          "win-rate": 5.9,
-          "pick-rate": 31.4
+          "win-rate": 6.4,
+          "pick-rate": 27.6
         },
         "duo": {
-          "win-rate": 13.0,
-          "pick-rate": 25.7
+          "win-rate": 12.4,
+          "pick-rate": 25.8
         },
         "squad": {
-          "win-rate": 18.3,
+          "win-rate": 17.9,
           "pick-rate": 21.6
         }
       },
       "여래수투": {
         "solo": {
-          "win-rate": 5.8,
-          "pick-rate": 6.8
+          "win-rate": 7.3,
+          "pick-rate": 5.4
         },
         "duo": {
-          "win-rate": 13.2,
-          "pick-rate": 6.7
+          "win-rate": 11.0,
+          "pick-rate": 5.0
         },
         "squad": {
-          "win-rate": 18.1,
-          "pick-rate": 5.4
+          "win-rate": 17.3,
+          "pick-rate": 3.8
         }
       },
       "브레이질건틀릿": {
         "solo": {
-          "win-rate": 6.9,
-          "pick-rate": 1.3
+          "win-rate": 8.3,
+          "pick-rate": 1.5
         },
         "duo": {
-          "win-rate": 13.5,
-          "pick-rate": 0.8
+          "win-rate": 12.1,
+          "pick-rate": 0.9
         },
         "squad": {
-          "win-rate": 21.7,
-          "pick-rate": 0.6
+          "win-rate": 18.3,
+          "pick-rate": 0.8
         }
       },
       "소수": {
         "solo": {
-          "win-rate": 4.3,
-          "pick-rate": 2.4
+          "win-rate": 6.3,
+          "pick-rate": 2.0
         },
         "duo": {
-          "win-rate": 13.0,
+          "win-rate": 12.7,
           "pick-rate": 1.3
         },
         "squad": {
-          "win-rate": 15.7,
-          "pick-rate": 1.1
+          "win-rate": 14.8,
+          "pick-rate": 1.0
         }
       },
       "천잠장갑": {
         "solo": {
-          "win-rate": 18.7,
-          "pick-rate": 0.8
+          "win-rate": 22.2,
+          "pick-rate": 1.0
         },
         "duo": {
-          "win-rate": 31.6,
-          "pick-rate": 0.4
+          "win-rate": 25.5,
+          "pick-rate": 0.5
         },
         "squad": {
-          "win-rate": 32.9,
+          "win-rate": 39.9,
           "pick-rate": 0.4
         }
       }
@@ -1121,116 +1121,116 @@
     "돌격소총": {
       "AK-12": {
         "solo": {
-          "win-rate": 7.2,
-          "pick-rate": 61.9
+          "win-rate": 6.3,
+          "pick-rate": 76.6
         },
         "duo": {
-          "win-rate": 14.9,
-          "pick-rate": 65.5
+          "win-rate": 15.8,
+          "pick-rate": 78.6
         },
         "squad": {
-          "win-rate": 21.4,
-          "pick-rate": 69.5
+          "win-rate": 21.9,
+          "pick-rate": 80.8
         }
       },
       "XCR": {
         "solo": {
-          "win-rate": 11.1,
-          "pick-rate": 2.0
-        },
-        "duo": {
-          "win-rate": 15.4,
+          "win-rate": 12.4,
           "pick-rate": 1.5
         },
-        "squad": {
+        "duo": {
           "win-rate": 19.3,
-          "pick-rate": 1.4
+          "pick-rate": 1.0
+        },
+        "squad": {
+          "win-rate": 21.3,
+          "pick-rate": 1.1
         }
       },
       "개틀링건": {
         "solo": {
-          "win-rate": 7.2,
-          "pick-rate": 4.1
+          "win-rate": 8.8,
+          "pick-rate": 2.7
         },
         "duo": {
-          "win-rate": 13.1,
-          "pick-rate": 4.0
+          "win-rate": 12.7,
+          "pick-rate": 2.6
         },
         "squad": {
-          "win-rate": 19.5,
-          "pick-rate": 4.6
+          "win-rate": 21.0,
+          "pick-rate": 2.7
         }
       }
     },
     "권총": {
       "마탄의사수": {
         "solo": {
-          "win-rate": 6.3,
-          "pick-rate": 24.9
+          "win-rate": 7.1,
+          "pick-rate": 31.9
         },
         "duo": {
-          "win-rate": 12.7,
-          "pick-rate": 31.3
+          "win-rate": 13.2,
+          "pick-rate": 48.6
         },
         "squad": {
-          "win-rate": 18.8,
-          "pick-rate": 36.5
+          "win-rate": 19.9,
+          "pick-rate": 51.1
         }
       },
       "엘레강스": {
         "solo": {
-          "win-rate": 8.3,
-          "pick-rate": 33.0
+          "win-rate": 9.9,
+          "pick-rate": 33.1
         },
         "duo": {
-          "win-rate": 13.1,
-          "pick-rate": 30.7
+          "win-rate": 14.7,
+          "pick-rate": 22.7
         },
         "squad": {
-          "win-rate": 18.9,
-          "pick-rate": 31.1
+          "win-rate": 20.8,
+          "pick-rate": 23.3
         }
       },
       "일렉트론블라스터": {
         "solo": {
-          "win-rate": 7.3,
-          "pick-rate": 20.2
+          "win-rate": 7.8,
+          "pick-rate": 17.8
         },
         "duo": {
-          "win-rate": 12.3,
-          "pick-rate": 18.9
+          "win-rate": 13.4,
+          "pick-rate": 12.4
         },
         "squad": {
-          "win-rate": 17.5,
-          "pick-rate": 16.4
+          "win-rate": 18.2,
+          "pick-rate": 11.4
         }
       },
       "매그넘-보아": {
         "solo": {
-          "win-rate": 8.2,
-          "pick-rate": 3.5
+          "win-rate": 11.7,
+          "pick-rate": 3.9
         },
         "duo": {
-          "win-rate": 14.8,
+          "win-rate": 14.2,
           "pick-rate": 2.9
         },
         "squad": {
-          "win-rate": 19.3,
-          "pick-rate": 2.7
+          "win-rate": 18.4,
+          "pick-rate": 2.0
         }
       },
       "악켈테": {
         "solo": {
-          "win-rate": 23.3,
-          "pick-rate": 0.8
-        },
-        "duo": {
-          "win-rate": 36.7,
+          "win-rate": 26.2,
           "pick-rate": 0.9
         },
+        "duo": {
+          "win-rate": 37.4,
+          "pick-rate": 1.3
+        },
         "squad": {
-          "win-rate": 40.6,
-          "pick-rate": 0.7
+          "win-rate": 57.5,
+          "pick-rate": 1.4
         }
       }
     }
@@ -1239,302 +1239,302 @@
     "도끼": {
       "빔엑스": {
         "solo": {
-          "win-rate": 4.8,
-          "pick-rate": 11.8
+          "win-rate": 4.0,
+          "pick-rate": 19.4
         },
         "duo": {
-          "win-rate": 11.9,
-          "pick-rate": 15.6
+          "win-rate": 12.2,
+          "pick-rate": 18.0
         },
         "squad": {
-          "win-rate": 19.2,
-          "pick-rate": 17.9
+          "win-rate": 17.8,
+          "pick-rate": 18.7
         }
       },
       "산타무에르떼": {
         "solo": {
-          "win-rate": 9.1,
-          "pick-rate": 14.2
+          "win-rate": 9.0,
+          "pick-rate": 15.6
         },
         "duo": {
-          "win-rate": 15.1,
-          "pick-rate": 14.7
+          "win-rate": 14.2,
+          "pick-rate": 17.6
         },
         "squad": {
-          "win-rate": 19.4,
-          "pick-rate": 14.5
+          "win-rate": 19.9,
+          "pick-rate": 17.2
         }
       },
       "스퀴테": {
         "solo": {
-          "win-rate": 7.0,
-          "pick-rate": 7.7
+          "win-rate": 5.7,
+          "pick-rate": 7.9
         },
         "duo": {
-          "win-rate": 13.3,
-          "pick-rate": 8.0
+          "win-rate": 14.0,
+          "pick-rate": 8.9
         },
         "squad": {
-          "win-rate": 20.5,
-          "pick-rate": 9.5
+          "win-rate": 20.6,
+          "pick-rate": 9.2
         }
       },
       "파라슈": {
         "solo": {
-          "win-rate": 4.7,
-          "pick-rate": 39.3
+          "win-rate": 5.3,
+          "pick-rate": 25.8
         },
         "duo": {
-          "win-rate": 11.7,
-          "pick-rate": 38.9
+          "win-rate": 10.8,
+          "pick-rate": 28.8
         },
         "squad": {
-          "win-rate": 17.8,
-          "pick-rate": 37.4
+          "win-rate": 17.4,
+          "pick-rate": 29.4
         }
       },
       "하르페": {
         "solo": {
-          "win-rate": 9.2,
-          "pick-rate": 6.0
+          "win-rate": 6.7,
+          "pick-rate": 18.9
         },
         "duo": {
-          "win-rate": 17.1,
-          "pick-rate": 4.6
+          "win-rate": 16.1,
+          "pick-rate": 14.7
         },
         "squad": {
-          "win-rate": 26.1,
-          "pick-rate": 6.1
+          "win-rate": 25.0,
+          "pick-rate": 15.0
         }
       }
     },
     "양손검": {
       "뚜언띠엔": {
         "solo": {
-          "win-rate": 5.7,
-          "pick-rate": 30.4
+          "win-rate": 6.0,
+          "pick-rate": 21.8
         },
         "duo": {
-          "win-rate": 13.4,
-          "pick-rate": 35.7
+          "win-rate": 12.4,
+          "pick-rate": 31.1
         },
         "squad": {
-          "win-rate": 16.9,
-          "pick-rate": 33.7
+          "win-rate": 17.8,
+          "pick-rate": 28.1
         }
       },
       "아론다이트": {
         "solo": {
-          "win-rate": 9.8,
-          "pick-rate": 10.5
+          "win-rate": 8.8,
+          "pick-rate": 17.8
         },
         "duo": {
-          "win-rate": 17.2,
-          "pick-rate": 9.9
+          "win-rate": 14.5,
+          "pick-rate": 14.1
         },
         "squad": {
-          "win-rate": 21.8,
-          "pick-rate": 14.1
+          "win-rate": 21.4,
+          "pick-rate": 17.0
         }
       },
       "엑스칼리버": {
         "solo": {
-          "win-rate": 12.1,
-          "pick-rate": 1.5
+          "win-rate": 12.7,
+          "pick-rate": 2.2
         },
         "duo": {
-          "win-rate": 18.3,
-          "pick-rate": 1.8
+          "win-rate": 18.2,
+          "pick-rate": 3.3
         },
         "squad": {
-          "win-rate": 24.3,
-          "pick-rate": 2.2
+          "win-rate": 23.0,
+          "pick-rate": 4.8
         }
       },
       "플라즈마소드": {
         "solo": {
-          "win-rate": 5.3,
-          "pick-rate": 4.2
+          "win-rate": 5.8,
+          "pick-rate": 7.2
         },
         "duo": {
-          "win-rate": 12.1,
-          "pick-rate": 3.0
+          "win-rate": 6.7,
+          "pick-rate": 5.2
         },
         "squad": {
           "win-rate": 17.1,
-          "pick-rate": 4.3
+          "pick-rate": 7.9
         }
       },
       "레바테인": {
         "solo": {
-          "win-rate": 16.1,
-          "pick-rate": 6.3
+          "win-rate": 18.3,
+          "pick-rate": 10.8
         },
         "duo": {
-          "win-rate": 23.7,
-          "pick-rate": 4.9
+          "win-rate": 23.8,
+          "pick-rate": 9.3
         },
         "squad": {
-          "win-rate": 28.9,
-          "pick-rate": 5.9
+          "win-rate": 31.8,
+          "pick-rate": 9.2
         }
       },
       "모노호시자오": {
         "solo": {
-          "win-rate": 9.5,
-          "pick-rate": 12.8
+          "win-rate": 10.4,
+          "pick-rate": 16.7
         },
         "duo": {
-          "win-rate": 17.2,
-          "pick-rate": 11.1
+          "win-rate": 15.3,
+          "pick-rate": 12.6
         },
         "squad": {
-          "win-rate": 20.0,
-          "pick-rate": 11.8
+          "win-rate": 20.6,
+          "pick-rate": 11.4
         }
       },
       "호푸어드": {
         "solo": {
-          "win-rate": 9.1,
-          "pick-rate": 3.1
+          "win-rate": 8.6,
+          "pick-rate": 3.2
         },
         "duo": {
-          "win-rate": 20.8,
-          "pick-rate": 3.0
+          "win-rate": 17.3,
+          "pick-rate": 2.3
         },
         "squad": {
-          "win-rate": 26.4,
-          "pick-rate": 2.9
+          "win-rate": 19.5,
+          "pick-rate": 3.1
         }
       },
       "다인슬라이프": {
         "solo": {
-          "win-rate": 33.1,
+          "win-rate": 34.9,
           "pick-rate": 1.2
         },
         "duo": {
-          "win-rate": 48.2,
-          "pick-rate": 1.4
+          "win-rate": 46.4,
+          "pick-rate": 1.6
         },
         "squad": {
-          "win-rate": 59.1,
-          "pick-rate": 1.7
+          "win-rate": 45.1,
+          "pick-rate": 1.5
         }
       }
     },
     "쌍검": {
       "이천일류": {
         "solo": {
-          "win-rate": 7.7,
-          "pick-rate": 36.3
+          "win-rate": 6.4,
+          "pick-rate": 34.4
         },
         "duo": {
-          "win-rate": 12.2,
-          "pick-rate": 34.5
+          "win-rate": 11.0,
+          "pick-rate": 32.3
         },
         "squad": {
-          "win-rate": 17.3,
-          "pick-rate": 33.3
+          "win-rate": 15.9,
+          "pick-rate": 30.5
         }
       },
       "자웅일대검": {
         "solo": {
-          "win-rate": 24.1,
-          "pick-rate": 2.6
+          "win-rate": 23.3,
+          "pick-rate": 3.0
         },
         "duo": {
-          "win-rate": 32.9,
-          "pick-rate": 1.9
+          "win-rate": 28.8,
+          "pick-rate": 2.3
         },
         "squad": {
-          "win-rate": 36.8,
-          "pick-rate": 2.0
+          "win-rate": 34.2,
+          "pick-rate": 2.4
         }
       },
       "디오스쿠로이": {
         "solo": {
-          "win-rate": 7.5,
-          "pick-rate": 48.2
+          "win-rate": 6.5,
+          "pick-rate": 51.3
         },
         "duo": {
-          "win-rate": 13.6,
-          "pick-rate": 52.5
+          "win-rate": 12.4,
+          "pick-rate": 55.4
         },
         "squad": {
-          "win-rate": 18.6,
-          "pick-rate": 54.4
+          "win-rate": 18.2,
+          "pick-rate": 56.9
         }
       },
       "로이거 차르": {
         "solo": {
-          "win-rate": 5.0,
-          "pick-rate": 3.5
+          "win-rate": 5.1,
+          "pick-rate": 3.2
         },
         "duo": {
-          "win-rate": 13.6,
-          "pick-rate": 4.2
+          "win-rate": 14.8,
+          "pick-rate": 3.9
         },
         "squad": {
-          "win-rate": 18.4,
-          "pick-rate": 4.4
+          "win-rate": 19.6,
+          "pick-rate": 5.1
         }
       }
     },
     "단검": {
       "카른웬난": {
         "solo": {
-          "win-rate": 6.9,
-          "pick-rate": 5.8
+          "win-rate": 8.0,
+          "pick-rate": 5.6
         },
         "duo": {
-          "win-rate": 12.9,
-          "pick-rate": 4.5
+          "win-rate": 12.8,
+          "pick-rate": 4.9
         },
         "squad": {
-          "win-rate": 15.4,
-          "pick-rate": 4.5
+          "win-rate": 18.2,
+          "pick-rate": 5.2
         }
       },
       "파산검": {
         "solo": {
-          "win-rate": 7.5,
-          "pick-rate": 2.9
+          "win-rate": 6.5,
+          "pick-rate": 3.0
         },
         "duo": {
-          "win-rate": 13.2,
+          "win-rate": 13.1,
           "pick-rate": 3.8
         },
         "squad": {
-          "win-rate": 18.3,
-          "pick-rate": 4.4
+          "win-rate": 18.0,
+          "pick-rate": 3.9
         }
       },
       "초진동나이프": {
         "solo": {
-          "win-rate": 5.5,
-          "pick-rate": 58.1
+          "win-rate": 7.1,
+          "pick-rate": 65.7
         },
         "duo": {
-          "win-rate": 10.3,
-          "pick-rate": 59.7
+          "win-rate": 11.6,
+          "pick-rate": 66.7
         },
         "squad": {
-          "win-rate": 15.1,
-          "pick-rate": 61.3
+          "win-rate": 16.6,
+          "pick-rate": 69.5
         }
       },
       "프라가라흐": {
         "solo": {
-          "win-rate": 36.6,
-          "pick-rate": 1.7
+          "win-rate": 39.3,
+          "pick-rate": 3.6
         },
         "duo": {
-          "win-rate": 42.3,
-          "pick-rate": 1.4
+          "win-rate": 44.6,
+          "pick-rate": 2.6
         },
         "squad": {
-          "win-rate": 42.7,
-          "pick-rate": 1.5
+          "win-rate": 48.1,
+          "pick-rate": 2.3
         }
       }
     }
@@ -1543,144 +1543,144 @@
     "글러브": {
       "단영촌천투": {
         "solo": {
-          "win-rate": 6.1,
-          "pick-rate": 37.4
+          "win-rate": 6.2,
+          "pick-rate": 37.8
         },
         "duo": {
-          "win-rate": 12.2,
-          "pick-rate": 39.0
+          "win-rate": 11.6,
+          "pick-rate": 40.9
         },
         "squad": {
-          "win-rate": 17.9,
-          "pick-rate": 40.6
+          "win-rate": 17.7,
+          "pick-rate": 41.0
         }
       },
       "디바인피스트": {
         "solo": {
-          "win-rate": 3.1,
-          "pick-rate": 5.5
+          "win-rate": 4.9,
+          "pick-rate": 3.7
         },
         "duo": {
-          "win-rate": 9.9,
-          "pick-rate": 6.5
+          "win-rate": 8.8,
+          "pick-rate": 5.9
         },
         "squad": {
-          "win-rate": 15.2,
-          "pick-rate": 5.9
+          "win-rate": 14.4,
+          "pick-rate": 5.6
         }
       },
       "블러드윙너클": {
         "solo": {
-          "win-rate": 7.2,
-          "pick-rate": 4.6
+          "win-rate": 7.0,
+          "pick-rate": 6.8
         },
         "duo": {
-          "win-rate": 13.4,
-          "pick-rate": 4.8
+          "win-rate": 13.8,
+          "pick-rate": 6.9
         },
         "squad": {
           "win-rate": 20.0,
-          "pick-rate": 6.1
+          "pick-rate": 8.0
         }
       },
       "빙화현옥수": {
         "solo": {
-          "win-rate": 7.2,
-          "pick-rate": 4.0
+          "win-rate": 7.8,
+          "pick-rate": 7.1
         },
         "duo": {
-          "win-rate": 15.6,
-          "pick-rate": 3.5
+          "win-rate": 14.6,
+          "pick-rate": 5.6
         },
         "squad": {
-          "win-rate": 21.7,
-          "pick-rate": 4.0
+          "win-rate": 22.1,
+          "pick-rate": 5.8
         }
       },
       "여래수투": {
         "solo": {
-          "win-rate": 2.5,
-          "pick-rate": 0.4
+          "win-rate": 2.2,
+          "pick-rate": 0.3
         },
         "duo": {
-          "win-rate": 6.7,
+          "win-rate": 10.0,
           "pick-rate": 0.3
         },
         "squad": {
-          "win-rate": 14.4,
-          "pick-rate": 0.2
+          "win-rate": 17.4,
+          "pick-rate": 0.4
         }
       },
       "브레이질건틀릿": {
         "solo": {
-          "win-rate": 3.3,
-          "pick-rate": 0.7
+          "win-rate": 6.6,
+          "pick-rate": 0.5
         },
         "duo": {
-          "win-rate": 8.7,
-          "pick-rate": 0.6
+          "win-rate": 9.6,
+          "pick-rate": 0.5
         },
         "squad": {
-          "win-rate": 17.0,
+          "win-rate": 14.8,
           "pick-rate": 0.5
         }
       },
       "소수": {
         "solo": {
-          "win-rate": 5.8,
-          "pick-rate": 26.5
+          "win-rate": 5.0,
+          "pick-rate": 26.6
         },
         "duo": {
-          "win-rate": 12.7,
-          "pick-rate": 27.8
+          "win-rate": 11.5,
+          "pick-rate": 25.9
         },
         "squad": {
-          "win-rate": 18.2,
-          "pick-rate": 28.1
+          "win-rate": 17.1,
+          "pick-rate": 26.1
         }
       },
       "천잠장갑": {
         "solo": {
-          "win-rate": 21.4,
-          "pick-rate": 1.3
+          "win-rate": 22.9,
+          "pick-rate": 2.5
         },
         "duo": {
-          "win-rate": 35.3,
-          "pick-rate": 0.5
+          "win-rate": 32.0,
+          "pick-rate": 0.9
         },
         "squad": {
-          "win-rate": 42.5,
-          "pick-rate": 0.6
+          "win-rate": 38.0,
+          "pick-rate": 1.0
         }
       }
     },
     "쌍절곤": {
       "대소반룡곤": {
         "solo": {
-          "win-rate": 2.9,
-          "pick-rate": 17.2
+          "win-rate": 4.5,
+          "pick-rate": 10.6
         },
         "duo": {
-          "win-rate": 10.2,
-          "pick-rate": 16.7
+          "win-rate": 10.1,
+          "pick-rate": 13.5
         },
         "squad": {
-          "win-rate": 15.7,
-          "pick-rate": 16.7
+          "win-rate": 16.5,
+          "pick-rate": 14.0
         }
       },
       "초진동눈차크": {
         "solo": {
-          "win-rate": 6.0,
-          "pick-rate": 67.2
+          "win-rate": 5.8,
+          "pick-rate": 76.5
         },
         "duo": {
-          "win-rate": 12.2,
-          "pick-rate": 69.7
+          "win-rate": 11.6,
+          "pick-rate": 74.9
         },
         "squad": {
-          "win-rate": 17.3,
-          "pick-rate": 72.1
+          "win-rate": 17.9,
+          "pick-rate": 75.7
         }
       }
     }
@@ -1689,130 +1689,130 @@
     "배트": {
       "구원의여신상": {
         "solo": {
-          "win-rate": 10.1,
-          "pick-rate": 54.7
+          "win-rate": 10.7,
+          "pick-rate": 68.7
         },
         "duo": {
-          "win-rate": 14.3,
-          "pick-rate": 36.3
+          "win-rate": 14.0,
+          "pick-rate": 46.1
         },
         "squad": {
-          "win-rate": 20.3,
-          "pick-rate": 36.2
+          "win-rate": 20.5,
+          "pick-rate": 43.7
         }
       },
       "타구봉": {
         "solo": {
-          "win-rate": 6.2,
-          "pick-rate": 21.4
+          "win-rate": 7.6,
+          "pick-rate": 13.0
         },
         "duo": {
-          "win-rate": 12.9,
-          "pick-rate": 32.6
+          "win-rate": 11.7,
+          "pick-rate": 26.7
         },
         "squad": {
-          "win-rate": 18.3,
-          "pick-rate": 33.6
+          "win-rate": 18.4,
+          "pick-rate": 28.0
         }
       },
       "스파이의우산": {
         "solo": {
-          "win-rate": 7.6,
-          "pick-rate": 1.8
+          "win-rate": 9.9,
+          "pick-rate": 1.3
         },
         "duo": {
-          "win-rate": 13.8,
-          "pick-rate": 3.1
+          "win-rate": 15.8,
+          "pick-rate": 2.7
         },
         "squad": {
-          "win-rate": 22.9,
-          "pick-rate": 4.0
+          "win-rate": 18.6,
+          "pick-rate": 4.1
         }
       },
       "여의봉": {
         "solo": {
-          "win-rate": 7.3,
-          "pick-rate": 48.9
+          "win-rate": 8.9,
+          "pick-rate": 51.3
         },
         "duo": {
-          "win-rate": 16.1,
-          "pick-rate": 39.1
+          "win-rate": 15.4,
+          "pick-rate": 40.8
         },
         "squad": {
           "win-rate": 21.8,
-          "pick-rate": 36.1
+          "pick-rate": 37.1
         }
       }
     },
     "망치": {
       "낭아봉": {
         "solo": {
-          "win-rate": 14.1,
-          "pick-rate": 10.3
+          "win-rate": 15.4,
+          "pick-rate": 11.5
         },
         "duo": {
-          "win-rate": 15.6,
-          "pick-rate": 15.0
+          "win-rate": 15.1,
+          "pick-rate": 17.5
         },
         "squad": {
-          "win-rate": 22.0,
-          "pick-rate": 19.6
+          "win-rate": 21.3,
+          "pick-rate": 21.8
         }
       },
       "다그다의망치": {
         "solo": {
-          "win-rate": 5.7,
-          "pick-rate": 16.5
+          "win-rate": 7.4,
+          "pick-rate": 13.3
         },
         "duo": {
-          "win-rate": 12.4,
-          "pick-rate": 23.5
+          "win-rate": 12.5,
+          "pick-rate": 19.9
         },
         "squad": {
-          "win-rate": 18.5,
-          "pick-rate": 23.9
+          "win-rate": 18.4,
+          "pick-rate": 21.7
         }
       },
       "토르의망치": {
         "solo": {
-          "win-rate": 22.6,
-          "pick-rate": 5.4
+          "win-rate": 20.9,
+          "pick-rate": 5.0
         },
         "duo": {
-          "win-rate": 33.6,
-          "pick-rate": 2.7
+          "win-rate": 32.7,
+          "pick-rate": 3.0
         },
         "squad": {
-          "win-rate": 39.6,
-          "pick-rate": 2.6
+          "win-rate": 38.1,
+          "pick-rate": 2.3
         }
       },
       "개밥바라기": {
         "solo": {
-          "win-rate": 5.2,
-          "pick-rate": 0.3
+          "win-rate": 12.0,
+          "pick-rate": 0.4
         },
         "duo": {
-          "win-rate": 12.2,
+          "win-rate": 18.1,
           "pick-rate": 0.2
         },
         "squad": {
-          "win-rate": 13.6,
-          "pick-rate": 0.1
+          "win-rate": 23.2,
+          "pick-rate": 0.2
         }
       },
       "마법봉": {
         "solo": {
-          "win-rate": 30.4,
-          "pick-rate": 1.9
+          "win-rate": 28.7,
+          "pick-rate": 2.0
         },
         "duo": {
-          "win-rate": 32.9,
-          "pick-rate": 0.8
+          "win-rate": 45.9,
+          "pick-rate": 1.0
         },
         "squad": {
-          "win-rate": 51.3,
-          "pick-rate": 0.9
+          "win-rate": 41.4,
+          "pick-rate": 0.8
         }
       }
     }
@@ -1821,144 +1821,144 @@
     "활": {
       "편전": {
         "solo": {
-          "win-rate": 4.4,
-          "pick-rate": 45.6
+          "win-rate": 5.2,
+          "pick-rate": 48.6
         },
         "duo": {
-          "win-rate": 11.3,
-          "pick-rate": 48.1
+          "win-rate": 12.0,
+          "pick-rate": 47.2
         },
         "squad": {
-          "win-rate": 16.9,
-          "pick-rate": 47.8
+          "win-rate": 17.8,
+          "pick-rate": 45.0
         }
       },
       "골든래쇼보우": {
         "solo": {
-          "win-rate": 8.8,
-          "pick-rate": 0.6
+          "win-rate": 9.9,
+          "pick-rate": 1.4
         },
         "duo": {
-          "win-rate": 12.5,
-          "pick-rate": 1.0
+          "win-rate": 10.0,
+          "pick-rate": 1.5
         },
         "squad": {
-          "win-rate": 22.4,
-          "pick-rate": 1.6
+          "win-rate": 20.4,
+          "pick-rate": 2.3
         }
       },
       "트윈보우": {
         "solo": {
-          "win-rate": 4.9,
-          "pick-rate": 24.2
+          "win-rate": 4.8,
+          "pick-rate": 29.9
         },
         "duo": {
-          "win-rate": 12.8,
-          "pick-rate": 24.1
+          "win-rate": 12.7,
+          "pick-rate": 33.3
         },
         "squad": {
-          "win-rate": 18.3,
-          "pick-rate": 26.1
+          "win-rate": 17.6,
+          "pick-rate": 34.8
         }
       },
       "엘리멘탈보우": {
         "solo": {
-          "win-rate": 5.3,
-          "pick-rate": 1.5
+          "win-rate": 8.1,
+          "pick-rate": 1.9
         },
         "duo": {
-          "win-rate": 17.3,
-          "pick-rate": 3.2
+          "win-rate": 15.1,
+          "pick-rate": 3.5
         },
         "squad": {
-          "win-rate": 22.3,
-          "pick-rate": 4.6
+          "win-rate": 22.4,
+          "pick-rate": 5.2
         }
       },
       "페일노트": {
         "solo": {
-          "win-rate": 32.6,
-          "pick-rate": 0.7
+          "win-rate": 26.1,
+          "pick-rate": 1.1
         },
         "duo": {
-          "win-rate": 46.4,
-          "pick-rate": 0.7
+          "win-rate": 45.2,
+          "pick-rate": 1.4
         },
         "squad": {
-          "win-rate": 57.1,
-          "pick-rate": 1.0
+          "win-rate": 58.2,
+          "pick-rate": 1.4
         }
       }
     },
     "석궁": {
       "대황": {
         "solo": {
-          "win-rate": 5.2,
-          "pick-rate": 11.3
+          "win-rate": 5.9,
+          "pick-rate": 7.5
         },
         "duo": {
-          "win-rate": 11.4,
-          "pick-rate": 11.9
+          "win-rate": 11.6,
+          "pick-rate": 7.1
         },
         "squad": {
-          "win-rate": 17.1,
-          "pick-rate": 10.7
+          "win-rate": 16.0,
+          "pick-rate": 7.1
         }
       },
       "발리스타": {
         "solo": {
-          "win-rate": 4.0,
-          "pick-rate": 2.1
+          "win-rate": 4.8,
+          "pick-rate": 1.6
         },
         "duo": {
-          "win-rate": 9.9,
-          "pick-rate": 1.8
+          "win-rate": 8.2,
+          "pick-rate": 1.3
         },
         "squad": {
-          "win-rate": 15.6,
-          "pick-rate": 1.6
+          "win-rate": 16.0,
+          "pick-rate": 1.3
         }
       },
       "저격크로스보우": {
         "solo": {
-          "win-rate": 6.8,
-          "pick-rate": 25.1
+          "win-rate": 6.9,
+          "pick-rate": 28.1
         },
         "duo": {
-          "win-rate": 15.6,
-          "pick-rate": 32.8
+          "win-rate": 15.5,
+          "pick-rate": 40.4
         },
         "squad": {
-          "win-rate": 21.0,
-          "pick-rate": 39.2
+          "win-rate": 20.4,
+          "pick-rate": 44.8
         }
       },
       "영광금귀신기노": {
         "solo": {
-          "win-rate": 6.6,
-          "pick-rate": 36.0
+          "win-rate": 7.1,
+          "pick-rate": 43.4
         },
         "duo": {
-          "win-rate": 13.0,
-          "pick-rate": 31.7
+          "win-rate": 13.2,
+          "pick-rate": 35.8
         },
         "squad": {
           "win-rate": 17.5,
-          "pick-rate": 30.5
+          "pick-rate": 32.9
         }
       },
       "샤릉가": {
         "solo": {
-          "win-rate": 32.4,
-          "pick-rate": 2.4
+          "win-rate": 33.4,
+          "pick-rate": 2.7
         },
         "duo": {
-          "win-rate": 44.4,
-          "pick-rate": 2.0
+          "win-rate": 39.2,
+          "pick-rate": 2.4
         },
         "squad": {
-          "win-rate": 48.6,
-          "pick-rate": 1.9
+          "win-rate": 47.2,
+          "pick-rate": 2.3
         }
       }
     }
@@ -1967,57 +1967,57 @@
     "단검": {
       "카른웬난": {
         "solo": {
-          "win-rate": 2.2,
-          "pick-rate": 0.5
+          "win-rate": 4.1,
+          "pick-rate": 0.4
         },
         "duo": {
-          "win-rate": 7.4,
-          "pick-rate": 0.5
+          "win-rate": 7.8,
+          "pick-rate": 0.3
         },
         "squad": {
-          "win-rate": 12.8,
+          "win-rate": 11.8,
           "pick-rate": 0.3
         }
       },
       "파산검": {
         "solo": {
-          "win-rate": 6.7,
-          "pick-rate": 66.3
+          "win-rate": 7.3,
+          "pick-rate": 75.2
         },
         "duo": {
           "win-rate": 14.9,
-          "pick-rate": 70.1
+          "pick-rate": 79.1
         },
         "squad": {
-          "win-rate": 20.0,
-          "pick-rate": 73.8
+          "win-rate": 20.3,
+          "pick-rate": 80.9
         }
       },
       "초진동나이프": {
         "solo": {
           "win-rate": 2.7,
-          "pick-rate": 3.6
+          "pick-rate": 2.0
         },
         "duo": {
-          "win-rate": 7.5,
-          "pick-rate": 3.6
+          "win-rate": 7.4,
+          "pick-rate": 2.5
         },
         "squad": {
           "win-rate": 12.4,
-          "pick-rate": 3.7
+          "pick-rate": 2.6
         }
       },
       "프라가라흐": {
         "solo": {
-          "win-rate": 19.2,
+          "win-rate": 21.8,
           "pick-rate": 0.5
         },
         "duo": {
-          "win-rate": 38.5,
+          "win-rate": 38.9,
           "pick-rate": 0.8
         },
         "squad": {
-          "win-rate": 43.5,
+          "win-rate": 44.5,
           "pick-rate": 0.8
         }
       }
@@ -2027,72 +2027,72 @@
     "권총": {
       "마탄의사수": {
         "solo": {
-          "win-rate": 2.4,
-          "pick-rate": 13.6
+          "win-rate": 3.3,
+          "pick-rate": 8.9
         },
         "duo": {
-          "win-rate": 7.8,
-          "pick-rate": 12.5
+          "win-rate": 9.3,
+          "pick-rate": 11.0
         },
         "squad": {
-          "win-rate": 14.5,
-          "pick-rate": 12.6
+          "win-rate": 15.0,
+          "pick-rate": 11.2
         }
       },
       "엘레강스": {
         "solo": {
-          "win-rate": 3.2,
-          "pick-rate": 9.9
+          "win-rate": 4.1,
+          "pick-rate": 9.1
         },
         "duo": {
-          "win-rate": 10.1,
-          "pick-rate": 14.7
+          "win-rate": 11.4,
+          "pick-rate": 12.5
         },
         "squad": {
-          "win-rate": 17.4,
-          "pick-rate": 17.4
+          "win-rate": 18.5,
+          "pick-rate": 15.4
         }
       },
       "일렉트론블라스터": {
         "solo": {
-          "win-rate": 3.7,
-          "pick-rate": 46.8
+          "win-rate": 4.3,
+          "pick-rate": 54.4
         },
         "duo": {
-          "win-rate": 10.3,
-          "pick-rate": 46.1
+          "win-rate": 10.5,
+          "pick-rate": 52.5
         },
         "squad": {
-          "win-rate": 16.5,
-          "pick-rate": 44.9
+          "win-rate": 17.7,
+          "pick-rate": 50.1
         }
       },
       "매그넘-보아": {
         "solo": {
-          "win-rate": 4.2,
+          "win-rate": 4.6,
           "pick-rate": 8.6
         },
         "duo": {
-          "win-rate": 10.1,
-          "pick-rate": 7.1
+          "win-rate": 10.3,
+          "pick-rate": 6.9
         },
         "squad": {
-          "win-rate": 17.6,
-          "pick-rate": 7.8
+          "win-rate": 19.7,
+          "pick-rate": 7.7
         }
       },
       "악켈테": {
         "solo": {
-          "win-rate": 20.0,
-          "pick-rate": 1.5
+          "win-rate": 18.3,
+          "pick-rate": 1.9
         },
         "duo": {
-          "win-rate": 30.0,
-          "pick-rate": 1.6
+          "win-rate": 36.1,
+          "pick-rate": 1.8
         },
         "squad": {
-          "win-rate": 42.0,
-          "pick-rate": 1.7
+          "win-rate": 42.4,
+          "pick-rate": 1.9
         }
       }
     }
@@ -2101,142 +2101,142 @@
     "암기": {
       "미치광이왕의카드": {
         "solo": {
-          "win-rate": 3.7,
-          "pick-rate": 1.8
+          "win-rate": 4.3,
+          "pick-rate": 2.5
         },
         "duo": {
-          "win-rate": 10.0,
+          "win-rate": 10.4,
           "pick-rate": 1.0
         },
         "squad": {
-          "win-rate": 15.0,
-          "pick-rate": 1.1
+          "win-rate": 17.8,
+          "pick-rate": 0.8
         }
       },
       "옥전결": {
         "solo": {
-          "win-rate": 6.7,
-          "pick-rate": 1.2
+          "win-rate": 5.8,
+          "pick-rate": 1.4
         },
         "duo": {
-          "win-rate": 12.8,
+          "win-rate": 16.4,
           "pick-rate": 1.1
         },
         "squad": {
-          "win-rate": 23.0,
-          "pick-rate": 1.4
+          "win-rate": 25.5,
+          "pick-rate": 1.2
         }
       },
       "풍마수리검": {
         "solo": {
-          "win-rate": 5.7,
+          "win-rate": 7.1,
           "pick-rate": 1.6
         },
         "duo": {
-          "win-rate": 10.7,
+          "win-rate": 11.0,
           "pick-rate": 1.2
         },
         "squad": {
-          "win-rate": 19.0,
-          "pick-rate": 1.3
+          "win-rate": 17.9,
+          "pick-rate": 1.1
         }
       },
       "빙백은침": {
         "solo": {
-          "win-rate": 0.3,
-          "pick-rate": 2.7
+          "win-rate": 0.2,
+          "pick-rate": 3.1
         },
         "duo": {
-          "win-rate": 1.9,
-          "pick-rate": 1.9
+          "win-rate": 1.1,
+          "pick-rate": 2.4
         },
         "squad": {
-          "win-rate": 4.5,
-          "pick-rate": 1.9
+          "win-rate": 4.1,
+          "pick-rate": 2.1
         }
       },
       "푸른색단도": {
         "solo": {
-          "win-rate": 4.3,
-          "pick-rate": 8.3
+          "win-rate": 5.4,
+          "pick-rate": 4.8
         },
         "duo": {
-          "win-rate": 10.3,
-          "pick-rate": 9.8
+          "win-rate": 9.6,
+          "pick-rate": 6.3
         },
         "squad": {
-          "win-rate": 17.6,
-          "pick-rate": 8.9
+          "win-rate": 16.1,
+          "pick-rate": 6.2
         }
       },
       "플레솃": {
         "solo": {
-          "win-rate": 6.8,
-          "pick-rate": 2.0
+          "win-rate": 4.4,
+          "pick-rate": 3.1
         },
         "duo": {
-          "win-rate": 12.1,
-          "pick-rate": 1.1
+          "win-rate": 10.2,
+          "pick-rate": 1.2
         },
         "squad": {
-          "win-rate": 20.6,
-          "pick-rate": 0.9
+          "win-rate": 18.3,
+          "pick-rate": 1.1
         }
       },
       "건곤권": {
         "solo": {
-          "win-rate": 5.7,
-          "pick-rate": 44.8
+          "win-rate": 5.1,
+          "pick-rate": 42.3
         },
         "duo": {
-          "win-rate": 12.6,
-          "pick-rate": 52.3
+          "win-rate": 12.4,
+          "pick-rate": 51.8
         },
         "squad": {
-          "win-rate": 19.6,
-          "pick-rate": 55.7
+          "win-rate": 19.1,
+          "pick-rate": 55.1
         }
       },
       "생사부": {
         "solo": {
-          "win-rate": 8.8,
-          "pick-rate": 6.4
+          "win-rate": 8.6,
+          "pick-rate": 9.1
         },
         "duo": {
-          "win-rate": 17.1,
-          "pick-rate": 5.1
+          "win-rate": 17.4,
+          "pick-rate": 8.2
         },
         "squad": {
-          "win-rate": 26.0,
-          "pick-rate": 4.6
+          "win-rate": 25.4,
+          "pick-rate": 7.7
         }
       },
       "수다르사나": {
         "solo": {
-          "win-rate": 31.3,
-          "pick-rate": 0.6
+          "win-rate": 30.1,
+          "pick-rate": 0.7
         },
         "duo": {
-          "win-rate": 47.7,
+          "win-rate": 48.2,
           "pick-rate": 0.5
         },
         "squad": {
-          "win-rate": 60.3,
+          "win-rate": 59.9,
           "pick-rate": 0.6
         }
       },
       "만천화우": {
         "solo": {
-          "win-rate": 10.2,
-          "pick-rate": 10.7
+          "win-rate": 8.7,
+          "pick-rate": 12.5
         },
         "duo": {
           "win-rate": 18.0,
-          "pick-rate": 8.5
+          "pick-rate": 11.0
         },
         "squad": {
-          "win-rate": 27.8,
-          "pick-rate": 9.0
+          "win-rate": 27.2,
+          "pick-rate": 10.8
         }
       }
     }
@@ -2245,30 +2245,30 @@
     "창": {
       "애각창": {
         "solo": {
-          "win-rate": 5.5,
-          "pick-rate": 4.9
+          "win-rate": 5.2,
+          "pick-rate": 7.9
         },
         "duo": {
-          "win-rate": 10.6,
-          "pick-rate": 5.4
+          "win-rate": 11.4,
+          "pick-rate": 6.8
         },
         "squad": {
-          "win-rate": 16.6,
-          "pick-rate": 6.8
+          "win-rate": 19.0,
+          "pick-rate": 8.5
         }
       },
       "장팔사모": {
         "solo": {
-          "win-rate": 4.4,
-          "pick-rate": 0.7
+          "win-rate": 4.8,
+          "pick-rate": 0.4
         },
         "duo": {
-          "win-rate": 12.1,
-          "pick-rate": 0.6
+          "win-rate": 12.4,
+          "pick-rate": 0.4
         },
         "squad": {
-          "win-rate": 18.0,
-          "pick-rate": 0.5
+          "win-rate": 15.2,
+          "pick-rate": 0.4
         }
       },
       "코스믹바이던트": {
@@ -2277,82 +2277,82 @@
           "pick-rate": 0.1
         },
         "duo": {
-          "win-rate": 27.6,
+          "win-rate": 0.0,
           "pick-rate": 0.1
         },
         "squad": {
-          "win-rate": 27.4,
+          "win-rate": 0.0,
           "pick-rate": 0.1
         }
       },
       "트리아이나": {
         "solo": {
-          "win-rate": 0.7,
-          "pick-rate": 0.4
+          "win-rate": 1.7,
+          "pick-rate": 0.7
         },
         "duo": {
-          "win-rate": 6.8,
-          "pick-rate": 0.5
+          "win-rate": 8.1,
+          "pick-rate": 0.8
         },
         "squad": {
-          "win-rate": 17.6,
-          "pick-rate": 0.5
+          "win-rate": 16.2,
+          "pick-rate": 0.9
         }
       },
       "화첨창": {
         "solo": {
-          "win-rate": 4.0,
-          "pick-rate": 0.8
+          "win-rate": 11.5,
+          "pick-rate": 0.5
         },
         "duo": {
-          "win-rate": 17.1,
-          "pick-rate": 0.8
+          "win-rate": 19.7,
+          "pick-rate": 0.6
         },
         "squad": {
-          "win-rate": 26.7,
-          "pick-rate": 0.8
+          "win-rate": 28.6,
+          "pick-rate": 0.5
         }
       },
       "방천화극": {
         "solo": {
-          "win-rate": 8.1,
-          "pick-rate": 60.3
+          "win-rate": 10.0,
+          "pick-rate": 67.5
         },
         "duo": {
-          "win-rate": 14.3,
-          "pick-rate": 60.9
+          "win-rate": 15.9,
+          "pick-rate": 69.2
         },
         "squad": {
-          "win-rate": 19.9,
-          "pick-rate": 63.5
+          "win-rate": 21.0,
+          "pick-rate": 69.5
         }
       },
       "청룡언월도": {
         "solo": {
-          "win-rate": 3.7,
-          "pick-rate": 1.7
-        },
-        "duo": {
-          "win-rate": 12.0,
+          "win-rate": 4.0,
           "pick-rate": 1.6
         },
+        "duo": {
+          "win-rate": 13.6,
+          "pick-rate": 2.1
+        },
         "squad": {
-          "win-rate": 15.6,
-          "pick-rate": 1.9
+          "win-rate": 16.1,
+          "pick-rate": 2.4
         }
       },
       "롱기누스의창": {
         "solo": {
-          "win-rate": 22.9,
+          "win-rate": 0.0,
           "pick-rate": 0.2
         },
         "duo": {
-          "win-rate": 36.1,
-          "pick-rate": 0.3
+          "win-rate": 0.0,
+          "pick-rate": 0.2
         },
         "squad": {
-          "win-rate": 49.7,
-          "pick-rate": 0.3
+          "win-rate": 42.6,
+          "pick-rate": 0.1
         }
       }
     }
@@ -2361,114 +2361,114 @@
     "양손검": {
       "뚜언띠엔": {
         "solo": {
-          "win-rate": 3.2,
-          "pick-rate": 1.0
+          "win-rate": 3.5,
+          "pick-rate": 1.4
         },
         "duo": {
-          "win-rate": 10.7,
-          "pick-rate": 1.7
+          "win-rate": 10.9,
+          "pick-rate": 2.3
         },
         "squad": {
-          "win-rate": 17.1,
-          "pick-rate": 2.7
+          "win-rate": 17.4,
+          "pick-rate": 3.8
         }
       },
       "아론다이트": {
         "solo": {
-          "win-rate": 6.4,
-          "pick-rate": 26.1
+          "win-rate": 5.8,
+          "pick-rate": 29.9
         },
         "duo": {
-          "win-rate": 13.0,
-          "pick-rate": 27.0
+          "win-rate": 12.1,
+          "pick-rate": 28.2
         },
         "squad": {
-          "win-rate": 18.4,
-          "pick-rate": 29.2
+          "win-rate": 17.6,
+          "pick-rate": 29.3
         }
       },
       "엑스칼리버": {
         "solo": {
-          "win-rate": 12.8,
-          "pick-rate": 1.6
+          "win-rate": 14.9,
+          "pick-rate": 1.2
         },
         "duo": {
-          "win-rate": 16.4,
-          "pick-rate": 2.1
+          "win-rate": 16.2,
+          "pick-rate": 1.7
         },
         "squad": {
-          "win-rate": 23.2,
-          "pick-rate": 2.9
+          "win-rate": 23.1,
+          "pick-rate": 2.3
         }
       },
       "플라즈마소드": {
         "solo": {
-          "win-rate": 3.3,
-          "pick-rate": 9.6
+          "win-rate": 2.9,
+          "pick-rate": 18.8
         },
         "duo": {
-          "win-rate": 10.3,
-          "pick-rate": 6.8
+          "win-rate": 9.3,
+          "pick-rate": 15.9
         },
         "squad": {
-          "win-rate": 15.1,
-          "pick-rate": 7.5
+          "win-rate": 14.7,
+          "pick-rate": 15.8
         }
       },
       "레바테인": {
         "solo": {
-          "win-rate": 14.9,
-          "pick-rate": 5.7
+          "win-rate": 14.8,
+          "pick-rate": 9.9
         },
         "duo": {
-          "win-rate": 24.2,
-          "pick-rate": 5.3
+          "win-rate": 26.0,
+          "pick-rate": 9.1
         },
         "squad": {
-          "win-rate": 32.0,
-          "pick-rate": 5.4
+          "win-rate": 34.6,
+          "pick-rate": 9.0
         }
       },
       "모노호시자오": {
         "solo": {
-          "win-rate": 7.0,
-          "pick-rate": 3.4
+          "win-rate": 6.8,
+          "pick-rate": 2.6
         },
         "duo": {
-          "win-rate": 15.4,
-          "pick-rate": 3.4
+          "win-rate": 13.9,
+          "pick-rate": 2.6
         },
         "squad": {
-          "win-rate": 21.4,
-          "pick-rate": 3.6
+          "win-rate": 19.7,
+          "pick-rate": 2.5
         }
       },
       "호푸어드": {
         "solo": {
-          "win-rate": 8.0,
-          "pick-rate": 28.1
+          "win-rate": 7.5,
+          "pick-rate": 21.4
         },
         "duo": {
-          "win-rate": 15.5,
-          "pick-rate": 31.2
+          "win-rate": 15.0,
+          "pick-rate": 25.9
         },
         "squad": {
-          "win-rate": 21.3,
-          "pick-rate": 29.3
+          "win-rate": 20.7,
+          "pick-rate": 24.5
         }
       },
       "다인슬라이프": {
         "solo": {
-          "win-rate": 29.3,
-          "pick-rate": 0.5
+          "win-rate": 26.3,
+          "pick-rate": 0.6
         },
         "duo": {
-          "win-rate": 43.6,
-          "pick-rate": 0.5
+          "win-rate": 45.9,
+          "pick-rate": 0.7
         },
         "squad": {
-          "win-rate": 51.7,
-          "pick-rate": 0.6
+          "win-rate": 57.6,
+          "pick-rate": 0.8
         }
       }
     }
@@ -2478,78 +2478,34 @@
       "연막탄": {
         "solo": {
           "win-rate": 0.0,
-          "pick-rate": 0.5
+          "pick-rate": 0.2
         },
         "duo": {
           "win-rate": 0.0,
-          "pick-rate": 0.4
+          "pick-rate": 0.1
         },
         "squad": {
           "win-rate": 0.0,
-          "pick-rate": 0.2
+          "pick-rate": 0.1
         }
       },
       "소이탄": {
         "solo": {
-          "win-rate": 1.3,
-          "pick-rate": 1.5
+          "win-rate": 2.8,
+          "pick-rate": 1.2
         },
         "duo": {
-          "win-rate": 8.0,
-          "pick-rate": 3.0
+          "win-rate": 13.0,
+          "pick-rate": 1.3
         },
         "squad": {
-          "win-rate": 20.5,
-          "pick-rate": 3.4
+          "win-rate": 9.2,
+          "pick-rate": 1.5
         }
       },
       "다비드슬링": {
         "solo": {
-          "win-rate": 3.5,
-          "pick-rate": 1.6
-        },
-        "duo": {
           "win-rate": 7.0,
-          "pick-rate": 1.2
-        },
-        "squad": {
-          "win-rate": 12.3,
-          "pick-rate": 1.0
-        }
-      },
-      "안티오크의수류탄": {
-        "solo": {
-          "win-rate": 0.0,
-          "pick-rate": 0.0
-        },
-        "duo": {
-          "win-rate": 0.0,
-          "pick-rate": 0.1
-        },
-        "squad": {
-          "win-rate": 0.0,
-          "pick-rate": 0.1
-        }
-      },
-      "루테늄구슬": {
-        "solo": {
-          "win-rate": 9.1,
-          "pick-rate": 54.0
-        },
-        "duo": {
-          "win-rate": 16.3,
-          "pick-rate": 56.2
-        },
-        "squad": {
-          "win-rate": 22.1,
-          "pick-rate": 59.6
-        }
-      }
-    },
-    "암기": {
-      "미치광이왕의카드": {
-        "solo": {
-          "win-rate": 1.0,
           "pick-rate": 0.9
         },
         "duo": {
@@ -2557,64 +2513,108 @@
           "pick-rate": 0.4
         },
         "squad": {
-          "win-rate": 21.9,
-          "pick-rate": 0.4
+          "win-rate": 0.0,
+          "pick-rate": 0.3
+        }
+      },
+      "안티오크의수류탄": {
+        "solo": {
+          "win-rate": 0.0,
+          "pick-rate": 0.2
+        },
+        "duo": {
+          "win-rate": 0.0,
+          "pick-rate": 0.1
+        },
+        "squad": {
+          "win-rate": 0.0,
+          "pick-rate": 0.0
+        }
+      },
+      "루테늄구슬": {
+        "solo": {
+          "win-rate": 7.8,
+          "pick-rate": 61.6
+        },
+        "duo": {
+          "win-rate": 15.0,
+          "pick-rate": 64.7
+        },
+        "squad": {
+          "win-rate": 20.8,
+          "pick-rate": 68.4
+        }
+      }
+    },
+    "암기": {
+      "미치광이왕의카드": {
+        "solo": {
+          "win-rate": 0.0,
+          "pick-rate": 0.2
+        },
+        "duo": {
+          "win-rate": 0.0,
+          "pick-rate": 0.1
+        },
+        "squad": {
+          "win-rate": 0.0,
+          "pick-rate": 0.1
         }
       },
       "옥전결": {
         "solo": {
-          "win-rate": 9.2,
-          "pick-rate": 5.3
+          "win-rate": 11.1,
+          "pick-rate": 3.6
         },
         "duo": {
-          "win-rate": 18.8,
-          "pick-rate": 3.5
+          "win-rate": 17.0,
+          "pick-rate": 2.1
         },
         "squad": {
-          "win-rate": 23.9,
-          "pick-rate": 3.3
+          "win-rate": 22.3,
+          "pick-rate": 2.4
         }
       },
       "풍마수리검": {
         "solo": {
-          "win-rate": 3.3,
-          "pick-rate": 2.2
+          "win-rate": 2.2,
+          "pick-rate": 1.5
         },
         "duo": {
-          "win-rate": 9.8,
-          "pick-rate": 2.4
+          "win-rate": 8.5,
+          "pick-rate": 2.0
         },
         "squad": {
-          "win-rate": 19.7,
-          "pick-rate": 2.6
+          "win-rate": 13.1,
+          "pick-rate": 2.3
         }
       },
       "빙백은침": {
         "solo": {
-          "win-rate": 7.3,
-          "pick-rate": 2.1
+          "win-rate": 4.0,
+          "pick-rate": 1.3
         },
         "duo": {
-          "win-rate": 13.5,
+          "win-rate": 7.9,
           "pick-rate": 1.4
         },
         "squad": {
-          "win-rate": 12.8,
+          "win-rate": 10.8,
           "pick-rate": 1.5
         }
       },
       "푸른색단도": {
         "solo": {
-          "win-rate": 7.7,
-          "pick-rate": 50.9
+          "win-rate": 5.7,
+          "pick-rate": 64.4
         },
         "duo": {
-          "win-rate": 13.2,
-          "pick-rate": 56.4
+          "win-rate": 11.9,
+          "pick-rate": 66.2
         },
         "squad": {
-          "win-rate": 18.4,
-          "pick-rate": 59.5
+          "win-rate": 16.2,
+          "pick-rate": 64.8
         }
       },
       "플레솃": {
@@ -2624,67 +2624,67 @@
         },
         "duo": {
           "win-rate": 0.0,
-          "pick-rate": 0.2
+          "pick-rate": 0.1
         },
         "squad": {
           "win-rate": 0.0,
-          "pick-rate": 0.2
+          "pick-rate": 0.1
         }
       },
       "건곤권": {
         "solo": {
-          "win-rate": 6.5,
-          "pick-rate": 14.0
+          "win-rate": 6.9,
+          "pick-rate": 11.1
         },
         "duo": {
-          "win-rate": 12.4,
-          "pick-rate": 14.9
+          "win-rate": 11.6,
+          "pick-rate": 11.0
         },
         "squad": {
-          "win-rate": 17.7,
-          "pick-rate": 14.8
+          "win-rate": 17.0,
+          "pick-rate": 12.5
         }
       },
       "생사부": {
         "solo": {
-          "win-rate": 12.9,
-          "pick-rate": 1.9
+          "win-rate": 10.5,
+          "pick-rate": 1.3
         },
         "duo": {
-          "win-rate": 27.4,
-          "pick-rate": 1.2
+          "win-rate": 18.1,
+          "pick-rate": 1.1
         },
         "squad": {
-          "win-rate": 31.0,
-          "pick-rate": 1.4
+          "win-rate": 26.4,
+          "pick-rate": 1.3
         }
       },
       "수다르사나": {
         "solo": {
-          "win-rate": 30.9,
-          "pick-rate": 1.6
+          "win-rate": 21.4,
+          "pick-rate": 1.2
         },
         "duo": {
-          "win-rate": 47.6,
-          "pick-rate": 1.3
+          "win-rate": 43.9,
+          "pick-rate": 1.2
         },
         "squad": {
-          "win-rate": 57.6,
-          "pick-rate": 1.4
+          "win-rate": 47.3,
+          "pick-rate": 1.2
         }
       },
       "만천화우": {
         "solo": {
-          "win-rate": 18.9,
-          "pick-rate": 3.7
+          "win-rate": 16.5,
+          "pick-rate": 3.6
         },
         "duo": {
-          "win-rate": 24.0,
-          "pick-rate": 3.3
+          "win-rate": 24.1,
+          "pick-rate": 4.0
         },
         "squad": {
-          "win-rate": 27.5,
-          "pick-rate": 3.3
+          "win-rate": 29.0,
+          "pick-rate": 4.4
         }
       }
     }
