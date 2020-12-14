@@ -9,7 +9,7 @@ class Tier extends Component {
         this.state = {
             tierList: [],
             preRankList: {},
-            type: ['total', 'win-rate', 'pick-rate', 'avg-kill', 'avg-rank'],
+            type: ['total', 'win-rate', 'pick-rate'],
             typeFocus: 0,
         };
     }
@@ -48,7 +48,7 @@ class Tier extends Component {
     };
 
     listView = () => {
-        const { range, type } = this.props;
+        const { range, type, intl } = this.props;
         const { tierList, preRankList, typeFocus } = this.state;
 
         this.listSort();
@@ -65,13 +65,12 @@ class Tier extends Component {
                         <span className="rank3Updown1">{Math.abs(rankDiff)}</span>&nbsp;
                         <Link to={'Detail?range='+range+'&type='+type+'&character='+data['character']+'&weapon='+ data['weapon']}>
                             <img className="rank3cha1" src={'img/Rank/'+data['character']+(data['tier']>0?'':'_오피')+'.png'} />
+                            <span className="rank3chaname">{intl.formatMessage({id: 'characters.'+data['character']})}</span>
                         </Link>&nbsp;
                         <img className="rank3weapon1"  src={'img/Weapons/'+data['weapon']+'.png'} />&nbsp;
                         <img className="rank3tier1"    src={data['tier']===0?'img/Tier/1티어.png':'img/Tier/'+data['tier']+'티어.png'} />&nbsp;
                         <span className="rank3win1"> {data['data']['win-rate'].toFixed(1)}% </span>&nbsp;
                         <span className="rank3pick1">{data['data']['pick-rate'].toFixed(1)}%</span>&nbsp;
-                        <span className="rank3kill1">{data['data']['avg-kill'].toFixed(1)}  </span>&nbsp;
-                        <span className="rank3avg1"> {data['data']['avg-rank'].toFixed(1)}  </span>&nbsp;
                     </div>
                 );
             } else {
@@ -81,13 +80,12 @@ class Tier extends Component {
                         <img className="rank3new"   src={'img/UpDown/new.png'} />&nbsp;
                         <Link to={'Detail?range='+range+'&type='+type+'&character='+data['character']+'&weapon='+ data['weapon']}>
                             <img className="rank3cha1" src={'img/Rank/'+data['character']+(data['tier']>0?'':'_오피')+'.png'} />
+                            <span className="rank3chaname">{intl.formatMessage({id: 'characters.'+data['character']})}</span>
                         </Link>&nbsp;
                         <img className="rank3weapon1"  src={'img/Weapons/'+data['weapon']+'.png'} />&nbsp;
                         <img className="rank3tier1"    src={data['tier']===0?'img/Tier/1티어.png':'img/Tier/'+data['tier']+'티어.png'} />&nbsp;
                         <span className="rank3win1"> {data['data']['win-rate'].toFixed(1)}% </span>&nbsp;
                         <span className="rank3pick1">{data['data']['pick-rate'].toFixed(1)}%</span>&nbsp;
-                        <span className="rank3kill1">{data['data']['avg-kill'].toFixed(1)}  </span>&nbsp;
-                        <span className="rank3avg1"> {data['data']['avg-rank'].toFixed(1)}  </span>&nbsp;
                     </div>
                 );
             }
@@ -127,8 +125,6 @@ class Tier extends Component {
                     <span className="rank3tier">{intl.formatMessage({id: 'tier'})}</span>&nbsp;
                     <span className="rank3win">{intl.formatMessage({id: 'win-rate'})}</span>&nbsp;
                     <span className="rank3pick">{intl.formatMessage({id: 'pick-rate'})}</span>&nbsp;
-                    <span className="rank3kill">{intl.formatMessage({id: 'avg-kill'})}</span>&nbsp;
-                    <span className="rank3avg">{intl.formatMessage({id: 'avg-rank'})}</span>&nbsp;
                 </div>
                 {this.listView()}
             </div>

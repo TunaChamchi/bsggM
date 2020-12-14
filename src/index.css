@@ -8,9 +8,10 @@
 }
 body {
   margin: 0;
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(23, 21, 32);
   font-family: "Noto Sans KR", "noto sans sc";
-  font-weight: 500;
+  font-weight: 300;
+  color: rgb(209,209,209);
 }
 html {
     width: 750px;
@@ -28,7 +29,7 @@ input:focus{
     outline: none;
 }
 input::placeholder{
-    color: black;
+    color: rgb(209,209,209);;
     opacity: 1;
     margin-left: 2px;
     font-family: "noto sans kr";
@@ -36,10 +37,10 @@ input::placeholder{
     font-size: 20pt;
 }
 a{
-    color: black;
+    color: rgb(209, 209, 209);
 }
 .chasearch::placeholder{
-    color: black;
+    color: rgb(209,209,209);;
     opacity: 1;
     margin-left: 2px;
     font-size: 20pt;
@@ -47,7 +48,7 @@ a{
     font-weight: 400;
 }
 .S_search1::placeholder{
-    color: black;
+    color: rgb(209,209,209);;
     opacity: 1;
     margin-left: 2px;
     font-family: "noto sans kr";
@@ -67,14 +68,52 @@ button:hover{
     cursor: pointer;
     background-color:  rgba(0,0,0,0);
 }
+.rank_span_tooltip{
+    visibility: hidden;
+    width: 390px;
+    background-color: rgb(37, 37, 37);
+    position: absolute;
+    z-index: 1;
+    font-size: 20pt;
+    white-space: pre-line;
+    word-break: keep-all;
+    border-radius: 10px;
+    color:white;
+    font-weight: 300;
+    padding: 5px;
+    word-spacing: 5px;
+    text-align: center;
+}
+.item_span_tooltip{
+    visibility: hidden;
+    width: 390px;
+    background-color: rgb(37, 37, 37);
+    position: absolute;
+    z-index: 1;
+    font-size: 20pt;
+    white-space: pre-line;
+    word-break: keep-all;
+    border-radius: 10px;
+    color:white;
+    font-weight: 300;
+    padding: 5px;
+    word-spacing: 5px;
+    text-align: center;
+}
+.rank_span:hover .rank_span_tooltip{
+    visibility: visible;
+}
+.S_item1:hover .item_span_tooltip{
+    visibility: visible;
+}
 /* 1 page */
 .banner {
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(38, 35, 53);
     height: 160px;
     width: 100%;
     text-align: center;
     min-width: 750px;
-    border-bottom: 2px solid #3b4147;
+    border-bottom: 1px solid #3b4147;
 }
 .language {
     width: 150px;
@@ -91,12 +130,13 @@ button:hover{
 .langaugebutton{
     width: 100px;
     border-color: rgba(0,0,0,0);
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(38, 35, 53);
     border-radius: 0px;
     font-size: 14pt;
     font-weight: bold;
     margin-left: 3px;
     margin-top: 0px;
+    color: rgb(209, 209, 209);
 }
 .langaugebutton2{
     width: 100px;
@@ -119,6 +159,7 @@ button:hover{
     border-radius: 0px;
     font-size: 20pt;
     font-weight: bold;
+    color: rgb(209, 209, 209);
 }
 .banner-menu{
     margin: auto;
@@ -161,13 +202,13 @@ button:hover{
     border-radius: 3px;
 }
 .search{
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(38, 35, 53);
     width: 730px;
     height: 65px;
     border-radius: 3px;
     margin: auto;
     margin-bottom: 20px;
-    border-bottom: 2px solid #3b4147;
+    border-bottom: 1px solid #3b4147;
 }
 .search1{
     width: 690px;
@@ -177,21 +218,22 @@ button:hover{
     border-color: rgba(0,0,0,0);
     background-color: rgba(0,0,0,0);
     font-size: 22pt;
+    color: rgb(209, 209, 209);
 }
 .cha{
     margin-top: 7px;
-    background-color: rgb(83, 83, 83);
-    width: 730px;
+    background-color: rgb(38, 35, 53);
+    width: 750px;
     border-radius: 3px;
-    height: 390px;
+    height: 450px;
     margin:auto;
     margin-bottom: 20px;
-    border-bottom: 2px solid #3b4147;
+    border-bottom: 1px solid #3b4147;
 }
 .cha0{
-    background-color: rgb(120, 120, 120);
-    border-bottom: 8px solid rgb(244,216,35);
-    width: 730px;
+    background-color: rgb(35, 27, 47);
+    border-bottom: 1px solid rgb(244,216,35);
+    width: 750px;
     height: 65px;
     font-size: 30pt;
     padding-top: 5px;
@@ -204,18 +246,19 @@ button:hover{
 
 .cha2{
     overflow-y: scroll;
-    height: 230px;
+    height: 300px;
 }
 .chasearch{
     border-color: rgba(0,0,0,0);
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(38, 35, 53);
     width: 650px;
     height: 45px;
     border-radius: 3px;
-    border-bottom: 8px solid rgb(120, 120, 120);
+    border-bottom: 2px solid #3b4147;
     font-size: 22pt;
     z-index: 1;
     margin-bottom: 5px;
+    color: rgb(209, 209, 209);
 }
 .cha3{
     padding-bottom: 15px;
@@ -223,36 +266,36 @@ button:hover{
 }
 .cha4{
     margin-top: 10px;
-    
+    margin-left: 10px;    
 }
 .cha5{
     margin:auto;
-    width: 185px;
-    height: 250px;
+    width: 125px;
+    height: 175px;
     float: left;
     margin-left: 45px;
 }
 .chaimg{
-    width: 178px;
-    background-color: rgb(120, 120, 120);
+    width: 125px;
+    background-color: rgb(23, 21, 32);
     float: left;
-    border: 1px solid black;
+    border: 1px solid #3b4147;
 }
 .chaname{
     display: inline-block;
-    width: 180px;
+    width: 125px;
     margin-top: 2px;
     font-size: 20pt;
     text-align: center;
-    color: black;
+    color: rgb(209, 209, 209);
     float: left;
 }
 .chaimg-blank{
-    width: 180px;
+    width: 125px;
 }
 .main-right{
     float: right;
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(38, 35, 53);
     width: 750px;
     height: auto;
     margin: auto;
@@ -264,6 +307,8 @@ button:hover{
 .rank0{
     height: 75px;
     font-family: 'Big Shoulders Stencil Display';
+    background-color: rgb(35, 27, 47);
+    border-bottom: 1px solid rgb(23, 21, 32);
 }
 .rank0-1{
     float: right;
@@ -286,30 +331,26 @@ button:hover{
       font-size: 11pt;
 }
 .rank1{
-    background-color: rgb(120, 120, 120);
+    background-color: rgb(38, 35, 53);
     height: 70px;
     border-radius: 3px 3px 0px 0px / 3px 3px 0px 0px ;
-    border-bottom: 2px solid #3b4147;
 }
 .rank2{
-    margin-top: 10px; 
-    background-color: rgb(120, 120, 120);
+    background-color: rgb(38, 35, 53);
     height: 50px;
-    border-bottom: 2px solid #3b4147;
 }
 
 .rank3{
-    margin-top: 5px;
     text-align: left;
     font-size: 13pt;
     font-weight: 400;
     height: 30px;
+    border-bottom: 1px solid #3b4147
 }
 .rank-1{
-    margin-top: 10px;
-    background-color:  rgb(120, 120, 120);
+    background-color:  rgb(38, 35, 53);
     text-align: left;
-    border-bottom: 2px solid #3b4147;
+    border-bottom: 1px solid #3b4147;
 }
 .rank3rank{
     display: inline-block;
@@ -318,7 +359,7 @@ button:hover{
 }
 .rank3cha{
     display: inline-block;
-    width: 195px;
+    width: 340px;
     text-align: center;
 }
 .rank3weapon{
@@ -331,37 +372,25 @@ button:hover{
     width: 50px;
     text-align: center;
     margin-right: 0px;
-    margin-left: 33px;
+    margin-left: 26px;
 }
 .rank3win{
     display: inline-block;
     width: 90px;
     text-align: center;
-    margin-left: 8px;
+    margin-left: 0px;
 }
 .rank3pick{
     display: inline-block;
     width: 90px;
     text-align: center;
-    margin-left: -12px;
-}
-.rank3kill{
-    display: inline-block;
-    width: 80px;
-    text-align: center;
-    margin-left: -15px;
-}
-.rank3avg{
-    display: inline-block;
-    width: 90px;
-    text-align: center;
-    margin-left: -17px;
+    margin-left: -5px;
 }
 .rank3rank1{
     text-align: center;
     vertical-align: middle;
     font-family: 'congruency3d';
-    font-size: 28pt;
+    font-size: 25pt;
     display: inline-block;
     width: 100px;
     margin-left: -5px;
@@ -388,57 +417,32 @@ button:hover{
 }
 .rank3cha1{
     vertical-align: middle;
-    width: 160px;
-    margin-left: 5px;
+    width: 80px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 100%;
+    border: solid 1px #3b4147
+}
+.rank3chaname{
+    vertical-align: middle;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    border-bottom: none;
+    font-size: 25pt;
 }
 .rank3weapon1{
     vertical-align: middle;
-    width: 65px;
+    width: 60px;
     border-radius: 7px;
-    margin-left: 5px;
+    margin-left: 10px;
+    border: solid 1px #3b4147
 }
 .rank3tier1{
     vertical-align: middle;
-    width: 70px;
-    margin-left: 5px;
-}
-.rank_span_tooltip{
-    visibility: hidden;
-    width: 390px;
-    background-color: rgb(37, 37, 37);
-    position: absolute;
-    z-index: 1;
-    font-size: 20pt;
-    white-space: pre-line;
-    word-break: keep-all;
-    border-radius: 10px;
-    color:white;
-    font-weight: 300;
-    padding: 5px;
-    word-spacing: 5px;
-    text-align: center;
-}
-.item_span_tooltip{
-    visibility: hidden;
-    width: 390px;
-    background-color: rgb(37, 37, 37);
-    position: absolute;
-    z-index: 1;
-    font-size: 20pt;
-    white-space: pre-line;
-    word-break: keep-all;
-    border-radius: 10px;
-    color:white;
-    font-weight: 300;
-    padding: 5px;
-    word-spacing: 5px;
-    text-align: center;
-}
-.rank_span:hover .rank_span_tooltip{
-    visibility: visible;
-}
-.S_item1:hover .item_span_tooltip{
-    visibility: visible;
+    width: 60px;
+    margin-left: 15px;
 }
 .rank_span{
     display: inline-block;
@@ -461,53 +465,39 @@ button:hover{
     font-size: 18pt;
     margin-left: 15px;
 }
-.rank3kill1{
-    text-align: center;
-    vertical-align: middle;
-    display: inline-block;
-    width: 65px;
-    font-size: 18pt;
-}
-.rank3avg1{
-    text-align: center;
-    vertical-align: middle;
-    display: inline-block;
-    width: 65px;
-    font-size: 18pt;
-}
 .tabHeaders .actived {
-    border-bottom: 8px solid rgb(244,216,35);
-    color:  black;
+    border-bottom: 1px solid rgb(244,216,35);
+    color:  white;
+}
+.tabHeaders2 .actived {
+    border: 1px solid rgb(244,216,35);
+    color:  white;
 }
 .tabHeader0 {
     width: 90px;
     float: left;
     font-size: 22pt;
     padding-top: 31px;
-    color: rgb(39, 39, 39);
+    color: rgb(209, 209, 209);
+    padding-bottom: 8px;
 }
 .tabHeader1 {
     width: 250px;
     float: left;
-    padding-top: 9px;
-    padding-bottom: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     font-size: 24pt;
-    color: rgb(39, 39, 39);
+    color: rgb(209, 209, 209);
+    border-bottom: 1px solid #3b4147;
 }
 .tabHeader2 {
-    width: 150px;
+    width: 250px;
     float: left;
-    padding-top: 6px;
-    padding-bottom: 2px;
+    padding-top: 0px;
+    padding-bottom: 7px;
     font-size: 17pt;
-    color:  rgb(39, 39, 39);
-}
-.tabHeader3 {
-    width: 40px;
-    float: left;
-    margin-top: 4px;
-    margin-left: 8px;
-    padding-bottom: 2px;
+    color:  rgb(209, 209, 209);
+    border-bottom: 1px solid #3b4147;
 }
 .tri{
     width: 0px;
@@ -541,13 +531,14 @@ button:hover{
   }
 /* 2 page */
 .S_search{
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(38, 35, 53);
     width: 730px;
     height: 65px;
     border-radius: 3px;
     margin: auto;
     margin-bottom: 10px;
-    border-bottom: 2px solid #3b4147;
+    color: rgb(209, 209, 209);
+    border-bottom: 1px solid #3b4147;
 }
 .S_search1{
     width: 700px;
@@ -557,9 +548,10 @@ button:hover{
     border-color: rgba(0,0,0,0);
     background-color: rgba(0,0,0,0);
     font-size: 22pt;
+    color: rgb(209, 209, 209);
 }
 .S_search3{
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(38, 35, 53);
     width: 730px;
     font-size: 13pt;
     margin-top: 0px;
@@ -568,19 +560,24 @@ button:hover{
     text-align: left;
     border-radius: 3px;
     margin-bottom: 20px;
+    color: rgb(209, 209, 209);
     margin-left:10px;
+    border-bottom: 1px solid #3b4147;
 }
 .S_search4{
     width: 730px;
-    height: 80px;
-    background-color: rgb(120, 120, 120);
+    height: 82px;
+    background-color: rgb(38, 35, 53);
     margin-top: 5px;
+    border-bottom: 1px solid #3b4147;
 }
 .searchimg{
-    height: 80px;
+    height: 74px;
     margin-left: 60px;
     margin-right: 20px;
     float: left;
+    border-radius: 100%;
+    border: 1px solid #3b4147;
 }
 .searchfont{
     display: inline-block;
@@ -601,91 +598,57 @@ button:hover{
 .S_top{
 }
 .S_top-cha{
-    width: 220px;
-    height: 275px;
-    background-color: rgb(83, 83, 83);
-    float: left;
-    border-radius: 3px;
-    margin-left: 20px;
-    border-bottom: 2px solid #3b4147;
+    float:left;
+    width: 180px;
+    position: relative;
+    margin-left: 15px;
 }
 .S_top-cha1{
-    width: 220px;
-    background-color: rgb(120, 120, 120);
-    border-radius: 3px 3px 0px 0px;
+    width: 180px;
+    background-color: rgb(38, 35, 53);
+    border-radius: 100%;
+    position: relative;
+    border: 3px solid #007fd3;
 }
 .S_top-cha2{
-    width: 70px;
+    width: 60px;
     margin-top: -6px;
+    left: 10px;
+    position: absolute;
+    top: 14px;
 }
 .S_top-cha3{
     display: inline-block;
-    margin-top: 0px;
-    margin-left: 0px;
-    width: 140px;
-    font-size: 22pt;
-    text-align: center;
+    margin-top: -10px;
+    margin-left: 45px;
+    width: 400px;
+    font-size: 40pt;
+    text-align: left;
     position: absolute;
 }
-.S_top-stat{
-    width: 220px;
-    height: 25px;
-    float: left;
-    margin-left: 30px;
-    margin-right: -10px;
-}
-.S_top-stat1{
-    width: 220px;
-    height: 35px;
-    background-color: rgb(83, 83, 83);
-    float: left;
-    text-align: center;
-    border-radius: 2px;
-    font-size: 16pt;
-    border-bottom: 2px solid #3b4147;
-}
-.S_top-stat2{
-    width: 150px;
-    float: left;
-    text-align: left;
-    margin-left: 11px;
-    margin-top: 7px;
-    color: rgb(189, 189, 189);
-    font-weight: 400;
-    font-size: 14pt;
-}
-.S_top-stat3{
-    float: right;
-    text-align: center;
-    margin-right: 11px;
-    margin-top: 7px;
-    color: rgb(189, 189, 189);
-    font-weight: 400;
-    font-size: 14pt;
-}
 .tabHeader4{
-    width: 100px;
-    height: 150px;
-    background-color: rgb(83, 83, 83);
+    width: 80px;
+    height: 80px;
+    background-color: rgb(38, 35, 53);
     float: left;
-    margin-left: 30px;
-    margin-right: -10px;
-    margin-top: 95px;
-    border-bottom: 2px solid #3b4147;
+    margin-left: 40px;
+    margin-right: -15px;
+    margin-top: 80px;
+    color: rgb(209, 209, 209);
+    border: 1px solid #3b4147;
 }
 .S_top-weapon1{
-    width: 100px;
-    background-color: rgb(120, 120, 120);
+    width: 80px;
+    background-color: rgb(38, 35, 53);
     float: left;
 }
 .S_top-weapon2{
     display: inline-block;
     margin-top: -2px;
-    margin-left: 18px;
-    width: 70px;
-    font-size: 24pt;
+    margin-left: 0px;
+    width: 80px;
+    font-size: 20pt;
     text-align: center;
-    color: black;
     float: left;
 }
 .S_Data-period{
@@ -703,14 +666,16 @@ button:hover{
 }
 .S_Trend{
     height: 770px;
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(38, 35, 53);
     text-align: center;
     border-radius: 3px;
-    border-bottom: 2px solid #3b4147;
+    border-bottom: 1px solid #3b4147;
 }
 .S_Trend0{
     height: 75px;
     font-family: "Big Shoulders Stencil Display";
+    background-color: rgb(35, 27, 47);
+    border-bottom: 1px solid rgb(23, 21, 32);
 }
 .S_Trend_T{
         float: right;
@@ -730,13 +695,15 @@ button:hover{
     float: left;
     font-size: 22pt;
     padding-top: 31px;
-    color: rgb(39, 39, 39);
+    color: rgb(209, 209, 209);
+    padding-bottom: 9px;
+    
 }
 .S_Trend1{
     height: 70px;
-    background-color: rgb(120, 120, 120);
+    background-color: rgb(38, 35, 53);
     clear: both;
-    border-bottom: 2px solid #3b4147;
+    
 }
 .tabHeader6 {
     width: 250px;
@@ -744,7 +711,8 @@ button:hover{
     padding-top: 9px;
     padding-bottom: 5px;
     font-size: 24pt;
-    color: rgb(39, 39, 39);
+    color: rgb(209, 209, 209);
+    border-bottom: 1px solid #3b4147;
 }
 .S_Trend2{
     margin-top: 0px;
@@ -754,10 +722,11 @@ button:hover{
     margin-left: 10px;
     width: 730px;
     height: 130px;
-    background-color: rgb(120, 120, 120);
+    background-color: rgb(38, 35, 53);
     float:left;
     border-radius: 3px;
-    border-bottom: 2px solid #3b4147;
+    border-bottom: 1px solid #3b4147;
+    background-color: rgb(35, 27, 47);
 }
 .S_Trend_square1{
     display: inline-block;
@@ -795,6 +764,7 @@ button:hover{
     height: 8px;
     background-color:rgb(33, 33, 33);
     float: left;
+    border-radius: 5px;
 }
 .S_Trend_Graph2{
     position: absolute;
@@ -804,6 +774,7 @@ button:hover{
     height: 8px;
     background-color: rgb(244,216,35);
     float: left;
+    border-radius: 5px;
 }
 .S_Trend_avg{
     position: absolute;
@@ -818,11 +789,11 @@ button:hover{
 .S_Trend_Tri{
     width: 0px;
     height: 0px;
-    border-bottom: 15px solid rgb(33, 33, 33);
+    border-bottom: 15px solid #007fd3;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
     margin-left: 23px;
-    padding-top: 2px;
+    padding-top: 3px;
   }
 .S_Trend_avg1{
     clear: both;
@@ -833,11 +804,11 @@ button:hover{
     padding-bottom: 20px;
     float: left;
     margin-top: 10px;
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(38, 35, 53);
     text-align: center;
     border-radius: 3px;
     margin-top: 20px;
-    border-bottom: 2px solid #3b4147;
+    border-bottom: 1px solid #3b4147;
 }
 .S_right2{
     width: 750px;
@@ -845,10 +816,13 @@ button:hover{
     padding-bottom: 20px;
     float: left;
     margin-top: 5px;
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(38, 35, 53);
     text-align: center;
     border-radius: 3px;
     margin-bottom: 20px;
+}
+.S_item{
+    background-color: rgb(35, 27, 47);
 }
 .S_item1{
     display: inline-block;
@@ -858,15 +832,16 @@ button:hover{
     font-size: 37pt;
     padding-top: 5px;
     margin-left: 30px;
+    background-color: rgb(35, 27, 47);
 }
 .S_item_tab_banner{
-    background-color: rgb(120, 120, 120);
-    height: 70px;
-    border-bottom: 2px solid #3b4147;
+    background-color: rgb(38, 35, 53);
+    height: 55px;
+    border-bottom: 1px solid #3b4147;
 }
 .S_item_tab_banner2{
-    background-color: rgb(120, 120, 120);
-    height: 70px;
+    background-color: rgb(38, 35, 53);
+    height: 55px;
     border-radius: 3px 3px 0px 0px / 3px 3px 0px 0px;
 }
 .S_item_tab1{
@@ -879,15 +854,15 @@ button:hover{
     width: 125px;
     float: left;
     font-size: 25pt;
-    margin-top: 7px;
-    padding-bottom: 5px;
+    margin-top: 0px;
+    padding-bottom: 6px;
 }
 .S_item_sort{
     float: left;
     font-size: 18pt;
     display: inline-block;
-    padding-top: 5px;
-    margin-bottom: 5px;
+    background-color: rgb(38, 35, 53);
+    border-bottom: 1px solid #3b4147;
 }
 .S_item_sort1{
     float: left;
@@ -909,14 +884,14 @@ button:hover{
 .S_item_sort4{
     float: left;
     display: inline-block;
-    width: 100px;
+    width: 125px;
 }
 .S_item_sort_b{
     float: left;
     font-size: 18pt;
     display: inline-block;
-    padding-top: 5px;
-    margin-bottom: 5px;
+    background-color: rgb(38, 35, 53);
+    border-bottom: 1px solid #3b4147;
 }
 .S_item_sort_b1{
     float: left;
@@ -933,7 +908,7 @@ button:hover{
 .S_item_sort_b3{
     float: left;
     display: inline-block;
-    width: 100px;
+    width: 125px;
 }
 .S_item_rank{
     clear: both;
@@ -941,11 +916,10 @@ button:hover{
     width: 750px;
     height: 40px;
     vertical-align: middle;
-    margin-top: 5px;
     text-align: left;
-    background-color: rgb(120, 120, 120);
+    background-color: rgb(38, 35, 53);
     display: table;
-    border-bottom: 2px solid #3b4147;
+    border-bottom: 1px solid #3b4147;
 }
 .S_item_rank1{
     vertical-align: middle;
@@ -964,7 +938,7 @@ button:hover{
     margin-top: 8px;
     margin-bottom: 8px;
     border-radius: 4px;
-    border: 1px solid black;
+    border: 1px solid #3b4147;
 }
 .S_item_rank3{
     display: table-cell;
@@ -981,27 +955,28 @@ button:hover{
     width: 80px;
     text-align: center;
     font-size: 20pt;
-    color:  rgb(39, 39, 39);
+    color:  rgb(209, 209, 209);
+    margin-left: 10px;
 }
 .S_item_rank5{
     vertical-align: middle;
     display: inline-block;
     width: 80px;
-    margin-left: 18px;
+    margin-left: 30px;
     text-align: center;
     font-size: 20pt;
-    color:  rgb(39, 39, 39);
+    color:  rgb(209, 209, 209);
     padding-right: 15px;
 }
 .S_item_rank6{
     vertical-align: middle;
     display: inline-block;
     width: 80px;
-    margin-left: 95px;
+    margin-left: 120px;
     margin-right: -20px;
     text-align: center;
     font-size: 20pt;
-    color:  rgb(39, 39, 39);
+    color:  rgb(209, 209, 209);
     padding-right: 29px;
 }
 .footer{
@@ -1029,6 +1004,7 @@ button:hover{
     float: right;
     margin-top: 40px;
     margin-right: 10px;
+    color: rgb(209, 209, 209);
 }
 .footer_span{
     float: left;

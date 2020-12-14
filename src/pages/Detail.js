@@ -158,7 +158,7 @@ class Detail extends Component {
         const { data, character, weapon, rangeFocus, typeFocus, ad_style, searchList } = this.state;
 
         const img_char = 'img/Characters/' + data['character'] + (data['tier'] > 0 ? '' : '_오피') + '.png';
-        const img_tier = data['tier'] > 0 ? 'img/Tier/' + data['tier'] + '티어.png' : 'img/Tier/1티어.png';
+        const img_tier = data['tier'] > 0 ? 'img/Tier/' + data['tier'] + '티어2.png' : 'img/Tier/1티어.png';
         const avg = Avg(rangeFocus, typeFocus);
         const max = Max(rangeFocus, typeFocus);
         const min = Min(rangeFocus, typeFocus);
@@ -198,25 +198,13 @@ class Detail extends Component {
                         <div className="S_top-cha">
                             <img className="S_top-cha1" src={img_char} />
                             <img className="S_top-cha2" src={img_tier} />
+                        </div>
+                        <div className="S_top-box">  
                             <span className="S_top-cha3">{intl.formatMessage({id: 'characters.'+data['character']})}</span>
-                        </div>
-                        <div className="S_top-stat">
-                            <span className="S_top-stat1">{intl.formatMessage({ id: 'detail.duoStat' })}</span>
-                            <span className="S_top-stat2">{intl.formatMessage({ id: 'detail.giveDmg' })}</span>
-                            <span className="S_top-stat3">{dmgPlus(character, 'duo', 'inflict')}%</span>
-                            <span className="S_top-stat2">{intl.formatMessage({ id: 'detail.takeDmg' })}</span>
-                            <span className="S_top-stat3">{dmgPlus(character, 'duo', 'receive')}%</span>
-                        </div>
-                        <div className="S_top-stat">
-                            <span className="S_top-stat1">{intl.formatMessage({ id: 'detail.squadStat' })}</span>
-                            <span className="S_top-stat2">{intl.formatMessage({ id: 'detail.giveDmg' })}</span>
-                            <span className="S_top-stat3">{dmgPlus(character, 'squad', 'inflict')}%</span>
-                            <span className="S_top-stat2">{intl.formatMessage({ id: 'detail.takeDmg' })}</span>
-                            <span className="S_top-stat3">{dmgPlus(character, 'squad', 'receive')}%</span>
-                        </div>
-                        <div className="tabHeaders">
+                            <div className="tabHeaders2">
                             {this.weaponListView()}
-                        </div>
+                            </div>
+                        </div>   
                     </div>
                     <div className="S_left">
                         <div className="S_Trend">

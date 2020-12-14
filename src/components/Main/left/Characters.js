@@ -29,8 +29,8 @@ class Characters extends Component {
 
         const list = []
 
-        for (var i = 0 ; i < searchList.length ; i+=3) {
-            const sub = [searchList[i], searchList[i+1], searchList[i+2]];
+        for (var i = 0 ; i < searchList.length ; i+=4) {
+            const sub = [searchList[i], searchList[i+1], searchList[i+2], searchList[i+3]];
             list.push(sub);
         }
 
@@ -38,6 +38,7 @@ class Characters extends Component {
             const link0 = 'Detail?character='+sub[0]['key'];
             const link1 = sub[1] ? 'Detail?character='+sub[1]['key'] : '';
             const link2 = sub[2] ? 'Detail?character='+sub[2]['key'] : '';
+            const link3 = sub[3] ? 'Detail?character='+sub[3]['key'] : '';
             
             return (
                 <div className="cha4" key={'cha4'+idx}>
@@ -56,6 +57,13 @@ class Characters extends Component {
                         <Link to={link2} className="cha5">
                             <img className="chaimg" key={'chaimg'+sub[2]['key']} src={sub[2] ? 'img/Characters/'+sub[2]['key']+'.png' : ''} />
                             <div className="chaname">{intl.formatMessage({id: 'characters.'+sub[2]['key']})}</div>
+                        </Link> 
+                        : 
+                        <img className="chaimg-blank" key={'chaimg'+idx+1} />}
+                    {sub[3] ? 
+                        <Link to={link3} className="cha5">
+                            <img className="chaimg" key={'chaimg'+sub[3]['key']} src={sub[3] ? 'img/Characters/'+sub[3]['key']+'.png' : ''} />
+                            <div className="chaname">{intl.formatMessage({id: 'characters.'+sub[3]['key']})}</div>
                         </Link> 
                         : 
                         <img className="chaimg-blank" key={'chaimg'+idx+1} />}

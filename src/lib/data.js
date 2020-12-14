@@ -131,9 +131,7 @@ export const CharacterScore = (range, type) => {
     // 티어, 순위 계산
     tier.forEach(data1 => {
         const tier_score = data1['score']['total']/max_score;
-        if (data1['score']['total']/100 > 0.95) {
-            data1['tier'] = 0;
-        } else if (tier_score > 0.90) {
+               if (tier_score > 0.90) {
             data1['tier'] = 1;
         } else if (tier_score > 0.75) {
             data1['tier'] = 2;
