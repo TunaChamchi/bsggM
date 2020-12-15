@@ -1,7 +1,7 @@
 import ko from 'locale/ko';
 import en from 'locale/en';
 import scn from 'locale/scn';
-//import jp from 'locale/jp';
+import jp from 'locale/jp';
 
 export const locale = {
     "ko": {
@@ -16,10 +16,10 @@ export const locale = {
         name: '简体中文',
         data: scn
     },
-    /*"jp": {
+    "jp": {
         name: '日本語',
         data: jp
-    },*/
+    },
 };
 
 // 저장되어 있는 언어 데이터를 가져온다
