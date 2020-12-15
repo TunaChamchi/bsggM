@@ -1,15 +1,25 @@
 import React, { Component } from 'react';
 import { injectIntl  } from 'react-intl';
 import ScriptTag from 'react-script-tag';
-import { MainBanner, AdS, Footer } from 'components/banner'
+import { Header, MainBanner, AdS, Footer } from 'components/banner'
 import { Search, Characters } from 'components/Main/left'
 import { Rank } from 'components/Main/right'
 
 
 class Main extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            metaData: {
+                title: 'BSGG.kr - 블랙 서바이벌 통계 / BS:ER Stats',
+                description: '영원회귀 : 블랙 서바이벌 통계, 캐릭터 티어, 아이템 트렌드, BS:ER Stats, Character Tier, Item Trend'
+            }
+        };
+    }
     render() {
         return (
             <div>
+                <Header data={this.state.metaData}/>
                 <MainBanner />
                 <div className='main'>
                     <Search />

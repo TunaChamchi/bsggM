@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { injectIntl } from 'react-intl';
-import { Armors } from 'components/item';
-import { Weapon } from 'lib/data'
+import { Weapon, itemBgI, statList } from 'lib/data'
 
 class Weapons extends Component {
     constructor(props) {
@@ -37,12 +36,36 @@ class Weapons extends Component {
             <div className={'S_item_rank'}
                 key={'weapon' + idx}>
                 <span className="S_item_rank1">{idx+1}</span>&nbsp;
-                <img className="S_item_rank2" src={'img/Item/Weapons/'+weapon+'/'+_weapon['weapon']+'.png'} />&nbsp;
+                <div className="S_item_toolbox">
+                    <img className="S_item_rank2" src={itemBgI(_weapon['weapon'])}/>
+                    <img className="S_item_rank2" src={'img/Item/'+_weapon['weapon']+'.png'} />&nbsp;
+                    <div className="S_item_tooltip2">
+                        <span>{this.statView(_weapon['weapon'])}</span>
+                    </div>
+                </div>
                 <span className="S_item_rank3">{intl.formatMessage({id:'items.'+_weapon['weapon']})}</span>&nbsp;
                 <span className="S_item_rank4">{_weapon['win-rate'].toFixed(1)}%</span>&nbsp;
                 <span className="S_item_rank5">{_weapon['pick-rate'].toFixed(1)}%</span>
             </div>
         );
+    }
+    statView = (name) => {
+        const { intl } = this.props;
+
+        try {
+            const list = statList(name);
+
+            let toolTip = "";
+            for (const key in list) {
+                toolTip += intl.formatMessage({id: 'stat.'+key}) + " " + list[key] + "\n";
+            }
+
+            return toolTip;
+        }
+        catch
+        {
+            return '';
+        }
     }
 
     render() {

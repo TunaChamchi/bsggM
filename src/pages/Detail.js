@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom';
 import { injectIntl } from 'react-intl';
 import queryString from 'query-string';
 import ScriptTag from 'react-script-tag';
-import { MainBanner, Footer } from 'components/banner';
+import { Header, MainBanner, Footer } from 'components/banner';
+import { Top, Trend, Skill } from 'components/detail';
 import { Item } from 'components/item';
-import { CharacterScore, Max, Min, Avg, dmgPlus } from 'lib/data';
 import { charList } from 'lib/utility'
+import { CharacterScore, skillTreeList } from 'lib/data';
 
 class Detail extends Component {
     constructor(props) {
@@ -16,12 +17,12 @@ class Detail extends Component {
             character: '',
             weapon: '',
             weaponList: [],
-            range: ['RANKER', 'ALL'],
             rangeFocus: '',
-            type: ['solo', 'duo', 'squad'],
             typeFocus: '',
             ad_style: {},
-            searchList: []
+            search: '',
+            searchList: [],
+            skillTree: [],
         };
     }
     componentWillMount() {
@@ -84,61 +85,24 @@ class Detail extends Component {
             typeFocus: typeFocus,
             character: character,
             weapon: weapon,
+            search:'',
+            searchList: [],
+            skillTree: skillTreeList(character),
         });
     };
 
-    weaponListView = () => {
-        const { data, weaponList, weaponTotal, character, typeFocus, rangeFocus } = this.state;
-
-        weaponList.sort((a, b) => b['pick'] - a['pick']);
-
-        return weaponList.map((weapon, idx) => {
-            const pick = (weapon['pick'] / weaponTotal * 100).toFixed(0);
-
-            return (
-                <Link to={'Detail?range='+rangeFocus+'&type='+typeFocus+'&character='+character+'&weapon='+weapon['name']} key={'weaponList' + idx}>
-                    <div className={'tabHeader4 ' + (weapon['name'] === data['weapon'] ? 'actived' : '')}>
-                        <img className="S_top-weapon1" src={'img/Weapons/' + weapon['name'] + '.png'} />
-                        <span className="S_top-weapon2">{pick}%</span>
-                    </div>
-                </Link>
-            )
-        });
-    }
-    rangeView = () => {
-        const { character, weapon, typeFocus, range, rangeFocus } = this.state;
-
-        return range.map((name, idx) =>
-            <Link to={'Detail?range='+name+'&type='+typeFocus+'&character='+character+'&weapon='+weapon} key={'range' + idx}>
-                <div className={'tabHeader5 ' + (name === rangeFocus ? 'actived' : '')}>
-                    {name}
-                </div>
-            </Link>
-        );
-    };
-    typeView = () => {
-        const { intl } = this.props;
-        const { character, weapon, rangeFocus, type, typeFocus } = this.state;
-        return type.map((name, idx) =>
-            <Link to={'Detail?range='+rangeFocus+'&type='+name+'&character='+character+'&weapon='+weapon} key={'type' + idx}>
-                <div className={'tabHeader6 ' + (name === typeFocus ? 'actived' : '')}>
-                    {intl.formatMessage({ id: name })}
-                </div>
-            </Link>
-        );
-    };
     
     searchHandler = (event) => {
         const value = event.target.value.toLowerCase();
 
         if (!value) {
-            this.setState({searchList: []});
+            this.setState({search:'', searchList: []});
             return;
         }
 
         const list = charList().filter(data => data['name'].toLowerCase().indexOf(value) !== -1);
 
-        this.setState({searchList: list});
+        this.setState({search:value, searchList: list});
     }
     searchView = () => {
         const { searchList } = this.state;
@@ -155,30 +119,20 @@ class Detail extends Component {
 
     render() {
         const { intl } = this.props;
-        const { data, character, weapon, rangeFocus, typeFocus, ad_style, searchList } = this.state;
+        const { data, character, weapon, rangeFocus, typeFocus, search, searchList, weaponList, weaponTotal, skillTree } = this.state;
 
-        const img_char = 'img/Characters/' + data['character'] + (data['tier'] > 0 ? '' : '_오피') + '.png';
-        const img_tier = data['tier'] > 0 ? 'img/Tier/' + data['tier'] + '티어2.png' : 'img/Tier/1티어.png';
-        const avg = Avg(rangeFocus, typeFocus);
-        const max = Max(rangeFocus, typeFocus);
-        const min = Min(rangeFocus, typeFocus);
-
-        const win_rate_width  = ((data['data']['win-rate']  - min['win-rate'])  / (max['win-rate']  - min['win-rate']) ) * 500;
-        const pick_rate_width = ((data['data']['pick-rate'] - min['pick-rate']) / (max['pick-rate'] - min['pick-rate'])) * 500;
-        const avg_kill_width  = ((data['data']['avg-kill']  - min['avg-kill'])  / (max['avg-kill']  - min['avg-kill']) ) * 500;
-        const avg_rank_width  = ((data['data']['avg-rank']  - min['avg-rank'])  / (max['avg-rank']  - min['avg-rank']) ) * 500;
-
-        const win_rate_avg  = ((avg['win-rate']  - min['win-rate'])  / (max['win-rate']  - min['win-rate']) ) * 500 - 27;
-        const pick_rate_avg = ((avg['pick-rate'] - min['pick-rate']) / (max['pick-rate'] - min['pick-rate'])) * 500 - 27;
-        const avg_kill_avg  = ((avg['avg-kill']  - min['avg-kill'])  / (max['avg-kill']  - min['avg-kill']) ) * 500 - 27;
-        const avg_rank_avg  = ((avg['avg-rank']  - min['avg-rank'])  / (max['avg-rank']  - min['avg-rank']) ) * 500 - 27;
+        const metaData = {
+            title: 'BSGG.kr - ' + intl.formatMessage({id: 'characters.'+data['character']}) + ' ' + intl.formatMessage({id: 'weapons.'+data['weapon']}),
+            description: '영원회귀 : 블랙 서바이벌 통계, 캐릭터 티어, 아이템 트렌드, BS:ER Stats, Character Tier, Item Trend'
+        }
 
         return (
             <div>
+                <Header data={metaData}/>
                 <MainBanner />
                 <div className="S_main">
                     <div className="S_search">
-                        <input className="S_search1" onChange={this.searchHandler} placeholder={intl.formatMessage({id:'main.banner.placeholder'})} /> 
+                        <input className="S_search1" value={search} onChange={this.searchHandler} placeholder={intl.formatMessage({id:'main.banner.placeholder'})} /> 
                     </div>
                     {
                         searchList.length !== 0 &&
@@ -194,83 +148,22 @@ class Detail extends Component {
                             data-ad-width="728" 
                         data-ad-height="90"></ins>
                     </div>
-                    <div className="S_top">
-                        <div className="S_top-cha">
-                            <img className="S_top-cha1" src={img_char} />
-                            <img className="S_top-cha2" src={img_tier} />
-                        </div>
-                        <div className="S_top-box">  
-                            <span className="S_top-cha3">{intl.formatMessage({id: 'characters.'+data['character']})}</span>
-                            <div className="tabHeaders2">
-                            {this.weaponListView()}
-                            </div>
-                        </div>   
-                    </div>
-                    <div className="S_left">
-                        <div className="S_Trend">
-                            <div className="S_Trend0">
-                                <div className="S_Trend_tab">
-                                    <div className="tabHeaders">
-                                        {this.rangeView()}
-                                    </div>
-                                </div>
-                                <span className="S_Trend_T">Trend</span>
-                            </div>
-                            <div className="S_Trend1">
-                                <div className="tabHeaders">
-                                    {this.typeView()}
-                                </div>
-                            </div>
-                            <div className="S_Trend2">
-                                <div className="S_Trend_square">
-                                    <div className="S_Trend_square1"><span>{intl.formatMessage({id: 'win-rate'})}</span></div>
-                                    <div className="S_Trend_square3"><span>#{data['rank']['win-rate']}</span></div>
-                                    <div className="S_Trend_square2"><span>{data['data']['win-rate'].toFixed(1)}%</span></div>
-                                    <div className="S_Trend_Graph"></div>
-                                    <div className="S_Trend_Graph2" style={{width: win_rate_width}}></div>
-                                        <div className="S_Trend_avg" style={{marginLeft: win_rate_avg}}>
-                                            <div className="S_Trend_Tri"></div>
-                                            <div className="S_Trend_avg1"><span>{intl.formatMessage({id: 'detail.avg'})} {avg['win-rate']}%</span></div>
-                                        </div>
-                                        
-                                </div>
-                                <div className="S_Trend_square">
-                                    <div className="S_Trend_square1"><span>{intl.formatMessage({id: 'pick-rate'})}</span></div>
-                                    <div className="S_Trend_square3"><span>#{data['rank']['pick-rate']}</span></div>
-                                    <div className="S_Trend_square2"><span>{data['data']['pick-rate'].toFixed(1)}%</span></div>
-                                    <div className="S_Trend_Graph"></div>
-                                    <div className="S_Trend_Graph2" style={{width: pick_rate_width}}></div>
-                                        <div className="S_Trend_avg" style={{marginLeft: pick_rate_avg}}>
-                                            <div className="S_Trend_Tri"></div>
-                                            <div className="S_Trend_avg1"><span>{intl.formatMessage({id: 'detail.avg'})} {avg['pick-rate']}%</span></div>
-                                        </div>
-                                </div>
-                                <div className="S_Trend_square">
-                                    <div className="S_Trend_square1"><span>{intl.formatMessage({id: 'avg-kill'})}</span></div>
-                                    <div className="S_Trend_square3"><span>#{data['rank']['avg-kill']}</span></div>
-                                    <div className="S_Trend_square2"><span>{data['data']['avg-kill'].toFixed(1)}</span></div>
-                                    <div className="S_Trend_Graph"></div>
-                                    <div className="S_Trend_Graph2" style={{width: avg_kill_width}}></div>
-                                    <div className="S_Trend_avg" style={{marginLeft: avg_kill_avg}}>
-                                        <div className="S_Trend_Tri"></div>
-                                        <div className="S_Trend_avg1"><span>{intl.formatMessage({id: 'detail.avg'})} {avg['avg-kill']}</span></div>
-                                    </div>
-                                </div>
-                                <div className="S_Trend_square">
-                                    <div className="S_Trend_square1"><span>{intl.formatMessage({id: 'avg-rank'})}</span></div>
-                                    <div className="S_Trend_square3"><span>#{data['rank']['avg-rank']}</span></div>
-                                    <div className="S_Trend_square2"><span>{data['data']['avg-rank'].toFixed(1)}</span></div>
-                                    <div className="S_Trend_Graph"></div>
-                                    <div className="S_Trend_Graph2" style={{width: avg_rank_width}}></div>
-                                    <div className="S_Trend_avg" style={{marginLeft: avg_rank_avg}}>
-                                        <div className="S_Trend_Tri"></div>
-                                        <div className="S_Trend_avg1"><span>{intl.formatMessage({id: 'detail.avg'})} {avg['avg-rank']}</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
+                    <Top 
+                        data={data}
+                        weaponData={{weaponList, weaponTotal}}
+                        parameter={{character, weapon, rangeFocus, typeFocus}}
+                        />
+                    <div className="S_left">                     
+                        <Trend 
+                            data={data}
+                            parameter={{character, weapon, rangeFocus, typeFocus}}
+                            />                            
+                        <Skill
+                            data={data}
+                            skillTree={skillTree}
+                            parameter={{character, weapon, rangeFocus, typeFocus}}
+                            />
+                    </div>                    
                     <Item 
                         character={character}
                         weapon={weapon}

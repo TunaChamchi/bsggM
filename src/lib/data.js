@@ -6,6 +6,11 @@ import ArmorList from 'data/armor.json';
 import version from 'data/version.json';
 import dmg_plus from 'data/dmg_plus.json'
 
+import charater from 'data/inGame/charater.json'
+import item from 'data/inGame/item.json'
+
+import skilTree from 'data/sub/skillTree.json'
+
 const max = {};
 const min = {};
 
@@ -20,6 +25,7 @@ export const Avg = (range, type) => {
 export const Max = (range, type) => {
     return max[range][type];
 }
+
 export const Min = (range, type) => {
     return min[range][type];
 }
@@ -131,7 +137,7 @@ export const CharacterScore = (range, type) => {
     // 티어, 순위 계산
     tier.forEach(data1 => {
         const tier_score = data1['score']['total']/max_score;
-               if (tier_score > 0.90) {
+        if (tier_score > 0.90) {
             data1['tier'] = 1;
         } else if (tier_score > 0.75) {
             data1['tier'] = 2;
@@ -142,7 +148,6 @@ export const CharacterScore = (range, type) => {
         } else {
             data1['tier'] = 5;
         }
-
 
         data1['rank']['total'] = 1;
         tier.forEach(data2 => {
@@ -277,7 +282,7 @@ export const Weapon = (character, weapon, type) => {
 }
 
 export const Armor = (range, type) => {
-    const armorist = ArmorList[type]
+    const armorist = ArmorList[type];
     const list = [];
     for (const key in armorist) {
         try {
@@ -295,6 +300,37 @@ export const Armor = (range, type) => {
     return list;    
 }
 
-export const dmgPlus = (character, type, value) => {
-    return dmg_plus[character][type][value];
+export const dmgPlus = (character, type, name) => {
+    return dmg_plus[character][type][name];
+}
+
+export const getStat = (name, stat, idx) => {
+    return charater[name]['stat'][stat][idx];
+}
+
+export const skillTreeList = (character) => {
+    const tree = skilTree[character];
+    const list = [];
+    for (const key in tree) {
+        try {
+            const data = {
+                name: key,
+                tree: tree[key]
+            };
+
+            list.push(data);
+        } catch {
+            break;
+        }
+    }
+
+    return list;
+}
+
+export const itemBgI = (name) => {
+    return 'img/Item/BackGround/'+item[name]['grade']+'.jpg'
+}
+
+export const statList = (name) => {
+    return item[name]["stat"];
 }
