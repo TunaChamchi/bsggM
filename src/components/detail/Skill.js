@@ -30,7 +30,7 @@ class Skill extends Component {
                 <div className='S_Skill_tab' key={'type' + idx}>
                     <div className="S_skill_toolbox">
                         <img className='S_Skill_img' src={img} />
-                         <div className="S_skill_tooltip">
+                         <div className={"S_skill_tooltip_"+name}>
                             <span><b>{skilName}</b></span><br />
                             <span>{detail}</span>
                         </div>
@@ -112,6 +112,9 @@ class Skill extends Component {
                     <div className="skill_centent">
                         <div className="skill_imgbox">
                             {this.skillTreePick()}
+                            <span className="skill_mark1">></span>
+                            <span className="skill_mark2">></span>
+                            <span className="skill_mark3">></span>
                         </div>
                         <div className="skill_box0">
                             <div className='skill_td'>

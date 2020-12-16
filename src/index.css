@@ -12,9 +12,10 @@ body {
   font-family: "Noto Sans KR", "noto sans sc";
   font-weight: 300;
   color: rgb(209,209,209);
-  max-width: 750px;
+  width: 750px;
 }
 html {
+    margin: 0;
     width: 750px;
 } 
 /* ADs */
@@ -141,9 +142,92 @@ button:hover{
     margin-top: 70px;
     margin-left: 58px;
 }
-.S_skill_tooltip{
+.S_skill_tooltip_T{
     visibility: hidden;
-    width: 390px;
+    width: 400px;
+    background-color: rgb(23, 21, 32);
+    position: absolute;
+    z-index: 1;
+    font-size: 20pt;
+    white-space: pre-line;
+    word-break: keep-all;
+    border-radius: 10px;
+    color:white;
+    font-weight: 300;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+}
+.S_skill_tooltip_Q{
+    visibility: hidden;
+    width: 400px;
+    background-color: rgb(23, 21, 32);
+    position: absolute;
+    z-index: 1;
+    font-size: 20pt;
+    white-space: pre-line;
+    word-break: keep-all;
+    border-radius: 10px;
+    color:white;
+    font-weight: 300;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+}
+.S_skill_tooltip_E{
+    visibility: hidden;
+    width: 400px;
+    background-color: rgb(23, 21, 32);
+    position: absolute;
+    z-index: 1;
+    font-size: 20pt;
+    white-space: pre-line;
+    word-break: keep-all;
+    border-radius: 10px;
+    color:white;
+    font-weight: 300;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: -60px;
+}
+.S_skill_tooltip_R{
+    visibility: hidden;
+    width: 400px;
+    background-color: rgb(23, 21, 32);
+    position: absolute;
+    z-index: 1;
+    font-size: 20pt;
+    white-space: pre-line;
+    word-break: keep-all;
+    border-radius: 10px;
+    color:white;
+    font-weight: 300;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: -170px;
+}
+.S_skill_tooltip_D{
+    visibility: hidden;
+    width: 400px;
+    background-color: rgb(23, 21, 32);
+    position: absolute;
+    z-index: 1;
+    font-size: 20pt;
+    white-space: pre-line;
+    word-break: keep-all;
+    border-radius: 10px;
+    color:white;
+    font-weight: 300;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: -280px;
+}
+.S_skill_tooltip_W{
+    visibility: hidden;
+    width: 400px;
     background-color: rgb(23, 21, 32);
     position: absolute;
     z-index: 1;
@@ -169,7 +253,22 @@ button:hover{
 .S_item_toolbox1:hover .S_item_tooltip3{
     visibility: visible;
 }
-.S_skill_toolbox:hover .S_skill_tooltip{
+.S_skill_toolbox:hover .S_skill_tooltip_T{
+    visibility: visible;
+}
+.S_skill_toolbox:hover .S_skill_tooltip_Q{
+    visibility: visible;
+}
+.S_skill_toolbox:hover .S_skill_tooltip_W{
+    visibility: visible;
+}
+.S_skill_toolbox:hover .S_skill_tooltip_E{
+    visibility: visible;
+}
+.S_skill_toolbox:hover .S_skill_tooltip_R{
+    visibility: visible;
+}
+.S_skill_toolbox:hover .S_skill_tooltip_D{
     visibility: visible;
 }
 .S_item_toolbox{
@@ -197,11 +296,11 @@ button:hover{
     position: relative;
 }
 .S_skill_toolbox{
-width: 78px;
-vertical-align: text-top;
-clear: both;
-margin-bottom: -3px;
-border-radius: 2px 2px 0px 0px / 2px 2px 0px 0px ;
+    width: 78px;
+    vertical-align: text-top;
+    clear: both;
+    margin-bottom: -3px;
+    border-radius: 2px 2px 0px 0px / 2px 2px 0px 0px ;
 }
 /* 1 page */
 .banner {
@@ -699,7 +798,7 @@ border-radius: 2px 2px 0px 0px / 2px 2px 0px 0px ;
 }
 .S_main{
     width: 750px;
-    margin: auto;
+    margin: 0;
     margin-top: 20px;
     min-height: 1555px;
     overflow: hidden;
@@ -949,7 +1048,6 @@ border-radius: 2px 2px 0px 0px / 2px 2px 0px 0px ;
     margin-left: 22px;
     font-size: 17pt;
     margin-bottom: 10px;
-    
 }
 .S_Skill_img{
     width: 88px;
@@ -992,6 +1090,7 @@ border-radius: 2px 2px 0px 0px / 2px 2px 0px 0px ;
 .skill_imgbox{
     clear: both;
     text-align: center;
+    position: relative;
 }
 .skill_img {
     vertical-align: middle;
@@ -1014,6 +1113,24 @@ border-radius: 2px 2px 0px 0px / 2px 2px 0px 0px ;
     margin-bottom: 10px;
     border: solid 1px  rgb(244,216,35);
     border-radius: 5px;
+}
+.skill_mark1{
+    position: absolute;
+    color:  rgb(244,216,35);
+    top: 32px;
+    left: 265px;
+}
+.skill_mark2{
+    position: absolute;
+    color:  rgb(244,216,35);
+    top: 32px;
+    left: 366px;
+}
+.skill_mark3{
+    position: absolute;
+    color:  rgb(244,216,35);
+    top: 32px;
+    left: 467px;
 }
 .skill_box0{
     clear: both;
