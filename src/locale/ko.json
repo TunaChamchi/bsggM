@@ -1,4 +1,8 @@
 {
+    "Title": {
+        "Main": "블랙 서바이벌 통계",
+        "Map":"지도 도감 / 루트"
+    },
     "Data-period": "Updated 2020.11.19 / Data period 2020.11.17 ~ 11.18",
     "search": "검색",
     "character": "캐릭터",

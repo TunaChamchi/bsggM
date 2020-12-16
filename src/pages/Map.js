@@ -9,10 +9,6 @@ class Map extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            metaData: {
-                title: 'BSGG.kr - 지도 도감 / 루트',
-                description: '영원회귀 : 블랙 서바이벌 통계, 캐릭터 티어, 아이템 트렌드, BS:ER Stats, Character Tier, Item Trend'
-            },
             selectMap: '',
         };
     }
@@ -25,9 +21,14 @@ class Map extends Component {
         const { intl } = this.props;
         const { selectMap } = this.state;
 
+        const metaData = {
+            title: 'BSGG.kr - ' + intl.formatMessage({id: 'Title.Map'}),
+            description: '영원회귀 : 블랙 서바이벌 통계, 캐릭터 티어, 아이템 트렌드, BS:ER Stats, Character Tier, Item Trend'
+        }
+
         return (
             <div>
-                <Header data={this.state.metaData}/>
+                <Header data={metaData}/>
                 <MainBanner />
                 <div className="Ad_box_Detail2">
                     <ins 

@@ -1,4 +1,8 @@
 {
+    "Title": {
+        "Main": "BS:ER Stats",
+        "Map":"Map Catalog / Making Route"
+    },
     "Data-period": "Updated 2020.11.19 / Data period 2020.11.17 ~ 11.18",
     "search": "Search",
     "character": "Character",
