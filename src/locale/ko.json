@@ -17,7 +17,11 @@
     "kill": "킬",
     "avg-kill": "평균킬",
     "name":"이름", 
-    "footer":"BSGG.kr isn’t endorsed by Nimble Neuron.\nEternal Return: Black Survival is trademarks or registered trademarks of Nimble Neuron.\nData Based on Nimble Neuron",
+    "지도 도감":"지도 도감",
+    "루트제작":"루트 제작 - 준비중",
+    "드랍 아이템":"드랍 아이템",
+    "출현 동물":"출현 동물",
+    "footer":"BSGG.kr isn’t endorsed by Nimble Neuron.\nEternal Return: Black Survival is trademarks or registered trademarks of Nimble Neuron.\nData Based on Nimble Neuron.",
     "question":"캐릭터 티어는 공식 통계를 기반으로한 캐릭터들의 승률, 픽률, 평균킬수, 평균순위 등을 바탕으로 만들어집니다. 듀오와 스쿼드 통계에서는 평균킬수와 평균순위의 티어에 미치는 영향력이 감소합니다.",
     "question_item":"방어구 아이템 통계는 자료부족으로 인해 전 캐릭터 기준 승률 자료입니다. 각 캐릭터별 방어구 승률이 아닙니다.",
 
@@ -54,7 +58,11 @@
         "avg": "평균",
         "skill_info": "스킬 정보",
         "passive": "패시브",
-        "weaponSkill": "무기스킬"
+        "weaponSkill": "무기스킬",
+        "스킬트리" : "Skill Tree",
+        "평타" : "Skill Tree",
+        "흡혈" : "Skill Tree",
+        "스킬" : "Skill"
     },
 
     "stat": {
@@ -135,12 +143,12 @@
         "석궁": "석궁"        
     },
     "armor": {
+        "무기":"무기",
         "옷":"옷",
         "머리":"머리",
         "팔":"팔",
         "다리":"다리",
-        "장식":"장식",
-        "무기": "무기"
+        "장식":"장식"
     },
     
         "Archery": "양궁장",
@@ -760,7 +768,7 @@
             "name": "갑옷깨기",
             "Detail": "지정한 방향으로 망치를 내려쳐 피해를 입히고 몇초간 방어력을 감소 시킵니다."
         },
-        "방망이": {
+        "배트": {
             "name": "풀스윙",
             "Detail": "매그너스 전방 180도 범위의 모든 적에게 피해를 주고 뒤로 넉백 (밀쳐냄) 시킵니다.\n넉백 된 적이 벽에 부딪히면 0.5초간 기절합니다."
         },

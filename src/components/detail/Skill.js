@@ -17,8 +17,8 @@ class Skill extends Component {
 
         return skill.map((name, idx) => {
             const img = name === 'D' ? 
-                'img/Weapons/'+parameter['weapon']+'.png' : 
-                'img/Skill/'+parameter['character']+'/'+parameter['character']+'_'+name+'.png';
+                'img/Weapons/'+parameter['weapon']+'.jpg' : 
+                'img/Skill/'+parameter['character']+'/'+parameter['character']+'_'+name+'.jpg';
             const skilName = name === 'D' ? 
                 intl.formatMessage({ id: 'skill.'+parameter['weapon']+'.name' }) : 
                 intl.formatMessage({ id: 'skill.'+parameter['character']+'.'+name+'.name' });
@@ -30,7 +30,7 @@ class Skill extends Component {
                 <div className='S_Skill_tab' key={'type' + idx}>
                     <div className="S_skill_toolbox">
                         <img className='S_Skill_img' src={img} />
-                         <div className="S_skill_tooltip">
+                         <div className={"S_skill_tooltip_"+name}>
                             <span><b>{skilName}</b></span><br />
                             <span>{detail}</span>
                         </div>
@@ -71,7 +71,7 @@ class Skill extends Component {
         const tree = skillTree[skillTreeFocus]['tree'];
 
         return tree.map((name, idx) => 
-            <img className="skill_span" key={'tree'+idx} src={'img/Skill/'+parameter['character']+'/'+parameter['character']+'_'+name+'.png'} />
+            <img className="skill_span" key={'tree'+idx} src={'img/Skill/'+parameter['character']+'/'+parameter['character']+'_'+name+'.jpg'} />
         )
     }
     skillTreeTdView = () => {
@@ -81,7 +81,7 @@ class Skill extends Component {
         return skill.slice(0, 5).map((name, idx) =>
             <div className='skill_td' key={'td'+idx}>
                 <div className={'skill_tr skill_'+name} key={'tr'+idx} >
-                    <img className="skill_img" key={'tree'+idx} src={'img/Skill/'+parameter['character']+'/'+parameter['character']+'_'+name+'.png'} />
+                    <img className="skill_img" key={'tree'+idx} src={'img/Skill/'+parameter['character']+'/'+parameter['character']+'_'+name+'.jpg'} />
                 </div>
                 {this.skillTreeTrView(name)}
             </div>
@@ -107,11 +107,14 @@ class Skill extends Component {
                         {this.skillView()}
                     </div>
                 <div className="S_Skill2">
-                    <span>스킬트리</span>
+                    <span>{intl.formatMessage({ id: 'detail.스킬트리' })}</span>
                     {this.skillTreeTabView()}
                     <div className="skill_centent">
                         <div className="skill_imgbox">
                             {this.skillTreePick()}
+                            <span className="skill_mark1">></span>
+                            <span className="skill_mark2">></span>
+                            <span className="skill_mark3">></span>
                         </div>
                         <div className="skill_box0">
                             <div className='skill_td'>

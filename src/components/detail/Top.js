@@ -23,7 +23,7 @@ class Top extends Component {
             return (
                 <Link to={'Detail?range='+parameter['rangeFocus']+'&type='+parameter['typeFocus']+'&character='+parameter['character']+'&weapon='+name} key={'weaponList' + idx}>
                     <div className={'tabHeader4 ' + (name === data['weapon'] ? 'actived' : '')}>
-                        <img className="S_top-weapon1" src={'img/Weapons/' + name + '.png'} />
+                        <img className="S_top-weapon1" src={'img/Weapons/' + name + '.jpg'} />
                         <span className="S_top-weapon2">{pick}%</span>
                     </div>
                 </Link>
@@ -37,7 +37,7 @@ class Top extends Component {
 
         const character = parameter['character'];
 
-        const img_char = 'img/Characters/' + character + '.png';
+        const img_char = 'img/Characters/' + character + '.jpg';
         const img_tier = 'img/Tier/' + data['tier'] + '티어2.png';
 
         return (            

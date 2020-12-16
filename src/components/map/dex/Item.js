@@ -32,7 +32,7 @@ class Item extends Component {
 
         return (
             <div className="map_square">
-                <div className="map_tab">드랍 아이템</div>
+                <div className="map_tab">{intl.formatMessage({id:'드랍 아이템'})}</div>
                 {this.itemView()}
             </div>
         );

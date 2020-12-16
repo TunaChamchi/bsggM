@@ -35,7 +35,7 @@ class Monster extends Component {
                 <div className="tabHeaders3">
                     <img className={"map_img_animal" + (selectMoster === moster ? ' actived' : '')}
                     onClick={(e) => this.onClick(e, moster)}
-                    key={'moster'+idx} src={'img/Animal/'+moster+'.png'} />
+                    key={'moster'+idx} src={'img/Animal/'+moster+'.jpg'} />
                 </div>
             )
         });
@@ -61,12 +61,12 @@ class Monster extends Component {
 
         return (
             <div className="map_square">
-                <div className="map_tab">출연 동물</div>
+            <div className="map_tab">{intl.formatMessage({id:'출현 동물'})}</div>
                 {this.MosterView()}
                 {
                     selectMoster && 
                         <div>
-                            <div className="map_tab2">아이템</div>
+                        <div className="map_tab2">{intl.formatMessage({id:'드랍 아이템'})}</div>
                             {this.itemView()}
                         </div>
                 }

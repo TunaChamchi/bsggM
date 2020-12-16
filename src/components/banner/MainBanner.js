@@ -40,7 +40,6 @@ class MainBanner extends Component {
                         <span>{Upadated}</span>
                         <br />
                         <span>{Data_period}</span>
-                        <img className="newimg" src={newimg} />
                     </div>
                 </div>
             </div>

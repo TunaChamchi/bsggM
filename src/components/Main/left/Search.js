@@ -30,7 +30,7 @@ class Search extends Component {
         return searchList.map((data, idx) => 
             <Link to={'Detail?character='+data['key']} key={idx}>
                 <div className="S_search4" >
-                    <img className="searchimg" src={'img/Rank/'+data['key']+'.png'} />
+                    <img className="searchimg" src={'img/Rank/'+data['key']+'.jpg'} />
                     <div className="searchfont"> {data['name']} </div>
                 </div>
             </Link>

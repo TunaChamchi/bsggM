@@ -17,9 +17,13 @@
     "kill": "击杀",
     "avg-kill": "平均-击杀",
     "name":"名字",
-    "footer":"BSGG.kr isn’t endorsed by Nimble Neuron.\nEternal Return: Black Survival is trademarks or registered trademarks of Nimble Neuron.\nData Based on Nimble Neuron",
-    "question":"字符层是根据官方统计的获胜率,选择率,平均技能,平均等级等来计算的。 多重和班级的统计数字减少 了普通杀戮和普通等级的影响。",
-    "question_item":"装甲项目统计数据是由于缺少 数据而基于所有角色的获胜率数据。不是每个角色的装甲赢率。",
+    "지도 도감":"地图鉴别",
+    "루트제작":"路径制作 - 准备中",
+    "드랍 아이템":"物品",
+    "출현 동물":"出现动物",
+    "footer":"BSGG.kr isn’t endorsed by Nimble Neuron.\nEternal Return: Black Survival is trademarks or registered trademarks of Nimble Neuron.\nData Based on Nimble Neuron.",
+    "question":"字符层是根据官方统计的获胜率, 选择率,平均技能, 平均等级等来计算的。 多重和班级的统计数字减少 了普通杀戮和普通等级的影响。",
+    "question_item":"装甲项目统计数据是由于缺少  数据而基于所有角色的获胜率数据。 不是每个角色的装甲赢率。",
 
     "main": {
         "banner": {
@@ -27,7 +31,7 @@
             "menu": {
                 "rank": "排名",
                 "item": "物品",
-                "map": "Map"
+                "map": "地图"
             },
             "placeholder": "角色搜索."
         },
@@ -52,42 +56,46 @@
         "avg": "平均",
         "skill_info": "技能资讯",
         "passive": "被动的",
-        "weaponSkill": "武器技能"
+        "weaponSkill": "武器技能",
+        "스킬트리" : "技能次序",
+        "평타" : "基本攻击",
+        "흡혈" : "体能吸收",
+        "스킬" : "技能增幅"
     },
     "stat": {
-        "공격력": "공격력",
-        "스킬증폭": "스킬증폭",
-        "공격속도": "공격속도",
-        "생명력흡수": "생명력 흡수",
-        "장탄 수": "장탄수",
+        "공격력": "攻击力",
+        "스킬증폭": "技能增幅",
+        "공격속도": "攻击速度",
+        "생명력흡수": "体能吸收",
+        "장탄 수": "最大数量",
 
-        "치명타확률": "치명타 확률",
-        "치명타피해량": "치명타 피해량",
+        "치명타확률": "暴击概率",
+        "치명타피해량": "暴击伤害量",
 
-        "기본공격추가피해": "기본공격 추가피해",
-        "기본공격시치유감소": "기본공격시 치유감소",
-        "스킬적중시치유감소": "스킬적중시 치유감소",
+        "기본공격추가피해": "基本攻击额外伤害",
+        "기본공격시치유감소": "基本攻击肘减少治愈",
+        "스킬적중시치유감소": "技能肘减少治愈",
 
-        "방어력": "방어력",
-        "기본공격피해감소": "기본공격 피해감소",
-        "스킬피해감소": "스킬 피해감소",
+        "방어력": "防御力",
+        "기본공격피해감소": "基本攻击伤害减少",
+        "스킬피해감소": "技能伤害减少",
         
-        "체력": "최대 체력",
-        "최대체력": "최대 체력",
-        "체력재생": "체력 재생",
+        "체력": "最大体力",
+        "최대체력": "最大体力",
+        "체력재생": "体力再生",
 
-        "최대스태미너": "최대 스태미너",
-        "스태미너재생": "스태미너 재생",
-        "스태미너재생2": "스태미너 재생",
-        "스테미너재생": "스태미너 재생",
-        "스테미너재생2": "스태미너 재생",
+        "최대스태미너": "最大",
+        "스태미너재생": "耐力再生",
+        "스태미너재생2": "耐力再生",
+        "스테미너재생": "耐力再生",
+        "스테미너재생2": "耐力再生",
 
-        "시야": "시야",
-        "이동속도": "이동속도",
-        "쿨다운감소": "쿨다운 감소",
-        "기본공격사거리": "기본공격 사거리",
-        "비전투중이동속도": "비전투시 이동속도",
-        "비전투시이동속도": "비전투시 이동속도"
+        "시야": "视野范围",
+        "이동속도": "移动速度",
+        "쿨다운감소": "冷却减少",
+        "기본공격사거리": "基本攻击射程",
+        "비전투중이동속도": "非战斗 移动速度",
+        "비전투시이동속도": "非战斗 移动速度"
     },
 
     "characters": {
@@ -132,29 +140,29 @@
         "석궁": "弩"        
     },
     "armor": {
+        "무기": "武器",
         "옷": "胸部",
         "머리":"头部",
         "팔": "手臂",
         "다리": "腿部",
-        "장식": "装饰",
-        "무기": "武器"
+        "장식": "装饰"
     },
-    "Archery": "Archery",
-    "Alley": "Alley",
-    "Avenue": "Avenue",
-    "Temple": "Temple",
-    "School": "School",
-    "Hotel": "Hotel",
-    "Pond": "Pond",
-    "Research": "Research",
-    "Beach": "Beach",
-    "Forest": "Forest",
-    "Cemetery": "Cemetery",
-    "Hospital": "Hospital",
-    "Uptown": "Uptown 주택가",
-    "Chapel": "Chapel",
-    "Factory": "Factory",
-    "Dock": "Dock",
+    "Archery": "靶场",
+    "Alley": "小巷",
+    "Avenue": "大街",
+    "Temple": "寺刹",
+    "School": "学校",
+    "Hotel": "旅馆",
+    "Pond": "池塘",
+    "Research": "研究所",
+    "Beach": "海滩",
+    "Forest": "森林",
+    "Cemetery": "墓园",
+    "Hospital": "医院",
+    "Uptown": "高级住宅区",
+    "Chapel": "教堂",
+    "Factory": "工厂",
+    "Dock": "码头",
     
     "items":{
         "일렉트론블라스터": "电子光束枪",
@@ -758,7 +766,7 @@
             "name": "Armor Piercing",
             "Detail": "Smash the hammer down, dealing X damage and reducing the defense of enemies hit by X% for 5 seconds."
         },
-        "방망이": {
+        "배트": {
             "name": "Full Swing",
             "Detail": "Swing your bat in front of you, dealing X damage to all enemies in the targeted area, and knocking them back.\n Enemies hit into wall are stunned for 0.5 second."
         },
