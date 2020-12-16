@@ -174,14 +174,6 @@ class Detail extends Component {
                         type={typeFocus}
                     />
                 </div>
-                <div className="Ad_box_Detail2">
-                    <ins 
-                        class="kakao_ad_area" 
-                        style={{display: 'none'}}
-                        data-ad-unit="DAN-2F5abPe9K508dSMu" 
-                        data-ad-width="728" 
-                    data-ad-height="90"></ins>
-                </div>
                 <Footer />
                 <ScriptTag src="//t1.daumcdn.net/kas/static/ba.min.js" async />
             </div>
