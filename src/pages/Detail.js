@@ -7,7 +7,7 @@ import { Header, MainBanner, Footer } from 'components/banner';
 import { Top, Trend, Skill } from 'components/detail';
 import { Item } from 'components/item';
 import { charList } from 'lib/utility'
-import { CharacterScore, skillTreeList } from 'lib/data';
+import { CharacterScore, skillTreeList, skillTreeList2 } from 'lib/data';
 
 class Detail extends Component {
     constructor(props) {
@@ -23,6 +23,7 @@ class Detail extends Component {
             search: '',
             searchList: [],
             skillTree: [],
+            skillTree2: [],
         };
     }
     componentWillMount() {
@@ -88,6 +89,7 @@ class Detail extends Component {
             search:'',
             searchList: [],
             skillTree: skillTreeList(character),
+            skillTree2: skillTreeList2(character),
         });
     };
 
@@ -119,7 +121,7 @@ class Detail extends Component {
 
     render() {
         const { intl } = this.props;
-        const { data, character, weapon, rangeFocus, typeFocus, search, searchList, weaponList, weaponTotal, skillTree } = this.state;
+        const { data, character, weapon, rangeFocus, typeFocus, search, searchList, weaponList, weaponTotal, skillTree, skillTree2 } = this.state;
 
         const metaData = {
             title: 'BSGG.kr - ' + intl.formatMessage({id: 'characters.'+data['character']}) + ' ' + intl.formatMessage({id: 'weapons.'+data['weapon']}),
@@ -161,6 +163,7 @@ class Detail extends Component {
                         <Skill
                             data={data}
                             skillTree={skillTree}
+                            skillTree2={skillTree2}
                             parameter={{character, weapon, rangeFocus, typeFocus}}
                             />
                     </div>                    

@@ -10,6 +10,7 @@ import charater from 'data/inGame/charater.json'
 import item from 'data/inGame/item.json'
 
 import skilTree from 'data/sub/skillTree.json'
+import skilTree2 from 'data/sub/skillTree2.json'
 
 const max = {};
 const min = {};
@@ -325,6 +326,9 @@ export const skillTreeList = (character) => {
     }
 
     return list;
+}
+export const skillTreeList2 = (character) => {
+    return skilTree2[character];
 }
 
 export const itemBgI = (name) => {

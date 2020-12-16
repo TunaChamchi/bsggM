@@ -90,7 +90,11 @@ class Skill extends Component {
         )
     }
     skillTreeTrView = (name) => {
-        const tree = ["Q", "W", "E", "Q", "Q", "R", "Q", "W", "Q", "W", "R", "W", "W", "E", "E", "R", "E", "E", "T", "T"]
+        const { skillTree, skillTree2 } = this.props;
+        const { skillTreeFocus } = this.state;
+
+        const treeName = skillTree[skillTreeFocus]['name'];
+        const tree = skillTree2[treeName];
 
         return tree.map((_name, idx) =>
             <div className={"skill_tr" + (_name===name ? ' skill_'+name : '')} key={'tr'+idx} 
