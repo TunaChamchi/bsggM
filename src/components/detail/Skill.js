@@ -58,8 +58,8 @@ class Skill extends Component {
         return list.map((tree, idx) => 
             <div className='tabHeaders' key={'treeTab'+idx} >
                 <div className={"skill_tab" + (idx===skillTreeFocus ? ' actived' : '')} 
-                    onClick={(e) => tree['name']!==''?this.skillTreeTabHandler(idx):''}>
-                    <span>{intl.formatMessage({ id: 'detail.'+tree['name'] })}</span>
+                    onClick={(e) => tree['name']?this.skillTreeTabHandler(idx):''}>
+                    <span>{tree['name']?intl.formatMessage({ id: 'detail.'+tree['name'] }):''}</span>
                 </div>
             </div>
         )
