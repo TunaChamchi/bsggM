@@ -64,10 +64,10 @@ class Tier extends Component {
                         <img className="rank3Updown"   src={(rankDiff>0?'img/UpDown/상승.png':rankDiff<0?'img/UpDown/하락.png':'img/UpDown/유지.png')} />&nbsp;
                         <span className="rank3Updown1">{Math.abs(rankDiff)}</span>&nbsp;
                         <Link to={'Detail?range='+range+'&type='+type+'&character='+data['character']+'&weapon='+ data['weapon']}>
-                            <img className="rank3cha1" src={'img/Rank/'+data['character']+(data['tier']>0?'':'_오피')+'.png'} />
+                            <img className="rank3cha1" src={'img/Rank/'+data['character']+(data['tier']>0?'':'_오피')+'.jpg'} />
                             <span className="rank3chaname">{intl.formatMessage({id: 'characters.'+data['character']})}</span>
                         </Link>&nbsp;
-                        <img className="rank3weapon1"  src={'img/Weapons/'+data['weapon']+'.png'} />&nbsp;
+                        <img className="rank3weapon1"  src={'img/Weapons/'+data['weapon']+'.jpg'} />&nbsp;
                         <img className="rank3tier1"    src={data['tier']===0?'img/Tier/1티어.png':'img/Tier/'+data['tier']+'티어.png'} />&nbsp;
                         <span className="rank3win1"> {data['data']['win-rate'].toFixed(1)}% </span>&nbsp;
                         <span className="rank3pick1">{data['data']['pick-rate'].toFixed(1)}%</span>&nbsp;
@@ -79,10 +79,10 @@ class Tier extends Component {
                         <span className="rank3rank1">{idx+1}</span>&nbsp;
                         <img className="rank3new"   src={'img/UpDown/new.png'} />&nbsp;
                         <Link to={'Detail?range='+range+'&type='+type+'&character='+data['character']+'&weapon='+ data['weapon']}>
-                            <img className="rank3cha1" src={'img/Rank/'+data['character']+(data['tier']>0?'':'_오피')+'.png'} />
+                            <img className="rank3cha1" src={'img/Rank/'+data['character']+(data['tier']>0?'':'_오피')+'.jpg'} />
                             <span className="rank3chaname">{intl.formatMessage({id: 'characters.'+data['character']})}</span>
                         </Link>&nbsp;
-                        <img className="rank3weapon1"  src={'img/Weapons/'+data['weapon']+'.png'} />&nbsp;
+                        <img className="rank3weapon1"  src={'img/Weapons/'+data['weapon']+'.jpg'} />&nbsp;
                         <img className="rank3tier1"    src={data['tier']===0?'img/Tier/1티어.png':'img/Tier/'+data['tier']+'티어.png'} />&nbsp;
                         <span className="rank3win1"> {data['data']['win-rate'].toFixed(1)}% </span>&nbsp;
                         <span className="rank3pick1">{data['data']['pick-rate'].toFixed(1)}%</span>&nbsp;

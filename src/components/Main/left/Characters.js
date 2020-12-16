@@ -43,26 +43,26 @@ class Characters extends Component {
             return (
                 <div className="cha4" key={'cha4'+idx}>
                         <Link to={link0} className="cha5">
-                                <img className="chaimg" key={'chaimg'+sub[0]['key']} src={'img/Characters/'+sub[0]['key']+'.png'} />
+                                <img className="chaimg" key={'chaimg'+sub[0]['key']} src={'img/Characters/'+sub[0]['key']+'.jpg'} />
                                 <div className="chaname">{intl.formatMessage({id: 'characters.'+sub[0]['key']})}</div>
                         </Link>&nbsp;
                     {sub[1] ? 
                         <Link to={link1} className="cha5">
-                            <img className="chaimg" key={'chaimg'+sub[1]['key']} src={sub[1] ? 'img/Characters/'+sub[1]['key']+'.png' : ''} />
+                            <img className="chaimg" key={'chaimg'+sub[1]['key']} src={sub[1] ? 'img/Characters/'+sub[1]['key']+'.jpg' : ''} />
                             <div className="chaname">{intl.formatMessage({id: 'characters.'+sub[1]['key']})}</div>
                         </Link>
                         : 
                         <img className="chaimg-blank" key={'chaimg'+idx} />}&nbsp;
                     {sub[2] ? 
                         <Link to={link2} className="cha5">
-                            <img className="chaimg" key={'chaimg'+sub[2]['key']} src={sub[2] ? 'img/Characters/'+sub[2]['key']+'.png' : ''} />
+                            <img className="chaimg" key={'chaimg'+sub[2]['key']} src={sub[2] ? 'img/Characters/'+sub[2]['key']+'.jpg' : ''} />
                             <div className="chaname">{intl.formatMessage({id: 'characters.'+sub[2]['key']})}</div>
                         </Link> 
                         : 
                         <img className="chaimg-blank" key={'chaimg'+idx+1} />}
                     {sub[3] ? 
                         <Link to={link3} className="cha5">
-                            <img className="chaimg" key={'chaimg'+sub[3]['key']} src={sub[3] ? 'img/Characters/'+sub[3]['key']+'.png' : ''} />
+                            <img className="chaimg" key={'chaimg'+sub[3]['key']} src={sub[3] ? 'img/Characters/'+sub[3]['key']+'.jpg' : ''} />
                             <div className="chaname">{intl.formatMessage({id: 'characters.'+sub[3]['key']})}</div>
                         </Link> 
                         : 

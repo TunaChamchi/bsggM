@@ -17,8 +17,8 @@ class Skill extends Component {
 
         return skill.map((name, idx) => {
             const img = name === 'D' ? 
-                'img/Weapons/'+parameter['weapon']+'.png' : 
-                'img/Skill/'+parameter['character']+'/'+parameter['character']+'_'+name+'.png';
+                'img/Weapons/'+parameter['weapon']+'.jpg' : 
+                'img/Skill/'+parameter['character']+'/'+parameter['character']+'_'+name+'.jpg';
             const skilName = name === 'D' ? 
                 intl.formatMessage({ id: 'skill.'+parameter['weapon']+'.name' }) : 
                 intl.formatMessage({ id: 'skill.'+parameter['character']+'.'+name+'.name' });
@@ -71,7 +71,7 @@ class Skill extends Component {
         const tree = skillTree[skillTreeFocus]['tree'];
 
         return tree.map((name, idx) => 
-            <img className="skill_span" key={'tree'+idx} src={'img/Skill/'+parameter['character']+'/'+parameter['character']+'_'+name+'.png'} />
+            <img className="skill_span" key={'tree'+idx} src={'img/Skill/'+parameter['character']+'/'+parameter['character']+'_'+name+'.jpg'} />
         )
     }
     skillTreeTdView = () => {
@@ -81,7 +81,7 @@ class Skill extends Component {
         return skill.slice(0, 5).map((name, idx) =>
             <div className='skill_td' key={'td'+idx}>
                 <div className={'skill_tr skill_'+name} key={'tr'+idx} >
-                    <img className="skill_img" key={'tree'+idx} src={'img/Skill/'+parameter['character']+'/'+parameter['character']+'_'+name+'.png'} />
+                    <img className="skill_img" key={'tree'+idx} src={'img/Skill/'+parameter['character']+'/'+parameter['character']+'_'+name+'.jpg'} />
                 </div>
                 {this.skillTreeTrView(name)}
             </div>

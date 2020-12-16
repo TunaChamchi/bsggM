@@ -35,7 +35,7 @@ class Monster extends Component {
                 <div className="tabHeaders3">
                     <img className={"map_img_animal" + (selectMoster === moster ? ' actived' : '')}
                     onClick={(e) => this.onClick(e, moster)}
-                    key={'moster'+idx} src={'img/Animal/'+moster+'.png'} />
+                    key={'moster'+idx} src={'img/Animal/'+moster+'.jpg'} />
                 </div>
             )
         });
