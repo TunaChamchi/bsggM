@@ -60,9 +60,9 @@
         "passive": "Passive",
         "weaponSkill": "Weapon Skill",
         "스킬트리" : "Skill Tree",
-        "평타" : "Skill Tree",
-        "흡혈" : "Skill Tree",
-        "스킬" : "Skill"
+        "평타" : "Normal Attack",
+        "흡혈" : "Life Steal",
+        "스킬" : "Skill Amp.."
     },
     "stat": {
         "공격력": "Attack Power",

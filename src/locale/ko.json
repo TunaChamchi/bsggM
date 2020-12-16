@@ -60,9 +60,9 @@
         "passive": "패시브",
         "weaponSkill": "무기스킬",
         "스킬트리" : "Skill Tree",
-        "평타" : "Skill Tree",
-        "흡혈" : "Skill Tree",
-        "스킬" : "Skill"
+        "평타" : "평타",
+        "흡혈" : "흡혈",
+        "스킬" : "스킬"
     },
 
     "stat": {
