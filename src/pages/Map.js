@@ -29,6 +29,14 @@ class Map extends Component {
             <div>
                 <Header data={this.state.metaData}/>
                 <MainBanner />
+                <div className="Ad_box_Detail2">
+                    <ins 
+                        class="kakao_ad_area" 
+                        style={{display: 'none'}}
+                        data-ad-unit="DAN-eOZOZvEyRvmmrIAV" 
+                        data-ad-width="728" 
+                    data-ad-height="90"></ins>
+                </div>
                 <div className="map_main">
                     <div className="tri"></div>
                     <div className="map_title">
@@ -152,6 +160,14 @@ class Map extends Component {
                         }                        
                     </div>
                     </div>
+                </div>
+                <div className="Ad_box_Detail2">
+                    <ins 
+                        class="kakao_ad_area" 
+                        style={{display: 'none'}}
+                        data-ad-unit="DAN-2F5abPe9K508dSMu" 
+                        data-ad-width="728" 
+                    data-ad-height="90"></ins>
                 </div>
                 <Footer />
                 <ScriptTag src="//t1.daumcdn.net/kas/static/ba.min.js" async />

@@ -52,12 +52,14 @@ class Thend extends Component {
             <div className="S_Trend_square">
                 <div className="S_Trend_square1"><span>{intl.formatMessage({id: name})}</span></div>
                 <div className="S_Trend_square3"><span>#{data['rank'][name]}</span></div>
-                <div className="S_Trend_square2"><span>{data['data'][name].toFixed(1)}%</span></div>
+                <div className="S_Trend_square2"><span>{data['data'][name].toFixed(1)}{name.indexOf('rate')>0?"%":""}</span></div>
                 <div className="S_Trend_Graph"></div>
                 <div className="S_Trend_Graph2" style={{width: width}}></div>
                 <div className="S_Trend_avg" style={{marginLeft: _avg}}>
                     <div className="S_Trend_Tri"></div>
-                    <div className="S_Trend_avg1"><span>{intl.formatMessage({id: 'detail.avg'})} {avg[name]}%</span></div>
+                    <div className="S_Trend_avg1">
+                        <span>{intl.formatMessage({id: 'detail.avg'})} {avg[name]}{name.indexOf('rate')>0?"%":""}</span>
+                    </div>
                 </div>
             </div>
         )

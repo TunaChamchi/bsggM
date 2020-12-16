@@ -44,7 +44,7 @@ class Skill extends Component {
         this.setState({skillTreeFocus: idx});
     };
     skillTreeTabView = () => {
-        const { skillTree } = this.props;
+        const { intl, skillTree } = this.props;
         const { skillTreeFocus } = this.state;
 
         const list = [...skillTree];
@@ -59,7 +59,7 @@ class Skill extends Component {
             <div className='tabHeaders' key={'treeTab'+idx} >
                 <div className={"skill_tab" + (idx===skillTreeFocus ? ' actived' : '')} 
                     onClick={(e) => tree['name']!==''?this.skillTreeTabHandler(idx):''}>
-                    <span>{tree['name']}</span>
+                    <span>{intl.formatMessage({ id: 'detail.'+tree['name'] })}</span>
                 </div>
             </div>
         )
@@ -71,7 +71,9 @@ class Skill extends Component {
         const tree = skillTree[skillTreeFocus]['tree'];
 
         return tree.map((name, idx) => 
-            <img className="skill_span" key={'tree'+idx} src={'img/Skill/'+parameter['character']+'/'+parameter['character']+'_'+name+'.jpg'} />
+            <div className={"skill_span skill_" + name} key={'tr'+idx} >
+                {name}
+            </div>
         )
     }
     skillTreeTdView = () => {
@@ -112,9 +114,9 @@ class Skill extends Component {
                     <div className="skill_centent">
                         <div className="skill_imgbox">
                             {this.skillTreePick()}
-                            <span className="skill_mark1">></span>
-                            <span className="skill_mark2">></span>
-                            <span className="skill_mark3">></span>
+                            <span className="skill_mark1">&gt;</span>
+                            <span className="skill_mark2">&gt;</span>
+                            <span className="skill_mark3">&gt;</span>
                         </div>
                         <div className="skill_box0">
                             <div className='skill_td'>
