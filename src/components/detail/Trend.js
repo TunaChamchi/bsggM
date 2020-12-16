@@ -45,8 +45,8 @@ class Thend extends Component {
         const max = Max(parameter['rangeFocus'], parameter['typeFocus']);
         const min = Min(parameter['rangeFocus'], parameter['typeFocus']);
 
-        const width = ((data['data'][name]  - min[name])  / (max[name]  - min[name]) ) * 320;
-        const _avg  = ((avg[name]           - min[name])  / (max[name]  - min[name]) ) * 320 - 22;
+        const width = ((data['data'][name]  - min[name])  / (max[name]  - min[name]) ) * 500;
+        const _avg  = ((avg[name]           - min[name])  / (max[name]  - min[name]) ) * 500 - 27;
 
         return (
             <div className="S_Trend_square">
