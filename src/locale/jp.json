@@ -17,9 +17,13 @@
     "kill": "キル",
     "avg-kill": "平均-キル",
     "name":"名字",
+    "지도 도감":"地図図鑑",
+    "루트제작":"経路制作 - 準備中",
+    "드랍 아이템":"ドロップ 物品",
+    "출현 동물":"出現動物",
     "footer":"BSGG.kr isn’t endorsed by Nimble Neuron.\nEternal Return: Black Survival is trademarks or registered trademarks of Nimble Neuron.\nData Based on Nimble Neuron",
-    "question":"キャラクターティアは、公式統計を基にしたキャラクターの勝率、ピック率、平均キル数、平均順位などを基に作られます。 デュオとスクワッドの統計では、平均キール数と平均順位のティアへの影響力が減少します。",
-    "question_item":"防具アイテムの統計は、資料不足により全キャラクター基準勝率資料です。 各キャラクター別の防御球の勝率ではありません。",
+    "question":"キャラクターティアは、公式統計を基にしたキャ ラクターの勝率、ピック率、平均キル数、平均順位などを基に作られます。 デュオとスクワッドの統計では、平均キール数と平均順位のテ ィアへの影響力が減少します。",
+    "question_item":"防具アイテムの統計は、資料不足により全キャラクター 基準勝率資料です。 各キャラクター 別の防御球の勝率ではありません。",
 
     "main": {
         "banner": {
@@ -27,7 +31,7 @@
             "menu": {
                 "rank": "排名",
                 "item": "物品",
-                "map": "指導"
+                "map": "地圖"
             },
             "placeholder": "キャラクター検索."
         },
@@ -52,7 +56,11 @@
         "avg": "平均",
         "skill_info": "スキル情報",
         "passive": "受動的",
-        "weaponSkill": "武器スキル"
+        "weaponSkill": "武器スキル",
+        "스킬트리" : "スキルツリー",
+        "평타" : "基本攻撃",
+        "흡혈" : "体力力吸収",
+        "스킬" : "スキル増幅"
     },
     "stat": {
         "공격력": "攻撃力",
@@ -132,12 +140,12 @@
         "석궁": "石弓"        
     },
     "armor": {
+        "무기":"武器",
         "옷": "胸部",
         "머리":"頭",
         "팔": "腕",
         "다리": "脚",
-        "장식": "装具",
-        "무기": "武器"
+        "장식": "装具"
     },
     "Archery": "洋弓場",
     "Alley": "路地裏",
@@ -758,7 +766,7 @@
             "name": "Armor Piercing",
             "Detail": "Smash the hammer down, dealing X damage and reducing the defense of enemies hit by X% for 5 seconds."
         },
-        "방망이": {
+        "배트": {
             "name": "Full Swing",
             "Detail": "Swing your bat in front of you, dealing X damage to all enemies in the targeted area, and knocking them back.\n Enemies hit into wall are stunned for 0.5 second."
         },

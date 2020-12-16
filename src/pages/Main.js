@@ -11,7 +11,7 @@ class Main extends Component {
         super(props);
         this.state = {
             metaData: {
-                title: 'BSGG.kr - 블랙 서바이벌 통계 / BS:ER Stats',
+                title: 'BSGG.kr - 블랙 서바이벌 통계 / BS:ER Stats / 永遠回歸 : 黑色幸存者 统计 / ブラックサバイバル: 永遠回帰 情報',
                 description: '영원회귀 : 블랙 서바이벌 통계, 캐릭터 티어, 아이템 트렌드, BS:ER Stats, Character Tier, Item Trend'
             }
         };

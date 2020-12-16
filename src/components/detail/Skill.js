@@ -107,7 +107,7 @@ class Skill extends Component {
                         {this.skillView()}
                     </div>
                 <div className="S_Skill2">
-                    <span>스킬트리</span>
+                    <span>{intl.formatMessage({ id: 'detail.스킬트리' })}</span>
                     {this.skillTreeTabView()}
                     <div className="skill_centent">
                         <div className="skill_imgbox">

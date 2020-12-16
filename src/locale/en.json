@@ -17,6 +17,10 @@
     "kill": "Kill",
     "avg-kill": "Avg-kill",
     "name":"Name",
+    "지도 도감":"Map Catalog",
+    "루트제작":"Making Route - coming soon",
+    "드랍 아이템":"Drop Item",
+    "출현 동물":"Appearing Animal",
     "footer":"BSGG.kr isn’t endorsed by Nimble Neuron.\n Eternal Return: Black Survival is trademarks or registered trademarks of Nimble Neuron.\n Data Based on Nimble Neuron",
     "question":"The character tier is based on the winning rate, pick rate, average skill, and average rank of characters based on official statistics. Duo and squad statistics reduce the influence on average kill and tier of average rank.",
     "question_item":"Armor item statistics are data on the win rate based on all characters due to lack of data. It is not the armor win rate for each character.",
@@ -49,10 +53,16 @@
         "squadStat": "Squad DMG +",
         "giveDmg": "Inflict",
         "takeDmg": "Receive",
+        "lv1stat": "LV1 Stat",
+        "lv20stat": "LV20 Stat",
         "avg": "avg",
         "skill_info": "Skill Info",
         "passive": "Passive",
-        "weaponSkill": "Weapon Skill"
+        "weaponSkill": "Weapon Skill",
+        "스킬트리" : "Skill Tree",
+        "평타" : "Skill Tree",
+        "흡혈" : "Skill Tree",
+        "스킬" : "Skill"
     },
     "stat": {
         "공격력": "Attack Power",
@@ -132,12 +142,12 @@
         "석궁": "Crossbow"        
     },
     "armor": {
+        "무기":"Weapon",
         "옷": "Chest",
         "머리":" Head",
         "팔": "Arm",
         "다리": "Leg",
-        "장식": "Acc",
-        "무기": "Weapon"
+        "장식": "Acc"
     },
     
         "Archery": "Archery",
@@ -152,7 +162,7 @@
         "Forest": "Forest",
         "Cemetery": "Cemetery",
         "Hospital": "Hospital",
-        "Uptown": "Uptown 주택가",
+        "Uptown": "Uptown",
         "Chapel": "Chapel",
         "Factory": "Factory",
         "Dock": "Dock",
@@ -758,7 +768,7 @@
             "name": "Armor Piercing",
             "Detail": "Smash the hammer down, dealing X damage and reducing the defense of enemies hit by X% for 5 seconds."
         },
-        "방망이": {
+        "배트": {
             "name": "Full Swing",
             "Detail": "Swing your bat in front of you, dealing X damage to all enemies in the targeted area, and knocking them back.\n Enemies hit into wall are stunned for 0.5 second."
         },
