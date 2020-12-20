@@ -7,7 +7,7 @@ import { Header, MainBanner, Footer } from 'components/banner';
 import { Top, Trend, Skill } from 'components/detail';
 import { Item } from 'components/item';
 import { charList } from 'lib/utility'
-import { CharacterScore, skillTreeList, skillTreeList2 } from 'lib/data';
+import { CharacterScore, skillTreeList } from 'lib/data';
 
 class Detail extends Component {
     constructor(props) {
@@ -80,6 +80,26 @@ class Detail extends Component {
             }
         });
 
+        const skillTree = [];
+        const skillTree2 = skillTreeList(character, weapon);
+
+        for (const key in skillTree2) {
+            const tree = [];
+            const count = { Q: 0, W: 0, E: 0, T: 0 };
+
+            skillTree2[key].forEach(skill => {
+                count[skill]++
+                if ((skill === 'T' && count[skill] === 2) || count[skill] === 5) {
+                    tree.push(skill);
+                }
+            })
+
+            skillTree.push({
+                name: key,
+                tree: tree
+            });
+        }
+
         this.setState({ 
             weaponTotal: weaponTotal,
             rangeFocus: rangeFocus,
@@ -88,8 +108,8 @@ class Detail extends Component {
             weapon: weapon,
             search:'',
             searchList: [],
-            skillTree: skillTreeList(character),
-            skillTree2: skillTreeList2(character),
+            skillTree: skillTree,
+            skillTree2: skillTree2,
         });
     };
 
