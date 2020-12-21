@@ -3,24 +3,24 @@
     "ALL": {
       "solo": {
         "투척": {
-          "win-rate": 3.8,
-          "pick-rate": 1.4,
+          "win-rate": 3.6,
+          "pick-rate": 1.3,
           "avg-kill": 0.7,
-          "avg-rank": 9.3
+          "avg-rank": 9.1
         }
       },
       "duo": {
         "투척": {
-          "win-rate": 9.5,
-          "pick-rate": 2.4,
+          "win-rate": 10.6,
+          "pick-rate": 1.8,
           "avg-kill": 0.7,
-          "avg-rank": 5.3
+          "avg-rank": 5.2
         }
       },
       "squad": {
         "투척": {
-          "win-rate": 15.8,
-          "pick-rate": 3.3,
+          "win-rate": 16.7,
+          "pick-rate": 2.5,
           "avg-kill": 0.7,
           "avg-rank": 3.7
         }
@@ -29,26 +29,26 @@
     "RANKER": {
       "solo": {
         "투척": {
-          "win-rate": 11.9,
-          "pick-rate": 2.4,
-          "avg-kill": 2.1,
-          "avg-rank": 7.9
+          "win-rate": 9.3,
+          "pick-rate": 2.1,
+          "avg-kill": 1.9,
+          "avg-rank": 8.7
         }
       },
       "duo": {
         "투척": {
-          "win-rate": 12.7,
-          "pick-rate": 2.2,
-          "avg-kill": 0.9,
-          "avg-rank": 5.0
+          "win-rate": 21.3,
+          "pick-rate": 1.7,
+          "avg-kill": 1.3,
+          "avg-rank": 4.7
         }
       },
       "squad": {
         "투척": {
-          "win-rate": 28.9,
-          "pick-rate": 4.0,
-          "avg-kill": 1.2,
-          "avg-rank": 3.1
+          "win-rate": 22.0,
+          "pick-rate": 3.7,
+          "avg-kill": 0.9,
+          "avg-rank": 3.4
         }
       }
     }
@@ -57,20 +57,20 @@
     "ALL": {
       "solo": {
         "권총": {
-          "win-rate": 5.7,
-          "pick-rate": 3.5,
-          "avg-kill": 1.0,
-          "avg-rank": 9.8
+          "win-rate": 5.5,
+          "pick-rate": 3.3,
+          "avg-kill": 0.9,
+          "avg-rank": 10.0
         },
         "돌격소총": {
-          "win-rate": 7.7,
-          "pick-rate": 3.7,
+          "win-rate": 7.2,
+          "pick-rate": 3.6,
           "avg-kill": 0.9,
-          "avg-rank": 9.2
+          "avg-rank": 9.3
         },
         "저격총": {
-          "win-rate": 5.5,
-          "pick-rate": 2.1,
+          "win-rate": 5.2,
+          "pick-rate": 1.7,
           "avg-kill": 1.0,
           "avg-rank": 9.5
         }
@@ -78,103 +78,103 @@
       "duo": {
         "권총": {
           "win-rate": 10.1,
-          "pick-rate": 2.5,
+          "pick-rate": 2.6,
           "avg-kill": 0.9,
           "avg-rank": 5.5
         },
         "돌격소총": {
-          "win-rate": 10.6,
-          "pick-rate": 2.9,
+          "win-rate": 10.8,
+          "pick-rate": 3.0,
           "avg-kill": 0.8,
           "avg-rank": 5.4
         },
         "저격총": {
-          "win-rate": 10.5,
-          "pick-rate": 2.9,
-          "avg-kill": 1.0,
+          "win-rate": 10.6,
+          "pick-rate": 2.2,
+          "avg-kill": 0.9,
           "avg-rank": 5.3
         }
       },
       "squad": {
         "권총": {
-          "win-rate": 15.6,
-          "pick-rate": 2.2,
-          "avg-kill": 1.0,
+          "win-rate": 15.5,
+          "pick-rate": 2.4,
+          "avg-kill": 0.9,
           "avg-rank": 3.9
         },
         "돌격소총": {
-          "win-rate": 16.7,
-          "pick-rate": 2.8,
+          "win-rate": 16.5,
+          "pick-rate": 3.0,
           "avg-kill": 0.9,
           "avg-rank": 3.8
         },
         "저격총": {
-          "win-rate": 16.8,
-          "pick-rate": 3.7,
-          "avg-kill": 1.1,
-          "avg-rank": 3.7
+          "win-rate": 16.7,
+          "pick-rate": 3.0,
+          "avg-kill": 1.0,
+          "avg-rank": 3.8
         }
       }
     },
     "RANKER": {
       "solo": {
         "권총": {
-          "win-rate": 11.0,
-          "pick-rate": 2.5,
-          "avg-kill": 1.9,
-          "avg-rank": 8.7
+          "win-rate": 11.6,
+          "pick-rate": 3.3,
+          "avg-kill": 1.6,
+          "avg-rank": 8.4
         },
         "돌격소총": {
-          "win-rate": 15.5,
-          "pick-rate": 1.5,
-          "avg-kill": 1.3,
+          "win-rate": 17.5,
+          "pick-rate": 1.2,
+          "avg-kill": 1.4,
           "avg-rank": 7.7
         },
         "저격총": {
-          "win-rate": 14.3,
-          "pick-rate": 0.6,
-          "avg-kill": 2.1,
-          "avg-rank": 8.1
+          "win-rate": 7.2,
+          "pick-rate": 0.4,
+          "avg-kill": 1.6,
+          "avg-rank": 8.3
         }
       },
       "duo": {
         "권총": {
-          "win-rate": 11.7,
-          "pick-rate": 1.4,
-          "avg-kill": 1.0,
-          "avg-rank": 5.2
+          "win-rate": 13.6,
+          "pick-rate": 1.6,
+          "avg-kill": 1.2,
+          "avg-rank": 5.0
         },
         "돌격소총": {
-          "win-rate": 17.6,
-          "pick-rate": 1.8,
-          "avg-kill": 1.1,
-          "avg-rank": 4.9
+          "win-rate": 23.9,
+          "pick-rate": 1.3,
+          "avg-kill": 1.8,
+          "avg-rank": 4.4
         },
         "저격총": {
-          "win-rate": 14.7,
-          "pick-rate": 2.1,
-          "avg-kill": 1.3,
-          "avg-rank": 4.9
+          "win-rate": 23.9,
+          "pick-rate": 1.3,
+          "avg-kill": 1.7,
+          "avg-rank": 3.9
         }
       },
       "squad": {
         "권총": {
-          "win-rate": 26.5,
-          "pick-rate": 1.4,
-          "avg-kill": 1.4,
-          "avg-rank": 3.2
+          "win-rate": 20.3,
+          "pick-rate": 1.3,
+          "avg-kill": 1.1,
+          "avg-rank": 3.5
         },
         "돌격소총": {
-          "win-rate": 21.5,
+          "win-rate": 24.1,
           "pick-rate": 1.6,
-          "avg-kill": 1.2,
+          "avg-kill": 1.4,
           "avg-rank": 3.4
         },
         "저격총": {
-          "win-rate": 22.6,
-          "pick-rate": 3.3,
+          "win-rate": 22.5,
+          "pick-rate": 3.2,
           "avg-kill": 1.5,
-          "avg-rank": 3.4
+          "avg-rank": 3.5
         }
       }
     }
@@ -183,52 +183,52 @@
     "ALL": {
       "solo": {
         "레이피어": {
-          "win-rate": 6.6,
-          "pick-rate": 5.2,
-          "avg-kill": 1.0,
-          "avg-rank": 8.8
+          "win-rate": 6.1,
+          "pick-rate": 6.6,
+          "avg-kill": 0.9,
+          "avg-rank": 9.2
         }
       },
       "duo": {
         "레이피어": {
-          "win-rate": 12.2,
-          "pick-rate": 6.2,
-          "avg-kill": 1.0,
-          "avg-rank": 5.1
+          "win-rate": 11.7,
+          "pick-rate": 7.8,
+          "avg-kill": 0.9,
+          "avg-rank": 5.2
         }
       },
       "squad": {
         "레이피어": {
-          "win-rate": 17.8,
-          "pick-rate": 6.4,
-          "avg-kill": 1.0,
-          "avg-rank": 3.7
+          "win-rate": 17.2,
+          "pick-rate": 7.8,
+          "avg-kill": 0.9,
+          "avg-rank": 3.8
         }
       }
     },
     "RANKER": {
       "solo": {
         "레이피어": {
-          "win-rate": 13.8,
-          "pick-rate": 7.5,
-          "avg-kill": 1.6,
-          "avg-rank": 7.3
+          "win-rate": 14.7,
+          "pick-rate": 9.1,
+          "avg-kill": 1.7,
+          "avg-rank": 6.9
         }
       },
       "duo": {
         "레이피어": {
-          "win-rate": 18.1,
-          "pick-rate": 5.6,
-          "avg-kill": 1.3,
-          "avg-rank": 4.5
+          "win-rate": 22.5,
+          "pick-rate": 6.9,
+          "avg-kill": 1.5,
+          "avg-rank": 4.3
         }
       },
       "squad": {
         "레이피어": {
-          "win-rate": 26.8,
-          "pick-rate": 5.6,
-          "avg-kill": 1.3,
-          "avg-rank": 3.1
+          "win-rate": 22.3,
+          "pick-rate": 6.1,
+          "avg-kill": 1.2,
+          "avg-rank": 3.3
         }
       }
     }
@@ -237,60 +237,60 @@
     "ALL": {
       "solo": {
         "레이피어": {
-          "win-rate": 4.6,
-          "pick-rate": 1.2,
+          "win-rate": 4.2,
+          "pick-rate": 2.6,
           "avg-kill": 0.8,
           "avg-rank": 10.4
         },
         "창": {
-          "win-rate": 6.8,
-          "pick-rate": 5.1,
-          "avg-kill": 1.0,
-          "avg-rank": 8.9
+          "win-rate": 5.8,
+          "pick-rate": 3.8,
+          "avg-kill": 0.9,
+          "avg-rank": 9.1
         },
         "양손검": {
-          "win-rate": 6.7,
-          "pick-rate": 0.6,
+          "win-rate": 5.7,
+          "pick-rate": 1.0,
           "avg-kill": 0.8,
-          "avg-rank": 8.8
+          "avg-rank": 9.0
         }
       },
       "duo": {
         "레이피어": {
-          "win-rate": 9.1,
-          "pick-rate": 0.9,
-          "avg-kill": 0.9,
+          "win-rate": 8.6,
+          "pick-rate": 1.8,
+          "avg-kill": 0.8,
           "avg-rank": 5.6
         },
         "창": {
-          "win-rate": 12.8,
-          "pick-rate": 4.5,
-          "avg-kill": 1.2,
-          "avg-rank": 5.0
+          "win-rate": 11.3,
+          "pick-rate": 3.9,
+          "avg-kill": 1.0,
+          "avg-rank": 5.2
         },
         "양손검": {
-          "win-rate": 10.5,
-          "pick-rate": 0.5,
+          "win-rate": 10.6,
+          "pick-rate": 0.8,
           "avg-kill": 1.0,
-          "avg-rank": 5.1
+          "avg-rank": 5.2
         }
       },
       "squad": {
         "레이피어": {
-          "win-rate": 14.0,
-          "pick-rate": 0.7,
-          "avg-kill": 1.0,
-          "avg-rank": 3.9
+          "win-rate": 13.3,
+          "pick-rate": 1.5,
+          "avg-kill": 0.9,
+          "avg-rank": 4.0
         },
         "창": {
-          "win-rate": 18.7,
-          "pick-rate": 3.8,
-          "avg-kill": 1.3,
-          "avg-rank": 3.6
+          "win-rate": 17.0,
+          "pick-rate": 3.3,
+          "avg-kill": 1.1,
+          "avg-rank": 3.7
         },
         "양손검": {
-          "win-rate": 15.5,
-          "pick-rate": 0.4,
+          "win-rate": 15.6,
+          "pick-rate": 0.7,
           "avg-kill": 1.0,
           "avg-rank": 3.7
         }
@@ -299,62 +299,62 @@
     "RANKER": {
       "solo": {
         "레이피어": {
-          "win-rate": 11.0,
-          "pick-rate": 1.1,
-          "avg-kill": 1.8,
-          "avg-rank": 8.2
+          "win-rate": 6.0,
+          "pick-rate": 1.8,
+          "avg-kill": 1.4,
+          "avg-rank": 8.6
         },
         "창": {
-          "win-rate": 15.3,
-          "pick-rate": 2.5,
-          "avg-kill": 2.1,
-          "avg-rank": 7.1
+          "win-rate": 3.7,
+          "pick-rate": 1.3,
+          "avg-kill": 1.1,
+          "avg-rank": 8.5
         },
         "양손검": {
-          "win-rate": 8.7,
-          "pick-rate": 0.8,
+          "win-rate": 8.6,
+          "pick-rate": 1.3,
           "avg-kill": 1.6,
-          "avg-rank": 8.1
+          "avg-rank": 8.4
         }
       },
       "duo": {
         "레이피어": {
-          "win-rate": 13.7,
-          "pick-rate": 0.8,
-          "avg-kill": 1.2,
-          "avg-rank": 4.9
+          "win-rate": 14.9,
+          "pick-rate": 1.6,
+          "avg-kill": 1.4,
+          "avg-rank": 5.1
         },
         "창": {
-          "win-rate": 14.4,
-          "pick-rate": 3.1,
-          "avg-kill": 1.4,
-          "avg-rank": 4.7
-        },
-        "양손검": {
-          "win-rate": 17.4,
-          "pick-rate": 0.7,
+          "win-rate": 20.9,
+          "pick-rate": 1.4,
           "avg-kill": 1.4,
           "avg-rank": 4.4
+        },
+        "양손검": {
+          "win-rate": 17.8,
+          "pick-rate": 0.6,
+          "avg-kill": 1.3,
+          "avg-rank": 4.2
         }
       },
       "squad": {
         "레이피어": {
-          "win-rate": 31.7,
-          "pick-rate": 0.9,
-          "avg-kill": 1.8,
-          "avg-rank": 3.1
+          "win-rate": 17.4,
+          "pick-rate": 1.4,
+          "avg-kill": 1.2,
+          "avg-rank": 3.6
         },
         "창": {
-          "win-rate": 25.7,
-          "pick-rate": 2.2,
-          "avg-kill": 1.7,
-          "avg-rank": 3.2
+          "win-rate": 21.8,
+          "pick-rate": 1.2,
+          "avg-kill": 1.6,
+          "avg-rank": 3.3
         },
         "양손검": {
-          "win-rate": 29.9,
-          "pick-rate": 0.7,
-          "avg-kill": 1.8,
-          "avg-rank": 3.1
+          "win-rate": 18.3,
+          "pick-rate": 0.3,
+          "avg-kill": 0.9,
+          "avg-rank": 3.5
         }
       }
     }
@@ -363,26 +363,26 @@
     "ALL": {
       "solo": {
         "기타": {
-          "win-rate": 7.1,
-          "pick-rate": 2.9,
+          "win-rate": 6.8,
+          "pick-rate": 3.0,
           "avg-kill": 0.9,
-          "avg-rank": 10.1
+          "avg-rank": 10.0
         }
       },
       "duo": {
         "기타": {
-          "win-rate": 10.6,
-          "pick-rate": 2.6,
+          "win-rate": 10.9,
+          "pick-rate": 2.2,
           "avg-kill": 0.9,
-          "avg-rank": 5.5
+          "avg-rank": 5.4
         }
       },
       "squad": {
         "기타": {
-          "win-rate": 15.0,
-          "pick-rate": 2.8,
+          "win-rate": 15.6,
+          "pick-rate": 2.3,
           "avg-kill": 0.9,
-          "avg-rank": 3.9
+          "avg-rank": 3.8
         }
       }
     },
@@ -390,24 +390,24 @@
       "solo": {
         "기타": {
           "win-rate": 16.9,
-          "pick-rate": 6.0,
-          "avg-kill": 1.9,
-          "avg-rank": 8.2
+          "pick-rate": 6.2,
+          "avg-kill": 2.0,
+          "avg-rank": 8.6
         }
       },
       "duo": {
         "기타": {
-          "win-rate": 16.0,
-          "pick-rate": 3.1,
-          "avg-kill": 1.3,
-          "avg-rank": 5.0
+          "win-rate": 25.4,
+          "pick-rate": 4.1,
+          "avg-kill": 1.8,
+          "avg-rank": 4.5
         }
       },
       "squad": {
         "기타": {
-          "win-rate": 26.1,
-          "pick-rate": 3.3,
-          "avg-kill": 1.7,
+          "win-rate": 26.7,
+          "pick-rate": 2.8,
+          "avg-kill": 1.6,
           "avg-rank": 3.3
         }
       }
@@ -417,27 +417,27 @@
     "ALL": {
       "solo": {
         "활": {
-          "win-rate": 4.7,
-          "pick-rate": 4.2,
-          "avg-kill": 1.0,
-          "avg-rank": 10.0
+          "win-rate": 4.5,
+          "pick-rate": 3.7,
+          "avg-kill": 0.9,
+          "avg-rank": 9.9
         },
         "암기": {
-          "win-rate": 1.4,
-          "pick-rate": 0.1,
-          "avg-kill": 0.5,
+          "win-rate": 1.5,
+          "pick-rate": 0.2,
+          "avg-kill": 0.4,
           "avg-rank": 10.1
         }
       },
       "duo": {
         "활": {
-          "win-rate": 11.4,
-          "pick-rate": 5.4,
+          "win-rate": 11.9,
+          "pick-rate": 4.4,
           "avg-kill": 0.9,
-          "avg-rank": 5.4
+          "avg-rank": 5.3
         },
         "암기": {
-          "win-rate": 5.9,
+          "win-rate": 6.2,
           "pick-rate": 0.2,
           "avg-kill": 0.5,
           "avg-rank": 5.6
@@ -445,13 +445,13 @@
       },
       "squad": {
         "활": {
-          "win-rate": 17.3,
-          "pick-rate": 5.6,
-          "avg-kill": 0.9,
+          "win-rate": 17.0,
+          "pick-rate": 4.8,
+          "avg-kill": 0.8,
           "avg-rank": 3.8
         },
         "암기": {
-          "win-rate": 10.6,
+          "win-rate": 12.4,
           "pick-rate": 0.2,
           "avg-kill": 0.5,
           "avg-rank": 4.0
@@ -461,44 +461,44 @@
     "RANKER": {
       "solo": {
         "활": {
-          "win-rate": 8.6,
-          "pick-rate": 5.0,
-          "avg-kill": 1.9,
-          "avg-rank": 8.4
+          "win-rate": 14.5,
+          "pick-rate": 4.7,
+          "avg-kill": 2.0,
+          "avg-rank": 8.1
         },
         "암기": {
-          "win-rate": 3.8,
-          "pick-rate": 0.1,
-          "avg-kill": 1.1,
-          "avg-rank": 10.2
+          "win-rate": 4.2,
+          "pick-rate": 0.0,
+          "avg-kill": 0.7,
+          "avg-rank": 12.0
         }
       },
       "duo": {
         "활": {
-          "win-rate": 15.8,
-          "pick-rate": 5.6,
-          "avg-kill": 1.2,
-          "avg-rank": 5.1
+          "win-rate": 19.1,
+          "pick-rate": 6.8,
+          "avg-kill": 1.5,
+          "avg-rank": 4.8
         },
         "암기": {
-          "win-rate": 5.0,
-          "pick-rate": 0.1,
-          "avg-kill": 0.6,
-          "avg-rank": 5.1
+          "win-rate": 3.3,
+          "pick-rate": 0.0,
+          "avg-kill": 0.0,
+          "avg-rank": 6.7
         }
       },
       "squad": {
         "활": {
-          "win-rate": 30.5,
-          "pick-rate": 5.8,
-          "avg-kill": 1.5,
-          "avg-rank": 3.2
+          "win-rate": 25.7,
+          "pick-rate": 6.0,
+          "avg-kill": 1.2,
+          "avg-rank": 3.4
         },
         "암기": {
-          "win-rate": 5.9,
+          "win-rate": 6.3,
           "pick-rate": 0.0,
-          "avg-kill": 0.7,
-          "avg-rank": 4.4
+          "avg-kill": 1.0,
+          "avg-rank": 3.8
         }
       }
     }
@@ -507,87 +507,87 @@
     "ALL": {
       "solo": {
         "톤파": {
-          "win-rate": 6.9,
-          "pick-rate": 0.5,
+          "win-rate": 3.7,
+          "pick-rate": 1.5,
           "avg-kill": 0.7,
-          "avg-rank": 8.1
+          "avg-rank": 10.0
         },
         "글러브": {
-          "win-rate": 6.6,
-          "pick-rate": 4.1,
-          "avg-kill": 0.9,
-          "avg-rank": 8.9
+          "win-rate": 5.3,
+          "pick-rate": 4.8,
+          "avg-kill": 0.8,
+          "avg-rank": 9.3
         }
       },
       "duo": {
         "톤파": {
-          "win-rate": 11.4,
-          "pick-rate": 1.4,
-          "avg-kill": 0.8,
-          "avg-rank": 4.9
+          "win-rate": 10.1,
+          "pick-rate": 2.2,
+          "avg-kill": 0.7,
+          "avg-rank": 5.1
         },
         "글러브": {
-          "win-rate": 11.1,
-          "pick-rate": 4.5,
-          "avg-kill": 0.9,
-          "avg-rank": 5.1
+          "win-rate": 10.1,
+          "pick-rate": 5.5,
+          "avg-kill": 0.8,
+          "avg-rank": 5.3
         }
       },
       "squad": {
         "톤파": {
-          "win-rate": 17.9,
-          "pick-rate": 2.2,
+          "win-rate": 16.0,
+          "pick-rate": 2.9,
           "avg-kill": 0.7,
-          "avg-rank": 3.6
+          "avg-rank": 3.7
         },
         "글러브": {
-          "win-rate": 16.2,
-          "pick-rate": 4.4,
-          "avg-kill": 0.9,
-          "avg-rank": 3.7
+          "win-rate": 15.2,
+          "pick-rate": 5.2,
+          "avg-kill": 0.8,
+          "avg-rank": 3.8
         }
       }
     },
     "RANKER": {
       "solo": {
         "톤파": {
-          "win-rate": 15.8,
-          "pick-rate": 0.4,
+          "win-rate": 5.9,
+          "pick-rate": 0.6,
           "avg-kill": 0.8,
-          "avg-rank": 6.0
+          "avg-rank": 8.0
         },
         "글러브": {
-          "win-rate": 14.4,
-          "pick-rate": 3.5,
-          "avg-kill": 1.2,
-          "avg-rank": 6.1
+          "win-rate": 15.1,
+          "pick-rate": 5.0,
+          "avg-kill": 1.1,
+          "avg-rank": 6.4
         }
       },
       "duo": {
         "톤파": {
-          "win-rate": 14.2,
-          "pick-rate": 1.2,
-          "avg-kill": 1.0,
+          "win-rate": 18.1,
+          "pick-rate": 1.5,
+          "avg-kill": 1.2,
           "avg-rank": 4.7
         },
         "글러브": {
-          "win-rate": 15.1,
-          "pick-rate": 5.3,
+          "win-rate": 18.3,
+          "pick-rate": 4.1,
           "avg-kill": 1.1,
-          "avg-rank": 4.8
+          "avg-rank": 4.5
         }
       },
       "squad": {
         "톤파": {
-          "win-rate": 28.3,
-          "pick-rate": 2.7,
-          "avg-kill": 1.0,
-          "avg-rank": 3.1
+          "win-rate": 23.8,
+          "pick-rate": 3.2,
+          "avg-kill": 0.8,
+          "avg-rank": 3.3
         },
         "글러브": {
-          "win-rate": 22.6,
-          "pick-rate": 4.7,
-          "avg-kill": 1.1,
+          "win-rate": 20.8,
+          "pick-rate": 2.9,
+          "avg-kill": 1.0,
           "avg-rank": 3.4
         }
       }
@@ -597,42 +597,42 @@
     "ALL": {
       "solo": {
         "돌격소총": {
-          "win-rate": 5.3,
-          "pick-rate": 3.3,
+          "win-rate": 5.6,
+          "pick-rate": 3.6,
           "avg-kill": 1.2,
           "avg-rank": 9.2
         },
         "권총": {
-          "win-rate": 7.6,
-          "pick-rate": 0.8,
+          "win-rate": 6.5,
+          "pick-rate": 0.7,
           "avg-kill": 0.8,
-          "avg-rank": 8.4
+          "avg-rank": 8.6
         }
       },
       "duo": {
         "돌격소총": {
-          "win-rate": 13.1,
-          "pick-rate": 3.7,
+          "win-rate": 13.0,
+          "pick-rate": 4.8,
           "avg-kill": 1.4,
           "avg-rank": 5.1
         },
         "권총": {
-          "win-rate": 12.3,
-          "pick-rate": 0.9,
+          "win-rate": 12.4,
+          "pick-rate": 0.8,
           "avg-kill": 1.1,
           "avg-rank": 5.0
         }
       },
       "squad": {
         "돌격소총": {
-          "win-rate": 18.5,
-          "pick-rate": 3.6,
+          "win-rate": 18.0,
+          "pick-rate": 4.8,
           "avg-kill": 1.4,
-          "avg-rank": 3.6
+          "avg-rank": 3.7
         },
         "권총": {
-          "win-rate": 18.5,
-          "pick-rate": 1.0,
+          "win-rate": 17.4,
+          "pick-rate": 0.9,
           "avg-kill": 1.1,
           "avg-rank": 3.6
         }
@@ -641,42 +641,42 @@
     "RANKER": {
       "solo": {
         "돌격소총": {
-          "win-rate": 10.6,
-          "pick-rate": 3.2,
-          "avg-kill": 1.6,
-          "avg-rank": 8.7
-        },
-        "권총": {
-          "win-rate": 11.9,
+          "win-rate": 12.4,
           "pick-rate": 2.2,
           "avg-kill": 1.7,
-          "avg-rank": 7.5
+          "avg-rank": 8.6
+        },
+        "권총": {
+          "win-rate": 9.5,
+          "pick-rate": 1.5,
+          "avg-kill": 1.5,
+          "avg-rank": 8.6
         }
       },
       "duo": {
         "돌격소총": {
-          "win-rate": 14.7,
-          "pick-rate": 5.5,
-          "avg-kill": 1.6,
-          "avg-rank": 4.9
+          "win-rate": 15.8,
+          "pick-rate": 4.4,
+          "avg-kill": 1.9,
+          "avg-rank": 4.7
         },
         "권총": {
-          "win-rate": 14.1,
-          "pick-rate": 2.0,
-          "avg-kill": 1.1,
-          "avg-rank": 4.7
+          "win-rate": 18.6,
+          "pick-rate": 1.8,
+          "avg-kill": 1.3,
+          "avg-rank": 4.4
         }
       },
       "squad": {
         "돌격소총": {
-          "win-rate": 27.0,
-          "pick-rate": 3.9,
+          "win-rate": 24.5,
+          "pick-rate": 5.0,
           "avg-kill": 1.8,
           "avg-rank": 3.3
         },
         "권총": {
-          "win-rate": 24.0,
-          "pick-rate": 1.5,
+          "win-rate": 21.2,
+          "pick-rate": 1.9,
           "avg-kill": 1.4,
           "avg-rank": 3.2
         }
@@ -687,54 +687,54 @@
     "ALL": {
       "solo": {
         "도끼": {
-          "win-rate": 5.3,
-          "pick-rate": 2.4,
+          "win-rate": 4.8,
+          "pick-rate": 2.2,
           "avg-kill": 1.1,
-          "avg-rank": 9.1
+          "avg-rank": 9.4
         },
         "양손검": {
-          "win-rate": 7.9,
-          "pick-rate": 1.1,
-          "avg-kill": 0.9,
-          "avg-rank": 8.3
+          "win-rate": 6.8,
+          "pick-rate": 1.2,
+          "avg-kill": 0.8,
+          "avg-rank": 8.7
         },
         "쌍검": {
-          "win-rate": 6.4,
-          "pick-rate": 7.9,
+          "win-rate": 6.5,
+          "pick-rate": 7.0,
           "avg-kill": 1.0,
-          "avg-rank": 9.2
+          "avg-rank": 9.0
         },
         "단검": {
-          "win-rate": 6.8,
-          "pick-rate": 2.2,
-          "avg-kill": 0.8,
-          "avg-rank": 10.0
+          "win-rate": 5.2,
+          "pick-rate": 3.2,
+          "avg-kill": 0.7,
+          "avg-rank": 10.1
         }
       },
       "duo": {
         "도끼": {
-          "win-rate": 11.4,
-          "pick-rate": 1.7,
-          "avg-kill": 1.3,
+          "win-rate": 11.6,
+          "pick-rate": 1.8,
+          "avg-kill": 1.4,
           "avg-rank": 5.1
         },
         "양손검": {
-          "win-rate": 12.6,
+          "win-rate": 12.3,
           "pick-rate": 0.8,
           "avg-kill": 1.1,
           "avg-rank": 5.0
         },
         "쌍검": {
-          "win-rate": 11.7,
-          "pick-rate": 7.1,
+          "win-rate": 11.6,
+          "pick-rate": 6.5,
           "avg-kill": 1.2,
           "avg-rank": 5.2
         },
         "단검": {
-          "win-rate": 10.0,
-          "pick-rate": 1.5,
-          "avg-kill": 0.9,
-          "avg-rank": 5.6
+          "win-rate": 9.8,
+          "pick-rate": 2.0,
+          "avg-kill": 1.0,
+          "avg-rank": 5.5
         }
       },
       "squad": {
@@ -745,20 +745,20 @@
           "avg-rank": 3.6
         },
         "양손검": {
-          "win-rate": 18.1,
+          "win-rate": 17.3,
           "pick-rate": 0.7,
-          "avg-kill": 1.2,
-          "avg-rank": 3.6
+          "avg-kill": 1.1,
+          "avg-rank": 3.7
         },
         "쌍검": {
-          "win-rate": 16.9,
-          "pick-rate": 5.9,
+          "win-rate": 16.5,
+          "pick-rate": 5.7,
           "avg-kill": 1.2,
           "avg-rank": 3.7
         },
         "단검": {
-          "win-rate": 14.6,
-          "pick-rate": 1.1,
+          "win-rate": 14.2,
+          "pick-rate": 1.5,
           "avg-kill": 1.0,
           "avg-rank": 3.9
         }
@@ -767,80 +767,80 @@
     "RANKER": {
       "solo": {
         "도끼": {
-          "win-rate": 15.9,
-          "pick-rate": 3.6,
-          "avg-kill": 1.8,
-          "avg-rank": 6.3
+          "win-rate": 14.9,
+          "pick-rate": 2.5,
+          "avg-kill": 1.7,
+          "avg-rank": 6.2
         },
         "양손검": {
-          "win-rate": 15.0,
-          "pick-rate": 4.3,
+          "win-rate": 14.0,
+          "pick-rate": 4.0,
           "avg-kill": 1.4,
-          "avg-rank": 6.4
+          "avg-rank": 6.2
         },
         "쌍검": {
-          "win-rate": 15.7,
-          "pick-rate": 2.1,
-          "avg-kill": 1.6,
-          "avg-rank": 7.6
+          "win-rate": 12.1,
+          "pick-rate": 1.5,
+          "avg-kill": 1.5,
+          "avg-rank": 7.3
         },
         "단검": {
-          "win-rate": 15.9,
-          "pick-rate": 3.4,
-          "avg-kill": 1.3,
-          "avg-rank": 6.7
+          "win-rate": 12.0,
+          "pick-rate": 1.9,
+          "avg-kill": 1.2,
+          "avg-rank": 7.4
         }
       },
       "duo": {
         "도끼": {
-          "win-rate": 15.5,
-          "pick-rate": 2.0,
-          "avg-kill": 1.6,
-          "avg-rank": 4.6
+          "win-rate": 16.0,
+          "pick-rate": 2.5,
+          "avg-kill": 1.7,
+          "avg-rank": 4.5
         },
         "양손검": {
-          "win-rate": 15.9,
-          "pick-rate": 1.5,
-          "avg-kill": 1.3,
-          "avg-rank": 4.6
+          "win-rate": 30.3,
+          "pick-rate": 1.0,
+          "avg-kill": 1.8,
+          "avg-rank": 3.7
         },
         "쌍검": {
-          "win-rate": 13.7,
-          "pick-rate": 3.0,
-          "avg-kill": 1.3,
-          "avg-rank": 4.9
+          "win-rate": 17.1,
+          "pick-rate": 2.4,
+          "avg-kill": 1.4,
+          "avg-rank": 4.5
         },
         "단검": {
-          "win-rate": 13.3,
+          "win-rate": 17.6,
           "pick-rate": 1.2,
-          "avg-kill": 1.0,
-          "avg-rank": 5.0
+          "avg-kill": 1.2,
+          "avg-rank": 4.7
         }
       },
       "squad": {
         "도끼": {
-          "win-rate": 24.0,
+          "win-rate": 24.3,
           "pick-rate": 3.2,
-          "avg-kill": 1.7,
+          "avg-kill": 1.8,
           "avg-rank": 3.3
         },
         "양손검": {
-          "win-rate": 27.5,
-          "pick-rate": 0.9,
-          "avg-kill": 1.5,
-          "avg-rank": 3.0
+          "win-rate": 21.9,
+          "pick-rate": 1.3,
+          "avg-kill": 1.4,
+          "avg-rank": 3.1
         },
         "쌍검": {
-          "win-rate": 25.3,
-          "pick-rate": 2.0,
-          "avg-kill": 1.5,
+          "win-rate": 19.4,
+          "pick-rate": 2.4,
+          "avg-kill": 1.3,
           "avg-rank": 3.3
         },
         "단검": {
-          "win-rate": 25.4,
-          "pick-rate": 0.6,
-          "avg-kill": 1.4,
-          "avg-rank": 3.3
+          "win-rate": 17.9,
+          "pick-rate": 0.7,
+          "avg-kill": 1.1,
+          "avg-rank": 3.6
         }
       }
     }
@@ -849,43 +849,43 @@
     "ALL": {
       "solo": {
         "글러브": {
-          "win-rate": 5.5,
-          "pick-rate": 5.4,
+          "win-rate": 5.3,
+          "pick-rate": 5.5,
           "avg-kill": 0.9,
-          "avg-rank": 9.1
+          "avg-rank": 9.2
         },
         "쌍절곤": {
           "win-rate": 4.9,
-          "pick-rate": 4.3,
+          "pick-rate": 3.6,
           "avg-kill": 0.9,
-          "avg-rank": 9.3
+          "avg-rank": 9.2
         }
       },
       "duo": {
         "글러브": {
-          "win-rate": 10.4,
-          "pick-rate": 5.8,
+          "win-rate": 10.9,
+          "pick-rate": 5.4,
           "avg-kill": 1.0,
           "avg-rank": 5.2
         },
         "쌍절곤": {
-          "win-rate": 10.2,
-          "pick-rate": 5.0,
-          "avg-kill": 1.0,
-          "avg-rank": 5.3
+          "win-rate": 10.8,
+          "pick-rate": 3.8,
+          "avg-kill": 1.1,
+          "avg-rank": 5.2
         }
       },
       "squad": {
         "글러브": {
-          "win-rate": 16.1,
-          "pick-rate": 5.5,
+          "win-rate": 16.7,
+          "pick-rate": 5.0,
           "avg-kill": 1.0,
           "avg-rank": 3.7
         },
         "쌍절곤": {
           "win-rate": 16.0,
-          "pick-rate": 4.4,
-          "avg-kill": 1.0,
+          "pick-rate": 3.5,
+          "avg-kill": 1.1,
           "avg-rank": 3.7
         }
       }
@@ -893,42 +893,42 @@
     "RANKER": {
       "solo": {
         "글러브": {
-          "win-rate": 15.8,
-          "pick-rate": 7.2,
-          "avg-kill": 1.4,
+          "win-rate": 14.0,
+          "pick-rate": 7.5,
+          "avg-kill": 1.3,
           "avg-rank": 6.5
         },
         "쌍절곤": {
-          "win-rate": 15.2,
-          "pick-rate": 2.7,
-          "avg-kill": 1.7,
-          "avg-rank": 6.8
+          "win-rate": 11.1,
+          "pick-rate": 2.9,
+          "avg-kill": 1.1,
+          "avg-rank": 7.9
         }
       },
       "duo": {
         "글러브": {
-          "win-rate": 14.3,
-          "pick-rate": 4.0,
-          "avg-kill": 1.3,
-          "avg-rank": 4.8
+          "win-rate": 23.4,
+          "pick-rate": 6.1,
+          "avg-kill": 1.6,
+          "avg-rank": 4.2
         },
         "쌍절곤": {
-          "win-rate": 12.4,
-          "pick-rate": 3.3,
-          "avg-kill": 1.1,
-          "avg-rank": 5.0
+          "win-rate": 15.3,
+          "pick-rate": 2.8,
+          "avg-kill": 1.3,
+          "avg-rank": 4.9
         }
       },
       "squad": {
         "글러브": {
-          "win-rate": 27.9,
-          "pick-rate": 5.8,
-          "avg-kill": 1.5,
-          "avg-rank": 3.1
+          "win-rate": 22.8,
+          "pick-rate": 6.0,
+          "avg-kill": 1.2,
+          "avg-rank": 3.3
         },
         "쌍절곤": {
-          "win-rate": 22.9,
-          "pick-rate": 2.8,
+          "win-rate": 23.2,
+          "pick-rate": 2.4,
           "avg-kill": 1.3,
           "avg-rank": 3.4
         }
@@ -939,88 +939,88 @@
     "ALL": {
       "solo": {
         "배트": {
-          "win-rate": 9.1,
-          "pick-rate": 1.2,
-          "avg-kill": 1.0,
-          "avg-rank": 7.6
+          "win-rate": 7.5,
+          "pick-rate": 1.3,
+          "avg-kill": 0.9,
+          "avg-rank": 7.9
         },
         "망치": {
-          "win-rate": 8.4,
-          "pick-rate": 1.8,
-          "avg-kill": 0.9,
-          "avg-rank": 8.3
+          "win-rate": 5.6,
+          "pick-rate": 2.0,
+          "avg-kill": 0.8,
+          "avg-rank": 8.9
         }
       },
       "duo": {
         "배트": {
-          "win-rate": 10.7,
-          "pick-rate": 0.9,
-          "avg-kill": 0.9,
+          "win-rate": 10.2,
+          "pick-rate": 1.1,
+          "avg-kill": 0.8,
           "avg-rank": 5.1
         },
         "망치": {
-          "win-rate": 12.9,
-          "pick-rate": 2.8,
-          "avg-kill": 0.9,
-          "avg-rank": 5.0
+          "win-rate": 10.7,
+          "pick-rate": 3.7,
+          "avg-kill": 0.8,
+          "avg-rank": 5.2
         }
       },
       "squad": {
         "배트": {
-          "win-rate": 15.7,
-          "pick-rate": 0.9,
+          "win-rate": 15.3,
+          "pick-rate": 1.1,
           "avg-kill": 0.8,
           "avg-rank": 3.7
         },
         "망치": {
-          "win-rate": 17.8,
-          "pick-rate": 3.6,
-          "avg-kill": 0.9,
-          "avg-rank": 3.6
+          "win-rate": 16.5,
+          "pick-rate": 4.4,
+          "avg-kill": 0.8,
+          "avg-rank": 3.7
         }
       }
     },
     "RANKER": {
       "solo": {
         "배트": {
-          "win-rate": 17.7,
-          "pick-rate": 2.7,
-          "avg-kill": 1.6,
-          "avg-rank": 5.4
+          "win-rate": 13.6,
+          "pick-rate": 4.3,
+          "avg-kill": 1.3,
+          "avg-rank": 5.7
         },
         "망치": {
-          "win-rate": 14.7,
-          "pick-rate": 2.7,
-          "avg-kill": 1.4,
-          "avg-rank": 6.8
+          "win-rate": 11.2,
+          "pick-rate": 2.0,
+          "avg-kill": 1.1,
+          "avg-rank": 7.7
         }
       },
       "duo": {
         "배트": {
-          "win-rate": 13.6,
-          "pick-rate": 1.3,
-          "avg-kill": 1.1,
+          "win-rate": 16.0,
+          "pick-rate": 1.1,
+          "avg-kill": 1.0,
           "avg-rank": 4.6
         },
         "망치": {
-          "win-rate": 14.0,
-          "pick-rate": 3.7,
-          "avg-kill": 1.1,
-          "avg-rank": 4.9
+          "win-rate": 20.2,
+          "pick-rate": 3.2,
+          "avg-kill": 1.3,
+          "avg-rank": 4.4
         }
       },
       "squad": {
         "배트": {
-          "win-rate": 24.9,
-          "pick-rate": 1.1,
-          "avg-kill": 1.2,
-          "avg-rank": 3.2
+          "win-rate": 18.2,
+          "pick-rate": 1.0,
+          "avg-kill": 0.9,
+          "avg-rank": 3.5
         },
         "망치": {
-          "win-rate": 25.3,
-          "pick-rate": 4.9,
-          "avg-kill": 1.2,
-          "avg-rank": 3.2
+          "win-rate": 21.3,
+          "pick-rate": 3.8,
+          "avg-kill": 1.1,
+          "avg-rank": 3.4
         }
       }
     }
@@ -1029,88 +1029,88 @@
     "ALL": {
       "solo": {
         "활": {
-          "win-rate": 4.6,
-          "pick-rate": 1.6,
+          "win-rate": 4.5,
+          "pick-rate": 2.3,
           "avg-kill": 0.9,
           "avg-rank": 10.3
         },
         "석궁": {
-          "win-rate": 6.4,
-          "pick-rate": 2.1,
+          "win-rate": 6.3,
+          "pick-rate": 2.3,
           "avg-kill": 1.1,
-          "avg-rank": 9.4
+          "avg-rank": 9.7
         }
       },
       "duo": {
         "활": {
-          "win-rate": 11.3,
-          "pick-rate": 1.6,
-          "avg-kill": 1.1,
+          "win-rate": 10.7,
+          "pick-rate": 2.5,
+          "avg-kill": 1.0,
           "avg-rank": 5.4
         },
         "석궁": {
-          "win-rate": 12.9,
-          "pick-rate": 1.7,
+          "win-rate": 11.7,
+          "pick-rate": 1.9,
           "avg-kill": 1.2,
-          "avg-rank": 5.1
+          "avg-rank": 5.2
         }
       },
       "squad": {
         "활": {
-          "win-rate": 16.9,
-          "pick-rate": 1.7,
+          "win-rate": 16.3,
+          "pick-rate": 2.4,
           "avg-kill": 1.1,
           "avg-rank": 3.8
         },
         "석궁": {
-          "win-rate": 17.5,
-          "pick-rate": 1.6,
-          "avg-kill": 1.2,
-          "avg-rank": 3.7
+          "win-rate": 16.3,
+          "pick-rate": 1.8,
+          "avg-kill": 1.1,
+          "avg-rank": 3.8
         }
       }
     },
     "RANKER": {
       "solo": {
         "활": {
-          "win-rate": 12.9,
-          "pick-rate": 0.9,
-          "avg-kill": 1.8,
-          "avg-rank": 8.2
+          "win-rate": 9.9,
+          "pick-rate": 0.5,
+          "avg-kill": 1.5,
+          "avg-rank": 9.1
         },
         "석궁": {
-          "win-rate": 16.3,
-          "pick-rate": 2.5,
+          "win-rate": 16.0,
+          "pick-rate": 2.1,
           "avg-kill": 1.5,
-          "avg-rank": 7.7
+          "avg-rank": 7.9
         }
       },
       "duo": {
         "활": {
-          "win-rate": 16.9,
-          "pick-rate": 2.1,
-          "avg-kill": 1.5,
-          "avg-rank": 5.0
+          "win-rate": 20.6,
+          "pick-rate": 2.6,
+          "avg-kill": 1.7,
+          "avg-rank": 4.5
         },
         "석궁": {
-          "win-rate": 18.8,
-          "pick-rate": 2.7,
-          "avg-kill": 1.6,
-          "avg-rank": 4.6
+          "win-rate": 24.6,
+          "pick-rate": 2.3,
+          "avg-kill": 1.8,
+          "avg-rank": 4.4
         }
       },
       "squad": {
         "활": {
-          "win-rate": 30.5,
-          "pick-rate": 3.3,
-          "avg-kill": 1.8,
-          "avg-rank": 3.1
+          "win-rate": 22.0,
+          "pick-rate": 3.2,
+          "avg-kill": 1.4,
+          "avg-rank": 3.4
         },
         "석궁": {
-          "win-rate": 28.8,
-          "pick-rate": 2.2,
-          "avg-kill": 1.6,
-          "avg-rank": 3.2
+          "win-rate": 20.6,
+          "pick-rate": 2.8,
+          "avg-kill": 1.2,
+          "avg-rank": 3.5
         }
       }
     }
@@ -1119,52 +1119,52 @@
     "ALL": {
       "solo": {
         "단검": {
-          "win-rate": 5.7,
-          "pick-rate": 7.7,
-          "avg-kill": 1.1,
+          "win-rate": 6.2,
+          "pick-rate": 8.4,
+          "avg-kill": 1.0,
           "avg-rank": 9.7
         }
       },
       "duo": {
         "단검": {
-          "win-rate": 12.3,
-          "pick-rate": 6.3,
-          "avg-kill": 1.3,
-          "avg-rank": 5.2
+          "win-rate": 12.2,
+          "pick-rate": 6.7,
+          "avg-kill": 1.2,
+          "avg-rank": 5.3
         }
       },
       "squad": {
         "단검": {
           "win-rate": 17.3,
-          "pick-rate": 5.4,
+          "pick-rate": 5.9,
           "avg-kill": 1.3,
-          "avg-rank": 3.7
+          "avg-rank": 3.8
         }
       }
     },
     "RANKER": {
       "solo": {
         "단검": {
-          "win-rate": 9.3,
-          "pick-rate": 6.5,
+          "win-rate": 10.2,
+          "pick-rate": 9.6,
           "avg-kill": 1.7,
-          "avg-rank": 9.0
+          "avg-rank": 8.4
         }
       },
       "duo": {
         "단검": {
-          "win-rate": 16.0,
-          "pick-rate": 7.9,
-          "avg-kill": 1.5,
-          "avg-rank": 5.0
+          "win-rate": 22.0,
+          "pick-rate": 10.6,
+          "avg-kill": 1.8,
+          "avg-rank": 4.6
         }
       },
       "squad": {
         "단검": {
-          "win-rate": 23.9,
-          "pick-rate": 4.9,
-          "avg-kill": 1.6,
-          "avg-rank": 3.3
+          "win-rate": 22.2,
+          "pick-rate": 6.3,
+          "avg-kill": 1.4,
+          "avg-rank": 3.4
         }
       }
     }
@@ -1173,52 +1173,52 @@
     "ALL": {
       "solo": {
         "권총": {
-          "win-rate": 3.7,
-          "pick-rate": 2.3,
-          "avg-kill": 0.9,
-          "avg-rank": 9.6
+          "win-rate": 3.3,
+          "pick-rate": 3.2,
+          "avg-kill": 0.8,
+          "avg-rank": 9.7
         }
       },
       "duo": {
         "권총": {
-          "win-rate": 9.4,
-          "pick-rate": 2.8,
-          "avg-kill": 1.0,
+          "win-rate": 9.5,
+          "pick-rate": 3.7,
+          "avg-kill": 0.9,
           "avg-rank": 5.3
         }
       },
       "squad": {
         "권총": {
-          "win-rate": 15.8,
-          "pick-rate": 3.4,
-          "avg-kill": 1.0,
-          "avg-rank": 3.7
+          "win-rate": 15.2,
+          "pick-rate": 4.0,
+          "avg-kill": 0.9,
+          "avg-rank": 3.8
         }
       }
     },
     "RANKER": {
       "solo": {
         "권총": {
-          "win-rate": 8.6,
-          "pick-rate": 1.8,
-          "avg-kill": 1.5,
-          "avg-rank": 8.6
+          "win-rate": 7.4,
+          "pick-rate": 3.8,
+          "avg-kill": 1.9,
+          "avg-rank": 9.3
         }
       },
       "duo": {
         "권총": {
-          "win-rate": 13.3,
-          "pick-rate": 3.8,
-          "avg-kill": 1.2,
-          "avg-rank": 4.9
+          "win-rate": 17.9,
+          "pick-rate": 4.6,
+          "avg-kill": 1.5,
+          "avg-rank": 4.6
         }
       },
       "squad": {
         "권총": {
-          "win-rate": 28.5,
-          "pick-rate": 4.9,
-          "avg-kill": 1.4,
-          "avg-rank": 3.2
+          "win-rate": 20.7,
+          "pick-rate": 5.9,
+          "avg-kill": 1.1,
+          "avg-rank": 3.5
         }
       }
     }
@@ -1227,25 +1227,43 @@
     "ALL": {
       "solo": {
         "암기": {
-          "win-rate": 5.0,
-          "pick-rate": 6.4,
-          "avg-kill": 1.1,
-          "avg-rank": 10.0
+          "win-rate": 5.2,
+          "pick-rate": 4.3,
+          "avg-kill": 1.0,
+          "avg-rank": 9.8
+        },
+        "투척": {
+          "win-rate": 4.2,
+          "pick-rate": 0.9,
+          "avg-kill": 0.9,
+          "avg-rank": 9.9
         }
       },
       "duo": {
         "암기": {
-          "win-rate": 11.3,
-          "pick-rate": 6.7,
+          "win-rate": 11.1,
+          "pick-rate": 4.6,
           "avg-kill": 1.0,
+          "avg-rank": 5.4
+        },
+        "투척": {
+          "win-rate": 10.1,
+          "pick-rate": 0.7,
+          "avg-kill": 0.8,
           "avg-rank": 5.4
         }
       },
       "squad": {
         "암기": {
-          "win-rate": 17.9,
-          "pick-rate": 7.4,
-          "avg-kill": 1.0,
+          "win-rate": 17.4,
+          "pick-rate": 5.3,
+          "avg-kill": 0.9,
+          "avg-rank": 3.8
+        },
+        "투척": {
+          "win-rate": 16.1,
+          "pick-rate": 0.7,
+          "avg-kill": 0.8,
           "avg-rank": 3.8
         }
       }
@@ -1253,26 +1271,44 @@
     "RANKER": {
       "solo": {
         "암기": {
-          "win-rate": 10.9,
-          "pick-rate": 6.7,
-          "avg-kill": 1.9,
-          "avg-rank": 8.7
+          "win-rate": 12.8,
+          "pick-rate": 4.5,
+          "avg-kill": 1.8,
+          "avg-rank": 9.0
+        },
+        "투척": {
+          "win-rate": 14.1,
+          "pick-rate": 1.9,
+          "avg-kill": 2.1,
+          "avg-rank": 8.9
         }
       },
       "duo": {
         "암기": {
-          "win-rate": 13.6,
-          "pick-rate": 6.4,
-          "avg-kill": 1.2,
-          "avg-rank": 5.2
+          "win-rate": 19.9,
+          "pick-rate": 5.8,
+          "avg-kill": 1.5,
+          "avg-rank": 4.9
+        },
+        "투척": {
+          "win-rate": 28.6,
+          "pick-rate": 1.0,
+          "avg-kill": 1.8,
+          "avg-rank": 4.0
         }
       },
       "squad": {
         "암기": {
-          "win-rate": 29.9,
-          "pick-rate": 7.6,
-          "avg-kill": 1.5,
-          "avg-rank": 3.2
+          "win-rate": 25.6,
+          "pick-rate": 6.3,
+          "avg-kill": 1.3,
+          "avg-rank": 3.4
+        },
+        "투척": {
+          "win-rate": 25.4,
+          "pick-rate": 1.7,
+          "avg-kill": 1.2,
+          "avg-rank": 3.4
         }
       }
     }
@@ -1281,52 +1317,88 @@
     "ALL": {
       "solo": {
         "창": {
-          "win-rate": 7.4,
-          "pick-rate": 1.7,
-          "avg-kill": 1.1,
+          "win-rate": 5.8,
+          "pick-rate": 2.3,
+          "avg-kill": 1.0,
+          "avg-rank": 9.9
+        },
+        "단검": {
+          "win-rate": 4.9,
+          "pick-rate": 0.9,
+          "avg-kill": 0.8,
           "avg-rank": 9.6
         }
       },
       "duo": {
         "창": {
-          "win-rate": 12.6,
-          "pick-rate": 2.1,
-          "avg-kill": 1.0,
+          "win-rate": 10.7,
+          "pick-rate": 2.9,
+          "avg-kill": 0.9,
+          "avg-rank": 5.5
+        },
+        "단검": {
+          "win-rate": 8.9,
+          "pick-rate": 1.0,
+          "avg-kill": 0.7,
           "avg-rank": 5.4
         }
       },
       "squad": {
         "창": {
-          "win-rate": 17.2,
-          "pick-rate": 2.7,
+          "win-rate": 16.3,
+          "pick-rate": 3.3,
           "avg-kill": 0.9,
-          "avg-rank": 3.8
+          "avg-rank": 3.9
+        },
+        "단검": {
+          "win-rate": 13.7,
+          "pick-rate": 1.0,
+          "avg-kill": 0.7,
+          "avg-rank": 3.9
         }
       }
     },
     "RANKER": {
       "solo": {
         "창": {
-          "win-rate": 14.3,
-          "pick-rate": 3.9,
-          "avg-kill": 1.7,
-          "avg-rank": 7.6
+          "win-rate": 12.4,
+          "pick-rate": 3.6,
+          "avg-kill": 1.3,
+          "avg-rank": 8.5
+        },
+        "단검": {
+          "win-rate": 13.4,
+          "pick-rate": 1.1,
+          "avg-kill": 1.4,
+          "avg-rank": 8.4
         }
       },
       "duo": {
         "창": {
-          "win-rate": 18.9,
-          "pick-rate": 4.1,
-          "avg-kill": 1.4,
-          "avg-rank": 4.8
+          "win-rate": 28.6,
+          "pick-rate": 4.8,
+          "avg-kill": 1.7,
+          "avg-rank": 4.2
+        },
+        "단검": {
+          "win-rate": 7.3,
+          "pick-rate": 0.8,
+          "avg-kill": 0.8,
+          "avg-rank": 5.3
         }
       },
       "squad": {
         "창": {
-          "win-rate": 26.3,
-          "pick-rate": 4.1,
-          "avg-kill": 1.3,
-          "avg-rank": 3.4
+          "win-rate": 20.5,
+          "pick-rate": 2.9,
+          "avg-kill": 1.1,
+          "avg-rank": 3.5
+        },
+        "단검": {
+          "win-rate": 19.3,
+          "pick-rate": 1.0,
+          "avg-kill": 0.9,
+          "avg-rank": 3.6
         }
       }
     }
@@ -1336,51 +1408,87 @@
       "solo": {
         "양손검": {
           "win-rate": 5.9,
-          "pick-rate": 10.5,
+          "pick-rate": 8.1,
           "avg-kill": 1.0,
-          "avg-rank": 9.0
+          "avg-rank": 9.1
+        },
+        "쌍검": {
+          "win-rate": 3.1,
+          "pick-rate": 4.4,
+          "avg-kill": 0.8,
+          "avg-rank": 9.4
         }
       },
       "duo": {
         "양손검": {
-          "win-rate": 12.5,
-          "pick-rate": 9.3,
+          "win-rate": 12.2,
+          "pick-rate": 7.2,
           "avg-kill": 1.1,
           "avg-rank": 5.1
+        },
+        "쌍검": {
+          "win-rate": 8.9,
+          "pick-rate": 4.3,
+          "avg-kill": 0.8,
+          "avg-rank": 5.3
         }
       },
       "squad": {
         "양손검": {
-          "win-rate": 18.0,
-          "pick-rate": 8.5,
+          "win-rate": 18.1,
+          "pick-rate": 6.7,
           "avg-kill": 1.1,
           "avg-rank": 3.7
+        },
+        "쌍검": {
+          "win-rate": 14.7,
+          "pick-rate": 3.7,
+          "avg-kill": 0.8,
+          "avg-rank": 3.8
         }
       }
     },
     "RANKER": {
       "solo": {
         "양손검": {
-          "win-rate": 14.2,
-          "pick-rate": 5.8,
-          "avg-kill": 1.6,
-          "avg-rank": 7.6
+          "win-rate": 12.7,
+          "pick-rate": 5.6,
+          "avg-kill": 1.5,
+          "avg-rank": 8.2
+        },
+        "쌍검": {
+          "win-rate": 6.7,
+          "pick-rate": 0.6,
+          "avg-kill": 1.1,
+          "avg-rank": 8.3
         }
       },
       "duo": {
         "양손검": {
-          "win-rate": 15.2,
-          "pick-rate": 10.4,
+          "win-rate": 18.1,
+          "pick-rate": 8.0,
           "avg-kill": 1.2,
+          "avg-rank": 4.5
+        },
+        "쌍검": {
+          "win-rate": 12.4,
+          "pick-rate": 1.9,
+          "avg-kill": 0.9,
           "avg-rank": 4.8
         }
       },
       "squad": {
         "양손검": {
-          "win-rate": 26.7,
-          "pick-rate": 8.1,
-          "avg-kill": 1.2,
-          "avg-rank": 3.2
+          "win-rate": 22.5,
+          "pick-rate": 8.5,
+          "avg-kill": 1.1,
+          "avg-rank": 3.4
+        },
+        "쌍검": {
+          "win-rate": 14.6,
+          "pick-rate": 1.4,
+          "avg-kill": 0.8,
+          "avg-rank": 3.5
         }
       }
     }
@@ -1389,88 +1497,88 @@
     "ALL": {
       "solo": {
         "투척": {
-          "win-rate": 4.9,
-          "pick-rate": 0.9,
+          "win-rate": 5.5,
+          "pick-rate": 0.7,
           "avg-kill": 0.9,
-          "avg-rank": 10.3
+          "avg-rank": 10.2
         },
         "암기": {
-          "win-rate": 5.9,
-          "pick-rate": 1.9,
+          "win-rate": 5.8,
+          "pick-rate": 1.3,
           "avg-kill": 1.2,
           "avg-rank": 9.5
         }
       },
       "duo": {
         "투척": {
-          "win-rate": 10.1,
-          "pick-rate": 0.9,
-          "avg-kill": 0.9,
+          "win-rate": 11.4,
+          "pick-rate": 0.8,
+          "avg-kill": 1.0,
           "avg-rank": 5.5
         },
         "암기": {
-          "win-rate": 11.5,
-          "pick-rate": 1.6,
-          "avg-kill": 1.1,
-          "avg-rank": 5.3
+          "win-rate": 12.4,
+          "pick-rate": 1.2,
+          "avg-kill": 1.2,
+          "avg-rank": 5.2
         }
       },
       "squad": {
         "투척": {
-          "win-rate": 15.3,
-          "pick-rate": 0.9,
-          "avg-kill": 0.9,
-          "avg-rank": 3.9
-        },
-        "암기": {
-          "win-rate": 16.1,
-          "pick-rate": 1.6,
+          "win-rate": 16.9,
+          "pick-rate": 0.8,
           "avg-kill": 1.0,
           "avg-rank": 3.8
+        },
+        "암기": {
+          "win-rate": 18.0,
+          "pick-rate": 1.2,
+          "avg-kill": 1.2,
+          "avg-rank": 3.7
         }
       }
     },
     "RANKER": {
       "solo": {
         "투척": {
-          "win-rate": 17.0,
-          "pick-rate": 1.4,
-          "avg-kill": 1.9,
+          "win-rate": 18.6,
+          "pick-rate": 1.1,
+          "avg-kill": 1.8,
           "avg-rank": 7.9
         },
         "암기": {
-          "win-rate": 12.0,
-          "pick-rate": 2.6,
-          "avg-kill": 2.4,
+          "win-rate": 10.0,
+          "pick-rate": 2.3,
+          "avg-kill": 2.3,
           "avg-rank": 7.8
         }
       },
       "duo": {
         "투척": {
-          "win-rate": 15.1,
-          "pick-rate": 0.8,
+          "win-rate": 17.5,
+          "pick-rate": 1.0,
           "avg-kill": 1.3,
-          "avg-rank": 5.2
+          "avg-rank": 5.0
         },
         "암기": {
-          "win-rate": 11.5,
-          "pick-rate": 1.4,
-          "avg-kill": 1.2,
-          "avg-rank": 5.0
+          "win-rate": 17.2,
+          "pick-rate": 1.2,
+          "avg-kill": 1.8,
+          "avg-rank": 4.8
         }
       },
       "squad": {
         "투척": {
-          "win-rate": 24.8,
-          "pick-rate": 0.9,
-          "avg-kill": 1.5,
-          "avg-rank": 3.3
+          "win-rate": 25.4,
+          "pick-rate": 1.7,
+          "avg-kill": 1.3,
+          "avg-rank": 3.2
         },
         "암기": {
-          "win-rate": 18.8,
-          "pick-rate": 0.7,
-          "avg-kill": 1.0,
-          "avg-rank": 3.7
+          "win-rate": 22.0,
+          "pick-rate": 1.4,
+          "avg-kill": 1.3,
+          "avg-rank": 3.4
         }
       }
     }
