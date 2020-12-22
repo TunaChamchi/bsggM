@@ -43,7 +43,8 @@
             "menu": {
                 "rank": "排名",
                 "item": "物品",
-                "map": "地图"
+                "map": "地图",
+                "route": "路径"
             },
             "placeholder": "角色搜索."
         },

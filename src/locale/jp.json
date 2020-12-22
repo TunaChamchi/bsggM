@@ -43,7 +43,8 @@
             "menu": {
                 "rank": "排名",
                 "item": "物品",
-                "map": "地圖"
+                "map": "地圖",
+                "route": "ルート"
             },
             "placeholder": "キャラクター検索."
         },

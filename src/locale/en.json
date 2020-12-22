@@ -43,7 +43,8 @@
             "menu": {
                 "rank": "Rank",
                 "item": "Item",
-                "map": "Map"
+                "map": "Map",
+                "route": "Route"
             },
             "placeholder": "Search character."
         },
