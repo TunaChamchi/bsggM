@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { injectIntl  } from 'react-intl';
 import ScriptTag from 'react-script-tag';
 import { Header, MainBanner, AdS, Footer } from 'components/banner'
@@ -44,8 +45,8 @@ class Map extends Component {
                         <span className="map_title_span">MAP</span>
                     </div>
                     <div className="tabHeaders">
+                        <Link to='/Route'><span className="map_tab0">{intl.formatMessage({id:'루트제작'})}</span></Link>
                         <span className="map_tab0 actived">{intl.formatMessage({id:'지도 도감'})}</span>
-                        <span className="map_tab0">{intl.formatMessage({id:'루트제작'})}</span>
                     </div>
                     <div className="map_left">
                         <img className="mapimg" src={map} />                        

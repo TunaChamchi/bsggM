@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { injectIntl  } from 'react-intl';
 import ScriptTag from 'react-script-tag';
 import { Header, MainBanner, AdS, Footer } from 'components/banner'
@@ -40,9 +41,9 @@ class RouteM extends Component {
             mapSrc: {},
             routeList: [],
             _select:{},
-            filterType: {'1':'무기','2':'다리',},
+            filterType: {'1':'무기','2':'다리'},
             filterTypeSelect: 0,
-            filterTypeList: ['무기', '머리', '옷', '팔', '다리', '장신구'],
+            filterTypeList: ['무기', '머리', '옷', '팔', '다리', '장식'],
             filterMap: {},
             filterMapSelect: 0,
             filterMapList: ['골목길', '절', '번화가', '연못', '병원', '양궁장', '학교', '묘지', '공장', '호텔', '숲', '성당', '모래사장', '고급 주택가', '항구'],
@@ -60,6 +61,7 @@ class RouteM extends Component {
                 '모래사장': 'Beach',
                 '숲': 'Forest',
                 '고급주택가': 'Uptown',
+                '고급 주택가': 'Uptown',
                 '연못': 'Pond',
                 '절': 'Temple',
                 '병원': 'Hospital',
@@ -68,8 +70,8 @@ class RouteM extends Component {
                 '항구': 'Dock',
                 '묘지': 'Cemetery',
                 '번화가': 'Avenue'
-            }
-            
+            },
+            addStat:[]
         };
     }
 
@@ -88,8 +90,10 @@ class RouteM extends Component {
                     isEq = false;
             }
             if (!isEq) {
-                this.setState({_select: JSON.parse(JSON.stringify(select))});
-                this.routeCalc();
+                if (Object.keys(select).length === 8) {
+                    this.setState({_select: JSON.parse(JSON.stringify(select))});
+                    this.routeCalc();
+                }
             }
         }
     };
@@ -173,8 +177,14 @@ class RouteM extends Component {
         }      
         //console.log('_filterType', _filterType);
 
-        const routeList = this.routeListByAll(extSrc, 7, _filterType);
-        //console.log('routeList', routeList);
+        const routeList = this.routeListByAll(extSrc, 6, _filterType);
+
+        //console.log('routeList1', routeList);
+
+        if (routeList.length < 20)
+            routeList = this.routeListByAll(extSrc, 7, _filterType);
+
+        //console.log('routeList2', routeList);
 
         const extTypeList = ['무기', '머리', '옷', '팔', '다리', '장식'].filter(type => !filterTypeList.includes(type));
         //console.log('extTypeList', extTypeList);
@@ -206,7 +216,7 @@ class RouteM extends Component {
         //console.log('topList', topList);
 
         this.setRouteListForItem(mapSrc, selectSrc, topList);
-        console.log('topList2', topList);
+        //console.log('topList2', topList);
 
         this.setState({routeList: topList, selectRoute:{route:[]}, selectMap:'', selectMapSrc: []});
     }
@@ -306,15 +316,19 @@ class RouteM extends Component {
         if (route['route'].length > MapIdx || idx > MapIdx) {
             return;
         }
-        if ((route[filterType['1']] === undefined && idx > 4) || route[filterType['1']] > 3) {
-            return
+
+        if (MapIdx === 7 && idx === MapIdx-1) {
+            let count = 0;
+            ['무기', '다리', '머리', '옷', '팔', '장식'].forEach(type => {
+                if (route[type] === undefined) {
+                    count++;
+                }
+            });
+            if (count > 2) { return };
         }
-        if ((route[filterType['2']] === undefined && idx > 5) || route[filterType['2']] > 4) {
-            return;
-        } 
         if (idx === MapIdx) {
             let count = 0;
-            ['머리', '옷', '팔', '장식'].forEach(type => {
+            ['무기', '다리', '머리', '옷', '팔', '장식'].forEach(type => {
                 if (route[type] === undefined) {
                     count++;
                 }
@@ -418,15 +432,20 @@ class RouteM extends Component {
     }
 
     typeFilterDropHandler = (e, index) => {
-        const { filterType, filterTypeSelect } = this.state;        
+        const { filterType, filterTypeSelect } = this.state;
         if (e.button === 2) {
             filterType[index] = '';
-            this.setState({filterType:filterType, filterTypeSelect:0});
+            this.setState({filterType:filterType, filterTypeSelect:0, filterMapSelect:0, selectViewList: [], selectType:''});
         } else if (e.button === 0 && filterTypeSelect !== index) {
-            this.setState({filterTypeSelect:index});
+            this.setState({filterTypeSelect:index, filterMapSelect:0, selectViewList: [], selectType:''});
         } else if (filterTypeSelect === index) {
-            this.setState({filterTypeSelect:0});
+            this.setState({filterTypeSelect:0, filterMapSelect:0, selectViewList: [], selectType:''});
         }
+    }
+    typeFilterDropDubleHandler = (e, index) => {
+        const { filterType, filterTypeSelect } = this.state;
+        filterType[index] = '';
+        this.setState({filterType:filterType, filterTypeSelect:0, filterMapSelect:0, selectViewList: [], selectType:''});
     }
     typeFilterSelectHandler = (e, index, type) => {
         const { filterType } = this.state;
@@ -434,6 +453,7 @@ class RouteM extends Component {
         this.setState({filterType:filterType, filterTypeSelect:0});
     }
     typeFilterDropView = (index) => {
+        const { intl } = this.props;
         const { filterTypeSelect, filterTypeList } = this.state;
         if (filterTypeSelect === index) {
             return (
@@ -443,7 +463,7 @@ class RouteM extends Component {
                             return (
                                 <div className='Route_L_Route_Filter_dropbox' key={'filter_dropbox'+idx}
                                     onClick={(e) => this.typeFilterSelectHandler(e, index, type)}>
-                                    {type} 
+                                    {intl.formatMessage({id: 'armor.'+type})}
                                 </div>
                             )
                         })
@@ -458,12 +478,17 @@ class RouteM extends Component {
         
         if (e.button === 2 ) {
             filterMap[index] = '';
-            this.setState({filterMap:filterMap, filterMapSelect:0});
+            this.setState({filterMap:filterMap, filterMapSelect:0, filterTypeSelect:0, selectViewList: [], selectType:''});
         } else if (e.button === 0 && filterMapSelect !== index) {
-            this.setState({filterMapSelect:index});
+            this.setState({filterMapSelect:index, filterTypeSelect:0, selectViewList: [], selectType:''});
         } else if (filterMapSelect === index) {
-            this.setState({filterMapSelect:0});
+            this.setState({filterMapSelect:0, filterTypeSelect:0, selectViewList: [], selectType:''});
         }
+    }
+    mapFilterDropDubleHandler = (e, index) => {
+        const { filterMap, filterMapSelect } = this.state;
+        filterMap[index] = '';
+        this.setState({filterMap:filterMap, filterMapSelect:0, filterTypeSelect:0, selectViewList: [], selectType:''});
     }
     mapFilterSelectHandler = (e, index, map) => {
         const { filterMap } = this.state;
@@ -471,7 +496,8 @@ class RouteM extends Component {
         this.setState({filterMap:filterMap, filterMapSelect:0});
     }
     mapFilterDropView = (index) => {
-        const { filterMapSelect, filterMapList } = this.state;
+        const { intl } = this.props;
+        const { filterMapSelect, filterMapList, mapList } = this.state;
         if (filterMapSelect === index) {
             return (
                 <div className='Route_L_Route_Filter_dropbox_all'>
@@ -480,7 +506,7 @@ class RouteM extends Component {
                             return (
                                 <div className='Route_L_Route_Filter_dropbox' key={'filter_dropbox'+idx}
                                     onClick={(e) => this.mapFilterSelectHandler(e, index, map)}>
-                                    {map} 
+                                    {intl.formatMessage({id: mapList[map]})}
                                 </div>
                             )
                         })
@@ -509,7 +535,7 @@ class RouteM extends Component {
 
         if (e.button === 2) {
             select[type] = '';
-            this.setState({selectViewList:[], selectType:'', select:select});
+            this.setState({selectViewList:[], selectType:'', select:select, filterTypeSelect:0, filterMapSelect:0});
         } else if (e.button === 0 && selectType !== type) {
             let list = [];
             if (type === 'type' || type === 'start' ) {
@@ -529,10 +555,15 @@ class RouteM extends Component {
                 }
             }
             
-            this.setState({selectViewList: list, selectType:type});
+            this.setState({selectViewList: list, selectType:type, filterTypeSelect:0, filterMapSelect:0});
         } else if (selectType === type) {
-            this.setState({selectViewList: [], selectType:''});
+            this.setState({selectViewList: [], selectType:'', filterTypeSelect:0, filterMapSelect:0});
         }
+    }
+    selectTypeDubleHandler = (e, type) => {
+        const { select, selectType } = this.state;
+        select[type] = '';
+        this.setState({selectViewList:[], selectType:'', select:select, filterTypeSelect:0, filterMapSelect:0});
     }
 
     itemFilterView = () => {
@@ -546,7 +577,7 @@ class RouteM extends Component {
                 <div className="Route_L_ItemX">
                     <div className="Route_L_StartItem_box"> 
                         <div className="Route_L_StartItem" onMouseUp={(e) => this.selectTypeHandler(e, 'type')}
-                            onContextMenu={(e) => e.preventDefault()}>
+                            onDoubleClick={(e) => this.selectTypeDubleHandler(e, 'type')}>
                             <img className="Route_L_StartItem1" src={imgType} />
                             <span className="Route_L_StartItem2">{intl.formatMessage({id:'최종 무기'})}</span>
                         </div>
@@ -559,7 +590,7 @@ class RouteM extends Component {
                 <div className="Route_L_ItemX">
                     <div className="Route_L_StartItem_box"> 
                         <div className="Route_L_StartItem" onMouseUp={(e) => this.selectTypeHandler(e, 'start')}
-                            onContextMenu={(e) => e.preventDefault()}>
+                            onDoubleClick={(e) => this.selectTypeDubleHandler(e, 'start')}>
                             <img className="Route_L_StartItem1" src={imgStart} />
                             <span className="Route_L_StartItem2">{intl.formatMessage({id:'시작 무기'})}</span>
                         </div>
@@ -573,15 +604,16 @@ class RouteM extends Component {
         );
     }
     itemFilterView2 = (list) => {
+        const { intl } = this.props;
         const { select } = this.state;
         return list.map((type, idx) => {
-            const itemName = select[type] || type+' 선택';
+            const itemName = select[type] ? intl.formatMessage({id: 'items.'+select[type]}) : intl.formatMessage({id: 'armor.'+type})+' '+intl.formatMessage({id: '선택'});
             const imgGrade = select[type] ? 'img/Item/BackGround/'+item[select[type]]['grade']+'.jpg' : 'img/Item/BackGround/일반.jpg';
-            const imgItem = select[type] ? 'img/Item/'+itemName+'.png' : '';
+            const imgItem = select[type] ? 'img/Item/'+select[type]+'.png' : '';
             return (
                 <div className="Route_L_PickItem_box" key={'PickItem_box'+idx}> 
                     <div onMouseUp={(e) => this.selectTypeHandler(e, type)}
-                        onContextMenu={(e) => e.preventDefault()}>
+                        onDoubleClick={(e) => this.selectTypeDubleHandler(e, type)}>
                         <div className="Route_L_PickItem">
                             <img className="Route_L_PickItem1" src={imgGrade} />
                             <img className="Route_L_PickItem2" src={imgItem} />
@@ -596,6 +628,7 @@ class RouteM extends Component {
         });
     }
     itemFilterDropBoxView = (type) => {
+        const { intl } = this.props;
         const { selectType, selectViewList } = this.state;
 
         if (type !== selectType) return;
@@ -605,7 +638,7 @@ class RouteM extends Component {
                 return (
                     <div className="Route_L_StartItem_dropbox" key={type+'_list'+idx} onClick={(e) => this.selectHandler(e, type, name)}>
                         <img className="Route_L_StartItem_dropbox1" src={'img/Weapons/'+name+'.jpg'} />
-                        <span className="Route_L_StartItem_dropbox2">{name}</span>
+                        <span className="Route_L_StartItem_dropbox2">{intl.formatMessage({id: 'weapons.'+name})}</span>
                     </div>
                 )
             } else {
@@ -615,7 +648,7 @@ class RouteM extends Component {
                             <img className="Route_L_PickItem_dropbox1" src={'img/Item/BackGround/'+item[name]['grade']+'.jpg'} />
                             <img className="Route_L_PickItem_dropbox2" src={'img/Item/'+name+'.png'} />
                         </div>
-                        <span className="Route_L_PickItem_dropbox3">{name}</span>
+                        <span className="Route_L_PickItem_dropbox3">{intl.formatMessage({id: 'items.'+name})}</span>
                     </div>
                 )
             }
@@ -624,6 +657,7 @@ class RouteM extends Component {
 
     
     routeSelectHandler = (e, route) => {
+        //console.log('selectRoute', route);
         this.setState({selectRoute:route});
     }
     routeListXView() {
@@ -639,10 +673,12 @@ class RouteM extends Component {
         });
     }
     routeListYView(route) {
+        const { intl } = this.props;
+        const { mapList } = this.state;
         return route['view'].map((view, idx) => {
             return (
                 <div className='Route_L_RouteY' key={'route_Y'+idx}>
-                    <div className='Route_L_Route_region'>{view['name']}</div>
+                    <div className='Route_L_Route_region'>{intl.formatMessage({id: mapList[view['name']]})}</div>
                     <div className='Route_L_Route_item_bigbox'>
                         {this.routeListBoxView(view['item'])}
                     </div>
@@ -678,10 +714,9 @@ class RouteM extends Component {
         this.setState({selectMap:mapName, selectMapSrc:getSrc});
     }
 
-
     render() {
         const { intl } = this.props;
-        const { filterType, filterMap, mapList, selectRoute, selectMap, selectMapSrc } = this.state;
+        const { filterType, filterMap, mapList, selectRoute, selectMap, selectMapSrc, addStat } = this.state;
 
         const metaData = {
             title: 'BSGG.kr - ' + intl.formatMessage({id: 'Title.Map'}),
@@ -708,8 +743,8 @@ class RouteM extends Component {
                         <span className="map_title_span">MAP</span>
                     </div>
                     <div className="tabHeaders">
-                        <span className="map_tab0 actived">{intl.formatMessage({id:'지도 도감'})}</span>
-                        <span className="map_tab0">{intl.formatMessage({id:'루트제작'})}</span>
+                        <span className="map_tab0 actived">{intl.formatMessage({id:'루트제작'})}</span>
+                        <Link to='/Map'><span className="map_tab0">{intl.formatMessage({id:'지도 도감'})}</span></Link>
                     </div>
                     <div className="Route_L">
                         {this.itemFilterView()}
@@ -720,8 +755,8 @@ class RouteM extends Component {
                                     [1, 2, 3, 4, 5].map(index => 
                                         <div className='Route_L_Route_Filter'>
                                             <div onMouseUp={(e) => this.typeFilterDropHandler(e, index)}
-                                                onContextMenu={(e) => e.preventDefault()}>
-                                                {filterType[index] || 'filter'}
+                                                onDoubleClick={(e) => this.typeFilterDropDubleHandler(e, index)}>
+                                                {filterType[index] ? intl.formatMessage({id: 'armor.'+filterType[index]}) : intl.formatMessage({id: 'filter1'})}
                                             </div>
                                             {this.typeFilterDropView(index)}
                                         </div>
@@ -734,8 +769,8 @@ class RouteM extends Component {
                                     [1, 2, 3, 4, 5, 6, 7].map(index => 
                                         <div className='Route_L_Route_Filter'>
                                             <div onMouseUp={(e) => this.mapFilterDropHandler(e, index)}
-                                                onContextMenu={(e) => e.preventDefault()}>
-                                                {filterMap[index] || 'filter'}
+                                                onDoubleClick={(e) => this.mapFilterDropDubleHandler(e, index)}>
+                                                {filterMap[index] ? intl.formatMessage({id: mapList[filterMap[index]]}) : intl.formatMessage({id: 'filter2'})}
                                             </div>
                                             {this.mapFilterDropView(index)}
                                         </div>
@@ -793,9 +828,7 @@ class RouteM extends Component {
                             </div>
                         </div>
                     </div>
-                    
                 </div>
-                <AdS type={'Map'}/>
                 <Footer />
                 <ScriptTag src="//t1.daumcdn.net/kas/static/ba.min.js" async />
             </div>

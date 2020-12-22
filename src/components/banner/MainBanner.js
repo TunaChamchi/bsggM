@@ -22,8 +22,8 @@ class MainBanner extends Component {
                         <a href={'https://playeternalreturn.com/'+defaultLang()+'/ranking/'} target="_blank">
                             <button className="menubutton">{intl.formatMessage({id:'main.banner.menu.rank'})}</button>
                         </a>
-                        <Link to={'/Map'}>
-                            <button className="menubutton">{intl.formatMessage({id:'main.banner.menu.map'})}</button>
+                        <Link to={'/Route'}>
+                            <button className="menubutton">{intl.formatMessage({id:'main.banner.menu.route'})}</button>
                         </Link>
                     </div>
                     
