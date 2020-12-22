@@ -29,6 +29,10 @@
     "시작 무기":"Start Weapon",
     "능력치":"Stats",
     "계산":"Make",
+    "선택":"Select",
+    "우선 장비":"First Item",
+    "filter1":"Select Item",
+    "filter2":"Select Area",
     "footer":"BSGG.kr isn’t endorsed by Nimble Neuron.\n Eternal Return: Black Survival is trademarks or registered trademarks of Nimble Neuron.\n Data Based on Nimble Neuron",
     "question":"The character tier is based on the winning rate, pick rate, average skill, and average rank of characters based on official statistics. Duo and squad statistics reduce the influence on average kill and tier of average rank.",
     "question_item":"Armor item statistics are data on the win rate based on all characters due to lack of data. It is not the armor win rate for each character.",
@@ -96,9 +100,9 @@
 
         "최대스태미너": "Max SP",
         "스태미너재생": "SP Regen",
-        "스태미너재생2": "SP Regen",
+        "스태미너재생2": "SP Regen(%)",
         "스테미너재생": "SP Regen",
-        "스테미너재생2": "SP Regen",
+        "스테미너재생2": "SP Regen(%)",
 
         "시야": "Vision Range",
         "이동속도": "Speed",
@@ -150,6 +154,7 @@
         "석궁": "Crossbow"        
     },
     "armor": {
+        "무기":"Weapon",
         "옷": "Chest",
         "머리":" Head",
         "팔": "Arm",
