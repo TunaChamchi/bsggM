@@ -1711,3 +1711,814 @@ button:hover{
     border: 1px solid #3b4147;
 }
 
+.Route_L{
+    margin-left: 10px;
+    width: 750px;
+    height: 900px;
+    float: left;
+}
+.Route_L_Item{
+    width: 750px;
+    height: 210px;
+    border-radius: 5px;
+}
+.Route_L_ItemX{
+    text-align: center;
+}
+.Route_L_StartItem_box{
+    width: 110px;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+}
+.Route_L_StartItem{
+    position: relative;
+    width: 110px;
+    height: 81px;
+}
+.Route_L_StartItem :hover{
+    cursor: pointer;
+}
+.Route_L_StartItem1{
+    width: 40px;
+    margin-left: 28px;
+    border: 1px solid #3b4147;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.Route_L_StartItem2{
+    position: absolute;
+    top: 53px;
+    left: 5px;
+    display:inline-block;
+    width: 100px;
+    font-size: 15pt;
+}
+.Route_L_PickItem_box{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 92px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-bottom: 1px solid #171520;
+    border-radius: 3px;
+    background-color:  #241b2f;
+}
+.Route_L_PickItem_box :hover{
+    cursor: pointer;
+}
+.Route_L_PickItem{
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    margin-top: 5px;
+}
+.Route_L_PickItem1{
+    position: absolute;
+    top:5px;
+    left:65px;
+    margin-top: 5px;
+    border: 1px solid #3b4147;
+    border-radius: 3px;
+}
+.Route_L_PickItem2{
+    position: absolute;
+    top:8px;
+    left:66px;
+    margin-top: 3px;
+}
+.Route_L_PickItem3{
+    position: absolute;
+    display: inline-block;
+    width: 200px;
+    font-size: 14pt;
+    top: 57px;
+    left: 0px;
+    font-size: 15pt;
+}
+.Route_L_StartItem_dropbox_all{
+    position: absolute;
+    max-height: 400px;
+    overflow: scroll;
+    border-radius: 5px;
+    background-color: #171520;
+    z-index: 1;
+}
+.Route_L_StartItem_dropbox{
+    width: 110px;
+    height: 70px;
+    border-bottom: 1px solid #3b4147;
+    position: relative;
+    border-radius: 5px;
+}
+.Route_L_StartItem_dropbox :hover{
+    cursor:pointer;
+}
+.Route_L_StartItem_dropbox1{
+    position: absolute;
+    top: 5px;
+    left: 34px;
+    width: 40px;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+}
+.Route_L_StartItem_dropbox2{
+    position: absolute;
+    top: 45px;
+    left: 5px;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    font-size: 12pt;
+}
+.Route_L_PickItem_dropbox_all{
+    position: absolute;
+    max-height: 400px;
+    overflow: scroll;
+    border-radius: 5px;
+    margin-top: 95px;
+    background-color: #171520;
+    z-index: 1;
+}
+.Route_L_PickItem_dropbox :hover{
+    cursor:pointer;
+}
+.Route_L_PickItem_dropbox{
+    position: relative;
+    width: 200px;
+    height: 70px;
+    z-index: 1;
+    margin-top: 0px;
+    border-bottom: 1px solid #3b4147;
+    border-radius: 5px;
+}
+.Route_L_PickItem_dropbox0{
+    position: absolute;
+    width: 200px;
+    height: 55px;
+    margin-top: 5px;
+}
+.Route_L_PickItem_dropbox1{
+    position: absolute;
+    top: 0px;
+    left: 68px;
+    border: 1px solid #3b4147;
+    border-radius: 3px;
+}
+.Route_L_PickItem_dropbox2{
+    position: absolute;
+    top: 1px;
+    left: 69px;
+    border-radius: 3px;
+}
+.Route_L_PickItem_dropbox3{
+    position: absolute;
+    font-size: 10pt;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    left: 0px;
+    top: 40px;
+    font-size: 15pt;
+}
+.Route_L_Route{
+    width: 750px;
+    margin-top: 10px;
+    height: 630px;
+    border-radius: 5px;
+    margin-left: -10px;
+}
+.Route_L_Route_FilterX{
+    clear: both;
+}
+.Route_L_Route_cal{
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    margin-left: 6px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    float: left;
+    text-align: center;
+    background-color:  #241b2f;
+    border: none;
+    border: solid 1px rgb(244,216,35);
+    border-radius: 5px;
+    color: rgb(209, 209, 209);
+    font-size: 14pt
+}
+.Route_L_Route_Filter{
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    margin-left: 6px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    float: left;
+    text-align: center;
+    border-bottom: solid 1px #3b4147;
+    border-radius: 5px;
+    z-index: 1;
+    font-size: 14pt;
+    padding-bottom: 3px;
+}
+.Route_L_Route_Filter :hover{
+    cursor: pointer;
+}
+.Route_L_Route_Filter2{
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    margin-left: 6px;
+    margin-bottom: 5px;
+    float: left;
+    text-align: center;
+    border-bottom: solid 1px #3b4147;
+    border-radius: 5px;
+    font-size: 15pt
+}
+.Route_L_Route_Filter_dropbox_all{
+    position: absolute;
+    width: 100px;
+    max-height: 100px;
+    background-color:  #171520;
+    margin-top: 5px;
+    border-radius: 5px;
+    z-index: 1;
+}
+.Route_L_Route_Filter_dropbox{
+    border-radius: 5px;
+    border-bottom: solid 1px #3b4147;
+    background-color: #171520;
+    z-index: 1;
+}
+.Route_L_RouteX_all{
+    margin-top: 30px;
+    width: 750px;
+    height: 600px;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border-bottom: 1px solid #171520;
+    overflow-y: scroll;
+}
+.Route_L_RouteX{
+    padding-top: 5px;
+    width: 750px;
+    height: 115px;
+    border-bottom: solid 1px #3b4147;
+    border-radius: 5px;
+}
+.Route_L_RouteX_all :hover{
+    cursor: pointer;
+}
+.Route_L_RouteY{
+    float: left;
+    margin-left: 6px;
+}
+.Route_L_Route_region{
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+.Route_L_Route_item_bigbox{
+    width: 100px;
+    min-height: 57px;
+    max-height: 86px;
+}
+.Route_L_Route_item_box{
+    width: 48px;
+    height: 26.6px;
+    position: relative;
+    float: left;
+    margin: 1px;
+}
+.Route_L_Route_item1{
+    width: 48px;
+    position: absolute;
+    border-radius: 2px;
+}
+.Route_L_Route_item2{
+    width: 48px;
+    position: absolute;
+    border-radius: 2px;
+}
+.Route_R{
+    width: 750px;
+}
+.Route_R_Map{
+    width: 372px;
+    margin-top: 30px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 20px;
+}
+.Route_R_Mapimg_box{
+    width: 370px;
+    height: 425px;
+    margin-bottom: 10px;
+    position: relative;
+    float: left;
+}
+.Route_R_Mapimg_box .actived{
+}
+.Route_R_Mapimg{
+    width: 370px;
+    margin-bottom: 10px;
+    position: absolute;
+}
+.Route_R_Mapimg_archery{
+    position: absolute;
+    top: 60px;
+    left: 47px;
+}
+.Route_R_Mapimg_alley{
+    position: absolute;
+    top: -2px;
+    left: 103px;
+}
+.Route_R_Mapimg_school{
+    position: absolute;
+    top: 87px;
+    left: 81px;
+}
+.Route_R_Mapimg_hotel{
+    position: absolute;
+    top: 131px;
+    left: 2px;
+}
+.Route_R_Mapimg_beach{
+    position: absolute;
+    top: 214px;
+    left: 15px;
+}
+.Route_R_Mapimg_forest{
+    position: absolute;
+    top: 173px;
+    left: 80px;
+}
+.Route_R_Mapimg_uptown{
+    position: absolute;
+    top: 268px;
+    left: 65px;
+}
+.Route_R_Mapimg_pond{
+    position: absolute;
+    top: 133px;
+    left: 203px;
+}
+.Route_R_Mapimg_temple{
+    position: absolute;
+    top: 67px;
+    left: 249px;
+}
+.Route_R_Mapimg_hospital{
+    position: absolute;
+    top: 180px;
+    left: 270px;
+}
+.Route_R_Mapimg_chapel{
+    position: absolute;
+    top: 268px;
+    left: 148px;
+}
+.Route_R_Mapimg_factory{
+    position: absolute;
+    top: 280px;
+    left: 238px;
+}
+.Route_R_Mapimg_dock{
+    position: absolute;
+    top: 329px;
+    left: 132px;
+}
+.Route_R_Mapimg_cemetery{
+    position: absolute;
+    top: 217px;
+    left: 179px;
+}
+.Route_R_Mapimg_research{
+    position: absolute;
+    top: 167px;
+    left: 129px;
+}
+.Route_R_Mapimg_avenue{
+    position: absolute;
+    top: 62px;
+    left: 146px;
+}
+.Route_R_Mapspan_box{
+    width: 370px;
+    margin-bottom: 10px;
+    position: absolute;
+}
+.Route_R_Mapspan_box .actived{
+    border: 1px solid rgb(244,216,35);
+}
+.Route_R_Mapspan_box :hover{
+    cursor: pointer;
+}
+.Route_R_Mapspan_archery{
+    position: absolute;
+    top: 90px;
+    left: 47px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+}
+.Route_R_Mapspan_alley{
+    position: absolute;
+    top: 38px;
+    left: 153px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+}
+.Route_R_Mapspan_school{
+    position: absolute;
+    top: 127px;
+    left: 81px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+}
+.Route_R_Mapspan_hotel{
+    position: absolute;
+    top: 161px;
+    left: 30px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+}
+.Route_R_Mapspan_beach{
+    position: absolute;
+    top: 265px;
+    left: 30px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+}
+.Route_R_Mapspan_forest{
+    position: absolute;
+    top: 233px;
+    left: 80px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+}
+.Route_R_Mapspan_uptown{
+    position: absolute;
+    top: 325px;
+    left: 65px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+}
+.Route_R_Mapspan_pond{
+    position: absolute;
+    top: 163px;
+    left: 203px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+}
+.Route_R_Mapspan_temple{
+    position: absolute;
+    top: 125px;
+    left: 279px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+}
+.Route_R_Mapspan_hospital{
+    position: absolute;
+    top: 220px;
+    left: 270px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+}
+.Route_R_Mapspan_chapel{
+    position: absolute;
+    top: 298px;
+    left: 148px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+}
+.Route_R_Mapspan_factory{
+    position: absolute;
+    top: 330px;
+    left: 238px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+}
+.Route_R_Mapspan_dock{
+    position: absolute;
+    top: 359px;
+    left: 132px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+}
+.Route_R_Mapspan_cemetery{
+    position: absolute;
+    top: 260px;
+    left: 179px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+}
+.Route_R_Mapspan_research{
+    position: absolute;
+    top: 197px;
+    left: 129px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+}
+.Route_R_Mapspan_avenue{
+    position: absolute;
+    top: 92px;
+    left: 176px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+}
+.Route_R_Mapspan_archery1{
+    position: absolute;
+    top: 90px;
+    left: 17px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+    color: rgb(244,216,35);
+}
+.Route_R_Mapspan_alley1{
+    position: absolute;
+    top: 38px;
+    left: 123px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+    color: rgb(244,216,35);
+}
+.Route_R_Mapspan_school1{
+    position: absolute;
+    top: 127px;
+    left: 51px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+    color: rgb(244,216,35);
+}
+.Route_R_Mapspan_hotel1{
+    position: absolute;
+    top: 161px;
+    left: 0px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+    color: rgb(244,216,35);
+}
+.Route_R_Mapspan_beach1{
+    position: absolute;
+    top: 265px;
+    left: 0px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+    color: rgb(244,216,35);
+}
+.Route_R_Mapspan_forest1{
+    position: absolute;
+    top: 233px;
+    left: 50px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+    color: rgb(244,216,35);
+}
+.Route_R_Mapspan_uptown1{
+    position: absolute;
+    top: 325px;
+    left: 35px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+    color: rgb(244,216,35);
+}
+.Route_R_Mapspan_pond1{
+    position: absolute;
+    top: 163px;
+    left: 173px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+    color: rgb(244,216,35);
+}
+.Route_R_Mapspan_temple1{
+    position: absolute;
+    top: 125px;
+    left: 249px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+    color: rgb(244,216,35);
+}
+.Route_R_Mapspan_hospital1{
+    position: absolute;
+    top: 220px;
+    left: 240px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+    color: rgb(244,216,35);
+}
+.Route_R_Mapspan_chapel1{
+    position: absolute;
+    top: 298px;
+    left: 118px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+    color: rgb(244,216,35);
+}
+.Route_R_Mapspan_factory1{
+    position: absolute;
+    top: 330px;
+    left: 208px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+    color: rgb(244,216,35);
+}
+.Route_R_Mapspan_dock1{
+    position: absolute;
+    top: 359px;
+    left: 102px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+    color: rgb(244,216,35);
+}
+.Route_R_Mapspan_cemetery1{
+    position: absolute;
+    top: 260px;
+    left: 149px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+    color: rgb(244,216,35);
+}
+.Route_R_Mapspan_research1{
+    position: absolute;
+    top: 197px;
+    left: 999px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #171520;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+    color: rgb(244,216,35);
+}
+.Route_R_Mapspan_avenue1{
+    position: absolute;
+    top: 92px;
+    left: 146px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: #241b2f;
+    border-radius: 5px;
+    border: 1px solid #3b4147;
+    color: rgb(244,216,35);
+}
+.Route_R_Mapitem_title{
+    width: 300px;
+    font-size: 20pt;
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.Route_R_Mapitem_allbox{
+    width: 300px;
+    height: 400px;
+    background-color:  #241b2f;
+    border-bottom: 1px solid #171520;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 410px;
+}
+.Route_R_Mapitem_box{
+    position: relative;
+    width: 65px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 6.5px;
+    float: left;
+    border-radius: 3px;
+    border: 1px solid #3b4147;
+}
+.Route_R_Mapitem1{
+    position: absolute;
+    border-radius: 3px;
+}
+.Route_R_Mapitem2{
+    position: absolute;
+    border-radius: 3px;
+}
