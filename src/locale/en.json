@@ -98,6 +98,7 @@
         "체력": "Max HP",
         "최대체력": "Max HP",
         "체력재생": "HP Regen",
+        "체력재생2": "HP Regen(%)",
 
         "최대스태미너": "Max SP",
         "스태미너재생": "SP Regen",
