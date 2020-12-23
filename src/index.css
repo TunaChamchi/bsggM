@@ -586,11 +586,11 @@ button:hover{
 .rank3rank1{
     text-align: center;
     vertical-align: middle;
-    font-family: 'congruency3d';
+    font-family: 'Big Shoulders Stencil Display';
     font-size: 25pt;
     display: inline-block;
-    width: 100px;
-    margin-left: -5px;
+    width: 105px;
+    margin-left: -10px;
 }
 .rank3Updown{
     text-align: center;
@@ -1911,15 +1911,13 @@ button:hover{
 }
 .Route_L_Route_Filter{
     display: inline-block;
-    width: 100px;
+    width: 107px;
     height: 25px;
-    margin-left: 6px;
     margin-top: 0px;
     margin-bottom: 15px;
     float: left;
     text-align: center;
     border-bottom: solid 1px #3b4147;
-    border-radius: 5px;
     z-index: 1;
     font-size: 14pt;
     padding-bottom: 3px;
@@ -1945,11 +1943,9 @@ button:hover{
     max-height: 100px;
     background-color:  #171520;
     margin-top: 5px;
-    border-radius: 5px;
     z-index: 1;
 }
 .Route_L_Route_Filter_dropbox{
-    border-radius: 5px;
     border-bottom: solid 1px #3b4147;
     background-color: #171520;
     z-index: 1;
