@@ -19,9 +19,9 @@ class Item extends Component {
 
         return itemList.map((item, idx) => {
             return (
-                <div className="map_item_locale">
+                <div className="map_item_locale" key={'item'+idx} >
                     <img className="map_img_item2" src={itemBgI(item)}/>
-                    <img className="map_img_item" key={'item'+idx} src={'img/Item/' + item + '.png'} />
+                    <img className="map_img_item"src={'img/Item/' + item + '.png'} />
                 </div>
             )
         });

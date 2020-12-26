@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { injectIntl } from 'react-intl';
+import AdSense from 'react-adsense';
 import queryString from 'query-string';
-import ScriptTag from 'react-script-tag';
 import { Header, MainBanner, Footer } from 'components/banner';
 import { Top, Trend, Skill } from 'components/detail';
 import { Item } from 'components/item';
@@ -162,14 +162,21 @@ class Detail extends Component {
                                 {this.searchView()}
                             </div>
                     }
-                    <div className="Ad_box_Detail2">
+                    <AdSense.Google
+                        className='Ad_box_Detail2'
+                        client='ca-pub-7215780243476450'
+                        slot='9630487981'
+                        style={{ display: 'block', width:728 }}
+                        responsive='true'
+                        />
+                    {/* <div className="Ad_box_Detail2">
                         <ins 
                             class="kakao_ad_area" 
                             style={{display: 'none'}}
                             data-ad-unit="DAN-eOZOZvEyRvmmrIAV" 
                             data-ad-width="728" 
                         data-ad-height="90"></ins>
-                    </div>
+                    </div> */}
                     <Top 
                         data={data}
                         weaponData={{weaponList, weaponTotal}}
@@ -195,7 +202,6 @@ class Detail extends Component {
                     />
                 </div>
                 <Footer />
-                <ScriptTag src="//t1.daumcdn.net/kas/static/ba.min.js" async />
             </div>
             
         );

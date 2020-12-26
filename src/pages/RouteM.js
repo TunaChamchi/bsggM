@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { injectIntl  } from 'react-intl';
-import ScriptTag from 'react-script-tag';
+import AdSense from 'react-adsense';
 import { Header, MainBanner, AdS, Footer } from 'components/banner'
 //import { Route, Stat } from 'components/route'
 import item from 'data/inGame/item.json'
@@ -738,14 +738,21 @@ class RouteM extends Component {
             <div>
                 <Header data={metaData}/>
                 <MainBanner />
-                <div className="Ad_box_Detail2">
+                {/* <div className="Ad_box_Detail2">
                     <ins 
                         class="kakao_ad_area" 
                         style={{display: 'none'}}
                         data-ad-unit="DAN-eOZOZvEyRvmmrIAV" 
                         data-ad-width="728" 
                     data-ad-height="90"></ins>
-                </div>
+                </div> */}
+                <AdSense.Google
+                    className='Ad_box_Detail2'
+                    client='ca-pub-7215780243476450'
+                    slot='9630487981'
+                    style={{ display: 'block', width:728 }}
+                    responsive='true'
+                    />
                 <div className="map_main">
                     <div className="tri"></div>
                     <div className="map_title">
@@ -762,7 +769,7 @@ class RouteM extends Component {
                                 <div className='Route_L_Route_Filter'>{intl.formatMessage({id:'우선 장비'})}</div>
                                 {
                                     [1, 2, 3, 4, 5].map(index => 
-                                        <div className='Route_L_Route_Filter'>
+                                        <div className='Route_L_Route_Filter' key={'Filter1_'+index}>
                                             <div onMouseUp={(e) => this.typeFilterDropHandler(e, index)}
                                                 onDoubleClick={(e) => this.typeFilterDropDubleHandler(e, index)}>
                                                 {filterType[index] ? intl.formatMessage({id: 'armor.'+filterType[index]}) : intl.formatMessage({id: 'filter1'})}
@@ -776,7 +783,7 @@ class RouteM extends Component {
                             <div className='Route_L_Route_FilterX'>                    
                                 {
                                     [1, 2, 3, 4, 5, 6, 7].map(index => 
-                                        <div className='Route_L_Route_Filter'>
+                                        <div className='Route_L_Route_Filter' key={'Filter2_'+index}>
                                             <div onMouseUp={(e) => this.mapFilterDropHandler(e, index)}
                                                 onDoubleClick={(e) => this.mapFilterDropDubleHandler(e, index)}>
                                                 {filterMap[index] ? intl.formatMessage({id: mapList[filterMap[index]]}) : intl.formatMessage({id: 'filter2'})}
@@ -838,8 +845,14 @@ class RouteM extends Component {
                         </div>
                     </div>
                 </div>
+                <AdSense.Google
+                    className='Ad_box_Detail2'
+                    client='ca-pub-7215780243476450'
+                    slot='8063267204'
+                    style={{ display: 'block', width:728 }}
+                    responsive='true'
+                    />
                 <Footer />
-                <ScriptTag src="//t1.daumcdn.net/kas/static/ba.min.js" async />
             </div>
         );
     };
