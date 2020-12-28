@@ -21,6 +21,7 @@
     "kill": "Kill",
     "avg-kill": "Avg-kill",
     "name":"Name",
+    "캐릭터/티어":"Cha.. / Tier", 
     "지도 도감":"Map Catalog",
     "루트제작":"Making Route",
     "드랍 아이템":"Drop Item",
@@ -33,9 +34,44 @@
     "우선 장비":"First Item",
     "filter1":"Select Item",
     "filter2":"Select Area",
+    "탑3":"Top3",
+    "게임":"Games",
+    "게임수":"Games",
+    "승":"Win",
+    "상위":"Top",
+    "딜량":"Damage",
+    "킬어시":"Kill/As",
+    "플레이어":"Player",
+    "아이템빌드":"Item Build",
+    "팀원":"Team Mate",
+    "전":"Games",
+    "스킬빌드":"Skill Build",
+    "죽인플레이어":"Cause of Death",
+    "전적갱신":"Update",
+    "최근 업데이트":"Last updated",
+    "최다킬":"Most Kills",
+    "캐락터":"Character",
+    "매치정보":"Match Info",
+    "랭크":"Rank",
+    "일반":"Noraml",
+    "추천":"Recommended",
+    "빌드":"Build",
+    "더 보기":"more",
     "footer":"BSGG.kr isn’t endorsed by Nimble Neuron.\n Eternal Return: Black Survival is trademarks or registered trademarks of Nimble Neuron.\n Data Based on Nimble Neuron",
     "question":"The character tier is based on the winning rate, pick rate, average skill, and average rank of characters based on official statistics. Duo and squad statistics reduce the influence on average kill and tier of average rank.",
     "question_item":"Armor item statistics are data on the win rate based on all characters due to lack of data. It is not the armor win rate for each character.",
+    "TheHunter":{
+        "name": "TheHunter",
+        "Detail": "Hunt more than 50 wild animals! Don't kill polar bears..."
+    },
+    "BUBG":{
+        "name": "BUBG",
+        "Detail": "Win with just one kill! Those who survive are strong."
+    },
+    "LumiaTruck":{
+        "name": "LumiaTruck",
+        "Detail": "More than 5 kills in this game! You are the best truck driver on Lumia Island."
+    },
 
     "main": {
         "banner": {
@@ -180,6 +216,37 @@
         "Chapel": "Chapel",
         "Factory": "Factory",
         "Dock": "Dock",
+    
+        "badge": {
+            "승1":"25Wins!",
+            "승2":"50Wins!",
+            "승3":"100Wins!",
+            "승4":"250Wins!",
+            "승5":"500Wins!",
+            "승6":"1000Wins!",
+            "승7":"2000Wins!",
+            "킬1":"25Kills!",
+            "킬2":"50Kills!",
+            "킬3":"100Kills!",
+            "킬4":"250Kills!",
+            "킬5":"500Kills!",
+            "킬6":"1000Kills!",
+            "킬7":"2000Kills!",
+            "탑1":"75Podiums!",
+            "탑2":"150Podiums!",
+            "탑3":"300Podiums!",
+            "탑4":"750Podiums!",
+            "탑5":"1500Podiums!",
+            "탑6":"3000Podiums!",
+            "탑7":"6000Podiums!",
+            "판1":"200Games!",
+            "판2":"400Games!",
+            "판3":"800Games!",
+            "판4":"2000Games!",
+            "판5":"4000Games!",
+            "판6":"8000Games!",
+            "판7":"16000Games!"
+        },
 
     "items":{
         "일렉트론블라스터": "Electron Blaster",
@@ -487,7 +554,9 @@
         "저격스코프": "Sniping Scope",
         "진신사리": "Buddha Sarira",
         "화살통": "Quiver",
-        "생명의가루": "Powder of Life"
+        "생명의가루": "Powder of Life",
+        "비파단도": "Shaman's Bronze",
+        "월왕구천": "Revenge of Goujian"
     },
     "skill": {
         "아야": {
@@ -885,6 +954,28 @@
             "R": {
                 "name": "Shift Gears",
                 "Detail": "Silvia hops on her motorcycle, consuming 5 fuel every 1 second, increasing her movement speed, and giving her different skills.\n She can use Shift Gears when her fuel is above 30.\n Silvia cannot use normal attacks or weapon skills while riding her motorcycle.\nWhen she first changes to motorcycle mode she decreases her movement speed by 50% while reving up for 1.5s.\n Her defense increases by 10/17/24 while on the bike.\n Moving the bike within a range of 10 degrees left or right increases her speed gradually until a maximum of +70%.\n Turning the bike range more than 10 degrees in either direction decreases her speed proportionally to the turn angle, down until 80% of your base movement speed.\nOn bike: Silvia dismounts her bike and reverts her skills.\n Her next normal attack within 3 seconds deals damage."
+            }
+        },
+        "엠마": {
+            "T": {
+                "name": "CheerUP♥",
+                "Detail": "Every few seconds, Emma's next normal attack deals extra damage equal to 2/3/4% of her SP, and she gains a shield absorbing HP equal to 90/120/150 or 3/6/9% of her maximum SP."
+            },
+            "Q": {
+                "name": "Dove Dealer",
+                "Detail": "Emma throws her card in the targeted direction, dealing damage to the first enemy hit and revealing her hidden dove.\n If her dove is revealed when she throws her card, it will also throw a card in the targeted direction.\n Hitting an enemy with 1 card reduces the cooldown of Dove Dealer by 1 second.\n Enemies hit by both cards have their movement speed reduced by 30%."
+            },
+            "W": {
+                "name": "Hat Trick",
+                "Detail": "Emma tosses her hat in the targeted area. After a few seconds, it explodes, dealing damage to enemies in the area.\n Hitting an enemy with Hat Trick reduces its cooldown by 3 seconds."
+            },
+            "E": {
+                "name": "Bunnymorph",
+                "Detail": "Passive: Every time Emma consumes SP, she recovers HP equal to 8/11/14/17/20% of her consumed SP.\n Active: Emma casts magic at a targeted enemy, polymorphing them into a rabbit.\n Enemies turned into rabbits are slowed.\n The skill cannot be used on downed enemies."
+            },
+            "R": {
+                "name": "Change★",
+                "Detail": "Emma magically teleports to a summed dove, hat, or rabbit and uses magic depending on the selected target, resetting the passive cooldown.\n Dove: Emma's dove flies towards her previous spot, dealing damage to enemies on the way and rooting them for 1.5 seconds. \n Hat: Emma switches places with the hat, dealing damage to enemies in the area she came from while pulling them towards the center.\nRabbit: Enemies in the area of the rabbit are also bunnymorphed for 1 second(s). Enemies turned into rabbits are slowed by .6"
             }
         },
 

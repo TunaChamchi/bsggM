@@ -21,6 +21,7 @@
     "kill": "击杀",
     "avg-kill": "平均-击杀",
     "name":"名字",
+    "캐릭터/티어":"性格 / 层级", 
     "지도 도감":"地图鉴别",
     "루트제작":"路径制作",
     "드랍 아이템":"物品",
@@ -33,9 +34,44 @@
     "우선 장비":"首先物品",
     "filter1":"物品选择",
     "filter2":"地区选择",
+    "탑3":"前3名",
+    "게임":"棋局",
+    "게임수":"棋局",
+    "승":"胜",
+    "상위":"上位",
+    "딜량":"伤害",
+    "킬어시":"击杀帮助",
+    "플레이어":"玩家",
+    "아이템빌드":"物品次序",
+    "팀원":"组员",
+    "전":"战",
+    "스킬빌드":"技能次序",
+    "죽인플레이어":"死因",
+    "전적갱신":"更新",
+    "최근 업데이트":"最近更新",
+    "최다킬":"最多击杀",
+    "캐락터":"性格",
+    "매치정보":"棋局情报",
+    "랭크":"排位",
+    "일반":"一般",
+    "추천":"推荐",
+    "빌드":"次序",
+    "더 보기":"查看更多",
     "footer":"BSGG.kr isn’t endorsed by Nimble Neuron.\nEternal Return: Black Survival is trademarks or registered trademarks of Nimble Neuron.\nData Based on Nimble Neuron",
     "question":"字符层是根据官方统计的获胜率,选择率,平均技能,平均等级等来计算的。 多重和班级的统计数字减少 了普通杀戮和普通等级的影响。",
     "question_item":"装甲项目统计数据是由于缺少 数据而基于所有角色的获胜率数据。不是每个角色的装甲赢率。",
+    "더헌터":{
+        "name": "猎人",
+        "Detail": "猎取野生动物50只以上！ 救救北极熊吧..."
+    },
+    "부쉬그라운드":{
+        "name": "灌木丛绝地 ",
+        "Detail": "仅以1杀获胜！ 生存者是最强的。"
+    },
+    "루미아트럭":{
+        "name": "货车司机",
+        "Detail": "这次比赛5杀以上记录！ 你是鲁密岛最好的卡车司机。"
+    },
 
     "main": {
         "banner": {
@@ -177,6 +213,37 @@
     "Chapel": "教堂",
     "Factory": "工厂",
     "Dock": "码头",
+    
+    "badge": {
+        "승1":"25胜!",
+        "승2":"50胜!",
+        "승3":"100胜!",
+        "승4":"250胜!",
+        "승5":"500胜!",
+        "승6":"1000胜!",
+        "승7":"2000胜!",
+        "킬1":"25击杀!",
+        "킬2":"50击杀!",
+        "킬3":"100击杀!",
+        "킬4":"250击杀!",
+        "킬5":"500击杀!",
+        "킬6":"1000击杀!",
+        "킬7":"2000击杀!",
+        "탑1":"75前3名!",
+        "탑2":"150前3名!",
+        "탑3":"300前3名!",
+        "탑4":"750前3名!",
+        "탑5":"1500前3名!",
+        "탑6":"3000前3名!",
+        "탑7":"6000前3名!",
+        "판1":"200比赛!",
+        "판2":"400比赛!",
+        "판3":"800比赛!",
+        "판4":"2000比赛!",
+        "판5":"4000比赛!",
+        "판6":"8000比赛!",
+        "판7":"16000比赛!"
+    },
     
     "items":{
         "일렉트론블라스터": "电子光束枪",
@@ -484,7 +551,9 @@
         "저격스코프": "Sniping Scope",
         "진신사리": "Buddha Sarira",
         "화살통": "Quiver",
-        "생명의가루": "Powder of Life"
+        "생명의가루": "Powder of Life",
+        "비파단도": "琵琶短剣",
+        "월왕구천": "越王勾踐"
 
     },
     "skill": {
@@ -883,6 +952,28 @@
             "R": {
                 "name": "Shift Gears",
                 "Detail": "Silvia hops on her motorcycle, consuming 5 fuel every 1 second, increasing her movement speed, and giving her different skills.\n She can use Shift Gears when her fuel is above 30.\n Silvia cannot use normal attacks or weapon skills while riding her motorcycle.\nWhen she first changes to motorcycle mode she decreases her movement speed by 50% while reving up for 1.5s.\n Her defense increases by 10/17/24 while on the bike.\n Moving the bike within a range of 10 degrees left or right increases her speed gradually until a maximum of +70%.\n Turning the bike range more than 10 degrees in either direction decreases her speed proportionally to the turn angle, down until 80% of your base movement speed.\nOn bike: Silvia dismounts her bike and reverts her skills.\n Her next normal attack within 3 seconds deals damage."
+            }
+        },
+        "엠마": {
+            "T": {
+                "name": "CheerUP♥",
+                "Detail": "Every few seconds, Emma's next normal attack deals extra damage equal to 2/3/4% of her SP, and she gains a shield absorbing HP equal to 90/120/150 or 3/6/9% of her maximum SP."
+            },
+            "Q": {
+                "name": "Dove Dealer",
+                "Detail": "Emma throws her card in the targeted direction, dealing damage to the first enemy hit and revealing her hidden dove.\n If her dove is revealed when she throws her card, it will also throw a card in the targeted direction.\n Hitting an enemy with 1 card reduces the cooldown of Dove Dealer by 1 second.\n Enemies hit by both cards have their movement speed reduced by 30%."
+            },
+            "W": {
+                "name": "Hat Trick",
+                "Detail": "Emma tosses her hat in the targeted area. After a few seconds, it explodes, dealing damage to enemies in the area.\n Hitting an enemy with Hat Trick reduces its cooldown by 3 seconds."
+            },
+            "E": {
+                "name": "Bunnymorph",
+                "Detail": "Passive: Every time Emma consumes SP, she recovers HP equal to 8/11/14/17/20% of her consumed SP.\n Active: Emma casts magic at a targeted enemy, polymorphing them into a rabbit.\n Enemies turned into rabbits are slowed.\n The skill cannot be used on downed enemies."
+            },
+            "R": {
+                "name": "Change★",
+                "Detail": "Emma magically teleports to a summed dove, hat, or rabbit and uses magic depending on the selected target, resetting the passive cooldown.\n Dove: Emma's dove flies towards her previous spot, dealing damage to enemies on the way and rooting them for 1.5 seconds. \n Hat: Emma switches places with the hat, dealing damage to enemies in the area she came from while pulling them towards the center.\nRabbit: Enemies in the area of the rabbit are also bunnymorphed for 1 second(s). Enemies turned into rabbits are slowed by .6"
             }
         },
 

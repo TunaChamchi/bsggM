@@ -21,6 +21,7 @@
     "kill": "キル",
     "avg-kill": "平均-キル",
     "name":"名字",
+    "캐릭터/티어":"性格 / ティア", 
     "지도 도감":"地図図鑑",
     "루트제작":"経路制作",
     "드랍 아이템":"ドロップ 物品",
@@ -33,9 +34,44 @@
     "우선 장비":"優先物品",
     "filter1":"物品選択",
     "filter2":"地域選択",
+    "탑3":"トップ3",
+    "게임":"ゲーム",
+    "게임수":"ゲーム",
+    "승":"勝",
+    "상위":"上位",
+    "딜량":"ダメージ量",
+    "킬어시":"キル手助け",
+    "플레이어":"プレーヤー",
+    "아이템빌드":"物品ツリー",
+    "팀원":"味方",
+    "전":"戦",
+    "스킬빌드":"スキルツリー",
+    "죽인플레이어":"死人",
+    "전적갱신":"データを更新す",
+    "최근 업데이트":"最近の更新",
+    "최다킬":"最多キル",
+    "캐락터":"性格",
+    "매치정보":"マッチ情報",
+    "랭크":"ランク",
+    "일반":"ノーマル",
+    "추천":"推薦",
+    "빌드":"ツリー",
+    "더 보기":"もっと見る",
     "footer":"BSGG.kr isn’t endorsed by Nimble Neuron.\nEternal Return: Black Survival is trademarks or registered trademarks of Nimble Neuron.\nData Based on Nimble Neuron",
     "question":"キャラクターティアは、公式統計を基にしたキャラクターの勝率、ピック率、平均キル数、平均順位などを基に作られます。 デュオとスクワッドの統計では、平均キール数と平均順位のティアへの影響力が減少します。",
     "question_item":"防具アイテムの統計は、資料不足により全キャラクター基準勝率資料です。 各キャラクター別の防御球の勝率ではありません。",
+    "더헌터":{
+        "name": "ザ·ハンター",
+        "Detail": "野生動物50匹以上狩り！ ホッキョクグマは殺さないでください。"
+    },
+    "부쉬그라운드":{
+        "name": "ブッシュグラウンド",
+        "Detail": "たった1キルで優勝！ 生き残る者が強いのだ。"
+    },
+    "루미아트럭":{
+        "name": "ルミアトラック",
+        "Detail": "今回のゲーム、5キル以上記録！ あなたはルミア島で最高のトラックの運転手です。"
+    },
 
     "main": {
         "banner": {
@@ -178,6 +214,37 @@
     "Factory": "工場",
     "Dock": "港",
     
+    "badge": {
+        "승1":"25勝 達成!",
+        "승2":"50勝 達成!",
+        "승3":"100勝 達成!",
+        "승4":"250勝 達成!",
+        "승5":"500勝 達成!",
+        "승6":"1000勝 達成!",
+        "승7":"2000勝 達成!",
+        "킬1":"25キル 達成!",
+        "킬2":"50キル 達成!",
+        "킬3":"100キル 達成!",
+        "킬4":"250キル 達成!",
+        "킬5":"500キル 達成!",
+        "킬6":"1000キル 達成!",
+        "킬7":"2000キル 達成!",
+        "탑1":"75表彰台 達成!",
+        "탑2":"150表彰台 達成!",
+        "탑3":"300表彰台 達成!",
+        "탑4":"750表彰台 達成!",
+        "탑5":"1500表彰台 達成!",
+        "탑6":"3000表彰台 達成!",
+        "탑7":"6000表彰台 達成!",
+        "판1":"200ゲーム 達成!",
+        "판2":"400ゲーム 達成!",
+        "판3":"800ゲーム 達成!",
+        "판4":"2000ゲーム 達成!",
+        "판5":"4000ゲーム 達成!",
+        "판6":"8000ゲーム 達成!",
+        "판7":"16000ゲーム 達成!"
+    },
+
     "items":{
         "일렉트론블라스터": "エレクトロンブラスター",
         "마탄의사수": "魔弾の射手",
@@ -484,7 +551,9 @@
         "저격스코프": "狙撃スコープ",
         "진신사리": "真身舎利",
         "화살통": "矢筒",
-        "생명의가루": "命の粉"
+        "생명의가루": "命の粉",
+        "비파단도": "琵琶短剣",
+        "월왕구천": "越王勾踐"
 
     },
     "skill": {
@@ -883,6 +952,28 @@
             "R": {
                 "name": "Shift Gears",
                 "Detail": "Silvia hops on her motorcycle, consuming 5 fuel every 1 second, increasing her movement speed, and giving her different skills.\n She can use Shift Gears when her fuel is above 30.\n Silvia cannot use normal attacks or weapon skills while riding her motorcycle.\nWhen she first changes to motorcycle mode she decreases her movement speed by 50% while reving up for 1.5s.\n Her defense increases by 10/17/24 while on the bike.\n Moving the bike within a range of 10 degrees left or right increases her speed gradually until a maximum of +70%.\n Turning the bike range more than 10 degrees in either direction decreases her speed proportionally to the turn angle, down until 80% of your base movement speed.\nOn bike: Silvia dismounts her bike and reverts her skills.\n Her next normal attack within 3 seconds deals damage."
+            }
+        },
+        "엠마": {
+            "T": {
+                "name": "CheerUP♥",
+                "Detail": "Every few seconds, Emma's next normal attack deals extra damage equal to 2/3/4% of her SP, and she gains a shield absorbing HP equal to 90/120/150 or 3/6/9% of her maximum SP."
+            },
+            "Q": {
+                "name": "Dove Dealer",
+                "Detail": "Emma throws her card in the targeted direction, dealing damage to the first enemy hit and revealing her hidden dove.\n If her dove is revealed when she throws her card, it will also throw a card in the targeted direction.\n Hitting an enemy with 1 card reduces the cooldown of Dove Dealer by 1 second.\n Enemies hit by both cards have their movement speed reduced by 30%."
+            },
+            "W": {
+                "name": "Hat Trick",
+                "Detail": "Emma tosses her hat in the targeted area. After a few seconds, it explodes, dealing damage to enemies in the area.\n Hitting an enemy with Hat Trick reduces its cooldown by 3 seconds."
+            },
+            "E": {
+                "name": "Bunnymorph",
+                "Detail": "Passive: Every time Emma consumes SP, she recovers HP equal to 8/11/14/17/20% of her consumed SP.\n Active: Emma casts magic at a targeted enemy, polymorphing them into a rabbit.\n Enemies turned into rabbits are slowed.\n The skill cannot be used on downed enemies."
+            },
+            "R": {
+                "name": "Change★",
+                "Detail": "Emma magically teleports to a summed dove, hat, or rabbit and uses magic depending on the selected target, resetting the passive cooldown.\n Dove: Emma's dove flies towards her previous spot, dealing damage to enemies on the way and rooting them for 1.5 seconds. \n Hat: Emma switches places with the hat, dealing damage to enemies in the area she came from while pulling them towards the center.\nRabbit: Enemies in the area of the rabbit are also bunnymorphed for 1 second(s). Enemies turned into rabbits are slowed by .6"
             }
         },
 
