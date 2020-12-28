@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { injectIntl  } from 'react-intl';
-import ScriptTag from 'react-script-tag';
+import AdSense from 'react-adsense';
 import { Header, MainBanner, AdS, Footer } from 'components/banner'
 import { Search, Characters } from 'components/Main/left'
 import { Rank } from 'components/Main/right'
@@ -21,29 +21,42 @@ class Main extends Component {
                 <MainBanner />
                 <div className='main'>
                     <Search />
-                    <div className="Ad_box_Detail2">
+                    <AdSense.Google
+                        className='Ad_box_Detail2'
+                        client='ca-pub-7215780243476450'
+                        slot='9630487981'
+                        style={{ display: 'block', width:728 }}
+                        responsive='true'
+                        />
+                    {/* <div className="Ad_box_Detail2">
                         <ins 
                             class="kakao_ad_area" 
                             style={{display: 'none'}}
                             data-ad-unit="DAN-eOZOZvEyRvmmrIAV" 
                             data-ad-width="728" 
                         data-ad-height="90"></ins>
-                    </div>
+                    </div> */}
                     <Characters />
                     <div className='main-right'>
-                            <Rank />
+                        <Rank />
                     </div>
                 </div>
-                <div className="Ad_box_Detail2">
+                {/* <div className="Ad_box_Detail2">
                     <ins 
                         class="kakao_ad_area" 
                         style={{display: 'none'}}
                         data-ad-unit="DAN-2F5abPe9K508dSMu" 
                         data-ad-width="728" 
                     data-ad-height="90"></ins>
-                </div>
+                </div> */}
+                <AdSense.Google
+                    className='Ad_box_Detail2'
+                    client='ca-pub-7215780243476450'
+                    slot='8063267204'
+                    style={{ display: 'block', width:728 }}
+                    responsive='true'
+                    />
                 <Footer />
-                <ScriptTag src="//t1.daumcdn.net/kas/static/ba.min.js" async />
             </div>
         );
     };

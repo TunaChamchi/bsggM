@@ -32,10 +32,10 @@ class Monster extends Component {
 
         return mosterList.map((moster, idx) => {
             return (
-                <div className="tabHeaders3">
+                <div className="tabHeaders3" key={'moster'+idx} >
                     <img className={"map_img_animal" + (selectMoster === moster ? ' actived' : '')}
                     onClick={(e) => this.onClick(e, moster)}
-                    key={'moster'+idx} src={'img/Animal/'+moster+'.jpg'} />
+                    src={'img/Animal/'+moster+'.jpg'} />
                 </div>
             )
         });
@@ -47,9 +47,9 @@ class Monster extends Component {
 
         return itemList.map((item, idx) => {
             return (
-                <div className="map_item_locale">
+                <div className="map_item_locale" key={'moster_item'+idx} >
                     <img className="map_img_item2" src={itemBgI(item)}/>
-                    <img className="map_img_item" key={'item'+idx} src={'img/Item/'+ item +'.png'} />
+                    <img className="map_img_item" src={'img/Item/'+ item +'.png'} />
                 </div>
             )
         });
