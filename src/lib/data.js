@@ -6,7 +6,8 @@ import ArmorList from 'data/armor.json';
 import version from 'data/version.json';
 import dmg_plus from 'data/dmg_plus.json'
 
-import charater from 'data/inGame/charater.json'
+import character from 'data/inGame/character.json'
+import weaponType from 'data/inGame/weaponType.json'
 import item from 'data/inGame/item.json'
 
 import skilTree from 'data/sub/skill.json'
@@ -305,7 +306,7 @@ export const dmgPlus = (character, type, name) => {
 }
 
 export const getStat = (name, stat, idx) => {
-    return charater[name]['stat'][stat][idx];
+    return character[name]['stat'][stat][idx];
 }
 
 export const skillTreeList = (character, weapon) => {
@@ -318,4 +319,22 @@ export const itemBgI = (name) => {
 
 export const statList = (name) => {
     return item[name]["stat"];
+}
+
+
+
+export const getCharacter = (code) => {
+    return character[code];
+}
+
+export const getCharacterKeys = () => {
+    return Object.keys(character);
+}
+
+export const getItem = (code) => {
+    return item[code];
+}
+
+export const getWeaponType = (code) => {
+    return weaponType[code];
 }

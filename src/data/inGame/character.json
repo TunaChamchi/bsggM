@@ -1,0 +1,665 @@
+{
+  "1": {
+    "name": "재키",
+    "stat": {
+      "maxHp": 560,
+      "maxSp": 430,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 37,
+      "defense": 26,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.5,
+      "spRegen": 2.1,
+      "attackSpeed": 0.12,
+      "moveSpeed": 3.1,
+      "sightRange": 8,
+      "radius": 0.4,
+      "uiHeight": 2.1,
+      "resource": "Jackie"
+    },
+    "levelUp": {
+      "maxHp": 77,
+      "maxSp": 15,
+      "attackPower": 2.7,
+      "defense": 2.2,
+      "criticalChance": 0,
+      "hpRegen": 0.03,
+      "spRegen": 0.04,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "한손검",
+      "양손검",
+      "도끼",
+      "쌍검"
+    ]
+  },
+  "2": {
+    "name": "아야",
+    "stat": {
+      "maxHp": 480,
+      "maxSp": 440,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 28,
+      "defense": 18,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.5,
+      "spRegen": 2.3,
+      "attackSpeed": 0.12,
+      "moveSpeed": 3,
+      "sightRange": 8,
+      "radius": 0.4,
+      "uiHeight": 2.1,
+      "resource": "Aya"
+    },
+    "levelUp": {
+      "maxHp": 63,
+      "maxSp": 22,
+      "attackPower": 2.6,
+      "defense": 1.4,
+      "criticalChance": 0,
+      "hpRegen": 0.04,
+      "spRegen": 0.07,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "권총",
+      "돌격소총",
+      "저격총"
+    ]
+  },
+  "3": {
+    "name": "피오라",
+    "stat": {
+      "maxHp": 550,
+      "maxSp": 430,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 37,
+      "defense": 25,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.8,
+      "spRegen": 2.2,
+      "attackSpeed": 0.22,
+      "moveSpeed": 3.15,
+      "sightRange": 8,
+      "radius": 0.4,
+      "uiHeight": 2.3,
+      "resource": "Fiora"
+    },
+    "levelUp": {
+      "maxHp": 87,
+      "maxSp": 13,
+      "attackPower": 2.8,
+      "defense": 2.2,
+      "criticalChance": 0,
+      "hpRegen": 0.06,
+      "spRegen": 0.06,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "레이피어",
+      "양손검",
+      "창"
+    ]
+  },
+  "4": {
+    "name": "매그너스",
+    "stat": {
+      "maxHp": 600,
+      "maxSp": 410,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 32,
+      "defense": 25,
+      "criticalStrikeChance": 0,
+      "hpRegen": 1,
+      "spRegen": 1.9,
+      "attackSpeed": 0.12,
+      "moveSpeed": 3.2,
+      "sightRange": 8,
+      "radius": 0.5,
+      "uiHeight": 2.5,
+      "resource": "Magnus"
+    },
+    "levelUp": {
+      "maxHp": 91,
+      "maxSp": 14,
+      "attackPower": 1.9,
+      "defense": 1.5,
+      "criticalChance": 0,
+      "hpRegen": 0.05,
+      "spRegen": 0.06,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "망치",
+      "배트"
+    ]
+  },
+  "5": {
+    "name": "자히르",
+    "stat": {
+      "maxHp": 520,
+      "maxSp": 400,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 25,
+      "defense": 20,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.6,
+      "spRegen": 2.4,
+      "attackSpeed": 0.11,
+      "moveSpeed": 3,
+      "sightRange": 8,
+      "radius": 0.45,
+      "uiHeight": 3,
+      "resource": "Zahir"
+    },
+    "levelUp": {
+      "maxHp": 64,
+      "maxSp": 26,
+      "attackPower": 2.8,
+      "defense": 1.8,
+      "criticalChance": 0,
+      "hpRegen": 0.03,
+      "spRegen": 0.1,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "투척",
+      "암기"
+    ]
+  },
+  "6": {
+    "name": "나딘",
+    "stat": {
+      "maxHp": 520,
+      "maxSp": 350,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 32,
+      "defense": 21,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.4,
+      "spRegen": 1.9,
+      "attackSpeed": 0.12,
+      "moveSpeed": 3,
+      "sightRange": 8,
+      "radius": 0.4,
+      "uiHeight": 2.3,
+      "resource": "Nadine"
+    },
+    "levelUp": {
+      "maxHp": 60,
+      "maxSp": 13,
+      "attackPower": 2.2,
+      "defense": 1.5,
+      "criticalChance": 0,
+      "hpRegen": 0.03,
+      "spRegen": 0.05,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "활",
+      "석궁"
+    ]
+  },
+  "7": {
+    "name": "현우",
+    "stat": {
+      "maxHp": 500,
+      "maxSp": 350,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 40,
+      "defense": 26,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.8,
+      "spRegen": 1.8,
+      "attackSpeed": 0.12,
+      "moveSpeed": 3.15,
+      "sightRange": 8,
+      "radius": 0.45,
+      "uiHeight": 2.2,
+      "resource": "Hyunwoo"
+    },
+    "levelUp": {
+      "maxHp": 80,
+      "maxSp": 16,
+      "attackPower": 3.1,
+      "defense": 2.2,
+      "criticalChance": 0,
+      "hpRegen": 0.04,
+      "spRegen": 0.04,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "글러브",
+      "톤파"
+    ]
+  },
+  "8": {
+    "name": "하트",
+    "stat": {
+      "maxHp": 500,
+      "maxSp": 420,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 22,
+      "defense": 20,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.8,
+      "spRegen": 1.7,
+      "attackSpeed": 0.12,
+      "moveSpeed": 3,
+      "sightRange": 8,
+      "radius": 0.4,
+      "uiHeight": 2.2,
+      "resource": "Hart"
+    },
+    "levelUp": {
+      "maxHp": 66,
+      "maxSp": 16,
+      "attackPower": 3,
+      "defense": 1.9,
+      "criticalChance": 0,
+      "hpRegen": 0.04,
+      "spRegen": 0.04,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "기타"
+    ]
+  },
+  "9": {
+    "name": "아이솔",
+    "stat": {
+      "maxHp": 500,
+      "maxSp": 400,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 32,
+      "defense": 23,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.5,
+      "spRegen": 1.8,
+      "attackSpeed": 0.14,
+      "moveSpeed": 3.05,
+      "sightRange": 8,
+      "radius": 0.45,
+      "uiHeight": 2.2,
+      "resource": "Isol"
+    },
+    "levelUp": {
+      "maxHp": 60,
+      "maxSp": 21,
+      "attackPower": 2.6,
+      "defense": 1.6,
+      "criticalChance": 0,
+      "hpRegen": 0.03,
+      "spRegen": 0.03,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "돌격소총",
+      "권총"
+    ]
+  },
+  "10": {
+    "name": "리 다이린",
+    "stat": {
+      "maxHp": 550,
+      "maxSp": 420,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 100,
+      "attackPower": 33,
+      "defense": 20,
+      "criticalStrikeChance": 0,
+      "hpRegen": 1.1,
+      "spRegen": 0.2,
+      "attackSpeed": 0.07,
+      "moveSpeed": 3.1,
+      "sightRange": 8,
+      "radius": 0.4,
+      "uiHeight": 2.1,
+      "resource": "LIDailin"
+    },
+    "levelUp": {
+      "maxHp": 89,
+      "maxSp": 16,
+      "attackPower": 1.9,
+      "defense": 2.5,
+      "criticalChance": 0,
+      "hpRegen": 0.07,
+      "spRegen": 0.01,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "글러브",
+      "쌍절곤"
+    ]
+  },
+  "11": {
+    "name": "유키",
+    "stat": {
+      "maxHp": 550,
+      "maxSp": 410,
+      "initExtraPoint": 4,
+      "maxExtraPoint": 4,
+      "attackPower": 32,
+      "defense": 26,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.7,
+      "spRegen": 2.2,
+      "attackSpeed": 0.06,
+      "moveSpeed": 3.1,
+      "sightRange": 8,
+      "radius": 0.45,
+      "uiHeight": 2.4,
+      "resource": "Yuki"
+    },
+    "levelUp": {
+      "maxHp": 81,
+      "maxSp": 20,
+      "attackPower": 2.2,
+      "defense": 2,
+      "criticalChance": 0,
+      "hpRegen": 0.05,
+      "spRegen": 0.06,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "양손검",
+      "쌍검"
+    ]
+  },
+  "12": {
+    "name": "혜진",
+    "stat": {
+      "maxHp": 500,
+      "maxSp": 400,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 29,
+      "defense": 22,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.6,
+      "spRegen": 2,
+      "attackSpeed": 0.12,
+      "moveSpeed": 3,
+      "sightRange": 8,
+      "radius": 0.4,
+      "uiHeight": 2.1,
+      "resource": "Hyejin"
+    },
+    "levelUp": {
+      "maxHp": 64,
+      "maxSp": 26,
+      "attackPower": 2.5,
+      "defense": 1.7,
+      "criticalChance": 0,
+      "hpRegen": 0.03,
+      "spRegen": 0.08,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "활",
+      "암기"
+    ]
+  },
+  "13": {
+    "name": "쇼우",
+    "stat": {
+      "maxHp": 530,
+      "maxSp": 420,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 40,
+      "defense": 34,
+      "criticalStrikeChance": 0,
+      "hpRegen": 1,
+      "spRegen": 0.3,
+      "attackSpeed": 0.16,
+      "moveSpeed": 3.1,
+      "sightRange": 8,
+      "radius": 0.48,
+      "uiHeight": 2.7,
+      "resource": "Xiukai"
+    },
+    "levelUp": {
+      "maxHp": 80,
+      "maxSp": 14,
+      "attackPower": 2.2,
+      "defense": 1.7,
+      "criticalChance": 0,
+      "hpRegen": 0.06,
+      "spRegen": 0.01,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "한손검",
+      "창"
+    ]
+  },
+  "14": {
+    "name": "키아라",
+    "stat": {
+      "maxHp": 500,
+      "maxSp": 410,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 34,
+      "defense": 24,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.5,
+      "spRegen": 1.8,
+      "attackSpeed": 0.11,
+      "moveSpeed": 3.2,
+      "sightRange": 8,
+      "radius": 0.4,
+      "uiHeight": 2.3,
+      "resource": "Chiara"
+    },
+    "levelUp": {
+      "maxHp": 60,
+      "maxSp": 13,
+      "attackPower": 2,
+      "defense": 1.5,
+      "criticalChance": 0,
+      "hpRegen": 0.02,
+      "spRegen": 0.03,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "레이피어"
+    ]
+  },
+  "15": {
+    "name": "시셀라",
+    "stat": {
+      "maxHp": 480,
+      "maxSp": 400,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 23,
+      "defense": 19,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.4,
+      "spRegen": 1.1,
+      "attackSpeed": 0.12,
+      "moveSpeed": 3,
+      "sightRange": 8,
+      "radius": 0.4,
+      "uiHeight": 2.1,
+      "resource": "Sissela"
+    },
+    "levelUp": {
+      "maxHp": 60,
+      "maxSp": 16,
+      "attackPower": 2.4,
+      "defense": 1.7,
+      "criticalChance": 0,
+      "hpRegen": 0.02,
+      "spRegen": 0.02,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "투척",
+      "암기"
+    ]
+  },
+  "16": {
+    "name": "실비아",
+    "stat": {
+      "maxHp": 500,
+      "maxSp": 440,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 100,
+      "attackPower": 28,
+      "defense": 20,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.4,
+      "spRegen": 2.1,
+      "attackSpeed": 0.05,
+      "moveSpeed": 3,
+      "sightRange": 8,
+      "radius": 0.4,
+      "uiHeight": 2.3,
+      "resource": "Silvia"
+    },
+    "levelUp": {
+      "maxHp": 63,
+      "maxSp": 22,
+      "attackPower": 2.3,
+      "defense": 1.4,
+      "criticalChance": 0,
+      "hpRegen": 0.03,
+      "spRegen": 0.06,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "권총"
+    ]
+  },
+  "17": {
+    "name": "아드리아나",
+    "stat": {
+      "maxHp": 530,
+      "maxSp": 480,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 31,
+      "defense": 27,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.5,
+      "spRegen": 1,
+      "attackSpeed": 0.04,
+      "moveSpeed": 3,
+      "sightRange": 8,
+      "radius": 0.4,
+      "uiHeight": 2.2,
+      "resource": "Adriana"
+    },
+    "levelUp": {
+      "maxHp": 65,
+      "maxSp": 9,
+      "attackPower": 2.4,
+      "defense": 1.7,
+      "criticalChance": 0,
+      "hpRegen": 0.03,
+      "spRegen": 0.01,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "투척"
+    ]
+  },
+  "18": {
+    "name": "쇼이치",
+    "stat": {
+      "maxHp": 550,
+      "maxSp": 370,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 30,
+      "defense": 27,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.8,
+      "spRegen": 1.6,
+      "attackSpeed": 0.12,
+      "moveSpeed": 3.1,
+      "sightRange": 8,
+      "radius": 0.43,
+      "uiHeight": 2.3,
+      "resource": "Shoichi"
+    },
+    "levelUp": {
+      "maxHp": 78,
+      "maxSp": 13,
+      "attackPower": 2.9,
+      "defense": 2.2,
+      "criticalChance": 0,
+      "hpRegen": 0.04,
+      "spRegen": 0.04,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "한손검"
+    ]
+  },
+  "19": {
+    "name": "엠마",
+    "stat": {
+      "maxHp": 550,
+      "maxSp": 430,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 40,
+      "defense": 28,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.4,
+      "spRegen": 1.1,
+      "attackSpeed": 0.12,
+      "moveSpeed": 3,
+      "sightRange": 8,
+      "radius": 0.4,
+      "uiHeight": 2.3,
+      "resource": "Emma"
+    },
+    "levelUp": {
+      "maxHp": 60,
+      "maxSp": 18,
+      "attackPower": 2.5,
+      "defense": 1.6,
+      "criticalChance": 0,
+      "hpRegen": 0.02,
+      "spRegen": 0.02,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "암기"
+    ]
+  }
+}

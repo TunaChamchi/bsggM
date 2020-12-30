@@ -168,7 +168,8 @@
         "키아라": "Chiara",
         "아드리아나": "Adriana",
         "쇼이치": "Shoichi",
-        "실비아": "Silvia"
+        "실비아": "Silvia",
+        "엠마": "Emma"
     },
     "weapons": {
         "투척": "Throw", 
@@ -224,28 +225,28 @@
             "승4":"250Wins!",
             "승5":"500Wins!",
             "승6":"1000Wins!",
-            "승7":"2000Wins!",
+            "승7":"3000Wins!",
             "킬1":"25Kills!",
             "킬2":"50Kills!",
             "킬3":"100Kills!",
             "킬4":"250Kills!",
             "킬5":"500Kills!",
             "킬6":"1000Kills!",
-            "킬7":"2000Kills!",
+            "킬7":"3000Kills!",
             "탑1":"75Podiums!",
             "탑2":"150Podiums!",
             "탑3":"300Podiums!",
             "탑4":"750Podiums!",
             "탑5":"1500Podiums!",
             "탑6":"3000Podiums!",
-            "탑7":"6000Podiums!",
+            "탑7":"10000Podiums!",
             "판1":"200Games!",
             "판2":"400Games!",
             "판3":"800Games!",
             "판4":"2000Games!",
             "판5":"4000Games!",
             "판6":"8000Games!",
-            "판7":"16000Games!"
+            "판7":"25000Games!"
         },
 
     "items":{
