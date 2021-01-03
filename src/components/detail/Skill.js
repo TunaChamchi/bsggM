@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { injectIntl } from 'react-intl';
+import { getSkill, getCharacter, getWeaponType } from 'lib/data';
 
 class Skill extends Component {
     constructor(props) {
@@ -11,63 +12,50 @@ class Skill extends Component {
         };
     }
     
-    skillView = () => {
-        const { intl, parameter } = this.props;
-        const { skill } = this.state;
+    componentDidUpdate(prevProps, prevState) {
+        const { parameter } = this.props;
+        if (parameter['gameMode'] !== prevProps.parameter['gameMode'] 
+            || parameter['bestWeapon'] !== prevProps.parameter['bestWeapon']) {
+            this.setState({skillTreeFocus: 0});
+        }
+    }
 
-        return skill.map((name, idx) => {
-            const img = name === 'D' ? 
-                'img/Weapons/'+parameter['weapon']+'.jpg' : 
-                'img/Skill/'+parameter['character']+'/'+parameter['character']+'_'+name+'.jpg';
-            const skilName = name === 'D' ? 
-                intl.formatMessage({ id: 'skill.'+parameter['weapon']+'.name' }) : 
-                intl.formatMessage({ id: 'skill.'+parameter['character']+'.'+name+'.name' });
-            const detail = name === 'D' ? 
-                intl.formatMessage({ id: 'skill.'+parameter['weapon']+'.Detail' }) : 
-                intl.formatMessage({ id: 'skill.'+parameter['character']+'.'+name+'.Detail' });
-
-            return (
-                <div className='S_Skill_tab' key={'type' + idx}>
-                    <div className="S_skill_toolbox">
-                        <img className='S_Skill_img' src={img} />
-                         <div className={"S_skill_tooltip_"+name}>
-                            <span><b>{skilName}</b></span><br />
-                            <span>{detail}</span>
-                        </div>
-                    </div>
-                    <div className="S_SKill_key"><span>{name}</span></div>          
-                </div>
-            )
-        });
-    };
     skillTreeTabHandler = (idx) => {
         this.setState({skillTreeFocus: idx});
     };
     skillTreeTabView = () => {
-        const { intl, skillTree } = this.props;
+        const { intl, stat, skillTree } = this.props;
         const { skillTreeFocus } = this.state;
 
         const list = [...skillTree];
-
-        console.log('skillTree.length', skillTree.length);
-        for (var i = 0 ; i < 3-skillTree.length ; i++) {
-            console.log('i', i);
-            list.push({name:''});
-        }
         
-        return list.map((tree, idx) => 
-            <div className='tabHeaders' key={'treeTab'+idx} >
-                <div className={"skill_tab" + (idx===skillTreeFocus ? ' actived' : '')} 
-                    onClick={(e) => tree['name']?this.skillTreeTabHandler(idx):''}>
-                    <span>{tree['name']?intl.formatMessage({ id: 'detail.'+tree['name'] }):''}</span>
+        return list.slice(0, 3).map((tree, idx) => 
+            <div className='skill_tabs' key={'treeTab'+idx} 
+                onClick={(e) => this.skillTreeTabHandler(idx)}>
+                <div className={"skill_tab" + (idx===skillTreeFocus ? ' actived' : '')}  >
+                    <div className="skill_tab_imgbox">
+                        {
+                            tree['tree'].map((skill, idx) => 
+                                <div className={"skill_tab_"+skill} key={"skill_tab_"+idx}>{skill}</div>
+                            )
+                        }
+                        <span className="skill_tab_mark1">&gt;</span>
+                        <span className="skill_tab_mark2">&gt;</span>
+                        <span className="skill_tab_mark3">&gt;</span>
+                    </div>
+                    <div className='skill_tab_span'>
+                        <span className='skill_tab_span1'>{intl.formatMessage({id: 'pickRate'})} {(tree['pick']*100).toFixed(1)}%</span>
+                        <span className='skill_tab_span2'>{intl.formatMessage({id: 'winRate'})} {(tree['win']/tree['total']*100).toFixed(1)}%</span>
+                        <span className='skill_tab_span3'>{tree['total']}</span>
+                    </div>
                 </div>
             </div>
         )
     }
     skillTreePick = () => {
-        const { parameter, skillTree } = this.props;
+        const { stat, skillTree } = this.props;
         const { skillTreeFocus } = this.state;
-
+        
         const tree = skillTree[skillTreeFocus]['tree'];
 
         return tree.map((name, idx) => 
@@ -76,62 +64,25 @@ class Skill extends Component {
             </div>
         )
     }
-    skillTreeTdView = () => {
-        const { parameter } = this.props;
-        const { skill } = this.state;
-
-        return skill.slice(0, 5).map((name, idx) =>
-            <div className='skill_td' key={'td'+idx}>
-                <div className={'skill_tr skill_'+name} key={'tr'+idx} >
-                    <img className="skill_img" key={'tree'+idx} src={'img/Skill/'+parameter['character']+'/'+parameter['character']+'_'+name+'.jpg'} />
-                </div>
-                {this.skillTreeTrView(name)}
-            </div>
-        )
-    }
-    skillTreeTrView = (name) => {
-        const { skillTree, skillTree2 } = this.props;
-        const { skillTreeFocus } = this.state;
-
-        const treeName = skillTree[skillTreeFocus]['name'];
-        const tree = skillTree2[treeName];
-
-        return tree.map((_name, idx) =>
-            <div className={"skill_tr" + (_name===name ? ' skill_'+name : '')} key={'tr'+idx} 
-                dangerouslySetInnerHTML={ {__html: _name===name ? name : '&nbsp;'} }>
-            </div>
-        )
-    }
 
     render() {
-        const { intl } = this.props
+        const { intl, parameter } = this.props
 
+        const bestWeapon = getWeaponType(parameter['bestWeapon'])
         return (            
             <div className="S_Skill">
-                <span className="S_Skill0">{intl.formatMessage({ id: 'detail.skill_info' })}</span>
-                    <div className="S_Skill1">
-                        {this.skillView()}
-                    </div>
                 <div className="S_Skill2">
                     <span>{intl.formatMessage({ id: 'detail.스킬트리' })}</span>
+                </div>
+                <div className="skill_tree_tab">
                     {this.skillTreeTabView()}
-                    <div className="skill_centent">
-                        <div className="skill_imgbox">
-                            {this.skillTreePick()}
-                            <span className="skill_mark1">&gt;</span>
-                            <span className="skill_mark2">&gt;</span>
-                            <span className="skill_mark3">&gt;</span>
-                        </div>
-                        <div className="skill_box0">
-                            <div className='skill_td'>
-                                {
-                                    ["S", ...Array.from({length: 20}, (v,i) => i+1)].map(i => 
-                                        <div className="skill_level" key={'level'+i}>{i}</div>
-                                    )
-                                }
-                            </div>
-                            {this.skillTreeTdView()}
-                        </div>
+                </div>
+                <div className="skill_centent">
+                    <div className="skill_imgbox">
+                        {this.skillTreePick()}
+                        <span className="skill_mark1">&gt;</span>
+                        <span className="skill_mark2">&gt;</span>
+                        <span className="skill_mark3">&gt;</span>
                     </div>
                 </div>
             </div>

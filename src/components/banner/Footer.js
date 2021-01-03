@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { injectIntl  } from 'react-intl';
-import AdSense from 'react-adsense';
+//import AdSense from 'react-adsense';
 import logo from 'img/sub_logo.svg';
 
 class Footer extends Component {
@@ -13,7 +13,8 @@ class Footer extends Component {
                 <div  className="footer_span">
                     <span>{intl.formatMessage({id:'footer'})}</span>
                 </div>
-                <button className="footer_button">Contact</button>
+                    <a className="footer_button" href="mailto:service@bsgg.kr">Contact</a>
+                    <a className="footer_button" href="https://twitter.com/BsggKr">Twitter</a>
             </div>
         );
     };

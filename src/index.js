@@ -5,8 +5,7 @@ import Root from 'client/Root';
 import reportWebVitals from 'reportWebVitals';
 
 ReactDOM.render(
-  <Root/>, 
-  document.getElementById('root')
+    <Root/>, document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

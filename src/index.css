@@ -18,6 +18,9 @@ html {
     margin: 0;
     width: 750px;
 } 
+Link {
+    background-color: rgba(0,0,0,0);
+}
 /* ADs */
 .Ad_box_Detail2{
     width: 728px;
@@ -40,6 +43,8 @@ input::placeholder{
 }
 a{
     color: rgb(209, 209, 209);
+    background-color: rgba(0,0,0,0);
+    border: none;
 }
 .chasearch::placeholder{
     color: rgb(209,209,209);;
@@ -302,6 +307,156 @@ button:hover{
     margin-bottom: -3px;
     border-radius: 2px 2px 0px 0px / 2px 2px 0px 0px ;
 }
+/* 0 page */
+.mainpage_banner {
+    background-color : #262335;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #241b2f;
+}
+.mainpage_logo {
+    padding-top: 30px;
+    width: 500px;
+    margin: auto;
+}
+.mainpage_langauge{
+    padding-bottom: 0px;
+    margin-top: 5px;
+}
+.mainpage_banner_option{
+    width: 750px;
+    text-align: left;
+    margin: auto;
+    margin-top: -5px;
+}
+.mainpage_buttons :hover{
+    border-bottom: 1px solid rgb(244,216,35);
+}
+.mainpage_button{
+    display: inline-block;
+    height: 48px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 18px;
+    text-align: center;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: rgb(209, 209, 209);
+    font-size: 18pt;
+    font-weight: 600;
+    float: right;
+    border-bottom: 1px solid #241b2f;
+    padding-bottom: 25px;
+}
+.mainpage_search{
+    width: 700px;
+    height: 90px;
+    background-color: #262335;
+    border-radius: 50px;
+    margin: auto;
+    margin-bottom: 850px;
+    border-bottom: 1px solid #241b2f;
+    position: relative;
+}
+.mainpage_search input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+.mainpage_search label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 120px;
+	height: 80px;
+    background-color: rgb(218, 191, 19);
+	display: block;
+	border-radius: 100px;
+    position: absolute;
+    margin-top: -5px;
+    top: 10px;
+    left: 5px;
+}
+.mainpage_search label:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 70px;
+	height: 70px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+.mainpage_search input:checked + label {
+	background:rgb(139, 139, 139) ;
+}
+.mainpage_search input:checked + label:after {
+	left: calc(100% - 4px);
+	transform: translateX(-100%);
+}
+.Main_search_box{
+    background-color: rgb(240, 240, 240) ;
+    position: absolute;
+    width: 700px;
+    font-size: 18pt;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    text-align: left;
+    border-radius: 3px;
+    z-index: 1;
+    max-height: 800px;
+    overflow: scroll;
+    color: #171520;
+    margin-top: 15px;
+    z-index: 0;
+    margin-top: 20px;
+}
+.Main_search_box1{
+    width: 700px;
+    height: 60px;
+    background-color: rgb(240, 240, 240) ;
+    margin-top: 1px;
+    color:#171520;    
+}
+.Main_search_box :hover{
+    background-color: rgb(212, 212, 212);
+}
+.Main_search_img{
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 10%;
+    margin-left: 30px;
+    margin-right: 20px;
+    float: left;
+    position: absolute;
+}
+.Main_search_font{
+    display: inline-block;
+    width: 700px;
+    font-size: 23pt;
+    padding-top: 8px;
+    float: left;
+    font-weight: 400;
+    text-align: center;
+}
+.mainpage_search_box{
+    background-color: rgba(0,0,0,0);
+    width: 520px;
+    border:none;
+    font-size: 28pt;
+    margin-left: 130px;
+    margin-top: 17px;
+    color: rgb(209, 209, 209) ;
+}
+.mainpage_ad{
+    width: 970px;
+    height: 250px;
+    background-color: white;
+    margin: auto;
+    margin-top: 25px;
+}
 /* 1 page */
 .banner {
     background-color: rgb(38, 35, 53);
@@ -347,7 +502,8 @@ button:hover{
 .logo {
     width: 150px;
     padding-top: 5px;
-    float: left;
+    float: right;
+    padding-right: 70px;
 }
 .menubutton{
     border-color: rgba(0,0,0,0);
@@ -359,12 +515,12 @@ button:hover{
 }
 .banner-menu{
     margin: auto;
-    width: 300px;
+    width: 500px;
     float: left;
 }
 .banner-botton{
     word-spacing: 20px;
-    width: 300px;
+    width: 500px;
     float: left;
     text-align: left;
     margin-top: 115px;
@@ -394,7 +550,7 @@ button:hover{
 }
 .main-left{
     float: left;
-    width: 1100px;
+    width: 750px;
     border-radius: 3px;
 }
 .search{
@@ -431,9 +587,10 @@ button:hover{
     border-bottom: 1px solid rgb(244,216,35);
     width: 750px;
     height: 65px;
-    font-size: 30pt;
+    font-size: 37pt;
     padding-top: 5px;
     border-radius: 3px 3px 0px 0px / 3px 3px 0px 0px ;
+    font-family: 'Big Shoulders Stencil Display';
 }
 .cha1{
     height: auto;
@@ -508,11 +665,11 @@ button:hover{
 }
 .rank0-1{
     float: right;
-    width: 390px;
+    width: 300px;
     text-align: center;
     font-size: 37pt;
-    padding-top: 4px;
-    word-spacing: 20px;
+    padding-top: 8px;
+    margin-right: 225px;
 }
 .question_logo{
     float: right;
@@ -804,6 +961,7 @@ button:hover{
     overflow: hidden;
 }
 .S_top{
+    height: 220px;
 }
 .S_top-cha{
     float:left;
@@ -879,21 +1037,30 @@ button:hover{
 .S_left{
     width: 750px;
     clear: both;
-    padding-top: 30px;
+    margin-top: 30px;
     float: left;
 }
-.S_Trend{
-    height: 770px;
-    background-color: rgb(38, 35, 53);
-    text-align: center;
-    border-radius: 3px;
-    border-bottom: 1px solid #3b4147;
-}
-.S_Trend0{
-    height: 75px;
+.S_left0{
+    width: 750px;
     font-family: "Big Shoulders Stencil Display";
+    font-size: 37pt;
+    padding-top: 8px;
+    height: 67px;
+    float: right;
     background-color: rgb(35, 27, 47);
     border-bottom: 1px solid rgb(23, 21, 32);
+    border-radius: 3px 3px 0px 0px;
+    text-align: center;
+}
+.S_left_tab{
+    height: 46px;
+    width: 250px;
+    float: left;
+    padding-bottom: 2px;
+    font-size: 23pt;
+    color: gray;
+    border-bottom: 1px solid #171520;
+    text-align: center;
 }
 .S_Trend_T{
         float: right;
@@ -1017,40 +1184,22 @@ button:hover{
     clear: both;
 }
 .S_Skill{
-    margin-top: 20px;
-    padding-bottom: 20px;
     width: 750px;
-    height: auto;
     text-align: center;
     background-color: rgb(38, 35, 53);
     border-radius: 3px;
+    height: 344px;
     border-bottom: 1px solid #3b4147;
-    height: 630px;
-}
-.S_Skill0{
-    width: 750px;
-    height: 50px;
-    font-size: 25pt;
-    display: inline-block;;
-    background-color: rgb(38, 35, 53);
-    padding-top: 0px;
-    border-radius: 3px 3px 0px 0px / 3px 3px 0px 0px ;
-    background-color: rgb(35, 27, 47);
-    border-bottom: 1px solid rgb(23, 21, 32);
-}
-.S_Skill1{
-    margin-left: 30px;
 }
 .S_Skill_tab{
-    width: 90px;
-    margin-top: 15px;
+    margin-top: 10px;
     float: left;
-    margin-left: 22px;
+    margin-left: 30px;
     font-size: 17pt;
-    margin-bottom: 10px;
+    
 }
 .S_Skill_img{
-    width: 88px;
+    width: 78px;
     vertical-align: text-top;
     clear: both;
     margin-bottom: -3px;
@@ -1062,32 +1211,141 @@ button:hover{
 }
 .S_Skill2{
     clear: both;
-    font-size: 25pt;
-    height: 50px;
+    font-size: 18pt;
+    padding-top: 2px;
+    height: 40px;
     background-color: rgb(35, 27, 47);
-    width: auto;
+    width: 750px;
     border-bottom: 1px solid rgb(23, 21, 32);
 }
 .skill_title{
     display: inline-block;
-    width: 250px;
     float: left;
     margin-top: 10px;
     background-color: rgb(35, 27, 47);
     border-bottom: 1px solid rgb(23, 21, 32);
 }
+.S_Skill1{
+    width: 750px;
+    background-color: #262335;
+}
+.skill_tabs .actived{
+    border-left: 3px solid rgb(244,216,35);
+    color:  rgb(209, 209, 209);
+}
+.skill_tree_tab{
+    float: left;
+    width: 350px;
+    height: 177px;
+    background-color: #251f32;
+}
 .skill_tab{
-    display: block;
-    width: 250px;
+    width: 350px;
     float: left;
     padding-top: 3px;
     padding-bottom: 6px;
-    height: 50px;
-    font-size: 25pt;
+    height: 49px;
+    font-size: 15pt;
     color: gray;
+    border-right: 1px solid #3b4147;
+    border-left: 3px solid #3b4147;
     border-bottom: 1px solid #3b4147;
 }
+.skill_tab_span{
+    float: left;
+}
+.skill_tab_imgbox{
+    position: relative;
+    float: left;
+}
+.skill_tab :hover{
+    cursor: pointer;
+}
+.skill_tab_Q{
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    float: left;
+    background-color: #171520;
+    border: 1px solid #3b4147;
+    color: rgb(224, 54, 11);
+    margin-left: 20px;
+    font-size: 18pt;
+}
+.skill_tab_W{
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    float: left;
+    background-color: #171520;
+    border: 1px solid #3b4147;
+    color: rgb(71, 172, 40);
+    margin-left: 20px;
+    font-size: 18pt;
+}
+.skill_tab_E{
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    float: left;
+    background-color: #171520;
+    border: 1px solid #3b4147;
+    color: #007fd3;
+    margin-left: 20px;
+    font-size: 18pt;
+}
+.skill_tab_T{
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    float: left;
+    background-color: #171520;
+    border: 1px solid #3b4147;
+    color: rgb(170, 170, 170);
+    margin-left: 20px;
+    font-size: 18pt;
+}
+.skill_tab_mark1{
+    position: absolute;
+    top: 5px;
+    left: 67px;
+}
+.skill_tab_mark2{
+    position: absolute;
+    top: 5px;
+    left: 128px;
+}
+.skill_tab_mark3{
+    position: absolute;
+    top: 5px;
+    left: 190px;
+}
+.skill_tab_span{
+    width: 100px;
+    font-size: 10pt;
+    margin-top: -4px;
+    text-align: center;
+    float: right;
+}
+.skill_tab_span1{
+    display: inline-block;
+    width: 100px;
+}
+.skill_tab_span2{
+    display: inline-block;
+    width: 100px;
+}
+.skill_tab_span3{
+    display: inline-block;
+    width: 80px;
+    margin-left: 0px;
+}
+.skill_centent{
+    width: 400px;
+    float: left;
+}
 .skill_imgbox{
+    margin-top: 40px;
     clear: both;
     text-align: center;
     position: relative;
@@ -1096,44 +1354,71 @@ button:hover{
     vertical-align: middle;
     display: inline-block;
     background-color: rgb(35, 27, 47);
-    width: 28px;
-    height: 28px;
+    width: 18px;
+    height: 18px;
     border-radius: 4px;
     font-size: 12pt;
-    margin-top: -2px;
+    margin-top: -5px;
     margin-left: -1px;
     font-weight: 400;
     border: 1px solid#171520;
 }
+.skill_img1 {
+    vertical-align: middle;
+    display: inline-block;
+    background-color: rgb(35, 27, 47);
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    font-size: 12pt;
+    margin-left: 3px;
+    font-weight: 400;
+    border: 1px solid#171520;
+}
+.skill_img2 {
+    vertical-align: middle;
+    display: inline-block;
+    background-color: rgb(35, 27, 47);
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    font-size: 12pt;
+    margin-left: 0px;
+    margin-top: -10px;
+    font-weight: 400;
+    border: 1px solid#171520;
+}
 .skill_span{
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 30px;
-    font-size: 28pt;
-    margin-bottom: 10px;
+    margin-top: 23px;
+    font-size: 25pt;
     border: solid 1px  rgb(244,216,35);
     border-radius: 5px;
-    font-weight: 400;
+    font-weight: 500;
 }
 .skill_mark1{
     position: absolute;
     color:  rgb(244,216,35);
-    top: 32px;
-    left: 265px;
+    top: 26px;
+    left: 95px;
+    font-size: 22pt;
 }
 .skill_mark2{
     position: absolute;
     color:  rgb(244,216,35);
-    top: 32px;
-    left: 366px;
+    top: 26px;
+    left: 191px;
+    font-size: 22pt;
 }
 .skill_mark3{
     position: absolute;
     color:  rgb(244,216,35);
-    top: 32px;
-    left: 467px;
+    top: 26px;
+    left: 287px;
+    font-size: 22pt;
 }
 .skill_box0{
     clear: both;
@@ -1141,25 +1426,27 @@ button:hover{
     text-align: center;
 }
 .skill_td {
-    margin-top: -15px;
+    width: 530px;
+    margin-top: 0px;
 }
 .skill_level{
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin-left: 4px;
     background-color: rgb(38, 35, 53);
-    font-size: 13pt;
+    font-size: 11pt;
     margin-top: 10px;
+    padding-bottom: 5px;
 }
 .skill_tr {
     display: inline-block;
     background-color: rgb(35, 27, 47);
     margin-left: 4px;
-    width: 28px;
-    height: 28px;
+    width: 18px;
+    height: 18px;
     border-radius: 4px;
-    font-size: 13pt;
+    font-size: 10pt;
     font-weight: 400;
     border: 1px solid #171520;
 }
@@ -1391,7 +1678,7 @@ button:hover{
     font-size: 18pt;
     font-weight: bold;
     float: right;
-    margin-top: 40px;
+    margin-top: 15px;
     margin-right: 10px;
     color: rgb(209, 209, 209);
 }
@@ -2530,6 +2817,7 @@ button:hover{
     height: 150px;
     float: left;
     position: relative;
+    margin-left: 15px;
 }
 .record_top_iconimg{
     width: 140px;
@@ -2552,7 +2840,7 @@ button:hover{
 }
 .record_top_right{
     display: inline-block;
-    width: 400px;
+    width: 500px;
     margin-left: 30px;
 }
 .record_top_name{
@@ -2566,31 +2854,40 @@ button:hover{
     background-color: #007fd3;
     color: rgb(209, 209, 209);
     border-radius: 3px;
-    width: 100px;
-    height: 40px;
-    font-size: 13pt;
+    width: 140px;
+    height: 50px;
+    font-size: 19pt;
     border:none;
+    position: relative;
 }
+#loading {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 3px solid rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+    position: absolute;
+    top: 9px;
+    left: 55px;
+  }
+  @keyframes spin {
+      to { -webkit-transform: rotate(360deg); }
+    }
+  @-webkit-keyframes spin {
+      to { -webkit-transform: rotate(360deg); }
+    }
 .record_top_updated{
     margin-left: 15px;
-    font-size: 10pt;
+    font-size: 12pt;
     color: rgb(209, 209, 209);
-}
-.record_top_medal_box{
-    float: right;
-    width: 100px;
-    margin-right: 15px;   
-    margin-top: 15px;
-}
-.record_top_medal{
-    float: right;
-    width: 100px;
-    margin-right: 15px;   
-    margin-top: 15px;
 }
 .record_main{
     clear: both;
     width: 750px;
+    min-height: 1000px;
     margin: auto;
     overflow: hidden;
 }
@@ -2600,52 +2897,89 @@ button:hover{
     margin-right: 12px;
 }
 .record_rank{
-    width: 350px;
+    width: 750px;
     background-color: #262335;
     border-radius: 3px;
+    height: 306px;
+    border-bottom: 1px solid #3b4147;
 }
 .record_rank0{
     display: inline-block;
-    width: 350px;
+    width: 750px;
     text-align: center;
     background-color: #241b2f;
-    font-size: 23pt;
-    padding-top: 3px;
+    font-size: 37pt;
     border-radius: 3px 3px 0px 0px;
-    height: 38px;
+    height: 60px;
+    padding-top: 5px;
     font-family: 'Big Shoulders Stencil Display';
     border-bottom: 1px solid rgb(23, 21, 32);
 }
 .record_rank_box{
-    width: 350px;
-    height: 115px;
-    border-bottom: 1px solid #3b4147;
+    width: 250px;
+    height: 240px;
+    background-color: #262335;
     border-radius: 3px;
     overflow: hidden;
+    float: left;
+    text-align: center;
 }
 .record_rank_icon{
     width: 80px;
-    float: left;
     margin-top: 18px;
     margin-left: 35px;
     margin-right: 35px;
 }
 .record_rank_span1{
-    font-size: 18pt;
-    margin-top: 7px;
+    display: inline-block;
+    width: 250px;
+    font-size: 22pt;
+    margin-top: 0px;
 }
 .record_rank_span2{
-    font-size: 9pt;
+    display: inline-block;
+    width: 250px;
+    font-size: 13pt;
     margin-top: 5px;
 }
 .record_rank_span3{
-    font-size: 9pt;
+    display: inline-block;
+    width: 250px;
+    font-size: 11pt;
     margin-top: 1px;
 }
 .record_rank_span4{
-    font-size: 10pt;
+    display: inline-block;
+    width: 250px;
+    font-size: 13pt;
     margin-top: 1px;
     color: rgb(244,216,35);
+}
+.record_rank_span11{
+    display: inline-block;
+    width: 150px;
+    float: left;
+    margin-top: 15px;
+    height: 28px;
+    font-size: 15pt;
+}
+.record_rank_span22{
+    display: inline-block;
+    width: 90px;
+    float: left;
+    margin-top: 15px;
+    height: 28px;
+    font-size: 15pt;
+    margin-left: -10px;
+}
+.record_rank_span33{
+    display: inline-block;
+    width: 110px;
+    float: left;
+    margin-top: 15px;
+    height: 28px;
+    font-size: 15pt;
+    margin-left: 3px;
 }
 .record_rank_graph{
     background-color: rgb(255, 166, 0);
@@ -2655,19 +2989,19 @@ button:hover{
 }
 .record_most{
     background-color: #262335;
-    width: 350px;
+    width: 750px;
     margin-top: 15px;
     border-radius: 3px;
 }
 .record_most0{
     display: inline-block;
-    width: 350px;
+    width: 750px;
     text-align: center;
     background-color: #241b2f;
-    font-size: 18pt;
+    font-size: 25pt;
     padding-top: 3px;
     border-radius: 3px 3px 0px 0px;
-    height: 30px;
+    height: 42px;
     font-family: 'Big Shoulders Stencil Display';
     border-bottom: 1px solid rgb(23, 21, 32);
 }
@@ -2684,25 +3018,27 @@ button:hover{
     color:gray;
 }
 .record_most_tab1{
+    font-size: 16pt;
     float: left;
-    width: 175px;
-    height: 25px;
+    width: 375px;
+    height: 35px;
     border-bottom: 1px solid #3b4147;
 }
 .record_most_tab2{
+    font-size: 16pt;
     float: left;
-    width: 87.5px;
-    height: 25px;
+    width: 187.5px;
+    height: 35px;
     border-bottom: 1px solid #3b4147;
 }
 .record_most_box{
     clear: both;
-    height: 59px;
+    height: 50px;
     border-bottom: 1px solid #3b4147;
     border-radius: 3px;
 }
 .record_most_img{
-    margin-top: 7px;
+    margin-top: 3px;
     margin-left: 33px;
     width: 43px;
     border: 1px solid #3b4147;
@@ -2714,42 +3050,44 @@ button:hover{
 }
 .record_most_span1{
     display: inline-block;
-    width: 125px;
-    font-size: 12pt;
-    margin-top: 8px;
+    width: 175px;
+    font-size: 16pt;
     float: left;
-    margin-left: 15px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 8px;
 }
 .record_most_span2{
     display: inline-block;
-    width: 100px;
-    font-size: 10pt;
-    float: right;
-    margin-top: 11px;
-    text-align: right;
-    margin-right: 0px;
+    width: 170px;
+    font-size: 16pt;
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 8px;
 }
 .record_most_span3{
     display: inline-block;
-    width: 125px;
-    font-size: 9pt;
-    clear: both;
+    width: 130px;
+    font-size: 16pt;
     float: left;
-    margin-left: 15px;
-    margin-top: -3px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 8px;
 }
 .record_most_span4{
     display: inline-block;
-    width: 100px;
-    font-size: 9pt;
-    float: right;
-    text-align: right;
-    margin-top: -3px;
+    width: 130px;
+    font-size: 16pt;
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 8px;
 }
 .record_most_button{
-    width: 350px;
-    font-size: 13pt;
-    height: 35px;
+    width: 750px;
+    font-size: 20pt;
+    height: 45px;
     border-radius: 3px;
     background-color: rgba(0,0,0,0);
     border: none;
@@ -2798,16 +3136,17 @@ button:hover{
     float: left;
 }
 .record_match{
-    width: 790px;
+    width: 750px;
     background-color: #262335;
     border-radius: 3px;
+    margin-top: 15px;
 }
 .record_match0{
-    width: 790px;
+    width: 750px;
     text-align: center;
     background-color: #241b2f;
     border-radius: 3px 3px 0px 0px;
-    height: 41px;
+    height: 65px;
     font-family: 'Big Shoulders Stencil Display';
     border-bottom: 1px solid rgb(23, 21, 32);
 }
@@ -2815,7 +3154,7 @@ button:hover{
     display: inline-block;
     width: 300px;
     padding-top: 2px;
-    font-size: 23pt;
+    font-size: 35pt;
     margin-left: 150px;
 }
 .record_match0_tabs{
@@ -2831,29 +3170,29 @@ button:hover{
 .record_match0_tab{
     width: 75px;
     float: left;
-    font-size: 12pt;
-    padding-top: 19px;
+    font-size: 18pt;
+    padding-top: 32px;
     padding-bottom: 1px;
     color: gray;
 }
 .record_match_tab2{
-    width: 197.5px;
+    width: 187.5px;
     float: left;
-    font-size: 12pt;
+    font-size: 16pt;
     padding-bottom: 1px;
     color: gray;
     border-bottom: 1px solid #3b4147;
     margin-bottom: 5px;
 }
 .record_trend{
-    width: 790px;
-    height: 70px;
+    width: 750px;
+    height: 75px;
     border-bottom: 1px solid #3b4147;
     border-radius: 3px;
-    margin-top: 35px;
+    margin-top: 45px;
 }
 .record_trend_win{
-    margin-left: 30px;
+    margin-left: 20px;
     float: left;
 }
 .record_trend_winspan{
@@ -2876,7 +3215,7 @@ button:hover{
     background: conic-gradient(rgb(244,216,35) 0% 11%, rgb(49, 106, 190) 11% 40%, gray 40% 100%);
     border-radius: 100%;
     position: relative;
-    margin-left: 85px;
+    margin-left: 65px;
     float: left;
     margin-top: 1px;
 }
@@ -2900,7 +3239,7 @@ button:hover{
 }
 .record_trend_winrate_span{
     display: inline-block;
-    width: 50px;
+    width: 80px;
     font-size: 9pt;
     margin-top: 3px;
     margin-left: 10px;
@@ -2963,10 +3302,10 @@ button:hover{
 .record_history{
     margin-top: 5px;
     margin-left: 15px;
-    width: 775px;
+    width: 750px;
 }
 .record_history_box{
-    width: 775px;
+    width: 735px;
     height: 90px;
     text-align: center;
     background-color: #262335;
@@ -3039,7 +3378,7 @@ button:hover{
 }
 .record_history2{
     display: inline-block;
-    width: 150px;
+    width: 125px;
     float: left;
     margin-top: 5px;
 }
@@ -3060,7 +3399,7 @@ button:hover{
 .record_history3-4{
     float: left;
     display: inline-block;
-    width: 300px;
+    width: 285px;
     margin-top: 5px;
 }
 .record_history3{
@@ -3112,13 +3451,13 @@ button:hover{
     text-align: left;
 }
 .record_history4{
-    width: 200px;
+    width: 185px;
     float: left;
     height: 90px;
     text-align: center;
 }
 .record_history_kda{
-    width: 200px;
+    width: 185px;
     font-size: 12pt;
     float: left;
     margin-top: 25px;
@@ -3175,9 +3514,10 @@ button:hover{
     cursor: pointer;
 }
 .record_history_detail{
-    width: 775px;
+    width: 750px;
     overflow: hidden;
     background-color: #262335;
+    margin-left: -15px;
 }
 .record_history_detail0{
     background-color: #241b2f;
@@ -3187,7 +3527,7 @@ button:hover{
     border-bottom: 1px solid #171520;
 }
 .record_history_detail_skill{
-    width: 775px;
+    width: 750px;
     height: 70px;
     border-bottom: 1px solid #3b4147;
 }
@@ -3233,7 +3573,7 @@ button:hover{
     height: 27px;
     text-align: center;
     padding-top: 1px;
-    width: 387.5px;
+    width: 375px;
     border-bottom: 1px solid #3b4147;
     background-color: #251f32;
     cursor: pointer;
@@ -3242,7 +3582,7 @@ button:hover{
     border-bottom: 1px solid #3b4147;
     height: 25px;
     text-align: center;
-    width: 387.5px;
+    width: 375px;
     float: left;
     margin-top: -20px;
 }
@@ -3268,25 +3608,25 @@ button:hover{
     display: inline-block;
     float: left;
     font-size: 10pt;
-    width: 105px;
+    width: 95px;
 }
 .record_history_detail_filter5{
     display: inline-block;
     float: left;
     font-size: 10pt;
-    width: 180px;
+    width: 160px;
 }
 .record_history_detail_left{
-    width: 386.5px;
+    width: 374px;
     border-right: 1px solid #3b4147;
     float: left;
 }
 .record_history_detail_right{
-    width: 387.5px;
+    width: 375px;
     float: left;
 }
 .record_history_detail_box{
-    width: 386.5px;
+    width: 375px;
     border-bottom: 1px solid #3b4147;
     height: 51px;
 }
@@ -3295,7 +3635,7 @@ button:hover{
 }
 .record_history_detail_left .actived{
     background-color: #241b2f;
-    width: 386.5px;
+    width: 374px;
 }
 .record_history_detail_rank{
     float: left;
@@ -3371,7 +3711,7 @@ button:hover{
 }
 .record_history_detail_death{
     display: inline-block;
-    width: 94px;
+    width: 80px;
     font-size: 11pt;
     margin-top: 4px;
     margin-left: 5px;
@@ -3409,7 +3749,7 @@ button:hover{
     left : 2px;
 }
 .record_history_button{
-    width: 775px;
+    width: 750px;
     font-size: 13pt;
     height: 35px;
     border-radius: 3px;
@@ -3438,10 +3778,10 @@ button:hover{
 }
 .record_cha0_span{
     display: inline-block;
-    width: 300px;
+    width: 200px;
     padding-top: 10px;
     font-size: 37pt;
-    margin-left: 200px;
+    margin-left: 240px;
     font-family: "Big Shoulders Stencil Display";
 }
 .record_cha0_tabs{
@@ -3461,10 +3801,12 @@ button:hover{
     color: white;
 }
 .record_cha0_tab{
-    width: 90px;
+    display: inline-block;
+    height: 38px;
+    width: 120px;
     float: left;
     font-size: 22pt;
-    padding-top: 23px;
+    padding-top: 21px;
     color: rgb(209, 209, 209);
     padding-bottom: 8px;
 }
@@ -3478,12 +3820,12 @@ button:hover{
 }
 .record_cha_tab1{
     float: left;
-    width: 288px;
+    width: 187.5px;
     margin-top: 2px;
     padding-bottom: 3px;
-    height: 28px;
+    height: 35px;
     border-bottom: 1px solid #3b4147;
-    font-size: 14pt;
+    font-size: 18pt;
 }
 .record_cha_filter{
     font-size: 12pt;
@@ -3649,12 +3991,12 @@ button:hover{
     border: 2px solid gold;
     margin-top: 25px;
     margin-bottom: 65px;
-    background-color: #251f32;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     margin-left: 20px;
     margin-right: 20px;
+    background: linear-gradient(#251f32 0% , #0f0d14 100%);
 }
 .rank_top_1{
     width: 225px;
@@ -3665,7 +4007,7 @@ button:hover{
     border: 2px solid silver;
     margin-top: 65px;
     margin-bottom: 25px;
-    background-color: #251f32;
+    background: linear-gradient(#251f32 0% , #0f0d14 100%);
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -3680,7 +4022,7 @@ button:hover{
     border: 2px solid brown;
     margin-top: 65px;
     margin-bottom: 25px;
-    background-color: #251f32;
+    background: linear-gradient(#251f32 0% , #0f0d14 100%);
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -3887,32 +4229,6 @@ button:hover{
     border-bottom: 1px solid #3b4147;
     height: 28px;
     font-size: 13pt;
-}
-.record_rank_span1{
-    display: inline-block;
-    width: 150px;
-    float: left;
-    margin-top: 15px;
-    height: 28px;
-    font-size: 15pt;
-}
-.record_rank_span2{
-    display: inline-block;
-    width: 90px;
-    float: left;
-    margin-top: 15px;
-    height: 28px;
-    font-size: 15pt;
-    margin-left: -10px;
-}
-.record_rank_span3{
-    display: inline-block;
-    width: 110px;
-    float: left;
-    margin-top: 15px;
-    height: 28px;
-    font-size: 15pt;
-    margin-left: 3px;
 }
 .rank_cha_tabs :hover{
     cursor: pointer;

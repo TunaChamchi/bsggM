@@ -9,7 +9,7 @@ class Rank extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isLoad: false,
+            isStartLoad: false,
             page: -1,
             gameMode: -1,
             search: '',
@@ -26,7 +26,7 @@ class Rank extends Component {
     componentDidMount() {
         window.scrollTo(0, 0);
 
-        this.setState({ isLoad: true })
+        this.setState({ isStartLoad: true })
     }
 
     componentDidUpdate(prevProps, prevState){
@@ -79,7 +79,7 @@ class Rank extends Component {
         }
     }
 
-    rankData = (rank, width) => {
+    rankData = (rank) => {
         const { gameMode } = this.state;
         const stat = rank['stat'].filter(s => s['index'].includes('1_'+(gameMode+1)))[0];
 
@@ -95,8 +95,9 @@ class Rank extends Component {
         const tier = Math.floor(rank['mmr']/100);
         const lp   = rank['mmr']-tier*100;
 
-        const top1Width = top1/total * width;
-        const lossWidth = loss/total * width;
+        const top1Width = top1/total * 100;
+        const top3Width = top3/total * 100;
+        const lossWidth = loss/total * 100;
 
         const charName = getCharacter(stat['mostCharacter'])['name'];
 
@@ -110,6 +111,7 @@ class Rank extends Component {
             tier: tier,
             lp: lp,
             top1Width: top1Width,
+            top3Width: top1Width+top3Width,
             lossWidth: lossWidth,
             character: charName
         }
@@ -121,30 +123,33 @@ class Rank extends Component {
         const { rankTop, tierList, gameMode } = this.state;
         if (rankTop.length === 0) return;
 
+        console.log('rankTop', rankTop);
         return [1, 0, 2].map((number, idx) => {
-            const stat = this.rankData(rankTop[number], 130);
+            const stat = this.rankData(rankTop[number]);
 
             if (!stat) return;
+
+            console.log(stat['top1Width'], stat['top3Width']);
 
             return (
                 <div className={"rank_top_"+number} key={"rank_top_"+idx}>
                     <img className="rank_top_iconimg" src={"img/Characters/"+stat['character']+".jpg"} />
                     <img className="rank_top_iconborder" src={'img/border/'+tierList[stat['tier']].slice(0, -2)+'.png'} />
                     <span className="rank_top_lv">{4-stat['tier']%4}</span>
-                    <div className="rank_top_span_box">
-                        <div className="rank_top2_span1">{rankTop[number]['rank']}</div>
-                        <div className="rank_top_span2">{rankTop[number]['nickname']}</div>
-                        <div className="rank_top_span3">{tierList[stat['tier']]} {stat['lp']} LP</div>
-                            <div className="rank_top_graph">
-                                <div className="rank_top_graphW" style={{width: stat['top1Width']}}></div>
-                                <div className="rank_top_graphL" style={{width: stat['lossWidth']}}></div>
-                                <div className="rank_top_span4" >{stat['top1']}</div>
-                                <div className="rank_top_span5" >{stat['top3']}</div>
-                                <div className="rank_top_span6" >{stat['loss']}</div>
-                                <div className="rank_top_span7" >{stat['rate']}%</div>
-                            </div>
-                            <div className="rank_top_span8">KA/M {stat['kam'].toFixed(2)}</div>
-                    </div>
+                    <Link to={'/Match?userName=' + rankTop[number]['nickname']}>
+                        <div className="rank_top_span_box">
+                            <div className="rank_top2_span1">{rankTop[number]['rank']}</div>
+                            <div className="rank_top_span2">{rankTop[number]['nickname']}</div>
+                            <div className="rank_top_span3">{tierList[stat['tier']]} {stat['lp']} LP</div>
+                                <div className="rank_top_graph" style={{background: 'linear-gradient(to right, rgb(244,216,35) 0% '+stat['top1Width']+'%, rgb(49, 106, 190) '+stat['top1Width']+'% '+stat['top3Width']+'%, gray '+stat['top3Width']+'% 100%)'}}>
+                                    <div className="rank_top_span4" >{stat['top1']}</div>
+                                    <div className="rank_top_span5" >{stat['top3']}</div>
+                                    <div className="rank_top_span6" >{stat['loss']}</div>
+                                    <div className="rank_top_span7" >{stat['rate']}%</div>
+                                </div>
+                                <div className="rank_top_span8">KA/M {stat['kam'].toFixed(2)}</div>
+                        </div>
+                    </Link>    
                 </div>
             );
         });
@@ -154,7 +159,7 @@ class Rank extends Component {
         if (rank.length === 0) return;
         
         return rank.map((user, idx) => {
-            const stat = this.rankData(user, 200);
+            const stat = this.rankData(user);
 
             if (!stat) return;
             
@@ -162,11 +167,13 @@ class Rank extends Component {
                 <div className="record_cha_box" key={'record_cha_'+idx}>
                     <div className="record_cha_span1">{user['rank']}</div>
                     <img className="record_cha_img" src={"img/Rank/"+stat['character']+".jpg"} />
-                    <div className="record_cha_span2">{user['nickname']}</div>
+                    <Link to={'/Match?userName=' + user['nickname']}>
+                        <div className="record_cha_span2">{user['nickname']}</div>
+                    </Link>
                     <img className="record_cha_rankimg" src={'img/Rankicon/'+tierList[stat['tier']].slice(0, -2)+'.png'} />
-                    <div className="record_rank_span1">{tierList[stat['tier']]}</div>
-                    <div className="record_rank_span2">{stat['lp']} LP</div>
-                    <div className="record_rank_span3">{stat['rate']}%</div>
+                    <div className="record_rank_span11">{tierList[stat['tier']]}</div>
+                    <div className="record_rank_span22">{stat['lp']} LP</div>
+                    <div className="record_rank_span33">{stat['rate']}%</div>
                 </div>
             );
         });
@@ -176,11 +183,12 @@ class Rank extends Component {
         this.setState({gameMode: index, index:3, rankTop:[], rank:[]});
     }
     gameModeTabView = () => {
+        const { intl } = this.props;
         const { page, gameMode, gameModeList } = this.state;
         return gameModeList.map((mode, idx) => 
             <Link to={'/Rank?mode='+idx+'&page='+page} key={'cha_tab_'+idx}>
                 <div className={'rank_cha_tab1'+(idx===gameMode?' actived':'')}>
-                    {mode}
+                    {intl.formatMessage({id: mode})}
                 </div>
             </Link>
         )
@@ -191,14 +199,14 @@ class Rank extends Component {
         const { gameMode, page } = this.state;
 
         const metaData = {
-            title: 'BSGG.kr - ' + intl.formatMessage({id: 'Title.Map'}),
-            description: '영원회귀 : 블랙 서바이벌 통계, 캐릭터 티어, 아이템 트렌드, BS:ER Stats, Character Tier, Item Trend'
+            title: 'BSGG.kr - ' + intl.formatMessage({id: 'Title.Rank'}),
         }
         
         return (
             <div>
                 <Header data={metaData}/>
                 <MainBanner />
+                
                 <div className="rank_top">
                     {this.rankTopView()}
                 </div>
@@ -207,9 +215,9 @@ class Rank extends Component {
                         <div className="record_cha0">
                             <span className="record_cha0_span">RANK</span>
                             <div className="record_cha0_tabs">
-                                <div className="record_cha0_tab actived">ALL</div>
+                                <div className="record_cha0_tab actived">{intl.formatMessage({id: '전체'})}</div>
                                 <Link to={'/RankCharacter'}>
-                                    <div className="record_cha0_tab">CHA</div>
+                                    <div className="record_cha0_tab">{intl.formatMessage({id: '장인'})}</div>
                                 </Link>
                             </div>
                         </div>
@@ -218,10 +226,10 @@ class Rank extends Component {
                         </div>
                         <div className="record_cha_filter">
                             <div className="record_rank_filter1">#</div>
-                            <div className="record_rank_filter2">플레이어</div>
-                            <div className="record_rank_filter3">티어</div>
-                            <div className="record_rank_filter4">점수</div>
-                            <div className="record_rank_filter5">승률</div>
+                            <div className="record_rank_filter2">{intl.formatMessage({id: '플레이어'})}</div>
+                            <div className="record_rank_filter3">{intl.formatMessage({id: '티어'})}</div>
+                            <div className="record_rank_filter4">{intl.formatMessage({id: '점수'})}</div>
+                            <div className="record_rank_filter5">{intl.formatMessage({id: 'winRate'})}</div>
                         </div>
                         {this.rankTableView()}
                     </div>
@@ -231,7 +239,7 @@ class Rank extends Component {
                         {
                             [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(idx => 
                                 <Link to={'/Rank?mode='+gameMode+'&page='+idx} key={'page_'+idx}>
-                                    <button className="rank_center_button" >{idx}</button>
+                                    <button className="rank_center_button" ><div className="rank_button_tri">{idx}</div></button>
                                 </Link>
                             )
                         }

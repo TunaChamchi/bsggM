@@ -1,41 +1,15 @@
 import React, { Component } from 'react';
 import { injectIntl  } from 'react-intl';
 import { defaultLang } from 'lib/utility'
-import { charList } from 'lib/utility'
-import { Link } from 'react-router-dom';
 
 class Search extends Component {
 	constructor(props) {
         super(props);
         this.state = {
             search: '',
-            searchList: [],
         };
     }
-    searchHandler = (event) => {
-        const value = event.target.value.toLowerCase();
 
-        if (!value) {
-            this.setState({searchList: []});
-            return;
-        }
-
-        const list = charList().filter(data => data['name'].toLowerCase().indexOf(value) !== -1);
-
-        this.setState({searchList: list});
-    }
-    searchView = () => {
-        const { searchList } = this.state;
-
-        return searchList.map((data, idx) => 
-            <Link to={'Detail?character='+data['key']} key={idx}>
-                <div className="S_search4" >
-                    <img className="searchimg" src={'img/Rank/'+data['key']+'.jpg'} />
-                    <div className="searchfont"> {data['name']} </div>
-                </div>
-            </Link>
-        );
-    }
     onChange = (e) => {
         this.setState({search: e.target.value});
     }

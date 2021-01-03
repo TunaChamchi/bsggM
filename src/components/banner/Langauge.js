@@ -32,7 +32,7 @@ class Langauge extends Component {
 
         return (
             <div className="language">
-                <img className="langaugelogo" src={'/img/langaugelogo.png'} />
+                <img className="langaugelogo" src={"/img/langaugelogo.png"} />
                 <select className="langaugebutton" value={defaultLang()} onChange={(e) => {this.langaugeHandler(e)}}>
                     {this.langaugeView()}
                 </select>

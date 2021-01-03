@@ -1,91 +1,126 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { injectIntl } from 'react-intl';
-import { CharacterScore, CharacterPreRank } from 'lib/data'
+import { getCharacter, getWeaponType } from 'lib/data'
 
 class Tier extends Component {
 	constructor(props) {
         super(props);
         this.state = {
+            isStartLoad: false,
             tierList: [],
             preRankList: {},
-            type: ['total', 'win-rate', 'pick-rate'],
+            type: ['total', 'winRate', 'pickRate'],
             typeFocus: 0,
         };
     }
     
     componentDidMount() {
-        this.init();
+        const { tier, preTier } = this.props;
+
     };
 
-    shouldComponentUpdate(nextProps, nextState) {
-        const { range, type } = this.props;
+    // shouldComponentUpdate(nextProps, nextState) {
+    //     const { range, type } = this.props;
 
-        return this.state !== nextState || range !== nextProps.range || type !== nextProps.type;
-    };
+    //     return this.state !== nextState || range !== nextProps.range || type !== nextProps.type;
+    // };
 
     componentDidUpdate(prevProps, prevState){
-        const { range, type } = this.props;
-        if (range !== prevProps.range || type !== prevProps.type) {
-            this.init();
+        const { isStartLoad, tier, preTier } = this.props;
+        if (isStartLoad !== prevProps.isStartLoad) {
+            //console.log('Tier Test');
+
+            const tierList = {};
+            tier.forEach((t, idx) => {
+                tierList[idx] = [];
+                for (const charKey in t['tier']) {
+                    for (const weaKey in t['tier'][charKey]) {
+                        const char = t['tier'][charKey][weaKey];
+                        char['characterNum'] = charKey;
+                        char['bestWeapon'] = weaKey;
+                        tierList[idx].push(char);
+                    }
+                }
+            });
+
+            const preTierList = {};
+            preTier.forEach((t, idx) => {
+                preTierList[idx] = {};
+                for (const charKey in t['tier']) {
+                    preTierList[idx][charKey] = {};
+                    for (const weaKey in t['tier'][charKey]) {
+                        const char = t['tier'][charKey][weaKey];
+                        char['characterNum'] = charKey;
+                        char['bestWeapon'] = weaKey;
+                        preTierList[idx][charKey][weaKey] = char;
+                    }
+                }
+            });
+    
+            this.setState({ isStartLoad: true, tierList: tierList, preTier:preTierList });
         }
     };
 
-    init = () => {
-        const { range, type } = this.props;
-        
-        this.setState({tierList: CharacterScore(range, type), preRankList: CharacterPreRank(range, type)});
-    };
-
-    listSort = () => {
+    listSort = (_type) => {
         const { tierList, type, typeFocus } = this.state;
 
-        tierList.sort((a, b) => {
-            const _a = a['score'][type[typeFocus]];
-            const _b = b['score'][type[typeFocus]];
-            return _b - _a;
+        if (!tierList[0]) return;
+
+        tierList[_type].sort((a, b) => {
+            const _a = a['rank'][type[typeFocus]];
+            const _b = b['rank'][type[typeFocus]];
+            return _a - _b;
         });
     };
 
     listView = () => {
         const { range, type, intl } = this.props;
-        const { tierList, preRankList, typeFocus } = this.state;
+        const { tierList, preTier, typeFocus } = this.state;
 
-        this.listSort();
+        if (!tierList[0]) return;
 
-        return tierList.map((data, idx) => {
-            const preRank = preRankList[data['character']+'-'+ data['weapon']];
-            const rankDiff = preRank ? preRank[this.state.type[typeFocus]] - (idx+1) : 0;
+        this.listSort(type);
+
+        return tierList[type].map((data, idx) => {
+            const preRank = preTier[type][data['characterNum']][data['bestWeapon']];
+            const rankDiff = preRank ? preRank['rank'][this.state.type[typeFocus]] - (idx+1) : 0;
+            const characterName = getCharacter(data['characterNum'])['name'];
+            const weaponName = getWeaponType(data['bestWeapon']);
 
             if (preRank) {
                 return (
-                    <div className="rank-1" key={'tier' + idx}>                
-                        <span className="rank3rank1">{idx+1}</span>&nbsp;
-                        <img className="rank3Updown"   src={(rankDiff>0?'img/UpDown/상승.png':rankDiff<0?'img/UpDown/하락.png':'img/UpDown/유지.png')} />&nbsp;
-                        <span className="rank3Updown1">{Math.abs(rankDiff)}</span>&nbsp;
-                        <Link to={'Detail?range='+range+'&type='+type+'&character='+data['character']+'&weapon='+ data['weapon']}>
-                            <img className="rank3cha1" src={'img/Rank/'+data['character']+(data['tier']>0?'':'_오피')+'.jpg'} />
-                            <span className="rank3chaname">{intl.formatMessage({id: 'characters.'+data['character']})}</span>
-                        </Link>&nbsp;
-                        <img className="rank3weapon1"  src={'img/Weapons/'+data['weapon']+'.jpg'} />&nbsp;
-                        <img className="rank3tier1"    src={data['tier']===0?'img/Tier/1티어.png':'img/Tier/'+data['tier']+'티어.png'} />&nbsp;
-                        <span className="rank3win1"> {data['data']['win-rate'].toFixed(1)}% </span>&nbsp;
-                        <span className="rank3pick1">{data['data']['pick-rate'].toFixed(1)}%</span>&nbsp;
+                    <div className="rank-1" key={'tier' + idx}>        
+                          
+                            <span className="rank3rank1">{idx+1}</span>&nbsp;
+                            <img className="rank3Updown"   src={(rankDiff>0?'img/UpDown/상승.png':rankDiff<0?'img/UpDown/하락.png':'img/UpDown/유지.png')} />&nbsp;
+                            <span className="rank3Updown1">{Math.abs(rankDiff)}</span>&nbsp;
+                            <img className="rank3cha1" src={'img/Rank/'+characterName+(data['tier']>0?'':'_오피')+'.jpg'} />&nbsp;
+                            <Link to={'Detail?gameMode='+(type+1)+'&character='+data['characterNum']+'&bestWeapon='+ data['bestWeapon']}>     
+                                <span className="rank3chaname">{intl.formatMessage({id: 'characters.'+characterName})}</span>
+                            </Link>
+                            <img className="rank3weapon1"  src={'img/Weapons/'+weaponName+'.jpg'} />&nbsp;
+                            <img className="rank3tier1"    src={data['tier']===0?'img/Tier/1티어.png':'img/Tier/'+data['tier']+'티어.png'} />&nbsp;
+                            <span className="rank3win1"> {(data['winRate']*100).toFixed(1)}%</span>&nbsp;
+                            <span className="rank3pick1">{(data['pickRate']*100).toFixed(1)}%</span>&nbsp;
+                       
                     </div>
                 );
             } else {
                 return (
-                    <div className="rank-1" key={'tier' + idx}>                
-                        <span className="rank3rank1">{idx+1}</span>&nbsp;
-                        <img className="rank3new"   src={'img/UpDown/new.png'} />&nbsp;
-                        <Link to={'Detail?range='+range+'&type='+type+'&character='+data['character']+'&weapon='+ data['weapon']}>
-                            <img className="rank3cha1" src={'img/Rank/'+data['character']+(data['tier']>0?'':'_오피')+'.jpg'} />
-                            <span className="rank3chaname">{intl.formatMessage({id: 'characters.'+data['character']})}</span>
-                        </Link>&nbsp;
-                        <img className="rank3weapon1"  src={'img/Weapons/'+data['weapon']+'.jpg'} />&nbsp;
-                        <img className="rank3tier1"    src={data['tier']===0?'img/Tier/1티어.png':'img/Tier/'+data['tier']+'티어.png'} />&nbsp;
-                        <span className="rank3win1"> {data['data']['win-rate'].toFixed(1)}% </span>&nbsp;
-                        <span className="rank3pick1">{data['data']['pick-rate'].toFixed(1)}%</span>&nbsp;
+                    <div className="rank-1" key={'tier' + idx}>    
+                                 
+                            <span className="rank3rank1">{idx+1}</span>&nbsp;
+                            <img className="rank3new"   src={'img/UpDown/new.png'} />&nbsp;
+                            <img className="rank3cha1" src={'img/Rank/'+characterName+(data['tier']>0?'':'_오피')+'.jpg'} />&nbsp;
+                            <Link to={'Detail?gameMode='+(type+1)+'&character='+data['characterNum']+'&bestWeapon='+ data['bestWeapon']}>      
+                                <span className="rank3chaname">{intl.formatMessage({id: 'characters.'+characterName})}</span>
+                            </Link>
+                            <img className="rank3weapon1"  src={'img/Weapons/'+weaponName+'.jpg'} />&nbsp;
+                            <img className="rank3tier1"    src={data['tier']===0?'img/Tier/1티어.png':'img/Tier/'+data['tier']+'티어.png'} />&nbsp;
+                            <span className="rank3win1"> {data['winRate'].toFixed(1)}% </span>&nbsp;
+                            <span className="rank3pick1">{data['pickRate'].toFixed(1)}%</span>&nbsp;
+                        
                     </div>
                 );
             }
@@ -123,8 +158,8 @@ class Tier extends Component {
                     <span className="rank3cha">{intl.formatMessage({id: 'character'})}</span>&nbsp;
                     <span className="rank3weapon">{intl.formatMessage({id: 'weapon'})}</span>&nbsp;
                     <span className="rank3tier">{intl.formatMessage({id: 'tier'})}</span>&nbsp;
-                    <span className="rank3win">{intl.formatMessage({id: 'win-rate'})}</span>&nbsp;
-                    <span className="rank3pick">{intl.formatMessage({id: 'pick-rate'})}</span>&nbsp;
+                    <span className="rank3win">{intl.formatMessage({id: 'winRate'})}</span>&nbsp;
+                    <span className="rank3pick">{intl.formatMessage({id: 'pickRate'})}</span>&nbsp;
                 </div>
                 {this.listView()}
             </div>

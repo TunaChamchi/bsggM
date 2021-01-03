@@ -24,7 +24,7 @@ let flattedMessages = flattenMessages(locale[defaultLang()]['data']);
 
 const Root = () => (
     <BrowserRouter>
-        <IntlProvider locale={defaultLang()} messages={flattedMessages}>
+        <IntlProvider locale={defaultLang()} messages={flattedMessages} onError={() => {}}>
             <App/>
         </IntlProvider>
     </BrowserRouter>

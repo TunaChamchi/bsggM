@@ -32,10 +32,10 @@ class Monster extends Component {
 
         return mosterList.map((moster, idx) => {
             return (
-                <div className="tabHeaders3" key={'moster'+idx} >
+                <div className="tabHeaders3">
                     <img className={"map_img_animal" + (selectMoster === moster ? ' actived' : '')}
                     onClick={(e) => this.onClick(e, moster)}
-                    src={'img/Animal/'+moster+'.jpg'} />
+                    key={'moster'+idx} src={'img/Animal/'+moster+'.jpg'} />
                 </div>
             )
         });
@@ -47,9 +47,9 @@ class Monster extends Component {
 
         return itemList.map((item, idx) => {
             return (
-                <div className="map_item_locale" key={'moster_item'+idx} >
+                <div className="map_item_locale">
                     <img className="map_img_item2" src={itemBgI(item)}/>
-                    <img className="map_img_item" src={'img/Item/'+ item +'.png'} />
+                    <img className="map_img_item" key={'item'+idx} src={'img/Item/'+ item +'.png'} />
                 </div>
             )
         });
@@ -61,12 +61,12 @@ class Monster extends Component {
 
         return (
             <div className="map_square">
-            <div className="map_tab">{intl.formatMessage({id:'출현 동물'})}</div>
+                <div className="map_tab">{intl.formatMessage({id:'출현 동물'})}</div>
                 {this.MosterView()}
                 {
                     selectMoster && 
                         <div>
-                        <div className="map_tab2">{intl.formatMessage({id:'드랍 아이템'})}</div>
+                            <div className="map_tab2">{intl.formatMessage({id:'드랍 아이템'})}</div>
                             {this.itemView()}
                         </div>
                 }

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { injectIntl  } from 'react-intl';
-import AdSense from 'react-adsense';
 import { Header, MainBanner, AdS, Footer } from 'components/banner'
 import { Item, Monster } from 'components/map/dex'
 import map from 'img/map.png';
@@ -24,28 +23,13 @@ class Map extends Component {
 
         const metaData = {
             title: 'BSGG.kr - ' + intl.formatMessage({id: 'Title.Map'}),
-            description: '영원회귀 : 블랙 서바이벌 통계, 캐릭터 티어, 아이템 트렌드, BS:ER Stats, Character Tier, Item Trend'
         }
 
         return (
             <div>
                 <Header data={metaData}/>
                 <MainBanner />
-                {/* <div className="Ad_box_Detail2">
-                    <ins 
-                        class="kakao_ad_area" 
-                        style={{display: 'none'}}
-                        data-ad-unit="DAN-eOZOZvEyRvmmrIAV" 
-                        data-ad-width="728" 
-                    data-ad-height="90"></ins>
-                </div> */}
-                <AdSense.Google
-                    className='Ad_box_Detail2'
-                    client='ca-pub-7215780243476450'
-                    slot='9630487981'
-                    style={{ display: 'block', width:728 }}
-                    responsive='true'
-                    />
+                
                 <div className="map_main">
                     <div className="tri"></div>
                     <div className="map_title">
@@ -54,6 +38,18 @@ class Map extends Component {
                     <div className="tabHeaders">
                         <Link to='/Route'><span className="map_tab0">{intl.formatMessage({id:'루트제작'})}</span></Link>
                         <span className="map_tab0 actived">{intl.formatMessage({id:'지도 도감'})}</span>
+                    </div>
+                    <div className="map_right">
+                        {
+                            selectMap &&
+                                <Item 
+                                    map={selectMap}/>
+                        }
+                        {
+                            selectMap &&
+                                <Monster 
+                                    map={selectMap}/>
+                        }                        
                     </div>
                     <div className="map_left">
                         <img className="mapimg" src={map} />                        
@@ -131,10 +127,10 @@ class Map extends Component {
                                     <div className="map_Forest"  onClick={(e) => this.onClick(e, '숲')}>{intl.formatMessage({id: 'Forest'})}</div>
                             }
                             {
-                                selectMap === '고급 주택가' ? 
-                                    <div className="map_Uptown actived"  onClick={(e) => this.onClick(e, '고급 주택가')}>{intl.formatMessage({id: 'Uptown'})}</div>
+                                selectMap === '고급주택가' ? 
+                                    <div className="map_Uptown actived"  onClick={(e) => this.onClick(e, '고급주택가')}>{intl.formatMessage({id: 'Uptown'})}</div>
                                     :
-                                    <div className="map_Uptown"  onClick={(e) => this.onClick(e, '고급 주택가')}>{intl.formatMessage({id: 'Uptown'})}</div>
+                                    <div className="map_Uptown"  onClick={(e) => this.onClick(e, '고급주택가')}>{intl.formatMessage({id: 'Uptown'})}</div>
                             }
                             {
                                 selectMap === '항구' ? 
@@ -155,36 +151,9 @@ class Map extends Component {
                                     <div className="map_Research"  onClick={(e) => this.onClick(e, '연구소')}>{intl.formatMessage({id: 'Research'})}</div>
                             }
                         </div>
-                        
-                    <div className="map_right">
-                        {
-                            selectMap &&
-                                <Item 
-                                    map={selectMap}/>
-                        }
-                        {
-                            selectMap &&
-                                <Monster 
-                                    map={selectMap}/>
-                        }                        
-                    </div>
                     </div>
                 </div>
-                {/* <div className="Ad_box_Detail2">
-                    <ins 
-                        class="kakao_ad_area" 
-                        style={{display: 'none'}}
-                        data-ad-unit="DAN-2F5abPe9K508dSMu" 
-                        data-ad-width="728" 
-                    data-ad-height="90"></ins>
-                </div> */}
-                <AdSense.Google
-                    className='Ad_box_Detail2'
-                    client='ca-pub-7215780243476450'
-                    slot='8063267204'
-                    style={{ display: 'block', width:728 }}
-                    responsive='true'
-                    />
+                <AdS type={'Map'}/>
                 <Footer />
             </div>
         );

@@ -19,7 +19,7 @@ class Dex extends Component {
     dexView = () => {
         const { intl } = this.props;
         return  (
-            <div className="tabHeaders">
+            <div className="tabHeaders2">
                 <div className="map_Archery" onClick={(e) => this.onClick(e)}>{intl.formatMessage({id: 'Archery'})}</div>
                 <div className="map_Alley" onClick={(e) => this.onClick(e)}>{intl.formatMessage({id: 'Alley'})}</div>
                 <div className="map_School" onClick={(e) => this.onClick(e)}>{intl.formatMessage({id: 'School'})}</div>

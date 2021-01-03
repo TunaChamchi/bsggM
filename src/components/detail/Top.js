@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { injectIntl } from 'react-intl';
-import { Version, dmgPlus, getStat } from 'lib/data';
+import { Version, getCharacter, getWeaponType } from 'lib/data';
 
 class Top extends Component {
     constructor(props) {
@@ -12,17 +12,17 @@ class Top extends Component {
     }
 
     weaponListView = () => {
-        const { data, weaponData, parameter } = this.props;
+        const { stat, weaponData, parameter } = this.props;
 
-        weaponData['weaponList'].sort((a, b) => b['pick'] - a['pick']);
-
+        weaponData['weaponList'].sort((a, b) => b['total'] - a['total']);
+        
         return weaponData['weaponList'].map((weapon, idx) => {
-            const pick = (weapon['pick'] / weaponData['weaponTotal'] * 100).toFixed(0);
-            const name = weapon['name'];
+            const pick = (weapon['total'] / weaponData['weaponTotal'] * 100).toFixed(0);
+            const name = getWeaponType(weapon['code']);
 
             return (
-                <Link to={'Detail?range='+parameter['rangeFocus']+'&type='+parameter['typeFocus']+'&character='+parameter['character']+'&weapon='+name} key={'weaponList' + idx}>
-                    <div className={'tabHeader4 ' + (name === data['weapon'] ? 'actived' : '')}>
+                <Link to={'Detail?gameMode='+parameter['gameMode']+'&character='+parameter['character']+'&bestWeapon='+weapon['code']} key={'weaponList' + idx}>
+                    <div className={'tabHeader4 ' + (weapon['code'] === stat['bestWeapon'] ? 'actived' : '')}>
                         <img className="S_top-weapon1" src={'img/Weapons/' + name + '.jpg'} />
                         <span className="S_top-weapon2">{pick}%</span>
                     </div>
@@ -32,24 +32,27 @@ class Top extends Component {
     }
 
     render() {
-        const { intl, data, parameter } = this.props;
+        const { intl, stat, tier, parameter } = this.props;
         const { tierColor } = this.state;
 
-        const character = parameter['character'];
+        const character = getCharacter(stat['characterNum']);
+        const name = character['name'];
+        const statlv = character['levelUp'];
 
-        const img_char = 'img/Characters/' + character + '.jpg';
-        const img_tier = 'img/Tier/' + data['tier'] + '티어2.png';
+        const _tier = tier[(parameter['gameMode']-1)]['tier'][stat['characterNum']][parameter['bestWeapon']]['tier']
+        const img_char = 'img/Characters/' + name + '.jpg';
+        const img_tier = 'img/Tier/'+_tier+'티어2.png'
 
-        return (            
+        return (
             <div className="S_top">
                 <div className="S_top-cha">
-                    <img className="S_top-cha1" style={{border:"3px solid "+ tierColor[data['tier']-1]}} src={img_char} />
+                    <img className="S_top-cha1" style={{border:"3px solid "+ tierColor[_tier-1]}} src={img_char} />
                     <img className="S_top-cha2" src={img_tier} />
                 </div>
                 <div className="S_top-box">  
-                    <span className="S_top-cha3">{intl.formatMessage({id: 'characters.'+character})}</span>
+                    <span className="S_top-cha3">{intl.formatMessage({id: 'characters.'+name})}</span>
                     <div className="tabHeaders2">
-                        {this.weaponListView()}
+                    {this.weaponListView()}
                     </div>
                 </div>
             </div>
