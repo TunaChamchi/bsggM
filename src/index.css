@@ -147,104 +147,55 @@ button:hover{
     margin-top: 70px;
     margin-left: 58px;
 }
-.S_skill_tooltip_T{
+.S_item_tooltip4{
     visibility: hidden;
-    width: 400px;
+    width: 200px;
     background-color: rgb(23, 21, 32);
     position: absolute;
     z-index: 1;
-    font-size: 20pt;
+    font-size: 10pt;
     white-space: pre-line;
     word-break: keep-all;
-    border-radius: 10px;
+    border-radius: 3px;
     color:white;
     font-weight: 300;
     padding: 5px;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 39px;
 }
-.S_skill_tooltip_Q{
+.S_item_tooltip5{
     visibility: hidden;
-    width: 400px;
+    width: 200px;
     background-color: rgb(23, 21, 32);
     position: absolute;
     z-index: 1;
-    font-size: 20pt;
+    font-size: 10pt;
     white-space: pre-line;
     word-break: keep-all;
-    border-radius: 10px;
+    border-radius: 3px;
     color:white;
     font-weight: 300;
     padding: 5px;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 39px;
+    margin-left: -70px;
 }
-.S_skill_tooltip_E{
+.S_item_tooltip6{
     visibility: hidden;
-    width: 400px;
+    width: 200px;
     background-color: rgb(23, 21, 32);
     position: absolute;
     z-index: 1;
-    font-size: 20pt;
+    font-size: 10pt;
     white-space: pre-line;
     word-break: keep-all;
-    border-radius: 10px;
+    border-radius: 3px;
     color:white;
     font-weight: 300;
     padding: 5px;
     text-align: center;
-    margin-top: 5px;
-    margin-left: -60px;
-}
-.S_skill_tooltip_R{
-    visibility: hidden;
-    width: 400px;
-    background-color: rgb(23, 21, 32);
-    position: absolute;
-    z-index: 1;
-    font-size: 20pt;
-    white-space: pre-line;
-    word-break: keep-all;
-    border-radius: 10px;
-    color:white;
-    font-weight: 300;
-    padding: 5px;
-    text-align: center;
-    margin-top: 5px;
-    margin-left: -170px;
-}
-.S_skill_tooltip_D{
-    visibility: hidden;
-    width: 400px;
-    background-color: rgb(23, 21, 32);
-    position: absolute;
-    z-index: 1;
-    font-size: 20pt;
-    white-space: pre-line;
-    word-break: keep-all;
-    border-radius: 10px;
-    color:white;
-    font-weight: 300;
-    padding: 5px;
-    text-align: center;
-    margin-top: 5px;
-    margin-left: -280px;
-}
-.S_skill_tooltip_W{
-    visibility: hidden;
-    width: 400px;
-    background-color: rgb(23, 21, 32);
-    position: absolute;
-    z-index: 1;
-    font-size: 20pt;
-    white-space: pre-line;
-    word-break: keep-all;
-    border-radius: 10px;
-    color:white;
-    font-weight: 300;
-    padding: 5px;
-    text-align: center;
-    margin-top: 5px;
+    margin-top: 39px;
+    margin-left: -140px;
 }
 .rank_span:hover .rank_span_tooltip{
     visibility: visible;
@@ -258,22 +209,19 @@ button:hover{
 .S_item_toolbox1:hover .S_item_tooltip3{
     visibility: visible;
 }
-.S_skill_toolbox:hover .S_skill_tooltip_T{
+.item_tab_imgbox:hover .S_item_tooltip4{
     visibility: visible;
 }
-.S_skill_toolbox:hover .S_skill_tooltip_Q{
+.item_tab_imgbox:hover .S_item_tooltip5{
     visibility: visible;
 }
-.S_skill_toolbox:hover .S_skill_tooltip_W{
+.item_tab_imgbox:hover .S_item_tooltip6{
     visibility: visible;
 }
-.S_skill_toolbox:hover .S_skill_tooltip_E{
+.record_history_badge_box:hover .item_span_tooltip{
     visibility: visible;
 }
-.S_skill_toolbox:hover .S_skill_tooltip_R{
-    visibility: visible;
-}
-.S_skill_toolbox:hover .S_skill_tooltip_D{
+.record_top_medal_box:hover .medal_span_tooltip{
     visibility: visible;
 }
 .S_item_toolbox{
@@ -352,7 +300,7 @@ button:hover{
 }
 .mainpage_search{
     width: 700px;
-    height: 90px;
+    height: 80px;
     background-color: #262335;
     border-radius: 50px;
     margin: auto;
@@ -368,8 +316,8 @@ button:hover{
 .mainpage_search label {
 	cursor: pointer;
 	text-indent: -9999px;
-	width: 120px;
-	height: 80px;
+	width: 110px;
+	height: 70px;
     background-color: rgb(218, 191, 19);
 	display: block;
 	border-radius: 100px;
@@ -383,8 +331,8 @@ button:hover{
 	position: absolute;
 	top: 5px;
 	left: 5px;
-	width: 70px;
-	height: 70px;
+	width: 60px;
+	height: 60px;
 	background: #fff;
 	border-radius: 90px;
 	transition: 0.3s;
@@ -447,7 +395,7 @@ button:hover{
     border:none;
     font-size: 28pt;
     margin-left: 130px;
-    margin-top: 17px;
+    margin-top: 10px;
     color: rgb(209, 209, 209) ;
 }
 .mainpage_ad{
@@ -1064,10 +1012,9 @@ button:hover{
 }
 .S_Trend_T{
         float: right;
-        width: 390px;
+        width: 750px;;
         text-align: center;
-        font-size: 37pt;
-        padding-top: 4px;
+        font-size: 25pt;
         word-spacing: 20px;
 }
 .S_Trend_tab{
@@ -1084,111 +1031,172 @@ button:hover{
     padding-bottom: 9px;
     
 }
+.S_Trend{
+    background-color: rgb(38, 35, 53);
+    text-align: center;
+    border-radius: 3px;
+    border-bottom: 1px solid #3b4147;
+    float: right;
+    padding-bottom: 60px;
+    margin-top: 10px;
+}
+.S_Trend0{
+    width: 750px;
+    height: 40px;
+    font-family: "Big Shoulders Stencil Display";
+    font-size: 23pt;
+    padding-top: 5px;
+    float: right;
+    background-color: rgb(35, 27, 47);
+    border-bottom: 1px solid rgb(23, 21, 32);
+    border-radius: 3px 3px 0px 0px;
+    margin-bottom: -50px;
+}
 .S_Trend1{
-    height: 70px;
+    height: 45px;
     background-color: rgb(38, 35, 53);
     clear: both;
-    
 }
-.tabHeader6 {
+.tabHeader6{
     width: 250px;
     float: left;
-    padding-top: 9px;
-    padding-bottom: 5px;
-    font-size: 24pt;
-    color: rgb(209, 209, 209);
+    padding-top: 6px;
+    padding-bottom: 4px;
+    font-size: 16pt;
+    color: gray;
     border-bottom: 1px solid #3b4147;
 }
 .S_Trend2{
-    margin-top: 0px;
+    margin-top: 10px;
 }
 .S_Trend_square{
-    margin-top: 20px;
-    margin-left: 10px;
-    width: 730px;
-    height: 130px;
-    background-color: rgb(38, 35, 53);
-    float:left;
-    border-radius: 3px;
-    border-bottom: 1px solid #3b4147;
+    padding-top: 1px;
+    margin-top: 60px;
+    margin-bottom: -50px;
+    margin-left: 22px;
+    width: 340px;
+    height: 140px;
     background-color: rgb(35, 27, 47);
+    border-radius: 5px;
+    border: 1px solid #171520;
+    float: left;
 }
 .S_Trend_square1{
-    display: inline-block;
-    width: 200px;
     text-align: left;
     clear: both;
-    float: left;
     margin-left: 15px;
-    margin-top: 0px;
-    font-size: 30pt;
+    margin-top: 5px;
+    font-size: 14pt;
 }
 .S_Trend_square2{
-    clear: both;
-    display: inline-block;
-    width: 190px;
-    text-align: right;
-    float: right;
-    margin-right: 10px;
-    margin-top: -10px;
-    font-size: 40pt;
+    text-align: left;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 24pt;
 }
 .S_Trend_square3{
-    display: inline-block;
-    width: 70px;
     text-align: right;
-    float: right;
     margin-right: 15px;
-    margin-top: 0px;
-    font-size: 30pt;
+    margin-top: 30px;
+    font-size: 16pt;
 }
 .S_Trend_Graph{
-    margin-top: 15px;
-    margin-left: 30px;
-    width: 500px;
-    height: 8px;
-    background-color:rgb(33, 33, 33);
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 320px;
+    height: 4px;
+    background-color: #09080c;;
     float: left;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .S_Trend_Graph2{
     position: absolute;
-    margin-top: 74px;
-    margin-left: 30px;
-    width: 500px;
-    height: 8px;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 150px;
+    height: 4px;
     background-color: rgb(244,216,35);
     float: left;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .S_Trend_avg{
-    position: absolute;
-    width: 120px;
+    width: 70px;
     height: 50px;
-    font-size: 15pt;
-    text-align: left;
+    font-size: 10pt;
+    text-align: center;
     margin-left: 100px;
-    margin-top: 82px;
     clear: both;
   }
 .S_Trend_Tri{
     width: 0px;
     height: 0px;
-    border-bottom: 15px solid #007fd3;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
+    border-bottom: 10px solid rgb(35, 132, 244);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin-top: 2px;
     margin-left: 23px;
-    padding-top: 3px;
+    padding-top: 2px;
   }
 .S_Trend_avg1{
     clear: both;
 }
+.master{
+    width: 750px;
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+}
+.master0{
+    width: 750px;
+    height: 38px;
+    font-family: "Big Shoulders Stencil Display";
+    font-size: 23pt;
+    padding-top: 2px;
+    background-color: rgb(35, 27, 47);
+    border-bottom: 1px solid rgb(23, 21, 32);
+    border-radius: 3px 3px 0px 0px;
+}
+.master_rank{
+    width: 750px;
+    height: 40px;
+    background-color: #262335;
+    font-size: 18pt;
+    border-bottom: 1px solid #3b4147;
+}
+.master_rank1{
+    float: left;
+    width: 20px;
+    display: inline-block;
+    font-family: "Big Shoulders Stencil Display";
+    font-size: 18pt;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.master_rank2{
+    width: 450px;
+    display: inline-block;
+}
+.master_rank3{
+    width: 200px;
+    display: inline-block;
+}
+.master_button{
+    width: 750px;
+    height: 38px;
+    background-color: #262335;
+    font-size: 18pt;
+    border:none;
+    border-bottom: 1px solid #3b4147;
+    color: rgb(209, 209, 209);
+    border-radius: 0px 0px 3px 3px;
+}
 .S_Skill{
     width: 750px;
     text-align: center;
-    background-color: rgb(38, 35, 53);
+    background-color: #262335;
     border-radius: 3px;
-    height: 344px;
+    height: 280px;
     border-bottom: 1px solid #3b4147;
 }
 .S_Skill_tab{
@@ -1229,18 +1237,14 @@ button:hover{
     width: 750px;
     background-color: #262335;
 }
-.skill_tabs .actived{
-    border-left: 3px solid rgb(244,216,35);
-    color:  rgb(209, 209, 209);
-}
 .skill_tree_tab{
     float: left;
-    width: 350px;
-    height: 177px;
-    background-color: #251f32;
+    width: 750px;
+    background-color: #262335;
 }
 .skill_tab{
-    width: 350px;
+    color:  rgb(209, 209, 209);
+    width: 373px;
     float: left;
     padding-top: 3px;
     padding-bottom: 6px;
@@ -1248,18 +1252,18 @@ button:hover{
     font-size: 15pt;
     color: gray;
     border-right: 1px solid #3b4147;
-    border-left: 3px solid #3b4147;
+    border-left: 1px solid #3b4147;
     border-bottom: 1px solid #3b4147;
 }
 .skill_tab_span{
     float: left;
+    color:  rgb(209, 209, 209);
 }
 .skill_tab_imgbox{
     position: relative;
     float: left;
-}
-.skill_tab :hover{
-    cursor: pointer;
+    color:  rgb(209, 209, 209);
+    margin-top: 5px;
 }
 .skill_tab_Q{
     width: 40px;
@@ -1326,18 +1330,19 @@ button:hover{
     margin-top: -4px;
     text-align: center;
     float: right;
+    margin-right: 15px;
 }
 .skill_tab_span1{
     display: inline-block;
-    width: 100px;
+    width: 110px;
 }
 .skill_tab_span2{
     display: inline-block;
-    width: 100px;
+    width: 110px;
 }
 .skill_tab_span3{
     display: inline-block;
-    width: 80px;
+    width: 110px;
     margin-left: 0px;
 }
 .skill_centent{
@@ -1654,6 +1659,226 @@ button:hover{
     font-size: 20pt;
     color:  rgb(209, 209, 209);
     padding-right: 29px;
+}
+
+
+
+.item{
+    width: 750px;
+    height: 881px;
+    background-color: #262335;
+    margin-top: 10px;
+    border-radius: 3px 3px 0px 0px;
+    text-align: center;
+    border-bottom: 1px solid #3b4147;
+}
+.item0{
+    clear: both;
+    font-size: 24px;
+    height: 40px;
+    background-color: rgb(35, 27, 47);
+    width: 750px;
+    border-bottom: 1px solid rgb(23, 21, 32);
+    border-radius: 3px 3px 0px 0px;
+}
+.item0_span{
+    width: 300px;
+    float: left;
+    margin-left: 225px;
+    text-align: center;
+}
+.item0_tab{
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14pt;
+    color: gray;
+    text-align: center;
+}
+.item_tabs{
+    float: left;
+    width: 336px;
+    height: 499px;
+    background-color: #251f32;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-bottom: 1px solid #3b4147;
+    border-right: 1px solid #3b4147;
+}
+.item_tabs .actived{
+    border-left: 3px solid rgb(244,216,35);
+    color:  rgb(209, 209, 209);
+}
+.item_tab{
+    width: 333px;
+    float: left;
+    padding-top: 3px;
+    padding-bottom: 6px;
+    height: 90px;
+    font-size: 15pt;
+    color: gray;
+    border-left: 3px solid #3b4147;
+    border-bottom: 1px solid #3b4147;
+}
+.item_tab :hover{
+    cursor: pointer;
+}
+.item_tab_imgbox_all{
+    width: 250px;
+}
+.item_tab_imgbox{
+    position: relative;
+    border-radius: 3px;
+    width: 67px;
+    height: 38px;
+    float: left;
+    margin-top: 5px;
+    margin-right: -5px;
+    margin-left: 8px;
+}
+.item_tab_bg{
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid #3b4147;
+    top: 0px;
+    left: 0px
+}
+.item_tab_img{
+    position: absolute;
+    border-radius: 3px;
+    top: 0px;
+    left: 0px
+}
+.item_tab_span{
+    font-size: 10pt;
+    text-align: center;
+    margin-top: 3px;
+}
+.item_tab_span1{
+    display: inline-block;
+    width: 100px;
+    margin-top: 7px;
+}
+.item_tab_span2{
+    display: inline-block;
+    width: 100px;
+    margin-top: 7px;
+}
+.item_tab_span3{
+    display: inline-block;
+    width: 40px;
+    margin-top: 7px;
+}
+.item_route{
+    width: 413px;
+    height: 499px;
+    float: left;
+    position: relative;
+    border-bottom: 1px solid #3b4147;
+}
+.item_route_startimg{
+    width: 50px;
+    position: absolute;
+    left: 10px;
+    top: 35px;
+    border-radius: 10%;
+    cursor: pointer;
+    border: 1px solid #3b4147;
+}
+.item_route_tab{
+    width: 82.6px;
+    float: left;
+    padding-bottom: 2px;
+    font-size: 11pt;
+    color: gray;
+    border-bottom: 1px solid  #3b4147;
+    text-align: center;
+    background-color: #251f32;
+}
+.item_route_map{
+    width: 370px;
+    height: 425px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.item_route_map2{
+    width: 370px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+.item_route_spawn{
+    width: 750px;
+    height: 340px;
+    background-color: #262335;
+    overflow-y: hidden;
+    border-radius: 0px 0px 3px 3px;
+}
+.item_route_spawnY{
+    float: left;
+    width: 249px;
+    height: 169px;
+    border-right: 1px solid #3b4147;
+    border-bottom: 1px solid #3b4147;
+}
+.item_route_spawnY-R{
+    float: left;
+    width: 250px;
+    height: 169px;
+    border-bottom: 1px solid #3b4147;
+}
+.item_route_spawn_title{
+    text-align: center;
+    background-color: #251f32;
+    border-bottom: 1px solid #3b4147;
+}
+.item_route_spawn_Make{
+    height: 36px;
+    border-bottom: 1px solid #3b4147;
+    padding-left: 7px;
+}
+.item_route_spawn_Need{
+    height: 106px;
+    padding-left: 7px;
+    float: left;
+}
+.item_route_spawn_Make_img{
+    width: 52px;
+    height: 27.7px;
+    position: relative;
+    border-radius: 3px;
+    margin: 3px;
+    margin-top: 2px;
+    float: left;
+}
+.item_route_spawn_Make_img1{
+    border-radius: 3px;
+    width: 52px;
+    border:1px solid #3b4147;
+}
+.item_route_spawn_Make_img2{
+    position: absolute;
+    border-radius: 3px;
+    width: 50px;
+    top: 1px;
+    left: 1px;
+}
+.item_rank{
+    width: 750px;
+    background-color: #262335;
+    border-bottom: solid 1px #3b4147;
+    height: 810px;
+    border-radius: 0px 0px 3px 3px;
+}
+.item_scroll{
+    width: 389px;
+    height: 757px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 3px;
 }
 .footer{
     width: 750px;
@@ -4291,3 +4516,36 @@ button:hover{
     margin-right: -25px;
     text-align: center;
 }
+/* 6 page */
+.Loading_main{
+    width: 750px;
+    margin:auto;
+}
+.Loading_main_span{
+    text-align: center;
+    font-size: 20pt;
+    margin-bottom: 1000px;
+}
+.Loading_main_span_x{
+    text-align: center;
+    font-size: 20pt;
+    width: 750px;
+    margin: 0;
+    display: inline-block;
+    clear: both;
+    margin-top: 365px;
+    margin-bottom: 765px;
+}
+#loading_animation{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+    margin-left: -78px;
+    margin-bottom: 50px;
+    margin-top: 300px;
+  }

@@ -29,7 +29,7 @@ class Skill extends Component {
 
         const list = [...skillTree];
         
-        return list.slice(0, 3).map((tree, idx) => 
+        return list.slice(0, 4).map((tree, idx) => 
             <div className='skill_tabs' key={'treeTab'+idx} 
                 onClick={(e) => this.skillTreeTabHandler(idx)}>
                 <div className={"skill_tab" + (idx===skillTreeFocus ? ' actived' : '')}  >
@@ -76,14 +76,6 @@ class Skill extends Component {
                 </div>
                 <div className="skill_tree_tab">
                     {this.skillTreeTabView()}
-                </div>
-                <div className="skill_centent">
-                    <div className="skill_imgbox">
-                        {this.skillTreePick()}
-                        <span className="skill_mark1">&gt;</span>
-                        <span className="skill_mark2">&gt;</span>
-                        <span className="skill_mark3">&gt;</span>
-                    </div>
                 </div>
             </div>
         );
