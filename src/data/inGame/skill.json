@@ -1,0 +1,701 @@
+{
+  "1001100": {
+    "name": "피의 축제",
+    "type": "character",
+    "button": "T"
+  },
+  "1001200": {
+    "name": "연참",
+    "type": "character",
+    "button": "Q"
+  },
+  "1001300": {
+    "name": "아드레날린 분비",
+    "type": "character",
+    "button": "W"
+  },
+  "1001400": {
+    "name": "습격",
+    "type": "character",
+    "button": "E"
+  },
+  "1001500": {
+    "name": "전기톱 살인마",
+    "type": "character",
+    "button": "R"
+  },
+  "1001510": {
+    "name": "전기톱 살인마-마무리 일격",
+    "type": "character",
+    "button": "R"
+  },
+  "1002100": {
+    "name": "스즈키식 정의",
+    "type": "character",
+    "button": "T"
+  },
+  "1002200": {
+    "name": "2연발",
+    "type": "character",
+    "button": "Q"
+  },
+  "1002300": {
+    "name": "고정 사격",
+    "type": "character",
+    "button": "W"
+  },
+  "1002400": {
+    "name": "무빙턴",
+    "type": "character",
+    "button": "E"
+  },
+  "1002500": {
+    "name": "공포탄",
+    "type": "character",
+    "button": "R"
+  },
+  "1003100": {
+    "name": "표식",
+    "type": "character",
+    "button": "T"
+  },
+  "1003200": {
+    "name": "바로 찌르기",
+    "type": "character",
+    "button": "Q"
+  },
+  "1003300": {
+    "name": "두번 공격",
+    "type": "character",
+    "button": "W"
+  },
+  "1003310": {
+    "name": "두번 공격-기본 공격",
+    "type": "character",
+    "button": "W"
+  },
+  "1003400": {
+    "name": "찌르기&이동",
+    "type": "character",
+    "button": "E"
+  },
+  "1003410": {
+    "name": "찌르기&이동",
+    "type": "character",
+    "button": "E"
+  },
+  "1003500": {
+    "name": "집중_1",
+    "type": "character",
+    "button": "R"
+  },
+  "1003510": {
+    "name": "집중_2",
+    "type": "character",
+    "button": "R"
+  },
+  "1004100": {
+    "name": "맷집",
+    "type": "character",
+    "button": "T"
+  },
+  "1004200": {
+    "name": "파쇄탄",
+    "type": "character",
+    "button": "Q"
+  },
+  "1004300": {
+    "name": "17 대 1",
+    "type": "character",
+    "button": "W"
+  },
+  "1004400": {
+    "name": "강타",
+    "type": "character",
+    "button": "E"
+  },
+  "1004500": {
+    "name": "폭주 바이크",
+    "type": "character",
+    "button": "R"
+  },
+  "1005100": {
+    "name": "사신의 눈",
+    "type": "character",
+    "button": "T"
+  },
+  "1005200": {
+    "name": "나리야스트라",
+    "type": "character",
+    "button": "Q"
+  },
+  "1005300": {
+    "name": "간디바",
+    "type": "character",
+    "button": "W"
+  },
+  "1005400": {
+    "name": "바이바야스트라",
+    "type": "character",
+    "button": "E"
+  },
+  "1005500": {
+    "name": "바르가바스트라",
+    "type": "character",
+    "button": "R"
+  },
+  "1006100": {
+    "name": "야성과 천리안",
+    "type": "character",
+    "button": "T"
+  },
+  "1006200": {
+    "name": "황소의 눈",
+    "type": "character",
+    "button": "Q"
+  },
+  "1006300": {
+    "name": "다람쥐 덫",
+    "type": "character",
+    "button": "W"
+  },
+  "1006310": {
+    "name": "다람쥐 덫",
+    "type": "character",
+    "button": "W"
+  },
+  "1006400": {
+    "name": "원숭이 와이어",
+    "type": "character",
+    "button": "E"
+  },
+  "1006410": {
+    "name": "원숭이 와이어-이동",
+    "type": "character",
+    "button": "E"
+  },
+  "1006500": {
+    "name": "늑대 맹습",
+    "type": "character",
+    "button": "R"
+  },
+  "1007100": {
+    "name": "도그 파이트",
+    "type": "character",
+    "button": "T"
+  },
+  "1007200": {
+    "name": "발 밟기",
+    "type": "character",
+    "button": "Q"
+  },
+  "1007300": {
+    "name": "허세",
+    "type": "character",
+    "button": "W"
+  },
+  "1007400": {
+    "name": "선빵필승",
+    "type": "character",
+    "button": "E"
+  },
+  "1007500": {
+    "name": "핵펀치",
+    "type": "character",
+    "button": "R"
+  },
+  "1008100": {
+    "name": "FeedBack",
+    "type": "character",
+    "button": "T"
+  },
+  "1008200": {
+    "name": "Delay",
+    "type": "character",
+    "button": "Q"
+  },
+  "1008210": {
+    "name": "Delay",
+    "type": "character",
+    "button": "Q"
+  },
+  "1008300": {
+    "name": "OverDrive",
+    "type": "character",
+    "button": "W"
+  },
+  "1008400": {
+    "name": "Flanger",
+    "type": "character",
+    "button": "E"
+  },
+  "1008410": {
+    "name": "Flanger",
+    "type": "character",
+    "button": "E"
+  },
+  "1008420": {
+    "name": "Flanger",
+    "type": "character",
+    "button": "E"
+  },
+  "1008500": {
+    "name": "PeaceMaker",
+    "type": "character",
+    "button": "R"
+  },
+  "1009100": {
+    "name": "유격전",
+    "type": "character",
+    "button": "T"
+  },
+  "1009200": {
+    "name": "셈텍스 폭탄",
+    "type": "character",
+    "button": "Q"
+  },
+  "1009300": {
+    "name": "화망",
+    "type": "character",
+    "button": "W"
+  },
+  "1009400": {
+    "name": "은밀 기동",
+    "type": "character",
+    "button": "E"
+  },
+  "1009500": {
+    "name": "Mok제 설치형 폭탄",
+    "type": "character",
+    "button": "R"
+  },
+  "1010100": {
+    "name": "취기",
+    "type": "character",
+    "button": "T"
+  },
+  "1010110": {
+    "name": "맹호청권",
+    "type": "character",
+    "button": "T"
+  },
+  "1010200": {
+    "name": "호연각 1타",
+    "type": "character",
+    "button": "Q"
+  },
+  "1010210": {
+    "name": "호연각 2,3타",
+    "type": "character",
+    "button": "Q"
+  },
+  "1010300": {
+    "name": "술마시기",
+    "type": "character",
+    "button": "W"
+  },
+  "1010400": {
+    "name": "술뿌리기",
+    "type": "character",
+    "button": "E"
+  },
+  "1010500": {
+    "name": "맹호취호산",
+    "type": "character",
+    "button": "R"
+  },
+  "1011100": {
+    "name": "완벽한 옷매무새",
+    "type": "character",
+    "button": "T"
+  },
+  "1011200": {
+    "name": "머리치기!",
+    "type": "character",
+    "button": "Q"
+  },
+  "1011210": {
+    "name": "머리치기! - 기본공격",
+    "type": "character",
+    "button": "Q"
+  },
+  "1011300": {
+    "name": "옷매무새 정리",
+    "type": "character",
+    "button": "W"
+  },
+  "1011400": {
+    "name": "빗겨치고 일격",
+    "type": "character",
+    "button": "E"
+  },
+  "1011500": {
+    "name": "화무십일홍(花無十日紅)",
+    "type": "character",
+    "button": "R"
+  },
+  "1012100": {
+    "name": "삼재 - 스택",
+    "type": "character",
+    "button": "T"
+  },
+  "1012200": {
+    "name": "제압부",
+    "type": "character",
+    "button": "Q"
+  },
+  "1012300": {
+    "name": "흡령부",
+    "type": "character",
+    "button": "W"
+  },
+  "1012310": {
+    "name": "흡령부 - 폭파",
+    "type": "character",
+    "button": "W"
+  },
+  "1012400": {
+    "name": "이동부",
+    "type": "character",
+    "button": "E"
+  },
+  "1012410": {
+    "name": "이동부 - 이동",
+    "type": "character",
+    "button": "E"
+  },
+  "1012500": {
+    "name": "오대존명왕진",
+    "type": "character",
+    "button": "R"
+  },
+  "1013100": {
+    "name": "요리사의 열정",
+    "type": "character",
+    "button": "T"
+  },
+  "1013110": {
+    "name": "요리사의 열정 - 음식",
+    "type": "character",
+    "button": "T"
+  },
+  "1013200": {
+    "name": "소스통 던지기",
+    "type": "character",
+    "button": "Q"
+  },
+  "1013300": {
+    "name": "내려 찍기",
+    "type": "character",
+    "button": "W"
+  },
+  "1013400": {
+    "name": "웍 돌진",
+    "type": "character",
+    "button": "E"
+  },
+  "1013500": {
+    "name": "뜨거운 맛",
+    "type": "character",
+    "button": "R"
+  },
+  "1014100": {
+    "name": "낙인",
+    "type": "character",
+    "button": "T"
+  },
+  "1014200": {
+    "name": "부정",
+    "type": "character",
+    "button": "Q"
+  },
+  "1014300": {
+    "name": "뒤틀린 기도",
+    "type": "character",
+    "button": "W"
+  },
+  "1014310": {
+    "name": "뒤틀린 기도 - 폭발",
+    "type": "character",
+    "button": "W"
+  },
+  "1014400": {
+    "name": "집착",
+    "type": "character",
+    "button": "E"
+  },
+  "1014500": {
+    "name": "폭주",
+    "type": "character",
+    "button": "R"
+  },
+  "1014510": {
+    "name": "심판",
+    "type": "character",
+    "button": "R"
+  },
+  "1015100": {
+    "name": "삶은 고통이에요",
+    "type": "character",
+    "button": "T"
+  },
+  "1015110": {
+    "name": "시셀라 평타강화",
+    "type": "character",
+    "button": "T"
+  },
+  "1015200": {
+    "name": "윌슨! 도와줘",
+    "type": "character",
+    "button": "Q"
+  },
+  "1015300": {
+    "name": "어딨어 윌슨?",
+    "type": "character",
+    "button": "W"
+  },
+  "1015400": {
+    "name": "나랑 놀자",
+    "type": "character",
+    "button": "E"
+  },
+  "1015500": {
+    "name": "모두 해방이에요",
+    "type": "character",
+    "button": "R"
+  },
+  "1016100": {
+    "name": "실비아 패시브",
+    "type": "character",
+    "button": "T"
+  },
+  "1016200": {
+    "name": "스피드 건",
+    "type": "character",
+    "button": "Q"
+  },
+  "1016300": {
+    "name": "피니시라인",
+    "type": "character",
+    "button": "W"
+  },
+  "1016400": {
+    "name": "스페어휠",
+    "type": "character",
+    "button": "E"
+  },
+  "1016500": {
+    "name": "기동전 (인간 -> bike)",
+    "type": "character",
+    "button": "R"
+  },
+  "1016600": {
+    "name": "파워슬라이드",
+    "type": "character",
+    "button": "Q"
+  },
+  "1016700": {
+    "name": "스토피",
+    "type": "character",
+    "button": "W"
+  },
+  "1016800": {
+    "name": "윌리 - 들이박음",
+    "type": "character",
+    "button": "E"
+  },
+  "1016900": {
+    "name": "기동전 (bike -> 인간)",
+    "type": "character",
+    "button": "R"
+  },
+  "1017100": {
+    "name": "방화광",
+    "type": "character",
+    "button": "T"
+  },
+  "1017200": {
+    "name": "화염 방사",
+    "type": "character",
+    "button": "Q"
+  },
+  "1017300": {
+    "name": "기름 투척",
+    "type": "character",
+    "button": "W"
+  },
+  "1017400": {
+    "name": "파이어 워커",
+    "type": "character",
+    "button": "E"
+  },
+  "1017500": {
+    "name": "화염병 난사",
+    "type": "character",
+    "button": "R"
+  },
+  "1018100": {
+    "name": "부당거래",
+    "type": "character",
+    "button": "T"
+  },
+  "1018200": {
+    "name": "표리",
+    "type": "character",
+    "button": "Q"
+  },
+  "1018210": {
+    "name": "표리-강화",
+    "type": "character",
+    "button": "Q"
+  },
+  "1018300": {
+    "name": "비약",
+    "type": "character",
+    "button": "W"
+  },
+  "1018400": {
+    "name": "협상",
+    "type": "character",
+    "button": "E"
+  },
+  "1018500": {
+    "name": "무자비",
+    "type": "character",
+    "button": "R"
+  },
+  "1019100": {
+    "name": "CheerUP♥",
+    "type": "character",
+    "button": "T"
+  },
+  "1019200": {
+    "name": "비둘기 딜러 - Summon",
+    "type": "character",
+    "button": "Q"
+  },
+  "1019210": {
+    "name": "비둘기 딜러 - Attack",
+    "type": "character",
+    "button": "Q"
+  },
+  "1019300": {
+    "name": "폭죽 모자",
+    "type": "character",
+    "button": "W"
+  },
+  "1019400": {
+    "name": "복실복실",
+    "type": "character",
+    "button": "E"
+  },
+  "1019500": {
+    "name": "Change★",
+    "type": "character",
+    "button": "R"
+  },
+  "3001000": {
+    "name": "글러브",
+    "type": "weapon"
+  },
+  "3001100": {
+    "name": "글러브 공격",
+    "type": "weapon"
+  },
+  "3002000": {
+    "name": "톤파",
+    "type": "weapon"
+  },
+  "3003000": {
+    "name": "방망이",
+    "type": "weapon"
+  },
+  "3004000": {
+    "name": "채찍",
+    "type": "weapon"
+  },
+  "3005000": {
+    "name": "곡사포",
+    "type": "weapon"
+  },
+  "3006000": {
+    "name": "직사포",
+    "type": "weapon"
+  },
+  "3007000": {
+    "name": "활",
+    "type": "weapon"
+  },
+  "3008000": {
+    "name": "쇠뇌",
+    "type": "weapon"
+  },
+  "3009000": {
+    "name": "무빙리로드",
+    "type": "weapon"
+  },
+  "3010000": {
+    "name": "돌격소총",
+    "type": "weapon"
+  },
+  "3010010": {
+    "name": "돌격소총 과열 공격",
+    "type": "weapon"
+  },
+  "3011000": {
+    "name": "저격총",
+    "type": "weapon"
+  },
+  "3012000": {
+    "name": "캐넌",
+    "type": "weapon"
+  },
+  "3013000": {
+    "name": "망치",
+    "type": "weapon"
+  },
+  "3014000": {
+    "name": "버서크",
+    "type": "weapon"
+  },
+  "3015000": {
+    "name": "망토와 단검",
+    "type": "weapon"
+  },
+  "3015100": {
+    "name": "단검 공격",
+    "type": "weapon"
+  },
+  "3016000": {
+    "name": "빗겨흘리기",
+    "type": "weapon"
+  },
+  "3017000": {
+    "name": "폴암",
+    "type": "weapon"
+  },
+  "3018000": {
+    "name": "쌍검난무",
+    "type": "weapon"
+  },
+  "3018010": {
+    "name": "쌍검난무",
+    "type": "weapon"
+  },
+  "3019000": {
+    "name": "창",
+    "type": "weapon"
+  },
+  "3020000": {
+    "name": "쌍절곤",
+    "type": "weapon"
+  },
+  "3021000": {
+    "name": "레이피어",
+    "type": "weapon"
+  },
+  "3022000": {
+    "name": "기타(매혹)",
+    "type": "weapon"
+  }
+}
