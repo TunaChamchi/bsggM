@@ -462,6 +462,8 @@ button:hover{
     padding-right: 70px;
 }
 .menubutton{
+    display: inline-block;
+    height: 43px;
     border-color: rgba(0,0,0,0);
     background-color:  rgba(0,0,0,0);
     border-radius: 0px;
@@ -2006,7 +2008,6 @@ button:hover{
     width: 750px;
     margin-top: 25px;
     float: right;
-    margin-right: -25px;
 }
 .map_Archery{
     position: absolute;
