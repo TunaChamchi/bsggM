@@ -456,9 +456,10 @@ button:hover{
     border-color: rgba(0,0,0,0);
     background-color:  rgba(0,0,0,0);
     border-radius: 0px;
-    font-size: 20pt;
+    font-size: 24px;
     font-weight: bold;
     color: rgb(209, 209, 209);
+    margin-left: 15px;
 }
 .banner-menu{
     margin: auto;

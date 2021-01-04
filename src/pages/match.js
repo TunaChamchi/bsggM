@@ -70,7 +70,7 @@ class Match extends Component {
                 return;
             }
 
-            await fetch('http://192.168.0.102:3001/api/User/'+_user['userNum']+'/match?limit=20&'+
+            await fetch('http://192.168.0.102:3001/api/User/'+_user['userNum']+'/match?limit=10&'+
                     'matchMode='+matchMode+'&teamMode='+teamMode)
                 .then(res => res.json())
                 .then(res => _matchList = res);
@@ -135,7 +135,7 @@ class Match extends Component {
         } else if (skip !== prevState.skip) { // 더보기 클릭시
             let _matchList;
 
-            await fetch('http://192.168.0.102:3001/api/User/'+user['userNum']+'/match?limit=20&skip='+skip)
+            await fetch('http://192.168.0.102:3001/api/User/'+user['userNum']+'/match?limit=10&skip='+skip)
                 .then(res => res.json())
                 .then(res => _matchList = res);
 
@@ -360,7 +360,7 @@ class Match extends Component {
                     <div className="record_rank_span2">{tierList[tier]} / {lp} LP</div>
                     <div className="record_rank_span3">{total}{intl.formatMessage({id: "전" })} {top1}{intl.formatMessage({id: "승" })} {(top1/total*100).toFixed(1)}% / {kdm.toFixed(1)} KA/M</div>
                     <div className="record_rank_span4">{ranking[key]}{intl.formatMessage({id: "위" })} / {intl.formatMessage({id: "상위" })} {((rank['rankPercent']*100)||0.5).toFixed(1)}%</div>
-                    <div className="record_rank_graph" style={{width: lp*3.5}}></div>
+                    <div className="record_rank_graph" style={{width: lp*2.5}}></div>
                 </div>
             )
         })
@@ -823,8 +823,8 @@ class Match extends Component {
                                             <div className="record_history">
                                                 {this.matchHistoryView()}
                                                 {
-                                                    matchList.length!==0 && matchList.length%20===0 &&
-                                                        <button className="record_history_button" onClick={(e) => this.setState({skip:skip+20})}>{intl.formatMessage({id: "더 보기" })}</button>
+                                                    matchList.length!==0 && matchList.length%10===0 &&
+                                                        <button className="record_history_button" onClick={(e) => this.setState({skip:skip+10})}>{intl.formatMessage({id: "더 보기" })}</button>
                                                 }
                                             </div>
                                         </div>
