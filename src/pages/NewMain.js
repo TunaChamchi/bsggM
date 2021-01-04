@@ -57,6 +57,7 @@ class Main extends Component {
                     </div>
                 </div>
                 <Search />
+                <div className="mainpage_size"></div>
                 <Footer />
             </div>
         );

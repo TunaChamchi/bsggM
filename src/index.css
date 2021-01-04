@@ -259,6 +259,9 @@ button:hover{
     border-radius: 2px 2px 0px 0px / 2px 2px 0px 0px ;
 }
 /* 0 page */
+.mainpage_size{
+    height: 500px;
+}
 .mainpage_banner {
     background-color : #262335;
     width: 100%;
@@ -307,7 +310,8 @@ button:hover{
     background-color: #262335;
     border-radius: 50px;
     margin: auto;
-    margin-bottom: 850px;
+    margin-bottom: 30px;
+    margin-top: 30px;
     border-bottom: 1px solid #241b2f;
     position: relative;
 }
@@ -349,21 +353,21 @@ button:hover{
 }
 .Main_search_box{
     background-color: rgb(240, 240, 240) ;
-    position: absolute;
     width: 700px;
     font-size: 18pt;
     padding-top: 1px;
     padding-bottom: 3px;
     text-align: left;
     border-radius: 3px;
-    z-index: 1;
     max-height: 800px;
     overflow-y: scroll;
-    overflow-x: scroll;
+    overflow-x: hidden;
     color: #171520;
     margin-top: 15px;
     z-index: 0;
     margin-top: 20px;
+    float: left;
+    margin-bottom: 15px;
 }
 .Main_search_box1{
     width: 700px;
@@ -1457,9 +1461,9 @@ button:hover{
 .S_right{
     width: 750px;
     max-width: 750px;
+    min-height: 790px;
     padding-bottom: 20px;
     float: left;
-    margin-bottom: 150px;
     background-color: rgb(38, 35, 53);
     text-align: center;
     border-radius: 3px;
@@ -1492,25 +1496,25 @@ button:hover{
 }
 .S_item_tab_banner{
     background-color: rgb(38, 35, 53);
-    height: 55px;
+    height: 30px;
     border-bottom: 1px solid #3b4147;
 }
 .S_item_tab_banner2{
     background-color: rgb(38, 35, 53);
-    height: 55px;
+    height: 30px;
     border-radius: 3px 3px 0px 0px / 3px 3px 0px 0px;
 }
 .S_item_tab1{
     width: 750px;
-    height: 70px;
-    font-size: 30pt;
+    height: 30px;
+    font-size: 25pt;
     padding-bottom: 3px;
 }
 .S_item_tab{
     width: 125px;
     float: left;
-    font-size: 25pt;
-    margin-top: 0px;
+    font-size: 20pt;
+    margin-top: -15px;
     padding-bottom: 6px;
 }
 .S_item_sort{
@@ -1583,6 +1587,7 @@ button:hover{
     width: 30px;
     font-size: 25pt;
     margin-left: 25px;
+    margin-top: 15px;
     text-align: center;
     position: absolute;
 }
@@ -3008,7 +3013,7 @@ button:hover{
 }
 /* 4 page */
 .record_top{
-    padding-top: 40px;
+    padding-top: 10px;
     width: 750px;
     height: 186px;
     margin: auto;
