@@ -1,7 +1,3 @@
-import WeaponList from 'data/weapon.json';
-import ArmorList from 'data/armor.json';
-import dmg_plus from 'data/dmg_plus.json'
-
 import character from 'data/inGame/character.json'
 import weaponType from 'data/inGame/weaponType.json'
 import item from 'data/inGame/item.json'
@@ -9,6 +5,7 @@ import skill from 'data/inGame/skill.json'
 
 import skilTree from 'data/sub/skill.json'
 
+const itemGradeTier = {'일반':0, '고급':1, '희귀':2, '영웅':3, '전설':4}
 const itemTypeList = [{}, [], [], [], [], []];
 for (const code in item) {
     const _item = item[code];
@@ -20,9 +17,9 @@ for (const code in item) {
             }
             itemTypeList[0][weaponType].push(code);
         } else if (_item['itemType'] === 'Armor') {
-            if (_item['armorType'] === '머리') {
+            if (_item['armorType'] === '옷') {
                 itemTypeList[1].push(code);
-            } else if (_item['armorType'] === '옷') {
+            } else if (_item['armorType'] === '머리') {
                 itemTypeList[2].push(code);
             } else if (_item['armorType'] === '팔') {
                 itemTypeList[3].push(code);
@@ -35,45 +32,17 @@ for (const code in item) {
     }
 }
 
-export const Weapon = (character, weapon, type) => {
-    const weaponList = WeaponList[character][weapon]
-    const list = [];
-    for (const key in weaponList) {
-        try {
-            const data = weaponList[key][type];
-
-            data.weapon = key;
-            list.push(data);
-        } catch {
-            break;
+itemTypeList.forEach((itemType, idx) => {
+    if (idx === 0) {
+        for (const key in itemType) {
+            const list = itemType[key];
+            list.sort((l1, l2) => itemGradeTier[item[l2]['itemGrade']] - itemGradeTier[item[l1]['itemGrade']]);
         }
+    } else {
+        itemType.sort((l1, l2) => itemGradeTier[item[l2]['itemGrade']] - itemGradeTier[item[l1]['itemGrade']]);
     }
+})
 
-    return list;
-}
-
-export const Armor = (range, type) => {
-    const armorist = ArmorList[type];
-    const list = [];
-    for (const key in armorist) {
-        try {
-            const data = {
-                name: key,
-                'winRate': armorist[key][range]
-            };
-
-            list.push(data);
-        } catch {
-            break;
-        }
-    }
-
-    return list;    
-}
-
-export const dmgPlus = (character, type, name) => {
-    return dmg_plus[character][type][name];
-}
 
 export const getStat = (name, stat, idx) => {
     return character[name]['stat'][stat][idx];

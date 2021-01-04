@@ -15,7 +15,7 @@ class Main extends Component {
         return (
             <div>
                 <Header data={metaData}/>
-                <MainBanner />
+                <MainBanner actived={'Tier'} />
                 
                 <div className='main'>
                     <div className='main-left'>

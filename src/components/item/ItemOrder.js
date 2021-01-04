@@ -55,7 +55,7 @@ class ItemOrder extends Component {
                 '장식': itemOrder[itemOrderFocus]['itemList'][5]['code'],
             }
 
-            this.setState({ routeList:routeCalc(select), routeFocus:0, startWeapon:_startWeapon });
+            this.setState({ routeList:this.routeClashProcess(routeCalc(select)), routeFocus:0, startWeapon:_startWeapon });
         } else if (isStartWeaponChange !== prevState.isStartWeaponChange) {
             let _startWeapon = 0;
             if (isStartWeaponChange) {
@@ -75,12 +75,31 @@ class ItemOrder extends Component {
                 '장식': itemOrder[itemOrderFocus]['itemList'][5]['code'],
             }
 
-            this.setState({ routeList:routeCalc(select), routeFocus:0, startWeapon:_startWeapon });
+            this.setState({ routeList:this.routeClashProcess(routeCalc(select)), routeFocus:0, startWeapon:_startWeapon });
         } else if (bestWeapon !== prevProps.bestWeapon || gameMode !== prevProps.gameMode) {
             this.setState({ routeList:[], itemOrderFocus:-1, routeFocus:0 });
         }
     }
     
+    routeClashProcess = (routeList) => {
+        const list = [];
+        const mapList = [];
+        routeList.forEach(route => {
+            let mapName = '';
+            for (var i = 0; i < route['route'].length -1 ; i++) {
+                mapName += route['route'][i];;
+            }
+            if (!mapList.includes(mapName)) {
+                list.push(route);
+                mapList.push(mapName);
+                if (list.length === 5) {
+                    return list;
+                }
+            }
+        })
+        return list;
+    }
+
     itemOrderTabHandler = (idx) => {
         this.setState({itemOrderFocus: idx});
     };

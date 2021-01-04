@@ -598,10 +598,44 @@ class Match extends Component {
                                 <img className="record_history_upmark" src={imgUpDown}/>
                                 <div className={"record_history_"+(mmr-_mmr>0?'up':'down')}>{Math.abs(mmr-_mmr)}</div>
                             </div>
-                            <div className="record_history_kda">
-                                <span className={"record_history_kda"+k}>{match['playerKill']} K</span> <span> / </span>
-                                <span className={"record_history_kda"+a}>{match['playerAssistant']} A</span> <span> / </span>
-                                <span className={"record_history_kda"+c}>{match['monsterKill']} CS</span>
+                            <div className="record_history4">
+                                <div className="record_history_kda">
+                                    <span className={"record_history_kda"+k}>{match['playerKill']} K</span> <span> / </span>
+                                    <span className={"record_history_kda"+a}>{match['playerAssistant']} A</span> <span> / </span>
+                                    <span className={"record_history_kda"+c}>{match['monsterKill']} CS</span>
+                                </div>
+                                <div className="record_history_badge_box_all">
+                                    {
+                                        match['playerKill'] > 5 &&
+                                            <div className="record_history_badge_box">
+                                                <img className="record_history_badge" src={'img/Badge/루미아트럭.png'}/>
+                                                <div className="item_span_tooltip">
+                                                    <b>{intl.formatMessage({id: '루미아트럭.name'})}</b><br/>
+                                                    {intl.formatMessage({id: '루미아트럭.Detail'})}
+                                                </div>
+                                            </div>
+                                    }
+                                    {
+                                        (match['playerKill'] === 1 && match['gameRank'] === 1) &&
+                                            <div className="record_history_badge_box">
+                                                <img className="record_history_badge" src={'img/Badge/부쉬그라운드.png'}/>
+                                                <div className="item_span_tooltip">
+                                                    <b>{intl.formatMessage({id: '부쉬그라운드.name'})}</b><br/>
+                                                    {intl.formatMessage({id: '부쉬그라운드.Detail'})}
+                                                </div>
+                                            </div>
+                                    }
+                                    {
+                                        match['monsterKill'] > 50 &&
+                                            <div className="record_history_badge_box">
+                                                <img className="record_history_badge" src={'img/Badge/더헌터.png'}/>
+                                                <div className="item_span_tooltip">
+                                                    <b>{intl.formatMessage({id: '더헌터.name'})}</b><br/>
+                                                    {intl.formatMessage({id: '더헌터.Detail'})}
+                                                </div>
+                                            </div>
+                                    }
+                                </div>
                             </div>
                         </div>
                         <div className="record_history_item_box">

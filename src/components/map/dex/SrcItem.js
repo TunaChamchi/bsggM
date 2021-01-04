@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import { injectIntl  } from 'react-intl';
 //import AdSense from 'react-adsense';
 import { itemBgI } from 'lib/data';
+import { Item } from 'components/item';
 import mapData from 'data/inGame/map.json'
 
-class Item extends Component {
+class SrcItem extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -17,14 +18,14 @@ class Item extends Component {
 
         const itemList = mapData[map]['quest'];
 
-        return itemList.map((item, idx) => {
-            return (
-                <div className="map_item_locale">
-                    <img className="map_img_item2" src={itemBgI(item)}/>
-                    <img className="map_img_item" key={'item'+idx} src={'img/Item/' + item + '.png'} />
-                </div>
-            )
-        });
+        return itemList.map((item, idx) => 
+            <Item key={'Item_'+idx} key={'item'+idx}
+                top={"map_item_locale"}
+                grade={"map_img_item2"} 
+                item={"map_img_item"}
+                code={item}
+                />
+        );
     }
 
     render() {
@@ -39,4 +40,4 @@ class Item extends Component {
     };
 }
 
-export default injectIntl(Item);
+export default injectIntl(SrcItem);

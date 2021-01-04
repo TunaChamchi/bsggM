@@ -170,7 +170,7 @@ class Rank_Character extends Component {
         return (
             <div>
                 <Header data={metaData}/>
-                <MainBanner />
+                <MainBanner actived={'Rank'} />
                 <div className="rank_top">
                     {this.rankTopView()}
                 </div>

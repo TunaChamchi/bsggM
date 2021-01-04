@@ -5,10 +5,7 @@ import { Header, MainBanner, AdS, Footer } from 'components/banner'
 import { getItemTypeList, getItem } from "lib/data";
 //import { Route, Stat } from 'components/route'
 import { Item } from 'components/item';
-import item from 'data/inGame/item.json'
-import weapon from 'data/inGame/weapon.json'
-import armor from 'data/inGame/armor.json'
-import map from 'data/inGame/map.json'
+import map from 'data/inGame/map.json';
 import mapImg from 'img/map2.png';
 
 class RouteM extends Component {
@@ -38,13 +35,13 @@ class RouteM extends Component {
                 '고급주택가': ['골목길', '절', '번화가', '연못', '병원', '양궁장', '학교', '묘지', '공장', '호텔', '숲', '성당', '모래사장', '항구'],
                 '항구': ['고급주택가', '성당', '공장'],
             },
-            startWeapon:{'단검':101101,'양손검':102101,'도끼':105102,'권총':116101,'돌격소총':117101,'저격총':118101,'레이피어':120101,'창':107101,'망치':104101,'배트':108102,'투척':112105,'암기':113101,'활':114101,'석궁':115101,'글러브':110102,'톤파':108103,'기타':121101,'쌍절곤':119101},
+            startWeapon:{'단검':101104,'양손검':102101,'도끼':105102,'권총':116101,'돌격소총':117101,'저격총':118101,'레이피어':120101,'창':107101,'망치':104101,'배트':108102,'투척':112105,'암기':113101,'활':114101,'석궁':115101,'글러브':110102,'톤파':108103,'기타':121101,'쌍절곤':119101},
             mapSrc: {},
             routeList: [],
             _select:{},
             filterType: {'1':'무기','2':'다리'},
             filterTypeSelect: 0,
-            filterTypeList: ['무기', '머리', '옷', '팔', '다리', '장식'],
+            filterTypeList: ['무기', '옷', '머리', '팔', '다리', '장식'],
             filterMap: {},
             filterMapSelect: 0,
             filterMapList: ['골목길', '절', '번화가', '연못', '병원', '양궁장', '학교', '묘지', '공장', '호텔', '숲', '성당', '모래사장', '고급주택가', '항구'],
@@ -71,16 +68,6 @@ class RouteM extends Component {
                 '묘지': 'Cemetery',
                 '번화가': 'Avenue'
             },
-            addStat:[],
-            persentList1:['increaseSkillDamageRatio', 'attackSpeedRatio', 'lifeSteal', 
-                'criticalStrikeChance', 'criticalStrikeDamage', 'hpRegenRatio', 'spRegenRatio', 
-                'cooldownReduction'],
-            persentList2:['increaseSkillDamageRatio', 'attackSpeedRatio', 'lifeSteal', 
-                'criticalStrikeChance', 'criticalStrikeDamage', 'decreaseRecoveryToBasicAttack', 'decreaseRecoveryToSkill', 
-                'preventBasicAttackDamaged', 'preventSkillDamagedRatio', 'hpRegenRatio', 'spRegenRatio', 
-                'cooldownReduction'],
-            exception:['decreaseRecoveryToBasicAttack', 'decreaseRecoveryToSkill']
-        
         };
     }
 
@@ -106,31 +93,6 @@ class RouteM extends Component {
             }
         }
     };
-
-    selectItemStat (select) {
-        const { intl } = this.props;
-        const { exception } = this.state;
-        const addStat = [];
-        ['무기', '머리', '옷', '팔', '다리', '장식'].forEach((type, idx) => {
-            if (select[type] !== undefined && select[type] !== '') {
-                const item = getItem(select[type]);
-                const list = Object.keys(item).filter(key => intl.formatMessage({id: 'stat.'+key}) !== 'stat.'+key );
-        
-                list.forEach(stat => {
-                    const statName = intl.formatMessage({id: 'stat.'+stat});
-                    let statValue = exception.includes(stat) ? -40 : item[stat];
-                    
-                    const find_idx = addStat.findIndex(_ => _['name'] === statName);
-                    if (find_idx > -1) {
-                        addStat[find_idx]['value'] = Math.round((parseFloat(addStat[find_idx]['value']) + statValue)*100)/100;
-                    } else {
-                        addStat.push({ name:statName, value:statValue })
-                    }
-                })
-            }
-        });
-        this.setState({addStat:addStat})
-    }
 
     init() {
         const mapSrc = {}
@@ -158,7 +120,7 @@ class RouteM extends Component {
         
         const allSrc = [];        
         
-        ['무기', '머리', '옷', '팔', '다리', '장식'].forEach(type => {
+        ['무기', '옷', '머리', '팔', '다리', '장식'].forEach(type => {
             selectSrc[type].forEach(src => { 
                 if (!allSrc.includes(src)) allSrc.push(src);
             });
@@ -168,7 +130,7 @@ class RouteM extends Component {
         const extSrc = {
             ALL: this.extMapByAll(mapSrc, allSrc),
         };
-        ['무기', '머리', '옷', '팔', '다리', '장식'].forEach(type => {
+        ['무기', '옷', '머리', '팔', '다리', '장식'].forEach(type => {
             extSrc[type] = this.extMapByType(mapSrc, type, selectSrc);
 
             // TBD : 하위 아이템 먼저 제작 할 경우 추가 점수
@@ -222,7 +184,7 @@ class RouteM extends Component {
 
         //console.log('routeList2', [...routeList]);
 
-        const extTypeList = ['무기', '머리', '옷', '팔', '다리', '장식'].filter(type => !filterTypeList.includes(type));
+        const extTypeList = ['무기', '옷', '머리', '팔', '다리', '장식'].filter(type => !filterTypeList.includes(type));
         //console.log('extTypeList', extTypeList);
 
         routeList.forEach(route => {
@@ -243,9 +205,10 @@ class RouteM extends Component {
 
             extTypeList.forEach((type, idx) => {
                 const index = 7-extTypeList.length+idx;
-                score[index] = -route[type] *(extTypeList.length-1.5); // 6순위부터 -1.5점, 5순위부터 -0.5점, 4순위부터 0.5점, 3순위부터 1.5점
+                score[index] = -route[type] *(extTypeList.length-1.5); // 6순위부터 -0.5점, 5순위부터 0.5점, 4순위부터 1.5점, 3순위부터 2.5점
             });
 
+            route['score2'] = score;
             route['score'] = score['1'] + score['2'] + score['3'] + score['4'] + score['5'] + score['6'] - route['route'].length*3;
         });
         const topList = this.routeSortTop(routeList, 20);
@@ -262,12 +225,12 @@ class RouteM extends Component {
 
         const itemSrc = {};
         const startItem = [
-            { name: startWeapon[select['type']], count: 1 },
+            { name: startWeapon[select['start']], count: 1 },
             { name: 301102, count: 2 },
             //{ name: 302110, count: 2 },
         ];
 
-        ['무기', '머리', '옷', '팔', '다리', '장식'].forEach(type => {
+        ['무기', '옷', '머리', '팔', '다리', '장식'].forEach(type => {
             itemSrc[type] = [];
             this.itemSrc(itemSrc[type], select[type], itemSrc, type, startItem);
         });
@@ -396,7 +359,7 @@ class RouteM extends Component {
             route: [...route['route'], mapName]
         };
 
-        ['무기', '머리', '옷', '팔', '다리', '장식'].forEach(type => {
+        ['무기', '옷', '머리', '팔', '다리', '장식'].forEach(type => {
             if (_route[type] !== undefined) return;
 
             const _extSrcType = _extSrc.filter(src => extSrc[type][mapName].includes(src));
@@ -439,7 +402,7 @@ class RouteM extends Component {
             route['view'] = [];
 
             const itemList = [];
-            ['무기', '머리', '옷', '팔', '다리', '장식'].forEach(type => {
+            ['무기', '옷', '머리', '팔', '다리', '장식'].forEach(type => {
                 const _type = selectSrc['_'+type];
                 let rank = 0;
                 if (_type !== undefined) {
@@ -572,7 +535,6 @@ class RouteM extends Component {
         }
 
         select[type] = value;
-        this.selectItemStat(select);
         this.setState({select: select, selectViewList: [], selectType:''});
     }
     selectTypeHandler = (e, type) => {
@@ -590,10 +552,10 @@ class RouteM extends Component {
                     case '무기':
                         list = getItemTypeList(0, select['type']);
                         break;
-                    case '머리':
+                    case '옷':
                         list = getItemTypeList(1);
                         break;
-                    case '옷':
+                    case '머리':
                         list = getItemTypeList(2);
                         break;
                     case '팔':
@@ -633,7 +595,7 @@ class RouteM extends Component {
                             {this.itemFilterDropBoxView('type')}
                         </div> 
                     </div>
-                    {this.itemFilterView2(['무기', '머리', '옷'])}
+                    {this.itemFilterView2(['무기', '옷', '머리'])}
                 </div>
                 <div className="Route_L_ItemX">
                     <div className="Route_L_StartItem_box"> 
@@ -763,7 +725,7 @@ class RouteM extends Component {
         let getSrc = [];
 
         const selectSrc = this.selectSrc();
-        ['무기', '머리', '옷', '팔', '다리', '장식'].forEach(type => {
+        ['무기', '옷', '머리', '팔', '다리', '장식'].forEach(type => {
             selectSrc[type].forEach(src => { 
                 if (!getSrc.includes(src)) getSrc.push(src);
             });
@@ -776,7 +738,7 @@ class RouteM extends Component {
 
     render() {
         const { intl } = this.props;
-        const { filterType, filterMap, mapList, selectRoute, selectMap, selectMapSrc, addStat, persentList1, persentList2 } = this.state;
+        const { filterType, filterMap, mapList, selectRoute, selectMap, selectMapSrc } = this.state;
 
         const metaData = {
             title: 'BSGG.kr - ' + intl.formatMessage({id: 'Title.Map'}),
@@ -787,7 +749,7 @@ class RouteM extends Component {
         return (
             <div>
                 <Header data={metaData}/>
-                <MainBanner />
+                <MainBanner actived={'Route'} />
                 
                 <div className="map_main">
                     <div className="map_title">
@@ -834,18 +796,6 @@ class RouteM extends Component {
                         </div>
                     </div>
                     <div className="Route_R">
-                        <div className="Route_R_stat">
-                            <span className="Route_R_stat_title">{intl.formatMessage({id:'능력치'})}</span>
-                            {
-                                addStat.map((stat, idx) => {
-                                    return (
-                                        <div className="Route_R_stat_span" key={'stat_'+idx}>
-                                            <span>{stat['name'] + ' : ' + (persentList1.includes(stat['name']) ? (stat['value']*100).toFixed(0) : stat['value']) + (persentList2.includes(stat['name']) ? '%' : '')}</span>
-                                        </div>
-                                    )
-                                })
-                            }
-                        </div>
                         <div className="Route_R_Map">
                             <div className="Route_R_Mapimg_box">
                                 <img className="Route_R_Mapimg" src={mapImg} /> 

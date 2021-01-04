@@ -9,9 +9,9 @@ let filterMap = { };
 // 생명의 나무 : 1일 밤 호텔, 2일 낮 숲, 2일 밤 묘지
 //                      가죽   돌멩이  나뭇가지 미스릴   운석   VF혈액샘플
 const defultOutList = [401103, 112101, 108101, 401304, 401209, 401401, ];
-const startWeapon = {'단검':101101,'양손검':102101,'도끼':105102,'권총':116101,'돌격소총':117101,'저격총':118101,'레이피어':120101,'창':107101,'망치':104101,'배트':108102,'투척':112105,'암기':113101,'활':114101,'석궁':115101,'글러브':110102,'톤파':108103,'기타':121101,'쌍절곤':119101}
+const startWeapon = {'단검':101104,'양손검':102101,'도끼':105102,'권총':116101,'돌격소총':117101,'저격총':118101,'레이피어':120101,'창':107101,'망치':104101,'배트':108102,'투척':112105,'암기':113101,'활':114101,'석궁':115101,'글러브':110102,'톤파':108103,'기타':121101,'쌍절곤':119101}
             
-const typeList = ['무기', '머리', '옷', '팔', '다리', '장식'];
+const typeList = ['무기', '옷', '머리', '팔', '다리', '장식'];
 const type = ["단검","양손검","도끼","쌍검","권총","돌격소총","저격총","레이피어","창","망치","배트","투척","암기","활","석궁","글러브","톤파","기타","쌍절곤"];
 const start = ["단검","양손검","도끼","권총","돌격소총","저격총","레이피어","창","망치","배트","투척","암기","활","석궁","글러브","톤파","기타","쌍절곤"];
 const mapMove = {
@@ -45,8 +45,8 @@ let extSrc = {};
 let selectSrc = {}
 export const routeCalc = (ref_select, ref_filterType, ref_filterMap) => {
     select = { ...ref_select };
-    filterType = { ...ref_filterType };
-    filterMap = { ...ref_filterMap };
+    filterType = { ...filterType, ...ref_filterType };
+    filterMap = { ...filterMap, ...ref_filterMap };
 
     if (Object.keys(select).length !== 8) return;
 
@@ -109,18 +109,13 @@ export const routeCalc = (ref_select, ref_filterType, ref_filterMap) => {
         } else {
             _filterType['2'] = '다리';
         }
-    }      
+    }
     //console.log('_filterType', _filterType);
 
     filterType = _filterType;
     let routeList = routeListByAll(6);
 
     //console.log('routeList1', [...routeList]);
-
-    if (routeList.length < 20)
-        routeList = routeListByAll(7);
-
-    //console.log('routeList2', [...routeList]);
 
     const extTypeList = typeList.filter(type => !filterTypeList.includes(type));
     //console.log('extTypeList', extTypeList);
@@ -143,9 +138,10 @@ export const routeCalc = (ref_select, ref_filterType, ref_filterMap) => {
 
         extTypeList.forEach((type, idx) => {
             const index = 7-extTypeList.length+idx;
-            score[index] = -route[type] *(extTypeList.length-1.5); // 6순위부터 -1.5점, 5순위부터 -0.5점, 4순위부터 0.5점, 3순위부터 1.5점
+            score[index] = -route[type] *(extTypeList.length-1.5); // 6순위부터 -0.5점, 5순위부터 0.5점, 4순위부터 1.5점, 3순위부터 2.5점
         });
 
+        route['score2'] = score;
         route['score'] = score['1'] + score['2'] + score['3'] + score['4'] + score['5'] + score['6'] - route['route'].length*3;
     });
     const topList = routeSortTop(routeList, 20);
@@ -161,11 +157,11 @@ export const routeCalc = (ref_select, ref_filterType, ref_filterMap) => {
 export const getSelectSrc = () => {
     selectSrc = {};
     const startItem = [
-        { name: startWeapon[select['type']], count: 1 },
+        { name: startWeapon[select['start']], count: 1 },
         { name: 301102, count: 2 },
         //{ name: 302110, count: 2 },
     ];
-
+    
     typeList.forEach(type => {
         selectSrc[type] = [];
         itemSrc(selectSrc[type], select[type], type, startItem);
@@ -288,7 +284,7 @@ export const routeListByAll2 = (list, route, _extSrc, mapName, idx, MapIdx) => {
         route: [...route['route'], mapName]
     };
 
-    ['무기', '머리', '옷', '팔', '다리', '장식'].forEach(type => {
+    ['무기', '옷', '머리', '팔', '다리', '장식'].forEach(type => {
         if (_route[type] !== undefined) return;
 
         const _extSrcType = _extSrc.filter(src => extSrc[type][mapName].includes(src));
@@ -326,7 +322,7 @@ export const routeSortTop = (routeList, topCount) => {
 export const setRouteListForItem = (routeList) => {   
     let getSrcList = [];
     const srcList = getSelectSrcNonOut();
-    ['무기', '머리', '옷', '팔', '다리', '장식'].forEach(type => {
+    ['무기', '옷', '머리', '팔', '다리', '장식'].forEach(type => {
         srcList[type].forEach(src => { 
             if (!getSrcList.includes(src)) getSrcList.push(src);
         });
@@ -337,7 +333,7 @@ export const setRouteListForItem = (routeList) => {
         route['view'] = [];
 
         const itemList = [];
-        ['무기', '머리', '옷', '팔', '다리', '장식'].forEach(type => {
+        ['무기', '옷', '머리', '팔', '다리', '장식'].forEach(type => {
             const _type = selectSrc['_'+type];
             let rank = 0;
             if (_type !== undefined) {
