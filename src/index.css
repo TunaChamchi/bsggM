@@ -732,7 +732,7 @@ button:hover{
     width: 200px;
     text-align: center;
     border-bottom: none;
-    font-size: 25pt;
+    font-size: 23pt;
 }
 .rank3weapon1{
     vertical-align: middle;
@@ -910,6 +910,7 @@ button:hover{
 }
 .S_top{
     height: 220px;
+    margin-top: 20px;
 }
 .S_top-cha{
     float:left;
@@ -1242,22 +1243,20 @@ button:hover{
     width: 750px;
     background-color: #262335;
 }
-.skill_tab{
+.skill_tabs .actived{
+    border-left: 3px solid rgb(244,216,35);
     color:  rgb(209, 209, 209);
-    width: 373px;
+}
+.skill_tab{
+    width: 747px;
     float: left;
     padding-top: 3px;
     padding-bottom: 6px;
     height: 49px;
     font-size: 15pt;
     color: gray;
-    border-right: 1px solid #3b4147;
-    border-left: 1px solid #3b4147;
+    border-left: 3px solid #3b4147;
     border-bottom: 1px solid #3b4147;
-}
-.skill_tab_span{
-    float: left;
-    color:  rgb(209, 209, 209);
 }
 .skill_tab_imgbox{
     position: relative;
@@ -1325,73 +1324,34 @@ button:hover{
     left: 190px;
 }
 .skill_tab_span{
-    width: 100px;
-    font-size: 10pt;
-    margin-top: -4px;
+    width: 420px;
+    font-size: 15pt;
+    margin-top: 10px;
     text-align: center;
-    float: right;
-    margin-right: 15px;
+    margin-left: 45px;
+    float: left;
 }
 .skill_tab_span1{
     display: inline-block;
-    width: 110px;
+    width: 160px;
 }
 .skill_tab_span2{
     display: inline-block;
-    width: 110px;
+    width: 160px;
 }
 .skill_tab_span3{
     display: inline-block;
-    width: 110px;
+    width: 100px;
     margin-left: 0px;
 }
 .skill_centent{
-    width: 400px;
+    width: 750px;
     float: left;
 }
 .skill_imgbox{
-    margin-top: 40px;
     clear: both;
     text-align: center;
     position: relative;
-}
-.skill_img {
-    vertical-align: middle;
-    display: inline-block;
-    background-color: rgb(35, 27, 47);
-    width: 18px;
-    height: 18px;
-    border-radius: 4px;
-    font-size: 12pt;
-    margin-top: -5px;
-    margin-left: -1px;
-    font-weight: 400;
-    border: 1px solid#171520;
-}
-.skill_img1 {
-    vertical-align: middle;
-    display: inline-block;
-    background-color: rgb(35, 27, 47);
-    width: 18px;
-    height: 18px;
-    border-radius: 4px;
-    font-size: 12pt;
-    margin-left: 3px;
-    font-weight: 400;
-    border: 1px solid#171520;
-}
-.skill_img2 {
-    vertical-align: middle;
-    display: inline-block;
-    background-color: rgb(35, 27, 47);
-    width: 18px;
-    height: 18px;
-    border-radius: 4px;
-    font-size: 12pt;
-    margin-left: 0px;
-    margin-top: -10px;
-    font-weight: 400;
-    border: 1px solid#171520;
 }
 .skill_span{
     width: 55px;
@@ -1408,51 +1368,52 @@ button:hover{
     position: absolute;
     color:  rgb(244,216,35);
     top: 26px;
-    left: 95px;
+    left: 270px;
     font-size: 22pt;
 }
 .skill_mark2{
     position: absolute;
     color:  rgb(244,216,35);
     top: 26px;
-    left: 191px;
+    left: 367px;
     font-size: 22pt;
 }
 .skill_mark3{
     position: absolute;
     color:  rgb(244,216,35);
     top: 26px;
-    left: 287px;
+    left: 464px;
     font-size: 22pt;
 }
 .skill_box0{
     clear: both;
-    margin-top: 5px;
+    margin-top: 0px;
     text-align: center;
+    margin-bottom: 20px;
 }
 .skill_td {
-    width: 530px;
-    margin-top: 0px;
+    margin-left: 10px;
+    width: 720px;
 }
 .skill_level{
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 31px;
+    height: 31px;
     margin-left: 4px;
     background-color: rgb(38, 35, 53);
     font-size: 11pt;
     margin-top: 10px;
-    padding-bottom: 5px;
 }
 .skill_tr {
     display: inline-block;
     background-color: rgb(35, 27, 47);
     margin-left: 4px;
-    width: 18px;
-    height: 18px;
+    width: 29px;
+    height: 29px;
     border-radius: 4px;
-    font-size: 10pt;
+    font-size: 13pt;
     font-weight: 400;
+    margin-top: 3px;
     border: 1px solid #171520;
 }
 .skill_T {
@@ -1660,12 +1621,9 @@ button:hover{
     color:  rgb(209, 209, 209);
     padding-right: 29px;
 }
-
-
-
 .item{
     width: 750px;
-    height: 881px;
+    height: 1295px;
     background-color: #262335;
     margin-top: 10px;
     border-radius: 3px 3px 0px 0px;
@@ -1699,12 +1657,10 @@ button:hover{
 }
 .item_tabs{
     float: left;
-    width: 336px;
-    height: 499px;
+    width: 750px;
+    height: 275px;
     background-color: #251f32;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    border-bottom: 1px solid #3b4147;
+    overflow: hidden;
     border-right: 1px solid #3b4147;
 }
 .item_tabs .actived{
@@ -1712,11 +1668,11 @@ button:hover{
     color:  rgb(209, 209, 209);
 }
 .item_tab{
-    width: 333px;
+    width: 750px;
     float: left;
     padding-top: 3px;
     padding-bottom: 6px;
-    height: 90px;
+    height: 45px;
     font-size: 15pt;
     color: gray;
     border-left: 3px solid #3b4147;
@@ -1726,7 +1682,7 @@ button:hover{
     cursor: pointer;
 }
 .item_tab_imgbox_all{
-    width: 250px;
+    width: 450px;
 }
 .item_tab_imgbox{
     position: relative;
@@ -1748,35 +1704,38 @@ button:hover{
 .item_tab_img{
     position: absolute;
     border-radius: 3px;
-    top: 0px;
-    left: 0px
+    top: 2px;
+    left: 2px
 }
 .item_tab_span{
-    font-size: 10pt;
+    font-size: 13pt;
     text-align: center;
     margin-top: 3px;
 }
 .item_tab_span1{
     display: inline-block;
-    width: 100px;
+    width: 120px;
     margin-top: 7px;
 }
 .item_tab_span2{
     display: inline-block;
-    width: 100px;
+    width: 120px;
     margin-top: 7px;
 }
 .item_tab_span3{
     display: inline-block;
-    width: 40px;
+    width: 60px;
     margin-top: 7px;
 }
+.item_order{
+    width: 750px;
+    background-color: #262335;
+}
 .item_route{
-    width: 413px;
+    width: 750px;
     height: 499px;
     float: left;
     position: relative;
-    border-bottom: 1px solid #3b4147;
 }
 .item_route_startimg{
     width: 50px;
@@ -1788,10 +1747,10 @@ button:hover{
     border: 1px solid #3b4147;
 }
 .item_route_tab{
-    width: 82.6px;
+    width: 150px;
     float: left;
     padding-bottom: 2px;
-    font-size: 11pt;
+    font-size: 15pt;
     color: gray;
     border-bottom: 1px solid  #3b4147;
     text-align: center;
@@ -1801,8 +1760,8 @@ button:hover{
     width: 370px;
     height: 425px;
     position: relative;
-    margin-left: 20px;
     margin-top: 50px;
+    float: left;
 }
 .item_route_map2{
     width: 370px;
@@ -1811,23 +1770,24 @@ button:hover{
     position: absolute;
 }
 .item_route_spawn{
-    width: 750px;
-    height: 340px;
+    width: 379px;
+    height: 524px;
+    overflow-y: scroll;
     background-color: #262335;
-    overflow-y: hidden;
     border-radius: 0px 0px 3px 3px;
+    float: left;
+    border-left: 1px solid #3b4147;
 }
 .item_route_spawnY{
     float: left;
-    width: 249px;
-    height: 169px;
-    border-right: 1px solid #3b4147;
+    width: 379px;
+    height: 130px;
     border-bottom: 1px solid #3b4147;
 }
 .item_route_spawnY-R{
     float: left;
-    width: 250px;
-    height: 169px;
+    width: 379px;
+    height: 130px;
     border-bottom: 1px solid #3b4147;
 }
 .item_route_spawn_title{
@@ -3393,7 +3353,9 @@ button:hover{
     cursor: pointer;
 }
 .record_match0_tab{
+    display: inline-block;
     width: 75px;
+    height: 32px;
     float: left;
     font-size: 18pt;
     padding-top: 32px;
@@ -3531,7 +3493,7 @@ button:hover{
 }
 .record_history_box{
     width: 735px;
-    height: 90px;
+    height: 130px;
     text-align: center;
     background-color: #262335;
     margin-top: 5px;
@@ -3544,7 +3506,7 @@ button:hover{
     width: 10px;
     float: left;
     width: 10px;
-    height: 90px;
+    height: 130px;
     margin-left: -15px;
     border-radius: 3px 0px 0px 3px;
     background-color: rgb(244,216,35);
@@ -3555,7 +3517,7 @@ button:hover{
     width: 10px;
     float: left;
     width: 10px;
-    height: 90px;
+    height: 130px;
     margin-left: -15px;
     border-radius: 3px 0px 0px 3px;
     background-color: rgb(49, 106, 190);
@@ -3566,7 +3528,7 @@ button:hover{
     width: 10px;
     float: left;
     width: 10px;
-    height: 90px;
+    height: 130px;
     margin-left: -15px;
     border-radius: 3px 0px 0px 3px;
     background-color: gray;
@@ -3574,23 +3536,23 @@ button:hover{
 }
 .record_history1{
     display: inline-block;
-    width: 100px;
+    width: 110px;
     float: left;
-    margin-top: 5px;
+    margin-top: 12px;
 }
 .record_history_rank_win{
     font-family: 'Big Shoulders Stencil Display';
-    font-size: 25pt;
+    font-size: 35pt;
     color:  rgb(244,216,35);
 }
 .record_history_rank_top{
     font-family: 'Big Shoulders Stencil Display';
-    font-size: 25pt;
+    font-size: 35pt;
     color:  rgb(49, 106, 190);
 }
 .record_history_rank_loss{
     font-family: 'Big Shoulders Stencil Display';
-    font-size: 25pt;
+    font-size: 35pt;
     color:    gray;
 }
 .record_history_filter{
@@ -3598,14 +3560,14 @@ button:hover{
     margin-top: -2px;
 }
 .record_history_date{
-    font-size: 9pt;
+    font-size: 11pt;
     margin-top: -2px;
 }
 .record_history2{
     display: inline-block;
-    width: 125px;
+    width: 150px;
     float: left;
-    margin-top: 5px;
+    margin-top: 22px;
 }
 .record_history_img{
     border-radius: 100%;
@@ -3618,21 +3580,21 @@ button:hover{
     border:solid 1px #3b4147;
 }
 .record_history_name{
-    font-size: 15pt;
+    font-size: 18pt;
     margin-top: -5px;
 }
 .record_history3-4{
     float: left;
     display: inline-block;
-    width: 285px;
-    margin-top: 5px;
+    width: 300px;
+    margin-top: 25px;
 }
 .record_history3{
     display: inline-block;
     width: 100px;
     float: left;
     text-align: center;
-    margin-top: 13px;
+    margin-top: 18px;
 }
 .record_history_lv{
     font-size: 11pt;
@@ -3676,14 +3638,14 @@ button:hover{
     text-align: left;
 }
 .record_history4{
-    width: 185px;
+    width: 200px;
     float: left;
     height: 90px;
     text-align: center;
 }
 .record_history_kda{
     width: 185px;
-    font-size: 12pt;
+    font-size: 15pt;
     float: left;
     margin-top: 25px;
 }
@@ -3707,9 +3669,9 @@ button:hover{
     margin-top: 5px;
 }
 .record_history_item_box{
-    width: 200px;
+    width: 130px;
     float: left;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 .record_history_item{
     width: 60px;
@@ -3733,9 +3695,9 @@ button:hover{
 }
 .record_history_detailbutton{
     float: left;
-    width: 20px;
-    margin-top: 55px;
-    margin-left: -2px;
+    width: 35px;
+    margin-top: 80px;
+    margin-left: 4px;
     cursor: pointer;
 }
 .record_history_detail{
@@ -3795,84 +3757,78 @@ button:hover{
 .record_history_detail_tab{
     display: inline-block;
     float: left;
-    height: 27px;
+    height: 35px;
     text-align: center;
     padding-top: 1px;
     width: 375px;
     border-bottom: 1px solid #3b4147;
     background-color: #251f32;
     cursor: pointer;
+    font-size: 15pt;
 }
 .record_history_detail_filter{
     border-bottom: 1px solid #3b4147;
-    height: 25px;
+    height: 33px;
     text-align: center;
-    width: 375px;
+    width: 750px;
     float: left;
     margin-top: -20px;
 }
 .record_history_detail_filter1{
     display: inline-block;
     float: left;
-    font-size: 10pt;
+    font-size: 13pt;
     width: 50px;
 }
 .record_history_detail_filter2{
     display: inline-block;
     float: left;
-    font-size: 10pt;
-    width: 150px;
+    font-size: 13pt;
+    width: 130px;
 }
 .record_history_detail_filter3{
     display: inline-block;
     float: left;
-    font-size: 10pt;
-    width: 80px;
+    font-size: 13pt;
+    width: 110px;
 }
 .record_history_detail_filter4{
     display: inline-block;
     float: left;
-    font-size: 10pt;
-    width: 95px;
+    font-size: 13pt;
+    width: 120px;
+    margin-left: -10px;
 }
 .record_history_detail_filter5{
     display: inline-block;
     float: left;
-    font-size: 10pt;
-    width: 160px;
+    font-size: 13pt;
+    width: 350px;
 }
 .record_history_detail_left{
-    width: 374px;
-    border-right: 1px solid #3b4147;
-    float: left;
-}
-.record_history_detail_right{
-    width: 375px;
+    width: 750px;
     float: left;
 }
 .record_history_detail_box{
-    width: 375px;
+    width: 750px;
     border-bottom: 1px solid #3b4147;
-    height: 51px;
-}
-.record_history_detail_right .actived{
-    background-color: #241b2f;
+    height: 60px;
 }
 .record_history_detail_left .actived{
     background-color: #241b2f;
-    width: 374px;
+    width: 750px;
 }
 .record_history_detail_rank{
     float: left;
     display: inline-block;
     width: 50px;
-    font-size: 15pt;
+    font-size: 20pt;
     margin-top: 8px;
     text-align: center;
 }
 .record_history_detail_cha{
     float: left;
-    width: 40px;
+    width: 48px;
     border-radius: 100%;
     border: 1px solid #3b4147;
     margin-top: 4px;
@@ -3885,7 +3841,7 @@ button:hover{
 }
 .record_history_detail_name{
     width: 100px;
-    font-size: 11pt;
+    font-size: 14pt;
     margin-top: 5px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -3893,7 +3849,7 @@ button:hover{
 }
 .record_history_detail_tier{
     width: 100px;
-    font-size: 8pt;
+    font-size: 9pt;
 }
 .record_history_detail_box2{
     float: left;
@@ -3904,7 +3860,7 @@ button:hover{
 .record_history_detail_kill{
     display: inline-block;
     width: 80px;
-    font-size: 10pt;
+    font-size: 13pt;
     float: left;
     text-align: center;
 }
@@ -3936,38 +3892,36 @@ button:hover{
 }
 .record_history_detail_death{
     display: inline-block;
-    width: 80px;
-    font-size: 11pt;
-    margin-top: 4px;
-    margin-left: 5px;
+    width: 100px;
+    font-size: 13pt;
     float: left;
     text-align: center;
-    margin-top: 12px;
+    margin-top: 15px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 .record_history_detail_itembox{
-    width: 130px;
+    width: 360px;
     float: left;
-    margin-left: 25px;
+    margin-top: 12px;
 }
 .record_history_detail_item{
-    width: 40px;
-    height: 24px;
+    width: 55px;
+    height: 26.6px;
     position: relative;
-    margin: 1px;
+    margin: 2px;
     float: left;
 }
 .record_history_detail_item1{
-    width: 40px;
+    width: 55px;
     border: 1px solid #3b4147;
     border-radius: 3px;
     position: absolute;
     top: 0px
 }
 .record_history_detail_item2{
-    width: 38px;
+    width: 53px;
     border-radius: 3px;
     position: absolute;
     top: 2px;

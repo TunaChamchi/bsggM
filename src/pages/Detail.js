@@ -224,6 +224,7 @@ class Detail extends Component {
     }
 
     mostUserView = () => {
+        const { intl } = this.props;
         const { character, mostUser } = this.state
 
         return mostUser.slice(0, 5).map((user, idx) => 
@@ -232,7 +233,7 @@ class Detail extends Component {
                 <Link to={'/Match?userName=' + user['nickname']}>
                     <span className="master_rank2">{user['nickname']}</span>
                 </Link>
-                <span className="master_rank3">{user['characterStats'][character]['totalGames']}게임</span>
+                <span className="master_rank3">{user['characterStats'][character]['totalGames']}{intl.formatMessage({id: "게임"})}</span>
             </div>
         )
     }

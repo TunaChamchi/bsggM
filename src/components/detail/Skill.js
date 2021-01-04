@@ -64,6 +64,28 @@ class Skill extends Component {
             </div>
         )
     }
+    skillTreeTdView = () => {
+        const { intl, parameter } = this.props;
+        const { skill } = this.state;
+        
+        const character = getCharacter(parameter['character'])['name'];
+        return skill.slice(0, 5).map((name, idx) =>
+            <div className='skill_td' key={'td'+idx}>
+                {this.skillTreeTrView(name)}
+            </div>
+        )
+    }
+
+    skillTreeTrView = (name) => {
+        const { stat, skillTree, skillTree2 } = this.props;
+        const { skillTreeFocus } = this.state;
+
+        return skillTree[skillTreeFocus]['order'].map((_name, idx) =>
+            <div className={"skill_tr" + (_name===name ? ' skill_'+name : '')} key={'tr'+idx} 
+                dangerouslySetInnerHTML={ {__html: _name===name ? name : '&nbsp;'} }>
+            </div>
+        )
+    }
 
     render() {
         const { intl, parameter } = this.props
@@ -76,6 +98,25 @@ class Skill extends Component {
                 </div>
                 <div className="skill_tree_tab">
                     {this.skillTreeTabView()}
+                </div>
+                <div className="skill_centent">
+                    <div className="skill_imgbox">
+                        {this.skillTreePick()}
+                        <span className="skill_mark1">&gt;</span>
+                        <span className="skill_mark2">&gt;</span>
+                        <span className="skill_mark3">&gt;</span>
+                    </div>
+                    <div className="skill_box0">
+                        <div className='skill_td'>
+                            {
+                                [...Array.from({length: 20}, (v,i) => i+1)].map(i => 
+                                    <div className="skill_level" key={'level'+i}>{i}</div>
+                                )
+                            }
+                            
+                        </div>
+                        {this.skillTreeTdView()}
+                    </div>
                 </div>
             </div>
         );

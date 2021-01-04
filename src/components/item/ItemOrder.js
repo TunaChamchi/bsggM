@@ -61,7 +61,7 @@ class ItemOrder extends Component {
         const { intl, stat, itemOrder } = this.props;
         const { itemOrderFocus } = this.state;
 
-        return itemOrder.slice(0, 10).map((order, idx) => 
+        return itemOrder.slice(0, 5).map((order, idx) => 
             <div className={'item_tab'+(idx===itemOrderFocus ? ' actived' : '')} key={"item_tab_"+idx}
                 onClick={(e) => this.itemOrderTabHandler(idx)}>
                 <div className="item_tab_imgbox_all">
@@ -207,11 +207,12 @@ class ItemOrder extends Component {
                                 {this.itemRouteTabView()}
                             </div>
                             {this.itemRouteMapView()}
+                            <div className="item_route_spawn">
+                                {routeList.length !== 0 && this.itemRouteDropView()}
+                            </div> 
                         </div>
                 }
-                <div className="item_route_spawn">
-                    {routeList.length !== 0 && this.itemRouteDropView()}
-                </div> 
+                
             </div>
         );
     };

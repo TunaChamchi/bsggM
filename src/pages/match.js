@@ -676,44 +676,15 @@ class Match extends Component {
                             }
                         </div>
                     </div>
-                </div>
-                <div className="record_history_detail_tabs">
-                    <div className={"record_history_detail_tab"+(matchDetail[gameId]['tab']===0?' actived':'')} 
-                        onClick={(e) => { matchDetail[gameId]['tab']=0; this.setState({matchDetail:matchDetail})}}>{intl.formatMessage({id: "종합" })}</div>
-                    <div className={"record_history_detail_tab"+(matchDetail[gameId]['tab']===1?' actived':'')}
-                        onClick={(e) => { matchDetail[gameId]['tab']=1; this.setState({matchDetail:matchDetail})}}>{intl.formatMessage({id: "아이템빌드" })}</div>
                 </div>&nbsp;
                 <div className="record_history_detail_filter_all">
-                    {
-                        matchDetail[gameId]['tab'] === 0 ?
                             <div className="record_history_detail_filter">
                                 <div className="record_history_detail_filter1">{intl.formatMessage({id: "rank" })}</div>
                                 <div className="record_history_detail_filter2">{intl.formatMessage({id: "플레이어" })}</div>
                                 <div className="record_history_detail_filter3">{intl.formatMessage({id: "킬어시 / 딜량" })}</div>
                                 <div className="record_history_detail_filter4">{intl.formatMessage({id: "죽인플레이어" })}</div>
-                            </div>
-                            :
-                            <div className="record_history_detail_filter">
-                                <div className="record_history_detail_filter1">{intl.formatMessage({id: "rank" })}</div>
-                                <div className="record_history_detail_filter2">{intl.formatMessage({id: "플레이어" })}</div>
                                 <div className="record_history_detail_filter5">{intl.formatMessage({id: "아이템빌드" })}</div>
                             </div>
-                    }
-                    {
-                        matchDetail[gameId]['tab'] === 0 ?
-                            <div className="record_history_detail_filter">
-                                <div className="record_history_detail_filter1">{intl.formatMessage({id: "rank" })}</div>
-                                <div className="record_history_detail_filter2">{intl.formatMessage({id: "플레이어" })}</div>
-                                <div className="record_history_detail_filter3">{intl.formatMessage({id: "킬어시 / 딜량" })}</div>
-                                <div className="record_history_detail_filter4">{intl.formatMessage({id: "죽인플레이어" })}</div>
-                            </div>
-                            :
-                            <div className="record_history_detail_filter">
-                                <div className="record_history_detail_filter1">{intl.formatMessage({id: "rank" })}</div>
-                                <div className="record_history_detail_filter2">{intl.formatMessage({id: "플레이어" })}</div>
-                                <div className="record_history_detail_filter5">{intl.formatMessage({id: "아이템빌드" })}</div>
-                            </div>
-                    }
                 </div>
                 <div className="record_history_detail_left">
                     {
@@ -723,14 +694,6 @@ class Match extends Component {
                             this.matchDetailLeft2(gameId)
                     }
                 </div>
-                <div className="record_history_detail_right">
-                    {
-                        matchDetail[gameId]['tab'] === 0 ?
-                            this.matchDetailRight1(gameId)
-                            :
-                            this.matchDetailRight2(gameId)
-                    }
-                </div>
             </div>
         )
     }
@@ -738,7 +701,7 @@ class Match extends Component {
     matchDetailLeft1(gameId) {
         const { user, matchDetail, userNum, tierList } = this.state;
         
-        return matchDetail[gameId]['detail'].slice(0, 9).map((match, idx) => {
+        return matchDetail[gameId]['detail'].slice(0, 18).map((match, idx) => {
             if (match['userNum']) {
                 const tier = Math.floor(match['mmrBefore']/100);
                 const lp   = match['mmrBefore']-tier*100;
@@ -760,6 +723,18 @@ class Match extends Component {
                             </div>
                         </div>
                         <div className="record_history_detail_death" >{match['killDetail']}</div>
+                        
+                        <div className="record_history_detail_itembox">
+                            {
+                                [0, 1, 2, 3, 4, 5].map(index => 
+                                    match['equipment'][index] && 
+                                        <div className="record_history_detail_item" key={'detail_item_'+index}>
+                                            <img className="record_history_detail_item1" src={"img/Item/BackGround/"+getItem(match['equipment'][index])['itemGrade']+".jpg"} />
+                                            <img className="record_history_detail_item2" src={"img/Item/"+getItem(match['equipment'][index])['name']+".png"} />
+                                        </div>
+                                )
+                            }
+                        </div>
                     </div>
                 )
             } else {
@@ -770,46 +745,10 @@ class Match extends Component {
             }
         })
     }
-    matchDetailRight1(gameId) {
-        const { user, matchDetail, userNum, tierList } = this.state;
-        
-        return matchDetail[gameId]['detail'].slice(9, 18).map((match, idx) => {
-            if (match['userNum']) {
-                const tier = Math.floor(match['mmrBefore']/100);
-                const lp   = match['mmrBefore']-tier*100;
-                return (
-                    <div className={"record_history_detail_box"+(match['gameRank']===matchDetail[gameId]['rank']?' actived':'')} key={'detail_box_right_'+idx}>
-                        <div className="record_history_detail_rank" >{match['gameRank']}</div>
-                        <img className="record_history_detail_cha" src={"img/Rank/"+getCharacter(match['characterNum'])['name']+".jpg"} />
-                        <div className="record_history_detail_box1">
-                            <Link to={'/Match?userName=' + match['user'][0]['nickname']}>
-                                <div className="record_history_detail_name" >{match['user'][0]['nickname']}</div>
-                            </Link>
-                            <div className="record_history_detail_tier" >{tierList[tier]} / {lp} LP</div>
-                        </div>
-                        <div className="record_history_detail_box2">
-                            <div className="record_history_detail_kill" >{match['playerKill']} K / {match['playerAssistant']} A</div>
-                            <div className="record_history_detail_dmg_graph1" >
-                                <div className="record_history_detail_dmg_graph2" style={{width:(match['damageToPlayer']/matchDetail[gameId]['max_dam']*80)}}></div>
-                                <div className="record_history_detail_dmg" >{match['damageToPlayer']}</div>
-                            </div>
-                        </div>
-                        <div className="record_history_detail_death" >{match['killDetail']}</div>
-                    </div>
-                )
-            } else {
-                return (
-                    <div className={"record_history_detail_box"} key={'detail_box_right_'+idx}>
-                    </div>
-                )
-            }
-        })
-    }
-
     matchDetailLeft2(gameId) {
         const { user, matchDetail, userNum, tierList } = this.state;
         
-        return matchDetail[gameId]['detail'].slice(0, 9).map((match, idx) => {
+        return matchDetail[gameId]['detail'].slice(0, 18).map((match, idx) => {
             if (match['userNum']) {
                 const tier = Math.floor(match['mmrBefore']/100);
                 const lp   = match['mmrBefore']-tier*100;
@@ -844,45 +783,6 @@ class Match extends Component {
             }
         })
     }
-    matchDetailRight2(gameId) {
-        const { user, matchDetail, userNum, tierList } = this.state;
-        
-        return matchDetail[gameId]['detail'].slice(9, 18).map((match, idx) => {
-            if (match['userNum']) {
-                const tier = Math.floor(match['mmrBefore']/100);
-                const lp   = match['mmrBefore']-tier*100;
-                return (
-                    <div className={"record_history_detail_box"+(match['userNum']===user['userNum']?' actived':'')} key={'detail_box_right_'+idx}>
-                        <div className="record_history_detail_rank" >{match['gameRank']}</div>
-                        <img className="record_history_detail_cha" src={"img/Rank/"+getCharacter(match['characterNum'])['name']+".jpg"} />
-                        <div className="record_history_detail_box1">
-                            <Link to={'/Match?userName=' + match['user'][0]['nickname']}>
-                                <div className="record_history_detail_name" >{match['user'][0]['nickname']}</div>
-                            </Link>
-                            <div className="record_history_detail_tier" >{tierList[tier]} / {lp} LP</div>
-                        </div>
-                        <div className="record_history_detail_itembox">
-                            {
-                                [0, 1, 2, 3, 4, 5].map(index => 
-                                    match['equipment'][index] && 
-                                        <div className="record_history_detail_item" key={'detail_item_'+index}>
-                                            <img className="record_history_detail_item1" src={"img/Item/BackGround/"+getItem(match['equipment'][index])['itemGrade']+".jpg"} />
-                                            <img className="record_history_detail_item2" src={"img/Item/"+getItem(match['equipment'][index])['name']+".png"} />
-                                        </div>
-                                )
-                            }
-                        </div>
-                    </div>
-                )
-            } else {
-                return (
-                    <div className={"record_history_detail_box"} key={'detail_box_right_'+idx}>
-                    </div>
-                )
-            }
-        })
-    }
-
     render() {
         const { intl } = this.props;
         const { isUserLoad, userName, user, userStat, matchList, skip } = this.state;

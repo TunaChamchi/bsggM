@@ -17,7 +17,6 @@ class Main extends Component {
                 <Header data={metaData}/>
                 <MainBanner />
                 <div className="Loading_main">
-                    <div id="loading_animation"></div>
                     <div className="Loading_main_span">{intl.formatMessage({id: '로딩'})}</div>
                 </div>
 
