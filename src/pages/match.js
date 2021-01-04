@@ -359,7 +359,7 @@ class Match extends Component {
                     <div className="record_rank_span1">{teamMode}</div> 
                     <div className="record_rank_span2">{tierList[tier]} / {lp} LP</div>
                     <div className="record_rank_span3">{total}{intl.formatMessage({id: "전" })} {top1}{intl.formatMessage({id: "승" })} {(top1/total*100).toFixed(1)}% / {kdm.toFixed(1)} KA/M</div>
-                    <div className="record_rank_span4">{ranking[key]}{intl.formatMessage({id: "위" })} / {intl.formatMessage({id: "상위" })} {(rank['rankPercent']*100)||0.5}%</div>
+                    <div className="record_rank_span4">{ranking[key]}{intl.formatMessage({id: "위" })} / {intl.formatMessage({id: "상위" })} {((rank['rankPercent']*100)||0.5).toFixed(1)}%</div>
                     <div className="record_rank_graph" style={{width: lp*3.5}}></div>
                 </div>
             )
@@ -699,6 +699,7 @@ class Match extends Component {
     }
 
     matchDetailLeft1(gameId) {
+        const { intl } = this.props;
         const { user, matchDetail, userNum, tierList } = this.state;
         
         return matchDetail[gameId]['detail'].slice(0, 18).map((match, idx) => {
@@ -740,44 +741,12 @@ class Match extends Component {
             } else {
                 return (
                     <div className={"record_history_detail_box"} key={'detail_box_left_'+idx}>
-                    </div>
-                )
-            }
-        })
-    }
-    matchDetailLeft2(gameId) {
-        const { user, matchDetail, userNum, tierList } = this.state;
-        
-        return matchDetail[gameId]['detail'].slice(0, 18).map((match, idx) => {
-            if (match['userNum']) {
-                const tier = Math.floor(match['mmrBefore']/100);
-                const lp   = match['mmrBefore']-tier*100;
-                return (
-                    <div className={"record_history_detail_box"+(match['userNum']===user['userNum']?' actived':'')} key={'detail_box_left_'+idx}>
                         <div className="record_history_detail_rank" >{match['gameRank']}</div>
-                        <img className="record_history_detail_cha" src={"img/Rank/"+getCharacter(match['characterNum'])['name']+".jpg"} />
+                        <img className="record_history_detail_cha" style={{border:'0px'}} src={''} />
                         <div className="record_history_detail_box1">
-                            <Link to={'/Match?userName=' + match['user'][0]['nickname']}>
-                                <div className="record_history_detail_name" >{match['user'][0]['nickname']}</div>
-                            </Link>
-                            <div className="record_history_detail_tier" >{tierList[tier]} / {lp} LP</div>
+                            <div className="record_history_detail_name" >{intl.formatMessage({id: '정보없음'})}</div>
+                            <div className="record_history_detail_tier" ></div>
                         </div>
-                        <div className="record_history_detail_itembox">
-                            {
-                                [0, 1, 2, 3, 4, 5].map(index => 
-                                    match['equipment'][index] && 
-                                        <div className="record_history_detail_item" key={'detail_item_'+index}>
-                                            <img className="record_history_detail_item1" src={"img/Item/BackGround/"+getItem(match['equipment'][index])['itemGrade']+".jpg"} />
-                                            <img className="record_history_detail_item2" src={"img/Item/"+getItem(match['equipment'][index])['name']+".png"} />
-                                        </div>
-                                )
-                            }
-                        </div>
-                    </div>
-                )
-            } else {
-                return (
-                    <div className={"record_history_detail_box"} key={'detail_box_left_'+idx}>
                     </div>
                 )
             }
@@ -812,7 +781,7 @@ class Match extends Component {
                                 <div>
                                     {this.topView2()}                                
                                     <div className="Loading_main">
-                                        <div className="Loading_main_span">{intl.formatMessage({id: '전적없음'})}</div>
+                                        <div className="Loading_main_span">{intl.formatMessage({id: '없음'})}</div>
                                     </div>
                                 </div>
                                 :

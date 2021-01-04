@@ -24,7 +24,6 @@ class Stat extends Component {
 
                 <div className="banner-menu">
                     <div className="banner-botton">
-                        <div className="trirank"></div>
                         <a href={'https://playeternalreturn.com/'+defaultLang()+'/ranking/'} target="_blank">
                             <button className="menubutton">{intl.formatMessage({id:'main.banner.menu.rank'})}</button>
                         </a>

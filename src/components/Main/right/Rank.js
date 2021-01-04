@@ -51,7 +51,6 @@ class Rank extends Component {
         return (
             <div>
                 <div className="rank0">
-                    <div className="tri"></div>
                     <div className="rank0-1">
                         <div className="rank_span">
                             <span >RANK</span>

@@ -790,7 +790,6 @@ class RouteM extends Component {
                 <MainBanner />
                 
                 <div className="map_main">
-                    <div className="tri"></div>
                     <div className="map_title">
                         <span className="map_title_span">MAP</span>
                     </div>

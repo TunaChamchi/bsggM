@@ -9,6 +9,7 @@ class ItemOrder extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            isStartWeaponChange: true,
             itemOrderFocus:-1,
             routeFocus:0,
             routeList: [],
@@ -34,21 +35,47 @@ class ItemOrder extends Component {
 
     componentDidUpdate(prevProps, prevState) {
         const { itemOrder, bestWeapon, gameMode } = this.props;
-        const { itemOrderFocus } = this.state;
+        const { itemOrderFocus, startWeapon, isStartWeaponChange } = this.state;
 
         if (itemOrderFocus !== -1 && itemOrderFocus !== prevState.itemOrderFocus) {
+            //console.log('isFirst');
+            let _startWeapon = bestWeapon;
+            if (_startWeapon === 18) {
+                _startWeapon = 15;
+            }
+
             const select = {
                 type: getWeaponType(bestWeapon), 
-                start: getWeaponType(bestWeapon),
+                start: getWeaponType(_startWeapon),
                 '무기': itemOrder[itemOrderFocus]['itemList'][0]['code'],
-                '머리': itemOrder[itemOrderFocus]['itemList'][1]['code'],
-                '옷':   itemOrder[itemOrderFocus]['itemList'][2]['code'],
+                '옷':   itemOrder[itemOrderFocus]['itemList'][1]['code'],
+                '머리': itemOrder[itemOrderFocus]['itemList'][2]['code'],
                 '팔':   itemOrder[itemOrderFocus]['itemList'][3]['code'],
                 '다리': itemOrder[itemOrderFocus]['itemList'][4]['code'],
                 '장식': itemOrder[itemOrderFocus]['itemList'][5]['code'],
             }
 
-            this.setState({ routeList:routeCalc(select), routeFocus:0 });
+            this.setState({ routeList:routeCalc(select), routeFocus:0, startWeapon:_startWeapon });
+        } else if (isStartWeaponChange !== prevState.isStartWeaponChange) {
+            let _startWeapon = 0;
+            if (isStartWeaponChange) {
+                _startWeapon = 15;
+            } else {
+                _startWeapon = 16;
+            }
+
+            const select = {
+                type: getWeaponType(bestWeapon), 
+                start: getWeaponType(_startWeapon),
+                '무기': itemOrder[itemOrderFocus]['itemList'][0]['code'],
+                '옷':   itemOrder[itemOrderFocus]['itemList'][1]['code'],
+                '머리': itemOrder[itemOrderFocus]['itemList'][2]['code'],
+                '팔':   itemOrder[itemOrderFocus]['itemList'][3]['code'],
+                '다리': itemOrder[itemOrderFocus]['itemList'][4]['code'],
+                '장식': itemOrder[itemOrderFocus]['itemList'][5]['code'],
+            }
+
+            this.setState({ routeList:routeCalc(select), routeFocus:0, startWeapon:_startWeapon });
         } else if (bestWeapon !== prevProps.bestWeapon || gameMode !== prevProps.gameMode) {
             this.setState({ routeList:[], itemOrderFocus:-1, routeFocus:0 });
         }
@@ -191,8 +218,8 @@ class ItemOrder extends Component {
     }
 
     render() {
-        const { intl } = this.props;
-        const { mapList, routeList } = this.state;
+        const { intl, bestWeapon } = this.props;
+        const { routeList, startWeapon, isStartWeaponChange } = this.state;
 
         return (
             <div className="item_order">
@@ -202,7 +229,13 @@ class ItemOrder extends Component {
                 {
                     routeList.length !== 0 && 
                         <div className="item_route">
-                            <img className="item_route_startimg" src="/img/Weapons/단검.jpg" />
+                            {
+                                bestWeapon === 18 ?
+                                    <img className="item_route_startimg" src={"/img/Weapons/" + getWeaponType(startWeapon) + ".jpg"} 
+                                        onClick={(e) => this.setState({isStartWeaponChange: !isStartWeaponChange})}/>
+                                    :
+                                    <img className="item_route_startimg" src={"/img/Weapons/" + getWeaponType(startWeapon) + ".jpg"} />
+                            }
                             <div className="tabHeaders">
                                 {this.itemRouteTabView()}
                             </div>

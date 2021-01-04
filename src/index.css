@@ -12,7 +12,6 @@ body {
   font-family: "Noto Sans KR", "noto sans sc";
   font-weight: 300;
   color: rgb(209,209,209);
-  width: 750px;
 }
 html {
     margin: 0;
@@ -466,7 +465,13 @@ button:hover{
     width: 500px;
     float: left;
 }
+.banner-botton .actived{
+    border-bottom: 1px solid rgb(244,216,35);
+    padding-bottom: 7px;
+}
 .banner-botton{
+    display: inline-block;
+    height: 20px;
     word-spacing: 20px;
     width: 500px;
     float: left;
@@ -3373,61 +3378,63 @@ button:hover{
 }
 .record_trend{
     width: 750px;
-    height: 75px;
-    border-bottom: 1px solid #3b4147;
+    height: 110px;
     border-radius: 3px;
     margin-top: 45px;
+    border-bottom: 1px solid #3b4147;
 }
 .record_trend_win{
     margin-left: 20px;
     float: left;
 }
 .record_trend_winspan{
-    font-size: 30pt;
-    margin-left: 5px;
+    display: inline-block;
+    text-align: center;
+    width: 160px;
+    font-size: 35pt;
     vertical-align: middle;
     float: left;
-    margin-top: 5px;
+    margin-top: 15px;
     color: rgb(244,216,35);
     font-family: 'Big Shoulders Stencil Display';
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 40px;
+    margin-right: -30px;
 }
 .record_trend_winrate{
     float: left;
 }
 .record_trend_winrate_graph{
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     background: conic-gradient(rgb(244,216,35) 0% 11%, rgb(49, 106, 190) 11% 40%, gray 40% 100%);
     border-radius: 100%;
     position: relative;
-    margin-left: 65px;
+    margin-left: 25px;
     float: left;
     margin-top: 1px;
 }
 .record_trend_winrate_graph2{
     background-color: #262335;
-    width: 40px;
-    height: 40px;
-    top: 10px;
-    left: 10px;
+    width: 70px;
+    height: 70px;
+    top: 15px;
+    left: 15px;
     border-radius: 100%;
     position: absolute;
 }
 .record_trend_avg{
     float: left;
     width: 40px;
-    font-size: 9pt;
+    font-size: 15pt;
     position: absolute;
     text-align: center;
-    top: 20px;
-    left: 10px;
+    top: 35px;
+    left: 25px;
 }
 .record_trend_winrate_span{
     display: inline-block;
-    width: 80px;
-    font-size: 9pt;
+    width: 90px;
+    font-size: 15pt;
     margin-top: 3px;
     margin-left: 10px;
     float: left;
@@ -3443,17 +3450,16 @@ button:hover{
 }
 .record_trend_kda{
     display: inline-block;
-    width: 100px;
+    width: 110px;
     float: left;
-    margin-top: 4px;
-    margin-left: 50px;
+    margin-top: 15px;
 }
 .record_trend_kda1{
     text-align: center;
-    font-size: 15pt;
+    font-size: 18pt;
 }
 .record_trend_kda2{
-    font-size: 10pt;
+    font-size: 13pt;
     text-align: center;
 }
 .record_trend_most_box{ 
@@ -3466,7 +3472,7 @@ button:hover{
 .record_trend_most{
     float: left;
     margin-left: 36px;
-    margin-top: 1px;
+    margin-top: 3px;
 }
 .record_trend_most_img{
     width: 40px;
@@ -3929,8 +3935,8 @@ button:hover{
 }
 .record_history_button{
     width: 750px;
-    font-size: 13pt;
-    height: 35px;
+    font-size: 20pt;
+    height: 55px;
     border-radius: 3px;
     background-color: #26242e;
     border: none;
