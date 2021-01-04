@@ -20,6 +20,10 @@ html {
 Link {
     background-color: rgba(0,0,0,0);
 }
+::-webkit-scrollbar { width: 5.2px; }
+::-webkit-scrollbar-track { background-color:rgba(0,0,0,0); } 
+::-webkit-scrollbar-thumb { background: #3b4147; border-radius: 10px; } 
+::-webkit-scrollbar-button { display: none; } 
 /* ADs */
 .Ad_box_Detail2{
     width: 728px;
@@ -354,7 +358,8 @@ button:hover{
     border-radius: 3px;
     z-index: 1;
     max-height: 800px;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: scroll;
     color: #171520;
     margin-top: 15px;
     z-index: 0;
@@ -553,6 +558,7 @@ button:hover{
 
 .cha2{
     overflow-y: scroll;
+    overflow-x: hidden;
     height: 300px;
 }
 .chasearch{
@@ -1779,6 +1785,7 @@ button:hover{
     width: 379px;
     height: 524px;
     overflow-y: scroll;
+    overflow-x: hidden;
     background-color: #262335;
     border-radius: 0px 0px 3px 3px;
     float: left;
@@ -2279,7 +2286,8 @@ button:hover{
 .Route_L_StartItem_dropbox_all{
     position: absolute;
     max-height: 400px;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     border-radius: 5px;
     background-color: #171520;
     z-index: 1;
@@ -2314,7 +2322,8 @@ button:hover{
 .Route_L_PickItem_dropbox_all{
     position: absolute;
     max-height: 400px;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     border-radius: 5px;
     margin-top: 95px;
     background-color: #171520;
@@ -2436,6 +2445,7 @@ button:hover{
     border-radius: 5px;
     border-bottom: 1px solid #171520;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 .Route_L_RouteX{
     padding-top: 5px;
@@ -4440,7 +4450,8 @@ button:hover{
     width: 750px;
     height: 250px;
     background-color: #262335;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     border-bottom: 1px solid #3b4147;
 }
 .rank_cha_select :hover{
