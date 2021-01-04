@@ -10,7 +10,6 @@ class Armors extends Component {
         this.state = {
             itemList: [],
             type: ['옷', '머리', '팔', '다리', '장식'],
-            typeFocus: 0,
         }
     }
 
@@ -18,8 +17,8 @@ class Armors extends Component {
         this.setState({typeFocus: idx});
     }
     typeView = () => {
-        const { intl } = this.props;
-        const { type, typeFocus } = this.state;
+        const { intl, typeFocus } = this.props;
+        const { type } = this.state;
 
         return type.map((name, idx) => 
             <div className={'S_item_tab ' + (idx === typeFocus ? 'actived' : '')}
@@ -31,10 +30,9 @@ class Armors extends Component {
     }
 
     armorsView = () => { 
-        const { intl, stat } = this.props;
-        const { typeFocus } = this.state;
+        const { intl, stat, typeFocus } = this.props;
 
-        const itemList = stat['itemStats'][(typeFocus+1)].filter(i => 
+        const itemList = stat['itemStats'][typeFocus].filter(i => 
             ['희귀', '영웅', '전설'].includes(getItem(i['_id'])['itemGrade'])
         );
 
@@ -73,21 +71,14 @@ class Armors extends Component {
         const { intl } = this.props;
 
         return (
-            <div className="S_right2">
-                <div className="S_item_tab_banner2">
-                    <div className="tabHeaders">
-                        {this.typeView()}
-                    </div>
-                    <div className="S_item_sort">
-                        <span className="S_item_sort1">{intl.formatMessage({id:'rank'})}</span>
-                        <span className="S_item_sort2">{intl.formatMessage({id:'name'})}</span>
-                        <span className="S_item_sort3">{intl.formatMessage({id:'winRate'})}</span>
-                        <span className="S_item_sort4">{intl.formatMessage({id:'pickRate'})}</span>
-                    </div>
+            <div>
+                <div className="S_item_sort">
+                    <span className="S_item_sort1">{intl.formatMessage({id:'rank'})}</span>
+                    <span className="S_item_sort2">{intl.formatMessage({id:'name'})}</span>
+                    <span className="S_item_sort3">{intl.formatMessage({id:'winRate'})}</span>
+                    <span className="S_item_sort4">{intl.formatMessage({id:'pickRate'})}</span>
                 </div>
-                <div className="item_scroll">
-                    {this.armorsView()}
-                </div>
+                {this.armorsView()}
             </div>
         );
     };

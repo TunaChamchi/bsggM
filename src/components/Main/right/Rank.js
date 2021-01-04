@@ -19,13 +19,17 @@ class Rank extends Component {
         this.fetchHandler();
     }
 
+    componentDidUpdate(prevProps, prevState){
+        const { tier, preTier, isStartLoad } = this.props;
+        if (isStartLoad === true && (tier === undefined || preTier === undefined)) {
+            this.fetchHandler();
+        }
+    };
+
     fetchHandler = async () => {
-        let tier;
         await fetch('http://192.168.0.102:3001/api/Character/Tier')
             .then(res => res.json())
             .then(res => this.setState({ tier:res['tier'], preTier:res['preTier'], isStartLoad: true }));
-            
-        this.setState({ tier:tier, isStartLoad: true });
     }
     
     typeHandler = (idx) => {

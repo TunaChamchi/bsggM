@@ -20,12 +20,6 @@ class Tier extends Component {
 
     };
 
-    // shouldComponentUpdate(nextProps, nextState) {
-    //     const { range, type } = this.props;
-
-    //     return this.state !== nextState || range !== nextProps.range || type !== nextProps.type;
-    // };
-
     componentDidUpdate(prevProps, prevState){
         const { isStartLoad, tier, preTier } = this.props;
         if (isStartLoad !== prevProps.isStartLoad) {

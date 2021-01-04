@@ -4,7 +4,7 @@ import { injectIntl } from 'react-intl';
 import queryString from 'query-string';
 import { Header, MainBanner, AdS, Footer } from 'components/banner';
 import { Top, Trend, Skill } from 'components/detail';
-import { Weapons, Armors, ItemOrder } from 'components/item';
+import { Weapons, Armors, ItemOrder, ItemRank } from 'components/item';
 import { getCharacter, getWeaponType, getSkill, getItem } from 'lib/data';
 
 class Detail extends Component {
@@ -293,11 +293,8 @@ class Detail extends Component {
                                         />
                                     :
                                     <div className="item_rank">
-                                        <Weapons 
+                                        <ItemRank 
                                             stat ={stat}
-                                            />
-                                        <Armors 
-                                            stat={stat}
                                             />
                                     </div>
                             }

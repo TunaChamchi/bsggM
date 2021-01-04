@@ -42,7 +42,7 @@ class Item extends Component {
                 {
                     tooltip &&
                         <div className={tooltip}>
-                            <span><b>{getItem(code)['name']}</b></span><br/>
+                            <span><b>{intl.formatMessage({id: 'items.'+getItem(code)['name']})}</b></span><br/>
                             <span>{this.getItemStat()}</span>
                         </div>
                 }
