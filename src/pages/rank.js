@@ -53,7 +53,7 @@ class Rank extends Component {
             console.log('gameMode', mode, prevState.gameMode);
             let rank;
             
-            await fetch('http://192.168.0.102:3001/api/Rank?mode='+(mode+1)+'&skip=0&limit=103')
+            await fetch('/Rank?mode='+(mode+1)+'&skip=0&limit=103')
                 .then(res => res.json())
                 .then(_rank => rank = _rank);
                 
@@ -63,7 +63,7 @@ class Rank extends Component {
             console.log('page', page, prevState.page);
             let rank;
 
-            await fetch('http://192.168.0.102:3001/api/Rank?mode='+(mode+1)+'&skip='+index+'&limit=100')
+            await fetch('/Rank?mode='+(mode+1)+'&skip='+index+'&limit=100')
                 .then(res => res.json())
                 .then(_rank => rank = _rank);
 
@@ -71,7 +71,7 @@ class Rank extends Component {
         } else if (search !== prevState.search) {
             console.log('search');
 
-            fetch('http://192.168.0.102:3001/api/Rank?mode='+(mode+1)+'&search='+search)
+            fetch('/Rank?mode='+(mode+1)+'&search='+search)
                 .then(res => res.json())
                 .then(rank => this.setState({ rank }));
 

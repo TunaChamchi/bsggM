@@ -56,7 +56,7 @@ class Match extends Component {
             let _userStat;
             let _matchList;
             
-            await fetch('http://192.168.0.102:3001/api/User/'+userName)
+            await fetch('/User/'+userName)
                 .then(res => res.json())
                 .then(res => { _user = res['user']; _userStat = res['userStat']; _ranking = res['ranking'] });
 
@@ -70,7 +70,7 @@ class Match extends Component {
                 return;
             }
 
-            await fetch('http://192.168.0.102:3001/api/User/'+_user['userNum']+'/match?limit=10&'+
+            await fetch('/User/'+_user['userNum']+'/match?limit=10&'+
                     'matchMode='+matchMode+'&teamMode='+teamMode)
                 .then(res => res.json())
                 .then(res => _matchList = res);
@@ -135,7 +135,7 @@ class Match extends Component {
         } else if (skip !== prevState.skip) { // 더보기 클릭시
             let _matchList;
 
-            await fetch('http://192.168.0.102:3001/api/User/'+user['userNum']+'/match?limit=10&skip='+skip)
+            await fetch('/User/'+user['userNum']+'/match?limit=10&skip='+skip)
                 .then(res => res.json())
                 .then(res => _matchList = res);
 
@@ -168,7 +168,7 @@ class Match extends Component {
                 matchList:matchList, matchStat:matchStat
             });
         } else if (isReNew !== prevState.isReNew && isReNew === true) { // 전적 갱신
-            await fetch('http://192.168.0.102:3001/api/User/'+user['nickname']+'/renew')
+            await fetch('/User/'+user['nickname']+'/renew')
                 .then(res => res.json())
                 .then(res => this.setState({ isReNew: false }) );
         }
@@ -181,7 +181,7 @@ class Match extends Component {
             matchDetail[gameId]['view'] = view;
         } else {
             let _detail;
-            await fetch('http://192.168.0.102:3001/api/User/Detail/'+gameId)
+            await fetch('/User/Detail/'+gameId)
                     .then(res => res.json())
                     .then(res => _detail = res);
             
@@ -825,7 +825,10 @@ class Match extends Component {
                                         <div className="record_left">
                                             <div className="record_rank">
                                                 <span className="record_rank0">RANK</span>
-                                                {this.rankView()}
+                                                {
+                                                    userStat['seasonStats']['1'] &&
+                                                        this.rankView()
+                                                }
                                             </div>
                                             <div className="record_most">
                                                 <span className="record_most0">MOST 5</span>

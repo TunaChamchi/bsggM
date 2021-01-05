@@ -65,11 +65,11 @@ class Detail extends Component {
             let _tier;
             let _most;
             
-            await fetch('http://192.168.0.102:3001/api/character/'+character)
+            await fetch('/character/'+character)
                 .then(res => res.json())
                 .then(res => { _stats = res['stats']; _tier = res['tier']; });
 
-            await fetch('http://192.168.0.102:3001/api/Rank/character?characterCode='+character)
+            await fetch('/Rank/character?characterCode='+character)
                 .then(res => res.json())
                 .then(res => _most = res );
             
@@ -89,7 +89,7 @@ class Detail extends Component {
         if (stat.length === 0) {
             console.log('1');
             stat = stats.filter(s => s['matchingTeamMode'] === gameMode)[0];
-            window.location.href = 'http://localhost:3000/Detail?gameMode='+gameMode+'&character='+character+'&bestWeapon='+stat['bestWeapon'];
+            window.location.href = '/Detail?gameMode='+gameMode+'&character='+character+'&bestWeapon='+stat['bestWeapon'];
             return;
         } else {
             stat = stat[0];
@@ -162,6 +162,12 @@ class Detail extends Component {
                     order.push('E');
                     order.push('E');
                     order.push('E');
+                } else {
+                    tree.push('T');
+                    order.push('R');
+                    order.push('R');
+                    order.push('T');
+                    order.push('T');
                 }
             }
 

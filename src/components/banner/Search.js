@@ -29,7 +29,7 @@ class Search extends Component {
         this.setState({searchType: !searchType, search:'', searchList: []});
     }
     fetchHandler = async (name) => {
-        await fetch('http://192.168.0.102:3001/api/User?search='+name)
+        await fetch('/User?search='+name)
                 .then(res => res.json())
                 .then(res => this.setState({searchList: res}));
     }
