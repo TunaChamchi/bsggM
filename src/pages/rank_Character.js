@@ -41,7 +41,7 @@ class Rank_Character extends Component {
             console.log('character', character, prevState.character);
             let rank;
             
-            await fetch('/Rank/character?characterCode='+character)
+            await fetch('/api/Rank/character?characterCode='+character)
                 .then(res => res.json())
                 .then(_rank => rank = _rank);
             

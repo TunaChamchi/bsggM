@@ -29,7 +29,7 @@ class Search extends Component {
         this.setState({searchType: !searchType, search:'', searchList: []});
     }
     fetchHandler = async (name) => {
-        await fetch('/User?search='+name)
+        await fetch('/api/User?search='+name)
                 .then(res => res.json())
                 .then(res => this.setState({searchList: res}));
     }

@@ -65,11 +65,11 @@ class Detail extends Component {
             let _tier;
             let _most;
             
-            await fetch('/character/'+character)
+            await fetch('/api/character/'+character)
                 .then(res => res.json())
                 .then(res => { _stats = res['stats']; _tier = res['tier']; });
 
-            await fetch('/Rank/character?characterCode='+character)
+            await fetch('/api/Rank/character?characterCode='+character)
                 .then(res => res.json())
                 .then(res => _most = res );
             

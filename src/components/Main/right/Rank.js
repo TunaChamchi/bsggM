@@ -27,7 +27,7 @@ class Rank extends Component {
     };
 
     fetchHandler = async () => {
-        await fetch('/Character/Tier')
+        await fetch('/api/Character/Tier')
             .then(res => res.json())
             .then(res => this.setState({ tier:res['tier'], preTier:res['preTier'], isStartLoad: true }));
     }
