@@ -81,7 +81,7 @@
         "분 전":"分鐘前",
         "몇초 전":"幾秒前",
         "footer":"BSGG.kr isn’t endorsed by Nimble Neuron.\nEternal Return: Black Survival is trademarks or registered trademarks of Nimble Neuron.\nData Based on Nimble Neuron",
-        "question":"卡通層級是以官方統計爲基礎， 以卡通人物的勝率、登場率、KA/M、 平均排名等爲基礎製作的。",
+        "question":"卡通層級是以官方統計爲基礎，以卡通人物的勝率、登場率、KA/M、平均排名等爲基礎製作的。",
         "로딩":"正在搜索戰績。 請稍等。",
         "없음":"無戶籍信息全無戶籍信息。 請重新確認暱稱後搜索。",
         "더헌터":{
@@ -190,7 +190,8 @@
         "아드리아나": "阿德瑞娜",
         "쇼이치": "彰一",
         "실비아": "西爾維婭",
-        "엠마": "艾瑪"
+        "엠마": "艾瑪",
+        "레녹스": "Lenox"
     },
     "weapons": {
         "투척": "投擲", 
@@ -211,7 +212,8 @@
         "쌍절곤": "雙節棍", 
         "배트": "棒", 
         "망치": "鐵錘", 
-        "석궁": "弩"
+        "석궁": "弩",     
+        "채찍": "鞭子" 
     },
     "armor": {
         "무기":"武器",
@@ -594,7 +596,16 @@
         "화살통": "Quiver",
         "생명의가루": "Powder of Life",
         "비파단도": "琵琶短剣",
-        "월왕구천": "越王勾踐"
+        "월왕구천": "越王勾踐",
+        "채찍": "鞭子",
+        "오랏줄": "套環",
+        "철편": "鉄鞭",
+        "바람채찍": "風之鞭",
+        "뇌룡편": "雷龍鞭",
+        "벽력편": "霹靂鞭",
+        "글레이프니르": "格莢普尼爾",
+        "플라즈마윕": "等離子鞭",
+        "혈화구절편": "血花九節鞭"
 
     },
     "skill": {
@@ -1017,6 +1028,28 @@
                 "Detail": "Emma magically teleports to a summed dove, hat, or rabbit and uses magic depending on the selected target, resetting the passive cooldown.\n Dove: Emma's dove flies towards her previous spot, dealing damage to enemies on the way and rooting them for 1.5 seconds. \n Hat: Emma switches places with the hat, dealing damage to enemies in the area she came from while pulling them towards the center.\nRabbit: Enemies in the area of the rabbit are also bunnymorphed for 1 second(s). Enemies turned into rabbits are slowed by .6"
             }
         },
+        "레녹스": {
+            "T": {
+                "name": "T",
+                "Detail": "?"
+            },
+            "Q": {
+                "name": "Q",
+                "Detail": "?"
+            },
+            "W": {
+                "name": "W",
+                "Detail": "?"
+            },
+            "E": {
+                "name": "E",
+                "Detail": "?"
+            },
+            "R": {
+                "name": "R",
+                "Detail": "?"
+            }
+        },
 
         
         "단검": {
@@ -1094,6 +1127,10 @@
         "쌍절곤": {
             "name": "Breath of the Dragon",
             "Detail": "Swing the nunchaku quickly, creating a gust of wind.\n After some time, launch the gust of wind in the targeted direction dealing damage depending on charge time.\n Swinging the nunchaku for more than a certain amount of time stuns enemies."
+        },
+        "채찍": {
+            "name": "?",
+            "Detail": "S"
         }
     }
 

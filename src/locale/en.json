@@ -190,7 +190,8 @@
         "아드리아나": "Adriana",
         "쇼이치": "Shoichi",
         "실비아": "Silvia",
-        "엠마": "Emma"
+        "엠마": "Emma",
+        "레녹스": "Lenox"
     },
     "weapons": {
         "투척": "Throw", 
@@ -211,7 +212,8 @@
         "쌍절곤": "Nunchaku", 
         "배트": "Bat", 
         "망치": "Hammer", 
-        "석궁": "Crossbow"        
+        "석궁": "Crossbow", 
+        "채찍": "Whip"        
     },
     "armor": {
         "무기":"Weapon",
@@ -596,7 +598,16 @@
         "화살통": "Quiver",
         "생명의가루": "Powder of Life",
         "비파단도": "Shaman's Bronze",
-        "월왕구천": "Revenge of Goujian"
+        "월왕구천": "Revenge of Goujian",
+        "채찍": "Whip",
+        "오랏줄": "Rope Cuffs",
+        "철편": "Bullwhip",
+        "바람채찍": "Wind Whip",
+        "뇌룡편": "Thunder Whip",
+        "벽력편": "Lightning Whip",
+        "글레이프니르": "Gleipnir",
+        "플라즈마윕": "Plasma Whip",
+        "혈화구절편": "Whip of 9 Bloody Tails"
     },
     "skill": {
         "아야": {
@@ -1018,6 +1029,28 @@
                 "Detail": "Emma magically teleports to a summed dove, hat, or rabbit and uses magic depending on the selected target, resetting the passive cooldown.\n Dove: Emma's dove flies towards her previous spot, dealing damage to enemies on the way and rooting them for 1.5 seconds. \n Hat: Emma switches places with the hat, dealing damage to enemies in the area she came from while pulling them towards the center.\nRabbit: Enemies in the area of the rabbit are also bunnymorphed for 1 second(s). Enemies turned into rabbits are slowed by .6"
             }
         },
+        "레녹스": {
+            "T": {
+                "name": "T",
+                "Detail": "?"
+            },
+            "Q": {
+                "name": "Q",
+                "Detail": "?"
+            },
+            "W": {
+                "name": "W",
+                "Detail": "?"
+            },
+            "E": {
+                "name": "E",
+                "Detail": "?"
+            },
+            "R": {
+                "name": "R",
+                "Detail": "?"
+            }
+        },
 
         
         "단검": {
@@ -1095,6 +1128,10 @@
         "쌍절곤": {
             "name": "Breath of the Dragon",
             "Detail": "Swing the nunchaku quickly, creating a gust of wind.\n After some time, launch the gust of wind in the targeted direction dealing damage depending on charge time.\n Swinging the nunchaku for more than a certain amount of time stuns enemies."
+        },
+        "채찍": {
+            "name": "?",
+            "Detail": "S"
         }
     }
 
