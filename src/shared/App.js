@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
-import { Main, Detail, Map, RouteM, NewMain ,Match, Character, Rank, Rank_Character, Loading } from 'pages';
+import { Route, Switch, Redirect } from 'react-router-dom';
+import { Main, Detail, Map, RouteM, NewMain ,Match, Rank, Rank_Character, Error404 } from 'pages';
 
 class App extends Component {
     render() {
@@ -18,6 +18,9 @@ class App extends Component {
                     
                     <Route path="/Rank" component={Rank}/>
                     <Route path="/RankCharacter" component={Rank_Character}/>
+
+                    <Route path="/404" component={Error404}/>
+                    <Redirect to="/404" />
                 </Switch>
             </div>
         );

@@ -65,7 +65,7 @@ class Rank_Character extends Component {
         const kam   = (stat['totalKills'] + stat['totalAssistants']) / total;
 
         const top1Width = top1/total *100;
-        const top3Width = top3/total *100;
+        const top3Width = top3/total *100 + top3Width;
         const lossWidth = loss/total *100;
 
         let maxMmr = 0;
@@ -85,7 +85,7 @@ class Rank_Character extends Component {
             tier: tier,
             lp: lp,
             top1Width: top1Width,
-            top3Width: top1Width+top3Width,
+            top3Width: top3Width,
             lossWidth: lossWidth,
         }
 

@@ -493,7 +493,7 @@ class Match extends Component {
             <div className="record_trend">
                 <div className="record_trend_winrate"></div>
                     <div className="record_trend_winrate_graph"
-                            style={{ background: 'conic-gradient(rgb(244,216,35) 0% '+top1Rate+'%, rgb(49, 106, 190) 0% '+top3Rate+'%, gray 0% 100%)' }}>
+                            style={{ background: 'conic-gradient(rgb(244,216,35) 0% '+top1Rate+'%, rgb(49, 106, 190) '+top1Rate+'% '+top3Rate+'%, gray 0% 100%)' }}>
                         <div className="record_trend_winrate_graph2"></div>
                         <div className="record_trend_avg">{top1Rate.toFixed(1)}%</div>
                     </div>

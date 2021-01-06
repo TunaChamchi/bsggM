@@ -95,9 +95,9 @@ class Rank extends Component {
         const tier = Math.floor(rank['mmr']/100);
         const lp   = rank['mmr']-tier*100;
 
-        const top1Width = top1/total * 100;
-        const top3Width = top3/total * 100;
-        const lossWidth = loss/total * 100;
+        const top1Width = top1/total *100;
+        const top3Width = top3/total *100 + top3Width;
+        const lossWidth = loss/total *100;
 
         const charName = getCharacter(stat['mostCharacter'])['name'];
 
@@ -111,7 +111,7 @@ class Rank extends Component {
             tier: tier,
             lp: lp,
             top1Width: top1Width,
-            top3Width: top1Width+top3Width,
+            top3Width: top3Width,
             lossWidth: lossWidth,
             character: charName
         }

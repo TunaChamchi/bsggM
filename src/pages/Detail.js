@@ -80,10 +80,13 @@ class Detail extends Component {
     }
 
     init(query, stats, tier, mostUser) {
-        const { location } = this.props;
         const character = parseInt(query.character) || 1;
         const bestWeapon = parseInt(query.bestWeapon) || 0;
         const gameMode = parseInt(query.gameMode) || 1;
+
+        if (stat.length === 0) {
+            window.location.href = '/404';
+        }
 
         let stat = stats.filter(s => s['matchingTeamMode'] === gameMode && s['bestWeapon'] === bestWeapon);
         if (stat.length === 0) {
@@ -322,7 +325,6 @@ class Detail extends Component {
                 <AdS type={'Detail'}/>
                 <Footer />
             </div>
-            
         );
     };
 }
