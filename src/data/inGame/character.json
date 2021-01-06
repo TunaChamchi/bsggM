@@ -374,7 +374,7 @@
     "levelUp": {
       "maxHp": 81,
       "maxSp": 20,
-      "attackPower": 2.2,
+      "attackPower": 2.6,
       "defense": 2,
       "criticalChance": 0,
       "hpRegen": 0.05,
@@ -582,7 +582,7 @@
     "levelUp": {
       "maxHp": 65,
       "maxSp": 9,
-      "attackPower": 2.4,
+      "attackPower": 2.7,
       "defense": 1.7,
       "criticalChance": 0,
       "hpRegen": 0.03,
@@ -654,12 +654,46 @@
       "defense": 1.6,
       "criticalChance": 0,
       "hpRegen": 0.02,
-      "spRegen": 0.02,
+      "spRegen": 0.06,
       "attackSpeed": 0,
       "moveSpeed": 0
     },
     "weapons": [
       "암기"
+    ]
+  },
+  "20": {
+    "name": "레녹스",
+    "stat": {
+      "maxHp": 550,
+      "maxSp": 430,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 40,
+      "defense": 28,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.8,
+      "spRegen": 2.2,
+      "attackSpeed": 0.22,
+      "moveSpeed": 3.1,
+      "sightRange": 8,
+      "radius": 0.4,
+      "uiHeight": 2.3,
+      "resource": "Lenox"
+    },
+    "levelUp": {
+      "maxHp": 75,
+      "maxSp": 13,
+      "attackPower": 2.8,
+      "defense": 2,
+      "criticalChance": 0,
+      "hpRegen": 0.05,
+      "spRegen": 0.06,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "채찍"
     ]
   }
 }
