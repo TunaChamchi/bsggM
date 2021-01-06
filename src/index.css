@@ -3236,6 +3236,7 @@ button:hover{
     width: 187.5px;
     height: 35px;
     border-bottom: 1px solid #3b4147;
+    background-color: #262335;
 }
 .record_most_box{
     clear: both;

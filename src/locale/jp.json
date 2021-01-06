@@ -611,526 +611,521 @@
     "skill": {
         "아야": {
             "T": {
-                "name": "Aya's Justice",
-                "Detail": "When Aya is attacked, she is enveloped by a protective field that blocks damage.\n Every time she uses her basic attack on an enemy, the cooldown of Aya's Justice is decreased by 2 seconds."
+                "name": "アヤの正義",
+                "Detail": "アヤが攻撃されるとシールドが生成されダメージから保護します。\n 敵に基本攻撃を行う度にアヤの正義のクールタイムが少しずつ減少します。\n"
             },
             "Q": {
-                "name": "Double Shot",
-                "Detail": "Aya rapidly shoots her target twice.\n The second shot does more damage."
+                "name": "二連発",
+                "Detail": "アヤが対象に向かって銃を2回発砲します。\n"
             },
             "W": {
-                "name": "Steady Shot",
-                "Detail": "Aya shoots ten times in the targeted direction for a moment."
+                "name": "固定射撃",
+                "Detail": "アヤが一方に向かってしばらくの間銃を乱射します。\n"
             },
             "E": {
-                "name": "Moving Turn ",
-                "Detail": "Aya quickly dashes in the target direction."
+                "name": "ムービングターン",
+                "Detail": "アヤが指定した方向に早い速度で移動します。\n"
             },
             "R": {
-                "name": "Blank Cartridge",
-                "Detail": "Aya fires a blank into the air.\n The sound of the gunshot startles nearby enemies, dealing damage and suppressing them for a moment."
+                "name": "空砲弾",
+                "Detail": "アヤが空に空砲弾を発射して周りの敵を脅かします。\n 驚いた敵たちはしばらくの間、気絶させます。\n"
             }
         },
         "피오라": {
             "T": {
-                "name": "Touché",
-                "Detail": "Fiora earns a stack of Touché every time she lands a normal attack on an enemy.\n When she reaches the maximum number of stacks, the Touché indicator activates for a certain time."
+                "name": "トゥシェ",
+                "Detail": "フィオラが敵に基本攻撃でダメージを与えると、トゥシェカウントを獲得します。\n トゥシェカウントが最大になると一定時間、トゥシェ刻印が活性化します。\n"
             },
             "Q": {
-                "name": "Fente",
-                "Detail": "Fiora attacks in the targeted area and deals damage to the enemies she hits.\n If the enemies have the Touché indicator, she procs the indicator and deals extra damage."
+                "name": "ファント",
+                "Detail": "フィオラが指定した方向へ攻撃を行い命中した敵にダメージを与え、移動速度を減少させます。\n トゥシェ刻印が活性化中の敵は、刻印が爆発し追加ダメージを与え移動速度を追加で減少させます。\n"
             },
             "W": {
-                "name": "Attaque Composée",
-                "Detail": "Fiora swings her sword at the targeted two times for her next normal attack.\n For every Touché indicator she procs with Fente or Marche, the cooldown for Attaque Composée is decreased by 2 seconds."
+                "name": "アタックコンポゼ",
+                "Detail": "フィオラの次の基本攻撃が2回攻撃になります。\n フィオラがトゥシェ刻印を爆発させる度にアタックコンポゼのクールタイムが2秒ずつ減少します。\n"
             },
             "E": {
-                "name": "Marche & Rompre",
-                "Detail": "Fiora dashes to the targeted area, dealing damage and reducing the movement speed of enemies hit.\n If the enemies have the Touché indicator, she procs the indicator, reducing their movement speed even more.\n If she deals damage to an enemy, she can use the skill again within a certain time and dash backwards."
+                "name": "マルシェ・ロンペ ",
+                "Detail": "フィオラが指定した方向へ突進し、接触した敵にダメージを与えます。\n トゥシェ刻印が活性化中の敵は刻印が爆発し、追加ダメージを与えます。\n 敵にダメージを与え場合、一定時間スキルを使用して指定した方向へ移動できます。\n"
             },
             "R": {
-                "name": "Garde",
-                "Detail": "Fiora adopts an elaborate posture to unleash her most powerful attacks.\n When Garde is activated, every normal attack uses stamina and deals extra damage.\n If the stamina reaches a certain amount, the skill is automatically deactivated.\n It can also be deactivated by reactivating the skill."
+                "name": "ガルド",
+                "Detail": "フィオラが構えを行い、強力な攻撃をします。\n カルドが活性化された状態では基本攻撃をする度にスタミナを消費し、追加ダメージを与えます。\n スタミナが一定数値以下になると自動的に非活性化されます。\n ガルドスキルをもう一度使用するとスキルを非活性化できます。\n"
             }
         },
         "현우": {
             "T": {
-                "name": "Dogfight",
-                "Detail": "Hyunwoo receives 4 stacks of Dogfight when attacking an enemy, and 1 stack of Dogfight when being attacked.\n After gathering 70 stacks of HP, he heals a certain amount of his maximum health."
+                "name": "ドッグファイト",
+                "Detail": "ヒョヌが敵を攻撃したり攻撃される度にドッグファイトのカウントが増加します。\n カウントが溜まるとドッグファイトが活性化され、この時敵を攻撃すると体力を回復します。\n"
             },
             "Q": {
-                "name": "Stomping Foot",
-                "Detail": "Hyunwoo stomps his foot very hard, dealing damage and slowing enemies in the targeted area for a moment."
+                "name": "足踏み",
+                "Detail": "ヒョヌが指定した位置を強く踏むことで敵にダメージを与え、2秒間移動速度を減少させます。\n"
             },
             "W": {
-                "name": "Bluff",
-                "Detail": "Hyunwoo gets bonus defense for a short time when Bluff is active.\n Additionally, after Bluff is activated, Hyunwoo is immune against stun, knockback, and suppression effects for a short time."
+                "name": "虚勢",
+                "Detail": "ヒョヌが虚勢を発動し、しばらくの間防御力を獲得します。\n 虚勢発動中しばらくの間ヒョヌは移動妨害を無視します。\n"
             },
             "E": {
-                "name": "First Attack",
-                "Detail": "Hyunwoo charges toward the targeted direction, dealing damage and knocking back enemies in his path.\n If an enemy collides with a wall, they are stunned for a moment."
+                "name": "先手必勝",
+                "Detail": "ヒョヌが指定した方向に突進し、敵にぶつかると対象にダメージを与えて敵を突き飛ばします。\n 突き飛ばした敵が壁にぶつかるとしばらくの間気絶します。\n"
             },
             "R": {
-                "name": "Haymaker",
-                "Detail": "Hyunwoo gathers his strength for a while and throws a huge punch at the targeted area, dealing considerable damage.\n The more time Hyunwoo spends gathering his strength, the more powerful his punch will be."
+                "name": "アトミックパンチ",
+                "Detail": "ヒョヌが力を溜めて強力なパンチをします。\n力を溜めた時間に応じて攻撃範囲とダメージ量が増加します。\n"
             }
         },
         "재키": {
             "T": {
-                "name": "Bloodfest ",
-                "Detail": "When Jackie slays an enemy, attack power is enhanced for 20/25/30 seconds.\n Survivor, bear increase her attack power by 8/20/40%.\n Any other animal increases it by 3/8/15% respectively."
+                "name": "血祭り",
+                "Detail": "ジャッキーが他の生存者や野生動物を倒すと一定時間攻撃力が強化されます。\n"
             },
             "Q": {
-                "name": "Hack and Slash",
-                "Detail": "Jackie swings her weapon twice, making her target bleed.\n Bleeding enemies will take damage over a certain time."
+                "name": "連斬",
+                "Detail": "ジャッキーが正面に向かって武器を二回振ります。\n 連斬に当たった対象は出血になり一定時間、持続的なダメージを受けます。\n"
             },
             "W": {
-                "name": "Adrenaline Burst",
-                "Detail": "Jackie's bursting adrenaline causes her to move faster for a moment.\nIf she attacks a bleeding target during her adrenaline burst, she deals bonus damage to the target and restores her HP."
+                "name": "アドレナリン分泌",
+                "Detail": "ジャッキーがアドレナリンを活性化し、しばらくの間移動速度が上昇します。\n アドレナリン活性化中は出血の敵を攻撃すると追加ダメージを与え、体力が回復します。\n"
             },
             "E": {
-                "name": "Leaping Strike",
-                "Detail": "Jackie leaps to the targeted location, dealing damage to her enemies nearby upon landing.\nHitting bleeding enemies with Leaping Strike slows their movement speed for a moment."
+                "name": "襲撃",
+                "Detail": "ジャッキーが指定した位置にジャンプし、周りの敵たちにダメージを与えます。\n 出血になった敵はしばらくの間、移動速度が減少します。\n"
             },
             "R": {
-                "name": "Chainsaw Murderer",
-                "Detail": "Jackie starts her deadly chainsaw.\nHer chainsaw boosts her attack speed and causes targets hit by her basic attacks to bleed.\nShe also takes a swipe at her target and deals considerable damage before she turns off her chainsaw."
+                "name": "電気ノコギリ殺人鬼",
+                "Detail": "ジャッキーが電気ノコギリを取り出します。\n 攻撃速度が上昇し、基本攻撃を行うと敵を出血にします。\n 電気ノコギリ殺人鬼の効果が切れる時、電気ノコギリを大きく振って強力なダメージを与えた後に元 の武器に戻ります。\n"
             }
         },
         "매그너스": {
             "T": {
-                "name": "Tough Body",
-                "Detail": "Magnus's defense power increases when his HP decreases.\nHis defense is increased for each 1% of HP lost."
+                "name": "強靭な肉体",
+                "Detail": "体力の減少に応じ防御力が増加します。\n レベルが上がるほど増加数値が上昇します。\n"
             },
             "Q": {
-                "name": "Broken Bullet",
-                "Detail": "Magnus violently slams the ground and launches a rock towards the targeted area, dealing damage.\nEnemies hit by the rock have their movement speed reduced.\nThe movement speed recovers slowly over time."
+                "name": "破砕弾",
+                "Detail": "地面を叩いて石を投げます。\n石に当たった対象は4秒間移動速度が減少します。\n"
             },
             "W": {
-                "name": "17 vs 1",
-                "Detail": "Magnus swings his weapon in an area around him for 4 seconds, dealing damage.\nHis movement speed is decreased by 20% while 17 vs 1 is active.\n* He deals 1.5 times more damage to slowed or immobilized units."
+                "name": "17対1 ",
+                "Detail": "範囲内の全ての敵にダメージを与えます。\n 移動が妨害された敵には追加ダメージを与えます。\n"
             },
             "E": {
-                "name": "Heavy Strike",
-                "Detail": "Magnus smashes the targeted enemy, dealing damage, knocking them 3.75m to the left of where Magnus is currently facing.\nIf the target collides with a wall, they are stunned for 1.5 seconds."
+                "name": "強打",
+                "Detail": "対象を殴りダメージを与えた後、左側に向かって4m飛ばします。\n対象が壁にぶつかると一定時間気絶します。\n"
             },
             "R": {
-                "name": "Bike From Hell",
-                "Detail": "Magnus summons a bike, riding it for a few seconds.\nBy reactivating the skill, Magnus will jump off of the bike and launch it forward to explode.\nIf the bike hits an enemy, a wild animal, or a wall, it explodes and deals damage in an area."
+                "name": "暴走バイク",
+                "Detail": "バイクを召喚して乗ったまま移動します。\nスキルをもう一度使用したり、スキルの持続時間終了後、 バイクを前に放り出します。\nバイクが敵や壁にぶつかると爆発し、範囲内の対象にダメージを与えま"
             }
         },
         "나딘": {
             "T": {
-                "name": "Wild and Clairvoyant",
-                "Detail": "Nadine gets a stack of Wild for every wild animal she slays, giving some skills extra damage.\nWild animals located inside a certain range near her appear on the minimap."
+                "name": "野性&千里眼",
+                "Detail": "ナディンが野生動物を倒す度に野生カウントを獲得します。\n 一定範囲内の生きている野生動物をミニマップに表示します。\n"
             },
             "Q": {
-                "name": "Bullseye",
-                "Detail": "Nadine gathers her strength for a certain time, reducing her movement speed and gradually increasing the range of Bullseye.\nIf she has more than a certain amount of Wild stacks, her maximum attack range increases.\nBy reactivating the skill, she shoots an arrow, dealing damage."
+                "name": "ブルズアイ",
+                "Detail": "ナディンが一定時間力を溜めます。\n 力を貯めている間、移動速度が減少し、射程距離が増加します。\n 野生カウントが一定以上溜まった場合、最大攻撃の射程距離が増加します。\n スキルをもう一度使用すると矢を発射してダメージを与えます。\n"
             },
             "W": {
-                "name": "Squirrel Trap",
-                "Detail": "Nadine throws a Squirrel Trap at the targeted location, dealing damage to any enemies it hits and arming itself after it lands.\nYou can throw another trap within a certain time.\nIf the distance between the traps is less than a certain distance, they connect to each other.\nEnemies caught in the connected traps have their movement speed reduced, and Nadine can see them for a certain time.\nThe connected traps disappear after a certain time."
+                "name": "リス罠",
+                "Detail": "ナディンが指定した位置にリス罠を投げます。\n罠は位置にいる敵にダメージを与えながら設置されます。\n 一定時間内にもう一度罠を投げると、範囲内の罠は他の罠とつながります。\n つながった罠にかかった敵は攻撃速度と移動速度が減少し、ナディンに一定時間視界を提供します。\n 地面に設置された罠は一定時間後に消えます。\n"
             },
             "E": {
-                "name": "Monkey Wire",
-                "Detail": "Nadine attaches a wire at the targeted location.\nThe installed wire stays for a certain time.\nWhile it's installed and she is attached to it, her attack speed increases.\nIf you reactivate it, the wire returns to its anchor point, bringing Nadine with it."
+                "name": "猿ワイヤー",
+                "Detail": "ナディンが指定した位置にワイヤーを発射します。\n 設置されたワイヤーは一定時間維持され、ワイヤーが設置されている間、攻撃速度が増加します」 もう一度スキルを使用するとナディンがワイヤーの位置に移動します。\n"
             },
             "R": {
-                "name": "Wolf Assault",
-                "Detail": "For some time, Nadine summons a wolf every few normal attacks.\nThe wolf attacks the enemy, dealing damage and reducing their attack and movement speed.\n(Nadine deals more damage the more Wild stacks she has.\n"
+                "name": "狼猛襲",
+                "Detail": "一定時間、基本攻撃の回数に応じてオオカミを呼び出し敵を攻撃します。\n 」 オオカミは敵を鈍化させ、ダメージを与えます。\n(ナディンの野性カウントに比例してダメージが増し 加します。\n)"
             }
         },
         "자히르": {
             "T": {
-                "name": "Eye of Azrael",
-                "Detail": "If Zahir hits an enemy with a skill, an Eye of Azrael indicator is applied to the enemy for 6 seconds and Zahir's movement speed increases.\nIf you hit an enemy with the indicator with a skill, it deals extra damage and an Eye of Azrael effect is applied to the skill used.\nIf you kill an enemy, you see corpses in the current area for 20 seconds."
+                "name": "死神の目",
+                "Detail": "敵にスキルが命中すると6秒間持続する死神の目刻印を付与し、ザヒルは移動速度増加効果を獲得し ます。\n死神の目刻印がある敵にスキルを命中させると敵の刻印を消費してダメージを与え、該当スキ」 ルの死神の目効果を適用します。\n 敵を倒すと20秒間全体地域の死体を表示します。\n"
             },
             "Q": {
-                "name": "Narayanastra",
-                "Detail": "Zahir calls upon God's strength, dealing damage in a targeted area.\nEye of Azrael effect: Narayanastra deals extra damage and the enemy's defense decreases for 2 seconds in proportion to the difference in kills between you and them."
+                "name": "ナーラーヤナーストラ",
+                "Detail": "ザヒルが神の力を借り、装備品を消費することで一定範囲にダメージを与えます。\n死神の目の効果:敵に与えるダメージ量が増加して、2秒間対象と自分の敵を倒した数の差に応じて敵の防御力を減少させます。\n "
             },
             "W": {
-                "name": "Gandiva",
-                "Detail": "Zahir throws a Chakram in the targeted direction, dealing damage.\nIf Zahir hits an enemy with any skill but Gandiva, he gains 2 Chakrams that float behind him for 20 seconds.\nEye of Azrael effect: Hitting an enemy reduces their movement speed by 30% for 1 second and reduces the cooldown of every skill, excluding Gandiva, by 1.5 seconds."
+                "name": "ガンディバ",
+                "Detail": "定した方向へチャクラムを発射し、ダメージを与えます。\nチャクラムはガンディバ以外のスキル命 」 中時に2個を獲得し、20秒間維持されます。\n死神の目効果: 1秒間対象の移動速度を30%減少させ、ガンディバ以外のスキルのクールタイムが1.5秒ずつ減少し ます。\n"
             },
             "E": {
-                "name": "Vayvayastra",
-                "Detail": "Zahir summons and launches a gust of wind, dealing damage.\nThe first enemy hit is launched airborne for 0.5 seconds and their movement speed is reduced by 30%.\nEye of Azrael effect: The enemy is launched airborne for 1.5 seconds."
+                "name": "ヴァイヴァヤーストラ",
+                "Detail": "武器を消費し、風を飛ばしてダメージを与えます。\n命中した対象は0.5秒間空中に浮かび、移動速度が30%減少します。\n死神の目効果:命中した対象を1秒間空中に浮かべます。\n"
             },
             "R": {
-                "name": "Bhargavastra",
-                "Detail": "Zahir calls down Chakrams from the heavens to damage enemies in a wide area, dealing damage.\nBhargavastra applies an Eye of Azrael indicator to enemies if they don't have one."
+                "name": "バールガヴァーストラ",
+                "Detail": "ザヒルが広い範囲にチャクラムを降り注ぎ、ダメージを与えます。\n敵に死神の目刻印がない場合は死 」 神の目を付与します。\n"
             }
         },
         "하트": {
             "T": {
                 "name": "Feedback",
-                "Detail": "If Hart deals damage to an enemy with a normal attack, she recovers SP.\n Evolved Feedback: Hart fires an additional sound wave per evolution point.\nEach dealing 0.15AP damage"
+                "Detail": "基本攻撃で敵にダメージを与える度に一定量のスタミナを回復します。\n 進化効果:基本攻撃をする度に音波を追加で発射してダメージを与えます。\n 高級、貴重、英雄等級の武器を初めて製作するたびに進化ポイント1を獲得できます。\n"
             },
             "Q": {
                 "name": "Delay",
-                "Detail": "Hart strums her guitar, charging her sound waves.\nWhen she strums the guitar again, the charged sound waves are released.\nShe can charge for up to 4 seconds, and can maintain the sound wave for 4 seconds.\nShe deals more damage depending on how long she charges.\nEvolved Delay: Enemies hit are slowed by -15%/-35%, based on evolution points spent on this skill."
+                "Detail": "ギターを弾いて音波をチャージし、再びギターを弾くとチャージした音波を発射します。\n 最大4秒までチャージができ、チャージは4秒間維持されます。\nチャージ時間に応じてダメージ量が、 増加します。\n 進化効果:音波に当たった敵は移動速度が減少します。\n"
             },
             "W": {
                 "name": "Overdrive",
-                "Detail": "Hart plays a lick on her guitar, increasing her Attack Power for a certain time.\nvolved Overdrive: Enemies will have their defense reduced by -15%/-30% to her next sound wave, based on evolution points spent on this skill."
+                "Detail": "ギターを弾くと5秒間攻撃力が増加します。\n進化効果:進化回数に応じて防御力減少効果が増加します。\n"
             },
             "E": {
                 "name": "Flanger",
-                "Detail": "Hart quickly dashes in the targeted direction.\nShe can activate this skill an additional two times.\nShe dashes and strums her guitar, discharging sound waves in a 4m area around her and dealing damage to enemies hit.\nHer third dash is a little bit longer.\nEvolved Flanger: Activating the skill grants 15%/25% skill damage amplificaiton for a few seconds, stacking up to 3 times."
+                "Detail": "指定した方向に移動します。\n(2回連続で使用可能) 2mを移動してギターを弾くと、4m内の敵に音波を発射してダメージを与えます。\n 進化効果:進化回数だけスキルダメージの増幅量が上昇します。\n"
             },
             "R": {
                 "name": "Peacemaker",
-                "Detail": "Hart puts on a show, causing all her enemies in a range around her to dance.\nFor every second of her performance, she recovers HP.\nEnemies attending the concert dance and have their movement speed reduced.\nEvolved Peacemaker: Enemies attending the concert dance have their movement speed and SP reduced.\nSP reduction amount increases per number of Evolution Points."
+                "Detail": "5秒間ギターを演奏し、一定範囲内の全ての対象を踊らせます。\n ギターを演奏中のハートは、自分のHPを毎秒回復します。\n音楽を聞く全ての対象は移動速度が2.5 | に固定され、基本攻撃とスキルを使用できなくなります。\n 進化効果: 踊っている全対象のスタミナを毎秒減少させます。\n"
             }
         },
         "아이솔": {
             "T": {
-                "name": "Guerilla Warfare",
-                "Detail": "Enemies that take damage from a trap of his have their defense reduced by 5/15/25%.\n Photographic Memory: If an enemy sets a trap in Isol's vision range, he remembers the trap, preventing it from going invisible for him."
+                "name": "遊擊戰",
+                "Detail": "アイソルのトラップ設置時間が減少します。\n アイソルが設置したトラップにダメージを受けた対象は一定時間の間防御力が減少します。\n"
             },
             "Q": {
-                "name": "Semtex Bomb",
-                "Detail": "Isol throws a bomb to the target location that sticks to an enemy or on the ground.\nIf the bomb is thrown on the ground or sticks to an enemy, it explodes after 5 seconds, dealing 50/75/100/125/150 (+0.5 AP) damage and rooting enemies caught in the blast.\nIf the bomb is stuck to an enemy, each attack reduces its timer by 0.5 seconds and increases the damage of the explosion by 8/12/16/20/24 (+0.3 AP)."
+                "name": "セムテックス爆弾",
+                "Detail": "敵や地面に付着する爆弾を投げます。\n敵や地面に付着された爆弾は一定時間後に爆発し、ダメージを 」 与えて束縛状態にします。\n 付着後、該当対象を攻撃する度に爆発時間が減少し、束縛時間と爆発ダメージ量が増加します。\n"
             },
             "W": {
-                "name": "Rebel Assault",
-                "Detail": "Isol unleashes a fury of bullets in front of him, dealing damage, and reducing the movement speed of enemies."
+                "name": "火網",
+                "Detail": "アイソルが前方に武器を乱射します。\n火網によるダメージを受けた敵は移動速度が減少します。\n"
             },
             "E": {
-                "name": "Camouflage",
-                "Detail": "Isol rolls forward and blends into his surroundings, going invisible for a bit.\nThe invisibility is lifted if Isol does any action other than basic movement."
+                "name": "隠密機動",
+                "Detail": "アイソルが前転しながら移動します。\n移動後隠密状態になります。\n移動以外の行動をすると隠密状態が解除されます。\n"
             },
             "R": {
-                "name": "MOK Operational Mine",
-                "Detail": "Isol installs a MOK Operational Mine on the ground that detects enemies.\nThe mine explodes when an enemy enters its range, dealing damage and reducing the movement speed of enemies by 10/20/30% for 2 seconds.\nMOK Operational Mine is not affected by skill amplification or reduction but is affected by trap masteries."
+                "name": "Mok製爆弾",
+                "Detail": "アイソルがMok製爆弾を設置します。\nMok製爆弾の範囲内に敵が入ると爆発しダメージを与え、移 動速度を減少させます"
             }
         },
         "리 다이린": {
             "T": {
-                "name": "Blood Alcohol Content (BAC)",
-                "Detail": "Li Dailin can use Drink Up to fill her BAC bar.\nWhen her BAC is above 40, she gains Tipsy, giving her skills extra effects, and gaining Dialed In for her next normal attack.\nIf her BAC hits 100, she becomes Inebriated, is silenced for 7 seconds and gains Dialed In.\nDialed In: Li Dailin's next normal attack will trigger twice.\n Her second attack deals 60/80/100% damage.\nStrong Stomach: her attack speed is increased 10/25/40% for a certain time after drinking alcoholic beverages."
+                "name": "酔い",
+                "Detail": "酒飲みを使用して酔いを獲得します。\n酔いが一定量以上になると酔拳状態になりスキルが強化され、 スキル使用後の基本攻撃が猛虎清挙になります。\n 酔いが一定量に到達すると泥酔状態になりしばらくの間スキルを使用できなくなりますが、すべての 基本攻撃が猛虎清楚になります。\n猛虎清楚:基本攻撃が2回連続で行われます。\n"
             },
             "Q": {
-                "name": "Spirited Kick",
-                "Detail": "Li Dailin charges forward, dealing damage to enemies hit.\nShe can reactivate this skill two more times.\nTipsy: Increases range and increases damage dealt."
+                "name": "호련각 Kick",
+                "Detail": "ダイリンが前方に突進し、範囲内の敵たちにダメージを与えます。\n該当スキルは3回使用できます。\n"
             },
             "W": {
-                "name": "Drink Up",
-                "Detail": "Li Dailin takes a drink for 0.8 seconds, gaining Liquid Strength and increasing her BAC by 45.\nWhile drinking, she avoids normal attacks and takes 15% less damage from skills.\nNormal attacks reduce the cooldown of Drink Up by 1 second.\nLiquid Strength: the damage from her next normal attack and damage from Dialed In is increased depending on her BAC."
+                "name": "酒飲み",
+                "Detail": "ダイリンが酒を飲んで酔いを獲得し、すべての基本攻撃を回避します。\n大酒家: 酒飲みを完了すると酔いの量に応じて次の基本攻撃または猛虎清挙のダメージ量が増加します。\n"
             },
             "E": {
-                "name": "Bottom Shelf",
-                "Detail": "Li Dailin spits out cheap liquor in a cone in front of her, silencing enemies in range and dealing damage.\nipsy: Reduces movement speed of enemies by 20%."
+                "name": "酒撒き",
+                "Detail": "ダイリンが酒を前方に向けて扇形に撒きます。\n範囲内の敵に沈黙とダメージを与えます。\n酔拳: 移動速度を減少させます。\n"
             },
             "R": {
-                "name": "Striking Tiger",
-                "Detail": "Li Dailin launches forward, suppressing the first enemy hit and following it up with two consecutive kicks.\n Each blow deals damage in proportion to her enemy's missing HP.\nTipsy: follows up with 4 consecutive kicks."
+                "name": "酔虎撃破山",
+                "Detail": "ダイリンが阻止不可状態で突進し、ぶつかった敵を制圧した後2回連打します。\nスキルが命中すると クールタイムが減少します。\n酔拳:敵を4回連打します。\n"
             }
         },
         "유키": {
             "T": {
-                "name": "Perfect Fit",
-                "Detail": "Yuki stores cufflinks as a resource.\n Upon damaging an enemy, he consumes a stored cufflink, dealing additional true damage.\n Yuki recovers 1 cufflink every 4 seconds while out of combat.\n Activating Button Up will refill all of his cufflinks."
+                "name": "端正な服装",
+                "Detail": "雪が敵にダメージを与える時、ボタンを1個消費して追加固定ダメージを与えます。\nボタンが無い時 は適用されません。\n ボタンは非戦闘状態で一定時間毎に回復します。\n襟正しを使用するとボタンを最大値まで回復します。\n"
             },
             "Q": {
-
-                "name": "From Head to Toe",
-                "Detail": "Yuki's next normal attack deals damage and reduces the movement speed of enemies by 50% for 1 second.\nConsuming a cufflink stuns enemies for 0.5 seconds."
+                "name": "面!",
+                "Detail": "雪の次の攻撃がダメージを与え移動速度を減少させます。\n端正な服装のポタンがあると気絶させます。\n"
             },
             "W": {
-                "name": "Button Up",
-                "Detail": "Passive: reduces cooldown of Button Up by 0.5 seconds each time Yuki takes damage.\nYuki straightens up his outfit and reduces the cooldown for Dashing Gentleman by 4/5/6/7/8.\n While using Button Up, his defense is increased by 50%.\n When Button Up is complete, he refills his cufflinks."
+                "name": "襟正し",
+                "Detail": "持続効果:ダメージを与える度にクールダウンが減少します。\n雪が服装を整えます。\n服装を整える間、防御力が増加し、打ち落としのクールダウンが減少します。\nスキル終了後、端正な服装のポタンを回復します。\n"
             },
             "E": {
-                "name": "Dashing Gentleman",
-                "Detail": "Yuki dashes in the targeted direction, dealing damage to the first enemy hit.\n Enemies hit are disarmed, disabling their normal attacks."
+                "name": "打ち落とし!",
+                "Detail": "雪が指定した方向に突進し、最初に対峙した敵にダメージを与えます。\n攻撃された対象は一定時間の間基本攻撃が封鎖されます。\n"
             },
             "R": {
-                "name": "Coup de Grace",
-                "Detail": "Yuki unsheaths his sword and slashes an area in front of him, dealing damage to enemies and leaving a mark, reducing movement speed of enemies by 70% for 1 second.\n The mark explodes after Yuki sheathes his sword, dealing true damage based on the enemy's max HP."
+                "name": "花無十日紅",
+                "Detail": "雪が剣を持って空間を斬ります。\n 雪は自分が斬った敵にダメージを与え、刻印を付与し移動速度を減少させます。\n雪が剣を鞘に入れる。\n 瞬間刻印が爆発し対象の最大体力に比例した固定ダメージを与えます。\n"
             }
         },
         "혜진": {
             "T": {
-                "name": "Three Calamities",
-                "Detail": "When Hyejin hits an enemy with a skill, they receive a calamity.\n Upon reaching 3 stacks, Three Calamities is activated, fearing them.\n Feared enemies cannot receive Three Calamities again for 8 seconds."
+                "name": "三災",
+                "Detail": "ヘジンは同じ対象にスキルを3回命中させると三災をかけて恐怖状態にします。\n恐怖状態の対象は一定時間の間三災に免疫されます。\n"
             },
             "Q": {
-                "name": "Charm of Despair",
-                "Detail": "Hyejin casts a Charm of Despair in the targeted direction, dealing damage to the first enemy hit, and reducing their movement speed for 1 second.\n She can recast the skill to cast another charm."
+                "name": "制圧符",
+                "Detail": "ヘジンが指定した方向に制圧符を投げ、命中した対象にダメージを与え、移動速度を減少します。\n制圧符は最大2つまでスタックできます。\n"
             },
             "W": {
-                "name": "Charm of the Prophecy",
-                "Detail": "Hyejin summons a Charm of the Prophecy in the targeted location that stays at the location.\n Charm of Prophecy ignites after the max time, or if the skill is activated again, dealing damage to enemies in range and rooting them.\nCharm of the Prophecy damage increases while on the ground."
+                "name": "吸霊符",
+                "Detail": "ヘジンが指定した位置に一定時間維持される吸霊符を召喚します。\n吸霊符はスキルを再使用したり維 」 持時間が終了すると発動され、範囲内の敵にダメージを与え束縛させます。\n吸霊符のダメージ量は召喚時間が長くなるほど増加します。\n"
             },
             "E": {
-                "name": "Charm of the Nomad",
-                "Detail": "Hyejin casts a Charm of the Nomad in the targeted location, dealing damage to enemies hit.\n Activating the skill again teleports Hyejin to the location of Charm of the Nomad, dealing damage to enemies upon landing."
+                "name": "移動符",
+                "Detail": "ヘジンが指定した方向へ移動符を飛ばして経路上の敵にダメージを与えます。\n スキルを再び使用すると移動符の位置に瞬間移動し周りの敵たちにダメージを与えます。\n"
             },
             "R": {
-                "name": "Five Omens",
-                "Detail": "Hyejin focuses for 1 second, summoning 5 Omens, and dealing damage to enemies in an area around her.\n The Omens spin around Hyejin for 20 seconds, each dealing damage to enemies hit.\n Omens are consumed after hitting an enemy.\n While focusing, her movement speed is reduced by 30%.\n Hyejin can teleport to her Charm of the Nomad location while focusing."
+                "name": "五大尊名王陣",
+                "Detail": "ヘジンが1秒間のキャスト後、5つの札を召喚し周りの敵にダメージを与えます。\n 札は一定時間の間ヘジンの周辺を回り、衝突した敵に各々のダメージを与えた後に消えます。\nキャスティング中は移動速度が減少し、移動符が飛んでいる間はスキルを使用して瞬間移動できます。\n"
             }
         },
         "쇼우": {
             "T": {
-                "name": "Juggernaut Chef",
-                "Detail": "Food and beverages made by Xiukai have 30% bonus recovery.\n When crafting a food item of Uncommon or higher rarity, he earns a stack of Juggernaut Chef, increasing his max HP by 8 for each stack.\n Stacks given per food: 1/2/3 for all rarities"
+                "name": "料理人の情熱",
+                "Detail": "料理人シウカイが作った食べ物と飲み物は回復量が追加されます。\nシウカイは高級等級以上の食べ物 | を作る度に料理人の情熱スタックを獲得し、最大体力がスタックに応じて増加します。\n"
             },
             "Q": {
-                "name": "Lost in the Sauce",
-                "Detail": "Xiukai throws his sauce barrel in the targeted direction, dealing damage to enemies hit and reducing their movement speed by 30% for 2 seconds."
+                "name": "ソースまみれ",
+                "Detail": "指定した方向へソースを投げ、的中した対象にダメージを与え、移動速度を減少させます。\n"
             },
             "W": {
-                "name": "Heavy Meal",
-                "Detail": "Xiukai slams his giant wok on the ground, dealing damage in an area around him and reducing the movement speed of enemies hit by 10/20/30/40/50% for 1.5 seconds.\n Enemies with impaired movement receive an additional damage (3/3.5/4/4.5/5% of Xiukai's max HP) and their movement speed is reduced for an additional 3 seconds."
+                "name": "ウォック落とし",
+                "Detail": "シウカイがウォックを地面に強く落とし、周りの敵にダメージを与え、移動速度を減少します。\n対象が移動妨害デバフにかかった状態なら全体体力に応じた追加ダメージを与えます。\n"
             },
             "E": {
-                "name": "Wok It Off",
-                "Detail": "Xiukai slides on his wok in the targeted direction, dealing damage to enemies hit.\n Enemies with impared movement receive additional damage and are knocked airborne for 1 second."
+                "name": "ウォック突進",
+                "Detail": "シウカイが指定した方向へウォックに乗って突進し、的中した対象にダメージを与えます。\n対象が移動妨害デバフにかかった状態なら全体体力に応じたダメージを与え空中に浮かべます。\n"
             },
             "R": {
-                "name": "Burnt to a Crisp",
-                "Detail": "Xiukai dishes out fire from his wok 6 times in 3 seconds, dealing damage to enemies in a cone in front of him.\n (+ stacks of Juggernaut Chef).\n Enemies with impaired movement have their defense reduced by 10/15/20% for 3 seconds."
+                "name": "あっつい!",
+                "Detail": "シウカイが一定時間の間炎を出して、範囲内の敵にダメージを与えます。\n 料理人の情熱のスタックほど追加ダメージを与えます。\n 対象が移動妨害デバフにかかった状態なら防御力を減少します。\n"
             }
         },
         "시셀라": {
             "T": {
-                "name": "Agony",
-                "Detail": "As Sissela's HP decreases, she gains HP regeneration and skill amplification.\n HP regeneration per second: 2/4/6 ~ 26/36/46 (is not affected by the increase rate of HP regen) Skill Amplification: 2/4/6 ~ 10/20/30.\n When Wilson returns to Sissela, her next normal attack deals damage and reduces the movement speed of enemies by 10/20/30% for 2 seconds.\nWilson may be 10.25m away from Sissela before automatically returning"
+                "name": "苦痛の記憶",
+                "Detail": "シセラは現在の体力が低いほど体力回復量とスキル増幅量が増加します。\n ウィルソンが戻る度に次の基本攻撃は追加ダメージを与え移動速度を減少させます。\n"
             },
             "Q": {
-                "name": "Go Get 'Em Wilson!",
-                "Detail": "Wilson flies in the targeted direction, dealing damage to enemies in his path and damage upon arrival."
+                "name": "助けてウィルソン!",
+                "Detail": "ウィルソンが指定した位置へ飛び、経路上の敵にダメージを与え、指定位置に到着すると範囲内の敵 にダメージを与えます。\n"
             },
             "W": {
-                "name": "Girl in a Bubble",
-                "Detail": "Wilson embraces Sissela for 1.5 seconds, blocking all damage and making her invulnerable.\n Wilson's shield explodes after the max time, or if the skill is activated again, dealing damage to enemies in an area around her and pushing them back 2m."
+                "name": "ウィルソン、どこ?",
+                "Detail": "ウィルソンがシセラを保護し、すべてのダメージを受けず、目標指定ができなくなります。\n 持続時間が終わるか、またスキルを使用すると周りの敵にダメージを与えて突き飛ばします。\n"
             },
             "E": {
-                "name": "Play With Us!",
-                "Detail": "Wilson stretches his body in the targeted direction, pulling the first target hit.\nAlly pull: the target receives a shield, absorbing damage for 3 seconds and the cooldown of Play With Us! is reduced by 3 seconds.\n Enemy pull: Wilson deals damage and stuns the target for 1 second."
+                "name": "一緒に遊ぼう",
+                "Detail": "ウィルソンが指定した方向へ体を伸ばし、ぶつかった対象を引っ張ってきます。\n対象がシセラか味方 なら、シールドが生成され、対象が敵ならダメージを与え気絶させます。\nシセラや味方を引っ張ってくると再使用待機時間が減少します。\n"
             },
             "R": {
-                "name": "Free at Last",
-                "Detail": "Sissela channels for 1 second.\n After 3 seconds, Sissela deals damage to all enemy players on the map, as well as herself.\n Sissela's HP will not drop below 1 when taking damage from this skill.\nDealing damage with this skill increases the damage from Agony by 100% for 5 seconds."
+                "name": "解放",
+                "Detail": "1秒間のキャスト後、3秒後にシセラを含めたすべての敵に失った体力に応じたダメージを与えますシセラは該当ダメージを受けても体力が1以下になりません。\n ダメージを与えた後、一定時間の間パッシブスキルの効果が増加します。\nシセラとの距離に応じて受けるダメージ量が異なります。\n"
             }
         },
         "키아라": {
             "T": {
-                "name": "Stigma",
-                "Detail": "When Chiara hits an enemy with a skill, she carves a Stigma into them, reducing their defense by 2/4/6%.\n Chiara can apply a maximum of 4 Stigmas to the same enemy.\n When the enemy reaches the maximum amount of Stigmas, Chiara's movement speed is increased for 6 seconds."
+                "name": "烙印",
+                "Detail": "キアラはスキルに的中した敵に烙印を刻み、防御力を減少させます。\n烙印のストックが最大までに刻まれた敵がいる時キアラの移動速度が上昇します。\n"
             },
             "Q": {
-                "name": "Hand of Corruption",
-                "Detail": "Chiara casts out corrupted energy in the targeted direction, dealing damage to all enemies it hits.\n Hold the skill down for 0.5 seconds to cast out the corrupted energy further and in a straight line.\n Using the skill short-ranged reduces its cooldown by 20%."
+                "name": "不浄の手",
+                "Detail": "キアラが指定した方向へ不浄の手を向け経路上の敵にダメージを与えます。\n 不浄したオーラは一定時間維持され移動速度を減少させます。\n秒間スキルを押していると不浄したオーラを遠くまでに放つことが出来ます"
             },
             "W": {
-                "name": "Depraved Prayer",
-                "Detail": "Chiara divines a shield, absorbing damage.\n The shield remains for 6 seconds.\n If the shield is not depleted after 3 seconds, she can reactivate the skill again, making it explode, dealing damage to enemies in range."
+                "name": "捻れた祈り",
+                "Detail": "キアラがダメージを吸収するシールドを作り一定時間維持させる事が出来ます。\n 一定時間後、シールドが残っている場合スキルを再び使用しシールドを爆発させる事が出来ます。\n シールドをが爆発する事で範囲内の敵にダメージを与えます。\n"
             },
             "E": {
-                "name": "Mania",
-                "Detail": "Chiara sends out a shackle in the targeted direction, dealing damage to enemies hit and linking them to Chiara.\n If the link is maintained for 1.75 seconds, she deals damage and roots the enemy for 1.5 seconds."
+                "name": "執着",
+                "Detail": "キアラが指定した方向へ執着の鎖を放ち的中した敵にダメージを与え鎖で繋ぎます。\n 鎖は一定時間が維持されるとダメージを与え対象を引きずります。\n"
             },
             "R": {
-                "name": "Plague / Last Judgement",
-                "Detail": "Chiara channels the darkness inside of her, temporarily transforming into a fallen angel.\n While transformed, her normal attacks are ranged, her max HP is increased, and she Plagues the area around her.\n Enemies inside of the Plague receive damage every second, and Chiara recovers HP based on 10/20/30% damage dealt.\n While Plague is activated, she gains vision of all enemies that have the maximum amount of Stigmas, and she can cast Last Judgement.\n Last Judgement : Chiara can crash down upon an enemy with the maximum amount of Stigmas, dealing true damage and ending the Plague.\n Killing enemies with Last Judgement reduces the cooldown of Plague by 50%."
+                "name": "暴走",
+                "Detail": "キアラが暴走し羽を広げて一定時間変身します。\n 変身する間、基本攻撃が遠距離に変更され最大体力が増加します。\n暴走範囲内の敵に毎秒ごとダメージを与え、ダメージ量に比例し自分の体力を回復します暴走中のキアラは烙印が最大スタックまで刻まれた敵の視野を獲得し、対象に審判を下すことが出来ます。\n"
             }
         },
         "아드리아나": {
             "T": {
-                "name": "Pyromaniac",
-                "Detail": "Adriana can start fires on the ground.\n Enemies lit on fire by a burning area are Burned, taking damage over time and have their movement speed reduced.\n Damage increases per stack of Burned.\n Adriana recovers 0.5/1/1.5% SP every 0.5s while a fire she lit is active."
+                "name": "メラメラ",
+                "Detail": "アドリアナはスキルを使用して火炎地帯を作ることが出来ます。\n 火炎地帯は範囲内の対象にメラメラを与え、持続ダメージを与え移動速度を減少させます。\n」 メラメラはストックするたびにダメージが増加します。\n自分が作った火炎地帯が維持される間にはスタミナを回復します。\n"
             },
             "Q": {
-                "name": "Flamethrower",
-                "Detail": "Adriana fires her flamethrower in the targeted direction, dealing true damage (true damage ignores defense and is not affected by skill amplification)."
+                "name": "放火",
+                "Detail": "アドリアナが指定した方向で火炎放射器の炎を発射して固定ダメージを与えます。\n"
             },
             "W": {
-                "name": "Oil Slick",
-                "Detail": "Adriana spills oil on the targeted location.\n The oil slick remains for a certain time.\n Adriana can ignite the oil slick with a skill to start a fire for 5 seconds.\n Enemies inside the oil slick have their movement speed reduced and cannot use movement skills."
+                "name": "イル放射",
+                "Detail": "アドリアナが指定した位置にオイルを発射して、一定時間維持されるオイル地帯を作ります。\n オイルの範囲にスキルを使用し炎をつける事で火炎地帯が作られます。\nオイル地帯の中にある敵は移動速度が減少し、移動スキルを使用できません。\n"
             },
             "E": {
-                "name": "Fire Escape",
-                "Detail": "Adriana dashes in the targeted direction, leaving behind a trail of fire.\n The flames create fire and remain for 2 seconds."
+                "name": "猛火ラッシュ",
+                "Detail": "アドリアナが指定した方向へ突進します。\n アドリアナが移動した経路に維持される火炎地帯が作られます。\n"
             },
             "R": {
-                "name": "Cocktail Party",
-                "Detail": "Adriana throws a Molotov cocktail at the targeted location.\n The Molotov cocktail explodes upon landing, dealing damage and knocking back enemies.\n After the explosion, the Molotov cocktail leaves behind a fire for 5 seconds.\n Adriana can throw a maximum of 3 Molotov cocktails."
+                "name": "カクテルパーティー",
+                "Detail": "アドリアナが指定した位置に火炎瓶を投げます。\n 地面に落ちた火炎瓶は爆発しダメージを与え、中央から外部へ吹き飛ばします。\n火炎瓶が爆発そた場 所には火炎地帯が生成されます。\n 火炎瓶は一定時間毎に追加され、最大3個まで追加されます。\n"
             }
         },
         "쇼이치": {
             "T": {
-                "name": "Phony Deal",
-                "Detail": "Shoichi earns a stack of Phony Deal each time he hits an enemy with a skill, increasing his critical strike chance by 3/5/7% for 6 seconds.\n Upon reaching 5 stacks, his normal attack damage is increased by 10/15/20%.\n If Shoichi picks a dagger up off the ground, he throws it at the nearest enemy within 5m, dealing damage."
+                "name": "不当利得",
+                "Detail": "彰ーはスキルが命中する度に不当利得1スタックを獲得し、スタック毎に致命打確率が増加します。\n 不当利得は最大スタックに到達すると一般攻撃のダメージ量が増加します。\n 自分が投げた短剣を回収する時、近所に敵がいる場合は短剣を投げてダメージを与えます。\n 敵がいない場合は短剣が消えます。\n"
             },
             "Q": {
-                "name": "Good Faith / Bad Faith",
-                "Detail": "Shoichi lunges his blade in the targeted direction, dealing damage.\n Hitting an enemy reduces the cooldown by 2 seconds and enables him to use Bad Faith within 8 seconds.\nBad Faith: increased range and Shoichi will leave a dagger on the ground."
+                "name": "表裏",
+                "Detail": "彰一が突き攻撃をし、ダメージを与えます。\n敵にダメージを与えたならクールダウンが減少し、次に」 使用する表裏のスキルが強化されます。\n強化されたスキルは攻撃範囲が増加し、彰一の正面に短剣を手 生成します。\n"
             },
             "W": {
-                "name": "Bottom Line",
-                "Detail": "Shoichi dashes to a targeted enemy or dagger, dealing damage to all enemies in his path.\n If he picks up a dagger, the cooldown of Bottom Line is reset."
+                "name": "飛躍",
+                "Detail": "彰一が敵または自分が設置した短剣に早い速度で突進し、経路上の敵たちにダメージを与えます。\n 短剣を回収するとスキルのクールダウンが初期化されます。\n"
             },
             "E": {
-                "name": "Risky Business",
-                "Detail": "Shoichi takes a step back and throws a dagger forward, dealing damage to the first enemy hit and reducing their movement speed for 1 second.\nnUpon hitting an enemy, a dagger will fall behind the enemy."
+                "name": "協商",
+                "Detail": "彰ーが後ろに一歩後退しながら前方に短剣を投げます。\n命中した敵にはダメージを与え、移動速度を 減少させます。\n その後、短剣はダメージを受けた敵の後ろに設置されます。\n"
             },
             "R": {
-                "name": "Ruthless",
-                "Detail": "Shoichi swings his deadly briefcase, dealing damage to enemies around him, slowing them for 1 second and tossing 4 daggers to the ground in a square.\n Daggers pierce enemies, dealing damage."
+                "name": "無慈悲",
+                "Detail": "彰一が物を振り回して範囲内の敵たちにダメージを与え、敵の移動速度を減少し四方に4つの短剣を 」 設置します。\n 短剣は飛んでいく間敵を貫通し、ダメージを与えます。\n"
             }
         },
         "실비아": {
             "T": {
-                "name": "Lumia Grand Prix",
-                "Detail": "Upon entering a new area, aside from the Research Center, Silvia's attack speed is increased by 1/2/3%.\n If she visits all 15 areas, her skill amplification is increased by 15%.\n Every 30 seconds, Silvia can gain 10/12/14 fuel when visiting a new area.\n She regains 1 fuel every 3 seconds when not on her bike."
+                "name": "ブランツーリスモ",
+                "Detail": "シルヴィアは研究所以外の新しい地域に進入する度に攻撃速度が増加します。\n 15ヶ所の地域を全部探索するとスキル増幅が増加します。\n 一定時間毎に他の地域に進入すると1秒後燃料を獲得します。\n バイクに乗っていない状態で一定時間毎に燃料を獲得します。\n"
             },
             "Q": {
-                "name": "Radar Gun / Power Slide",
-                "Detail": "Silvia fires a Radar Gun, dealing damage to enemies hit and healing herself and allies hit for 40/60/80/100/120(+AP 30%) HP.\n Silvia gains 5 fuel for each target she hits, excluding herself.\n\nOn bike: Silvia spins on her bike, dealing damage to enemies in range."
+                "name": "スピードガン",
+                "Detail": "シルヴィアが対象を指定し、スピードガンで経路上の敵にダメージを与え、自分と経路上のチー には体力を回復させます。\n シルヴィアはスキルを命中させた対象の数毎に燃料を獲得します。\n"
             },
             "W": {
-                "name": "Finish Line / Front Flip",
-                "Detail": "Silvia sets up a Finish Line in the targeted location, dealing damage and decreasing the movement speed of enemies that pass through it for 3 seconds.\n This only occurs the first time an enemy passes through.\nOn bike: Silvia jumps in the direction she is currently facing, dealing damage to enemies in range and knocking them airborne."
+                "name": "フィニッシュライン",
+                "Detail": "シルヴィアが指定した位置にフィニッシュラインを設置し、ラインに触れた敵にダメージを与え、移 動速度を減少させます。\n 移動速度減少効果は最初に当たった時にだけ適用されます。\n"
             },
             "E": {
-                "name": "Spare Tire / Wheelie",
-                "Detail": "Silvia launches a Spare Tire in the targeted direction, dealing damage based on the distance.\n Enemies within 3m are knocked back.\n Upon hitting an enemy further than 3m, Silvia gains 2~24 fuel based on the distance the tire traveled.\nOn bike: Silvia wheelies toward the targeted enemy dealing damage and knocking them 1m back.\n She deals additional damage depending on her movement speed."
+                "name": "スペアホイール",
+                "Detail": "シルヴィアが指定した方向へスペアホィールを転がして命中した敵に距離に応じたダメージを与えま敵が一定範囲内でスキルに当たると突き飛ばされます。\n シルヴィアは命中した距離に応じて燃料を獲得します。\n"
             },
             "R": {
-                "name": "Shift Gears",
-                "Detail": "Silvia hops on her motorcycle, consuming 5 fuel every 1 second, increasing her movement speed, and giving her different skills.\n She can use Shift Gears when her fuel is above 30.\n Silvia cannot use normal attacks or weapon skills while riding her motorcycle.\nWhen she first changes to motorcycle mode she decreases her movement speed by 50% while reving up for 1.5s.\n Her defense increases by 10/17/24 while on the bike.\n Moving the bike within a range of 10 degrees left or right increases her speed gradually until a maximum of +70%.\n Turning the bike range more than 10 degrees in either direction decreases her speed proportionally to the turn angle, down until 80% of your base movement speed.\nOn bike: Silvia dismounts her bike and reverts her skills.\n Her next normal attack within 3 seconds deals damage."
+                "name": "機動戦",
+                "Detail": "シルヴィアがバイクに乗り燃料を消費します。\n バイク状態では基本移動速度が増加し、バイクスキルを使用できます。\n 燃料が一定値以上の場合だけスキルを使用できます。\n バイク状態では基本攻撃と武器スキルを使用出来ません。\n"
             }
         },
         "엠마": {
             "T": {
                 "name": "CheerUP♥",
-                "Detail": "Every few seconds, Emma's next normal attack deals extra damage equal to 2/3/4% of her SP, and she gains a shield absorbing HP equal to 90/120/150 or 3/6/9% of her maximum SP."
-            },
-            "Q": {
-                "name": "Dove Dealer",
-                "Detail": "Emma throws her card in the targeted direction, dealing damage to the first enemy hit and revealing her hidden dove.\n If her dove is revealed when she throws her card, it will also throw a card in the targeted direction.\n Hitting an enemy with 1 card reduces the cooldown of Dove Dealer by 1 second.\n Enemies hit by both cards have their movement speed reduced by 30%."
+                "Detail": "エマは一定時間ごとに基本攻撃を行う時最大スタミナの一定値だけの追加ダメージを与え、シールド」 を獲得します。\n"
             },
             "W": {
-                "name": "Hat Trick",
-                "Detail": "Emma tosses her hat in the targeted area. After a few seconds, it explodes, dealing damage to enemies in the area.\n Hitting an enemy with Hat Trick reduces its cooldown by 3 seconds."
+                "name": "マジックハット",
+                "Detail": "エマが指定した位置へ帽子を投げると、爆発して範囲内の敵にダメージを与えます。\n 帽子は一定時間残ります。\n スキルを命中させるとマジックハットのクールダウンが減少します。\n"
             },
             "E": {
-                "name": "Bunnymorph",
-                "Detail": "Passive: Every time Emma consumes SP, she recovers HP equal to 8/11/14/17/20% of her consumed SP.\n Active: Emma casts magic at a targeted enemy, polymorphing them into a rabbit.\n Enemies turned into rabbits are slowed.\n The skill cannot be used on downed enemies."
+                "name": "変身マジック",
+                "Detail": "エマが指定した敵にマジックビームを飛ばして移動以外の他の行動ができない免に変身させます。\n 免になった対象は束縛され、移動速度が減少します。\n 瀕死状態の敵にはスキルを使用できません。\n"
             },
             "R": {
                 "name": "Change★",
-                "Detail": "Emma magically teleports to a summed dove, hat, or rabbit and uses magic depending on the selected target, resetting the passive cooldown.\n Dove: Emma's dove flies towards her previous spot, dealing damage to enemies on the way and rooting them for 1.5 seconds. \n Hat: Emma switches places with the hat, dealing damage to enemies in the area she came from while pulling them towards the center.\nRabbit: Enemies in the area of the rabbit are also bunnymorphed for 1 second(s). Enemies turned into rabbits are slowed by .6"
+                "Detail": "エマ自身が召喚した鳩、帽子、免を指定して該当位置に瞬間移動した後、対象に応じて追加公演をし、 ます。\n 加:鳩がエマの位置に移動し、経路上の敵にダメージを与え、束縛させます。\n 帽子: 帽子がエマの位置に移動し、範囲内の敵にダメージを与え、帽子の中心に引っ張ります。\n 知 : 免周辺の敵にマジックをかけ、免にします。\n免になった対象は束縛され、移動速度が減少されます。\n"
             }
         },
         "레녹스": {
             "T": {
-                "name": "Bait and Tackle",
-                "Detail": "Bait: Lenox gets extra items, excluding weapons, every time she fishes.\n Tackle: Every few seconds, normal attacks grant Lenox a shield that absorbs damage in relation to her max HP."
+                "name": "釣り人の直感",
+                "Detail": "レノックスは釣りで魚を獲得するとき、武器以外のアイテムを1個追加獲得します。\nそして一定時間 ごとに基本攻撃で敵プレイヤーを攻撃する度に最大体力に応じてダメージを吸収するシールドを獲得します。\n"
             },
             "Q": {
-                "name": "Recoil",
-                "Detail": "Lenox whips a circle area around her, dealing damage to enemies.\n She deals extra damage based on her max HP at the edge.\n Hitting an enemy grants her a stack, reducing the cooldown of Recoil per stack."
+                "name": "蛇の場",
+                "Detail": "レノックスが範囲内の敵にダメージを与えます。\n範囲の端の敵にはレノックスの最大体力に応じた追 加ダメージを与えます。\n敵に攻撃を命中させると1スタックを獲得し、スタックごとに蛇の時のクー ルタイムが減少します。\n"
             },
             "W": {
-                "name": "Snakebite",
-                "Detail": "Lenox whips twice, once in a circle around her, dealing damage and slowing enemies.\n Following that, she will attack in a straight line, dealing damage and silencing enemies. Hitting an enemy with the second part of her skill increases her movement speed."
+                "name": "鋭い毒牙",
+                "Detail": "レノックスは鞭で2回攻撃を行い、最初の攻撃で周りの敵にダメージを与え一定時間の間移動速度を 減少させます。\n2回目の攻撃は経路上の敵にダメージを与え沈黙させます。\n 2回めの攻撃が命中するとレノックスの移動速度が増加します。\n"
             },
             "E": {
-                "name": "Whiplash",
-                "Detail": "Lenox sweeps her whip in an area around her, dealing damage and pushing or pulling enemies, depending on the direction of the skill.\n  Enemies hit are slowed."
+                "name": "蛇の動き",
+                "Detail": "レノックスが後ろから前へと拠を振って、範囲内の敵にダメージを与え突き飛ばした後、移動速度を 減少させます。\n"
             },
             "R": {
-                "name": "Blue Viper",
-                "Detail": "Lenox quickly attacks twice in an X shape, dealing damage and applying Blue Viper.\n Blue Viper: For a certain amount of time, enemies take damage depending on how far they move.\n  Hitting an enemy with both attacks deals more damage depending on how far they move."
+                "name": "青い蛇",
+                "Detail": "レノックスが鞭をX字型に素早く2回振って、それぞれのダメージを与え、青い蛇の効果を与えます青い蛇 :固定ダメージを移動距離に応じて与えます。\n2回とも命中した場合は移動距離によって追加の固定ダ メージを与えます。\n"
             }
         },
 
         
         "단검": {
-            "name": "Cloak and Dagger",
-            "Detail": "Activating the cloak skill causes you become transparent and increases your movement speed.\n The increased movement speed decreases again after some time.\n If you use a normal attack on the enemy when the dagger effect is activated, you move behind the enemy and deal critical damage."
+            "name": "マントと短剣",
+            "Detail": "マント効果により一定時間透明になって移動速度が増加します。\n増加した移動速度は一定時間に渡っ て減少します。\n短剣効果が活性化された状態で敵に基本攻撃をすると敵の後ろに移動して致命打を与え、対象の現在 の体力に応じて追加ダメージを与えます。\n"
         },
         "양손검": {
-            "name": "Parry",
-            "Detail": "Block all damage for a certain time, and return the damage to the attacking enemy."
+            "name": "受け流し",
+            "Detail": "剣を持ち上げ、選択した方向へ向かって防御姿勢を取り前方からの攻撃とその効果を防御します。\n 一定時間後指定した方向へ突進し、経路上の全ての敵にダメージを与えます。\n"
         },
         "도끼": {
-            "name": "Berserk",
-            "Detail": "Every time you use a normal attack on an enemy, you gain a stack of Berserk.\n Your attack power increases with how many Berserk stacks you have.\n Activating this skill increases your attack power depending on the number of Berserk stacks you have and how much HP you have lost."
+            "name": "バーサーク",
+            "Detail": "敵に基本攻撃をする度にパーサークの効果がカウントされ、カウントに応じて攻撃力が増加します。\nパーサークスキルを使用するとバーサーク効果カウントに応じて攻撃力増加量が上昇し、失った体力に比例して追加で攻撃力が増加します。\n"
         },
         "쌍검": {
-            "name": "Dual Sword Rampage",
-            "Detail": "Charge in the targeted direction and deal damage to all enemies in your path.\n If you hit an enemy, you can use the skill again."
+            "name": "双剣乱舞",
+            "Detail": "選択した方向へ突進し、経路上の全ての敵にダメージを与えます。\n 攻撃に成功するとスキルをもう一度使用できます。\n"
         },
         "권총": {
-            "name": "Moving Reload",
-            "Detail": "Increase movement speed and quickly reload your gun.\n The cooldowns of all your other skills are reduced, except for your passive and weapon skills."
+            "name": "ムービングリロード",
+            "Detail": "移動速度が早くなり、素早く銃弾を装填します。\n スキル終了時パッシブスキルと武器スキルを除いた全てのスキルの待機時間が一定時間減少します。\n"
         },
         "돌격소총": {
-            "name": "Overheat",
-            "Detail": "When hitting an enemy with a normal attack, you gain an Overheat stack for each bullet.\n If you do not use a normal attack for a certain time, your start to lose stacks.\n When you reach the maximum number of stacks, you can activate the Overheat skill.\n When this skill is activated, the attack speed cap is ignored and your normal attacks gain a knockback effect."
+            "name": "過熱",
+            "Detail": "基本攻撃で敵を攻撃する度に銃弾1発毎に過熱カウントを獲得します。\n一定時間基本攻撃をしないと 過熱カウントは減少します。\n 過熱カウントが最大値になると過熱スキルを使用できます。\n過熱効果活性化中は攻撃速度上限が解放 」 され、基本攻撃にノックバック効果が追加されます。\n"
         },
         "저격총": {
-            "name": "Sniper",
-            "Detail": "Activate the sniper mode in the targeted direction.\nIn sniper mode, your range of vision is increased and your view angle is narrowed.\n After choosing an enemy in your sight range to attack, they will be alerted that they are in your line of sight before you shoot and deal damage to them.\nYou can end sniper mode by reactivating the effect."
+            "name": "狙撃",
+            "Detail": "選択した方向に向かって狙撃モードを活性化します。\n 狙撃モードでは視界距離が増加しますが視界の角度は狭くなります。\n 視界内の敵を攻撃するとしばらくの間、敵に照準線が見られた後、敵を狙撃してダメージを与えますスキルをもう一度使用すると狙撃モードが解除されます。\n"
         },
         "레이피어": {
-            "name": "Quick Cut",
-            "Detail": "Charge in the targeted direction and deal damage to all enemies in your path.\n If you hit an enemy, you can use the skill again."
+            "name": "閃撃",
+            "Detail": "選択した敵に突進してダメージを与えます。\n"
         },
         "창": {
-            "name": "Shadow Stab            ",
-            "Detail": "Powerfully lunge your spear in the targeted direction, dealing damage.\n You also deal damage to enemies within a certain range.\n Enemies hit by the attack have their movement speed reduced, and all enemies in a certain range get knocked back."
+            "name": "影突き",
+            "Detail": "選択した方向に強く槍を突いてダメージを与えます。\n 攻撃に撃たれた敵は移動速度が減少し、特定距離の敵は攻撃範囲の外に押し出します。\n"
         },
         "망치": {
-            "name": "Armor Piercing",
-            "Detail": "Smash the hammer down, dealing X damage and reducing the defense of enemies hit by X% for 5 seconds."
+            "name": " 鎧つぶし",
+            "Detail": "選択した方向へ金鎚を叩きつけてダメージを与えて防御力を減少させます。\n"
         },
         "배트": {
-            "name": "Full Swing",
-            "Detail": "Swing your bat in front of you, dealing X damage to all enemies in the targeted area, and knocking them back.\n Enemies hit into wall are stunned for 0.5 second."
+            "name": "フルスイング",
+            "Detail": "前方の全ての敵にダメージを与え、ノックパックさせます。\nノックパックされた敵が壁にぶつかるな。\n気絶します。\n"
         },
         "투척": {
-            "name": "Smokescreen",
-            "Detail": "A smokescreen appears at the targeted location.\n Enemies inside the smokescreen have their vision reduced and their movement speed decreased."
+            "name": "煙幕",
+            "Detail": "指定した位置に煙幕を投げ?発させます。\n煙幕の中の敵は視界と移動速度が減少します。\n"
         },
         "암기": {
-            "name": "Caltrops",
-            "Detail": "Throw caltrops in an area, dealing damage to enemies that step on them and reducing their movement speed.\n Stepping on additional caltrops deals 30% of the initial damage."
+            "name": "鉄菱投擲",
+            "Detail": "一定範囲に鉄菱をばら撒いて、鉄数を踏んだ敵にダメージを与えて2秒間移動速度を減少させます。\n (連続で鉄数を踏むと最初ダメージの30%のダメージを受けます。\n)"
         },
         "활": {
-            "name": "Rain Of Arrows",
-            "Detail": "Fire a bouquet of arrows at the targeted area, causing a hail of arrows.\n The arrows reach the target after a certain time, dealing damage to enemies hit by the rain of arrows and reducing their attack and movement speed.\n Enemies located at the center of the rain of arrows take more damage."
+            "name": " 矢の雨",
+            "Detail": "選択した地点に矢を発射して矢の雨を降らせます。\n 発射された矢は一定時間後に目標地点に降り注ぎ、矢の雨に打たれた対象にダメージを与えて鈍化状 態にします。\n矢の雨の中心にいる場合は大きなダメージを受けます。\n"
         },
         "석궁": {
-            "name": "Expulsion Shot",
-            "Detail": "Fire the crossbow in the targeted direction.\n Targets hit by the arrows take damage and are knocked back.\n Enemies knocked into a wall take extra damage and are stunned."
+            "name": "強弩",
+            "Detail": "選択した方向に向かって石弓を撃ちます。\n撃たれた対象はダメージを受けて押し出されます。\n対象が、 壁にぶつかって気絶すると追加ダメージを受けます。\n"
         },
         "글러브": {
-            "name": "Uppercut",
-            "Detail": "The range of your next normal attack increases and you deal additional damage for a certain time."
+            "name": "アッパーカット",
+            "Detail": " 一定時間、次の基本攻撃の射程距離が増加し て追加ダメージを与えます。\n"
         },
         "톤파": {
-            "name": "Quick Spin",
-            "Detail": "Block all damage for a certain time, and return the damage to the attacking enemy."
+            "name": "高速回転",
+            "Detail": "一定時間、全てのダメージを防ぎ、攻撃した対象にダメージを返します。\n(攻撃の効果は防御できま せん。\n)"
         },
         "기타": {
             "name": "Love&...",
-            "Detail": "Release a sound wave in the targeted direction to draw your enemy to the music, dealing damage to the first enemy hit and making them move towards the user."
+            "Detail": "指定した方向へ音波を発射して最初に当たった対象にダメージを与え、ハートの方に強制移動させま、 す。\n"
         },
         "쌍절곤": {
-            "name": "Breath of the Dragon",
-            "Detail": "Swing the nunchaku quickly, creating a gust of wind.\n After some time, launch the gust of wind in the targeted direction dealing damage depending on charge time.\n Swinging the nunchaku for more than a certain amount of time stuns enemies."
+            "name": "猛龍過江",
+            "Detail": "ヌンチャクを素早く振り回して発生させた風の塊を指定した方向に飛ばします。\n風の塊はヌンチャク をを振り回した時間によって増加したダメージを与え、一定時間以上を振り回すと当たった対象を気 絶させます。\n"
         },
         "채찍": {
-            "name": "Grappling Whip",
-            "Detail": "Snap your whip in front of you, dealing damage to enemies hit and pulling them towards you."
+            "name": "鉤",
+            "Detail": "鞭を前方に飛ばして当たった敵にダメージを与えた後、自分の方へと引っ張ります。\n"
         }
     }
 

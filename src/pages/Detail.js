@@ -84,7 +84,7 @@ class Detail extends Component {
         const bestWeapon = parseInt(query.bestWeapon) || 0;
         const gameMode = parseInt(query.gameMode) || 1;
 
-        if (stat.length === 0) {
+        if (stats.length === 0) {
             window.location.href = '/404';
         }
 
