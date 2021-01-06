@@ -20,7 +20,6 @@ class App extends Component {
                     <Route path="/RankCharacter" component={Rank_Character}/>
 
                     <Route path="/404" component={Error404}/>
-                    <Redirect to="/404" />
                 </Switch>
             </div>
         );
