@@ -1679,7 +1679,6 @@ button:hover{
     width: 750px;
     height: 275px;
     background-color: #251f32;
-    overflow: hidden;
     border-right: 1px solid #3b4147;
 }
 .item_tabs .actived{

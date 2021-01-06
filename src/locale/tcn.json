@@ -1030,24 +1030,24 @@
         },
         "레녹스": {
             "T": {
-                "name": "T",
-                "Detail": "?"
+                "name": "Bait and Tackle",
+                "Detail": "Bait: Lenox gets extra items, excluding weapons, every time she fishes.\n Tackle: Every few seconds, normal attacks grant Lenox a shield that absorbs damage in relation to her max HP."
             },
             "Q": {
-                "name": "Q",
-                "Detail": "?"
+                "name": "Recoil",
+                "Detail": "Lenox whips a circle area around her, dealing damage to enemies.\n She deals extra damage based on her max HP at the edge.\n Hitting an enemy grants her a stack, reducing the cooldown of Recoil per stack."
             },
             "W": {
-                "name": "W",
-                "Detail": "?"
+                "name": "Snakebite",
+                "Detail": "Lenox whips twice, once in a circle around her, dealing damage and slowing enemies.\n Following that, she will attack in a straight line, dealing damage and silencing enemies. Hitting an enemy with the second part of her skill increases her movement speed."
             },
             "E": {
-                "name": "E",
-                "Detail": "?"
+                "name": "Whiplash",
+                "Detail": "Lenox sweeps her whip in an area around her, dealing damage and pushing or pulling enemies, depending on the direction of the skill.\n  Enemies hit are slowed."
             },
             "R": {
-                "name": "R",
-                "Detail": "?"
+                "name": "Blue Viper",
+                "Detail": "Lenox quickly attacks twice in an X shape, dealing damage and applying Blue Viper.\n Blue Viper: For a certain amount of time, enemies take damage depending on how far they move.\n  Hitting an enemy with both attacks deals more damage depending on how far they move."
             }
         },
 
@@ -1129,12 +1129,10 @@
             "Detail": "Swing the nunchaku quickly, creating a gust of wind.\n After some time, launch the gust of wind in the targeted direction dealing damage depending on charge time.\n Swinging the nunchaku for more than a certain amount of time stuns enemies."
         },
         "채찍": {
-            "name": "?",
-            "Detail": "S"
+            "name": "Grappling Whip",
+            "Detail": "Snap your whip in front of you, dealing damage to enemies hit and pulling them towards you."
         }
     }
-
-
 
 
 }

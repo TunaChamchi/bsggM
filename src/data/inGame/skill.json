@@ -29,6 +29,11 @@
     "type": "character",
     "button": "R"
   },
+  "1001520": {
+    "name": "마무리 일격 즉시 시전",
+    "type": "character",
+    "button": "R"
+  },
   "1002100": {
     "name": "스즈키식 정의",
     "type": "character",
@@ -591,6 +596,31 @@
   },
   "1019500": {
     "name": "Change★",
+    "type": "character",
+    "button": "R"
+  },
+  "1020100": {
+    "name": "레녹스 패시브",
+    "type": "character",
+    "button": "T"
+  },
+  "1020200": {
+    "name": "뱀 채찍",
+    "type": "character",
+    "button": "Q"
+  },
+  "1020300": {
+    "name": "뱀의 위협",
+    "type": "character",
+    "button": "W"
+  },
+  "1020400": {
+    "name": "밀어내기",
+    "type": "character",
+    "button": "E"
+  },
+  "1020500": {
+    "name": "푸른뱀",
     "type": "character",
     "button": "R"
   },
