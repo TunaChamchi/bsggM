@@ -10,7 +10,7 @@ class Footer extends Component {
         return (
             <div>
                 <AdSense.Google
-                    className='Ad_box_Detail2'
+                    className='Ad_box_Detail1'
                     client='ca-pub-7215780243476450'
                     slot='8063267204'
                     style={{ display: 'block', width:728 }}
