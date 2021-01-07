@@ -86,7 +86,6 @@ class Map extends Component {
                         }                        
                     </div>
                 </div>
-                <AdS type={'Map'}/>
                 <Footer />
             </div>
         );
