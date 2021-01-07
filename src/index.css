@@ -26,11 +26,20 @@ Link {
 ::-webkit-scrollbar-button { display: none; } 
 /* ADs */
 .Ad_box_Detail2{
-    width: 728px;
-    height: 90px;
     margin:auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-top: -10px;
+    float: left;
+    margin-left: 12px;
+}
+.Ad_box_Detail2{
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    float: left;
+    margin-left: 12px;
 }
 /* all pages */
 input:focus{
@@ -379,7 +388,7 @@ button:hover{
     z-index: 0;
     margin-top: 20px;
     float: left;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .Main_search_box1{
     width: 700px;
