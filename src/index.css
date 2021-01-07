@@ -1927,6 +1927,7 @@ button:hover{
     border-radius: 0px 0px 3px 3px;
     padding-bottom: 25px;
     border-bottom: 1px solid #3b4147;
+    clear: both;
 }
 .map_title{
     text-align: center;
@@ -3046,6 +3047,7 @@ button:hover{
     float: left;
     position: relative;
     margin-left: 15px;
+    margin-bottom: 20px;
 }
 .record_top_iconimg{
     width: 140px;
