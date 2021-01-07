@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { injectIntl  } from 'react-intl';
 import { Langauge, Search } from 'components/banner';
-import { Version } from 'lib/data'
-import { defaultLang } from 'lib/utility'
+import AdSense from 'react-adsense';
 import logo from 'img/main_logo.svg';
 
 class MainBanner extends Component {
@@ -39,6 +38,13 @@ class MainBanner extends Component {
                     </div>
                 </div>
                 <Search/>
+                <AdSense.Google
+                    className='Ad_box_Detail2'
+                    client='ca-pub-7215780243476450'
+                    slot='9630487981'
+                    style={{ display: 'block', width:728 }}
+                    responsive='true'
+                    />
             </div>
         );
     };

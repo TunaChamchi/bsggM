@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Switch, Redirect } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { Main, Detail, Map, RouteM, NewMain ,Match, Rank, Rank_Character, Error404 } from 'pages';
 
 class App extends Component {

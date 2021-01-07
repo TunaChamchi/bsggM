@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { injectIntl  } from 'react-intl';
-import { Langauge  } from 'components/banner';
-import logo from 'img/sub_logo.svg';
 import { getCharacterKeys, getCharacter } from 'lib/data'
 
 class Search extends Component {
