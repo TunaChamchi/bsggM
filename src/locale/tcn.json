@@ -82,8 +82,11 @@
         "몇초 전":"幾秒前",
         "footer":"BSGG.kr isn’t endorsed by Nimble Neuron.\nEternal Return: Black Survival is trademarks or registered trademarks of Nimble Neuron.\nData Based on Nimble Neuron",
         "question":"卡通層級是以官方統計爲基礎，以卡通人物的勝率、登場率、KA/M、平均排名等爲基礎製作的。",
+        "공지사항1":"增加了葡萄牙語。",
+        "공지사항2":"",
         "로딩":"正在搜索戰績。 請稍等。",
         "없음":"無戶籍信息全無戶籍信息。 請重新確認暱稱後搜索。",
+        "nodata":"沒有數據。",
         "더헌터":{
         "name": "獵人",
         "Detail": "獵取野生動物50只以上！ 救救北極熊吧..."

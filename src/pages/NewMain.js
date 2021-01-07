@@ -40,6 +40,9 @@ class Main extends Component {
                         </div>
                     </div>
                 </div>
+                {/*<div className="mainpage_notice">
+                    <span className="mainpage_notice_span">{intl.formatMessage({id: '공지사항1'})}</span>
+                </div>*/}
                 <Search />
                 <div className="mainpage_size"></div>
                 <Footer />

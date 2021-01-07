@@ -61,8 +61,8 @@
     "최다킬":"Most Kills",
     "캐릭터":"Character",
     "매치정보":"Match Info",
-    "랭크":"RANK",
-    "일반":"NORMAL",
+    "랭크":"Rank",
+    "일반":"Normal",
     "추천아이템":"Recommended Item",
     "빌드":"Build",
     "더 보기":"more",
@@ -84,6 +84,9 @@
     "question":"Character tier is made based on the winning rate, pick rate, KA/M, and average ranking of characters based on official statistics.",
     "로딩":"Searching match history. Please wait a moment.",
     "없음":"No match historical information. Please check your nickname again and search for it.",
+    "nodata":"No data.",
+    "공지사항1":"Português foi adicionado.",
+    "공지사항2":"",
     "TheHunter":{
         "name": "TheHunter",
         "Detail": "Hunt more than 50 wild animals! Don't kill polar bears..."
