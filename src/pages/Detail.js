@@ -322,7 +322,6 @@ class Detail extends Component {
                         </Link>
                     </div>
                 </div>
-                <AdS type={'Detail'}/>
                 <Footer />
             </div>
         );

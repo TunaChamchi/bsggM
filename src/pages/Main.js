@@ -33,7 +33,6 @@ class Main extends Component {
                         <Rank />
                     </div>
                 </div>
-                <AdS type={'Main'}/>
                 <Footer />
                 {/* <ScriptTag src="//t1.daumcdn.net/kas/static/ba.min.js" async /> */}
                 {/* <ScriptTag src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async /> */}
