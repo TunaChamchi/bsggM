@@ -77,12 +77,12 @@ class Tier extends Component {
         this.listSort(type);
 
         return tierList[type].map((data, idx) => {
-            const preRank = preTier[type][data['characterNum']][data['bestWeapon']];
+            const preRank = preTier[type][data['characterNum']] ? preTier[type][data['characterNum']][data['bestWeapon']] : null;
             const rankDiff = preRank ? preRank['rank'][this.state.type[typeFocus]] - (idx+1) : 0;
             const characterName = getCharacter(data['characterNum'])['name'];
             const weaponName = getWeaponType(data['bestWeapon']);
 
-            if (preRank) {
+            if (preRank !== null) {
                 return (
                     <div className="rank-1" key={'tier' + idx}>        
                           
@@ -112,8 +112,8 @@ class Tier extends Component {
                             </Link>
                             <img className="rank3weapon1"  src={'img/Weapons/'+weaponName+'.jpg'} />&nbsp;
                             <img className="rank3tier1"    src={data['tier']===0?'img/Tier/1티어.png':'img/Tier/'+data['tier']+'티어.png'} />&nbsp;
-                            <span className="rank3win1"> {data['winRate'].toFixed(1)}% </span>&nbsp;
-                            <span className="rank3pick1">{data['pickRate'].toFixed(1)}%</span>&nbsp;
+                            <span className="rank3win1"> {(data['winRate']*100).toFixed(1)}%</span>&nbsp;
+                            <span className="rank3pick1">{(data['pickRate']*100).toFixed(1)}%</span>&nbsp;
                         
                     </div>
                 );
