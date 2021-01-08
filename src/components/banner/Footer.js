@@ -20,8 +20,8 @@ class Footer extends Component {
                     <div  className="footer_span">
                         <span>{intl.formatMessage({id:'footer'})}</span>
                     </div>
-                        <a className="footer_button" href="mailto:service@bsgg.kr">Contact</a>
-                        <a className="footer_button" href="https://twitter.com/BsggKr">Twitter</a>
+                        <a className="footer_button" href="mailto:service@bsgg.kr"><img className="footer_img" src="img/contact.png" /></a>
+                        <a className="footer_button" href="https://twitter.com/BsggKr"><img className="footer_img" src="img/twitter.png" /></a>
                 </div>
             </div>
         );

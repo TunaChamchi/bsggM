@@ -1888,7 +1888,7 @@ button:hover{
     margin-right: auto;
 }
 .footer_logo{
-    width: 100px;
+    width: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -1907,14 +1907,18 @@ button:hover{
 }
 .footer_span{
     float: left;
-    font-size: 13pt;
+    font-size: 10pt;
     text-align: left;
     display: inline-block;
-    width: 450px;
+    width: 500px;
     height: 90px;
-    margin-top: 8px;
+    margin-top: 10px;
     margin-left: 15px;
     white-space: pre-line;
+}
+.footer_img{
+    margin-left: 15px;
+    margin-top: 3px;
 }
 /* 3 page */
 .map_main{
