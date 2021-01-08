@@ -42,8 +42,7 @@ class MainBanner extends Component {
                     className='Ad_box_Detail2'
                     client='ca-pub-7215780243476450'
                     slot='9630487981'
-                    style={{ display: 'block', width:728 }}
-                    responsive='true'
+                    style={{ display: 'inline-block', width:728, height:90 }}
                     />
             </div>
         );

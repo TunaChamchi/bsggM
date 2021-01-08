@@ -13,8 +13,7 @@ class Footer extends Component {
                     className='Ad_box_Detail1'
                     client='ca-pub-7215780243476450'
                     slot='8063267204'
-                    style={{ display: 'block', width:728 }}
-                    responsive='true'
+                    style={{ display: 'inline-block', width:728, height:90 }}
                     />
                 <div className="footer">
                     <img className="footer_logo" src={logo}/>

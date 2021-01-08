@@ -28,10 +28,11 @@ class Characters extends Component {
     characterList = () => {
         const { searchList } = this.state;
 
-        const list = []
+        const list = [];
+        const _searchList = searchList.reverse();
 
-        for (var i = 0 ; i < searchList.length ; i+=4) {
-            const sub = [searchList[i], searchList[i+1], searchList[i+2], searchList[i+3]];
+        for (var i = 0 ; i < _searchList.length ; i+=4) {
+            const sub = [_searchList[i], _searchList[i+1], _searchList[i+2], _searchList[i+3]];
             list.push(sub);
         }
         
