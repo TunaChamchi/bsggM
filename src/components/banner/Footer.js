@@ -5,16 +5,26 @@ import logo from 'img/sub_logo.svg';
 
 class Footer extends Component {
     render() {
-        const { intl } = this.props;
+        const { intl, isMain } = this.props;
 
         return (
             <div>
-                <AdSense.Google
-                    className='Ad_box_Detail1'
-                    client='ca-pub-7215780243476450'
-                    slot='8063267204'
-                    style={{ display: 'inline-block', width:728, height:90 }}
-                    />
+                {
+                    isMain ?
+                        <AdSense.Google
+                            className='Ad_box_Detail1'
+                            client='ca-pub-7215780243476450'
+                            slot='8063267204'
+                            style={{ display: 'inline-block', width:728, height:180 }}
+                            />
+                        :
+                        <AdSense.Google
+                            className='Ad_box_Detail1'
+                            client='ca-pub-7215780243476450'
+                            slot='8063267204'
+                            style={{ display: 'inline-block', width:728, height:90 }}
+                            />
+                }
                 <div className="footer">
                     <img className="footer_logo" src={logo}/>
                     <div  className="footer_span">
