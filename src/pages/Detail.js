@@ -181,7 +181,31 @@ class Detail extends Component {
                 pick: skillOrder['totalGames']/stat['totalGames'],
                 total: skillOrder['totalGames'],
             });
-        })
+        });
+
+        const skillTree2 = [];
+        skillTree.forEach(order => {
+            const index = order['tree'][0] + order['tree'][1] + order['tree'][2] + order['tree'][3];
+
+            const isSkill = skillTree2.filter(s => s['index'] === index);
+            if (isSkill.length !== 0) {
+                //const i = skillTree2.indexOf()
+                isSkill[0]['win'] += order['win'];
+                isSkill[0]['pick'] += order['pick'];
+                isSkill[0]['total'] += order['total'];
+            } else {
+                const skill = {
+                    index: index,
+                    tree: order['tree'],
+                    order: order['order'],
+                    win: order['win'],
+                    pick: order['pick'],
+                    total: order['total'],
+                };
+                skillTree2.push(skill);
+            }
+        });
+        skillTree2.sort((s1, s2) => s2['total']-s1['total']);
 
         const itemOrder = [];
         stat['itemOrder'].forEach(order => {
@@ -216,7 +240,7 @@ class Detail extends Component {
         this.setState({ 
             character:character, bestWeapon:_bestWeapon, 
             gameMode:gameMode, stats:stats, stat:stat, tier:tier,
-            skillTree:skillTree, itemOrder:itemOrder,
+            skillTree:skillTree2, itemOrder:itemOrder,
             weaponList:weaponList, weaponTotal:weaponTotal,
             mostUser:mostUser
         });
