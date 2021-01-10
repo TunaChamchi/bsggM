@@ -176,6 +176,7 @@ class Rank_Character extends Component {
                     {this.rankTopView()}
                 </div>
                 <div className="record_main">
+                    <div className="master_notice">{intl.formatMessage({id: '장인안내'})}</div>
                     <div className="record_cha">
                         <div className="record_cha0">
                             <span className="record_cha0_span">RANK</span>

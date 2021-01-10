@@ -294,6 +294,7 @@ class Detail extends Component {
                         parameter={{character, bestWeapon, gameMode}}
                         />
                     <div className="S_left">
+                    <div className="detail_notice">{intl.formatMessage({id: '표본안내'})}</div>
                         <span className="S_left0">Guide</span>
                         <div className="tabHeaders">
                             {this.gameModeTabView()}

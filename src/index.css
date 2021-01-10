@@ -4027,6 +4027,33 @@ button:hover{
     height: 76px;
     border-bottom: 1px solid rgb(23, 21, 32);
 }
+.master_notice{
+    display: inline-block;
+    width: 750px;
+    font-size: 15pt;
+    height: 30px;
+    float: left;
+    text-align: left;
+    margin-top: -5px;
+}
+.detail_notice{
+    display: inline-block;
+    width: 750px;
+    font-size: 15pt;
+    height: 33px;
+    float: left;
+    text-align: left;
+    margin-top: -5px;
+}
+.main_notice{
+    display: inline-block;
+    width: 750px;
+    font-size: 15pt;
+    height: 33px;
+    float: left;
+    text-align: left;
+    margin-top: -5px;
+}
 .record_cha0_span{
     display: inline-block;
     width: 200px;

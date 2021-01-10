@@ -29,6 +29,7 @@ class Main extends Component {
                                 data-ad-height="250"></ins> } */}
                         </div>
                     </div>
+                    <div className="main_notice">{intl.formatMessage({id: '표본안내'})}</div>
                     <div className='main-right'>
                         <Rank />
                     </div>
