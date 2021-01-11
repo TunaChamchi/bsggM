@@ -1023,7 +1023,7 @@ button:hover{
 .S_left{
     width: 750px;
     clear: both;
-    margin-top: 30px;
+    margin-top: 5px;
     float: left;
 }
 .S_left0{
@@ -4030,7 +4030,7 @@ button:hover{
 .master_notice{
     display: inline-block;
     width: 750px;
-    font-size: 15pt;
+    font-size: 13pt;
     height: 30px;
     float: left;
     text-align: left;
@@ -4039,7 +4039,7 @@ button:hover{
 .detail_notice{
     display: inline-block;
     width: 750px;
-    font-size: 15pt;
+    font-size: 13pt;
     height: 33px;
     float: left;
     text-align: left;
@@ -4048,7 +4048,7 @@ button:hover{
 .main_notice{
     display: inline-block;
     width: 750px;
-    font-size: 15pt;
+    font-size: 13pt;
     height: 33px;
     float: left;
     text-align: left;

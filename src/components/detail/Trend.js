@@ -12,9 +12,9 @@ class Thend extends Component {
     }
 
     trendView = (name, idx) => {
-        const { intl, stat, tier, parameter } = this.props;
+        const { intl, tier, parameter } = this.props;
 
-        if (!tier) return;
+        if (!tier || !tier[parameter['gameMode']-1]['tier'][parameter['character']]) return;
 
         const avg = tier[parameter['gameMode']-1]['avg'];
         const max = tier[parameter['gameMode']-1]['max'];
@@ -43,7 +43,7 @@ class Thend extends Component {
     }
 
     render() {
-        const { intl } = this.props;
+        const { intl, tier, parameter } = this.props;
         const { trend } = this.state;
 
         return (
@@ -53,9 +53,12 @@ class Thend extends Component {
                 </div>
                 <div className="S_Trend2">
                     {
-                        trend.map((name, idx) =>
-                            this.trendView(name, idx)
-                        )
+                        tier[parameter['gameMode']-1]['tier'][parameter['character']] ? 
+                            trend.map((name, idx) =>
+                                this.trendView(name, idx)
+                            )
+                            :
+                            <div style={{marginTop: 100, fontSize: '15pt'}}>{intl.formatMessage({id: 'nodata'})}</div>
                     }
                 </div>
                 {/* <div className="master">
