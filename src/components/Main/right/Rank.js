@@ -20,7 +20,7 @@ class Rank extends Component {
     }
 
     componentDidUpdate(prevProps, prevState){
-        const { tier, preTier, isStartLoad } = this.props;
+        const { tier, preTier, isStartLoad } = this.state;
         if (isStartLoad === true && (tier === undefined || preTier === undefined)) {
             this.fetchHandler();
         }
