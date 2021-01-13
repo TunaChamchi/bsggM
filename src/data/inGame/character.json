@@ -337,7 +337,7 @@
       "resource": "LIDailin"
     },
     "levelUp": {
-      "maxHp": 89,
+      "maxHp": 84,
       "maxSp": 16,
       "attackPower": 1.9,
       "defense": 2.5,
@@ -669,7 +669,7 @@
       "maxSp": 430,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
-      "attackPower": 40,
+      "attackPower": 36,
       "defense": 28,
       "criticalStrikeChance": 0,
       "hpRegen": 0.8,
