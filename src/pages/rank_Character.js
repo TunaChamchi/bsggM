@@ -142,7 +142,7 @@ class Rank_Character extends Component {
                     </Link>
                     <img className="record_cha_rankimg" src={'img/Rankicon/'+tierList[stat['tier']].slice(0, -2)+'.png'} />
                     <div className="record_rank_span11">{tierList[stat['tier']]}</div>
-                    <div className="record_rank_span22">{stat['lp']} LP</div>
+                    <div className="record_rank_span22">{stat['total']}</div>
                     <div className="record_rank_span33">{stat['rate']}%</div>
                 </div>
             );
@@ -194,7 +194,7 @@ class Rank_Character extends Component {
                             <div className="record_rank_filter1">#</div>
                             <div className="record_rank_filter2">{intl.formatMessage({id: '플레이어'})}</div>
                             <div className="record_rank_filter3">{intl.formatMessage({id: '티어'})}</div>
-                            <div className="record_rank_filter4">{intl.formatMessage({id: '점수'})}</div>
+                            <div className="record_rank_filter4">{intl.formatMessage({id: '게임수'})}</div>
                             <div className="record_rank_filter5">{intl.formatMessage({id: 'winRate'})}</div>
                         </div>
                         {
