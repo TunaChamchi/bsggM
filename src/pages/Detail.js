@@ -69,7 +69,7 @@ class Detail extends Component {
                 .then(res => res.json())
                 .then(res => { _stats = res['stats']; _tier = res['tier']; });
 
-            await fetch('/api/Rank/character?characterCode='+character)
+            await fetch('/api/Rank/character?characterCode='+character+'&limit=5')
                 .then(res => res.json())
                 .then(res => _most = res );
             
@@ -260,7 +260,7 @@ class Detail extends Component {
         const { intl } = this.props;
         const { character, mostUser } = this.state
 
-        return mostUser.slice(0, 5).map((user, idx) => 
+        return mostUser.map((user, idx) => 
             <div className="master_rank" key={"master_rank"+idx}>
                 <span className="master_rank1">{idx+1}</span>
                 <Link to={'/Match?userName=' + user['nickname']}>
@@ -279,7 +279,6 @@ class Detail extends Component {
 
         const metaData = {
             title: 'BSGG.kr - ' +  intl.formatMessage({id: 'Title.Detail1'})+ " " + intl.formatMessage({id: 'characters.'+getCharacter(stat['characterNum'])['name']}) + ' ' + intl.formatMessage({id: 'weapons.'+getWeaponType(stat['bestWeapon'])}) + intl.formatMessage({id: 'Title.Detail2'}),
-            
         }
 
         return (
@@ -293,8 +292,13 @@ class Detail extends Component {
                         weaponData={{weaponList, weaponTotal}}
                         parameter={{character, bestWeapon, gameMode}}
                         />
+                    {
+                        tier[(gameMode-1)]['tier'][character] ? 
+                            <div className="detail_notice">{intl.formatMessage({id: '표본안내'})}</div>
+                            :
+                            <div className="detail_notice">{intl.formatMessage({id: '신캐안내'})}</div>
+                    }
                     <div className="S_left">
-                    <div className="detail_notice">{intl.formatMessage({id: '표본안내'})}</div>
                         <span className="S_left0">Guide</span>
                         <div className="tabHeaders">
                             {this.gameModeTabView()}
@@ -341,10 +345,20 @@ class Detail extends Component {
                         />
                     <div className="master">
                         <div className="master0">Master</div>
-                        {this.mostUserView()}
-                        <Link to={'/RankCharacter?character=' +character}>
-                            <button className="master_button">{intl.formatMessage({id: '더 보기'})}</button>
-                        </Link>
+                        {
+                            tier[(gameMode-1)]['tier'][character] ? 
+                                this.mostUserView()
+                                :
+                                <div style={{backgroundColor: 'rgb(38, 35, 53)', height:100, paddingTop:60, fontSize: '15pt'}}>{intl.formatMessage({id: 'nodata'})}</div>
+                        }
+                        {
+                            tier[(gameMode-1)]['tier'][character] ? 
+                                <Link to={'/RankCharacter?character=' +character}>
+                                    <button className="master_button">{intl.formatMessage({id: '더 보기'})}</button>
+                                </Link>
+                                :
+                                ''
+                        }
                     </div>
                 </div>
                 <Footer />

@@ -39,15 +39,25 @@ class Top extends Component {
         const name = character['name'];
         const statlv = character['levelUp'];
 
-        const _tier = tier[(parameter['gameMode']-1)]['tier'][stat['characterNum']][parameter['bestWeapon']]['tier']
+        const _tier = tier[(parameter['gameMode']-1)]['tier'][stat['characterNum']] ? tier[(parameter['gameMode']-1)]['tier'][stat['characterNum']][parameter['bestWeapon']]['tier'] : null;
         const img_char = 'img/Characters/' + name + '.jpg';
-        const img_tier = 'img/Tier/'+_tier+'티어2.png'
+        const img_tier = 'img/Tier/'+_tier+'티어2.png';
 
         return (
             <div className="S_top">
                 <div className="S_top-cha">
-                    <img className="S_top-cha1" style={{border:"3px solid "+ tierColor[_tier-1]}} src={img_char} />
-                    <img className="S_top-cha2" src={img_tier} />
+                    {
+                        _tier ? 
+                            <img className="S_top-cha1" style={{border:"3px solid "+ tierColor[_tier-1]}} src={img_char} />
+                            :
+                            <img className="S_top-cha1" src={img_char} />
+                    }
+                    {
+                        _tier ? 
+                            <img className="S_top-cha2" src={img_tier} />
+                            :
+                            <img className="S_top-cha2" src={''} />
+                    }
                 </div>
                 <div className="S_top-box">  
                     <span className="S_top-cha3">{intl.formatMessage({id: 'characters.'+name})}</span>
