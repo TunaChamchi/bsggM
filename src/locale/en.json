@@ -80,7 +80,7 @@
     "시간 전":"hours ago",
     "분 전":"minutes ago",
     "몇초 전":"a few seconds ago",
-    "footer":"BSGG.kr isn’t endorsed by Nimble Neuron.\n Eternal Return: Black Survival is trademarks or registered trademarks of Nimble Neuron.Data Based on Nimble Neuron  / service@bsgg.kr",
+    "footer":"BSGG.kr isn’t endorsed by Nimble Neuron.\n Eternal Return: Black Survival is trademarks or registered trademarks of Nimble Neuron.\n Data Based on Nimble Neuron",
     "question":"Character tier is made based on the winning rate, pick rate, KA/M, and average ranking of characters based on official statistics.",
     "로딩":"Searching match history. Please wait a moment.",
     "없음":"No match historical information. Please check your nickname again and search for it.",
@@ -89,7 +89,7 @@
     "신캐안내":"The character cannot participate in the rank game, so it has been replaced by normal game-based statistics.",
     "nodata":"No data.",
     "배치중":"PLACEMENT",
-    "공지사항1":"DB updates provide accurate statistics with more samples.",
+    "공지사항1":"DB updates provide accurate statistics with more samples. / Character statistics only count ranks above Silver.",
     "공지사항2":"",
     "TheHunter":{
         "name": "TheHunter",
@@ -198,7 +198,8 @@
         "쇼이치": "Shoichi",
         "실비아": "Silvia",
         "엠마": "Emma",
-        "레녹스": "Lenox"
+        "레녹스": "Lenox",
+        "로지": "Rozzi"
     },
     "weapons": {
         "투척": "Throw", 
@@ -1056,6 +1057,28 @@
             "R": {
                 "name": "Blue Viper",
                 "Detail": "Lenox quickly attacks twice in an X shape, dealing damage and applying Blue Viper.\n Blue Viper: For a certain amount of time, enemies take damage depending on how far they move.\n  Hitting an enemy with both attacks deals more damage depending on how far they move."
+            }
+        },
+        "로지": {
+            "T": {
+                "name": "Dual Wield",
+                "Detail": "After Rozzi uses a skill, her next normal attack within a second triggers twice consecutively, dealing damage.\n Rozzi gains SP equal to a ratio of her HP recovery when she eats food made from chocolate.\n She gains HP equal to a ratio of her SP recovery when she drinks something made from chocolate."
+            },
+            "Q": {
+                "name": "Easy Shot",
+                "Detail": "Rozzi fires her pistols in the targeted direction, dealing damage to enemies hit.\n If she hits an enemy, her next movement command within a few seconds will be a dash and the cooldown of Easy Shot is reduced."
+            },
+            "W": {
+                "name": "Flutter",
+                "Detail": "Rozzi unloads a barrage of bullets in the area around her, dealing damage to enemies in range, decreasing their defense for a few seconds and reducing their HP regen and food recovery.\n While Rozzi is shooting, her speed is increased and her bullets are reloaded."
+            },
+            "E": {
+                "name": "Gun Vault",
+                "Detail": "Rozzi vaults over her target and shoots them, dealing damage.\n While jumping, Rozzi is untargetable and cannot take damage.\n Rozzi can use Gun Vault again within a few seconds of an enemy being hit, knocking them back and dealing damage."
+            },
+            "R": {
+                "name": "Semtex Bomb Mk II",
+                "Detail": "Rozzi launches a semtex bomb that explodes a few seconds after attaching to an enemy or the ground, dealing damage.\n Enemies with the bomb attached have their movement speed decreased. Normal attacks on the target a few times will cause it to explode immediately, dealing additional damage equal to a ratio of the target's Max HP, reducing its cooldown, and increasing Rozzi's movement speed.\n Attacking enemies with a skill while the bomb is attached counts as a few normal attacks."
             }
         },
 
