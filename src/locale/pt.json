@@ -10,7 +10,7 @@
         "Rank2": "BS: ER - Mestre Classificação"
     },
     "Data-period": "Updated 2020.11.19 / Data period 2020.11.17 ~ 11.18",
-    "search": "Pesquisa",
+    "search": "Procurar",
     "character": "Personagem",
     "weapon": "Arma",
     "ranking": "Rank",
@@ -114,14 +114,14 @@
                 "route": "Rota",
                 "tier": "Per / Tier"
             },
-            "placeholder": "Personagem de pesquisa."
+            "placeholder": "Personagem de Procurar."
         },
         "left": {
             "search": {
-                "placeholder": "ID de pesquisa."
+                "placeholder": "ID de Procurar."
             },
             "characters": {
-                "placeholder": "Personagem de pesquisa."
+                "placeholder": "Personagem de Procurar."
             }
         },
         "right": {

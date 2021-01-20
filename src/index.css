@@ -3160,7 +3160,7 @@ button:hover{
 }
 .record_rank_icon{
     width: 80px;
-    margin-top: 18px;
+    margin-top: 9px;
     margin-left: 35px;
     margin-right: 35px;
 }
@@ -4218,7 +4218,7 @@ button:hover{
 .record_cha_rankimg{
     width: 45px;
     float: left;
-    margin-top: 12px;
+    margin-top: 4px;
 }
 .record_cha_span1{
     display: inline-block;

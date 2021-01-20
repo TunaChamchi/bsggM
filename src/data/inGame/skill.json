@@ -624,6 +624,46 @@
     "type": "character",
     "button": "R"
   },
+  "1021100": {
+    "name": "더블샷",
+    "type": "character",
+    "button": "T"
+  },
+  "1021110": {
+    "name": "초콜릿",
+    "type": "character",
+    "button": "T"
+  },
+  "1021200": {
+    "name": "이지샷",
+    "type": "character",
+    "button": "Q"
+  },
+  "1021210": {
+    "name": "이지샷(이동)",
+    "type": "character",
+    "button": "Q"
+  },
+  "1021300": {
+    "name": "스프레이샷",
+    "type": "character",
+    "button": "W"
+  },
+  "1021400": {
+    "name": "에어샷",
+    "type": "character",
+    "button": "E"
+  },
+  "1021410": {
+    "name": "에어샷 후타",
+    "type": "character",
+    "button": "E"
+  },
+  "1021500": {
+    "name": "셈텍스탄 Mk-II",
+    "type": "character",
+    "button": "R"
+  },
   "3001000": {
     "name": "글러브",
     "type": "weapon"

@@ -334,7 +334,7 @@
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.1,
-      "resource": "LIDailin"
+      "resource": "LiDailin"
     },
     "levelUp": {
       "maxHp": 84,
@@ -644,7 +644,7 @@
       "moveSpeed": 3,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.3,
+      "uiHeight": 2.5,
       "resource": "Emma"
     },
     "levelUp": {
@@ -665,17 +665,17 @@
   "20": {
     "name": "레녹스",
     "stat": {
-      "maxHp": 550,
-      "maxSp": 430,
+      "maxHp": 500,
+      "maxSp": 350,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
       "attackPower": 36,
-      "defense": 28,
+      "defense": 26,
       "criticalStrikeChance": 0,
       "hpRegen": 0.8,
-      "spRegen": 2.2,
-      "attackSpeed": 0.22,
-      "moveSpeed": 3.1,
+      "spRegen": 1.8,
+      "attackSpeed": 0.12,
+      "moveSpeed": 3.2,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.3,
@@ -694,6 +694,40 @@
     },
     "weapons": [
       "채찍"
+    ]
+  },
+  "21": {
+    "name": "로지",
+    "stat": {
+      "maxHp": 480,
+      "maxSp": 440,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 28,
+      "defense": 20,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.4,
+      "spRegen": 2.1,
+      "attackSpeed": 0.1,
+      "moveSpeed": 3,
+      "sightRange": 8,
+      "radius": 0.4,
+      "uiHeight": 2.5,
+      "resource": "Rozzi"
+    },
+    "levelUp": {
+      "maxHp": 62,
+      "maxSp": 22,
+      "attackPower": 2,
+      "defense": 1.4,
+      "criticalChance": 0,
+      "hpRegen": 0.02,
+      "spRegen": 0.03,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "권총"
     ]
   }
 }
