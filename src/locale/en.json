@@ -177,6 +177,16 @@
         "attackRange":"Attack Range",
         "outOfCombatMoveSpeed": "Speed not in combat"
     },
+    "ranks": {
+        "Iron": "Iron",
+        "Bronze": "Bronze",
+        "Silver": "Silver",
+        "Gold": "Gold",
+        "Platinum": "Platinum",
+        "Diamond": "Diamond",
+        "Demigod": "Titan",
+        "Eternity": "Immortal"
+    },
 
     "characters": {
         "아야": "Aya",

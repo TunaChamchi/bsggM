@@ -177,6 +177,16 @@
         "attackRange":"基本攻擊射程",
         "outOfCombatMoveSpeed": "非戰鬥 移動速度"
     },
+    "ranks": {
+        "Iron": "鐵閻",
+        "Bronze": "銅魂",
+        "Silver": "銀烙",
+        "Gold": "金魄",
+        "Platinum": "修羅",
+        "Diamond": "滅鑽",
+        "Demigod": "半神",
+        "Eternity": "永恆"
+    },
 
     "characters": {
         "아야": "阿雅",

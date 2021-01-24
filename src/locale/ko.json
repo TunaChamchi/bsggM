@@ -176,6 +176,16 @@
         "attackRange":"기본공격 사거리",
         "outOfCombatMoveSpeed": "비전투시 이동속도"
     },
+    "ranks": {
+        "Iron": "아이언",
+        "Bronze": "브론즈",
+        "Silver": "실버",
+        "Gold": "골드",
+        "Platinum": "플래티넘",
+        "Diamond": "다이아몬드",
+        "Demigod": "데미갓",
+        "Eternity": "이터니티"
+    },
 
     "characters": {
         "아야": "아야",

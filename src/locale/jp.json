@@ -177,6 +177,16 @@
         "attackRange":"基本攻撃の射程距離は",
         "outOfCombatMoveSpeed": "非戦闘中の移動速度"
     },
+    "ranks": {
+        "Iron": "アイアン",
+        "Bronze": "ブロンズ",
+        "Silver": "シルバー",
+        "Gold": "ゴールド",
+        "Platinum": "プラチナム",
+        "Diamond": "ダイヤモンド",
+        "Demigod": "デミゴッド",
+        "Eternity": "エターニティ"
+    },
 
     "characters": {
         "아야": "アヤ",
