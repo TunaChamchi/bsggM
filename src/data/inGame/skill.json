@@ -305,7 +305,7 @@
     "button": "E"
   },
   "1010500": {
-    "name": "맹호취호산",
+    "name": "취호격파산",
     "type": "character",
     "button": "R"
   },
@@ -605,17 +605,17 @@
     "button": "T"
   },
   "1020200": {
-    "name": "뱀 채찍",
+    "name": "회오리 비늘",
     "type": "character",
     "button": "Q"
   },
   "1020300": {
-    "name": "뱀의 위협",
+    "name": "날카로운 독니",
     "type": "character",
     "button": "W"
   },
   "1020400": {
-    "name": "밀어내기",
+    "name": "휩쓸기",
     "type": "character",
     "button": "E"
   },
@@ -661,6 +661,36 @@
   },
   "1021500": {
     "name": "셈텍스탄 Mk-II",
+    "type": "character",
+    "button": "R"
+  },
+  "1022100": {
+    "name": "청소 완료",
+    "type": "character",
+    "button": "T"
+  },
+  "1022200": {
+    "name": "클리닝 서비스",
+    "type": "character",
+    "button": "Q"
+  },
+  "1022210": {
+    "name": "클리닝 서비스(이동)",
+    "type": "character",
+    "button": "Q"
+  },
+  "1022300": {
+    "name": "강박증",
+    "type": "character",
+    "button": "W"
+  },
+  "1022400": {
+    "name": "무소음 청소기",
+    "type": "character",
+    "button": "E"
+  },
+  "1022500": {
+    "name": "애프터 서비스",
     "type": "character",
     "button": "R"
   },

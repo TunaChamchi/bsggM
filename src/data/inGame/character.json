@@ -128,9 +128,9 @@
       "resource": "Magnus"
     },
     "levelUp": {
-      "maxHp": 91,
+      "maxHp": 82,
       "maxSp": 14,
-      "attackPower": 1.9,
+      "attackPower": 2.2,
       "defense": 1.5,
       "criticalChance": 0,
       "hpRegen": 0.05,
@@ -340,7 +340,7 @@
       "maxHp": 84,
       "maxSp": 16,
       "attackPower": 2.2,
-      "defense": 2.5,
+      "defense": 2.2,
       "criticalChance": 0,
       "hpRegen": 0.07,
       "spRegen": 0.01,
@@ -684,7 +684,7 @@
     "levelUp": {
       "maxHp": 75,
       "maxSp": 13,
-      "attackPower": 2.8,
+      "attackPower": 2.4,
       "defense": 2,
       "criticalChance": 0,
       "hpRegen": 0.05,
@@ -728,6 +728,40 @@
     },
     "weapons": [
       "권총"
+    ]
+  },
+  "22": {
+    "name": "루크",
+    "stat": {
+      "maxHp": 580,
+      "maxSp": 420,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 35,
+      "defense": 28,
+      "criticalStrikeChance": 0,
+      "hpRegen": 1,
+      "spRegen": 1.9,
+      "attackSpeed": 0.12,
+      "moveSpeed": 3.15,
+      "sightRange": 8,
+      "radius": 0.4,
+      "uiHeight": 2.3,
+      "resource": "Luke"
+    },
+    "levelUp": {
+      "maxHp": 84,
+      "maxSp": 15,
+      "attackPower": 2.1,
+      "defense": 1.8,
+      "criticalChance": 0,
+      "hpRegen": 0.06,
+      "spRegen": 0.06,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "배트"
     ]
   }
 }

@@ -187,7 +187,6 @@
         "Demigod": "Titan",
         "Eternity": "Immortal"
     },
-
     "characters": {
         "아야": "Aya",
         "피오라": "Fiora",
@@ -209,7 +208,8 @@
         "실비아": "Silvia",
         "엠마": "Emma",
         "레녹스": "Lenox",
-        "로지": "Rozzi"
+        "로지": "Rozzi",
+        "루크": "Luke"
     },
     "weapons": {
         "투척": "Throw", 
@@ -1090,6 +1090,28 @@
             "R": {
                 "name": "Semtex Bomb Mk II",
                 "Detail": "Rozzi launches a semtex bomb that explodes a few seconds after attaching to an enemy or the ground, dealing damage.\n Enemies with the bomb attached have their movement speed decreased. Normal attacks on the target a few times will cause it to explode immediately, dealing additional damage equal to a ratio of the target's Max HP, reducing its cooldown, and increasing Rozzi's movement speed.\n Attacking enemies with a skill while the bomb is attached counts as a few normal attacks."
+            }
+        },
+        "루크": {
+            "T": {
+                "name": "Neat n’ Tidy",
+                "Detail": "Neat: Luke recovers 5/8/12% lost HP upon killing a player or 20/25/30% lost HP upon killing Wickeline. \n Tidy: Luke gains a stack of Tidy upon killing players, killing wild animals, or opening air supplies."
+            },
+            "Q": {
+                "name": "Clean Sweep",
+                "Detail": "Luke throws a bottle of his favorite cleaning product in the targeted direction, dealing 30/50/70/90/110 (+Attack Power 50%) damage to enemies hit and granting him vision of them.\n Reactivate this skill within the next 3 seconds to dash to the enemy hit, dealing 50/80/110/140/170(+Attack Power 100%) damage and destroying their shield.\n volution Effect:: Reactivating Clean Sweep heals Luke based on damage dealt."
+            },
+            "W": {
+                "name": "Elbow Grease",
+                "Detail": "Passive: Reduces duration of CC on Luke by 20% (airborne/slow/root/stun/suppression).\n Active: Luke strengthens his normal attacks for 5 seconds, dealing 20/35/50/65/80(+Attack Power 20%) extra skill damage to enemies hit.\n Hitting an enemy increases his attack speed by 12% for 2 seconds, stacking up to 5 times.\n Evolution effect: Every time an enemy is hit by the enhanced normal attack of Elbow Grease, the cooldown of Clean Sweep is reduced by .5 second."
+            },
+            "E": {
+                "name": "Dirty Work",
+                "Detail": "Passive: Luke does not cause pings on the minimap when attacking or killing an enemy.\n Active: Luke teleports behind a targeted enemy and shoots them, dealing 60/90/120/150/180(+Attack Power 40%) damage.\n Evolution effect: Enemies damaged by Dirty Work are slowed by 70% for 1 second."
+            },
+            "R": {
+                "name": "Pressure Washer",
+                "Detail": "Luke fires a bullet from his concealed gun, dealing 250/300/350 (+Attack Power 80%) ~ 500/600/700(+Attack Power 160%) damage to enemies hit based on their missing HP, slowing them by 50% for 2 seconds, granting him vision of them, and pushing himself back.\n Evolution effect: Hitting an enemy with the bullet resets the cooldown of Clean Sweep."
             }
         },
 
