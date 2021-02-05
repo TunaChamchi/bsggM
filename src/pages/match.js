@@ -359,7 +359,7 @@ class Match extends Component {
                 <div className="record_rank_box" key={"rank_box_"+idx}>
                     <img className="record_rank_icon" src={"img/Rankicon/"+tierList[tier].slice(0, -2)+".png"} />
                     <div className="record_rank_span1">{teamMode}</div>
-                    <div className="record_rank_span2">{tierList[tier]} / {lp} LP</div>
+                    <div className="record_rank_span2">{intl.formatMessage({id: 'ranks.'+tierList[tier].slice(0, -2) })} {4-tier%4} / {lp} LP</div>
                     <div className="record_rank_span3">{total}{intl.formatMessage({id: "전" })} {top1}{intl.formatMessage({id: "승" })} {(top1/total*100).toFixed(1)}% / {kdm.toFixed(1)} KA/M</div>
                     {
                         rank['totalGames'] >= 5 ?

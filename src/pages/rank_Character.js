@@ -93,6 +93,7 @@ class Rank_Character extends Component {
     }
 
     rankTopView = () => {
+        const { intl } = this.props;
         const { rank, tierList, character } = this.state;
         if (rank.length === 0) return;
 
@@ -101,16 +102,19 @@ class Rank_Character extends Component {
 
             if (!stat) return;
 
+            const tier = tierList[stat['tier']].slice(0, -2);
+            const tierSub = 4-stat['tier']%4;
+
             return (
                 <div className={"rank_top_"+number} key={"rank_top_"+idx}>
                     <img className="rank_top_iconimg" src={"img/Characters/"+getCharacter(character)['name']+".jpg"} />
-                    <img className="rank_top_iconborder" src={'img/border/'+tierList[stat['tier']].slice(0, -2)+'.png'} />
+                    <img className="rank_top_iconborder" src={'img/border/'+tier+'.png'} />
                     <span className="rank_top_lv">{stat['tier']%4+1}</span>
                     <Link to={'/Match?userName=' + rank[number]['nickname']}>
                         <div className="rank_top_span_box">
                             <div className="rank_top2_span1">{number+1}</div>
                             <div className="rank_top_span2">{rank[number]['nickname']}</div>
-                            <div className="rank_top_span3">{tierList[stat['tier']]} {stat['lp']} LP</div>
+                            <div className="rank_top_span3">{intl.formatMessage({id: 'ranks.'+tier})} {tierSub} {stat['lp']} LP</div>
                             <div className="rank_top_graph" style={{background: 'linear-gradient(to right, rgb(244,216,35) 0% '+stat['top1Width']+'%, rgb(49, 106, 190) '+stat['top1Width']+'% '+stat['top3Width']+'%, gray '+stat['top3Width']+'% 100%)'}}>
                                 <div className="rank_top_span4" >{stat['top1']}</div>
                                 <div className="rank_top_span5" >{stat['top3']}</div>
@@ -125,6 +129,7 @@ class Rank_Character extends Component {
         });
     }
     rankTableView = () => {
+        const { intl } = this.props;
         const { rank, tierList, character } = this.state;
         if (rank.length === 0) return;
         
@@ -133,6 +138,9 @@ class Rank_Character extends Component {
 
             if (!stat) return;
             
+            const tier = tierList[stat['tier']].slice(0, -2);
+            const tierSub = 4-stat['tier']%4;
+
             return (
                 <div className="record_cha_box" key={'record_cha_'+idx}>
                     <div className="record_cha_span1">{idx+4}</div>
@@ -140,8 +148,8 @@ class Rank_Character extends Component {
                     <Link to={'/Match?userName=' + user['nickname']}>
                         <div className="record_cha_span2">{user['nickname']}</div>
                     </Link>
-                    <img className="record_cha_rankimg" src={'img/Rankicon/'+tierList[stat['tier']].slice(0, -2)+'.png'} />
-                    <div className="record_rank_span11">{tierList[stat['tier']]}</div>
+                    <img className="record_cha_rankimg" src={'img/Rankicon/'+tier+'.png'} />
+                    <div className="record_rank_span11">{intl.formatMessage({id: 'ranks.'+tier})} {tierSub}</div>
                     <div className="record_rank_span22">{stat['total']}</div>
                     <div className="record_rank_span33">{stat['rate']}%</div>
                 </div>
