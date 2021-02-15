@@ -57,8 +57,13 @@ class Search extends Component {
                     maxMmr = Math.max(maxMmr, user['seasonStats'][1][t]['mmr']);
                 })
             }
-            const tier = Math.floor(maxMmr/100);
-            const lp   = maxMmr-tier*100;
+            let tier = Math.floor(maxMmr/100);
+            let lp   = maxMmr-tier*100;
+
+            if (tier > tierList.length) {
+                lp += (tier - tierList.length + 1)*100;
+                tier = tierList.length - 1;
+            }
 
             return (
                 <Link to={'/Match?userName='+user['nickname']} key={idx} onClick={(e)=> this.selectHandler(e)}>
