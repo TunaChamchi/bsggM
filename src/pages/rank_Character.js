@@ -50,7 +50,7 @@ class Rank_Character extends Component {
     }
 
     rankData = (rank) => {
-        const { character } = this.state;
+        const { character, tierList } = this.state;
         const stat = rank['characterStats'][character];
         const userStat = rank['seasonStats'][1];
 
@@ -72,8 +72,13 @@ class Rank_Character extends Component {
         Object.keys(userStat).forEach(t => 
             maxMmr = Math.max(maxMmr, userStat[t]['mmr'])
         )
-        const tier  = Math.floor(maxMmr/100) || 1;
-        const lp    = maxMmr-tier*100 || 0;
+        let tier  = Math.floor(maxMmr/100) || 1;
+        let lp    = maxMmr-tier*100 || 0;
+
+        if (tier > tierList.length) {
+            lp += (tier - tierList.length + 1)*100;
+            tier = tierList.length - 1;
+        }
 
         const _stat = {
             top1: top1,

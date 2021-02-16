@@ -80,7 +80,7 @@ class Rank extends Component {
     }
 
     rankData = (rank) => {
-        const { gameMode } = this.state;
+        const { gameMode, tierList } = this.state;
         const stat = rank['stat'].filter(s => s['index'].includes('1_'+(gameMode+1)))[0];
 
         if (!stat) return null;
@@ -92,8 +92,13 @@ class Rank extends Component {
         const rate = Math.round(stat['top1']*100);
 
         const kam  = stat['averageKills']+stat['averageAssistants'];
-        const tier = Math.floor(rank['mmr']/100);
-        const lp   = rank['mmr']-tier*100;
+        let tier = Math.floor(rank['mmr']/100);
+        let lp   = rank['mmr']-tier*100;
+
+        if (tier > tierList.length) {
+            lp += (tier - tierList.length + 1)*100;
+            tier = tierList.length - 1;
+        }
 
         const top1Width = top1/total *100;
         const top3Width = top3/total *100 + top1Width;

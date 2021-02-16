@@ -247,7 +247,10 @@ class Match extends Component {
             strDay = intl.formatMessage({id: '몇초 전'});
         } 
 
-        const tier = Math.floor(userStat['maxMmr']/100);
+        let tier = Math.floor(userStat['maxMmr']/100);
+        if (tier > tierList.length) {
+            tier = tierList.length - 1;
+        }
         const win =   userStat['top1']       < 25 ?   ''     : userStat['top1'] < 50   ? '승1' : 
                       userStat['top1']       < 100 ?  '승2'  : userStat['top1'] < 250  ? '승3' : 
                       userStat['top1']       < 500 ?  '승4'  : userStat['top1'] < 1000 ? '승5' : 
@@ -292,7 +295,7 @@ class Match extends Component {
     }    
     topView2() {
         const { intl } = this.props;
-        const { user, tierList, isReNew } = this.state;
+        const { user, isReNew } = this.state;
 
         const updateDate = moment(user['updateDate']);
         const currentDate = moment.utc(new Date());
@@ -347,9 +350,16 @@ class Match extends Component {
 
             const total = rank['totalGames'];
             const top1 = rank['top1'];
-            const kdm = (rank['totalKills'] + rank['totalAssistants']) / total
-            const tier = Math.floor(rank['mmr']/100);
-            const lp   = rank['mmr']-tier*100;
+            const kdm = (rank['totalKills'] + rank['totalAssistants']) / total;
+
+            let tier = Math.floor(rank['mmr']/100);
+            let lp   = rank['mmr']-tier*100;
+
+            if (tier > tierList.length) {
+                lp += (tier - tierList.length + 1)*100;
+                tier = tierList.length - 1;
+            }
+
             let rankPercent = rank['rank']/rank['rankSize']*100
             rankPercent = rankPercent.toFixed(1) !== "0.0" ? rankPercent.toFixed(1) : rankPercent.toFixed(2) !== "0.00" ? rankPercent.toFixed(2) : "0.01";
 
