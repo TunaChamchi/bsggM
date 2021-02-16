@@ -209,7 +209,8 @@
         "엠마": "Emma",
         "레녹스": "Lenox",
         "로지": "Rozzi",
-        "루크": "Luke"
+        "루크": "Luke",
+        "캐시": "Cathy"
     },
     "weapons": {
         "투척": "Throw", 
@@ -628,7 +629,9 @@
         "혈화구절편": "Whip of 9 Bloody Tails",
         "아이기스": "Burnished Aegis",
         "틴달로스의팔찌": "Tindalos Band",
-        "고장난시계": "Broken Watch"
+        "고장난시계": "Broken Watch",
+        "캐리비안장식총": "Decorative Flintlock",
+        "해적의증표": "Buccaneer Doubloon"
     },
     "skill": {
         "아야": {
@@ -1114,6 +1117,28 @@
             "R": {
                 "name": "Pressure Washer",
                 "Detail": "Luke fires a bullet from his concealed gun, dealing 250/300/350 (+Attack Power 80%) ~ 500/600/700(+Attack Power 160%) damage to enemies hit based on their missing HP, slowing them by 50% for 2 seconds, granting him vision of them, and pushing himself back.\n Evolution effect: Hitting an enemy with the bullet resets the cooldown of Clean Sweep."
+            }
+        },
+        "캐시": {
+            "T": {
+                "name": "Under The Knife",
+                "Detail": "Under The Knife: When Cathy deals damage to enemies, she wounds them 20% Attack Power true damage for 3 seconds.\n Normal attacks apply 1 stack of Wounded and skills apply 2 stacks. Upon reaching 5 stacks, enemies are Severely Wounded and take true damage equal to 1% (+Attack Power 20%) of their max HP for 6 seconds. Cathy deals additional 10/25/40% critical strike damage to Severely Wounded enemies.\n Post-op: Hitting enemies with a skill grants her a shield, absorbing 110/165/220(Attack Power 40%) damage for 2 seconds and increasing her movement speed by 20/25/30%. Dealing critical hits reduces the cooldown of Post-op by 1 second."
+            },
+            "Q": {
+                "name": "Double Bypass",
+                "Detail": "Cathy dashes to the target, dealing 30/60/90/120/150 (+Attack Power 70%) damage.\n Attacking an enemy in close range deals 50% extra damage and reduces Post-op’s cooldown by 1 second. Damage increases with Critical Strike Damage.\n If Cathy Severely Wounds an enemy, the cooldown of Double Bypass is reduced by 80%."
+            },
+            "W": {
+                "name": "Amputation",
+                "Detail": "Cathy swings her saw in front of her, dealing 70/105/140/175/210(+Attack Power 50%) damage.\n Enemies hit are slowed for 2 seconds by 30%.\n Enemies hit by the outer range are grounded for 1 second."
+            },
+            "E": {
+                "name": "Suture",
+                "Detail": "Cathy throws her suture thread, dealing 30/40/50/60/70 (+Attack Power 30%) damage to the first enemy hit and rooting them for 0.5 seconds.\n Threads can pass through and hit another enemy, pulling them together, dealing 30/40/50/60/70 (+Attack Power 30%) damage and stunning them for 1.5 seconds.\n Threads can also pass through and hit a wall, pushing the enemy to the wall, dealing 30/40/50/60/70 (+Attack Power 30%) damage and stunning them for 1.5 seconds."
+            },
+            "R": {
+                "name": "Emergency Surgery",
+                "Detail": "Passive: If Cathy revives a downed ally, she creates a healing zone, recovering her ally's max HP by 5% per second for 2/3/4 seconds.\n Cathy charges in the targeted direction, dealing 120/200/280 (+Attack Power 60%) damage based on the enemy's missing HP, maxing at 300/500/700 (+Attack Power 150%) and causing Severe Wounds. (Max damage dealt at 25% HP).\n Allies in range recover 200 (+Attack Power 60%) HP. Allies with less than 40% HP recover 300 (+Attack Power 90%) HP."
             }
         },
 
