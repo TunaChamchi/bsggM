@@ -75,7 +75,7 @@ class Rank_Character extends Component {
         let tier  = Math.floor(maxMmr/100) || 1;
         let lp    = maxMmr-tier*100 || 0;
 
-        if (tier > tierList.length) {
+        if (tier > tierList.length - 1) {
             lp += (tier - tierList.length + 1)*100;
             tier = tierList.length - 1;
         }

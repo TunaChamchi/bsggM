@@ -95,7 +95,7 @@ class Rank extends Component {
         let tier = Math.floor(rank['mmr']/100);
         let lp   = rank['mmr']-tier*100;
 
-        if (tier > tierList.length) {
+        if (tier > tierList.length - 1) {
             lp += (tier - tierList.length + 1)*100;
             tier = tierList.length - 1;
         }

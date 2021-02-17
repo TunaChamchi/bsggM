@@ -248,7 +248,7 @@ class Match extends Component {
         } 
 
         let tier = Math.floor(userStat['maxMmr']/100);
-        if (tier > tierList.length) {
+        if (tier > tierList.length - 1) {
             tier = tierList.length - 1;
         }
         const win =   userStat['top1']       < 25 ?   ''     : userStat['top1'] < 50   ? '승1' : 
@@ -355,7 +355,7 @@ class Match extends Component {
             let tier = Math.floor(rank['mmr']/100);
             let lp   = rank['mmr']-tier*100;
 
-            if (tier > tierList.length) {
+            if (tier > tierList.length - 1) {
                 lp += (tier - tierList.length + 1)*100;
                 tier = tierList.length - 1;
             }
