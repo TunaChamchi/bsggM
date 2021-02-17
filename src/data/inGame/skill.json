@@ -694,6 +694,31 @@
     "type": "character",
     "button": "R"
   },
+  "1023100": {
+    "name": "외과전문의",
+    "type": "character",
+    "button": "T"
+  },
+  "1023200": {
+    "name": "동맥절개술",
+    "type": "character",
+    "button": "Q"
+  },
+  "1023300": {
+    "name": "절단",
+    "type": "character",
+    "button": "W"
+  },
+  "1023400": {
+    "name": "봉합",
+    "type": "character",
+    "button": "E"
+  },
+  "1023500": {
+    "name": "극약처방",
+    "type": "character",
+    "button": "R"
+  },
   "3001000": {
     "name": "글러브",
     "type": "weapon"

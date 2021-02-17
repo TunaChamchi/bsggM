@@ -79,7 +79,7 @@
       "maxSp": 430,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
-      "attackPower": 37,
+      "attackPower": 33,
       "defense": 25,
       "criticalStrikeChance": 0,
       "hpRegen": 0.8,
@@ -94,7 +94,7 @@
     "levelUp": {
       "maxHp": 87,
       "maxSp": 13,
-      "attackPower": 3.2,
+      "attackPower": 3.4,
       "defense": 2.2,
       "criticalChance": 0,
       "hpRegen": 0.06,
@@ -395,7 +395,7 @@
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
       "attackPower": 29,
-      "defense": 22,
+      "defense": 25,
       "criticalStrikeChance": 0,
       "hpRegen": 0.6,
       "spRegen": 2,
@@ -632,7 +632,7 @@
     "name": "엠마",
     "stat": {
       "maxHp": 550,
-      "maxSp": 430,
+      "maxSp": 450,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
       "attackPower": 40,
@@ -753,7 +753,7 @@
       "maxHp": 84,
       "maxSp": 15,
       "attackPower": 2.5,
-      "defense": 1.8,
+      "defense": 2,
       "criticalChance": 0,
       "hpRegen": 0.06,
       "spRegen": 0.06,
@@ -762,6 +762,40 @@
     },
     "weapons": [
       "배트"
+    ]
+  },
+  "23": {
+    "name": "캐시",
+    "stat": {
+      "maxHp": 530,
+      "maxSp": 440,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 0,
+      "attackPower": 30,
+      "defense": 27,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.8,
+      "spRegen": 2,
+      "attackSpeed": 0.12,
+      "moveSpeed": 3.1,
+      "sightRange": 8,
+      "radius": 0.4,
+      "uiHeight": 2.3,
+      "resource": "Cathy"
+    },
+    "levelUp": {
+      "maxHp": 80,
+      "maxSp": 16,
+      "attackPower": 2.7,
+      "defense": 1.7,
+      "criticalChance": 0,
+      "hpRegen": 0.06,
+      "spRegen": 0.08,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "단검"
     ]
   }
 }

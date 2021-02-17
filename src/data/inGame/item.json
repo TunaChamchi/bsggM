@@ -749,7 +749,7 @@
     "itemGrade": "희귀",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 57,
+    "attackPower": 53,
     "moveSpeed": -0.1,
     "src": [
       107101,
@@ -894,7 +894,7 @@
     "itemGrade": "전설",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 140,
+    "attackPower": 135,
     "lifeSteal": 0.2,
     "src": [
       401401,
@@ -1362,7 +1362,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 37,
-    "cooldownReduction": 0.15,
+    "cooldownReduction": 0.18,
     "increaseSkillDamageRatio": 0.18,
     "src": [
       110404,
@@ -1395,7 +1395,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 55,
-    "criticalStrikeChance": 0.2,
+    "criticalStrikeChance": 0.22,
     "src": [
       110403,
       401206
@@ -1721,7 +1721,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 80,
-    "increaseSkillDamageRatio": 0.26,
+    "increaseSkillDamageRatio": 0.28,
     "decreaseRecoveryToSkill": 1,
     "src": [
       112403,
@@ -2190,7 +2190,7 @@
     "itemGrade": "희귀",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 25,
+    "attackPower": 22,
     "increaseSkillDamage": 18,
     "src": [
       114202,
@@ -2329,7 +2329,7 @@
     "itemGrade": "희귀",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 66,
+    "attackPower": 63,
     "moveSpeed": -0.1,
     "src": [
       115201,
@@ -2782,7 +2782,7 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 140,
+    "attackPower": 134,
     "lifeSteal": 0.3,
     "sightRange": 2.5,
     "src": [
@@ -2812,7 +2812,7 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 100,
+    "attackPower": 92,
     "moveSpeed": -0.07,
     "sightRange": 2.5,
     "increaseSkillDamageRatio": 0.24,
@@ -2828,7 +2828,7 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 120,
+    "attackPower": 117,
     "attackSpeedRatio": 0.35,
     "moveSpeed": -0.03,
     "sightRange": 2,
@@ -3071,7 +3071,7 @@
     "attackPower": 75,
     "attackSpeedRatio": 0.12,
     "criticalStrikeDamage": 0.3,
-    "moveSpeed": 0.3,
+    "moveSpeed": 0.2,
     "src": [
       120201,
       401304
@@ -3993,9 +3993,10 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "defense": 69,
+    "defense": 63,
     "attackSpeedRatio": 0.12,
     "moveSpeed": 0.2,
+    "preventSkillDamaged": 10,
     "src": [
       401304,
       202201
@@ -4401,7 +4402,7 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 25,
+    "attackPower": 28,
     "maxHp": 260,
     "preventBasicAttackDamaged": 2,
     "src": [
@@ -4465,7 +4466,6 @@
     "hpRegen": 1.5,
     "spRegen": 1.5,
     "increaseSkillDamage": 20,
-    "preventSkillDamaged": 20,
     "src": [
       205402,
       203304
@@ -4705,7 +4705,6 @@
     "spRegen": 0.7,
     "moveSpeed": 0.35,
     "increaseSkillDamage": 10,
-    "preventSkillDamaged": 10,
     "src": [
       204301,
       401210
@@ -4788,7 +4787,6 @@
     "moveSpeed": 0.25,
     "outOfCombatMoveSpeed": 0.4,
     "increaseSkillDamage": 15,
-    "preventSkillDamaged": 15,
     "src": [
       204301,
       205402
@@ -4864,7 +4862,6 @@
     "stackable": 1,
     "initialCount": 1,
     "increaseSkillDamage": 11,
-    "preventSkillDamaged": 11,
     "src": []
   },
   "205106": {
@@ -5036,7 +5033,6 @@
     "stackable": 1,
     "initialCount": 1,
     "increaseSkillDamage": 12,
-    "preventSkillDamaged": 14,
     "decreaseRecoveryToSkill": 1,
     "src": [
       205105,
@@ -5055,6 +5051,20 @@
     "src": [
       102101,
       401109
+    ]
+  },
+  "205212": {
+    "name": "캐리비안장식총",
+    "itemType": "Armor",
+    "armorType": "장식",
+    "itemGrade": "고급",
+    "stackable": 1,
+    "initialCount": 1,
+    "attackPower": 10,
+    "lifeSteal": 0.08,
+    "src": [
+      116101,
+      205103
     ]
   },
   "205301": {
@@ -5081,7 +5091,6 @@
     "spRegenRatio": 1,
     "lifeSteal": 0.15,
     "increaseSkillDamage": 21,
-    "preventSkillDamaged": 21,
     "src": [
       205205,
       205105
@@ -5110,7 +5119,6 @@
     "initialCount": 1,
     "moveSpeed": 0.1,
     "increaseSkillDamage": 16,
-    "preventSkillDamaged": 16,
     "decreaseRecoveryToSkill": 1,
     "src": [
       205210,
@@ -5160,6 +5168,21 @@
       401212
     ]
   },
+  "205306": {
+    "name": "해적의증표",
+    "itemType": "Armor",
+    "armorType": "장식",
+    "itemGrade": "희귀",
+    "stackable": 1,
+    "initialCount": 1,
+    "attackPower": 15,
+    "criticalStrikeChance": 0.08,
+    "lifeSteal": 0.08,
+    "src": [
+      205212,
+      101104
+    ]
+  },
   "205404": {
     "name": "슈뢰딩거의상자",
     "itemType": "Armor",
@@ -5169,7 +5192,6 @@
     "initialCount": 1,
     "maxHp": 380,
     "increaseSkillDamage": 7,
-    "preventSkillDamaged": 7,
     "src": [
       205107,
       401302
@@ -5201,7 +5223,6 @@
     "hpRegen": 1.5,
     "spRegen": 1.5,
     "increaseSkillDamage": 18,
-    "preventSkillDamaged": 18,
     "src": [
       205301,
       301103
@@ -6133,7 +6154,7 @@
     "itemGrade": "고급",
     "stackable": 5,
     "initialCount": 2,
-    "spRecover": 350,
+    "spRecover": 380,
     "src": [
       301102,
       112104
@@ -7127,7 +7148,7 @@
     "itemGrade": "희귀",
     "stackable": 5,
     "initialCount": 3,
-    "hpRecover": 480,
+    "hpRecover": 520,
     "src": [
       302120,
       301201
