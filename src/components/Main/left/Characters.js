@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { injectIntl  } from 'react-intl';
-import { getCharacterKeys, getCharacter } from 'lib/data'
+import { getCharacterKeys, getCharacter, getWeaponCode } from 'lib/data'
 import lotation from 'data/sub/lotation.json'
 
 class Characters extends Component {
@@ -26,6 +26,7 @@ class Characters extends Component {
     }
 
     characterList = () => {
+        const { intl } = this.props;
         const { searchList } = this.state;
 
         const list = [];
@@ -37,43 +38,33 @@ class Characters extends Component {
         }
         
         return list.map((sub, idx) => {
-            const { intl } = this.props;
-            const link0 = 'Detail?character='+sub[0];
-            const link1 = sub[1] ? 'Detail?character='+sub[1] : '';
-            const link2 = sub[2] ? 'Detail?character='+sub[2] : '';
-            const link3 = sub[3] ? 'Detail?character='+sub[3] : '';
+            const characters = [];
+
+            sub.forEach(s => {
+                if (!s) return;
+                const _character = getCharacter(s);
+                const name = _character['name'];
+                const weapon = getWeaponCode(_character['weapons'][0]);
+                characters.push({
+                    name : name,
+                    link : 'Detail?character='+s+'&bestWeapon='+weapon
+                })
+            })
 
             return (
                 <div className="cha4" key={'cha4'+idx}>
-                        <Link to={link0} className="cha5">
-                            <img className="chaimg" style={lotation.includes(getCharacter(sub[0])['name']) ? {border:"1px solid rgb(244,216,35)"} : {}} 
-                                key={'chaimg'+sub[0]} src={'img/Characters/'+getCharacter(sub[0])['name']+'.jpg'} />
-                            <div className="chaname">{intl.formatMessage({id: 'characters.'+getCharacter(sub[0])['name']})}</div>
-                        </Link>&nbsp;
-                    {sub[1] ? 
-                        <Link to={link1} className="cha5">
-                            <img className="chaimg" style={lotation.includes(getCharacter(sub[1])['name']) ? {border:"1px solid rgb(244,216,35)"} : {}} 
-                                key={'chaimg'+sub[1]} src={sub[1] ? 'img/Characters/'+getCharacter(sub[1])['name']+'.jpg' : ''} />
-                            <div className="chaname">{intl.formatMessage({id: 'characters.'+getCharacter(sub[1])['name']})}</div>
-                        </Link>
-                        : 
-                        <img className="chaimg-blank" key={'chaimg'+idx} />}&nbsp;
-                    {sub[2] ? 
-                        <Link to={link2} className="cha5">
-                            <img className="chaimg" style={lotation.includes(getCharacter(sub[2])['name']) ? {border:"1px solid rgb(244,216,35)"} : {}} 
-                                key={'chaimg'+sub[2]} src={sub[2] ? 'img/Characters/'+getCharacter(sub[2])['name']+'.jpg' : ''} />
-                            <div className="chaname">{intl.formatMessage({id: 'characters.'+getCharacter(sub[2])['name']})}</div>
-                        </Link> 
-                        : 
-                        <img className="chaimg-blank" key={'chaimg'+idx+1} />}&nbsp;
-                    {sub[3] ? 
-                        <Link to={link3} className="cha5">
-                            <img className="chaimg" style={lotation.includes(getCharacter(sub[3])['name']) ? {border:"1px solid rgb(244,216,35)"} : {}} 
-                                key={'chaimg'+sub[3]} src={sub[3] ? 'img/Characters/'+getCharacter(sub[3])['name']+'.jpg' : ''} />
-                            <div className="chaname">{intl.formatMessage({id: 'characters.'+getCharacter(sub[3])['name']})}</div>
-                        </Link> 
-                        : 
-                        <img className="chaimg-blank" key={'chaimg'+idx+1} />}
+                    {
+                        sub.map((s, idx) => 
+                            s ? 
+                                <Link to={characters[idx]['link']} className="cha5" key={'chaimg_'+idx}>
+                                    <img className="chaimg" style={lotation.includes(characters[idx]['name']) ? {border:"1px solid rgb(244,216,35)"} : {}} 
+                                        src={'img/Characters/'+characters[idx]['name']+'.jpg'} />
+                                    <div className="chaname">{intl.formatMessage({id: 'characters.'+characters[idx]['name']})}</div>
+                                </Link>
+                            :
+                                <img className="chaimg-blank" key={'chaimg_'+idx} />
+                        )
+                    }
                 </div>
             )
         });
