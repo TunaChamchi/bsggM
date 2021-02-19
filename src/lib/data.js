@@ -76,7 +76,6 @@ export const addJson = (json1, json2) => {
 export const getCharacter = (code) => {
     return character[code];
 }
-
 export const getCharacterKeys = () => {
     return Object.keys(character);
 }
@@ -87,6 +86,9 @@ export const getItem = (code) => {
 
 export const getWeaponType = (code) => {
     return weaponType[code];
+}
+export const getWeaponCode = (name) => {
+    return weaponType.indexOf(name);
 }
 
 export const getSkill = (code) => {
