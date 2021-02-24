@@ -771,7 +771,7 @@
       "maxSp": 440,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
-      "attackPower": 30,
+      "attackPower": 26,
       "defense": 27,
       "criticalStrikeChance": 0,
       "hpRegen": 0.8,
