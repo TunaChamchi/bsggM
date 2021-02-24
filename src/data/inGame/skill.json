@@ -700,22 +700,22 @@
     "button": "T"
   },
   "1023200": {
-    "name": "동맥절개술",
+    "name": "동맥절제술",
     "type": "character",
     "button": "Q"
   },
   "1023300": {
-    "name": "절단",
+    "name": "엠퓨테이션",
     "type": "character",
     "button": "W"
   },
   "1023400": {
-    "name": "봉합",
+    "name": "수쳐",
     "type": "character",
     "button": "E"
   },
   "1023500": {
-    "name": "극약처방",
+    "name": "이머전시 OP",
     "type": "character",
     "button": "R"
   },
