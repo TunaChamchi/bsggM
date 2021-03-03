@@ -210,7 +210,8 @@
         "레녹스": "伦诺克斯",
         "로지": "洛兹",
         "루크": "卢克",
-        "캐시": "凯希"
+        "캐시": "凯希",
+        "아델라": "阿德拉"
     },
     "weapons": {
         "투척": "投掷", 
@@ -629,7 +630,8 @@
         "틴달로스의팔찌": "廷达罗斯手环",
         "고장난시계": "破碎的手表",
         "캐리비안장식총": "加勒比装饰枪",
-        "해적의증표": "海盗印记"
+        "해적의증표": "海盗印记",
+        "요명월": "邀明月"
 
     },
     "skill": {
@@ -1138,6 +1140,28 @@
             "R": {
                 "name": "Emergency Surgery",
                 "Detail": "Passive: If Cathy revives a downed ally, she creates a healing zone, recovering her ally's max HP by 5% per second for 2/3/4 seconds.\n Cathy charges in the targeted direction, dealing 120/200/280 (+Attack Power 60%) damage based on the enemy's missing HP, maxing at 300/500/700 (+Attack Power 150%) and causing Severe Wounds. (Max damage dealt at 25% HP).\n Allies in range recover 200 (+Attack Power 60%) HP. Allies with less than 40% HP recover 300 (+Attack Power 90%) HP."
+            }
+        },
+        "아델라": {
+            "T": {
+                "name": "Control the Center",
+                "Detail": "Adela's attack range is increased by 2.5m and her attack speed is fixed.\n Every 0.01 Attack Speed increases her Attack Power by 0.4.\n Adela's Critical Strike Chance is increased by 4/8/12%.\n Landing Critical Strikes increase her movement speed by 10/13/16% for 2 seconds."
+            },
+            "Q": {
+                "name": "Promotion",
+                "Detail": "Adela places her pawn at the targeted location, dealing 30/70/110/150/190(+Attack Power 40%) damage. Placing a pawn grants her a stack.\n Upon reaching 3 stacks, her next pawn will be Queened, dealing 50/90/130/170/210(+Attack Power 50%) damage and stunning enemies hit for 1 second.\n Stacks are reset if Promotion is not reactivated within 5 seconds. Pawns and Queens remain for 8 seconds.\n Promotion's cooldown can not be reduced."
+            },
+            "W": {
+                "name": "Knight Fork",
+                "Detail": "Adela moves her Knight to the targeted location, dealing damage.\n It hops, dealing 45/90/135/180/225(+Attack Power 30%) damage upon landing.\n Hitting a pawn, queen, or rook in a 5m range with the initial landing spot pushes the piece opposite of the knight, causing different effects.\n Pawn and Queen: Piece stops upon hitting an enemy, dealing the same damage as Promotion, and knocking them airborne for 0.75 seconds.\n Rook: deals the same damage as Castling to enemies hit, knocking them airborne for 1.25 seconds. Knight remains for 8 seconds. Summoning another Knight will cause the first knight to disappear."
+            },
+            "E": {
+                "name": "Castling",
+                "Detail": "Adela slides her rook in the targeted direction dealing 65/110/155/200/245(+Attack Power 50%) damage to enemies hit.\n Hitting a pawn, queen, or knight on the way causes those pieces to deal damage.\n Pawn and Queen: deal as much damage as Promotion.\n Knight: deal as much damage as Knight Fork, slow enemies by 30% for 1 second.\n Reactivating the skill within 4 seconds will make her switch places with the rook in a range of 12m.\n Rooks remain for 8 seconds. Sliding another rook will cause the first rook to disappear."
+            },
+            "R": {
+                "name": "Checkmate",
+                "Detail": "Adela raises into the air for 2 seconds, becoming untargetable and unable to take damage.\n Upon landing, she deals 150/200/250(+Attack Power 60%) damage to enemies in range, and each active chess piece attacks, dealing true damage to enemies for 3% of their max HP in an area around it, and disappearing after."
             }
         },
 

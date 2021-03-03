@@ -579,11 +579,6 @@
     "type": "character",
     "button": "Q"
   },
-  "1019210": {
-    "name": "비둘기 딜러 - Attack",
-    "type": "character",
-    "button": "Q"
-  },
   "1019300": {
     "name": "폭죽 모자",
     "type": "character",
@@ -719,6 +714,86 @@
     "type": "character",
     "button": "R"
   },
+  "1024100": {
+    "name": "챔피언의 손짓",
+    "type": "character",
+    "button": "T"
+  },
+  "1024200": {
+    "name": "폰, 퀸 소환",
+    "type": "character",
+    "button": "Q"
+  },
+  "1024210": {
+    "name": "폰 공격",
+    "type": "character",
+    "button": "Q"
+  },
+  "1024220": {
+    "name": "나이트 효과 폰 공격",
+    "type": "character",
+    "button": "Q"
+  },
+  "1024230": {
+    "name": "룩 효과 폰 공격",
+    "type": "character",
+    "button": "Q"
+  },
+  "1024240": {
+    "name": "퀸 공격",
+    "type": "character",
+    "button": "Q"
+  },
+  "1024250": {
+    "name": "나이트 효과 퀸 공격",
+    "type": "character",
+    "button": "Q"
+  },
+  "1024260": {
+    "name": "룩 효과 퀸 공격",
+    "type": "character",
+    "button": "Q"
+  },
+  "1024300": {
+    "name": "나이트",
+    "type": "character",
+    "button": "W"
+  },
+  "1024310": {
+    "name": "나이트 공격",
+    "type": "character",
+    "button": "W"
+  },
+  "1024320": {
+    "name": "룩의 효과 나이트 공격 ",
+    "type": "character",
+    "button": "W"
+  },
+  "1024400": {
+    "name": "룩",
+    "type": "character",
+    "button": "E"
+  },
+  "1024410": {
+    "name": "룩 이동",
+    "type": "character",
+    "button": "E"
+  },
+  "1024420": {
+    "name": "룩 공격",
+    "type": "character",
+    "button": "E"
+  },
+  "1024430": {
+    "name": "킹 효과 룩 공격",
+    "type": "character",
+    "button": "E"
+  },
+  "1024500": {
+    "name": "킹의 가호",
+    "type": "character",
+    "button": "R"
+  },
   "3001000": {
     "name": "글러브",
     "type": "weapon"
@@ -732,7 +807,7 @@
     "type": "weapon"
   },
   "3003000": {
-    "name": "방망이",
+    "name": "방망이 - 풀스윙",
     "type": "weapon"
   },
   "3004000": {
