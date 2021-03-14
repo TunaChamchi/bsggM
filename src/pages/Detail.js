@@ -129,24 +129,114 @@ class Detail extends Component {
                 order.push(button);
             });
 
-            if (tree.length === 2) {
-                if (count['Q'] < 5) { 
-                    tree.push('Q');
-                    order.push('Q');
-                    order.push('Q');
-                } else if (count['W'] < 5) { 
-                    tree.push('W');
-                    order.push('W');
-                    order.push('W');
-                } else if (count['E'] < 5) { 
-                    tree.push('E');
-                    order.push('E');
-                    order.push('E');
+            
+            if (tree.length === 1) {
+                const last1 = order[13];  
+                const last2 = order[14];
+
+                if (last1 === last2) {
+                    tree.push(last1);
+                    order.push(last1);
+                    count[last1]++;
+
+                    if (count['Q'] === 4 || count['W'] === 4 || count['E'] === 4) {
+                        if (count['Q'] < 5) {
+                            tree.push('Q');
+                            order.push('Q');
+                        } else if (count['W'] < 5) { 
+                            tree.push('W');
+                            order.push('W');
+                        } else if (count['E'] < 5) { 
+                            tree.push('E');
+                            order.push('E');
+                        }
+                        tree.push('T');
+                        order.push('T');
+                        order.push('T');
+                    } else {
+                        if (count['Q'] < 5) {
+                            tree.push('Q');
+                            order.push('Q');
+                            order.push('Q');
+                            order.push('Q');
+                        } else if (count['W'] < 5) { 
+                            tree.push('W');
+                            order.push('W');
+                            order.push('W');
+                            order.push('W');
+                        } else if (count['E'] < 5) { 
+                            tree.push('E');
+                            order.push('E');
+                            order.push('E');
+                            order.push('E');
+                        }
+                    }
+                } else {
+                    tree.push(last1);
+                    order.push(last1);
+                    count[last1]++;
+                    tree.push(last2);
+                    order.push(last2);
+                    count[last2]++;
+    
+                    if (count['Q'] < 5) {
+                        tree.push('Q');
+                        order.push('Q');
+                        order.push('Q');
+                    } else if (count['W'] < 5) { 
+                        tree.push('W');
+                        order.push('W');
+                        order.push('W');
+                    } else if (count['E'] < 5) { 
+                        tree.push('E');
+                        order.push('E');
+                        order.push('E');
+                    } else if (count['T'] < 2) {
+                        tree.push('T');
+                        order.push('T');
+                        order.push('T');
+                    }
                 }
-                tree.push('T');
-                order.push('T');
-                order.push('T');
-            } else {
+            } else if (tree.length === 2) {
+                if (count['T'] == 2) {
+                    const last = order[14];
+                    tree.push(last);
+                    order.push(last);
+                    order.push(last);
+                    count[last] = 5;
+                        
+                    if (count['Q'] < 5) {
+                        tree.push('Q');
+                        order.push('Q');
+                        order.push('Q');
+                    } else if (count['W'] < 5) { 
+                        tree.push('W');
+                        order.push('W');
+                        order.push('W');
+                    } else if (count['E'] < 5) { 
+                        tree.push('E');
+                        order.push('E');
+                        order.push('E');
+                    }
+                } else {
+                    if (count['Q'] < 5) {
+                        tree.push('Q');
+                        order.push('Q');
+                        order.push('Q');
+                    } else if (count['W'] < 5) { 
+                        tree.push('W');
+                        order.push('W');
+                        order.push('W');
+                    } else if (count['E'] < 5) { 
+                        tree.push('E');
+                        order.push('E');
+                        order.push('E');
+                    }
+                    tree.push('T');
+                    order.push('T');
+                    order.push('T');
+                }
+            } else if (tree.length === 3) {
                 if (count['Q'] < 5) { 
                     tree.push('Q');
                     order.push('Q');
