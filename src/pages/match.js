@@ -135,7 +135,8 @@ class Match extends Component {
         } else if (skip !== prevState.skip) { // 더보기 클릭시
             let _matchList;
 
-            await fetch('/api/User/'+user['userNum']+'/match?limit=10&skip='+skip)
+            await fetch('/api/User/'+user['userNum']+'/match?limit=10&skip='+skip+
+                    'matchMode='+matchMode+'&teamMode='+teamMode)
                 .then(res => res.json())
                 .then(res => _matchList = res);
 
