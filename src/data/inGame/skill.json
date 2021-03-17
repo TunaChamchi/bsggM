@@ -35,7 +35,7 @@
     "button": "R"
   },
   "1002100": {
-    "name": "스즈키식 정의",
+    "name": "아야의 정의",
     "type": "character",
     "button": "T"
   },
@@ -60,42 +60,42 @@
     "button": "R"
   },
   "1003100": {
-    "name": "표식",
+    "name": "뚜셰",
     "type": "character",
     "button": "T"
   },
   "1003200": {
-    "name": "바로 찌르기",
+    "name": "팡뜨",
     "type": "character",
     "button": "Q"
   },
   "1003300": {
-    "name": "두번 공격",
+    "name": "아따끄 꽁뽀제",
     "type": "character",
     "button": "W"
   },
   "1003310": {
-    "name": "두번 공격-기본 공격",
+    "name": "아따끄 꽁뽀제-기본공격",
     "type": "character",
     "button": "W"
   },
   "1003400": {
-    "name": "찌르기&이동",
+    "name": "마르셰 & 롱빼",
     "type": "character",
     "button": "E"
   },
   "1003410": {
-    "name": "찌르기&이동",
+    "name": "마르셰 & 롱빼",
     "type": "character",
     "button": "E"
   },
   "1003500": {
-    "name": "집중_1",
+    "name": "갸르드_1",
     "type": "character",
     "button": "R"
   },
   "1003510": {
-    "name": "집중_2",
+    "name": "갸르드_2",
     "type": "character",
     "button": "R"
   },
@@ -130,7 +130,7 @@
     "button": "T"
   },
   "1005200": {
-    "name": "나리야스트라",
+    "name": "나라야나스트라",
     "type": "character",
     "button": "Q"
   },
@@ -150,7 +150,7 @@
     "button": "R"
   },
   "1006100": {
-    "name": "야성과 천리안",
+    "name": "야성 & 천리안",
     "type": "character",
     "button": "T"
   },
@@ -160,12 +160,12 @@
     "button": "Q"
   },
   "1006300": {
-    "name": "다람쥐 덫",
+    "name": "다람쥐 덫_1",
     "type": "character",
     "button": "W"
   },
   "1006310": {
-    "name": "다람쥐 덫",
+    "name": "다람쥐 덫_2",
     "type": "character",
     "button": "W"
   },
@@ -270,7 +270,7 @@
     "button": "E"
   },
   "1009500": {
-    "name": "Mok제 설치형 폭탄",
+    "name": "Mok제 폭탄",
     "type": "character",
     "button": "R"
   },
@@ -385,7 +385,7 @@
     "button": "T"
   },
   "1013200": {
-    "name": "소스통 던지기",
+    "name": "소스범벅",
     "type": "character",
     "button": "Q"
   },
@@ -410,7 +410,7 @@
     "button": "T"
   },
   "1014200": {
-    "name": "부정",
+    "name": "부정의 손길",
     "type": "character",
     "button": "Q"
   },
@@ -470,7 +470,7 @@
     "button": "R"
   },
   "1016100": {
-    "name": "실비아 패시브",
+    "name": "그란투리스모",
     "type": "character",
     "button": "T"
   },
@@ -515,27 +515,27 @@
     "button": "R"
   },
   "1017100": {
-    "name": "방화광",
+    "name": "활활",
     "type": "character",
     "button": "T"
   },
   "1017200": {
-    "name": "화염 방사",
+    "name": "방화",
     "type": "character",
     "button": "Q"
   },
   "1017300": {
-    "name": "기름 투척",
+    "name": "기름 뿌리기",
     "type": "character",
     "button": "W"
   },
   "1017400": {
-    "name": "파이어 워커",
+    "name": "불길 쇄도",
     "type": "character",
     "button": "E"
   },
   "1017500": {
-    "name": "화염병 난사",
+    "name": "화염 난사",
     "type": "character",
     "button": "R"
   },
@@ -595,7 +595,7 @@
     "button": "R"
   },
   "1020100": {
-    "name": "레녹스 패시브",
+    "name": "위풍당당",
     "type": "character",
     "button": "T"
   },
@@ -640,7 +640,7 @@
     "button": "Q"
   },
   "1021300": {
-    "name": "스프레이샷",
+    "name": "스핀샷",
     "type": "character",
     "button": "W"
   },
@@ -715,12 +715,12 @@
     "button": "R"
   },
   "1024100": {
-    "name": "챔피언의 손짓",
+    "name": "퀸즈 갬빗 디클라인드",
     "type": "character",
     "button": "T"
   },
   "1024200": {
-    "name": "폰, 퀸 소환",
+    "name": "프로모션",
     "type": "character",
     "button": "Q"
   },
@@ -755,7 +755,7 @@
     "button": "Q"
   },
   "1024300": {
-    "name": "나이트",
+    "name": "나이트 포크",
     "type": "character",
     "button": "W"
   },
@@ -770,7 +770,7 @@
     "button": "W"
   },
   "1024400": {
-    "name": "룩",
+    "name": "캐슬링",
     "type": "character",
     "button": "E"
   },
@@ -790,20 +790,45 @@
     "button": "E"
   },
   "1024500": {
-    "name": "킹의 가호",
+    "name": "체크메이트",
+    "type": "character",
+    "button": "R"
+  },
+  "1025100": {
+    "name": "산탄",
+    "type": "character",
+    "button": "T"
+  },
+  "1025200": {
+    "name": "래그샷",
+    "type": "character",
+    "button": "Q"
+  },
+  "1025300": {
+    "name": "사냥덫",
+    "type": "character",
+    "button": "W"
+  },
+  "1025400": {
+    "name": "호크아이",
+    "type": "character",
+    "button": "E"
+  },
+  "1025500": {
+    "name": "올가미탄",
     "type": "character",
     "button": "R"
   },
   "3001000": {
-    "name": "글러브",
+    "name": "글러브 - 어퍼컷",
     "type": "weapon"
   },
   "3001100": {
-    "name": "글러브 공격",
+    "name": "글러브 - 어퍼컷 공격",
     "type": "weapon"
   },
   "3002000": {
-    "name": "톤파",
+    "name": "톤파 - 고속회전",
     "type": "weapon"
   },
   "3003000": {
@@ -811,39 +836,39 @@
     "type": "weapon"
   },
   "3004000": {
-    "name": "채찍",
+    "name": "채찍 - 갈고리",
     "type": "weapon"
   },
   "3005000": {
-    "name": "곡사포",
+    "name": "투척 - 연막",
     "type": "weapon"
   },
   "3006000": {
-    "name": "직사포",
+    "name": "암기 - 마름쇠 투척",
     "type": "weapon"
   },
   "3007000": {
-    "name": "활",
+    "name": "활 - 곡사",
     "type": "weapon"
   },
   "3008000": {
-    "name": "쇠뇌",
+    "name": "석궁 - 강노",
     "type": "weapon"
   },
   "3009000": {
-    "name": "무빙리로드",
+    "name": "권총 - 무빙리로드",
     "type": "weapon"
   },
   "3010000": {
-    "name": "돌격소총",
+    "name": "돌격소총 - 과열",
     "type": "weapon"
   },
   "3010010": {
-    "name": "돌격소총 과열 공격",
+    "name": "돌격소총 - 과열 공격",
     "type": "weapon"
   },
   "3011000": {
-    "name": "저격총",
+    "name": "저격총 - 저격",
     "type": "weapon"
   },
   "3012000": {
@@ -851,23 +876,23 @@
     "type": "weapon"
   },
   "3013000": {
-    "name": "망치",
+    "name": "망치 - 갑옷깨기",
     "type": "weapon"
   },
   "3014000": {
-    "name": "버서크",
+    "name": "도끼 - 버서크",
     "type": "weapon"
   },
   "3015000": {
-    "name": "망토와 단검",
+    "name": "단검 - 망토와 단검",
     "type": "weapon"
   },
   "3015100": {
-    "name": "단검 공격",
+    "name": "단검 - 망토와 단검 공격",
     "type": "weapon"
   },
   "3016000": {
-    "name": "빗겨흘리기",
+    "name": "양손검 - 빗겨흘리기",
     "type": "weapon"
   },
   "3017000": {
@@ -875,27 +900,27 @@
     "type": "weapon"
   },
   "3018000": {
-    "name": "쌍검난무",
+    "name": "쌍검 - 쌍검난무",
     "type": "weapon"
   },
   "3018010": {
-    "name": "쌍검난무",
+    "name": "쌍검 - 쌍검난무",
     "type": "weapon"
   },
   "3019000": {
-    "name": "창",
+    "name": "창 - 그림자 찌르기",
     "type": "weapon"
   },
   "3020000": {
-    "name": "쌍절곤",
+    "name": "쌍절곤 - 맹룡과강",
     "type": "weapon"
   },
   "3021000": {
-    "name": "레이피어",
+    "name": "레이피어 - 섬격",
     "type": "weapon"
   },
   "3022000": {
-    "name": "기타(매혹)",
+    "name": "기타 - Love&...",
     "type": "weapon"
   }
 }

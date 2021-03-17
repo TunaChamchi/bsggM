@@ -211,7 +211,8 @@
         "로지": "Rozzi",
         "루크": "Luke",
         "캐시": "Cathy",
-        "아델라": "Adela"
+        "아델라": "Adela",
+        "버니스": "Bernice"
     },
     "weapons": {
         "투척": "Throw", 
@@ -633,7 +634,11 @@
         "고장난시계": "Broken Watch",
         "캐리비안장식총": "Decorative Flintlock",
         "해적의증표": "Buccaneer Doubloon",
-        "요명월": "Lunar Embrace"
+        "요명월": "Lunar Embrace",
+        "타키온브레이스": "Tachyon Brace",
+        "메스": "Scalpel",
+        "스위스아미나이프": "Swiss Army Knife",
+        "다마스커스가시": "Damascus Steel Thorn"
     },
     "skill": {
         "아야": {
@@ -1163,6 +1168,28 @@
             "R": {
                 "name": "Checkmate",
                 "Detail": "Adela raises into the air for 2 seconds, becoming untargetable and unable to take damage.\n Upon landing, she deals 150/200/250(+Attack Power 60%) damage to enemies in range, and each active chess piece attacks, dealing true damage to enemies for 3% of their max HP in an area around it, and disappearing after."
+            }
+        },
+        "버니스": {
+            "T": {
+                "name": "Buckshot",
+                "Detail": "Bernice's normal attacks fire 2/3/4 bullets, fixing his base range to 4m and dealing (+Attack Power 70/80/90%) to (+Attack Power 91/120/144%) damage depending on the number of bullets that hit enemies.\n He can reload faster depending on the level of Buckshot."
+            },
+            "Q": {
+                "name": "Leg Shot",
+                "Detail": "Bernice fires an expanded projectile from his gun, dealing 70/110/150/190/230 (+Attack Power 70%) damage to enemies hit.\n Enemies hit are slowed by 10/15/20/25/30% for 3 seconds.\n Rooted enemies take extra 100/140/180/220/260 (+Attack Power 70%) damage and are slowed by 10/15/20/25/30% for 3 seconds."
+            },
+            "W": {
+                "name": "Foothold Trap",
+                "Detail": "Bernice sets a trap on the ground for 20/25/30/35/40 seconds, dealing 20/30/40/50/60(+Attack Power 10%) damage for 3 seconds to enemies that step on them and rooting them for 1.5 seconds.\n He can hold 3/3/4/4/5 Foothold Trap charges and can set 2/2/3/3/4 traps at a time depending on his level."
+            },
+            "E": {
+                "name": "Foothold Trap",
+                "Detail": "Passive: Bernice marks enemies that step on a Foothold Trap for 4 seconds, granting him vision and increasing his movement speed by 10/15/20/25/30% when moving towards the marked target.\n Bernice's normal attacks on marked enemies reduce the cooldowns of Leg Shot by 0.5 seconds and Explosive Bola by 1/1/1.5/1.5/2 seconds.\n Active: Bernice's falcon hovers in the air, increasing his vision by 3/3/3.5/3.5/4 for 8 seconds.\n Every 6 seconds, the Falcon marks a nearby enemy for 4 seconds."
+            },
+            "R": {
+                "name": "Explosive Bola",
+                "Detail": "Bernice fires his bola bomb in a targeted direction, dealing 150/200/250 (+Attack Power 50%) damage to the first enemy hit and rooting them for 1.5 seconds.\n After a few seconds, it explodes, dealing 100/150/200 (+Attack Power 70%) damage to the rooted enemy and spreading to the nearest enemy in a 3m range in a chain."
             }
         },
 
