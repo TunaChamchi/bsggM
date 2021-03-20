@@ -40,7 +40,7 @@ class Main extends Component {
                         </div>
                     </div>
                 </div>
-                <Link to={"/Detail?character=24&bestWeapon=21"}>
+                <Link to={"/Detail?character=25&bestWeapon=11"}>
                     <div className="mainpage_notice">
                         <span className="mainpage_notice_span">{intl.formatMessage({id: '공지사항1'})}</span>
                     </div>
