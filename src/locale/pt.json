@@ -212,7 +212,8 @@
         "루크": "Luke",
         "캐시": "Cathy",
         "아델라": "Adela",
-        "버니스": "Bernice"
+        "버니스": "Bernice",
+        "바바라": "Barbara"
     },
     "weapons": {
         "투척": "Arremessãble", 
@@ -638,7 +639,10 @@
         "타키온브레이스": "Tachyon Brace",
         "메스": "Scalpel",
         "스위스아미나이프": "Swiss Army Knife",
-        "다마스커스가시": "Damascus Steel Thorn"
+        "다마스커스가시": "Damascus Steel Thorn",
+        "95식자동소총": "Type 95",
+        "아그니": "Agni",
+        "천사의고리": "Elysian Halo"
     },
     "skill": {
         "아야": {
@@ -1190,6 +1194,28 @@
             "R": {
                 "name": "Explosive Bola",
                 "Detail": "Bernice fires his bola bomb in a targeted direction, dealing 150/200/250 (+Attack Power 50%) damage to the first enemy hit and rooting them for 1.5 seconds.\n After a few seconds, it explodes, dealing 100/150/200 (+Attack Power 70%) damage to the rooted enemy and spreading to the nearest enemy in a 3m range in a chain."
+            }
+        },
+        "바바라": {
+            "T": {
+                "name": "Retrofit",
+                "Detail": "Barbara's Sentry Gun gains 7.5% Attack Power and 4% defense depending on her level.\n Whenever a Sentry Gun is hit by Free-Electron Laser, or Magnetic Cyclone or Photon Storm are activated, its attack speed is increased by 15/20/25% up to 3 stacks."
+            },
+            "Q": {
+                "name": "BT Sentry Gun Mk.II",
+                "Detail": "Barbara installs a Sentry Gun with 150 (+Barbara's Max HP 21/24/27/30/33%) HP in a targeted location, dealing 15/30/45/60/75 (+Attack Power 15%) damage to enemies hit. The Sentry Gun remains for 15 seconds, dealing 15 (+Barbara's level * Barbara's Attack Power 7.5%) damage to enemies hit. When a new Sentry Gun is set, the old one is dismantled.\n If Barbara is far from the Sentry Gun, she collects it, reducing the cooldown by 50%.\n Sentry Gun HP is proportional to Barbara's maximum HP."
+            },
+            "W": {
+                "name": "Free-Electron Laser",
+                "Detail": "Barbara fires a two-part Free-Electron Laser, dealing 40/80/120/160/200(+Attack Power 35%) damage per laser to each enemy hit.\n Enemies hit are slowed by 20% for 1.5 seconds.\n Hitting an enemy with both parts of the laser deals 35% less damage and reduces the cooldown of Overclock by 1 second. Sentry Guns are enhanced when hit by the laser, causing the sentry to use Free-Electron Laser, dealing 55/100/145/190/235(+Sentry Gun Attack Power 50%) damage to enemies hit."
+            },
+            "E": {
+                "name": "Magnetic Cyclone",
+                "Detail": "Barbara creates a Magnetic Cyclone with her sentry gun that lasts up to 4 seconds, dealing 5/8/10/13/16 (+Attack Power 5%)(+enemy's max HP 1/1.5/2/2.5/3%) true damage every 0.5 seconds to enemies in range and increasing her movement speed by 20%.\n Reactivating the skill or waiting until max duration causes the Magnetic Cyclone to explode, dealing 60/80/100/120/140 (+Attack Power 35%) damage to enemies in range and granting her a shield based on 30% damage dealt by Magnetic Cyclone, up to a maximum of 50% HP. At the same time, enemies taking damage from it are stunned for 0.75 seconds."
+            },
+            "R": {
+                "name": "Overclock",
+                "Detail": "Barbara overclocks, giving her basic skills extra effects.\n Short Circuit (Q): Barbara sets a sentry gun and teleports to its location. An already installed sentry gun will immediately self-destruct, dealing 50/75/100(+Attack Power 40%) damage. Barbara teleports, dealing 50/75/100(+Attack Power 60%) damage to enemies nearby, increasing the Sentry attack speed per enemy hit by 10% for 4 seconds.\nPhoton Resonance (W): For the next 7 seconds, the damage of Free-Electron Laser and Sentry Gun is increased by 5/15/25% and Free-Electron Laser has no SP cost and its cooldown is reduced by 97%. Sentry Guns attacks become Free-Electron Lasers while Photon Resonance is active.\n Particle Storm (E): Magnetic Cyclone radius grows over time. Reactivating the skill or after 4 seconds causes the storm to explode, dealing 60/80/100/120/140 (+Attack Power 35%) damage to enemies in range and stunning them for 1.25 seconds. Reactivating the skill once more cancels Particle Storm, allowing Barbara to use it again after 3 seconds."
             }
         },
 

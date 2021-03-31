@@ -2,7 +2,7 @@
   "1": {
     "name": "재키",
     "stat": {
-      "maxHp": 560,
+      "maxHp": 590,
       "maxSp": 430,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -41,7 +41,7 @@
   "2": {
     "name": "아야",
     "stat": {
-      "maxHp": 480,
+      "maxHp": 500,
       "maxSp": 440,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -79,7 +79,7 @@
   "3": {
     "name": "피오라",
     "stat": {
-      "maxHp": 550,
+      "maxHp": 580,
       "maxSp": 430,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -117,7 +117,7 @@
   "4": {
     "name": "매그너스",
     "stat": {
-      "maxHp": 600,
+      "maxHp": 630,
       "maxSp": 410,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -154,7 +154,7 @@
   "5": {
     "name": "자히르",
     "stat": {
-      "maxHp": 520,
+      "maxHp": 540,
       "maxSp": 400,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -175,7 +175,7 @@
     "levelUp": {
       "maxHp": 64,
       "maxSp": 26,
-      "attackPower": 2.5,
+      "attackPower": 2.7,
       "defense": 1.8,
       "criticalChance": 0,
       "hpRegen": 0.03,
@@ -191,7 +191,7 @@
   "6": {
     "name": "나딘",
     "stat": {
-      "maxHp": 535,
+      "maxHp": 555,
       "maxSp": 350,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -228,11 +228,11 @@
   "7": {
     "name": "현우",
     "stat": {
-      "maxHp": 500,
+      "maxHp": 530,
       "maxSp": 350,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
-      "attackPower": 36,
+      "attackPower": 34,
       "defense": 23,
       "criticalStrikeChance": 0,
       "hpRegen": 0.8,
@@ -265,12 +265,12 @@
   "8": {
     "name": "하트",
     "stat": {
-      "maxHp": 500,
+      "maxHp": 520,
       "maxSp": 420,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
       "attackPower": 22,
-      "defense": 22,
+      "defense": 25,
       "criticalStrikeChance": 0,
       "hpRegen": 0.8,
       "spRegen": 1.7,
@@ -301,7 +301,7 @@
   "9": {
     "name": "아이솔",
     "stat": {
-      "maxHp": 500,
+      "maxHp": 520,
       "maxSp": 400,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -338,7 +338,7 @@
   "10": {
     "name": "리 다이린",
     "stat": {
-      "maxHp": 550,
+      "maxHp": 580,
       "maxSp": 420,
       "initExtraPoint": 0,
       "maxExtraPoint": 100,
@@ -375,7 +375,7 @@
   "11": {
     "name": "유키",
     "stat": {
-      "maxHp": 550,
+      "maxHp": 580,
       "maxSp": 410,
       "initExtraPoint": 4,
       "maxExtraPoint": 4,
@@ -412,7 +412,7 @@
   "12": {
     "name": "혜진",
     "stat": {
-      "maxHp": 515,
+      "maxHp": 535,
       "maxSp": 400,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -449,7 +449,7 @@
   "13": {
     "name": "쇼우",
     "stat": {
-      "maxHp": 530,
+      "maxHp": 560,
       "maxSp": 420,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -486,7 +486,7 @@
   "14": {
     "name": "키아라",
     "stat": {
-      "maxHp": 500,
+      "maxHp": 530,
       "maxSp": 410,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -522,7 +522,7 @@
   "15": {
     "name": "시셀라",
     "stat": {
-      "maxHp": 480,
+      "maxHp": 510,
       "maxSp": 400,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -559,7 +559,7 @@
   "16": {
     "name": "실비아",
     "stat": {
-      "maxHp": 500,
+      "maxHp": 520,
       "maxSp": 440,
       "initExtraPoint": 0,
       "maxExtraPoint": 100,
@@ -580,7 +580,7 @@
     "levelUp": {
       "maxHp": 61,
       "maxSp": 22,
-      "attackPower": 2.5,
+      "attackPower": 2.2,
       "defense": 1.2,
       "criticalChance": 0,
       "hpRegen": 0.03,
@@ -595,7 +595,7 @@
   "17": {
     "name": "아드리아나",
     "stat": {
-      "maxHp": 530,
+      "maxHp": 550,
       "maxSp": 480,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -631,7 +631,7 @@
   "18": {
     "name": "쇼이치",
     "stat": {
-      "maxHp": 550,
+      "maxHp": 580,
       "maxSp": 370,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -653,7 +653,7 @@
       "maxHp": 75,
       "maxSp": 13,
       "attackPower": 3.1,
-      "defense": 1.7,
+      "defense": 2.2,
       "criticalChance": 0,
       "hpRegen": 0.04,
       "spRegen": 0.04,
@@ -667,7 +667,7 @@
   "19": {
     "name": "엠마",
     "stat": {
-      "maxHp": 550,
+      "maxHp": 570,
       "maxSp": 450,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -703,8 +703,8 @@
   "20": {
     "name": "레녹스",
     "stat": {
-      "maxHp": 500,
-      "maxSp": 350,
+      "maxHp": 530,
+      "maxSp": 380,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
       "attackPower": 36,
@@ -722,7 +722,7 @@
       "resource": "Lenox"
     },
     "levelUp": {
-      "maxHp": 75,
+      "maxHp": 80,
       "maxSp": 13,
       "attackPower": 2.4,
       "defense": 2,
@@ -739,7 +739,7 @@
   "21": {
     "name": "로지",
     "stat": {
-      "maxHp": 495,
+      "maxHp": 515,
       "maxSp": 440,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -775,11 +775,11 @@
   "22": {
     "name": "루크",
     "stat": {
-      "maxHp": 580,
+      "maxHp": 610,
       "maxSp": 420,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
-      "attackPower": 32,
+      "attackPower": 28,
       "defense": 30,
       "criticalStrikeChance": 0,
       "hpRegen": 1,
@@ -811,7 +811,7 @@
   "23": {
     "name": "캐시",
     "stat": {
-      "maxHp": 530,
+      "maxHp": 560,
       "maxSp": 440,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -847,19 +847,19 @@
   "24": {
     "name": "아델라",
     "stat": {
-      "maxHp": 500,
-      "maxSp": 480,
+      "maxHp": 530,
+      "maxSp": 500,
       "initExtraPoint": 0,
       "maxExtraPoint": 3,
       "attackPower": 37,
-      "defense": 25,
+      "defense": 28,
       "criticalStrikeChance": 0,
       "hpRegen": 0.6,
-      "spRegen": 2.3,
+      "spRegen": 2,
       "attackSpeed": 0.045,
       "attackSpeedLimit": 0.66,
       "attackSpeedMin": 0.66,
-      "moveSpeed": 3.05,
+      "moveSpeed": 3,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.7,
@@ -883,11 +883,11 @@
   "25": {
     "name": "버니스",
     "stat": {
-      "maxHp": 600,
+      "maxHp": 620,
       "maxSp": 410,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
-      "attackPower": 30,
+      "attackPower": 25,
       "defense": 25,
       "criticalStrikeChance": 0,
       "hpRegen": 0.5,
@@ -895,7 +895,7 @@
       "attackSpeed": 0.24,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.2,
+      "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.45,
       "uiHeight": 2.5,
@@ -914,6 +914,42 @@
     },
     "weapons": [
       "저격총"
+    ]
+  },
+  "26": {
+    "name": "바바라",
+    "stat": {
+      "maxHp": 480,
+      "maxSp": 390,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 100,
+      "attackPower": 18,
+      "defense": 21,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.4,
+      "spRegen": 2,
+      "attackSpeed": 0.04,
+      "attackSpeedLimit": 2.5,
+      "attackSpeedMin": 0,
+      "moveSpeed": 3,
+      "sightRange": 8,
+      "radius": 0.4,
+      "uiHeight": 2.2,
+      "resource": "Barbara"
+    },
+    "levelUp": {
+      "maxHp": 60,
+      "maxSp": 17,
+      "attackPower": 1.4,
+      "defense": 1.6,
+      "criticalChance": 0,
+      "hpRegen": 0.03,
+      "spRegen": 0.04,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "배트"
     ]
   }
 }

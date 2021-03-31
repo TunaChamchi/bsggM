@@ -819,6 +819,76 @@
     "type": "character",
     "button": "R"
   },
+  "1026100": {
+    "name": "바바라 패시브",
+    "type": "character",
+    "button": "T"
+  },
+  "1026110": {
+    "name": "바바라터렛 패시브",
+    "type": "character",
+    "button": "T"
+  },
+  "1026200": {
+    "name": "포탑설치",
+    "type": "character",
+    "button": "Q"
+  },
+  "1026210": {
+    "name": "개량형 하이퍼루프",
+    "type": "character",
+    "button": "Q"
+  },
+  "1026220": {
+    "name": "터렛 자폭",
+    "type": "character",
+    "button": "Q"
+  },
+  "1026300": {
+    "name": "레일건",
+    "type": "character",
+    "button": "W"
+  },
+  "1026310": {
+    "name": "상시과충전",
+    "type": "character",
+    "button": "W"
+  },
+  "1026320": {
+    "name": "터렛 과충전",
+    "type": "character",
+    "button": "W"
+  },
+  "1026400": {
+    "name": "초자력폭풍 시작",
+    "type": "character",
+    "button": "E"
+  },
+  "1026410": {
+    "name": "초자력폭풍 종료",
+    "type": "character",
+    "button": "E"
+  },
+  "1026420": {
+    "name": "광자력폭풍 시작",
+    "type": "character",
+    "button": "E"
+  },
+  "1026430": {
+    "name": "광자력폭풍 종료",
+    "type": "character",
+    "button": "E"
+  },
+  "1026500": {
+    "name": "초 강화 상태",
+    "type": "character",
+    "button": "R"
+  },
+  "1026510": {
+    "name": "초 강화 상태 해제",
+    "type": "character",
+    "button": "R"
+  },
   "3001000": {
     "name": "글러브 - 어퍼컷",
     "type": "weapon"
