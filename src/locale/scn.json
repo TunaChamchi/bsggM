@@ -213,7 +213,8 @@
         "캐시": "凯希",
         "아델라": "阿德拉",
         "버니스": "伯尼斯",
-        "바바라": "芭芭拉"
+        "바바라": "芭芭拉",
+        "알렉스": "亚历克斯"
     },
     "weapons": {
         "투척": "投掷", 
@@ -640,7 +641,9 @@
         "다마스커스가시": "大马士革·索恩",
         "95식자동소총": "95式自动步枪",
         "아그니": "阿耆尼",
-        "천사의고리": " 天使光环"
+        "천사의고리": " 天使光环",
+        "피스브링어": "和平暗使",
+        "케르베로스": "刻耳柏洛斯"
 
     },
     "skill": {
@@ -1215,6 +1218,28 @@
             "R": {
                 "name": "Overclock",
                 "Detail": "Barbara overclocks, giving her basic skills extra effects.\n Short Circuit (Q): Barbara sets a sentry gun and teleports to its location. An already installed sentry gun will immediately self-destruct, dealing 50/75/100(+Attack Power 40%) damage. Barbara teleports, dealing 50/75/100(+Attack Power 60%) damage to enemies nearby, increasing the Sentry attack speed per enemy hit by 10% for 4 seconds.\nPhoton Resonance (W): For the next 7 seconds, the damage of Free-Electron Laser and Sentry Gun is increased by 5/15/25% and Free-Electron Laser has no SP cost and its cooldown is reduced by 97%. Sentry Guns attacks become Free-Electron Lasers while Photon Resonance is active.\n Particle Storm (E): Magnetic Cyclone radius grows over time. Reactivating the skill or after 4 seconds causes the storm to explode, dealing 60/80/100/120/140 (+Attack Power 35%) damage to enemies in range and stunning them for 1.25 seconds. Reactivating the skill once more cancels Particle Storm, allowing Barbara to use it again after 3 seconds."
+            }
+        },
+        "알렉스": {
+            "T": {
+                "name": "Infiltration",
+                "Detail": "Alex infiltrates and turns invisible after 7 seconds of not attacking, starting from level 6. Enemies cannot see Alex when outside of his detection range.\nWhile invisible, his movement speed is increased if an enemy is within a certain range. His weapon mastery levels all increase equally.\nWhen equipped with a melee weapon, his HP increases by (50/100/150) and his defense increases by (5/10/15)."
+            },
+            "Q": {
+                "name": "Gauss Pistol / Incursion",
+                "Detail": "Alex fires his gauss pistol, dealing 40/80/120/160/200(+Attack Power 30%) damage to enemies hit.\nIf Gauss Pistol hits an enemy, Alex's attack power is increased by 4% for 12 seconds.\nHe gains up to 3 stacks from this and from Incursion (Melee Q).\nAlex charges towards his target, dealing 30/65/100/135/170 (+Attack Power 30%) damage.\nHitting enemies increases his attack power by 4% for 12 seconds. He can gain up to 3 stacks from this and Gauss Pistol"
+            },
+            "W": {
+                "name": "Recognition Signal / Dead Drop",
+                "Detail": "Alex launches a signal in the targeted area, dealing 40/60/80/100/120 (+Attack Power 30%) damage to enemies in range and granting him vision for 1.6/1.8/2.0/2.2/2.4 seconds.\nHitting an enemy increases his normal attack range by 1.5m for 1.6/1.8/2.0/2.2/2.4 seconds.\nAlex tosses his Dead Drop in a targeted location, dealing 60/90/120/150/180 (+Attack Power 40%) damage to enemies in range after 0.7 seconds and pulling them to the center."
+            },
+            "E": {
+                "name": "Blowback / Double Agent",
+                "Detail": "Passive: Alex's attack speed is increased by 3/6/9/12/15%.\nHe throws an electric shuriken in the targeted direction, dealing 40/60/80/100/120 (+Attack Power 30%) damage to enemies hit, stepping backwards, and becoming invisible. Enemies hit are slowed by 70%, decaying after 1.5 seconds.\nRemaining invisible for 1 second after using the skill allows Alex to swap weapons once within 5 seconds. Disabling invisibility or changing weapons cancels the effect.\nInfiltration invisibility only occurs starting at level 6.Passive: Alex's Critical Strike Chance is increased by 3/6/9/12/15%. While the hologram remains for 5 seconds, the Critical Strike Chance from his passive is multiplied by 2.\nAlex dashes in the targeted direction, going invisible and leaving behind a hologram.\nThe hologram taunts enemies in range, forcing them to attack it for 1 second.\nAfter using the skill and staying invisible for 1 second, he can swap his weapon. Infiltration invisibility lasts 5 seconds and breaking invisibility or swapping weapons cancels the effect.\nInfiltration invisibility only occurs starting at level 6."
+            },
+            "R": {
+                "name": "Double Agent",
+                "Detail": "Alex calls in a strike at a targeted location, dealing 60/90/120 (+Attack Power 40%) damage to enemies in range and 100/125/150 (+Attack Power 50%) damage to enemies in the center.\nEnemies hit are slowed by 40% for 0.4 seconds.\nThe missile then pulses a total of 8 times every 0.5 seconds, dealing 40/60/80 (+Attack Power 30%) damage and 60/80/100 (+Attack Power 40%) damage to enemies in the center. Enemies hit are slowed by 30% for 0.4 seconds."
             }
         },
 

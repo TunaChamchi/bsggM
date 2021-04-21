@@ -889,6 +889,46 @@
     "type": "character",
     "button": "R"
   },
+  "1027100": {
+    "name": "잠입",
+    "type": "character",
+    "button": "T"
+  },
+  "1027200": {
+    "name": "레일 건",
+    "type": "character",
+    "button": "Q"
+  },
+  "1027300": {
+    "name": "타겟 마커",
+    "type": "character",
+    "button": "W"
+  },
+  "1027400": {
+    "name": "펄스 스팅",
+    "type": "character",
+    "button": "E"
+  },
+  "1027500": {
+    "name": "정밀 폭격",
+    "type": "character",
+    "button": "R"
+  },
+  "1027600": {
+    "name": "습격",
+    "type": "character",
+    "button": "Q"
+  },
+  "1027700": {
+    "name": "플라즈마 마인",
+    "type": "character",
+    "button": "W"
+  },
+  "1027800": {
+    "name": "교란",
+    "type": "character",
+    "button": "E"
+  },
   "3001000": {
     "name": "글러브 - 어퍼컷",
     "type": "weapon"
