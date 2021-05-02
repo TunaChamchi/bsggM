@@ -15,6 +15,7 @@
         "weapon": "武器",
         "ranking": "排名",
         "rank": "排名",
+        "season": "S",
         "avgRank": "平均-排名",
         "item": "物品",
         "solo": "單人",
@@ -82,7 +83,7 @@
         "몇초 전":"幾秒前",
         "footer":"BSGG.kr isn’t endorsed by Nimble Neuron.\nEternal Return: Black Survival is trademarks or registered trademarks of Nimble Neuron.\nData Based on Nimble Neuron",
         "question":"卡通層級是以官方統計爲基礎，以卡通人物的勝率、登場率、KA/M、平均排名等爲基礎製作的。",
-        "공지사항1":"更新了新角色芭芭拉的統計。",
+        "공지사항1":"更新了新角色芭芭拉的統計。 現在確認吧。",
         "공지사항2":"",
         "로딩":"正在搜索戰績。 請稍等。",
         "없음":"無戶籍信息全無戶籍信息。 請重新確認暱稱後搜索。",
@@ -214,7 +215,9 @@
         "아델라": "阿德拉",
         "버니스": "伯尼斯",
         "바바라": "芭芭拉",
-        "알렉스": "亞歷克斯"
+        "알렉스": "亞歷克斯",
+        "수아": "秀雅"
+
     },
     "weapons": {
         "투척": "投擲", 
@@ -643,7 +646,10 @@
         "아그니": "阿耆尼",
         "천사의고리": "天使光環",
         "피스브링어": "和平暗使",
-        "케르베로스": "刻耳柏洛斯"
+        "케르베로스": "刻耳柏洛斯",
+        "EMP드론": "EMP探測儀",
+        "정찰드론": "無人探測儀",
+        "아르기로톡소스": "阿耳古洛托克索斯"
 
     },
     "skill": {
@@ -1240,6 +1246,28 @@
             "R": {
                 "name": "Double Agent",
                 "Detail": "Alex calls in a strike at a targeted location, dealing 60/90/120 (+Attack Power 40%) damage to enemies in range and 100/125/150 (+Attack Power 50%) damage to enemies in the center.\nEnemies hit are slowed by 40% for 0.4 seconds.\nThe missile then pulses a total of 8 times every 0.5 seconds, dealing 40/60/80 (+Attack Power 30%) damage and 60/80/100 (+Attack Power 40%) damage to enemies in the center. Enemies hit are slowed by 30% for 0.4 seconds."
+            }
+        },
+        "수아": {
+            "T": {
+                "name": "Bookworm",
+                "Detail": "After Sua uses a skill, her next normal attack deals extra damage and also damages targets in a range around the attack.\n She recovers a portion of damage dealt as HP. \nEach stack of Bookworm increases her attack speed. \nHitting an enemy reduces her basic skill cooldowns.\n If multiple enemies are hit, cooldown reduction is still applied only once."
+            },
+            "Q": {
+                "name": "Odyssey",
+                "Detail": "Sua manifests two books in a targeted direction that collide at the center, dealing damage to enemies in range and leaving a bookmark on the enemy. Creating a new bookmark triggers the old one, dealing damage. \nEnemies hit in the center are stunned for a bit."
+            },
+            "W": {
+                "name": "The Curious Case",
+                "Detail": "Ally cast: Sua shields her target for damage and makes them unstoppable for a few seconds.\nEnemy cast: Sua's bird attacks a targeted enemy, dealing damage and blinding them for a few seconds."
+            },
+            "E": {
+                "name": "Don Quixote",
+                "Detail": "Sua manifests a lance and flies forward, dealing damage to enemies hit and slowing them for a moment.\nEnemies stunned by Odyssey take damage and are knocked airborne.\n Hitting enemies reduces the cooldown of Don Quixote."
+            },
+            "R": {
+                "name": "Memory",
+                "Detail": "Sua remembers the last skill she used, and can use it again."
             }
         },
 
