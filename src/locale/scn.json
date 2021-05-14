@@ -216,7 +216,8 @@
         "버니스": "伯尼斯",
         "바바라": "芭芭拉",
         "알렉스": "亚历克斯",
-        "수아": "秀雅"
+        "수아": "秀雅",
+        "레온": "里昂"
     },
     "weapons": {
         "투척": "投掷", 
@@ -648,7 +649,9 @@
         "케르베로스": "刻耳柏洛斯",
         "EMP드론": "EMP探测仪",
         "정찰드론": "无人探测仪",
-        "아르기로톡소스": "阿耳古洛托克索斯"
+        "아르기로톡소스": "阿耳古洛托克索斯",
+        "사격교본": "射击教本",
+        "호크아이": "鹰眼"
 
     },
     "skill": {
@@ -1267,6 +1270,28 @@
             "R": {
                 "name": "Memory",
                 "Detail": "Sua remembers the last skill she used, and can use it again."
+            }
+        },
+        "레온": {
+            "T": {
+                "name": "Human Torpedo",
+                "Detail": "Human Torpedo: Leon's movement speed is increased by 5/10/15% and his attack speed is increased by 10/15/20% when he's standing in one of his pools.\nPool Shark: Leon gains 5/10/15 (+Attack Power 20%) extra normal attack damage when standing in one of his pools."
+            },
+            "Q": {
+                "name": "Waterway",
+                "Detail": "Leon splashes water in the targeted direction, dealing 40/75/110/145/180 (+Attack Power 40%) damage and creating pools of water."
+            },
+            "W": {
+                "name": "Cannonball",
+                "Detail": "Passive: Every 5 attacks, a pool is created when attacking an enemy.\nLeon shields his target for 60/90/120/150/180(+Attack Power 30%) damage for 5 seconds. For the next 3 normal attacks, the shielded character deals 10/20/30/40/50(+Attack Power 30%) extra damage and creates a pool behind the target"
+            },
+            "E": {
+                "name": "Duck Dive",
+                "Detail": "Leon instantly creates a pool at his location and dives in. He emerges out of a targeted pool, dealing 60/100/140/180/220 (+Attack Power 35%) damage and knocking enemies airborne for 1 second."
+            },
+            "R": {
+                "name": "Duck Dive",
+                "Detail": "Leon surfs on a wave, dealing 150/230/310 (+Attack Power 50%) damage to enemies in the way and knocking them back until the wave dissipates.\n Enemies knocked into terrain are damaged for 10/15/20% of their missing HP and are slowed by 70%, decaying over 1.2 seconds."
             }
         },
 

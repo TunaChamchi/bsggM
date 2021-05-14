@@ -929,6 +929,76 @@
     "type": "character",
     "button": "E"
   },
+  "1028100": {
+    "name": "마음의 양식",
+    "type": "character",
+    "button": "T"
+  },
+  "1028110": {
+    "name": "수아 기본공격(강화)",
+    "type": "character",
+    "button": "T"
+  },
+  "1028200": {
+    "name": "오딧세이",
+    "type": "character",
+    "button": "Q"
+  },
+  "1028300": {
+    "name": "파랑새",
+    "type": "character",
+    "button": "W"
+  },
+  "1028400": {
+    "name": "돈키호테",
+    "type": "character",
+    "button": "E"
+  },
+  "1028500": {
+    "name": "기억력",
+    "type": "character",
+    "button": "R"
+  },
+  "1028510": {
+    "name": "오딧세이(기억력)",
+    "type": "character",
+    "button": "R"
+  },
+  "1028520": {
+    "name": "파랑새(기억력)",
+    "type": "character",
+    "button": "R"
+  },
+  "1028530": {
+    "name": "돈키호테(기억력)",
+    "type": "character",
+    "button": "R"
+  },
+  "1029100": {
+    "name": "인간어뢰",
+    "type": "character",
+    "button": "T"
+  },
+  "1029200": {
+    "name": "물길",
+    "type": "character",
+    "button": "Q"
+  },
+  "1029300": {
+    "name": "격려",
+    "type": "character",
+    "button": "W"
+  },
+  "1029400": {
+    "name": "잠형이동",
+    "type": "character",
+    "button": "E"
+  },
+  "1029500": {
+    "name": "파도타기",
+    "type": "character",
+    "button": "R"
+  },
   "3001000": {
     "name": "글러브 - 어퍼컷",
     "type": "weapon"
