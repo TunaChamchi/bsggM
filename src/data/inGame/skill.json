@@ -999,6 +999,31 @@
     "type": "character",
     "button": "R"
   },
+  "1030100": {
+    "name": "먹어볼까요",
+    "type": "character",
+    "button": "T"
+  },
+  "1030200": {
+    "name": "방해하지마!",
+    "type": "character",
+    "button": "Q"
+  },
+  "1030300": {
+    "name": "먹고 싶지?!",
+    "type": "character",
+    "button": "W"
+  },
+  "1030400": {
+    "name": "버거 점프",
+    "type": "character",
+    "button": "E"
+  },
+  "1030500": {
+    "name": "활력",
+    "type": "character",
+    "button": "R"
+  },
   "3001000": {
     "name": "글러브 - 어퍼컷",
     "type": "weapon"
