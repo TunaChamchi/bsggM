@@ -218,7 +218,8 @@
         "바바라": "芭芭拉",
         "알렉스": "亞歷克斯",
         "수아": "秀雅",
-        "레온": "里昂"
+        "레온": "里昂",
+        "일레븐": "Eleven"
 
     },
     "weapons": {
@@ -653,7 +654,14 @@
         "정찰드론": "無人探測儀",
         "아르기로톡소스": "阿耳古洛托克索斯",
         "사격교본": "射擊教本",
-        "호크아이": "鷹眼"
+        "호크아이": "鷹眼",
+        "레드팬서": "赤豹",
+        "빛의검": "極光長劍",
+        "에스톡": "穿甲劍",
+        "저거너트": "戰坦克",
+        "제베의활": "哲別之弓",
+        "제사장의예복": "大祭司長袍",
+        "턱시도": "禮服"
 
     },
     "skill": {
@@ -1294,6 +1302,28 @@
             "R": {
                 "name": "Duck Dive",
                 "Detail": "Leon surfs on a wave, dealing 150/230/310 (+Attack Power 50%) damage to enemies in the way and knocking them back until the wave dissipates.\n Enemies knocked into terrain are damaged for 10/15/20% of their missing HP and are slowed by 70%, decaying over 1.2 seconds."
+            }
+        },
+        "일레븐": {
+            "T": {
+                "name": "Ground Beef",
+                "Detail": "Eleven can prepare 2 #11 Combo Meals by combining a Hamburger and French Fries.\n Her normal attacks deal 10/15/20 extra damage, but her attack speed is 10% slower. Every 4 attacks, Eleven makes a slider.\n Picking up a slider recovers 50/150/250 HP instantly and 8 HP per second over 20 seconds.\n After picking up a slider, Eleven can use an enhanced version of one of her skills. Enemies can step on sliders to destroy them.\nThe number of sliders created varies for each team mode. (Duo: 2 sliders, Squad: 3 sliders)\n You can only have 1 active slider healing effect on you at one time."
+            },
+            "Q": {
+                "name": "Burger Queen",
+                "Detail": "Eleven slams down her massive burger, dealing 100/130/160/190/220 (+Attack Power 50%) damage in the targeted area.\n Channeling for longer than 1 second deals an additional 48%/52%/56%/60%/64% damage and slows enemies by 20%/25%/30%/35%/40% for 2 seconds.\n Eleven can channel the skill for up to 3 seconds.\n She is slowed by 20% when channeling."
+            },
+            "W": {
+                "name": "Food For Thought",
+                "Detail": "Eleven can move while channeling this skill.\n Eleven raises her fork, taunting enemies in a 2m radius for 0.6/0.7/0.8/0.9/1.0s.\n The skill is enhanced when channeled for longer than 1 second and taunts enemies in a 3.5m radius for 1.0/1.2/1.4/1.6/1.8s.\n Eleven can channel the skill for up to 3 seconds.\n She is slowed by 20% when channeling."
+            },
+            "E": {
+                "name": "On Air!",
+                "Detail": "Eleven sticks her fork in the ground and flings herself through the air, becoming unstoppable, and deals 110/130/150/180/210(+Attack Power 35%) damage upon landing and an additional 10/12/14/16/18% damage based on her enemy’s missing HP.\nThe skill is enhanced when channeled for longer than 1 second and deals 22%/24%/26%/28%/30% additional damage and knocks back enemies at the landing zone.\n Eleven can channel the skill for up to 3 seconds. She can not move when channeling."
+            },
+            "R": {
+                "name": "Calorie Cyclone",
+                "Detail": "Food surrounds Eleven for 6 seconds, dealing 50/80/110 damage per second to enemies inside the food ring and her normal attacks are triggered twice.\n Her next normal skill is enhanced after using Calorie Cyclone."
             }
         },
 

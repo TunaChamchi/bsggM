@@ -2,7 +2,7 @@
   "1": {
     "name": "재키",
     "stat": {
-      "maxHp": 590,
+      "maxHp": 670,
       "maxSp": 430,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -14,14 +14,14 @@
       "attackSpeed": 0.12,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.1,
+      "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.3,
       "resource": "Jackie"
     },
     "levelUp": {
-      "maxHp": 80,
+      "maxHp": 77,
       "maxSp": 15,
       "attackPower": 2.7,
       "defense": 2.2,
@@ -41,7 +41,7 @@
   "2": {
     "name": "아야",
     "stat": {
-      "maxHp": 500,
+      "maxHp": 580,
       "maxSp": 440,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -53,16 +53,16 @@
       "attackSpeed": 0.14,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3,
+      "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.3,
       "resource": "Aya"
     },
     "levelUp": {
-      "maxHp": 63,
+      "maxHp": 60,
       "maxSp": 25,
-      "attackPower": 3,
+      "attackPower": 3.3,
       "defense": 1.6,
       "criticalChance": 0,
       "hpRegen": 0.04,
@@ -79,7 +79,7 @@
   "3": {
     "name": "피오라",
     "stat": {
-      "maxHp": 580,
+      "maxHp": 660,
       "maxSp": 430,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -91,14 +91,14 @@
       "attackSpeed": 0.22,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.15,
+      "moveSpeed": 3.2,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.5,
       "resource": "Fiora"
     },
     "levelUp": {
-      "maxHp": 87,
+      "maxHp": 84,
       "maxSp": 13,
       "attackPower": 3.4,
       "defense": 2.2,
@@ -117,26 +117,26 @@
   "4": {
     "name": "매그너스",
     "stat": {
-      "maxHp": 630,
+      "maxHp": 710,
       "maxSp": 410,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
       "attackPower": 32,
       "defense": 25,
       "criticalStrikeChance": 0,
-      "hpRegen": 0.7,
+      "hpRegen": 1,
       "spRegen": 1.9,
       "attackSpeed": 0.14,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.2,
+      "moveSpeed": 3.25,
       "sightRange": 8,
       "radius": 0.5,
       "uiHeight": 2.7,
       "resource": "Magnus"
     },
     "levelUp": {
-      "maxHp": 82,
+      "maxHp": 79,
       "maxSp": 14,
       "attackPower": 2.2,
       "defense": 1.5,
@@ -154,7 +154,7 @@
   "5": {
     "name": "자히르",
     "stat": {
-      "maxHp": 540,
+      "maxHp": 620,
       "maxSp": 400,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -166,14 +166,14 @@
       "attackSpeed": 0.11,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3,
+      "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.45,
       "uiHeight": 3.2,
       "resource": "Zahir"
     },
     "levelUp": {
-      "maxHp": 64,
+      "maxHp": 61,
       "maxSp": 26,
       "attackPower": 2.4,
       "defense": 1.8,
@@ -191,28 +191,28 @@
   "6": {
     "name": "나딘",
     "stat": {
-      "maxHp": 555,
+      "maxHp": 635,
       "maxSp": 350,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
       "attackPower": 32,
-      "defense": 23,
+      "defense": 26,
       "criticalStrikeChance": 0,
       "hpRegen": 0.4,
       "spRegen": 1.9,
       "attackSpeed": 0.12,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3,
+      "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.5,
       "resource": "Nadine"
     },
     "levelUp": {
-      "maxHp": 60,
+      "maxHp": 57,
       "maxSp": 13,
-      "attackPower": 2.2,
+      "attackPower": 2,
       "defense": 1.5,
       "criticalChance": 0,
       "hpRegen": 0.03,
@@ -228,7 +228,7 @@
   "7": {
     "name": "현우",
     "stat": {
-      "maxHp": 530,
+      "maxHp": 610,
       "maxSp": 350,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -240,14 +240,14 @@
       "attackSpeed": 0.12,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.15,
+      "moveSpeed": 3.2,
       "sightRange": 8,
       "radius": 0.45,
       "uiHeight": 2.4,
       "resource": "Hyunwoo"
     },
     "levelUp": {
-      "maxHp": 80,
+      "maxHp": 77,
       "maxSp": 16,
       "attackPower": 3.1,
       "defense": 2.2,
@@ -265,7 +265,7 @@
   "8": {
     "name": "하트",
     "stat": {
-      "maxHp": 520,
+      "maxHp": 600,
       "maxSp": 420,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -277,14 +277,14 @@
       "attackSpeed": 0.12,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3,
+      "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.4,
       "resource": "Hart"
     },
     "levelUp": {
-      "maxHp": 66,
+      "maxHp": 63,
       "maxSp": 16,
       "attackPower": 3,
       "defense": 1.9,
@@ -301,7 +301,7 @@
   "9": {
     "name": "아이솔",
     "stat": {
-      "maxHp": 520,
+      "maxHp": 600,
       "maxSp": 400,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -313,14 +313,14 @@
       "attackSpeed": 0.14,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.05,
+      "moveSpeed": 3.1,
       "sightRange": 8,
       "radius": 0.45,
       "uiHeight": 2.4,
       "resource": "Isol"
     },
     "levelUp": {
-      "maxHp": 60,
+      "maxHp": 57,
       "maxSp": 21,
       "attackPower": 2.6,
       "defense": 1.5,
@@ -338,7 +338,7 @@
   "10": {
     "name": "리 다이린",
     "stat": {
-      "maxHp": 580,
+      "maxHp": 660,
       "maxSp": 420,
       "initExtraPoint": 0,
       "maxExtraPoint": 100,
@@ -350,14 +350,14 @@
       "attackSpeed": 0.07,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.1,
+      "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.3,
       "resource": "LiDailin"
     },
     "levelUp": {
-      "maxHp": 82,
+      "maxHp": 79,
       "maxSp": 16,
       "attackPower": 2.2,
       "defense": 2.2,
@@ -375,7 +375,7 @@
   "11": {
     "name": "유키",
     "stat": {
-      "maxHp": 580,
+      "maxHp": 660,
       "maxSp": 410,
       "initExtraPoint": 4,
       "maxExtraPoint": 4,
@@ -387,14 +387,14 @@
       "attackSpeed": 0.08,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.1,
+      "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.45,
       "uiHeight": 2.6,
       "resource": "Yuki"
     },
     "levelUp": {
-      "maxHp": 81,
+      "maxHp": 78,
       "maxSp": 20,
       "attackPower": 2.6,
       "defense": 2.3,
@@ -412,7 +412,7 @@
   "12": {
     "name": "혜진",
     "stat": {
-      "maxHp": 535,
+      "maxHp": 615,
       "maxSp": 400,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -424,14 +424,14 @@
       "attackSpeed": 0.12,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.05,
+      "moveSpeed": 3.1,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.3,
       "resource": "Hyejin"
     },
     "levelUp": {
-      "maxHp": 68,
+      "maxHp": 65,
       "maxSp": 26,
       "attackPower": 2.7,
       "defense": 1.7,
@@ -449,7 +449,7 @@
   "13": {
     "name": "쇼우",
     "stat": {
-      "maxHp": 560,
+      "maxHp": 640,
       "maxSp": 420,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -461,14 +461,14 @@
       "attackSpeed": 0.16,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.1,
+      "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.48,
       "uiHeight": 2.9,
       "resource": "Xiukai"
     },
     "levelUp": {
-      "maxHp": 80,
+      "maxHp": 77,
       "maxSp": 14,
       "attackPower": 2.2,
       "defense": 1.7,
@@ -486,7 +486,7 @@
   "14": {
     "name": "키아라",
     "stat": {
-      "maxHp": 530,
+      "maxHp": 610,
       "maxSp": 410,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -498,14 +498,14 @@
       "attackSpeed": 0.11,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.15,
+      "moveSpeed": 3.2,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.5,
       "resource": "Chiara"
     },
     "levelUp": {
-      "maxHp": 60,
+      "maxHp": 57,
       "maxSp": 13,
       "attackPower": 2,
       "defense": 1.3,
@@ -522,7 +522,7 @@
   "15": {
     "name": "시셀라",
     "stat": {
-      "maxHp": 510,
+      "maxHp": 590,
       "maxSp": 400,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -534,14 +534,14 @@
       "attackSpeed": 0.15,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3,
+      "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.3,
       "resource": "Sissela"
     },
     "levelUp": {
-      "maxHp": 63,
+      "maxHp": 60,
       "maxSp": 16,
       "attackPower": 2.4,
       "defense": 1.7,
@@ -559,7 +559,7 @@
   "16": {
     "name": "실비아",
     "stat": {
-      "maxHp": 520,
+      "maxHp": 600,
       "maxSp": 440,
       "initExtraPoint": 0,
       "maxExtraPoint": 100,
@@ -571,14 +571,14 @@
       "attackSpeed": 0.05,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3,
+      "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.5,
       "resource": "Silvia"
     },
     "levelUp": {
-      "maxHp": 61,
+      "maxHp": 58,
       "maxSp": 22,
       "attackPower": 2,
       "defense": 1.5,
@@ -595,7 +595,7 @@
   "17": {
     "name": "아드리아나",
     "stat": {
-      "maxHp": 550,
+      "maxHp": 630,
       "maxSp": 480,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -607,14 +607,14 @@
       "attackSpeed": 0.04,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3,
+      "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.4,
       "resource": "Adriana"
     },
     "levelUp": {
-      "maxHp": 65,
+      "maxHp": 62,
       "maxSp": 9,
       "attackPower": 2.9,
       "defense": 2,
@@ -631,7 +631,7 @@
   "18": {
     "name": "쇼이치",
     "stat": {
-      "maxHp": 580,
+      "maxHp": 660,
       "maxSp": 370,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -643,14 +643,14 @@
       "attackSpeed": 0.12,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.1,
+      "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.43,
       "uiHeight": 2.5,
       "resource": "Shoichi"
     },
     "levelUp": {
-      "maxHp": 75,
+      "maxHp": 72,
       "maxSp": 13,
       "attackPower": 3.1,
       "defense": 2.2,
@@ -667,7 +667,7 @@
   "19": {
     "name": "엠마",
     "stat": {
-      "maxHp": 570,
+      "maxHp": 650,
       "maxSp": 450,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -679,14 +679,14 @@
       "attackSpeed": 0.1,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3,
+      "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.7,
       "resource": "Emma"
     },
     "levelUp": {
-      "maxHp": 60,
+      "maxHp": 57,
       "maxSp": 22,
       "attackPower": 2.2,
       "defense": 1.3,
@@ -703,7 +703,7 @@
   "20": {
     "name": "레녹스",
     "stat": {
-      "maxHp": 530,
+      "maxHp": 610,
       "maxSp": 380,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -715,14 +715,14 @@
       "attackSpeed": 0.12,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.2,
+      "moveSpeed": 3.25,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.5,
       "resource": "Lenox"
     },
     "levelUp": {
-      "maxHp": 80,
+      "maxHp": 77,
       "maxSp": 16,
       "attackPower": 2.4,
       "defense": 2,
@@ -739,7 +739,7 @@
   "21": {
     "name": "로지",
     "stat": {
-      "maxHp": 545,
+      "maxHp": 625,
       "maxSp": 440,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -751,14 +751,14 @@
       "attackSpeed": 0.11,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.05,
+      "moveSpeed": 3.1,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.7,
       "resource": "Rozzi"
     },
     "levelUp": {
-      "maxHp": 62,
+      "maxHp": 59,
       "maxSp": 22,
       "attackPower": 2.3,
       "defense": 1.4,
@@ -775,7 +775,7 @@
   "22": {
     "name": "루크",
     "stat": {
-      "maxHp": 610,
+      "maxHp": 690,
       "maxSp": 420,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -787,14 +787,14 @@
       "attackSpeed": 0.12,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.15,
+      "moveSpeed": 3.2,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.5,
       "resource": "Luke"
     },
     "levelUp": {
-      "maxHp": 84,
+      "maxHp": 81,
       "maxSp": 15,
       "attackPower": 2,
       "defense": 2.3,
@@ -811,7 +811,7 @@
   "23": {
     "name": "캐시",
     "stat": {
-      "maxHp": 560,
+      "maxHp": 640,
       "maxSp": 440,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -823,14 +823,14 @@
       "attackSpeed": 0.12,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.1,
+      "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.5,
       "resource": "Cathy"
     },
     "levelUp": {
-      "maxHp": 80,
+      "maxHp": 77,
       "maxSp": 16,
       "attackPower": 2.4,
       "defense": 2,
@@ -847,7 +847,7 @@
   "24": {
     "name": "아델라",
     "stat": {
-      "maxHp": 530,
+      "maxHp": 610,
       "maxSp": 500,
       "initExtraPoint": 0,
       "maxExtraPoint": 3,
@@ -859,14 +859,14 @@
       "attackSpeed": 0.045,
       "attackSpeedLimit": 0.66,
       "attackSpeedMin": 0.66,
-      "moveSpeed": 3,
+      "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.7,
       "resource": "Adela"
     },
     "levelUp": {
-      "maxHp": 78,
+      "maxHp": 75,
       "maxSp": 26,
       "attackPower": 3.3,
       "defense": 2.2,
@@ -883,7 +883,7 @@
   "25": {
     "name": "버니스",
     "stat": {
-      "maxHp": 620,
+      "maxHp": 700,
       "maxSp": 410,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -895,14 +895,14 @@
       "attackSpeed": 0.24,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.15,
+      "moveSpeed": 3.2,
       "sightRange": 9,
       "radius": 0.45,
       "uiHeight": 2.5,
       "resource": "Bernice"
     },
     "levelUp": {
-      "maxHp": 80,
+      "maxHp": 77,
       "maxSp": 15,
       "attackPower": 2.4,
       "defense": 1.8,
@@ -919,7 +919,7 @@
   "26": {
     "name": "바바라",
     "stat": {
-      "maxHp": 480,
+      "maxHp": 560,
       "maxSp": 390,
       "initExtraPoint": 0,
       "maxExtraPoint": 100,
@@ -931,14 +931,14 @@
       "attackSpeed": 0.04,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3,
+      "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.2,
       "resource": "Barbara"
     },
     "levelUp": {
-      "maxHp": 74,
+      "maxHp": 71,
       "maxSp": 17,
       "attackPower": 1.4,
       "defense": 1.9,
@@ -955,7 +955,7 @@
   "27": {
     "name": "알렉스",
     "stat": {
-      "maxHp": 520,
+      "maxHp": 600,
       "maxSp": 450,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -967,14 +967,14 @@
       "attackSpeed": 0.18,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.05,
+      "moveSpeed": 3.1,
       "sightRange": 8,
       "radius": 0.45,
       "uiHeight": 2.7,
       "resource": "Alex"
     },
     "levelUp": {
-      "maxHp": 77,
+      "maxHp": 74,
       "maxSp": 22,
       "attackPower": 2.4,
       "defense": 2.1,
@@ -994,7 +994,7 @@
   "28": {
     "name": "수아",
     "stat": {
-      "maxHp": 580,
+      "maxHp": 660,
       "maxSp": 480,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -1006,14 +1006,14 @@
       "attackSpeed": 0.12,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.1,
+      "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.4,
       "resource": "Sua"
     },
     "levelUp": {
-      "maxHp": 77,
+      "maxHp": 74,
       "maxSp": 18,
       "attackPower": 2,
       "defense": 2.1,
@@ -1030,7 +1030,7 @@
   "29": {
     "name": "레온",
     "stat": {
-      "maxHp": 570,
+      "maxHp": 650,
       "maxSp": 420,
       "initExtraPoint": 0,
       "maxExtraPoint": 100,
@@ -1042,14 +1042,14 @@
       "attackSpeed": 0.05,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.05,
+      "moveSpeed": 3.1,
       "sightRange": 8,
       "radius": 0.4,
       "uiHeight": 2.3,
       "resource": "Leon"
     },
     "levelUp": {
-      "maxHp": 82,
+      "maxHp": 79,
       "maxSp": 16,
       "attackPower": 2.2,
       "defense": 2.2,
@@ -1061,6 +1061,42 @@
     },
     "weapons": [
       "글러브"
+    ]
+  },
+  "30": {
+    "name": "일레븐",
+    "stat": {
+      "maxHp": 700,
+      "maxSp": 420,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 100,
+      "attackPower": 33,
+      "defense": 22,
+      "criticalStrikeChance": 0,
+      "hpRegen": 1.1,
+      "spRegen": 2,
+      "attackSpeed": 0.07,
+      "attackSpeedLimit": 2.5,
+      "attackSpeedMin": 0,
+      "moveSpeed": 3.15,
+      "sightRange": 8,
+      "radius": 0.4,
+      "uiHeight": 2.6,
+      "resource": "Eleven"
+    },
+    "levelUp": {
+      "maxHp": 79,
+      "maxSp": 16,
+      "attackPower": 2.2,
+      "defense": 2.5,
+      "criticalChance": 0,
+      "hpRegen": 0.07,
+      "spRegen": 0.04,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "망치"
     ]
   }
 }
