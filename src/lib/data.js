@@ -101,3 +101,10 @@ export const getItemTypeList = (type1, type2) => {
     else
         return itemTypeList[type1];
 }
+
+export const getSeason = () => {
+    return 3;
+}
+export const getSeasonString = () => {
+    return getSeason()+"";
+}
