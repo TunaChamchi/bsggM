@@ -219,7 +219,8 @@
         "알렉스": "亚历克斯",
         "수아": "秀雅",
         "레온": "里昂",
-        "일레븐": "Eleven"
+        "일레븐": "Eleven",
+        "리오": "莉央"
     },
     "weapons": {
         "투척": "投掷", 
@@ -660,7 +661,10 @@
         "저거너트": "战坦克",
         "제베의활": "哲别之弓",
         "제사장의예복": "大祭司长袍",
-        "턱시도": "无尾礼服"
+        "턱시도": "无尾礼服",
+        "운명의망치": "命运之锤",
+        "천근추": "千斤锤",
+        "윈드러너": "风行者"
 
     },
     "skill": {
@@ -1323,6 +1327,28 @@
             "R": {
                 "name": "Calorie Cyclone",
                 "Detail": "Food surrounds Eleven for 6 seconds, dealing 50/80/110 damage per second to enemies inside the food ring and her normal attacks are triggered twice.\n Her next normal skill is enhanced after using Calorie Cyclone."
+            }
+        },
+        "리오": {
+            "T": {
+                "name": "Hassetsu",
+                "Detail": "Rio’s normal attacks and skills ignore 5/7.5/10% (+0.25% per 1% of Critical Strike Chance) of her enemies defense based on her critical strike chance.\nHer normal attacks can’t critically strike but deal increased damage."
+            },
+            "Q": {
+                "name": "Kyudo Instinct",
+                "Detail": "Passive: Normal attacks or skills grant her a stack of Flow.\n Upon reaching 3 stacks, dealing damage with Rio’s next normal attack or skill triggers an effect depending on her current bow.\nHankyu: 2 arrows are fired with each normal attack, dealing 40/43/46/49/52% and 40/43/46/49/52% of Rio’s normal attack damage.\nUpon reaching 3 stacks of flow, damaging an enemy with Rio’s next attack or skill increases her movement speed by 12/14/16/18/20% and attack speed by 10/15/20/25/30% for 2 seconds.\nDaikyu: 1 powerful arrow is fired with each normal attack, dealing 110/114/118/122/126% of normal attack damage.\nUpon reaching 3 stacks of flow, damaging an enemy with Rio’s next attack or skill deals an additional 0.5% damage per 1% of her target’s missing HP and slows them by 10/15/20/25/30% for 1.5 seconds."
+            },
+            "W": {
+                "name": "Hanare",
+                "Detail": "Hankyu: Rio fires arrows in a cone shape, dealing 30/50/70/90/110 (+Attack Power 30%) damage to enemies in range.\n A breeze is created at the site where targets were hit for 1.5 seconds, slowing them by 30/35/40/45/50%.\nDaikyu: Rio fires a single arrow in the targeted direction, dealing 45/90/135/180/225 (+Attack Power 55%) damage to enemies hit and 15/40/65/90/115 (+Attack Power 55%) damage to enemies behind the target in a cone shape. Hitting enemies reduces the cooldown of Hanare by 70%."
+            },
+            "E": {
+                "name": "Soar",
+                "Detail": "Hankyu: Rio lunges into the targeted direction, firing 2 arrows at up to 3 enemies in range each dealing 40/50/60/70/80(+Attack Power 30%) damage. \nHitting an enemy reduces the cooldown of Soar to 5/4.5/4/3.5/3s.\n Daikyu: Rio jumps into the targeted direction, firing 1 arrow at up to 3 enemies in range, dealing 50/70/90/110/130 (+Attack Power 40%) damage and 25/35/45/55/65 (+Attack Power 40%) damage around the target in a 2m radius.\n Hitting an enemy reduces the cooldown of Soar to 5/4.5/4/3.5/3."
+            },
+            "R": {
+                "name": "Fleeting Soul/Spirit Arrow",
+                "Detail": "Hankyu: Rio fires 3 arrows in the targeted direction, dealing 40/70/100 (+Attack Power 30%) damage per arrow.\n Each hit reduces the cooldown of Fleeting Soul/Spirit Arrow by 5s.\n After firing 3 arrows, she fires an extra arrow, dealing 150/200/250 (+Attack Power 60%) damage and knocking enemies back 4m.\n Enemies knocked into a wall are stunned for 1 second.\nDaikyu: Rio channels and fires an arrow in the targeted direction, dealing 300/350/400 (+Attack Power 40%) damage to enemies hit and slows them by 80% for 2 seconds.\n 0.8s seconds after firing, the arrow’s speed increases by 20% and its damage is increased by 30%."
             }
         },
 

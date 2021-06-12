@@ -1024,6 +1024,51 @@
     "type": "character",
     "button": "R"
   },
+  "1031100": {
+    "name": "카이",
+    "type": "character",
+    "button": "T"
+  },
+  "1031200": {
+    "name": "카에유미 단궁",
+    "type": "character",
+    "button": "Q"
+  },
+  "1031210": {
+    "name": "카에유미 화궁",
+    "type": "character",
+    "button": "Q"
+  },
+  "1031300": {
+    "name": "하나레 단궁",
+    "type": "character",
+    "button": "W"
+  },
+  "1031310": {
+    "name": "하나레 화궁",
+    "type": "character",
+    "button": "W"
+  },
+  "1031400": {
+    "name": "스탭 단궁",
+    "type": "character",
+    "button": "E"
+  },
+  "1031410": {
+    "name": "스탭 화궁",
+    "type": "character",
+    "button": "E"
+  },
+  "1031500": {
+    "name": "연사/정사필중 단궁",
+    "type": "character",
+    "button": "R"
+  },
+  "1031510": {
+    "name": "연사/정사필중 화궁",
+    "type": "character",
+    "button": "R"
+  },
   "3001000": {
     "name": "글러브 - 어퍼컷",
     "type": "weapon"
