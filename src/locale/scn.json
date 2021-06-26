@@ -220,7 +220,8 @@
         "수아": "秀雅",
         "레온": "里昂",
         "일레븐": "Eleven",
-        "리오": "莉央"
+        "리오": "莉央",
+        "윌리엄": "威廉"
     },
     "weapons": {
         "투척": "投掷", 
@@ -664,7 +665,13 @@
         "턱시도": "无尾礼服",
         "운명의망치": "命运之锤",
         "천근추": "千斤锤",
-        "윈드러너": "风行者"
+        "윈드러너": "风行者",
+        "주작자문": "朱雀之纹",
+        "몽둥이": "矛柄",
+        "금강저": "金刚杵",
+        "파이어볼": "火球",
+        "프리즘볼": "魔导棱镜",
+        "모호크헬멧": "庞克头盔"
 
     },
     "skill": {
@@ -1349,6 +1356,28 @@
             "R": {
                 "name": "Fleeting Soul/Spirit Arrow",
                 "Detail": "Hankyu: Rio fires 3 arrows in the targeted direction, dealing 40/70/100 (+Attack Power 30%) damage per arrow.\n Each hit reduces the cooldown of Fleeting Soul/Spirit Arrow by 5s.\n After firing 3 arrows, she fires an extra arrow, dealing 150/200/250 (+Attack Power 60%) damage and knocking enemies back 4m.\n Enemies knocked into a wall are stunned for 1 second.\nDaikyu: Rio channels and fires an arrow in the targeted direction, dealing 300/350/400 (+Attack Power 40%) damage to enemies hit and slows them by 80% for 2 seconds.\n 0.8s seconds after firing, the arrow’s speed increases by 20% and its damage is increased by 30%."
+            }
+        },
+        "윌리엄": {
+            "T": {
+                "name": "No Hitter",
+                "Detail": "William’s normal attacks bounce a ball off his enemy every 2 seconds and remain on the ground for 2.5 seconds.\nHis movement speed is increased by 12/16/20% when walking towards the baseball. Picking up a baseball will cause his next normal attack to deal 15/25/35% extra damage.\nNo Hitters stack for 12 seconds after being picked up and a total 3 stacks can be obtained."
+            },
+            "Q": {
+                "name": "Fastball",
+                "Detail": "Fastball can only be used when No Hitter is fully stacked.\nWilliam’s attack speed is increased by 20/25/30/35/40% and he throws an additional baseball, dealing 15/20/25/30/35% damage for 5 seconds.\nExtra damage from No Hitter only applies to the first ball."
+            },
+            "W": {
+                "name": "Windup",
+                "Detail": "William pitches in the targeted direction, dealing 50/75/100/125/150(+Attack Power 50%) damage and slowing enemies by 22/24/26/28/30% for 1.5 seconds.\n The ball returns to William, dealing the same damage and slow effects on its way back and grants him a No Hitter stack. Targets hit by the ball both on the way out and on the way back are stunned for 1 second.\nMound: William creates a mound for {2} seconds, knocking enemies back. \nWhile standing on the mound, No Hitter balls will return to William and his attack range is increased by 1m."
+            },
+            "E": {
+                "name": "Sliding Catch",
+                "Detail": "Passive: Retrieving a baseball increases William’s defense by 8/12/16/20/24 for 2.5 seconds. (Does not stack)\nWilliam slides to the targeted baseball."
+            },
+            "R": {
+                "name": "Signature Fireball",
+                "Detail": "William leaps into the air and throws his signature fireball to the targeted area, dealing 150/250/350(+Attack Power 45%) damage and slowing enemies by 50% for 2 seconds. Enemies in the center of the impact are slowed by 80% for 2 seconds.\nFour balls bounce out from the impact and remain on the ground for 3.5 seconds."
             }
         },
 

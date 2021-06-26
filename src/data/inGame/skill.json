@@ -1069,12 +1069,33 @@
     "type": "character",
     "button": "R"
   },
+  "1032100": {
+    "name": "캐치 볼",
+    "type": "character",
+    "button": "T"
+  },
+  "1032200": {
+    "name": "쉐도우 볼",
+    "type": "character",
+    "button": "Q"
+  },
+  "1032300": {
+    "name": "와인드 업",
+    "type": "character",
+    "button": "W"
+  },
+  "1032400": {
+    "name": "슬라이딩 캐치",
+    "type": "character",
+    "button": "E"
+  },
+  "1032500": {
+    "name": "위닝샷",
+    "type": "character",
+    "button": "R"
+  },
   "3001000": {
     "name": "글러브 - 어퍼컷",
-    "type": "weapon"
-  },
-  "3001100": {
-    "name": "글러브 - 어퍼컷 공격",
     "type": "weapon"
   },
   "3002000": {
