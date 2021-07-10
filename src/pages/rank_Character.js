@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { injectIntl  } from 'react-intl';
 import queryString from 'query-string';
 import { Header, MainBanner, Footer } from 'components/banner'
-import { getCharacter, getCharacterKeys } from 'lib/data'
+import { getCharacter, getCharacterKeys, getSeasonString } from 'lib/data'
 
 class Rank_Character extends Component {
     constructor(props) {
@@ -52,7 +52,8 @@ class Rank_Character extends Component {
     rankData = (rank) => {
         const { character, tierList } = this.state;
         const stat = rank['characterStats'][character];
-        const userStat = rank['seasonStats'][1];
+        const isRank = rank['seasonStats'][getSeasonString()] ? true : false;
+        const userStat = rank['seasonStats'][getSeasonString()] || rank['seasonStats'][0];
 
         if (!stat) return null;
 
@@ -69,9 +70,11 @@ class Rank_Character extends Component {
         const lossWidth = loss/total *100;
 
         let maxMmr = 0;
-        Object.keys(userStat).forEach(t => 
-            maxMmr = Math.max(maxMmr, userStat[t]['mmr'])
-        )
+        if (isRank) {
+            Object.keys(userStat).forEach(t => 
+                maxMmr = Math.max(maxMmr, userStat[t]['mmr'])
+            )
+        }
         let tier  = Math.floor(maxMmr/100) || 1;
         let lp    = maxMmr-tier*100 || 0;
 
@@ -107,19 +110,20 @@ class Rank_Character extends Component {
 
             if (!stat) return;
 
+            const isRank = stat['lp'] !== -100;
             const tier = tierList[stat['tier']].slice(0, -2);
             const tierSub = 4-stat['tier']%4;
 
             return (
                 <div className={"rank_top_"+number} key={"rank_top_"+idx}>
                     <img className="rank_top_iconimg" src={"img/Characters/"+getCharacter(character)['name']+".jpg"} />
-                    <img className="rank_top_iconborder" src={'img/border/'+tier+'.png'} />
-                    <span className="rank_top_lv">{stat['tier']%4+1}</span>
+                    <img className="rank_top_iconborder" src={isRank&&('img/border/'+tier+'.png')} />
+                    <span className="rank_top_lv">{isRank&&stat['tier']%4+1}</span>
                     <Link to={'/Match?userName=' + rank[number]['nickname']}>
                         <div className="rank_top_span_box">
                             <div className="rank_top2_span1">{number+1}</div>
                             <div className="rank_top_span2">{rank[number]['nickname']}</div>
-                            <div className="rank_top_span3">{intl.formatMessage({id: 'ranks.'+tier})} {tierSub} {stat['lp']} LP</div>
+                            <div className="rank_top_span3">{isRank&&intl.formatMessage({id: 'ranks.'+tier})} {isRank&&tierSub} {isRank&&stat['lp']} {isRank&&'LP'}</div>
                             <div className="rank_top_graph" style={{background: 'linear-gradient(to right, rgb(244,216,35) 0% '+stat['top1Width']+'%, rgb(49, 106, 190) '+stat['top1Width']+'% '+stat['top3Width']+'%, gray '+stat['top3Width']+'% 100%)'}}>
                                 <div className="rank_top_span4" >{stat['top1']}</div>
                                 <div className="rank_top_span5" >{stat['top3']}</div>
@@ -143,6 +147,7 @@ class Rank_Character extends Component {
 
             if (!stat) return;
             
+            const isRank = stat['lp'] !== -100;
             const tier = tierList[stat['tier']].slice(0, -2);
             const tierSub = 4-stat['tier']%4;
 
@@ -153,8 +158,8 @@ class Rank_Character extends Component {
                     <Link to={'/Match?userName=' + user['nickname']}>
                         <div className="record_cha_span2">{user['nickname']}</div>
                     </Link>
-                    <img className="record_cha_rankimg" src={'img/Rankicon/'+tier+'.png'} />
-                    <div className="record_rank_span11">{intl.formatMessage({id: 'ranks.'+tier})} {tierSub}</div>
+                    <img className="record_cha_rankimg" src={isRank&&('img/Rankicon/'+tier+'.png')} />
+                    <div className="record_rank_span11">{isRank&&intl.formatMessage({id: 'ranks.'+tier})} {isRank&&tierSub}</div>
                     <div className="record_rank_span22">{stat['total']}</div>
                     <div className="record_rank_span33">{stat['rate']}%</div>
                 </div>
