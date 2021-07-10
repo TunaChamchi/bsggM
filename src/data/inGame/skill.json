@@ -469,6 +469,21 @@
     "type": "character",
     "button": "R"
   },
+  "1015600": {
+    "name": "윌슨 패시브",
+    "type": "character",
+    "button": "Q"
+  },
+  "1015700": {
+    "name": "윌슨 Q",
+    "type": "character",
+    "button": "W"
+  },
+  "1015900": {
+    "name": "윌슨 E",
+    "type": "character",
+    "button": "R"
+  },
   "1016100": {
     "name": "그란투리스모",
     "type": "character",
@@ -1094,6 +1109,41 @@
     "type": "character",
     "button": "R"
   },
+  "1033100": {
+    "name": "다혈질",
+    "type": "character",
+    "button": "T"
+  },
+  "1033200": {
+    "name": "격투 액션",
+    "type": "character",
+    "button": "Q"
+  },
+  "1033210": {
+    "name": "리버블로우",
+    "type": "character",
+    "button": "Q"
+  },
+  "1033300": {
+    "name": "가드",
+    "type": "character",
+    "button": "W"
+  },
+  "1033400": {
+    "name": "강력한 펀치",
+    "type": "character",
+    "button": "E"
+  },
+  "1033410": {
+    "name": "강력한 펀치(강화)",
+    "type": "character",
+    "button": "E"
+  },
+  "1033500": {
+    "name": "분노의 어퍼컷",
+    "type": "character",
+    "button": "R"
+  },
   "3001000": {
     "name": "글러브 - 어퍼컷",
     "type": "weapon"
@@ -1192,6 +1242,10 @@
   },
   "3022000": {
     "name": "기타 - Love&...",
+    "type": "weapon"
+  },
+  "3023000": {
+    "name": "카메라 - 플래시",
     "type": "weapon"
   }
 }

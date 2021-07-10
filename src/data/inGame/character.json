@@ -17,7 +17,7 @@
       "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.3,
+      "uiHeight": 2.6,
       "resource": "Jackie"
     },
     "levelUp": {
@@ -41,7 +41,7 @@
   "2": {
     "name": "아야",
     "stat": {
-      "maxHp": 640,
+      "maxHp": 665,
       "maxSp": 440,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -50,13 +50,13 @@
       "criticalStrikeChance": 0,
       "hpRegen": 0.5,
       "spRegen": 2.3,
-      "attackSpeed": 0.14,
+      "attackSpeed": 0.16,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
       "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.3,
+      "uiHeight": 2.6,
       "resource": "Aya"
     },
     "levelUp": {
@@ -94,7 +94,7 @@
       "moveSpeed": 3.2,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.5,
+      "uiHeight": 2.75,
       "resource": "Fiora"
     },
     "levelUp": {
@@ -126,13 +126,13 @@
       "criticalStrikeChance": 0,
       "hpRegen": 1,
       "spRegen": 1.9,
-      "attackSpeed": 0.14,
+      "attackSpeed": 0.16,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
       "moveSpeed": 3.25,
       "sightRange": 8,
       "radius": 0.5,
-      "uiHeight": 2.7,
+      "uiHeight": 2.95,
       "resource": "Magnus"
     },
     "levelUp": {
@@ -159,7 +159,7 @@
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
       "attackPower": 25,
-      "defense": 20,
+      "defense": 23,
       "criticalStrikeChance": 0,
       "hpRegen": 0.6,
       "spRegen": 2.4,
@@ -206,7 +206,7 @@
       "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.5,
+      "uiHeight": 2.7,
       "resource": "Nadine"
     },
     "levelUp": {
@@ -243,11 +243,11 @@
       "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.45,
-      "uiHeight": 2.4,
+      "uiHeight": 2.7,
       "resource": "Hyunwoo"
     },
     "levelUp": {
-      "maxHp": 74,
+      "maxHp": 71,
       "maxSp": 16,
       "attackPower": 3.4,
       "defense": 2.2,
@@ -269,7 +269,7 @@
       "maxSp": 420,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
-      "attackPower": 22,
+      "attackPower": 24,
       "defense": 25,
       "criticalStrikeChance": 0,
       "hpRegen": 0.8,
@@ -280,7 +280,7 @@
       "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.4,
+      "uiHeight": 2.65,
       "resource": "Hart"
     },
     "levelUp": {
@@ -313,10 +313,10 @@
       "attackSpeed": 0.14,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.1,
+      "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.4,
+      "uiHeight": 2.7,
       "resource": "Isol"
     },
     "levelUp": {
@@ -353,7 +353,7 @@
       "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.3,
+      "uiHeight": 2.7,
       "resource": "LiDailin"
     },
     "levelUp": {
@@ -390,7 +390,7 @@
       "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.45,
-      "uiHeight": 2.6,
+      "uiHeight": 2.9,
       "resource": "Yuki"
     },
     "levelUp": {
@@ -427,7 +427,7 @@
       "moveSpeed": 3.1,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.3,
+      "uiHeight": 2.55,
       "resource": "Hyejin"
     },
     "levelUp": {
@@ -464,7 +464,7 @@
       "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.48,
-      "uiHeight": 2.9,
+      "uiHeight": 3,
       "resource": "Xiukai"
     },
     "levelUp": {
@@ -501,7 +501,7 @@
       "moveSpeed": 3.2,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.5,
+      "uiHeight": 2.75,
       "resource": "Chiara"
     },
     "levelUp": {
@@ -537,7 +537,7 @@
       "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.3,
+      "uiHeight": 2.6,
       "resource": "Sissela"
     },
     "levelUp": {
@@ -574,7 +574,7 @@
       "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.5,
+      "uiHeight": 2.75,
       "resource": "Silvia"
     },
     "levelUp": {
@@ -610,7 +610,7 @@
       "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.4,
+      "uiHeight": 2.75,
       "resource": "Adriana"
     },
     "levelUp": {
@@ -646,7 +646,7 @@
       "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.43,
-      "uiHeight": 2.5,
+      "uiHeight": 2.8,
       "resource": "Shoichi"
     },
     "levelUp": {
@@ -682,7 +682,7 @@
       "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.7,
+      "uiHeight": 2.85,
       "resource": "Emma"
     },
     "levelUp": {
@@ -715,16 +715,16 @@
       "attackSpeed": 0.12,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.25,
+      "moveSpeed": 3.2,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.5,
+      "uiHeight": 2.75,
       "resource": "Lenox"
     },
     "levelUp": {
-      "maxHp": 78,
+      "maxHp": 74,
       "maxSp": 16,
-      "attackPower": 2.7,
+      "attackPower": 2.9,
       "defense": 2,
       "criticalChance": 0,
       "hpRegen": 0.05,
@@ -754,7 +754,7 @@
       "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.7,
+      "uiHeight": 2.9,
       "resource": "Rozzi"
     },
     "levelUp": {
@@ -779,7 +779,7 @@
       "maxSp": 420,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
-      "attackPower": 28,
+      "attackPower": 25,
       "defense": 30,
       "criticalStrikeChance": 0,
       "hpRegen": 1,
@@ -790,7 +790,7 @@
       "moveSpeed": 3.2,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.5,
+      "uiHeight": 2.75,
       "resource": "Luke"
     },
     "levelUp": {
@@ -826,7 +826,7 @@
       "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.5,
+      "uiHeight": 2.7,
       "resource": "Cathy"
     },
     "levelUp": {
@@ -862,7 +862,7 @@
       "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.7,
+      "uiHeight": 2.9,
       "resource": "Adela"
     },
     "levelUp": {
@@ -892,13 +892,13 @@
       "criticalStrikeChance": 0,
       "hpRegen": 0.5,
       "spRegen": 1.8,
-      "attackSpeed": 0.24,
+      "attackSpeed": 0.16,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
       "moveSpeed": 3.2,
       "sightRange": 9,
       "radius": 0.45,
-      "uiHeight": 2.5,
+      "uiHeight": 2.75,
       "resource": "Bernice"
     },
     "levelUp": {
@@ -934,7 +934,7 @@
       "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.2,
+      "uiHeight": 2.55,
       "resource": "Barbara"
     },
     "levelUp": {
@@ -970,7 +970,7 @@
       "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.45,
-      "uiHeight": 2.7,
+      "uiHeight": 2.9,
       "resource": "Alex"
     },
     "levelUp": {
@@ -1009,7 +1009,7 @@
       "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.4,
+      "uiHeight": 2.7,
       "resource": "Sua"
     },
     "levelUp": {
@@ -1034,7 +1034,7 @@
       "maxSp": 420,
       "initExtraPoint": 0,
       "maxExtraPoint": 100,
-      "attackPower": 33,
+      "attackPower": 29,
       "defense": 22,
       "criticalStrikeChance": 0,
       "hpRegen": 1.1,
@@ -1045,7 +1045,7 @@
       "moveSpeed": 3.1,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.3,
+      "uiHeight": 2.7,
       "resource": "Leon"
     },
     "levelUp": {
@@ -1071,7 +1071,7 @@
       "initExtraPoint": 0,
       "maxExtraPoint": 100,
       "attackPower": 33,
-      "defense": 22,
+      "defense": 29,
       "criticalStrikeChance": 0,
       "hpRegen": 1.3,
       "spRegen": 2,
@@ -1081,7 +1081,7 @@
       "moveSpeed": 3.2,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.6,
+      "uiHeight": 2.8,
       "resource": "Eleven"
     },
     "levelUp": {
@@ -1091,7 +1091,7 @@
       "defense": 3,
       "criticalChance": 0,
       "hpRegen": 0.07,
-      "spRegen": 0.04,
+      "spRegen": 0.07,
       "attackSpeed": 0,
       "moveSpeed": 0
     },
@@ -1117,7 +1117,7 @@
       "moveSpeed": 3.05,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.4,
+      "uiHeight": 2.7,
       "resource": "Rio"
     },
     "levelUp": {
@@ -1142,22 +1142,22 @@
       "maxSp": 400,
       "initExtraPoint": 0,
       "maxExtraPoint": 3,
-      "attackPower": 20,
-      "defense": 20,
+      "attackPower": 24,
+      "defense": 24,
       "criticalStrikeChance": 0,
       "hpRegen": 0.6,
       "spRegen": 1.1,
       "attackSpeed": 0.12,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.05,
+      "moveSpeed": 3.1,
       "sightRange": 8,
       "radius": 0.4,
-      "uiHeight": 2.7,
+      "uiHeight": 3,
       "resource": "William"
     },
     "levelUp": {
-      "maxHp": 61,
+      "maxHp": 65,
       "maxSp": 26,
       "attackPower": 3,
       "defense": 2,
@@ -1169,6 +1169,42 @@
     },
     "weapons": [
       "투척"
+    ]
+  },
+  "33": {
+    "name": "니키",
+    "stat": {
+      "maxHp": 620,
+      "maxSp": 400,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 500,
+      "attackPower": 25,
+      "defense": 20,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.6,
+      "spRegen": 2.4,
+      "attackSpeed": 0.11,
+      "attackSpeedLimit": 2.5,
+      "attackSpeedMin": 0,
+      "moveSpeed": 3.1,
+      "sightRange": 8,
+      "radius": 0.38,
+      "uiHeight": 2.8,
+      "resource": "Nicky"
+    },
+    "levelUp": {
+      "maxHp": 64,
+      "maxSp": 26,
+      "attackPower": 2.4,
+      "defense": 1.8,
+      "criticalChance": 0,
+      "hpRegen": 0.06,
+      "spRegen": 0.1,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "글러브"
     ]
   }
 }

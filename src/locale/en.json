@@ -221,7 +221,8 @@
         "레온": "Leon",
         "일레븐": "Eleven",
         "리오": "Rio",
-        "윌리엄": "William"
+        "윌리엄": "William",
+        "니키": "Nicky"
     },
     "weapons": {
         "투척": "Throw", 
@@ -673,7 +674,11 @@
         "금강저": "Vajra",
         "파이어볼": "Fireball",
         "프리즘볼": "Dyadic Prism",
-        "모호크헬멧": "Mohawk Headgear"
+        "모호크헬멧": "Mohawk Headgear",
+        "파초선": "Sanguine Gunbai",
+        "해적깃발": "Jolly Roger",
+        "나이팅게일": "Nightingale",
+        "글록48": "Glock 48"
     },
     "skill": {
         "아야": {
@@ -1379,6 +1384,28 @@
             "R": {
                 "name": "Signature Fireball",
                 "Detail": "William leaps into the air and throws his signature fireball to the targeted area, dealing 150/250/350(+Attack Power 45%) damage and slowing enemies by 50% for 2 seconds. Enemies in the center of the impact are slowed by 80% for 2 seconds.\nFour balls bounce out from the impact and remain on the ground for 3.5 seconds."
+            }
+        },
+        "니키": {
+            "T": {
+                "name": "Short Tempered",
+                "Detail": "Nicky converts damage taken by other characters into Rage, up to 100. Rage can be stacked up to Max 500.\nWhen her rage meter is full, she becomes Enraged. When Enraged, her normal attacks deal 10 / 30 / 50 extra normal attack damage and 10 / 30 / 50(+Attack Power 40%) skill damage in an area around her target.\nFury Jab!!(E) and Pure Rage Uppercut!!(R) can be used while Enraged.\n When her rage meter is depleted, Nicky becomes Calm for 3 seconds, and will not convert damage taken into Rage.\nRage Depletion Amount: Out of Combat 4 5 per second / Enraged 5 per second"
+            },
+            "Q": {
+                "name": "Slugfest / Body Blow",
+                "Detail": "Nicky puts her full strength into a punch, slowing her by 20%.\n Reactivate the skill to let loose, knocking back the first enemy hit and dealing 30/55/80/105/130(+Attack Power 40%) ~60/110/160/210/260(+Attack Power 80%) damage. Hitting an enemy decreases the cooldown of Slugfest(Q) by 50%.\nDistance and damage dealt increase based on how long she charges.\nAfter the punch, Nicky can land a Body Blow within 3 seconds.Deals 25/50/75/100/125(+Attack Power 100%) skill damage, and gains 100 Rage for each enemy hit."
+            },
+            "W": {
+                "name": "Guard & Reverse",
+                "Detail": "Nicky guards in the direction of the mouse cursor, reducing damage taken by 60/65/70/75/80% for 0.75 seconds, and becomes immune to debuffs and crowd control.\nSuccessful Guards reduce the cooldown of Guard & Reverse by 50%, Enrages Nicky, and allows her to Reverse.\nReverse : Nicky rushes forward, dealing 20/40/60/80/100(+Attack Power 20%) damage to enemies and roots them for 1 second. Reverse will not activate if Nicky is in an immovable state."
+            },
+            "E": {
+                "name": "Knockout Punch",
+                "Detail": "Knockout Punch : Nicky throws a knockout punch in front of her, dealing 60/110/160/210/260(+Attack Power 40%) damage and slowing enemies by 30% for 2 seconds.\nFury Jab!!(Enhanced): While Enraged, Nicky can use Fury Jab!!, dealing 90/165/240/315/390 (+Attack Power 40%) damage, slowing enemies by 30% for 2 seconds and stunning them for 1 second. Fury Jab!! does not have a cooldown and does not share a cooldown with Knockout Punch. Using Fury Jab!! will Calm Nicky.\nKnockout Punch(E) and Fury Jab!!(Enhanced) can be used consecutively."
+            },
+            "R": {
+                "name": "Pure Rage Uppercut!!",
+                "Detail": "Nicky can only use Pure Rage Uppercut!! when Enraged. Using Pure Rage Uppercut!! will Calm Nicky.\n Nicky dashes to the targeted enemy player, becoming unstoppable, and uppercuts them, dealing 150/250/350(+Attack Power 70%) damage and knocking them airborne for 1.1 seconds. Nicky knocks back other enemies in the way, dealing 75/125/175(+Attack Power 35%) damage."
             }
         },
 
