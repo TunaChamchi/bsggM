@@ -1120,12 +1120,12 @@
     "button": "Q"
   },
   "1033210": {
-    "name": "리버블로우",
+    "name": "리버 블로우",
     "type": "character",
     "button": "Q"
   },
   "1033300": {
-    "name": "가드",
+    "name": "가드 & 카운터",
     "type": "character",
     "button": "W"
   },
@@ -1141,6 +1141,36 @@
   },
   "1033500": {
     "name": "분노의 어퍼컷",
+    "type": "character",
+    "button": "R"
+  },
+  "1034100": {
+    "name": "관찰기록",
+    "type": "character",
+    "button": "T"
+  },
+  "1034200": {
+    "name": "포트레이트",
+    "type": "character",
+    "button": "Q"
+  },
+  "1034300": {
+    "name": "타임 랩스",
+    "type": "character",
+    "button": "W"
+  },
+  "1034400": {
+    "name": "오토포커스",
+    "type": "character",
+    "button": "E"
+  },
+  "1034410": {
+    "name": "오토포커스 포인트로 당기기",
+    "type": "character",
+    "button": "E"
+  },
+  "1034500": {
+    "name": "패닝 샷",
     "type": "character",
     "button": "R"
   },
@@ -1201,7 +1231,7 @@
     "type": "weapon"
   },
   "3014000": {
-    "name": "도끼 - 버서크",
+    "name": "도끼 - 피의나선",
     "type": "weapon"
   },
   "3015000": {

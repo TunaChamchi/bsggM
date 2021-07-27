@@ -222,7 +222,8 @@
         "일레븐": "Eleven",
         "리오": "莉央",
         "윌리엄": "威廉",
-        "니키": "妮琪"
+        "니키": "妮琪",
+        "나타폰": "纳塔朋"
     },
     "weapons": {
         "투척": "投掷", 
@@ -676,7 +677,30 @@
         "파초선": "芭蕉扇",
         "해적깃발": "海盗旗",
         "나이팅게일": "南丁格尔",
-        "글록48": "格洛克 48"
+        "글록48": "格洛克 48",
+        "저지먼트": "极地加农炮",
+        "현자총통": "霹雳火炮",
+        "렌즈": "镜头",
+        "컴팩트카메라": "袖珍相机",
+        "미러러스": "复古相机",
+        "레인지파인더": "测距仪",
+        "컴파운드사이트": "全息瞄准镜",
+        "카메라건": "摄影枪",
+        "카메라라이플": "步枪式相机",
+        "카메라캐논": "高倍望远大炮",
+        "V.I.C.G": "V.I.C.G",
+        "아르테미스": "阿提米丝",
+        "플라즈마아크": "等离子电盾",
+        "텔루리안타임피스": "银河腕表",
+        "프로미넌스": "日珥",
+        "나막신": "木鞋",
+        "등산화": "登山鞋",
+        "탭루트": "生化推进器",
+        "비질란테": "战队头盔",
+        "능동위장": "光学迷彩包",
+        "미스릴퀴버": "秘银箭筒",
+        "오르골": "音乐盒",
+        "쿤달라": "昆德拉"
 
     },
     "skill": {
@@ -1407,6 +1431,28 @@
                 "Detail": "Nicky can only use Pure Rage Uppercut!! when Enraged. Using Pure Rage Uppercut!! will Calm Nicky.\n Nicky dashes to the targeted enemy player, becoming unstoppable, and uppercuts them, dealing 150/250/350(+Attack Power 70%) damage and knocking them airborne for 1.1 seconds. Nicky knocks back other enemies in the way, dealing 75/125/175(+Attack Power 35%) damage."
             }
         },
+        "나타폰": {
+            "T": {
+                "name": "Slow Shutter",
+                "Detail": "Nathapon’s attack speed is fixed but his Normal Attacks deal 40/80/120(+0.2 per 1% Extra Attack Speed) Extra Skill Damage."
+            },
+            "Q": {
+                "name": "Snapshot",
+                "Detail": "Passive: Dealing damage to an enemy applies Picturesque.Nathapon snaps a photograph at the targeted area, dealing 70/90/110/130/150(+Attack Power 40%) damage.\nEnemies with 3 stacks of Picturesque are slowed by 99%, decaying over 0.3 seconds."
+            },
+            "W": {
+                "name": "Time-Lapse",
+                "Detail": "Nathapon takes a Timelapse in the targeted area, dealing 70/90/110/130/150(+Attack Power 40%) damage per second to enemies and slowing them by 30%.\nThe final photograph deals 60/80/100/120/140(+Attack Power 80%)extra damage and roots subjects in frame for 2 seconds.\nRange: 6m"
+            },
+            "E": {
+                "name": "Panorama",
+                "Detail": "Nathapon takes a photo with his telephoto lens in the targeted direction. Photographed enemies take 10/30/50/70/90(+Attack Power 30%) damage and are slowed by 50% for 1 second.\nIf the photo captures an enemy, it will leave a mark. After 1.5 seconds, Nathapon’s next normal attack within 3.5 seconds deals 10/30/50/70/90(+Attack Power 30%) additional skill damage to the enemy and knocks them back to the mark.\nNathapon’s Attack Range is increased up to 10m and extra damage from Slow Shutter is applied to the enemy marked by Panorama.\nThe mark disappears when the enemy is knocked back or moves more than 8m away from the mark."
+            },
+            "R": {
+                "name": "F-Stop",
+                "Detail": "Nathapon snaps a photo of everything in the targeted area after 1 second.\nAll photographed units are put into stasis for 2.5 seconds and are unable to perform any action.\nPhotographed enemies gain 3 stacks of Picturesque."
+            }
+        },
 
 
         
@@ -1489,6 +1535,10 @@
         "채찍": {
             "name": "Grappling Whip",
             "Detail": "Snap your whip in front of you, dealing damage to enemies hit and pulling them towards you."
+        },
+        "카메라": {
+            "name": "Flash",
+            "Detail": "Turn your flash on in the targeted direction, dealing 80/160(+Attack Power 50%/100%) damage.\n Enemies facing you take 100/200 additional damage and are blinded for 1.5 seconds."
         }
     }
 
