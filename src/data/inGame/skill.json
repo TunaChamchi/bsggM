@@ -1174,6 +1174,36 @@
     "type": "character",
     "button": "R"
   },
+  "1035100": {
+    "name": "열혈의 의지",
+    "type": "character",
+    "button": "T"
+  },
+  "1035200": {
+    "name": "니킥",
+    "type": "character",
+    "button": "Q"
+  },
+  "1035210": {
+    "name": "공중 니킥",
+    "type": "character",
+    "button": "Q"
+  },
+  "1035300": {
+    "name": "하이킥",
+    "type": "character",
+    "button": "W"
+  },
+  "1035400": {
+    "name": "위빙",
+    "type": "character",
+    "button": "E"
+  },
+  "1035500": {
+    "name": "사각 링의 열정",
+    "type": "character",
+    "button": "R"
+  },
   "3001000": {
     "name": "글러브 - 어퍼컷",
     "type": "weapon"

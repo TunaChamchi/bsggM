@@ -801,14 +801,14 @@
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
       "attackPower": 25,
-      "defense": 30,
+      "defense": 27,
       "criticalStrikeChance": 0,
       "hpRegen": 1,
       "spRegen": 1.9,
-      "attackSpeed": 0.12,
+      "attackSpeed": 0.09,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.2,
+      "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.4,
       "pathingRadius": 0.4,
@@ -990,7 +990,7 @@
       "criticalStrikeChance": 0,
       "hpRegen": 0.5,
       "spRegen": 1.8,
-      "attackSpeed": 0.11,
+      "attackSpeed": 0.14,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
       "moveSpeed": 3.1,
@@ -1265,8 +1265,8 @@
     "levelUp": {
       "maxHp": 61,
       "maxSp": 26,
-      "attackPower": 2.4,
-      "defense": 1.8,
+      "attackPower": 2.6,
+      "defense": 2.1,
       "criticalChance": 0,
       "hpRegen": 0.03,
       "spRegen": 0.1,
@@ -1275,6 +1275,43 @@
     },
     "weapons": [
       "카메라"
+    ]
+  },
+  "35": {
+    "name": "얀",
+    "stat": {
+      "maxHp": 690,
+      "maxSp": 350,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 10,
+      "attackPower": 34,
+      "defense": 23,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.8,
+      "spRegen": 1.8,
+      "attackSpeed": 0.12,
+      "attackSpeedLimit": 2.5,
+      "attackSpeedMin": 0,
+      "moveSpeed": 3.2,
+      "sightRange": 8,
+      "radius": 0.45,
+      "pathingRadius": 0.45,
+      "uiHeight": 3.2,
+      "resource": "Jan"
+    },
+    "levelUp": {
+      "maxHp": 80,
+      "maxSp": 16,
+      "attackPower": 3.1,
+      "defense": 2.2,
+      "criticalChance": 0,
+      "hpRegen": 0.04,
+      "spRegen": 0.04,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "글러브"
     ]
   }
 }

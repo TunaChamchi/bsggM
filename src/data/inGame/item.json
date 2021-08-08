@@ -327,8 +327,7 @@
     "itemGrade": "전설",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 68,
-    "attackSpeedRatio": 0.1,
+    "attackPower": 60,
     "src": [
       205403,
       102201
@@ -343,7 +342,7 @@
     "initialCount": 1,
     "attackPower": 54,
     "attackPowerByLv": 2,
-    "lifeSteal": 0.22,
+    "normalLifeSteal": 0.22,
     "src": [
       102402,
       401212
@@ -387,7 +386,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 83,
-    "lifeSteal": 0.25,
+    "normalLifeSteal": 0.25,
     "src": [
       401401,
       102301
@@ -416,7 +415,7 @@
     "initialCount": 1,
     "attackPower": 28,
     "attackSpeedRatio": 0.1,
-    "lifeSteal": 0.1,
+    "normalLifeSteal": 0.1,
     "src": [
       103201,
       401212
@@ -431,7 +430,7 @@
     "initialCount": 1,
     "attackPower": 49,
     "attackSpeedRatio": 0.12,
-    "lifeSteal": 0.2,
+    "normalLifeSteal": 0.2,
     "src": [
       103301,
       401101
@@ -568,8 +567,8 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 98,
-    "hpRegenRatio": 1.5,
-    "increaseBasicAttackDamage": 25,
+    "hpRegenRatio": 1.25,
+    "increaseBasicAttackDamage": 28,
     "src": [
       104302,
       205202
@@ -627,7 +626,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 140,
-    "lifeSteal": 0.2,
+    "lifeSteal": 0.1,
     "penetrationDefenseRatio": 0.12,
     "src": [
       104302,
@@ -743,9 +742,8 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 100,
-    "maxHp": 305,
-    "lifeSteal": 0.15,
+    "attackPower": 105,
+    "maxHp": 320,
     "src": [
       105302,
       401204
@@ -759,8 +757,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 112,
-    "increaseSkillDamageRatio": 0.1,
-    "increaseSkillDamageRatioByLv": 0.01,
+    "increaseSkillDamageRatioByLv": 0.02,
     "src": [
       105302,
       401214
@@ -789,7 +786,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 111,
-    "lifeSteal": 0.15,
+    "normalLifeSteal": 0.2,
     "src": [
       105401,
       205308
@@ -999,7 +996,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 130,
-    "lifeSteal": 0.23,
+    "normalLifeSteal": 0.23,
     "src": [
       401401,
       107302
@@ -1106,7 +1103,7 @@
     "hpRegen": 0.6,
     "spRegenRatio": 0.8,
     "attackSpeedRatio": 0.15,
-    "lifeSteal": 0.12,
+    "normalLifeSteal": 0.12,
     "src": [
       108402,
       205205
@@ -1149,7 +1146,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 59,
-    "lifeSteal": 0.3,
+    "normalLifeSteal": 0.3,
     "sightRange": 1,
     "increaseSkillDamageRatio": 0.3,
     "src": [
@@ -1302,7 +1299,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 70,
-    "lifeSteal": 0.25,
+    "lifeSteal": 0.15,
     "increaseSkillDamageByLv": 3,
     "src": [
       401401,
@@ -1406,7 +1403,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 32,
-    "moveSpeed": -0.1,
+    "moveSpeed": -0.07,
     "increaseBasicAttackDamage": 15,
     "src": [
       110301,
@@ -1451,7 +1448,7 @@
     "attackPower": 50,
     "defense": 18,
     "spRegenRatio": 0.5,
-    "lifeSteal": 0.15,
+    "normalLifeSteal": 0.15,
     "src": [
       110401,
       205205
@@ -1480,7 +1477,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 53,
-    "maxHp": 240,
+    "maxHp": 260,
     "moveSpeed": 0.1,
     "src": [
       110302,
@@ -1637,7 +1634,7 @@
     "initialCount": 1,
     "attackPower": 74,
     "defense": 16,
-    "lifeSteal": 0.2,
+    "normalLifeSteal": 0.2,
     "src": [
       111301,
       401212
@@ -1668,7 +1665,7 @@
     "initialCount": 1,
     "attackPower": 60,
     "defense": 21,
-    "sightRange": 5,
+    "sightRange": 4,
     "src": [
       111401,
       401108
@@ -1687,6 +1684,20 @@
     "src": [
       111201,
       502401
+    ]
+  },
+  "111501": {
+    "name": "흑요석짓테",
+    "itemType": "Weapon",
+    "weaponType": "톤파",
+    "itemGrade": "전설",
+    "stackable": 1,
+    "initialCount": 1,
+    "attackPower": 75,
+    "defense": 50,
+    "src": [
+      111301,
+      401403
     ]
   },
   "112103": {
@@ -1819,6 +1830,19 @@
       301201
     ]
   },
+  "112306": {
+    "name": "필럼",
+    "itemType": "Weapon",
+    "weaponType": "투척",
+    "itemGrade": "희귀",
+    "stackable": 1,
+    "initialCount": 1,
+    "attackPower": 28,
+    "src": [
+      107101,
+      205213
+    ]
+  },
   "112305": {
     "name": "안티오크의수류탄",
     "itemType": "Weapon",
@@ -1929,6 +1953,21 @@
     "src": [
       112303,
       401403
+    ]
+  },
+  "112407": {
+    "name": "아스트라페",
+    "itemType": "Weapon",
+    "weaponType": "투척",
+    "itemGrade": "영웅",
+    "stackable": 1,
+    "initialCount": 1,
+    "attackPower": 64,
+    "criticalStrikeChance": 0.24,
+    "criticalStrikeDamage": 0.11,
+    "src": [
+      112306,
+      205204
     ]
   },
   "113101": {
@@ -2462,23 +2501,6 @@
       205304
     ]
   },
-  "114407": {
-    "name": "아르테미스",
-    "itemType": "Weapon",
-    "weaponType": "활",
-    "itemGrade": "영웅",
-    "stackable": 1,
-    "initialCount": 1,
-    "attackPower": 80,
-    "maxHp": 250,
-    "maxSP": 200,
-    "sightRange": 1.5,
-    "increaseSkillDamageRatio": 0.15,
-    "src": [
-      114301,
-      401301
-    ]
-  },
   "114502": {
     "name": "페일노트",
     "itemType": "Weapon",
@@ -2487,9 +2509,8 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 110,
-    "attackSpeedRatio": 0.1,
-    "attackSpeedRatioByLv": 0.01,
-    "lifeSteal": 0.2,
+    "attackSpeedRatioByLv": 0.02,
+    "lifeSteal": 0.1,
     "src": [
       401401,
       114301
@@ -2507,6 +2528,23 @@
     "src": [
       401403,
       114202
+    ]
+  },
+  "114407": {
+    "name": "아르테미스",
+    "itemType": "Weapon",
+    "weaponType": "활",
+    "itemGrade": "영웅",
+    "stackable": 1,
+    "initialCount": 1,
+    "attackPower": 80,
+    "maxHp": 250,
+    "maxSP": 200,
+    "sightRange": 1.5,
+    "increaseSkillDamageRatio": 0.15,
+    "src": [
+      114301,
+      401301
     ]
   },
   "115101": {
@@ -2748,7 +2786,7 @@
     "initialCount": 1,
     "attackPower": 43,
     "attackSpeedRatio": 0.1,
-    "lifeSteal": 0.1,
+    "normalLifeSteal": 0.1,
     "moveSpeed": 0.1,
     "src": [
       116201,
@@ -2762,10 +2800,10 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 38,
+    "attackPower": 48,
     "attackSpeedRatio": 0.15,
     "moveSpeed": 0.1,
-    "increaseSkillDamage": 42,
+    "increaseSkillDamage": 32,
     "src": [
       116401,
       401210
@@ -2781,7 +2819,7 @@
     "attackPower": 60,
     "attackPowerByLv": 2,
     "moveSpeed": 0.2,
-    "sightRange": 5,
+    "sightRange": 4,
     "src": [
       116301,
       205209
@@ -2813,7 +2851,7 @@
     "initialCount": 1,
     "attackPower": 84,
     "attackSpeedRatio": 0.25,
-    "lifeSteal": 0.22,
+    "normalLifeSteal": 0.22,
     "moveSpeed": 0.1,
     "sightRange": 1.5,
     "src": [
@@ -2930,7 +2968,7 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 87,
+    "attackPower": 84,
     "sightRange": 2,
     "src": [
       117301,
@@ -3076,7 +3114,7 @@
     "initialCount": 1,
     "attackPower": 102,
     "attackPowerByLv": 2,
-    "lifeSteal": 0.18,
+    "normalLifeSteal": 0.18,
     "sightRange": 2.5,
     "src": [
       118301,
@@ -3241,12 +3279,26 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 48,
+    "attackPower": 45,
     "attackPowerByLv": 2,
     "moveSpeed": 0.1,
     "src": [
       119301,
       204202
+    ]
+  },
+  "119501": {
+    "name": "히드라",
+    "itemType": "Weapon",
+    "weaponType": "쌍절곤",
+    "itemGrade": "전설",
+    "stackable": 1,
+    "initialCount": 1,
+    "attackPower": 100,
+    "lifeSteal": 0.15,
+    "src": [
+      119302,
+      401401
     ]
   },
   "120101": {
@@ -3333,7 +3385,7 @@
     "criticalStrikeChance": 0.12,
     "criticalStrikeDamage": 0.25,
     "cooldownReduction": 0.06,
-    "lifeSteal": 0.08,
+    "normalLifeSteal": 0.08,
     "sightRange": 1.5,
     "src": [
       120301,
@@ -3519,7 +3571,7 @@
     "initialCount": 1,
     "attackPower": 15,
     "attackSpeedRatio": 0.2,
-    "lifeSteal": 0.1,
+    "normalLifeSteal": 0.1,
     "increaseBasicAttackDamage": 10,
     "src": [
       121202,
@@ -3598,7 +3650,8 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 85,
-    "increaseSkillDamageRatio": 0.21,
+    "spRegen": 1,
+    "increaseSkillDamageRatio": 0.23,
     "src": [
       121303,
       401210
@@ -3613,7 +3666,7 @@
     "initialCount": 1,
     "attackPower": 30,
     "attackSpeedRatio": 0.4,
-    "lifeSteal": 0.2,
+    "normalLifeSteal": 0.24,
     "increaseBasicAttackDamage": 15,
     "src": [
       121304,
@@ -3982,9 +4035,9 @@
     "stackable": 1,
     "initialCount": 1,
     "defense": 38,
-    "attackSpeedRatio": 0.17,
+    "attackSpeedRatio": 0.22,
     "cooldownReduction": 0.15,
-    "moveSpeed": 0.12,
+    "moveSpeed": 0.1,
     "src": [
       401304,
       201204
@@ -4043,10 +4096,10 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "defense": 24,
+    "defense": 27,
     "maxSp": 200,
     "cooldownReduction": 0.08,
-    "moveSpeed": 0.1,
+    "moveSpeed": 0.08,
     "preventSkillDamagedRatio": 0.11,
     "src": [
       201402,
@@ -4111,7 +4164,7 @@
     "initialCount": 1,
     "defense": 20,
     "maxSp": 200,
-    "lifeSteal": 0.2,
+    "normalLifeSteal": 0.2,
     "moveSpeed": 0.18,
     "src": [
       201201,
@@ -4320,6 +4373,20 @@
       401105
     ]
   },
+  "202211": {
+    "name": "사제복",
+    "itemType": "Armor",
+    "armorType": "옷",
+    "itemGrade": "고급",
+    "stackable": 1,
+    "initialCount": 1,
+    "maxHp": 95,
+    "increaseSkillDamage": 4,
+    "src": [
+      205109,
+      401113
+    ]
+  },
   "202301": {
     "name": "라이더자켓",
     "itemType": "Armor",
@@ -4327,7 +4394,7 @@
     "itemGrade": "희귀",
     "stackable": 1,
     "initialCount": 1,
-    "defense": 11,
+    "defense": 8,
     "maxHp": 70,
     "preventBasicAttackDamaged": 9,
     "src": [
@@ -4355,7 +4422,7 @@
     "itemGrade": "희귀",
     "stackable": 1,
     "initialCount": 1,
-    "lifeSteal": 0.15,
+    "normalLifeSteal": 0.15,
     "preventBasicAttackDamaged": 12,
     "src": [
       202202,
@@ -4405,6 +4472,21 @@
     "src": [
       202206,
       205102
+    ]
+  },
+  "202307": {
+    "name": "고위사제복",
+    "itemType": "Armor",
+    "armorType": "옷",
+    "itemGrade": "희귀",
+    "stackable": 1,
+    "initialCount": 1,
+    "maxHp": 280,
+    "hpRegen": 1.5,
+    "increaseSkillDamage": 8,
+    "src": [
+      202211,
+      401202
     ]
   },
   "202401": {
@@ -4476,8 +4558,8 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 25,
-    "defense": 18,
-    "outOfCombatMoveSpeed": 0.1,
+    "defense": 8,
+    "moveSpeed": 0.08,
     "preventBasicAttackDamaged": 13,
     "src": [
       202301,
@@ -4567,8 +4649,8 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 25,
-    "lifeSteal": 0.2,
-    "moveSpeed": 0.12,
+    "normalLifeSteal": 0.2,
+    "moveSpeed": 0.1,
     "preventBasicAttackDamaged": 13,
     "src": [
       202303,
@@ -4632,7 +4714,7 @@
     "initialCount": 1,
     "defense": 32,
     "preventCriticalStrikeDamaged": 0.08,
-    "lifeSteal": 0.08,
+    "normalLifeSteal": 0.08,
     "increaseBasicAttackDamageByLv": 1,
     "src": [
       202303,
@@ -4655,6 +4737,22 @@
       301308
     ]
   },
+  "202420": {
+    "name": "창파오",
+    "itemType": "Armor",
+    "armorType": "옷",
+    "itemGrade": "영웅",
+    "stackable": 1,
+    "initialCount": 1,
+    "attackPower": 20,
+    "defense": 10,
+    "spRegen": 2,
+    "attackSpeedRatio": 0.24,
+    "src": [
+      202304,
+      301303
+    ]
+  },
   "202501": {
     "name": "카바나",
     "itemType": "Armor",
@@ -4663,7 +4761,7 @@
     "stackable": 1,
     "initialCount": 1,
     "defense": 40,
-    "increaseSkillDamageRatio": 0.2,
+    "increaseSkillDamageRatio": 0.22,
     "src": [
       401209,
       202412
@@ -4682,6 +4780,21 @@
     "src": [
       401401,
       202306
+    ]
+  },
+  "202503": {
+    "name": "성법의",
+    "itemType": "Armor",
+    "armorType": "옷",
+    "itemGrade": "전설",
+    "stackable": 1,
+    "initialCount": 1,
+    "maxHp": 375,
+    "preventCriticalStrikeDamaged": 0.08,
+    "increaseSkillDamage": 16,
+    "src": [
+      202211,
+      401403
     ]
   },
   "203101": {
@@ -4861,7 +4974,7 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "defense": 15,
+    "defense": 20,
     "maxSp": 240,
     "hpRegen": 1,
     "increaseSkillDamageRatio": 0.19,
@@ -5392,9 +5505,9 @@
     "hpRegen": 1.2,
     "spRegenRatio": 0.6,
     "spRegen": 1.2,
-    "moveSpeed": 0.25,
-    "outOfCombatMoveSpeed": 0.3,
-    "increaseSkillDamage": 22,
+    "moveSpeed": 0.36,
+    "increaseSkillDamage": 14,
+    "increaseSkillDamageByLv": 0.5,
     "src": [
       204301,
       205402
@@ -5453,7 +5566,7 @@
     "initialCount": 1,
     "attackPower": 25,
     "spRegen": 1,
-    "lifeSteal": 0.15,
+    "normalLifeSteal": 0.15,
     "moveSpeed": 0.38,
     "src": [
       204203,
@@ -5467,7 +5580,7 @@
     "itemGrade": "일반",
     "stackable": 1,
     "initialCount": 1,
-    "moveSpeed": 0.06,
+    "moveSpeed": 0.04,
     "src": []
   },
   "205102": {
@@ -5487,7 +5600,7 @@
     "itemGrade": "일반",
     "stackable": 1,
     "initialCount": 1,
-    "lifeSteal": 0.05,
+    "normalLifeSteal": 0.05,
     "src": []
   },
   "205105": {
@@ -5600,7 +5713,7 @@
     "stackable": 1,
     "initialCount": 1,
     "spRegenRatio": 0.8,
-    "lifeSteal": 0.12,
+    "normalLifeSteal": 0.12,
     "src": [
       205103,
       401113
@@ -5655,7 +5768,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 9,
-    "moveSpeed": 0.1,
+    "moveSpeed": 0.08,
     "src": [
       108102,
       205101
@@ -5696,7 +5809,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 10,
-    "lifeSteal": 0.06,
+    "normalLifeSteal": 0.06,
     "src": [
       116101,
       205103
@@ -5737,7 +5850,7 @@
     "stackable": 1,
     "initialCount": 1,
     "spRegenRatio": 0.8,
-    "lifeSteal": 0.14,
+    "normalLifeSteal": 0.14,
     "increaseSkillDamage": 23,
     "src": [
       205205,
@@ -5780,7 +5893,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 24,
-    "lifeSteal": 0.2,
+    "normalLifeSteal": 0.2,
     "sightRange": 1,
     "src": [
       205103,
@@ -5796,7 +5909,7 @@
     "initialCount": 1,
     "attackPower": 13,
     "attackSpeedRatio": 0.3,
-    "moveSpeed": 0.1,
+    "moveSpeed": 0.08,
     "src": [
       205208,
       205209
@@ -5825,7 +5938,7 @@
     "initialCount": 1,
     "attackPower": 15,
     "criticalStrikeChance": 0.12,
-    "lifeSteal": 0.06,
+    "normalLifeSteal": 0.06,
     "src": [
       205212,
       101104
@@ -5838,7 +5951,7 @@
     "itemGrade": "희귀",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 13,
+    "attackPower": 16,
     "sightRange": 2.5,
     "src": [
       205213,
@@ -5883,7 +5996,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 12,
-    "lifeSteal": 0.12,
+    "normalLifeSteal": 0.12,
     "src": [
       205209,
       205212
@@ -7369,17 +7482,6 @@
     "hpRecover": 200,
     "src": []
   },
-  "302107": {
-    "name": "반창고",
-    "itemType": "Consume",
-    "consumableType": "음식",
-    "consumableTag": "None",
-    "itemGrade": "일반",
-    "stackable": 5,
-    "initialCount": 1,
-    "hpRecover": 325,
-    "src": []
-  },
   "302109": {
     "name": "붕어",
     "itemType": "Consume",
@@ -7475,8 +7577,8 @@
     "consumableTag": "None",
     "itemGrade": "고급",
     "stackable": 5,
-    "initialCount": 1,
-    "hpRecover": 700,
+    "initialCount": 2,
+    "hpRecover": 650,
     "src": [
       302104,
       301101
@@ -7546,7 +7648,7 @@
     "itemGrade": "고급",
     "stackable": 5,
     "initialCount": 2,
-    "hpRecover": 450,
+    "hpRecover": 550,
     "src": [
       302110,
       302109
@@ -7796,7 +7898,7 @@
     "itemGrade": "고급",
     "stackable": 5,
     "initialCount": 3,
-    "hpRecover": 400,
+    "hpRecover": 480,
     "src": [
       301104,
       302119
