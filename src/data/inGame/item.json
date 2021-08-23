@@ -257,7 +257,7 @@
     "maxHp": 200,
     "src": [
       102201,
-      401204
+      401217
     ]
   },
   "102405": {
@@ -340,7 +340,7 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 54,
+    "attackPower": 50,
     "attackPowerByLv": 2,
     "normalLifeSteal": 0.22,
     "src": [
@@ -371,11 +371,11 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 75,
-    "attackSpeedRatio": 0.3,
+    "attackSpeedRatio": 0.38,
     "sightRange": 2,
     "src": [
       102408,
-      401303
+      401209
     ]
   },
   "102501": {
@@ -385,7 +385,7 @@
     "itemGrade": "전설",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 83,
+    "attackPower": 94,
     "normalLifeSteal": 0.25,
     "src": [
       401401,
@@ -400,10 +400,22 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 12,
-    "attackSpeedRatio": 0.1,
     "src": [
       101104,
       102101
+    ]
+  },
+  "103302": {
+    "name": "쌍둥이검",
+    "itemType": "Weapon",
+    "weaponType": "쌍검",
+    "itemGrade": "희귀",
+    "stackable": 1,
+    "initialCount": 1,
+    "attackPower": 35,
+    "src": [
+      103201,
+      203301
     ]
   },
   "103301": {
@@ -414,7 +426,6 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 28,
-    "attackSpeedRatio": 0.1,
     "normalLifeSteal": 0.1,
     "src": [
       103201,
@@ -472,12 +483,25 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 36,
-    "increaseSkillDamage": 24,
-    "increaseSkillDamageByLv": 1,
+    "attackPower": 40,
+    "increaseSkillDamageByLv": 2.5,
+    "src": [
+      103302,
+      401210
+    ]
+  },
+  "103503": {
+    "name": "간장과막야",
+    "itemType": "Weapon",
+    "weaponType": "쌍검",
+    "itemGrade": "전설",
+    "stackable": 1,
+    "initialCount": 1,
+    "attackPower": 75,
+    "uniqueAttackRange": 1,
     "src": [
       103201,
-      401302
+      401403
     ]
   },
   "104101": {
@@ -552,7 +576,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 55,
-    "increaseSkillDamage": 25,
+    "increaseSkillDamage": 22,
     "increaseSkillDamageByLv": 1,
     "src": [
       104301,
@@ -610,7 +634,7 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 91,
+    "attackPower": 88,
     "cooldownReduction": 0.12,
     "increaseSkillDamageRatio": 0.08,
     "src": [
@@ -661,6 +685,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 50,
+    "uniqueAttackRange": 0.2,
     "src": [
       105102,
       119101
@@ -701,6 +726,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 80,
+    "uniqueAttackRange": 0.5,
     "src": [
       105201,
       108102
@@ -744,9 +770,10 @@
     "initialCount": 1,
     "attackPower": 105,
     "maxHp": 320,
+    "uniqueAttackRange": 0.5,
     "src": [
       105302,
-      401204
+      401217
     ]
   },
   "105404": {
@@ -758,6 +785,7 @@
     "initialCount": 1,
     "attackPower": 112,
     "increaseSkillDamageRatioByLv": 0.02,
+    "uniqueAttackRange": 1,
     "src": [
       105302,
       401214
@@ -908,7 +936,7 @@
     "initialCount": 1,
     "attackPower": 104,
     "attackSpeedRatio": 0.4,
-    "moveSpeed": 0.06,
+    "moveSpeed": 0.08,
     "src": [
       107401,
       401306
@@ -1175,6 +1203,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 135,
+    "uniqueAttackRange": 1,
     "src": [
       401403,
       108202
@@ -1240,7 +1269,8 @@
     "initialCount": 1,
     "attackPower": 60,
     "attackSpeedRatio": 0.1,
-    "increaseSkillDamageRatioByLv": 0.02,
+    "increaseSkillDamageRatio": 0.1,
+    "increaseSkillDamageRatioByLv": 0.01,
     "src": [
       109402,
       401214
@@ -1448,7 +1478,7 @@
     "attackPower": 50,
     "defense": 18,
     "spRegenRatio": 0.5,
-    "normalLifeSteal": 0.15,
+    "normalLifeSteal": 0.2,
     "src": [
       110401,
       205205
@@ -1476,12 +1506,12 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 53,
+    "attackPower": 56,
     "maxHp": 260,
     "moveSpeed": 0.1,
     "src": [
       110302,
-      401204
+      401217
     ]
   },
   "110408": {
@@ -1496,7 +1526,7 @@
     "increaseSkillDamage": 38,
     "src": [
       110404,
-      301103
+      302103
     ]
   },
   "110409": {
@@ -1509,6 +1539,7 @@
     "attackPower": 40,
     "cooldownReduction": 0.19,
     "increaseSkillDamageRatio": 0.15,
+    "uniqueCooldownLimit": 0.05,
     "src": [
       110404,
       205207
@@ -1522,7 +1553,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 50,
-    "defense": 10,
+    "defense": 15,
     "hpRegen": 1.2,
     "spRegen": 1.2,
     "attackSpeedRatio": 0.35,
@@ -1553,7 +1584,7 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 88,
+    "attackPower": 92,
     "moveSpeed": 0.15,
     "src": [
       502401,
@@ -1567,7 +1598,7 @@
     "itemGrade": "전설",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 48,
+    "attackPower": 44,
     "src": [
       205403,
       110201
@@ -1824,10 +1855,10 @@
     "itemGrade": "희귀",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 38,
+    "attackPower": 35,
     "src": [
       401105,
-      301201
+      302201
     ]
   },
   "112306": {
@@ -1838,6 +1869,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 28,
+    "uniqueAttackRange": 0.5,
     "src": [
       107101,
       205213
@@ -1883,7 +1915,7 @@
     "attackSpeedRatio": 0.4,
     "src": [
       112301,
-      301209
+      302209
     ]
   },
   "112403": {
@@ -1893,7 +1925,7 @@
     "itemGrade": "희귀",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 40,
+    "attackPower": 37,
     "src": [
       112304,
       401101
@@ -1962,9 +1994,10 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 64,
+    "attackPower": 70,
     "criticalStrikeChance": 0.24,
     "criticalStrikeDamage": 0.11,
+    "uniqueAttackRange": 0.75,
     "src": [
       112306,
       205204
@@ -2217,7 +2250,7 @@
     "increaseSkillDamage": 20,
     "src": [
       113402,
-      301103
+      302103
     ]
   },
   "113409": {
@@ -2245,6 +2278,7 @@
     "attackPower": 88,
     "criticalStrikeDamage": 0.15,
     "moveSpeed": 0.15,
+    "uniqueAttackRange": 0.5,
     "src": [
       113404,
       401206
@@ -2275,7 +2309,7 @@
     "increaseSkillDamageRatio": 0.25,
     "src": [
       113203,
-      205301
+      401208
     ]
   },
   "113501": {
@@ -2480,7 +2514,7 @@
     "initialCount": 1,
     "attackPower": 60,
     "moveSpeed": 0.1,
-    "increaseSkillDamage": 45,
+    "increaseSkillDamage": 35,
     "src": [
       114402,
       205201
@@ -2674,6 +2708,7 @@
     "initialCount": 1,
     "attackPower": 85,
     "sightRange": 3,
+    "uniqueAttackRange": 1.25,
     "src": [
       115302,
       205206
@@ -2769,12 +2804,12 @@
     "itemGrade": "희귀",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 40,
+    "attackPower": 30,
     "attackSpeedRatio": 0.1,
     "moveSpeed": 0.1,
     "src": [
       116201,
-      116202
+      116101
     ]
   },
   "116402": {
@@ -2801,12 +2836,12 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 48,
-    "attackSpeedRatio": 0.15,
+    "attackSpeedRatio": 0.2,
     "moveSpeed": 0.1,
-    "increaseSkillDamage": 32,
+    "increaseSkillDamageRatio": 0.2,
     "src": [
       116401,
-      401210
+      401209
     ]
   },
   "116404": {
@@ -2816,10 +2851,10 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 60,
+    "attackPower": 63,
     "attackPowerByLv": 2,
     "moveSpeed": 0.2,
-    "sightRange": 4,
+    "sightRange": 2.5,
     "src": [
       116301,
       205209
@@ -2832,10 +2867,9 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 55,
-    "attackSpeedRatio": 0.55,
+    "attackPower": 66,
+    "attackSpeedRatio": 0.35,
     "moveSpeed": 0.1,
-    "increaseBasicAttackDamage": 10,
     "increaseBasicAttackDamageByLv": 2,
     "src": [
       116202,
@@ -2869,6 +2903,8 @@
     "attackPower": 75,
     "attackSpeedRatio": 0.2,
     "moveSpeed": 0.1,
+    "sightRange": 3.5,
+    "uniqueAttackRange": 0.75,
     "src": [
       116301,
       502308
@@ -2881,10 +2917,11 @@
     "itemGrade": "전설",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 108,
+    "attackPower": 100,
+    "attackSpeedRatio": 0.25,
     "moveSpeed": 0.2,
     "sightRange": 2,
-    "penetrationDefenseRatio": 0.1,
+    "penetrationDefenseRatio": 0.16,
     "src": [
       401403,
       116202
@@ -2970,6 +3007,7 @@
     "initialCount": 1,
     "attackPower": 84,
     "sightRange": 2,
+    "uniqueAttackRange": 1,
     "src": [
       117301,
       401201
@@ -3083,7 +3121,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 50,
-    "sightRange": 2,
+    "sightRange": 1.5,
     "increaseSkillDamageRatio": 0.18,
     "src": [
       118201,
@@ -3112,10 +3150,10 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 102,
+    "attackPower": 98,
     "attackPowerByLv": 2,
     "normalLifeSteal": 0.18,
-    "sightRange": 2.5,
+    "sightRange": 2,
     "src": [
       118301,
       401212
@@ -3128,8 +3166,9 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 120,
-    "sightRange": 5,
+    "attackPower": 100,
+    "sightRange": 4,
+    "uniqueAttackRange": 1,
     "src": [
       118301,
       502207
@@ -3142,9 +3181,9 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 90,
-    "sightRange": 2,
-    "increaseSkillDamageRatio": 0.24,
+    "attackPower": 82,
+    "sightRange": 1.5,
+    "increaseSkillDamageRatio": 0.18,
     "src": [
       118401,
       401213
@@ -3175,7 +3214,7 @@
     "initialCount": 1,
     "attackPower": 100,
     "sightRange": 2.5,
-    "increaseSkillDamageRatio": 0.28,
+    "increaseSkillDamageRatio": 0.22,
     "src": [
       401301,
       118401
@@ -3279,9 +3318,10 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 45,
+    "attackPower": 48,
     "attackPowerByLv": 2,
     "moveSpeed": 0.1,
+    "uniqueAttackRange": 0.5,
     "src": [
       119301,
       204202
@@ -3295,7 +3335,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 100,
-    "lifeSteal": 0.15,
+    "lifeSteal": 0.18,
     "src": [
       119302,
       401401
@@ -3530,7 +3570,7 @@
     "increaseBasicAttackDamage": 2,
     "src": [
       121202,
-      401204
+      401217
     ]
   },
   "121302": {
@@ -3714,6 +3754,7 @@
     "attackSpeedRatio": 0.4,
     "increaseBasicAttackDamage": 10,
     "increaseBasicAttackDamageByLv": 1,
+    "uniqueAttackRange": 0.75,
     "src": [
       121306,
       205207
@@ -3785,6 +3826,7 @@
     "initialCount": 1,
     "attackPower": 30,
     "sightRange": 2,
+    "uniqueAttackRange": 0.5,
     "src": [
       122201,
       117101
@@ -3830,6 +3872,7 @@
     "attackPower": 55,
     "maxHp": 280,
     "sightRange": 4,
+    "uniqueAttackRange": 1,
     "src": [
       122303,
       205303
@@ -3979,7 +4022,7 @@
     "spRegenRatio": 0.5,
     "src": [
       201205,
-      301201
+      302201
     ]
   },
   "201303": {
@@ -4131,11 +4174,11 @@
     "stackable": 1,
     "initialCount": 1,
     "defense": 20,
-    "maxHp": 330,
-    "increaseSkillDamageRatio": 0.1,
+    "maxHp": 275,
+    "increaseSkillDamageRatio": 0.13,
     "src": [
       201401,
-      401204
+      401217
     ]
   },
   "201410": {
@@ -4147,7 +4190,7 @@
     "initialCount": 1,
     "defense": 10,
     "maxSp": 300,
-    "cooldownReduction": 0.08,
+    "cooldownReduction": 0.1,
     "moveSpeed": 0.08,
     "increaseSkillDamageRatio": 0.18,
     "src": [
@@ -4165,7 +4208,7 @@
     "defense": 20,
     "maxSp": 200,
     "normalLifeSteal": 0.2,
-    "moveSpeed": 0.18,
+    "moveSpeed": 0.12,
     "src": [
       201201,
       401401
@@ -4192,7 +4235,7 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "maxHp": 275,
+    "maxHp": 250,
     "spRegenRatio": 0.65,
     "preventSkillDamaged": 12,
     "src": [
@@ -4483,7 +4526,7 @@
     "initialCount": 1,
     "maxHp": 280,
     "hpRegen": 1.5,
-    "increaseSkillDamage": 8,
+    "increaseSkillDamage": 10,
     "src": [
       202211,
       401202
@@ -4515,7 +4558,7 @@
     "maxHp": 360,
     "src": [
       202201,
-      401204
+      401217
     ]
   },
   "202404": {
@@ -4622,6 +4665,7 @@
     "defense": 18,
     "spRegenRatio": 1,
     "cooldownReduction": 0.07,
+    "uniqueAttackRange": 0.75,
     "src": [
       202304,
       202203
@@ -4732,9 +4776,10 @@
     "hpRegen": 1,
     "spRegenRatio": 0.85,
     "cooldownReduction": 0.15,
+    "uniqueCooldownLimit": 0.05,
     "src": [
       202306,
-      301308
+      302308
     ]
   },
   "202420": {
@@ -4747,10 +4792,10 @@
     "attackPower": 20,
     "defense": 10,
     "spRegen": 2,
-    "attackSpeedRatio": 0.24,
+    "attackSpeedRatio": 0.28,
     "src": [
       202304,
-      301303
+      302303
     ]
   },
   "202501": {
@@ -4777,6 +4822,7 @@
     "defense": 40,
     "hpRegen": 2,
     "cooldownReduction": 0.25,
+    "uniqueCooldownLimit": 0.1,
     "src": [
       401401,
       202306
@@ -4789,7 +4835,7 @@
     "itemGrade": "전설",
     "stackable": 1,
     "initialCount": 1,
-    "maxHp": 375,
+    "maxHp": 450,
     "preventCriticalStrikeDamaged": 0.08,
     "increaseSkillDamage": 16,
     "src": [
@@ -4960,8 +5006,8 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "defense": 33,
-    "preventBasicAttackDamaged": 9,
+    "defense": 30,
+    "preventBasicAttackDamaged": 12,
     "src": [
       203303,
       401101
@@ -5037,11 +5083,11 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 33,
-    "maxHp": 145,
+    "maxHp": 125,
     "preventBasicAttackDamaged": 8,
     "src": [
       203301,
-      401204
+      401217
     ]
   },
   "203408": {
@@ -5097,10 +5143,11 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 15,
-    "maxHp": 120,
+    "maxHp": 150,
+    "uniqueHpHealedIncreaseRatio": 0.25,
     "src": [
       203202,
-      302317
+      301317
     ]
   },
   "203412": {
@@ -5125,8 +5172,8 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "defense": 38,
-    "cooldownReduction": 0.12,
+    "defense": 43,
+    "cooldownReduction": 0.15,
     "moveSpeed": 0.12,
     "src": [
       203204,
@@ -5189,9 +5236,10 @@
     "itemGrade": "전설",
     "stackable": 1,
     "initialCount": 1,
-    "maxHp": 300,
+    "maxHp": 255,
     "maxSp": 250,
     "cooldownReduction": 0.2,
+    "uniqueCooldownLimit": 0.1,
     "src": [
       203304,
       401401
@@ -5215,7 +5263,7 @@
     "itemGrade": "일반",
     "stackable": 1,
     "initialCount": 1,
-    "moveSpeed": 0.08,
+    "moveSpeed": 0.06,
     "src": []
   },
   "204103": {
@@ -5237,7 +5285,7 @@
     "stackable": 1,
     "initialCount": 1,
     "defense": 8,
-    "moveSpeed": 0.16,
+    "moveSpeed": 0.13,
     "src": [
       204103,
       401116
@@ -5251,7 +5299,7 @@
     "stackable": 1,
     "initialCount": 1,
     "defense": 10,
-    "moveSpeed": 0.14,
+    "moveSpeed": 0.11,
     "src": [
       204103,
       119101
@@ -5265,7 +5313,7 @@
     "stackable": 1,
     "initialCount": 1,
     "spRegen": 0.8,
-    "moveSpeed": 0.17,
+    "moveSpeed": 0.14,
     "src": [
       204101,
       401106
@@ -5278,7 +5326,7 @@
     "itemGrade": "고급",
     "stackable": 1,
     "initialCount": 1,
-    "moveSpeed": 0.09,
+    "moveSpeed": 0.06,
     "outOfCombatMoveSpeed": 0.17,
     "src": [
       204102,
@@ -5292,7 +5340,7 @@
     "itemGrade": "고급",
     "stackable": 1,
     "initialCount": 1,
-    "moveSpeed": 0.15,
+    "moveSpeed": 0.12,
     "src": [
       108101,
       502102
@@ -5307,7 +5355,7 @@
     "initialCount": 1,
     "spRegenRatio": 0.3,
     "spRegen": 0.5,
-    "moveSpeed": 0.16,
+    "moveSpeed": 0.13,
     "src": [
       204101,
       401113
@@ -5322,7 +5370,7 @@
     "initialCount": 1,
     "hpRegen": 0.6,
     "attackSpeedRatio": 0.02,
-    "moveSpeed": 0.2,
+    "moveSpeed": 0.17,
     "src": [
       204102,
       401202
@@ -5335,7 +5383,7 @@
     "itemGrade": "희귀",
     "stackable": 1,
     "initialCount": 1,
-    "moveSpeed": 0.28,
+    "moveSpeed": 0.25,
     "src": [
       204205,
       112101
@@ -5349,7 +5397,7 @@
     "stackable": 1,
     "initialCount": 1,
     "defense": 20,
-    "moveSpeed": 0.24,
+    "moveSpeed": 0.21,
     "src": [
       204201,
       401201
@@ -5364,7 +5412,7 @@
     "initialCount": 1,
     "hpRegen": 1,
     "attackSpeedRatio": 0.3,
-    "moveSpeed": 0.35,
+    "moveSpeed": 0.3,
     "src": [
       204404,
       205101
@@ -5378,7 +5426,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 15,
-    "moveSpeed": 0.35,
+    "moveSpeed": 0.32,
     "src": [
       204204,
       501401
@@ -5393,7 +5441,7 @@
     "initialCount": 1,
     "hpRegen": 0.6,
     "attackSpeedRatio": 0.07,
-    "moveSpeed": 0.24,
+    "moveSpeed": 0.21,
     "src": [
       204302,
       401103
@@ -5409,7 +5457,7 @@
     "attackPower": 5,
     "spRegen": 0.8,
     "criticalStrikeChance": 0.1,
-    "moveSpeed": 0.22,
+    "moveSpeed": 0.19,
     "src": [
       204203,
       205204
@@ -5424,7 +5472,7 @@
     "initialCount": 1,
     "spRegenRatio": 0.5,
     "spRegen": 0.5,
-    "moveSpeed": 0.28,
+    "moveSpeed": 0.25,
     "increaseSkillDamage": 16,
     "src": [
       204301,
@@ -5440,7 +5488,7 @@
     "initialCount": 1,
     "defense": 18,
     "attackSpeedRatio": 0.12,
-    "moveSpeed": 0.45,
+    "moveSpeed": 0.42,
     "src": [
       401304,
       204202
@@ -5457,7 +5505,7 @@
     "defense": 10,
     "spRegen": 1,
     "criticalStrikeChance": 0.18,
-    "moveSpeed": 0.3,
+    "moveSpeed": 0.27,
     "src": [
       204405,
       204202
@@ -5473,7 +5521,7 @@
     "defense": 27,
     "hpRegen": 1,
     "spRegen": 0.5,
-    "moveSpeed": 0.33,
+    "moveSpeed": 0.3,
     "trapDamageReduceRatio": 0.1,
     "src": [
       204302,
@@ -5489,7 +5537,7 @@
     "initialCount": 1,
     "hpRegen": 0.7,
     "attackSpeedRatio": 0.15,
-    "moveSpeed": 0.3,
+    "moveSpeed": 0.27,
     "src": [
       204404,
       401101
@@ -5505,7 +5553,7 @@
     "hpRegen": 1.2,
     "spRegenRatio": 0.6,
     "spRegen": 1.2,
-    "moveSpeed": 0.36,
+    "moveSpeed": 0.33,
     "increaseSkillDamage": 14,
     "increaseSkillDamageByLv": 0.5,
     "src": [
@@ -5522,7 +5570,7 @@
     "initialCount": 1,
     "defense": 15,
     "cooldownReduction": 0.08,
-    "moveSpeed": 0.33,
+    "moveSpeed": 0.3,
     "src": [
       204201,
       401303
@@ -5536,10 +5584,11 @@
     "stackable": 1,
     "initialCount": 1,
     "maxHp": 300,
-    "moveSpeed": 0.38,
+    "moveSpeed": 0.35,
+    "uniqueHpHealedIncreaseRatio": 0.25,
     "src": [
       204205,
-      302324
+      301324
     ]
   },
   "204501": {
@@ -5550,7 +5599,7 @@
     "stackable": 1,
     "initialCount": 1,
     "defense": 35,
-    "moveSpeed": 0.4,
+    "moveSpeed": 0.37,
     "outOfCombatMoveSpeed": 0.1,
     "src": [
       401403,
@@ -5567,7 +5616,7 @@
     "attackPower": 25,
     "spRegen": 1,
     "normalLifeSteal": 0.15,
-    "moveSpeed": 0.38,
+    "moveSpeed": 0.35,
     "src": [
       204203,
       401401
@@ -5712,7 +5761,7 @@
     "itemGrade": "고급",
     "stackable": 1,
     "initialCount": 1,
-    "spRegenRatio": 0.8,
+    "spRegenRatio": 0.5,
     "normalLifeSteal": 0.12,
     "src": [
       205103,
@@ -5823,23 +5872,10 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 8,
+    "uniqueAttackRange": 0.35,
     "src": [
       115101,
       117101
-    ]
-  },
-  "205301": {
-    "name": "생명의가루",
-    "itemType": "Armor",
-    "armorType": "장식",
-    "itemGrade": "희귀",
-    "stackable": 1,
-    "initialCount": 1,
-    "hpRegen": 1.5,
-    "spRegen": 1.5,
-    "src": [
-      401208,
-      112101
     ]
   },
   "205302": {
@@ -5849,9 +5885,9 @@
     "itemGrade": "희귀",
     "stackable": 1,
     "initialCount": 1,
-    "spRegenRatio": 0.8,
+    "spRegenRatio": 0.7,
     "normalLifeSteal": 0.14,
-    "increaseSkillDamage": 23,
+    "increaseSkillDamage": 19,
     "src": [
       205205,
       205105
@@ -5879,7 +5915,7 @@
     "stackable": 1,
     "initialCount": 1,
     "moveSpeed": 0.08,
-    "increaseSkillDamage": 18,
+    "increaseSkillDamage": 15,
     "src": [
       205210,
       205101
@@ -5953,6 +5989,7 @@
     "initialCount": 1,
     "attackPower": 16,
     "sightRange": 2.5,
+    "uniqueAttackRange": 0.65,
     "src": [
       205213,
       205206
@@ -6041,8 +6078,8 @@
     "spRegen": 1.5,
     "increaseSkillDamage": 18,
     "src": [
-      205301,
-      301103
+      401208,
+      302103
     ]
   },
   "205403": {
@@ -6056,7 +6093,7 @@
     "defense": 10,
     "increaseBasicAttackDamage": 15,
     "src": [
-      205301,
+      401208,
       401107
     ]
   },
@@ -6067,12 +6104,12 @@
     "itemGrade": "영웅",
     "stackable": 1,
     "initialCount": 1,
-    "defense": 20,
+    "defense": 24,
     "spRegenRatio": 1,
     "sightRange": 1.5,
     "preventSkillDamaged": 20,
     "src": [
-      301308,
+      302308,
       401301
     ]
   },
@@ -6086,6 +6123,7 @@
     "defense": 12,
     "attackSpeedRatio": 0.18,
     "moveSpeed": 0.1,
+    "uniqueAttackRange": 0.75,
     "src": [
       205208,
       401304
@@ -6130,7 +6168,7 @@
     "maxHp": 120,
     "moveSpeed": 0.1,
     "sightRange": 1.5,
-    "increaseSkillDamageRatio": 0.2,
+    "increaseSkillDamageRatio": 0.17,
     "src": [
       401301,
       401304
@@ -6352,7 +6390,7 @@
       401107
     ]
   },
-  "401204": {
+  "401217": {
     "name": "루비",
     "itemType": "Misc",
     "miscItemType": "Material",
@@ -6373,7 +6411,7 @@
     "initialCount": 1,
     "src": [
       401110,
-      301102
+      302102
     ]
   },
   "401206": {
@@ -6499,7 +6537,7 @@
     "initialCount": 1,
     "src": [
       401210,
-      301102
+      302102
     ]
   },
   "401303": {
@@ -6544,7 +6582,7 @@
     "initialCount": 1,
     "src": [
       401205,
-      301107
+      302107
     ]
   },
   "401401": {
@@ -6564,7 +6602,7 @@
     "stackable": 3,
     "initialCount": 1,
     "src": [
-      205301,
+      401208,
       401209
     ]
   },
@@ -6876,7 +6914,7 @@
     "specialItemType": "Summon",
     "itemGrade": "희귀",
     "stackable": 5,
-    "initialCount": 3,
+    "initialCount": 2,
     "consumeCount": 1,
     "summonCode": 19,
     "src": [
@@ -6968,7 +7006,7 @@
       501401
     ]
   },
-  "301101": {
+  "302101": {
     "name": "꿀",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -6979,7 +7017,7 @@
     "spRecover": 250,
     "src": []
   },
-  "301102": {
+  "302102": {
     "name": "물",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -6990,7 +7028,7 @@
     "spRecover": 225,
     "src": []
   },
-  "301103": {
+  "302103": {
     "name": "얼음",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7001,7 +7039,7 @@
     "spRecover": 200,
     "src": []
   },
-  "301104": {
+  "302104": {
     "name": "위스키",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7012,7 +7050,7 @@
     "spRecover": 450,
     "src": []
   },
-  "301106": {
+  "302106": {
     "name": "커피콩",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7023,7 +7061,7 @@
     "spRecover": 380,
     "src": []
   },
-  "301107": {
+  "302107": {
     "name": "탄산수",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7034,7 +7072,7 @@
     "spRecover": 380,
     "src": []
   },
-  "301108": {
+  "302108": {
     "name": "우유",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7045,7 +7083,7 @@
     "spRecover": 200,
     "src": []
   },
-  "301201": {
+  "302201": {
     "name": "뜨거운물",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7055,11 +7093,11 @@
     "initialCount": 3,
     "spRecover": 350,
     "src": [
-      301102,
+      302102,
       401107
     ]
   },
-  "301202": {
+  "302202": {
     "name": "레몬에이드",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7069,11 +7107,11 @@
     "initialCount": 3,
     "spRecover": 450,
     "src": [
-      301107,
-      302105
+      302107,
+      301105
     ]
   },
-  "301203": {
+  "302203": {
     "name": "물병",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7083,11 +7121,11 @@
     "initialCount": 2,
     "spRecover": 380,
     "src": [
-      301102,
+      302102,
       112104
     ]
   },
-  "301204": {
+  "302204": {
     "name": "백주",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7101,7 +7139,7 @@
       112104
     ]
   },
-  "301205": {
+  "302205": {
     "name": "소주",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7112,10 +7150,10 @@
     "spRecover": 400,
     "src": [
       401111,
-      301102
+      302102
     ]
   },
-  "301206": {
+  "302206": {
     "name": "아이스커피",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7125,11 +7163,11 @@
     "initialCount": 2,
     "spRecover": 550,
     "src": [
-      301103,
-      301106
+      302103,
+      302106
     ]
   },
-  "301207": {
+  "302207": {
     "name": "칵테일",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7139,11 +7177,11 @@
     "initialCount": 4,
     "spRecover": 350,
     "src": [
-      301104,
-      302105
+      302104,
+      301105
     ]
   },
-  "301208": {
+  "302208": {
     "name": "커피리큐르",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7153,11 +7191,11 @@
     "initialCount": 2,
     "spRecover": 530,
     "src": [
-      301106,
+      302106,
       401111
     ]
   },
-  "301209": {
+  "302209": {
     "name": "콜라",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7167,11 +7205,11 @@
     "initialCount": 3,
     "spRecover": 400,
     "src": [
-      301107,
-      301101
+      302107,
+      302101
     ]
   },
-  "301210": {
+  "302210": {
     "name": "카페라테",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7181,11 +7219,11 @@
     "initialCount": 2,
     "spRecover": 530,
     "src": [
-      301108,
-      301106
+      302108,
+      302106
     ]
   },
-  "301211": {
+  "302211": {
     "name": "꿀탄우유",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7195,11 +7233,11 @@
     "initialCount": 2,
     "spRecover": 530,
     "src": [
-      301108,
-      301101
+      302108,
+      302101
     ]
   },
-  "301213": {
+  "302213": {
     "name": "하이볼",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7209,11 +7247,11 @@
     "initialCount": 2,
     "spRecover": 530,
     "src": [
-      301104,
-      301107
+      302104,
+      302107
     ]
   },
-  "301214": {
+  "302214": {
     "name": "초코우유",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7223,11 +7261,11 @@
     "initialCount": 3,
     "spRecover": 450,
     "src": [
-      302119,
-      301108
+      301119,
+      302108
     ]
   },
-  "301215": {
+  "302215": {
     "name": "꿀물",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7237,11 +7275,11 @@
     "initialCount": 2,
     "spRecover": 400,
     "src": [
-      301101,
-      301102
+      302101,
+      302102
     ]
   },
-  "301216": {
+  "302216": {
     "name": "얼음물",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7251,11 +7289,11 @@
     "initialCount": 2,
     "spRecover": 350,
     "src": [
-      301103,
-      301102
+      302103,
+      302102
     ]
   },
-  "301217": {
+  "302217": {
     "name": "온더락",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7265,11 +7303,11 @@
     "initialCount": 2,
     "spRecover": 530,
     "src": [
-      301103,
-      301104
+      302103,
+      302104
     ]
   },
-  "301218": {
+  "302218": {
     "name": "카우보이",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7279,11 +7317,11 @@
     "initialCount": 2,
     "spRecover": 530,
     "src": [
-      301108,
-      301104
+      302108,
+      302104
     ]
   },
-  "301301": {
+  "302301": {
     "name": "고량주",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7293,11 +7331,11 @@
     "initialCount": 3,
     "spRecover": 800,
     "src": [
-      301204,
+      302204,
       401107
     ]
   },
-  "301302": {
+  "302302": {
     "name": "뜨거운꿀물",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7307,11 +7345,11 @@
     "initialCount": 2,
     "spRecover": 1080,
     "src": [
-      301201,
-      301101
+      302201,
+      302101
     ]
   },
-  "301303": {
+  "302303": {
     "name": "백일취",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7321,11 +7359,11 @@
     "initialCount": 5,
     "spRecover": 750,
     "src": [
-      301204,
+      302204,
       205102
     ]
   },
-  "301304": {
+  "302304": {
     "name": "아메리카노",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7335,11 +7373,11 @@
     "initialCount": 2,
     "spRecover": 1080,
     "src": [
-      301201,
-      301106
+      302201,
+      302106
     ]
   },
-  "301305": {
+  "302305": {
     "name": "약주",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7349,11 +7387,11 @@
     "initialCount": 3,
     "spRecover": 1080,
     "src": [
-      301204,
-      302116
+      302204,
+      301116
     ]
   },
-  "301307": {
+  "302307": {
     "name": "위스키콕",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7363,11 +7401,11 @@
     "initialCount": 5,
     "spRecover": 600,
     "src": [
-      301209,
-      301104
+      302209,
+      302104
     ]
   },
-  "301308": {
+  "302308": {
     "name": "정화수",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7377,11 +7415,11 @@
     "initialCount": 2,
     "spRecover": 1080,
     "src": [
-      301201,
-      301103
+      302201,
+      302103
     ]
   },
-  "301309": {
+  "302309": {
     "name": "캔콜라",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7391,11 +7429,11 @@
     "initialCount": 2,
     "spRecover": 1400,
     "src": [
-      301209,
+      302209,
       401120
     ]
   },
-  "301310": {
+  "302310": {
     "name": "핫초코",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7405,11 +7443,11 @@
     "initialCount": 4,
     "spRecover": 500,
     "src": [
-      301201,
-      302119
+      302201,
+      301119
     ]
   },
-  "301311": {
+  "302311": {
     "name": "깔루아밀크",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7419,11 +7457,11 @@
     "initialCount": 4,
     "spRecover": 750,
     "src": [
-      301208,
-      301108
+      302208,
+      302108
     ]
   },
-  "301312": {
+  "302312": {
     "name": "셀레네의눈물",
     "itemType": "Consume",
     "consumableType": "음료",
@@ -7435,10 +7473,10 @@
     "attackPowerByBuff": 10,
     "src": [
       401301,
-      301102
+      302102
     ]
   },
-  "302102": {
+  "301102": {
     "name": "감자",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7449,7 +7487,7 @@
     "hpRecover": 130,
     "src": []
   },
-  "302104": {
+  "301104": {
     "name": "대구",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7460,7 +7498,7 @@
     "hpRecover": 130,
     "src": []
   },
-  "302105": {
+  "301105": {
     "name": "레몬",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7471,7 +7509,7 @@
     "hpRecover": 100,
     "src": []
   },
-  "302106": {
+  "301106": {
     "name": "마늘",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7482,7 +7520,7 @@
     "hpRecover": 200,
     "src": []
   },
-  "302109": {
+  "301109": {
     "name": "붕어",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7493,7 +7531,7 @@
     "hpRecover": 130,
     "src": []
   },
-  "302110": {
+  "301110": {
     "name": "빵",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7504,7 +7542,7 @@
     "hpRecover": 325,
     "src": []
   },
-  "302111": {
+  "301111": {
     "name": "고기",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7515,7 +7553,7 @@
     "hpRecover": 300,
     "src": []
   },
-  "302112": {
+  "301112": {
     "name": "달걀",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7526,7 +7564,7 @@
     "hpRecover": 200,
     "src": []
   },
-  "302113": {
+  "301113": {
     "name": "생라면",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7537,7 +7575,7 @@
     "hpRecover": 275,
     "src": []
   },
-  "302116": {
+  "301116": {
     "name": "약초",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7548,7 +7586,7 @@
     "hpRecover": 300,
     "src": []
   },
-  "302119": {
+  "301119": {
     "name": "초콜렛",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7559,7 +7597,7 @@
     "hpRecover": 275,
     "src": []
   },
-  "302120": {
+  "301120": {
     "name": "카레가루",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7570,7 +7608,7 @@
     "hpRecover": 200,
     "src": []
   },
-  "302201": {
+  "301201": {
     "name": "꿀바른대구살",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7580,11 +7618,11 @@
     "initialCount": 2,
     "hpRecover": 650,
     "src": [
-      302104,
-      301101
+      301104,
+      302101
     ]
   },
-  "302204": {
+  "301204": {
     "name": "대구간통조림",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7594,11 +7632,11 @@
     "initialCount": 1,
     "hpRecover": 650,
     "src": [
-      302104,
+      301104,
       401120
     ]
   },
-  "302205": {
+  "301205": {
     "name": "마늘빵",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7608,11 +7646,11 @@
     "initialCount": 2,
     "hpRecover": 500,
     "src": [
-      302110,
-      302106
+      301110,
+      301106
     ]
   },
-  "302206": {
+  "301206": {
     "name": "버터",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7622,11 +7660,11 @@
     "initialCount": 1,
     "hpRecover": 450,
     "src": [
-      301108,
+      302108,
       108101
     ]
   },
-  "302207": {
+  "301207": {
     "name": "보약",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7636,11 +7674,11 @@
     "initialCount": 1,
     "hpRecover": 650,
     "src": [
-      302116,
+      301116,
       401104
     ]
   },
-  "302209": {
+  "301209": {
     "name": "붕어빵",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7650,11 +7688,11 @@
     "initialCount": 2,
     "hpRecover": 550,
     "src": [
-      302110,
-      302109
+      301110,
+      301109
     ]
   },
-  "302211": {
+  "301305": {
     "name": "성수",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7666,21 +7704,10 @@
     "defenseByBuff": 10,
     "src": [
       401304,
-      301102
+      302102
     ]
   },
-  "302213": {
-    "name": "지혈제",
-    "itemType": "Consume",
-    "consumableType": "음식",
-    "consumableTag": "None",
-    "itemGrade": "고급",
-    "stackable": 5,
-    "initialCount": 1,
-    "hpRecover": 700,
-    "src": []
-  },
-  "302216": {
+  "301216": {
     "name": "초코파이",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7690,11 +7717,11 @@
     "initialCount": 1,
     "hpRecover": 600,
     "src": [
-      302110,
-      302119
+      301110,
+      301119
     ]
   },
-  "302217": {
+  "301217": {
     "name": "한방침",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7708,7 +7735,7 @@
       120101
     ]
   },
-  "302218": {
+  "301218": {
     "name": "난초",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7718,11 +7745,11 @@
     "initialCount": 2,
     "hpRecover": 480,
     "src": [
-      302116,
+      301116,
       205102
     ]
   },
-  "302222": {
+  "301222": {
     "name": "탄두리",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7732,11 +7759,11 @@
     "initialCount": 1,
     "hpRecover": 600,
     "src": [
-      302120,
-      302111
+      301120,
+      301111
     ]
   },
-  "302224": {
+  "301224": {
     "name": "마늘베이컨말이",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7746,11 +7773,11 @@
     "initialCount": 1,
     "hpRecover": 650,
     "src": [
-      302106,
-      302111
+      301106,
+      301111
     ]
   },
-  "302225": {
+  "301225": {
     "name": "번",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7760,11 +7787,11 @@
     "initialCount": 1,
     "hpRecover": 700,
     "src": [
-      302110,
-      301106
+      301110,
+      302106
     ]
   },
-  "302226": {
+  "301226": {
     "name": "햄버거",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7774,11 +7801,11 @@
     "initialCount": 1,
     "hpRecover": 600,
     "src": [
-      302111,
-      302110
+      301111,
+      301110
     ]
   },
-  "302227": {
+  "301227": {
     "name": "감자빵",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7788,11 +7815,11 @@
     "initialCount": 2,
     "hpRecover": 380,
     "src": [
-      302102,
-      302110
+      301102,
+      301110
     ]
   },
-  "302228": {
+  "301228": {
     "name": "감자스프",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7802,11 +7829,11 @@
     "initialCount": 1,
     "hpRecover": 600,
     "src": [
-      302102,
-      301108
+      301102,
+      302108
     ]
   },
-  "302229": {
+  "301229": {
     "name": "달걀생선필레",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7816,11 +7843,11 @@
     "initialCount": 1,
     "hpRecover": 700,
     "src": [
-      302109,
-      302112
+      301109,
+      301112
     ]
   },
-  "302230": {
+  "301230": {
     "name": "시트러스케이크",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7830,11 +7857,11 @@
     "initialCount": 2,
     "hpRecover": 325,
     "src": [
-      302105,
-      302110
+      301105,
+      301110
     ]
   },
-  "302231": {
+  "301231": {
     "name": "레몬아이스크림",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7844,11 +7871,11 @@
     "initialCount": 3,
     "hpRecover": 500,
     "src": [
-      302105,
-      302112
+      301105,
+      301112
     ]
   },
-  "302232": {
+  "301232": {
     "name": "마늘꿀절임",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7858,11 +7885,11 @@
     "initialCount": 3,
     "hpRecover": 480,
     "src": [
-      302106,
-      301101
+      301106,
+      302101
     ]
   },
-  "302234": {
+  "301234": {
     "name": "계란빵",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7872,11 +7899,11 @@
     "initialCount": 2,
     "hpRecover": 425,
     "src": [
-      302112,
-      302110
+      301112,
+      301110
     ]
   },
-  "302235": {
+  "301235": {
     "name": "이스터에그",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7886,11 +7913,11 @@
     "initialCount": 1,
     "hpRecover": 600,
     "src": [
-      302112,
-      302119
+      301112,
+      301119
     ]
   },
-  "302236": {
+  "301236": {
     "name": "위스키봉봉",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7900,11 +7927,11 @@
     "initialCount": 3,
     "hpRecover": 480,
     "src": [
-      301104,
-      302119
+      302104,
+      301119
     ]
   },
-  "302237": {
+  "301237": {
     "name": "초코아이스크림",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7914,11 +7941,11 @@
     "initialCount": 2,
     "hpRecover": 550,
     "src": [
-      301103,
-      302119
+      302103,
+      301119
     ]
   },
-  "302238": {
+  "301238": {
     "name": "카레빵",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7928,11 +7955,11 @@
     "initialCount": 2,
     "hpRecover": 450,
     "src": [
-      302120,
-      302110
+      301120,
+      301110
     ]
   },
-  "302301": {
+  "301301": {
     "name": "매운탕",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7942,11 +7969,11 @@
     "initialCount": 2,
     "hpRecover": 550,
     "src": [
-      302104,
-      301201
+      301104,
+      302201
     ]
   },
-  "302302": {
+  "301302": {
     "name": "감자튀김",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7956,11 +7983,11 @@
     "initialCount": 1,
     "hpRecover": 700,
     "src": [
-      302102,
+      301102,
       401203
     ]
   },
-  "302303": {
+  "301303": {
     "name": "구운감자",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7970,11 +7997,11 @@
     "initialCount": 2,
     "hpRecover": 600,
     "src": [
-      302102,
+      301102,
       401215
     ]
   },
-  "302304": {
+  "301304": {
     "name": "구운붕어",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7984,11 +8011,11 @@
     "initialCount": 2,
     "hpRecover": 600,
     "src": [
-      302109,
+      301109,
       401215
     ]
   },
-  "302306": {
+  "301306": {
     "name": "메로구이",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -7998,11 +8025,11 @@
     "initialCount": 3,
     "hpRecover": 480,
     "src": [
-      302104,
+      301104,
       401215
     ]
   },
-  "302307": {
+  "301307": {
     "name": "뜨거운라면",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8012,11 +8039,11 @@
     "initialCount": 2,
     "hpRecover": 550,
     "src": [
-      302113,
-      301201
+      301113,
+      302201
     ]
   },
-  "302308": {
+  "301308": {
     "name": "모카빵",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8026,11 +8053,11 @@
     "initialCount": 2,
     "hpRecover": 700,
     "src": [
-      302110,
-      301208
+      301110,
+      302208
     ]
   },
-  "302309": {
+  "301309": {
     "name": "스크램블에그",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8040,11 +8067,11 @@
     "initialCount": 2,
     "hpRecover": 600,
     "src": [
-      302112,
+      301112,
       401203
     ]
   },
-  "302311": {
+  "301311": {
     "name": "초코칩쿠키",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8054,11 +8081,11 @@
     "initialCount": 2,
     "hpRecover": 733,
     "src": [
-      302119,
-      302206
+      301119,
+      301206
     ]
   },
-  "302312": {
+  "301312": {
     "name": "초코파이상자",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8068,11 +8095,11 @@
     "initialCount": 2,
     "hpRecover": 733,
     "src": [
-      302216,
+      301216,
       205107
     ]
   },
-  "302313": {
+  "301313": {
     "name": "카레",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8082,11 +8109,11 @@
     "initialCount": 3,
     "hpRecover": 550,
     "src": [
-      302120,
-      301201
+      301120,
+      302201
     ]
   },
-  "302314": {
+  "301314": {
     "name": "탕약",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8096,11 +8123,11 @@
     "initialCount": 2,
     "hpRecover": 600,
     "src": [
-      302116,
-      301201
+      301116,
+      302201
     ]
   },
-  "302315": {
+  "301315": {
     "name": "허니버터",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8110,11 +8137,11 @@
     "initialCount": 2,
     "hpRecover": 650,
     "src": [
-      302206,
-      301101
+      301206,
+      302101
     ]
   },
-  "302316": {
+  "301316": {
     "name": "후라이드치킨",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8124,11 +8151,11 @@
     "initialCount": 1,
     "hpRecover": 700,
     "src": [
-      302111,
+      301111,
       401203
     ]
   },
-  "302317": {
+  "301317": {
     "name": "힐링포션",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8138,11 +8165,11 @@
     "initialCount": 2,
     "hpRecover": 700,
     "src": [
-      302218,
+      301218,
       112104
     ]
   },
-  "302318": {
+  "301318": {
     "name": "삶은달걀",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8152,11 +8179,11 @@
     "initialCount": 2,
     "hpRecover": 600,
     "src": [
-      302112,
-      301201
+      301112,
+      302201
     ]
   },
-  "302319": {
+  "301319": {
     "name": "파운드케잌",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8166,11 +8193,11 @@
     "initialCount": 2,
     "hpRecover": 600,
     "src": [
-      302206,
-      302110
+      301206,
+      301110
     ]
   },
-  "302322": {
+  "301322": {
     "name": "카레고로케",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8180,11 +8207,11 @@
     "initialCount": 2,
     "hpRecover": 600,
     "src": [
-      302120,
+      301120,
       401203
     ]
   },
-  "302323": {
+  "301323": {
     "name": "스테이크",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8194,11 +8221,11 @@
     "initialCount": 4,
     "hpRecover": 420,
     "src": [
-      302111,
+      301111,
       401215
     ]
   },
-  "302324": {
+  "301324": {
     "name": "구급상자",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8207,12 +8234,9 @@
     "stackable": 5,
     "initialCount": 2,
     "hpRecover": 1000,
-    "src": [
-      302213,
-      203102
-    ]
+    "src": []
   },
-  "302325": {
+  "301325": {
     "name": "버터감자구이",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8222,11 +8246,11 @@
     "initialCount": 2,
     "hpRecover": 650,
     "src": [
-      302102,
-      302206
+      301102,
+      301206
     ]
   },
-  "302326": {
+  "301326": {
     "name": "생선까스",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8236,11 +8260,11 @@
     "initialCount": 1,
     "hpRecover": 700,
     "src": [
-      302104,
+      301104,
       401203
     ]
   },
-  "302327": {
+  "301327": {
     "name": "볶음라면",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8250,11 +8274,11 @@
     "initialCount": 2,
     "hpRecover": 600,
     "src": [
-      302113,
+      301113,
       401203
     ]
   },
-  "302328": {
+  "301328": {
     "name": "냉면",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8264,11 +8288,11 @@
     "initialCount": 2,
     "hpRecover": 650,
     "src": [
-      302113,
-      301216
+      301113,
+      302216
     ]
   },
-  "302329": {
+  "301329": {
     "name": "대환단",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8278,11 +8302,11 @@
     "initialCount": 2,
     "hpRecover": 900,
     "src": [
-      302217,
-      302207
+      301217,
+      301207
     ]
   },
-  "302330": {
+  "301330": {
     "name": "생일케이크",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8292,11 +8316,11 @@
     "initialCount": 2,
     "hpRecover": 650,
     "src": [
-      302230,
-      302112
+      301230,
+      301112
     ]
   },
-  "302401": {
+  "301401": {
     "name": "피시앤칩스",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8306,11 +8330,11 @@
     "initialCount": 2,
     "hpRecover": 920,
     "src": [
-      302326,
-      302302
+      301326,
+      301302
     ]
   },
-  "302402": {
+  "301331": {
     "name": "마늘라면",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8320,11 +8344,11 @@
     "initialCount": 2,
     "hpRecover": 700,
     "src": [
-      302307,
-      302106
+      301307,
+      301106
     ]
   },
-  "302403": {
+  "301403": {
     "name": "일레븐 세트",
     "itemType": "Consume",
     "consumableType": "음식",
@@ -8335,8 +8359,8 @@
     "exclusiveProducer": 30,
     "hpRecover": 980,
     "src": [
-      302226,
-      302302
+      301226,
+      301302
     ]
   }
 }

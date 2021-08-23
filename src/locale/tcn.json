@@ -223,8 +223,8 @@
         "리오": "莉央",
         "윌리엄": "威廉",
         "니키": "妮琪",
-        "나타폰": "納塔朋"
-
+        "나타폰": "納塔朋",
+        "얀": "伊娃"
     },
     "weapons": {
         "투척": "投擲", 
@@ -701,7 +701,17 @@
         "능동위장": "光學迷彩包",
         "미스릴퀴버": "祕銀箭筒",
         "오르골": "音樂盒",
-        "쿤달라": "昆德拉"
+        "쿤달라": "昆德拉",
+        "히드라": "九頭蛇",
+        "흑요석짓테": "等離雙拐視野",
+        "필럼": "羅馬重標槍",
+        "아스트라페": "阿斯特拉普",
+        "사제복": " 祭師法衣",
+        "고위사제복": "主教長袍",
+        "성법의": "神職法衣",
+        "창파오": "太使袍",
+        "쌍둥이검": "雙匕首",
+        "간장과막야": "陰陽雙刃"
 
     },
     "skill": {
@@ -1452,6 +1462,50 @@
             "R": {
                 "name": "F-Stop",
                 "Detail": "Nathapon snaps a photo of everything in the targeted area after 1 second.\nAll photographed units are put into stasis for 2.5 seconds and are unable to perform any action.\nPhotographed enemies gain 3 stacks of Picturesque."
+            }
+        },
+        "얀": {
+            "T": {
+                "name": "Unyielding",
+                "Detail": "Jan attacks with a knee strike, dealing 60/80/100/120/140(+Attack Power 30%) damage to enemies and slowing them by 60% for 1 seconds. \nReactivate to use Leaping Knee.\nEnhanced: Reduces enemy’s defense by 30% for 4 seconds."
+            },
+            "Q": {
+                "name": "Knee Strike / Leaping Knee",
+                "Detail": "Jan launches a flying knee strike, dealing 85/110/135/160/185(+Attack Power 45%) damage to enemies and knocking them airborne for 0.85 second.\nEnhanced: Hitting an enemy will reset the cooldown of Bob and Weave."
+            },
+            "W": {
+                "name": "Tomahawk Roundhouse",
+                "Detail": "Jan sweeps the area in front of him with a kick, dealing 80/110/140/170/200(+Attack Power 40%) damage to enemies in range.\n Enemies hit in the outer cone will be knocked back.\n Enhanced: Deals 110/140/170/200/230(+Attack Power 60%) damage and knocks back all enemies in range.\n Enemies knocked into terrain are stunned for 1 seconds."
+            },
+            "E": {
+                "name": "Bob and Weave",
+                "Detail": "Jan dashes forward and causes his next basic attack to deal 20/30/40/50/60(+Attack Power 35%) extra basic attack damage. Hitting Knee Strike or Tomahawk Roundhouse after dashing heals him for 40/45/50/55/60% percent of damage dealt, increasing by 200% based on his missing HP.\n Jan can Bob and Weave while using Tomahawk Roundhouse.\nEnhanced: The cooldown of Bob and Weave is reduced by 40%."
+            },
+            "R": {
+                "name": "The Tetragon",
+                "Detail": "Jan summons a square ring for 6.5 seconds, granting him 1 stack of Unyielding every second.\n Enemies that touch the ropes are slowed by 80% for 2 seconds and take 50/75/100(+Attack Power 45%) damage. \nEnemies that are knocked back into the ropes are then knocked back towards the center of the ring and stunned for 1.3 seconds. Ropes disappear upon contact.\nKilling a player inside the ring grants 5 stacks of Unyielding and increases Jan’s movement speed by 35% for 3 seconds."
+            }
+        },
+        "이바": {
+            "T": {
+                "name": "Telekinesis",
+                "Detail": "Telekinesis: Starting at level 6, Eva can open boxes and air supplies, fish, collect, and recover downed allies from range. She can not interact with boxes from range during combat.\nVF Bead: When Eva lands a skill or is hit by a basic attack, Eva expels a bead of concentrated VF energy towards the enemy, dealing 30/60/90(+Attack Power 35%) damage and slowing targets hit by 20/25/30% for 2 seconds. Landing a VF Bead on an enemy reduces its cooldown by 30% and grants 5 Vital Force. Eva gains 1 Vital Force every 1 second, 30 per kill, and 15 per assist. \nVital Force is required when using VF Eruption (R). "
+            },
+            "Q": {
+                "name": "Light Triad",
+                "Detail": "Eva casts an orb of light in the targeted direction, dealing 20/40/60/80/100(+Attack Power 25%) damage to enemies hit. When the orb reaches maximum range or the skill is reactivated, it explodes, dealing 75/115/145/185/225(+Attack Power 55%) damage. \nHitting an enemy with Light Triad grants 10 Vital Force. "
+            },
+            "W": {
+                "name": "Phase Vortex",
+                "Detail": "Eva forms a Phase Vortex in the targeted location, dealing 50/90/130/170/210(+Attack Power 50%) damage. Enemies inside the vortex take 10/12/14/16/18% extra damage from Eva’s skills and are slowed by 40%. \nThe vortex collapses after 2 seconds, dealing 50/90/130/170/210(+Attack Power 50%) damage and launching enemies in the middle airborne for 1 second. \nHitting an enemy with Phase Vortex grants 10 Vital Force. "
+            },
+            "E": {
+                "name": "Amethyst Flow",
+                "Detail": "Eva becomes unstoppable and dashes in the targeted direction, granting her vision of all enemies near her for 3 seconds. Her next basic attack silences her target for 0.1 seconds. Basic attacks immediately remove any extra vision granted from Amethyst Flow. \n If Eva lands a basic attack on a target that is affected by one of her crowd control effects, it applies Amethyst Duress, dealing a total of 50/90/130/170/210 over 3 seconds and granting Eva vision of them. "
+            },
+            "R": {
+                "name": "VF Eruption",
+                "Detail": "Eva releases her stored VF, dealing 20/30/40 true damage and applying a stack of VF Dissonance every 0.1 seconds to enemies in range. Upon reaching 5 stacks, Eva consumes the stacks, dealing 40/70/100(+Attack Power 30%) damage. \n A minimum of 15 Vital Force is required to use VF Eruption. VF Eruption consumes 4 Vital Force every 0.1 seconds while channeling. \nUsing Amethyst Flow while channeling VF Eruption resets the cooldown of VF Eruption. "
             }
         },
 

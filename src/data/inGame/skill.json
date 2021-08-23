@@ -714,6 +714,11 @@
     "type": "character",
     "button": "Q"
   },
+  "1023210": {
+    "name": "동맥절제술 - 일반공격강화",
+    "type": "character",
+    "button": "Q"
+  },
   "1023300": {
     "name": "엠퓨테이션",
     "type": "character",
@@ -1201,6 +1206,41 @@
   },
   "1035500": {
     "name": "사각 링의 열정",
+    "type": "character",
+    "button": "R"
+  },
+  "1036100": {
+    "name": "키네시스",
+    "type": "character",
+    "button": "T"
+  },
+  "1036200": {
+    "name": "라이트 크로스",
+    "type": "character",
+    "button": "Q"
+  },
+  "1036210": {
+    "name": "라이트 크로스 - 폭파",
+    "type": "character",
+    "button": "Q"
+  },
+  "1036300": {
+    "name": "라이트 호라이즌",
+    "type": "character",
+    "button": "W"
+  },
+  "1036400": {
+    "name": "VF 플라즈마",
+    "type": "character",
+    "button": "E"
+  },
+  "1036410": {
+    "name": "VF 플라즈마",
+    "type": "character",
+    "button": "E"
+  },
+  "1036500": {
+    "name": "바이탈 크래시",
     "type": "character",
     "button": "R"
   },
