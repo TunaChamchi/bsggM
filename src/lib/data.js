@@ -103,7 +103,7 @@ export const getItemTypeList = (type1, type2) => {
 }
 
 export const getSeason = () => {
-    return 4;
+    return 5;
 }
 export const getSeasonString = () => {
     return getSeason()+"";
