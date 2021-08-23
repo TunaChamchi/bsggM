@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { injectIntl  } from 'react-intl';
-import { getCharacterKeys, getCharacter, getWeaponCode } from 'lib/data'
+import { getCharacterKeys, getCharacter, getWeaponCode, getSeasonString } from 'lib/data'
 
 class Search extends Component {
 	constructor(props) {
@@ -52,9 +52,9 @@ class Search extends Component {
 
         return searchList.map((user, idx) => {
             let maxMmr = 0;
-            if (user['seasonStats'] && user['seasonStats'][1]) {
-                Object.keys(user['seasonStats'][1]).forEach(t => {
-                    maxMmr = Math.max(maxMmr, user['seasonStats'][1][t]['mmr']);
+            if (user['seasonStats'] && user['seasonStats'][getSeasonString()]) {
+                Object.keys(user['seasonStats'][getSeasonString()]).forEach(t => {
+                    maxMmr = Math.max(maxMmr, user['seasonStats'][getSeasonString()][t]['mmr']);
                 })
             }
             let tier = Math.floor(maxMmr/100);
