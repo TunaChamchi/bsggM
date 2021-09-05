@@ -246,7 +246,7 @@
       "attackSpeed": 0.14,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.2,
+      "moveSpeed": 3.15,
       "sightRange": 8,
       "radius": 0.45,
       "pathingRadius": 0.4,
@@ -257,7 +257,7 @@
       "maxHp": 71,
       "maxSp": 16,
       "attackPower": 3.4,
-      "defense": 2.2,
+      "defense": 1.9,
       "criticalChance": 0,
       "hpRegen": 0.04,
       "spRegen": 0.04,
@@ -432,7 +432,7 @@
       "criticalStrikeChance": 0,
       "hpRegen": 0.8,
       "spRegen": 2,
-      "attackSpeed": 0.09,
+      "attackSpeed": 0.07,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
       "moveSpeed": 3.15,
@@ -596,7 +596,7 @@
     "levelUp": {
       "maxHp": 55,
       "maxSp": 22,
-      "attackPower": 2.3,
+      "attackPower": 1.9,
       "defense": 1.5,
       "criticalChance": 0,
       "hpRegen": 0.03,
@@ -1003,8 +1003,8 @@
     "levelUp": {
       "maxHp": 71,
       "maxSp": 22,
-      "attackPower": 2.4,
-      "defense": 2.1,
+      "attackPower": 2.6,
+      "defense": 2.4,
       "criticalChance": 0,
       "hpRegen": 0.04,
       "spRegen": 0.06,
@@ -1349,6 +1349,43 @@
     },
     "weapons": [
       "투척"
+    ]
+  },
+  "37": {
+    "name": "다니엘",
+    "stat": {
+      "maxHp": 670,
+      "maxSp": 410,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 250,
+      "attackPower": 25,
+      "defense": 20,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.6,
+      "spRegen": 2.4,
+      "attackSpeed": 0.05,
+      "attackSpeedLimit": 2.5,
+      "attackSpeedMin": 0,
+      "moveSpeed": 3.1,
+      "sightRange": 8,
+      "radius": 0.4,
+      "pathingRadius": 0.4,
+      "uiHeight": 2.7,
+      "resource": "Daniel"
+    },
+    "levelUp": {
+      "maxHp": 69,
+      "maxSp": 26,
+      "attackPower": 2.4,
+      "defense": 1.8,
+      "criticalChance": 0,
+      "hpRegen": 0.03,
+      "spRegen": 0.1,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "단검"
     ]
   }
 }

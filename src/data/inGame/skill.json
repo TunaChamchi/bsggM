@@ -290,7 +290,12 @@
     "button": "Q"
   },
   "1010210": {
-    "name": "호연각 2,3타",
+    "name": "호연각 2타",
+    "type": "character",
+    "button": "Q"
+  },
+  "1010220": {
+    "name": "호연각 3타",
     "type": "character",
     "button": "Q"
   },
@@ -855,11 +860,16 @@
     "button": "Q"
   },
   "1026210": {
-    "name": "개량형 하이퍼루프",
+    "name": "포탑회수",
     "type": "character",
     "button": "Q"
   },
   "1026220": {
+    "name": "개량형 하이퍼루프",
+    "type": "character",
+    "button": "Q"
+  },
+  "1026230": {
     "name": "터렛 자폭",
     "type": "character",
     "button": "Q"
@@ -1210,37 +1220,72 @@
     "button": "R"
   },
   "1036100": {
-    "name": "키네시스",
+    "name": "텔레키네시스",
     "type": "character",
     "button": "T"
   },
   "1036200": {
-    "name": "라이트 크로스",
+    "name": "빛의 트라이어드",
     "type": "character",
     "button": "Q"
   },
   "1036210": {
-    "name": "라이트 크로스 - 폭파",
+    "name": "빛의 트라이어드 - 폭파",
     "type": "character",
     "button": "Q"
   },
   "1036300": {
-    "name": "라이트 호라이즌",
+    "name": "위상의 소용돌이",
     "type": "character",
     "button": "W"
   },
   "1036400": {
-    "name": "VF 플라즈마",
+    "name": "자수정의 물결",
     "type": "character",
     "button": "E"
   },
   "1036410": {
-    "name": "VF 플라즈마",
+    "name": "자수정의 물결",
     "type": "character",
     "button": "E"
   },
   "1036500": {
-    "name": "바이탈 크래시",
+    "name": "VF 방출",
+    "type": "character",
+    "button": "R"
+  },
+  "1037100": {
+    "name": "고독한예술가",
+    "type": "character",
+    "button": "T"
+  },
+  "1037200": {
+    "name": "희생양",
+    "type": "character",
+    "button": "Q"
+  },
+  "1037300": {
+    "name": "작품 구상",
+    "type": "character",
+    "button": "W"
+  },
+  "1037400": {
+    "name": "그림자 이동",
+    "type": "character",
+    "button": "E"
+  },
+  "1037500": {
+    "name": "작품 활동",
+    "type": "character",
+    "button": "R"
+  },
+  "1037510": {
+    "name": "작품 활동 종료",
+    "type": "character",
+    "button": "R"
+  },
+  "1037520": {
+    "name": "작품 활동 TickDamage",
     "type": "character",
     "button": "R"
   },

@@ -224,7 +224,9 @@
         "윌리엄": "威廉",
         "니키": "妮琪",
         "나타폰": "納塔朋",
-        "얀": "伊娃"
+        "얀": "伊娃",
+        "이바": "伊娃",
+        "다니엘": "丹尼爾"
     },
     "weapons": {
         "투척": "投擲", 
@@ -711,7 +713,11 @@
         "성법의": "神職法衣",
         "창파오": "太使袍",
         "쌍둥이검": "雙匕首",
-        "간장과막야": "陰陽雙刃"
+        "간장과막야": "陰陽雙刃",
+        "마도서": "魔法書",
+        "빛의증표": "聖光冠冕",
+        "데린저": "德林加手槍",
+        "스탬피드": "史坦普特"
 
     },
     "skill": {
@@ -1506,6 +1512,28 @@
             "R": {
                 "name": "VF Eruption",
                 "Detail": "Eva releases her stored VF, dealing 20/30/40 true damage and applying a stack of VF Dissonance every 0.1 seconds to enemies in range. Upon reaching 5 stacks, Eva consumes the stacks, dealing 40/70/100(+Attack Power 30%) damage. \n A minimum of 15 Vital Force is required to use VF Eruption. VF Eruption consumes 4 Vital Force every 0.1 seconds while channeling. \nUsing Amethyst Flow while channeling VF Eruption resets the cooldown of VF Eruption. "
+            }
+        },
+        "다니엘": {
+            "T": {
+                "name": "Recluse",
+                "Detail": "Daniel thrives in the darkness. At night, his vision penalty is reduced by 20/24/28% and his out of combat movement speed is increased by 5/10/15%.\nAntipathy: His attack power is increased by 5/10/15 whenever his health is below 60% (Day or Night)"
+            },
+            "Q": {
+                "name": "Dusk Shears",
+                "Detail": "Daniel manifests ghastly scissors in the targeted location, dealing 50/70/90/110/130(+Attack Power 35%) damage and slowing enemies by 35% for 1.5s seconds. Hitting an enemy increases the attack speed of his next 3 basic attacks by 40/80/120/160/200% for 3 seconds.\nHitting an enemy with the middle of the blades deals 85/105/125/145/165(+Attack Power 50%) damage and reduces Daniel’s cooldown of Dusk Shears and Shadow Glide by 35%."
+            },
+            "W": {
+                "name": "Inspiration",
+                "Detail": "Daniel marks his target with Growing Inspiration for 7 seconds, granting him 2m of vision around his target, and slowing himself by 30% for 2.5 seconds.\nThe Growing Inspiration mark reduces the target’s vision range to 4m until damaged by Daniel and stores 12/14/16/18/20% of Daniel’s damage dealt to the target.\nAfter 7 seconds, Daniel becomes Inspired by his target for up to 4 seconds. Damaging the Inspired target consumes the mark, dealing the stored damage, an additional 20/30/40/50/60(+Attack Power 30%) damage, and roots the target for 1 second. Killing an enemy with the damage from the Inspiration mark resets its cooldown.Daniel becomes uninspired if the target moves 9m away from him."
+            },
+            "E": {
+                "name": "Shadow Glide",
+                "Detail": "Daniel ducks into the shadows and dashes in the targeted direction. His next basic attack within 3 seconds has 2.5m range and teleports him behind his target, dealing 35/55/75/95/115(+Attack Power 25%) damage."
+            },
+            "R": {
+                "name": "Masterpiece",
+                "Detail": "If Daniel’s target is marked with Growing Inspiration, if he is Inspired by them, or if they are Rooted, Daniel can become their shadow for up to 2 seconds, silencing them for 0.5 seconds. While Daniel is shadowing his target, he deals 60/90/120(+Attack Power 35%) cellular damage up to 4 times.\nUpon reaching the max duration or reactivating the skill, Daniel completes his masterpiece and leaves them behind in the targeted direction, dealing 60/120/180(+Attack Power 50%) damage, increasing up to 120/180/360(+Attack Power 100%) based on his target’s missing HP."
             }
         },
 
