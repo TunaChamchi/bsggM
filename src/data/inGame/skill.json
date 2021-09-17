@@ -1099,6 +1099,11 @@
     "type": "character",
     "button": "R"
   },
+  "1031520": {
+    "name": "연사/정사필중 단궁 마무리",
+    "type": "character",
+    "button": "R"
+  },
   "1032100": {
     "name": "캐치 볼",
     "type": "character",
@@ -1289,6 +1294,56 @@
     "type": "character",
     "button": "R"
   },
+  "1038100": {
+    "name": "죽음의 연기",
+    "type": "character",
+    "button": "T"
+  },
+  "1038200": {
+    "name": "스포트라이트(블랙 티)",
+    "type": "character",
+    "button": "Q"
+  },
+  "1038300": {
+    "name": "레드 카펫(블랙 티)",
+    "type": "character",
+    "button": "W"
+  },
+  "1038310": {
+    "name": "레드 카펫 - 회수(블랙 티)",
+    "type": "character",
+    "button": "W"
+  },
+  "1038400": {
+    "name": "페르소나(블랙 티)",
+    "type": "character",
+    "button": "E"
+  },
+  "1038500": {
+    "name": "시상식의 여왕",
+    "type": "character",
+    "button": "R"
+  },
+  "1038600": {
+    "name": "스포트라이트(레드 와인)",
+    "type": "character",
+    "button": "Q"
+  },
+  "1038700": {
+    "name": "레드 카펫(레드 와인)",
+    "type": "character",
+    "button": "W"
+  },
+  "1038710": {
+    "name": "레드 카펫 - 회수(레드 와인)",
+    "type": "character",
+    "button": "W"
+  },
+  "1038800": {
+    "name": "페르소나(레드 와인)",
+    "type": "character",
+    "button": "E"
+  },
   "3001000": {
     "name": "글러브 - 어퍼컷",
     "type": "weapon"
@@ -1391,6 +1446,22 @@
   },
   "3023000": {
     "name": "카메라 - 플래시",
+    "type": "weapon"
+  },
+  "3024000": {
+    "name": "아르카나 - 활성화",
+    "type": "weapon"
+  },
+  "3024100": {
+    "name": "아르카나 - 발사1",
+    "type": "weapon"
+  },
+  "3024110": {
+    "name": "아르카나 - 발사1",
+    "type": "weapon"
+  },
+  "3024120": {
+    "name": "아르카나 - 발사1",
     "type": "weapon"
   }
 }

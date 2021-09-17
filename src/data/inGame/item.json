@@ -30,7 +30,6 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 4,
-    "moveSpeed": 0.05,
     "moveSpeedOutOfCombat": 0.1,
     "src": []
   },
@@ -43,7 +42,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 14,
-    "moveSpeed": 0.08,
+    "moveSpeed": 0.06,
     "moveSpeedOutOfCombat": 0.2,
     "src": [
       101104,
@@ -62,6 +61,20 @@
     "src": [
       101102,
       113101
+    ]
+  },
+  "101203": {
+    "name": "자마다르",
+    "itemType": "Weapon",
+    "weaponType": "단검",
+    "itemGrade": "고급",
+    "markingType": "None",
+    "stackable": 1,
+    "initialCount": 1,
+    "attackPower": 15,
+    "src": [
+      101104,
+      110101
     ]
   },
   "101301": {
@@ -96,6 +109,21 @@
       101101
     ]
   },
+  "101303": {
+    "name": "카라페이스카타르",
+    "itemType": "Weapon",
+    "weaponType": "단검",
+    "itemGrade": "희귀",
+    "markingType": "None",
+    "stackable": 1,
+    "initialCount": 1,
+    "attackPower": 20,
+    "defense": 12,
+    "src": [
+      101203,
+      401104
+    ]
+  },
   "101401": {
     "name": "카른웬난",
     "itemType": "Weapon",
@@ -109,7 +137,7 @@
     "cooldownReduction": 0.08,
     "moveSpeed": 0.08,
     "moveSpeedOutOfCombat": 0.1,
-    "increaseBasicAttackDamage": 26,
+    "increaseBasicAttackDamageByLv": 2,
     "src": [
       101301,
       205202
@@ -163,6 +191,21 @@
     "src": [
       101302,
       502201
+    ]
+  },
+  "101407": {
+    "name": "마하라자",
+    "itemType": "Weapon",
+    "weaponType": "단검",
+    "itemGrade": "영웅",
+    "markingType": "None",
+    "stackable": 1,
+    "initialCount": 1,
+    "attackPower": 42,
+    "defense": 18,
+    "src": [
+      101303,
+      205312
     ]
   },
   "101405": {
@@ -320,8 +363,8 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 60,
-    "maxHp": 360,
-    "hpRegenRatio": 1.25,
+    "maxHp": 305,
+    "hpRegenRatio": 1,
     "attackSpeedRatio": 0.15,
     "src": [
       102404,
@@ -365,7 +408,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 50,
+    "attackPower": 53,
     "attackPowerByLv": 2,
     "normalLifeSteal": 0.22,
     "src": [
@@ -1019,7 +1062,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 130,
+    "attackPower": 135,
     "attackSpeedRatioByLv": 0.01,
     "src": [
       107301,
@@ -1083,7 +1126,7 @@
     "initialCount": 1,
     "attackPower": 118,
     "maxHp": 220,
-    "maxHpByLv": 10,
+    "maxHpByLv": 8,
     "moveSpeed": -0.05,
     "src": [
       107303,
@@ -1619,7 +1662,7 @@
     "initialCount": 1,
     "attackPower": 56,
     "maxHp": 260,
-    "moveSpeed": 0.1,
+    "moveSpeed": 0.08,
     "src": [
       110302,
       401217
@@ -1666,11 +1709,11 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 55,
+    "attackPower": 57,
     "defense": 15,
     "hpRegen": 1.2,
     "spRegen": 1.2,
-    "attackSpeedRatio": 0.35,
+    "attackSpeedRatio": 0.4,
     "src": [
       110401,
       401202
@@ -1835,8 +1878,8 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 70,
-    "defense": 20,
-    "moveSpeed": 0.2,
+    "defense": 8,
+    "moveSpeed": 0.1,
     "src": [
       111201,
       502401
@@ -2110,8 +2153,8 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 18,
-    "increaseSkillDamageByLv": 3,
+    "attackPower": 22,
+    "increaseSkillDamageByLv": 2.5,
     "src": [
       112205,
       502403
@@ -2208,7 +2251,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 30,
-    "increaseSkillDamage": 10,
+    "increaseSkillDamage": 5,
     "src": [
       113203,
       113104
@@ -2376,7 +2419,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 60,
-    "increaseSkillDamage": 10,
+    "increaseSkillDamage": 5,
     "increaseSkillDamageByLv": 1,
     "increaseSkillDamageRatio": 0.15,
     "src": [
@@ -2394,7 +2437,7 @@
     "initialCount": 1,
     "attackPower": 63,
     "spRegen": 1,
-    "cooldownReduction": 0.1,
+    "cooldownReduction": 0.15,
     "increaseSkillDamage": 15,
     "src": [
       113207,
@@ -2424,7 +2467,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 22,
+    "attackPower": 33,
     "cooldownReduction": 0.05,
     "increaseSkillDamage": 33,
     "src": [
@@ -2502,7 +2545,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 73,
+    "attackPower": 78,
     "increaseBasicAttackDamage": 130,
     "increaseSkillDamage": 28,
     "src": [
@@ -2630,7 +2673,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 60,
-    "increaseBasicAttackDamage": 16,
+    "increaseBasicAttackDamage": 13,
     "increaseBasicAttackDamageByLv": 2,
     "src": [
       114302,
@@ -2758,7 +2801,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 92,
-    "maxHp": 275,
+    "maxHp": 335,
     "maxSP": 200,
     "sightRange": 2,
     "increaseSkillDamageRatio": 0.15,
@@ -3269,7 +3312,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 51,
-    "attackSpeedRatio": 0.25,
+    "attackSpeedRatio": 0.2,
     "sightRange": 1.5,
     "increaseBasicAttackDamage": 16,
     "src": [
@@ -3334,7 +3377,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 34,
+    "attackPower": 30,
     "src": []
   },
   "118201": {
@@ -3345,7 +3388,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 50,
+    "attackPower": 40,
     "sightRange": 1.5,
     "src": [
       118101,
@@ -3407,9 +3450,9 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 98,
+    "attackPower": 94,
     "attackPowerByLv": 2,
-    "normalLifeSteal": 0.18,
+    "normalLifeSteal": 0.14,
     "sightRange": 2,
     "src": [
       118301,
@@ -3701,7 +3744,7 @@
     "criticalStrikeChance": 0.12,
     "criticalStrikeDamage": 0.25,
     "cooldownReduction": 0.06,
-    "normalLifeSteal": 0.08,
+    "normalLifeSteal": 0.11,
     "sightRange": 1.5,
     "src": [
       120301,
@@ -3736,7 +3779,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 47,
+    "attackPower": 50,
     "attackSpeedRatio": 0.5,
     "criticalStrikeChance": 0.1,
     "criticalStrikeDamage": 0.15,
@@ -4158,7 +4201,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 50,
+    "attackPower": 55,
     "cooldownReduction": 0.15,
     "sightRange": 5,
     "src": [
@@ -4191,7 +4234,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 66,
+    "attackPower": 72,
     "sightRange": 1.5,
     "increaseBasicAttackDamage": 45,
     "src": [
@@ -4244,7 +4287,7 @@
     "initialCount": 1,
     "defense": 10,
     "maxSp": 130,
-    "moveSpeed": 0.08,
+    "moveSpeed": 0.06,
     "src": [
       201101,
       205101
@@ -4566,7 +4609,7 @@
     "stackable": 1,
     "initialCount": 1,
     "maxHp": 250,
-    "spRegenRatio": 0.65,
+    "spRegenRatio": 0.5,
     "preventSkillDamaged": 12,
     "src": [
       201302,
@@ -4860,9 +4903,9 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "defense": 38,
+    "defense": 30,
     "maxHp": 100,
-    "moveSpeed": -0.1,
+    "moveSpeed": -0.05,
     "src": [
       202106,
       401201
@@ -4893,7 +4936,7 @@
     "stackable": 1,
     "initialCount": 1,
     "maxHp": 280,
-    "hpRegen": 1.5,
+    "hpRegen": 0.9,
     "increaseSkillDamage": 10,
     "src": [
       202211,
@@ -4924,7 +4967,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "defense": 18,
+    "defense": 20,
     "maxHp": 360,
     "src": [
       202201,
@@ -5122,10 +5165,10 @@
     "stackable": 1,
     "initialCount": 1,
     "defense": 25,
-    "maxHp": 250,
+    "maxHp": 235,
     "hpRegen": 1,
     "cooldownReduction": 0.08,
-    "preventBasicAttackDamaged": 10,
+    "preventBasicAttackDamaged": 8,
     "src": [
       202401,
       202206
@@ -5287,7 +5330,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "hpRegen": 1.2,
+    "hpRegen": 0.6,
     "criticalStrikeDamage": 0.15,
     "src": [
       203102,
@@ -5383,6 +5426,21 @@
       502201
     ]
   },
+  "203305": {
+    "name": "바브드와이어",
+    "itemType": "Armor",
+    "armorType": "팔",
+    "itemGrade": "희귀",
+    "markingType": "None",
+    "stackable": 1,
+    "initialCount": 1,
+    "attackPower": 10,
+    "cooldownReduction": 0.07,
+    "src": [
+      205102,
+      401216
+    ]
+  },
   "203401": {
     "name": "강철방패",
     "itemType": "Armor",
@@ -5473,7 +5531,7 @@
     "initialCount": 1,
     "attackPower": 22,
     "defense": 25,
-    "hpRegen": 1.2,
+    "hpRegen": 0.8,
     "criticalStrikeDamage": 0.25,
     "src": [
       203401,
@@ -5590,6 +5648,21 @@
     "src": [
       203204,
       401304
+    ]
+  },
+  "203414": {
+    "name": "스마트밴드",
+    "itemType": "Armor",
+    "armorType": "팔",
+    "itemGrade": "영웅",
+    "markingType": "None",
+    "stackable": 1,
+    "initialCount": 1,
+    "attackPower": 25,
+    "cooldownReduction": 0.1,
+    "src": [
+      203305,
+      401212
     ]
   },
   "203501": {
@@ -6010,7 +6083,7 @@
     "initialCount": 1,
     "defense": 15,
     "cooldownReduction": 0.08,
-    "moveSpeed": 0.3,
+    "moveSpeed": 0.27,
     "src": [
       204201,
       401303
@@ -6059,8 +6132,8 @@
     "initialCount": 1,
     "attackPower": 25,
     "spRegen": 1,
-    "normalLifeSteal": 0.15,
-    "moveSpeed": 0.35,
+    "normalLifeSteal": 0.18,
+    "moveSpeed": 0.37,
     "src": [
       204203,
       401401
@@ -6107,7 +6180,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "increaseSkillDamage": 9,
+    "increaseSkillDamage": 6,
     "src": []
   },
   "205106": {
@@ -6292,7 +6365,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "increaseSkillDamage": 12,
+    "increaseSkillDamage": 10,
     "src": [
       205105,
       401101
@@ -6491,10 +6564,10 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "hpRegenRatio": 1.5,
+    "hpRegenRatio": 1,
     "cooldownReduction": 0.1,
     "increaseBasicAttackDamage": 12,
-    "increaseSkillDamageRatio": 0.1,
+    "increaseSkillDamageRatio": 0.13,
     "src": [
       205207,
       205202
@@ -6508,7 +6581,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 12,
+    "attackPower": 16,
     "normalLifeSteal": 0.12,
     "src": [
       205209,
@@ -6555,6 +6628,22 @@
     "initialCount": 1,
     "src": [
       401218,
+      205203
+    ]
+  },
+  "205312": {
+    "name": "아이테르의깃털",
+    "itemType": "Armor",
+    "armorType": "장식",
+    "itemGrade": "희귀",
+    "markingType": "None",
+    "stackable": 1,
+    "initialCount": 1,
+    "criticalStrikeChance": 0.15,
+    "cooldownReduction": 0.08,
+    "moveSpeed": 0.06,
+    "src": [
+      205101,
       205203
     ]
   },
@@ -7046,6 +7135,19 @@
     "src": [
       112101,
       401107
+    ]
+  },
+  "401216": {
+    "name": "철사",
+    "itemType": "Misc",
+    "miscItemType": "Material",
+    "itemGrade": "고급",
+    "markingType": "None",
+    "stackable": 3,
+    "initialCount": 1,
+    "src": [
+      502104,
+      104101
     ]
   },
   "401218": {
@@ -7846,7 +7948,7 @@
     "itemGrade": "고급",
     "markingType": "None",
     "stackable": 5,
-    "initialCount": 2,
+    "initialCount": 3,
     "spRecover": 530,
     "src": [
       302104,
@@ -8226,18 +8328,6 @@
     "hpRecover": 275,
     "src": []
   },
-  "301120": {
-    "name": "카레가루",
-    "itemType": "Consume",
-    "consumableType": "음식",
-    "consumableTag": "None",
-    "itemGrade": "일반",
-    "markingType": "None",
-    "stackable": 5,
-    "initialCount": 1,
-    "hpRecover": 200,
-    "src": []
-  },
   "301201": {
     "name": "꿀바른대구살",
     "itemType": "Consume",
@@ -8389,21 +8479,6 @@
       205102
     ]
   },
-  "301222": {
-    "name": "탄두리",
-    "itemType": "Consume",
-    "consumableType": "음식",
-    "consumableTag": "None",
-    "itemGrade": "고급",
-    "markingType": "None",
-    "stackable": 5,
-    "initialCount": 1,
-    "hpRecover": 600,
-    "src": [
-      301120,
-      301111
-    ]
-  },
   "301224": {
     "name": "마늘베이컨말이",
     "itemType": "Consume",
@@ -8446,21 +8521,6 @@
     "hpRecover": 600,
     "src": [
       301111,
-      301110
-    ]
-  },
-  "301227": {
-    "name": "감자빵",
-    "itemType": "Consume",
-    "consumableType": "음식",
-    "consumableTag": "None",
-    "itemGrade": "고급",
-    "markingType": "None",
-    "stackable": 5,
-    "initialCount": 2,
-    "hpRecover": 380,
-    "src": [
-      301102,
       301110
     ]
   },
@@ -8509,21 +8569,6 @@
       301110
     ]
   },
-  "301231": {
-    "name": "레몬아이스크림",
-    "itemType": "Consume",
-    "consumableType": "음식",
-    "consumableTag": "None",
-    "itemGrade": "고급",
-    "markingType": "None",
-    "stackable": 5,
-    "initialCount": 3,
-    "hpRecover": 500,
-    "src": [
-      301105,
-      301112
-    ]
-  },
   "301232": {
     "name": "마늘꿀절임",
     "itemType": "Consume",
@@ -8554,36 +8599,6 @@
       301110
     ]
   },
-  "301235": {
-    "name": "이스터에그",
-    "itemType": "Consume",
-    "consumableType": "음식",
-    "consumableTag": "Chocolate",
-    "itemGrade": "고급",
-    "markingType": "None",
-    "stackable": 5,
-    "initialCount": 1,
-    "hpRecover": 600,
-    "src": [
-      301112,
-      301119
-    ]
-  },
-  "301236": {
-    "name": "위스키봉봉",
-    "itemType": "Consume",
-    "consumableType": "음식",
-    "consumableTag": "Chocolate,Alcohol",
-    "itemGrade": "고급",
-    "markingType": "None",
-    "stackable": 5,
-    "initialCount": 3,
-    "hpRecover": 480,
-    "src": [
-      302104,
-      301119
-    ]
-  },
   "301237": {
     "name": "초코아이스크림",
     "itemType": "Consume",
@@ -8597,21 +8612,6 @@
     "src": [
       302103,
       301119
-    ]
-  },
-  "301238": {
-    "name": "카레빵",
-    "itemType": "Consume",
-    "consumableType": "음식",
-    "consumableTag": "None",
-    "itemGrade": "고급",
-    "markingType": "None",
-    "stackable": 5,
-    "initialCount": 2,
-    "hpRecover": 450,
-    "src": [
-      301120,
-      301110
     ]
   },
   "301301": {
@@ -8764,21 +8764,6 @@
       205107
     ]
   },
-  "301313": {
-    "name": "카레",
-    "itemType": "Consume",
-    "consumableType": "음식",
-    "consumableTag": "None",
-    "itemGrade": "희귀",
-    "markingType": "None",
-    "stackable": 5,
-    "initialCount": 3,
-    "hpRecover": 550,
-    "src": [
-      301120,
-      302201
-    ]
-  },
   "301314": {
     "name": "탕약",
     "itemType": "Consume",
@@ -8867,21 +8852,6 @@
     "src": [
       301206,
       301110
-    ]
-  },
-  "301322": {
-    "name": "카레고로케",
-    "itemType": "Consume",
-    "consumableType": "음식",
-    "consumableTag": "None",
-    "itemGrade": "희귀",
-    "markingType": "None",
-    "stackable": 5,
-    "initialCount": 2,
-    "hpRecover": 600,
-    "src": [
-      301120,
-      401203
     ]
   },
   "301323": {

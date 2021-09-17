@@ -226,7 +226,8 @@
         "나타폰": "纳塔朋",
         "얀": "伊娃",
         "이바": "伊娃",
-        "다니엘": "丹尼尔"
+        "다니엘": "丹尼尔",
+        "제니": "珍妮"
     },
     "weapons": {
         "투척": "投掷", 
@@ -717,7 +718,13 @@
         "마도서": "魔法书",
         "빛의증표": "圣光冠冕",
         "데린저": "德林加手枪",
-        "스탬피드": "史坦普特"
+        "스탬피드": "史坦普特",
+        "자마다르": "拳刃",
+        "카라페이스카타르": "印度拳刃",
+        "마하라자": "摩诃罗阇",
+        "바브드블로섬": "荆棘手环",
+        "스마트밴드": "智能手环",
+        "아이테르깃털": "埃忒耳之羽毛"
 
     },
     "skill": {
@@ -1534,6 +1541,28 @@
             "R": {
                 "name": "Masterpiece",
                 "Detail": "If Daniel’s target is marked with Growing Inspiration, if he is Inspired by them, or if they are Rooted, Daniel can become their shadow for up to 2 seconds, silencing them for 0.5 seconds. While Daniel is shadowing his target, he deals 60/90/120(+Attack Power 35%) cellular damage up to 4 times.\nUpon reaching the max duration or reactivating the skill, Daniel completes his masterpiece and leaves them behind in the targeted direction, dealing 60/120/180(+Attack Power 50%) damage, increasing up to 120/180/360(+Attack Power 100%) based on his target’s missing HP."
+            }
+        },
+        "제니": {
+            "T": {
+                "name": "Play Dead",
+                "Detail": "Rehearsal: Basic attacks grant Jenny 5 Rehearsal and reduce the cooldown of Persona by 1s.\n Jenny gains additional effects when she takes on a new role using Persona (E).\nRed Wine: Increases her attack speed by 20% for 4 seconds.\n Black Tea: Increases her movement speed by 8/10/12% for 3 seconds.\nPlay Dead: If Jenny has 50 or more Rehearsal when her HP drops to 0, she feigns death, slowing her, but making her invisible, invincible, and untargetable. Jenny then ends her act, healing for 100 + (10/25/40% of Max HP) based on Rehearsal, and deals 20/50/80 + (4% of enemy’s missing HP) skill damage to enemies around her. Jenny loses 7 Rehearsal per second when out of combat."
+            },
+            "Q": {
+                "name": "Spotlight",
+                "Detail": "Jenny shines a spotlight in the targeted location 3 times, dealing 20/30/40/50/60(+Attack Power 20%) damage.\nHitting an enemy grants Jenny 10 Rehearsal. When Jenny has 50 or more Rehearsal, she gains enhanced effects based on her active role when the spotlight shines on her.\n Red Wine: Increases her attack speed by 12/14/16/18/20% for 4 seconds. (Max 3 Stacks)\n Black Tea: Increases her movement speed by 2/3/4/5/6% for 3 seconds. (Max 3 Stacks)"
+            },
+            "W": {
+                "name": "Red Carpet",
+                "Detail": "Jenny rolls out the red carpet in the targeted direction, dealing 50/85/120/155/190 + (Attack Power 25%) damage and slowing enemies by 30% for 1 second.\nReactivate Red Carpet to deal 50/85/120/155/190(+Attack Power 25%) damage to all enemies on the carpet. The Red Carpet has additional effects based on her active role.\nRed Wine: Pulls in enemies standing on the carpet.\nBlack Tea: Pushes away enemies standing on the carpet."
+            },
+            "E": {
+                "name": "Persona",
+                "Detail": "Passive : Jenny deals 10/20/30/40/50 (+Skill Amplification * 1.5) extra skill damage every 4 basic attacks or after activating Persona.\nActive : Jenny dashes in the targeted direction and takes on a new role.\nEffects for existing Spotlights and Red Carpets are unaffected."
+            },
+            "R": {
+                "name": "Acceptance Speech",
+                "Detail": "Jenny creates an award stage around her, slowing enemies by 40/50/60% and resetting the cooldown of Persona.\nThe stage implodes after 2 seconds, dealing 100/200/300(+Attack Power 20 25%) damage and charming enemies inside for 1 seconds."
             }
         },
 

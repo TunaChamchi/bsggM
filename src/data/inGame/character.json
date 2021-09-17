@@ -93,7 +93,7 @@
       "attackSpeed": 0.22,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.25,
+      "moveSpeed": 3.2,
       "sightRange": 8,
       "radius": 0.4,
       "pathingRadius": 0.4,
@@ -101,7 +101,7 @@
       "resource": "Fiora"
     },
     "levelUp": {
-      "maxHp": 81,
+      "maxHp": 78,
       "maxSp": 13,
       "attackPower": 3.7,
       "defense": 2.2,
@@ -356,7 +356,7 @@
       "criticalStrikeChance": 0,
       "hpRegen": 1.1,
       "spRegen": 0.2,
-      "attackSpeed": 0.07,
+      "attackSpeed": 0.1,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
       "moveSpeed": 3.2,
@@ -405,10 +405,10 @@
       "resource": "Yuki"
     },
     "levelUp": {
-      "maxHp": 75,
+      "maxHp": 71,
       "maxSp": 20,
       "attackPower": 2.9,
-      "defense": 2.3,
+      "defense": 1.9,
       "criticalChance": 0,
       "hpRegen": 0.05,
       "spRegen": 0.06,
@@ -779,10 +779,10 @@
       "resource": "Rozzi"
     },
     "levelUp": {
-      "maxHp": 60,
+      "maxHp": 58,
       "maxSp": 22,
       "attackPower": 2.6,
-      "defense": 1.9,
+      "defense": 1.6,
       "criticalChance": 0,
       "hpRegen": 0.02,
       "spRegen": 0.03,
@@ -919,7 +919,7 @@
       "attackSpeed": 0.16,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
-      "moveSpeed": 3.25,
+      "moveSpeed": 3.2,
       "sightRange": 9,
       "radius": 0.45,
       "pathingRadius": 0.4,
@@ -1228,7 +1228,7 @@
     "levelUp": {
       "maxHp": 64,
       "maxSp": 26,
-      "attackPower": 2.4,
+      "attackPower": 2.7,
       "defense": 1.8,
       "criticalChance": 0,
       "hpRegen": 0.06,
@@ -1243,7 +1243,7 @@
   "34": {
     "name": "나타폰",
     "stat": {
-      "maxHp": 620,
+      "maxHp": 645,
       "maxSp": 400,
       "initExtraPoint": 0,
       "maxExtraPoint": 0,
@@ -1263,7 +1263,7 @@
       "resource": "Nathapon"
     },
     "levelUp": {
-      "maxHp": 61,
+      "maxHp": 63,
       "maxSp": 26,
       "attackPower": 2.6,
       "defense": 2.1,
@@ -1363,7 +1363,7 @@
       "criticalStrikeChance": 0,
       "hpRegen": 0.6,
       "spRegen": 2.4,
-      "attackSpeed": 0.05,
+      "attackSpeed": 0.07,
       "attackSpeedLimit": 2.5,
       "attackSpeedMin": 0,
       "moveSpeed": 3.1,
@@ -1386,6 +1386,43 @@
     },
     "weapons": [
       "단검"
+    ]
+  },
+  "38": {
+    "name": "제니",
+    "stat": {
+      "maxHp": 665,
+      "maxSp": 440,
+      "initExtraPoint": 0,
+      "maxExtraPoint": 100,
+      "attackPower": 22,
+      "defense": 25,
+      "criticalStrikeChance": 0,
+      "hpRegen": 0.5,
+      "spRegen": 2.3,
+      "attackSpeed": 0.07,
+      "attackSpeedLimit": 2.5,
+      "attackSpeedMin": 0,
+      "moveSpeed": 3.05,
+      "sightRange": 8,
+      "radius": 0.4,
+      "pathingRadius": 0.4,
+      "uiHeight": 2.6,
+      "resource": "Jenny"
+    },
+    "levelUp": {
+      "maxHp": 52,
+      "maxSp": 25,
+      "attackPower": 3.3,
+      "defense": 1.6,
+      "criticalChance": 0,
+      "hpRegen": 0.04,
+      "spRegen": 0.07,
+      "attackSpeed": 0,
+      "moveSpeed": 0
+    },
+    "weapons": [
+      "권총"
     ]
   }
 }
