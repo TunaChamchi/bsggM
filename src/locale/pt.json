@@ -227,7 +227,8 @@
         "얀": "Jan",
         "이바": "Eva",
         "다니엘": "Daniel",
-        "제니": "Jenny"
+        "제니": "Jenny",
+        "카밀로": "Camilo"
     },
     "weapons": {
         "투척": "Arremessãble", 
@@ -726,7 +727,10 @@
         "마하라자": "Maharaja",
         "바브드블로섬": "Barbed Blossom",
         "스마트밴드": "Smart Band",
-        "아이테르깃털": "Aether Fringe"
+        "아이테르깃털": "Aether Fringe",
+        "조잡한쌍검": "Wrought Swords",
+        "아수라": "Asura",
+        "다이아뎀": "Diadem"
 
     },
     "skill": {
@@ -1567,6 +1571,29 @@
                 "Detail": "Jenny creates an award stage around her, slowing enemies by 40/50/60% and resetting the cooldown of Persona.\nThe stage implodes after 2 seconds, dealing 100/200/300(+Attack Power 20 25%) damage and charming enemies inside for 1 seconds."
             }
         },
+        "카밀로": {
+            "T": {
+                "name": "Olé",
+                "Detail": "Damaging an enemy reduces their SP by 20/30/40(+Attack Power 15%, grants Camilo a shield absorbing 50/100/150(+Attack Power 35%) damage, and increases his attack speed by 10/20/30% for 3 seconds. Chaining alternating basic attacks and skills reduces the cooldown of Olé! and Cierre by 2 seconds."
+            },
+            "Q": {
+                "name": "Vuelta",
+                "Detail": "Camilo sweeps the area in front of him with his swords, dealing 30/60/90/120/150(+Attack Power 100%) basic attack damage.\n Hitting an enemy with the outer range grants Camilo 1 stack of Paso for 6 seconds, increasing his movement speed by 3/6/9/12/15% for 2 seconds.Upon reaching 2 stacks, Camilo can u-se Enhanced Vuelta, causing him to spin twice, dealing 30/60/90/120/150(+Attack Power 100%) and 40/80/120/160/200(+Attack Power 125%) basic attack damage around him, pulling nearby enemies inward, and healing himself for 40/80/120/160/200(+Attack Power 50%).\n Vuelta only gains cooldown reduction based on Camilo's extra attack speed. (Max 3.5 seconds)\nWhen using Vuelta during Al Compás's initial dash, Camilo damages enemies in a circle around him and gains Paso effects from hitting enemies with the edge."
+            },
+            "W": {
+                "name": "Cierre",
+                "Detail": "Camilo elegantly dashes forward with his swords, dealing 10/20/30/40/50(+Attack Power 35%) basic attack damage up to 4 times."
+            },
+            "E": {
+                "name": "Al Compas",
+                "Detail": "Camilo quickly steps to his target, dealing 30/45/60/75/90(+Attack Power 20%) skill damage applying One Step for 5s.\nCamilo can recast Al Compás to a target marked with One Step, dashing to the target again, dealing 30/45/60/75/90(+ Attack Power 20%) skill damage, knocking them back, and applying Two Step for 8/7/6/5/4s seconds while gracefully stepping away.\nCamilo can not use Al Compás on a target with Two Step."
+            },
+            "R": {
+                "name": "Duende ",
+                "Detail": "Camilo twirls forward and returns to his starting point after 0.23  seconds, applying up to 2 stacks of Embeleso to enemies hit.\nAfter returning, Camilo deals 100/150/200(+ Attack Power 50%) ~ 200/300/400(+ Attack Power 100%) skill damage to enemies with Embeleso based on how many stacks they have, and his movement speed is increased by 80% for 0.85 seconds.\nEnemies with 2 stacks of Embeleso are stunned for 1.5 seconds upon returning and Camilo heals for 100/150/200 increasing up to 20/35/50% based on the total number of Embeleso stacks enemies have. (Max 5)\n Camilo can use Duende again twice within 10 seconds before it goes on cooldown.\nCamilo is Unstoppable and his damage taken is reduced by 20/25/30% while twirling."
+            }
+        },
+
 
         
         "단검": {

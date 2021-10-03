@@ -201,7 +201,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 42,
+    "attackPower": 46,
     "defense": 18,
     "src": [
       101303,
@@ -456,7 +456,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 94,
+    "attackPower": 100,
     "normalLifeSteal": 0.25,
     "src": [
       401401,
@@ -467,14 +467,28 @@
     "name": "쌍칼",
     "itemType": "Weapon",
     "weaponType": "쌍검",
+    "itemGrade": "일반",
+    "markingType": "None",
+    "stackable": 1,
+    "initialCount": 1,
+    "attackPower": 8,
+    "src": [
+      101104,
+      102101
+    ]
+  },
+  "103202": {
+    "name": "조잡한쌍검",
+    "itemType": "Weapon",
+    "weaponType": "쌍검",
     "itemGrade": "고급",
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 12,
     "src": [
-      101104,
-      102101
+      101101,
+      105102
     ]
   },
   "103302": {
@@ -516,10 +530,10 @@
     "initialCount": 1,
     "attackPower": 49,
     "attackSpeedRatio": 0.12,
-    "normalLifeSteal": 0.2,
+    "normalLifeSteal": 0.24,
     "src": [
       103301,
-      401101
+      502201
     ]
   },
   "103402": {
@@ -538,6 +552,23 @@
       401301
     ]
   },
+  "103403": {
+    "name": "아수라",
+    "itemType": "Weapon",
+    "weaponType": "쌍검",
+    "itemGrade": "영웅",
+    "markingType": "None",
+    "stackable": 1,
+    "initialCount": 1,
+    "attackPower": 48,
+    "cooldownReduction": 0.12,
+    "lifeSteal": 0.08,
+    "increaseSkillDamageRatioByLv": 0.01,
+    "src": [
+      103301,
+      205207
+    ]
+  },
   "103501": {
     "name": "디오스쿠로이",
     "itemType": "Weapon",
@@ -546,10 +577,10 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 48,
-    "attackSpeedRatio": 0.48,
+    "attackPower": 55,
+    "attackSpeedRatio": 0.55,
     "src": [
-      103201,
+      103202,
       401306
     ]
   },
@@ -561,7 +592,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 40,
+    "attackPower": 45,
     "increaseSkillDamageByLv": 2.5,
     "src": [
       103302,
@@ -870,7 +901,7 @@
     "initialCount": 1,
     "attackPower": 105,
     "maxHp": 320,
-    "uniqueAttackRange": 0.5,
+    "uniqueAttackRange": 0.75,
     "src": [
       105302,
       401217
@@ -1046,9 +1077,9 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 108,
+    "attackPower": 110,
     "attackSpeedRatio": 0.4,
-    "moveSpeed": 0.08,
+    "moveSpeed": 0.1,
     "src": [
       107401,
       401306
@@ -1286,7 +1317,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 62,
+    "attackPower": 65,
     "spRegen": 0.8,
     "increaseSkillDamage": 25,
     "src": [
@@ -1743,7 +1774,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 92,
+    "attackPower": 88,
     "moveSpeed": 0.15,
     "src": [
       502401,
@@ -2005,7 +2036,7 @@
     "initialCount": 1,
     "attackPower": 63,
     "attackSpeedRatio": 0.6,
-    "cooldownReduction": 0.08,
+    "cooldownReduction": 0.1,
     "src": [
       112203,
       112303
@@ -2168,7 +2199,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 102,
+    "attackPower": 105,
     "attackSpeedRatio": 0.33,
     "src": [
       112303,
@@ -2435,10 +2466,11 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 63,
+    "attackPower": 65,
     "spRegen": 1,
     "cooldownReduction": 0.15,
     "increaseSkillDamage": 15,
+    "uniqueCooldownLimit": 0.05,
     "src": [
       113207,
       401111
@@ -2467,9 +2499,9 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 33,
+    "attackPower": 35,
     "cooldownReduction": 0.05,
-    "increaseSkillDamage": 33,
+    "increaseSkillDamage": 35,
     "src": [
       113302,
       401302
@@ -2485,7 +2517,7 @@
     "initialCount": 1,
     "attackPower": 88,
     "criticalStrikeDamage": 0.15,
-    "moveSpeed": 0.15,
+    "moveSpeed": 0.1,
     "uniqueAttackRange": 0.5,
     "src": [
       113404,
@@ -2978,7 +3010,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 128,
-    "sightRange": 1.5,
+    "sightRange": 2.5,
     "src": [
       401403,
       115202
@@ -3312,7 +3344,7 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 51,
-    "attackSpeedRatio": 0.2,
+    "attackSpeedRatio": 0.25,
     "sightRange": 1.5,
     "increaseBasicAttackDamage": 16,
     "src": [
@@ -3362,8 +3394,9 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 135,
+    "attackPower": 120,
     "sightRange": 1.5,
+    "penetrationDefenseRatio": 0.12,
     "src": [
       117201,
       401403
@@ -3633,7 +3666,7 @@
     "attackPower": 48,
     "attackPowerByLv": 2,
     "moveSpeed": 0.1,
-    "uniqueAttackRange": 0.5,
+    "uniqueAttackRange": 0.75,
     "src": [
       119301,
       204202
@@ -3647,8 +3680,8 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 100,
-    "lifeSteal": 0.18,
+    "attackPower": 110,
+    "lifeSteal": 0.25,
     "src": [
       119302,
       401401
@@ -3990,9 +4023,9 @@
     "stackable": 1,
     "initialCount": 1,
     "attackPower": 50,
-    "maxHp": 305,
-    "attackSpeedRatio": 0.2,
-    "criticalStrikeChance": 0.18,
+    "maxHp": 265,
+    "attackSpeedRatio": 0.3,
+    "criticalStrikeChance": 0.22,
     "increaseBasicAttackDamage": 2,
     "src": [
       121301,
@@ -4044,10 +4077,10 @@
     "attackPower": 30,
     "attackSpeedRatio": 0.4,
     "normalLifeSteal": 0.24,
-    "increaseBasicAttackDamage": 15,
+    "increaseBasicAttackDamage": 20,
     "src": [
       121304,
-      112101
+      113104
     ]
   },
   "121405": {
@@ -4490,9 +4523,9 @@
     "stackable": 1,
     "initialCount": 1,
     "defense": 15,
-    "maxHp": 120,
+    "maxHp": 165,
     "attackSpeedRatio": 0.25,
-    "cooldownReduction": 0.12,
+    "cooldownReduction": 0.08,
     "src": [
       201301,
       401211
@@ -4506,11 +4539,11 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "defense": 27,
+    "defense": 20,
     "maxSp": 200,
     "cooldownReduction": 0.08,
     "moveSpeed": 0.08,
-    "preventSkillDamagedRatio": 0.11,
+    "preventSkillDamagedRatio": 0.13,
     "src": [
       201402,
       401105
@@ -4528,7 +4561,7 @@
     "defense": 20,
     "maxSp": 580,
     "spRegen": 2,
-    "increaseBasicAttackDamage": 17,
+    "increaseBasicAttackDamage": 19,
     "src": [
       205403,
       201202
@@ -4614,6 +4647,24 @@
     "src": [
       201302,
       502202
+    ]
+  },
+  "201414": {
+    "name": "다이아뎀",
+    "itemType": "Armor",
+    "armorType": "머리",
+    "itemGrade": "영웅",
+    "markingType": "None",
+    "stackable": 1,
+    "initialCount": 1,
+    "attackPower": 15,
+    "defense": 15,
+    "maxSp": 270,
+    "cooldownReduction": 0.15,
+    "increaseBasicAttackDamage": 11,
+    "src": [
+      201202,
+      203305
     ]
   },
   "201501": {
@@ -5148,7 +5199,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 20,
+    "attackPower": 16,
     "defense": 30,
     "spRegenRatio": 1,
     "src": [
@@ -5427,7 +5478,7 @@
     ]
   },
   "203305": {
-    "name": "바브드와이어",
+    "name": "바브드블로섬",
     "itemType": "Armor",
     "armorType": "팔",
     "itemGrade": "희귀",
@@ -5660,6 +5711,7 @@
     "initialCount": 1,
     "attackPower": 25,
     "cooldownReduction": 0.1,
+    "normalLifeSteal": 0.04,
     "src": [
       203305,
       401212
@@ -5879,11 +5931,11 @@
     "name": "등산화",
     "itemType": "Armor",
     "armorType": "다리",
-    "itemGrade": "희귀",
+    "itemGrade": "고급",
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "moveSpeed": 0.25,
+    "moveSpeed": 0.28,
     "src": [
       204205,
       112101
@@ -6028,7 +6080,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "defense": 27,
+    "defense": 24,
     "hpRegen": 1,
     "spRegen": 0.5,
     "moveSpeed": 0.3,
@@ -6535,7 +6587,7 @@
     "initialCount": 1,
     "attackPower": 16,
     "sightRange": 2.5,
-    "uniqueAttackRange": 0.65,
+    "uniqueAttackRange": 0.75,
     "src": [
       205213,
       205206
@@ -6550,7 +6602,7 @@
     "stackable": 1,
     "initialCount": 1,
     "maxHp": 360,
-    "increaseSkillDamage": 7,
+    "increaseSkillDamage": 8,
     "src": [
       205107,
       401302
@@ -6632,14 +6684,14 @@
     ]
   },
   "205312": {
-    "name": "아이테르의깃털",
+    "name": "아이테르깃털",
     "itemType": "Armor",
     "armorType": "장식",
     "itemGrade": "희귀",
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "criticalStrikeChance": 0.15,
+    "criticalStrikeChance": 0.18,
     "cooldownReduction": 0.08,
     "moveSpeed": 0.06,
     "src": [
@@ -6721,7 +6773,7 @@
     "markingType": "None",
     "stackable": 1,
     "initialCount": 1,
-    "attackPower": 18,
+    "attackPower": 24,
     "defense": 18,
     "criticalStrikeChance": 0.15,
     "cooldownReduction": 0.15,
@@ -8337,7 +8389,7 @@
     "markingType": "None",
     "stackable": 5,
     "initialCount": 2,
-    "hpRecover": 650,
+    "hpRecover": 625,
     "src": [
       301104,
       302101

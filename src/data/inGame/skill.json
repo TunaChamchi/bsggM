@@ -1299,6 +1299,11 @@
     "type": "character",
     "button": "T"
   },
+  "1038110": {
+    "name": "죽음의 연기 - 진행 중",
+    "type": "character",
+    "button": "T"
+  },
   "1038200": {
     "name": "스포트라이트(블랙 티)",
     "type": "character",
@@ -1343,6 +1348,51 @@
     "name": "페르소나(레드 와인)",
     "type": "character",
     "button": "E"
+  },
+  "1039100": {
+    "name": "올레 (Ole)",
+    "type": "character",
+    "button": "T"
+  },
+  "1039200": {
+    "name": "브엘따(Vuelta)",
+    "type": "character",
+    "button": "Q"
+  },
+  "1039210": {
+    "name": "브엘따 - 강화",
+    "type": "character",
+    "button": "Q"
+  },
+  "1039220": {
+    "name": "브엘따 - 회전 (연계)",
+    "type": "character",
+    "button": "Q"
+  },
+  "1039300": {
+    "name": "씨에레(Cierre)",
+    "type": "character",
+    "button": "W"
+  },
+  "1039400": {
+    "name": "알 콤빠스 (Al Compas)",
+    "type": "character",
+    "button": "E"
+  },
+  "1039500": {
+    "name": "두엔데_1 (Duende)",
+    "type": "character",
+    "button": "R"
+  },
+  "1039510": {
+    "name": "두엔데_2 (Duende)",
+    "type": "character",
+    "button": "R"
+  },
+  "1039520": {
+    "name": "두엔데_3 (Duende)",
+    "type": "character",
+    "button": "R"
   },
   "3001000": {
     "name": "글러브 - 어퍼컷",
