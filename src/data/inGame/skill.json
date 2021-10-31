@@ -475,17 +475,17 @@
     "button": "R"
   },
   "1015600": {
-    "name": "윌슨 패시브",
+    "name": "삶은 고통이에요",
     "type": "character",
     "button": "Q"
   },
   "1015700": {
-    "name": "윌슨 Q",
+    "name": "윌슨! 도와줘",
     "type": "character",
     "button": "W"
   },
   "1015900": {
-    "name": "윌슨 E",
+    "name": "나랑 놀자",
     "type": "character",
     "button": "R"
   },
@@ -1030,7 +1030,7 @@
     "button": "R"
   },
   "1030100": {
-    "name": "먹어볼까요",
+    "name": "힘내자고!",
     "type": "character",
     "button": "T"
   },
@@ -1040,17 +1040,17 @@
     "button": "Q"
   },
   "1030300": {
-    "name": "먹고 싶지?!",
+    "name": "자~ 집중!",
     "type": "character",
     "button": "W"
   },
   "1030400": {
-    "name": "버거 점프",
+    "name": "나 불렀어?",
     "type": "character",
     "button": "E"
   },
   "1030500": {
-    "name": "활력",
+    "name": "다 덤벼보라구!",
     "type": "character",
     "button": "R"
   },
@@ -1290,7 +1290,7 @@
     "button": "R"
   },
   "1037520": {
-    "name": "작품 활동 TickDamage",
+    "name": "작품 활동 밖으로 이동",
     "type": "character",
     "button": "R"
   },
@@ -1391,6 +1391,61 @@
   },
   "1039520": {
     "name": "두엔데_3 (Duende)",
+    "type": "character",
+    "button": "R"
+  },
+  "1040100": {
+    "name": "마리오네트(클)",
+    "type": "character",
+    "button": "T"
+  },
+  "1040150": {
+    "name": "마리오네트(니)",
+    "type": "character",
+    "button": "T"
+  },
+  "1040200": {
+    "name": "명령(클)",
+    "type": "character",
+    "button": "Q"
+  },
+  "1040250": {
+    "name": "명령(니)",
+    "type": "character",
+    "button": "Q"
+  },
+  "1040300": {
+    "name": "인형극(클) - 돌리기",
+    "type": "character",
+    "button": "W"
+  },
+  "1040310": {
+    "name": "인형극(클) - 던지기",
+    "type": "character",
+    "button": "W"
+  },
+  "1040350": {
+    "name": "인형극(니)",
+    "type": "character",
+    "button": "W"
+  },
+  "1040400": {
+    "name": "직물절단(클)",
+    "type": "character",
+    "button": "E"
+  },
+  "1040410": {
+    "name": "직물절단(클)",
+    "type": "character",
+    "button": "E"
+  },
+  "1040450": {
+    "name": "직물절단(니)",
+    "type": "character",
+    "button": "E"
+  },
+  "1040500": {
+    "name": "생명 공유",
     "type": "character",
     "button": "R"
   },

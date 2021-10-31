@@ -228,7 +228,8 @@
         "이바": "伊娃",
         "다니엘": "丹尼爾",
         "제니": "珍妮",
-        "카밀로": "卡米洛"
+        "카밀로": "卡米洛",
+        "클로에": "克洛伊"
     },
     "weapons": {
         "투척": "投擲", 
@@ -728,7 +729,10 @@
         "아이테르깃털": "埃忒耳之羽毛",
         "조잡한쌍검": "粗劣的雙劍",
         "아수라": "阿修羅",
-        "다이아뎀": "寶石頭冠"
+        "다이아뎀": "寶石頭冠",
+        "프로스트팽": "凍土傳說",
+        "에스프리": "埃斯普里",
+        "버건디47": "酒紅色西裝"
 
     },
     "skill": {
@@ -1589,6 +1593,28 @@
             "R": {
                 "name": "Duende ",
                 "Detail": "Camilo twirls forward and returns to his starting point after 0.23  seconds, applying up to 2 stacks of Embeleso to enemies hit.\nAfter returning, Camilo deals 100/150/200(+ Attack Power 50%) ~ 200/300/400(+ Attack Power 100%) skill damage to enemies with Embeleso based on how many stacks they have, and his movement speed is increased by 80% for 0.85 seconds.\nEnemies with 2 stacks of Embeleso are stunned for 1.5 seconds upon returning and Camilo heals for 100/150/200 increasing up to 20/35/50% based on the total number of Embeleso stacks enemies have. (Max 5)\n Camilo can use Duende again twice within 10 seconds before it goes on cooldown.\nCamilo is Unstoppable and his damage taken is reduced by 20/25/30% while twirling."
+            }
+        },
+        "클로에": {
+            "T": {
+                "name": "Living Marionette",
+                "Detail": "Chloe is always accompanied by her doll, Nina. Hitting an enemy by 3 or more of Chloe’s basic attacks causes Nina's next attack to deal 25/50/75 extra skill damage to the target.\nChloe can move Nina and target enemies with Alt + Right Click. Targeting Chloe will cause Nina to follow Chloe until a new target is set. If Chloe and Nina is too far away, Nina will warp to Chloe’s location.\nIf Nina dies, she consumes 50% of Chloe's remaining HP to revive after 24/22/20 seconds with 80% of her own Max HP.\nNina gains extra stats based on the level of Living Marionette and she also gains 66%(⅔) of Chloe’s Attack Power, Defense, HP, Critical Strike Chance, Extra Skill Damage, and Skill Amplification."
+            },
+            "Q": {
+                "name": "Nina on Command",
+                "Detail": "Following Chloe's command, Nina attacks with her bladed legs, dealing 90/100/110/120/130(+Attack Power 60%) skill damage and slowing enemies by 20/25/30/35/40% for 2 seconds."
+            },
+            "W": {
+                "name": "Puppet Theatre",
+                "Detail": "Chloe twirls her bladed threads around her, dealing 30/36/42/48/54 true damage per second to enemies and slowing them by 50%. Chloe can cast Nina on Command and Seam Ripper while twirling her threads.\nRecast the skill within 3 seconds to throw the threads in the targeted location, dealing 80/90/100/110/120(+Attack Power 30%) damage to enemies and blocking movement skills for 1.5 seconds. After impact, Nina teleports to the location, dealing 120/135/150/165/180(+Attack Power 30%) damage to enemies and knocking them airborne for 0.5 seconds. After Nina teleports, the threads can be picked up, increasing Chloe’s movement speed by 30% for 2 seconds."
+            },
+            "E": {
+                "name": "Seam Ripper",
+                "Detail": "Chloe slides to the targeted direction, dealing 60/70/80/90/100(+Attack Power 30%) damage to enemies in her path. Recast the skill after 1 second to cause Nina to slide towards Chloe's location, dealing 100/110/120/130/140(+Attack Power 45%) damage to enemies in her path. Hitting an enemy resets the cooldown of Nina on Command."
+            },
+            "R": {
+                "name": "Soul Link",
+                "Detail": "Chloe and Nina link their souls together for 7 seconds. Upon linking, all debuffs and crowd control effects are cleansed and Nina’s Attack Speed and Movement Speed is increased by 20/25/30%, and the cooldown of Puppet Theatre and Seam Ripper are reduced by 30%. The Soul Link chain deals 75/105/135 true damage (Increases the longer enemies remain in the link) to enemies touching it.\nIf Chloe or Nina are damaged while linked, they take 70% of the damage and the linked partner takes 65/60/55% of the damage. While Soul Linked, Chloe and Nina cannot die unless they are both simultaneously fully depleted of health."
             }
         },
 
