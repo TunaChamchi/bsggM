@@ -1,4 +1,4 @@
-# server npm start http://15.164.233.67:3000/
+# server npm start
 
 ec2-user
 
